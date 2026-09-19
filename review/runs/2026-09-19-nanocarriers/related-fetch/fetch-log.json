@@ -1,0 +1,164 @@
+[
+  {
+    "citekey": "Torres2025_020245",
+    "doi": "10.3390/pharmaceutics17020245",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/17/2/245/pdf?version=1739437511",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11858840/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics17020245",
+      "https://doi.org/10.3390/pharmaceutics17020245"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Alrbyawi2024_070966",
+    "doi": "10.3390/pharmaceutics16070966",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/16/7/966/pdf?version=1721629797",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11280302/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics16070966",
+      "https://doi.org/10.3390/pharmaceutics16070966"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Cheng2025_06021",
+    "doi": "10.1186/s40164-025-00602-1",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-19-nanocarriers-found/Cheng2025_06021.pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s40164-025-00602-1.pdf?error=cookies_not_supported&code=4e4871e8-665f-442a-9d62-4e06c6279207",
+    "attempted": [
+      "https://ehoonline.biomedcentral.com/counter/pdf/10.1186/s40164-025-00602-1",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11786384/pdf/",
+      "https://doi.org/10.1186/s40164-025-00602-1",
+      "https://link.springer.com/content/pdf/10.1186%2Fs40164-025-00602-1.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s40164-025-00602-1.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s40164-025-00602-1.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s40164-025-00602-1.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s40164-025-00602-1.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s40164-025-00602-1.pdf"
+    ],
+    "bytes": 3834097
+  },
+  {
+    "citekey": "Pasarin2023_030782",
+    "doi": "10.3390/polym15030782",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2073-4360/15/3/782/pdf?version=1678440619",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10004256/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/polym15030782",
+      "https://doi.org/10.3390/polym15030782"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ferreira2021_072047",
+    "doi": "10.3390/molecules26072047",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/1420-3049/26/7/2047/pdf?version=1617940017",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8038399/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/molecules26072047",
+      "https://doi.org/10.3390/molecules26072047"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rustad2022_061125",
+    "doi": "10.3390/pharmaceutics14061125",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/14/6/1125/pdf?version=1653557865",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9227832/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics14061125",
+      "https://doi.org/10.3390/pharmaceutics14061125"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Duong2025_40029",
+    "doi": "10.1089/jamp.2024.0029",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.liebertpub.com/doi/pdf/10.1089/jamp.2024.0029?download=true",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11839532/pdf/",
+      "https://doi.org/10.1089/jamp.2024.0029"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Azimzadeh2025_00056",
+    "doi": "10.1038/s41598-025-00005-6",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-19-nanocarriers-found/Azimzadeh2025_00056.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41598-025-00005-6.pdf?error=cookies_not_supported&code=6038d7a4-26bb-4c9e-9289-37c30b58587d",
+    "attempted": [
+      "https://www.nature.com/articles/s41598-025-00005-6.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12041517/pdf/",
+      "https://www.nature.com/articles/s41598-025-00005-6",
+      "https://doi.org/10.1038/s41598-025-00005-6"
+    ],
+    "bytes": 4345253
+  },
+  {
+    "citekey": "Dove2023_064095",
+    "doi": "10.3389/fmicb.2022.1064095",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-19-nanocarriers-found/Dove2023_064095.pdf",
+    "http_calls": 5,
+    "source_url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.1064095/pdf",
+    "attempted": [
+      "https://doi.org/10.3389/fmicb.2022.1064095",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9927651/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fmicb.2022.1064095/pdf"
+    ],
+    "bytes": 5483181
+  },
+  {
+    "citekey": "Veriato2023_04913",
+    "doi": "10.1007/s43440-023-00491-3",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-19-nanocarriers-found/Veriato2023_04913.pdf",
+    "http_calls": 6,
+    "source_url": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Breakpoint_tables/v_5.0_Breakpoint_Table_01.pdf",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s43440-023-00491-3.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10176295/pdf/",
+      "https://doi.org/10.1007/s43440-023-00491-3"
+    ],
+    "bytes": 2515482
+  }
+]

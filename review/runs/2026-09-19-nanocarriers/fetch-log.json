@@ -1,0 +1,125 @@
+[
+  {
+    "citekey": "Lutta2025_pectin",
+    "doi": "10.1007/s13346-025-01812-0",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-19-nanocarriers/Lutta2025_pectin.pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s13346-025-01812-0.pdf?error=cookies_not_supported&code=3d04dcc0-9e8a-407e-b1af-9bf5d1348cb7",
+    "attempted": [
+      "https://doi.org/10.1007/s13346-025-01812-0",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12350439/pdf/"
+    ],
+    "bytes": 1255923
+  },
+  {
+    "citekey": "Muenraya2022_colistin",
+    "doi": "10.3390/molecules27185780",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/1420-3049/27/18/5780/pdf?version=1662543156",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9505607/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/molecules27185780",
+      "https://doi.org/10.3390/molecules27185780"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Heidarli2017_srliposomes",
+    "doi": "10.22037/ijpr.2017.2127",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-19-nanocarriers/Heidarli2017_srliposomes.pdf",
+    "http_calls": 5,
+    "source_url": "https://brieflands.com/journals/ijpr/articles/125056.pdf",
+    "attempted": [
+      "https://doi.org/10.22037/ijpr.2017.2127"
+    ],
+    "bytes": 374449
+  },
+  {
+    "citekey": "Valkova2025_vancomycin",
+    "doi": "10.1039/d5tb01231g",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 4,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1039/d5tb01231g"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rahman2021_pegmd",
+    "doi": "10.1021/acs.molpharmaceut.1c00122",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1021/acs.molpharmaceut.1c00122",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8289284/pdf/"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Felding2026_aini",
+    "doi": "10.1007/s13346-026-02147-0",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-19-nanocarriers/Felding2026_aini.pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s13346-026-02147-0.pdf?error=cookies_not_supported&code=207f67cd-0cb5-40d1-a962-c28d1261e36c",
+    "attempted": [
+      "https://doi.org/10.1007/s13346-026-02147-0",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13538200/pdf/"
+    ],
+    "bytes": 1442826
+  },
+  {
+    "citekey": "Chauhan2020_sertraline",
+    "doi": "10.1016/j.jddst.2020.101780",
+    "ok": false,
+    "error": "exception:AttributeError",
+    "path": null,
+    "http_calls": 0,
+    "source_url": null,
+    "attempted": [],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lee2017_srdd",
+    "doi": "10.1002/wnan.1450",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/5557698",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5557698/pdf/",
+      "https://doi.org/10.1002/wnan.1450"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Andresen2026_polymersomes",
+    "doi": "10.1002/smll.74703",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 4,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1002/smll.74703"
+    ],
+    "bytes": 0
+  }
+]
