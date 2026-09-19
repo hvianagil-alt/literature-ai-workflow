@@ -19,6 +19,8 @@ Look at what's in `papers/` (recursively, ignoring non-paper files). Tell the us
 
 If `papers/` is empty, say so and point them to `papers/README.md` instead of proceeding.
 
+If the user starts from a **Scopus/PubMed `.bib` export** rather than PDFs, do not skip intake: count the records, then use the `bib-import` skill into `review/runs/<run-id>/`. PDF retrieval is a separate, explicit step (`oa-fetch`) — only public open-access files, with failures logged. Document identification/screening with the `prisma-logging` skill.
+
 ### 2. Direction check (mandatory, do not skip)
 
 Before extracting anything in depth, confirm with the user:
@@ -68,6 +70,9 @@ Literature reviews are rarely one-shot. After delivering the report, ask if they
 | Building the comparison table | `literature-table` | `.cursor/skills/literature-table/SKILL.md` |
 | Writing the synthesis report | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
 | Suggesting related papers (optional) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
+| Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
+| Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |
+| PRISMA counts + phase/token log | `prisma-logging` | `.cursor/skills/prisma-logging/SKILL.md` |
 
 ## Worked examples
 

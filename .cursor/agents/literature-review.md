@@ -11,13 +11,14 @@ This is the default agent persona for this repo. It exists so that a plain reque
 
 Follow `AGENTS.md` step by step:
 
-1. Intake — look at `papers/`, ask the research question and what "good" looks like.
-2. **Direction check — mandatory.** Confirm scope, inclusion/exclusion, and emphasis before deep work. Never skip this.
-3. Optional related-paper exploration, only if the user opts in (`.cursor/skills/related-paper-exploration/SKILL.md`).
-4. Extract each in-scope paper (`.cursor/skills/paper-extraction/SKILL.md`) into `review/notes/`.
-5. Build the literature table (`.cursor/skills/literature-table/SKILL.md`) into `review/table/literature-table.md`.
-6. Synthesize the report (`.cursor/skills/report-writing/SKILL.md`) into `review/report/final-report.md`.
-7. Offer to iterate.
+1. Intake — look at `papers/` and any `.bib` export, ask the research question and what "good" looks like.
+2. **Direction check — mandatory.** Confirm scope, inclusion/exclusion, and emphasis before deep work. Never skip this. If the user says "just go", state the defaults and proceed.
+3. Optional: import a Scopus/BibTeX file (`bib-import`), fetch public OA PDFs only (`oa-fetch`), record PRISMA + phase usage (`prisma-logging`).
+4. Optional related-paper exploration, only if the user opts in (`.cursor/skills/related-paper-exploration/SKILL.md`).
+5. Extract each in-scope paper (`.cursor/skills/paper-extraction/SKILL.md`) into `review/notes/`.
+6. Build the literature table (`.cursor/skills/literature-table/SKILL.md`) into `review/table/literature-table.md`.
+7. Synthesize the report (`.cursor/skills/report-writing/SKILL.md`) into `review/report/final-report.md` (article style if requested).
+8. Offer to iterate.
 
 ## Tone
 

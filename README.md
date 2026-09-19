@@ -81,10 +81,15 @@ Either way, nothing in this workflow requires you to sign up for or pay for an e
 ├── review/                      # <- outputs land here when you run the workflow
 │   ├── notes/
 │   ├── table/
-│   └── report/
+│   ├── report/
+│   └── runs/                    # methods trail (PRISMA, fetch log, token estimates)
 ├── examples/                    # worked example table + report (fictional papers)
 └── scripts/
-    └── list_papers.py           # optional: list papers/, stub an empty table
+    ├── list_papers.py           # optional: list papers/, stub an empty table
+    ├── import_bib.py            # optional: parse a Scopus/BibTeX export
+    ├── fetch_oa_pdfs.py         # optional: download public OA PDFs
+    ├── write_prisma.py          # optional: PRISMA 2020 counts from run logs
+    └── phase_log.py             # optional: per-phase usage / token estimates
 ```
 
 ## Optional helper script
@@ -98,9 +103,19 @@ python3 scripts/list_papers.py --stub-table
 
 This is entirely optional — the AI workflow doesn't require you to run any code. It's just a shortcut if you'd rather glance at a terminal than ask the chat "what's in my papers folder?"
 
+If you start from a Scopus export instead of PDFs:
+
+```bash
+python3 scripts/import_bib.py path/to/scopus.bib --run-dir review/runs/my-review
+python3 scripts/fetch_oa_pdfs.py --run-dir review/runs/my-review --out-dir papers/my-review --email you@example.com
+python3 scripts/write_prisma.py --run-dir review/runs/my-review
+```
+
+`fetch_oa_pdfs.py` only keeps files that are actually public PDFs. It will not log into publishers or use pirate sites. Failures are written to `fetch-log.json`.
+
 ## How it works (for the curious)
 
-Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has four:
+Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has seven:
 
 | Skill | What it does |
 |---|---|
@@ -108,6 +123,9 @@ Cursor supports **skills**: small instruction files that tell the AI exactly how
 | [`literature-table`](.cursor/skills/literature-table/SKILL.md) | Turns notes into a comparable table |
 | [`report-writing`](.cursor/skills/report-writing/SKILL.md) | Synthesizes the table into a full report |
 | [`related-paper-exploration`](.cursor/skills/related-paper-exploration/SKILL.md) | Suggests related papers/searches, with an explicit no-fake-citations rule |
+| [`bib-import`](.cursor/skills/bib-import/SKILL.md) | Parses a Scopus/BibTeX export into a screening catalog |
+| [`oa-fetch`](.cursor/skills/oa-fetch/SKILL.md) | Retrieves public open-access PDFs for those DOIs |
+| [`prisma-logging`](.cursor/skills/prisma-logging/SKILL.md) | PRISMA 2020 counts and per-phase usage / token estimates |
 
 [`AGENTS.md`](AGENTS.md) ties these together into the step-by-step workflow, and [`.cursor/agents/literature-review.md`](.cursor/agents/literature-review.md) is the short persona that makes "review my papers" trigger this workflow instead of generic chat.
 

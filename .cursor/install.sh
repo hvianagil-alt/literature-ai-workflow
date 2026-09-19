@@ -34,6 +34,7 @@ fi
 
 # Smoke the optional helper (no papers expected on a fresh clone).
 python3 scripts/list_papers.py
+python3 -m unittest discover -s tests -q
 
 # Confirm skill/agent layout is present (workflow surface).
 test -f AGENTS.md
@@ -42,6 +43,9 @@ test -f .cursor/skills/paper-extraction/SKILL.md
 test -f .cursor/skills/literature-table/SKILL.md
 test -f .cursor/skills/report-writing/SKILL.md
 test -f .cursor/skills/related-paper-exploration/SKILL.md
+test -f .cursor/skills/bib-import/SKILL.md
+test -f .cursor/skills/oa-fetch/SKILL.md
+test -f .cursor/skills/prisma-logging/SKILL.md
 test -f examples/literature-table.md
 test -f examples/sample-report.md
 test -d papers
