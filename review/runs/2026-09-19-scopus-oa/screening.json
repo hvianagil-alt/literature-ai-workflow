@@ -1,0 +1,35 @@
+{
+  "duplicates_removed": 0,
+  "additional_records": 0,
+  "n_screened": 10,
+  "sought_for_retrieval": ["Boye2026", "Zhang2026", "Khater2026", "Jeong2026", "Barrett2026", "Chen2026", "Huang2026", "Wu2026", "Guo2026"],
+  "n_fulltext_assessed": 8,
+  "title_excluded": [
+    {
+      "citekey": "Li2026",
+      "reason": "Title/full text is yeast plasmid copy-number engineering; no GLP-1 RA, stem-cell/exosome product, or drug-delivery intervention in metabolic disease."
+    }
+  ],
+  "fulltext_excluded": [
+    {
+      "citekey": "Barrett2026",
+      "reason": "NHS Digital Weight Management Programme mixed-methods evaluation; GLP-1 drugs appear only in discussion/references, not as the study intervention."
+    }
+  ],
+  "not_retrieved": [
+    {
+      "citekey": "Huang2026",
+      "reason": "Scopus-tagged gold OA (IJPX / Elsevier); Unpaywall and OpenAlex list OA but url_for_pdf is null; ScienceDirect/PMC PDF requests returned 403 or HTML, so no public PDF body was obtained."
+    }
+  ],
+  "included": [
+    "Boye2026",
+    "Zhang2026",
+    "Khater2026",
+    "Jeong2026",
+    "Chen2026",
+    "Wu2026",
+    "Guo2026"
+  ],
+  "notes": "Li2026 was excluded at title (confirmed on full text, which was retrieved). Huang2026 was sought but not retrieved. Barrett2026 was assessed in full text and excluded. Guo2026 was kept after full text because the paper reports semaglutide/GLP-1–related angiogenesis experiments, which the title alone did not make obvious."
+}
