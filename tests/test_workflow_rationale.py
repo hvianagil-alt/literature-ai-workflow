@@ -43,6 +43,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("article-qa", text)
         self.assertIn("In-article results tables", text)
         self.assertIn("Full term (ABBR)", text)
+        self.assertIn("at most four", text)
         self.assertEqual(text.count("## Output"), 1)
         self.assertNotIn("glycaemia, safety, utilisation", text)
         self.assertNotIn("hepatic GLP-1", text)
@@ -72,6 +73,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("colon subtitle", text.lower())
         self.assertIn("Abbreviations", text)
         self.assertIn("T2D", text)
+        self.assertIn("first-time", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -128,6 +130,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Table 1", text)
         self.assertIn("no citations", text.lower())
         self.assertIn("Full term (ABBR)", text)
+        self.assertIn("glossary", text.lower())
 
     def test_double_check_skill_exists(self):
         text = (ROOT / ".cursor/skills/double-check/SKILL.md").read_text(
@@ -137,6 +140,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("article-pass1.md", text)
         self.assertIn("double-check.md", text)
         self.assertIn("Abbreviations", text)
+        self.assertIn("glossary", text.lower())
         self.assertIn(".cursor/skills/double-check/SKILL.md", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
         self.assertTrue((ROOT / "scripts" / "table_from_notes.py").is_file())
 
@@ -249,6 +253,9 @@ class FullScopusRunArticleTests(unittest.TestCase):
         self.assertNotIn("MEDI7219", abstract)
         self.assertNotIn("54,972", abstract)
         self.assertIn("incretin", abstract.lower())
+        self.assertNotIn("(TIR)", abstract)
+        self.assertNotIn("(AID)", abstract)
+        self.assertNotIn("(T2D)", abstract)
 
     def test_pass2_has_in_article_tables_and_claim_ready_worksheet(self):
         text = (self.run_dir / "article.md").read_text(encoding="utf-8")

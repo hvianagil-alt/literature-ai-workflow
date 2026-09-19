@@ -163,3 +163,35 @@ class CheckArticleTests(unittest.TestCase):
             ),
             "glucose-dependent insulinotropic polypeptide",
         )
+
+    def test_abstract_unused_sigla_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        bloated = text.replace(
+            "Recall of technical prose is imperfect after a delay of days.",
+            "Recall of type 2 diabetes (T2D) is imperfect after a delay of days.",
+            1,
+        )
+        problems = check_article.check(bloated, None, short=True)
+        self.assertTrue(
+            any("never uses" in p.lower() or "t2d" in p.lower() for p in problems),
+            problems,
+        )
+
+    def test_abstract_too_many_sigla_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        bloated = text.replace(
+            "Recall of technical prose is imperfect after a delay of days.",
+            "Type 2 diabetes (T2D), polymerase chain reaction (PCR), "
+            "automated insulin delivery (AID), continuous glucose monitoring (CGM), "
+            "and randomized controlled trial (RCT) are imperfect after a delay of days. "
+            "T2D, PCR, AID, CGM, and RCT remain unsettled.",
+            1,
+        )
+        problems = check_article.check(bloated, None, short=True)
+        self.assertTrue(
+            any(
+                "first-time" in p.lower() or "max 4" in p.lower() or "abbreviation" in p.lower()
+                for p in problems
+            ),
+            problems,
+        )

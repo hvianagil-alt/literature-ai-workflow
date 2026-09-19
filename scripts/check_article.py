@@ -13,6 +13,7 @@ Fails when the body has no Markdown pipe table or no in-text "Table N" callout.
 Fails when the Abstract contains a numbered citation ([n]) or "et al."
 Fails when ``--table`` still looks like a ``write_table.py`` DRAFT (lead paste).
 Fails when a defined abbreviation is still followed by many leftover expanded forms.
+Fails when the Abstract defines more than four abbreviations, or defines one it never uses again.
 """
 
 from __future__ import annotations
@@ -213,6 +214,36 @@ def leftover_expanded_terms(body: str) -> list[str]:
     return problems
 
 
+ABSTRACT_ABBR_MAX = 4
+
+
+def abstract_sigla_problems(abstract: str) -> list[str]:
+    """A first-time reader should not need a glossary to finish the Abstract."""
+    problems: list[str] = []
+    defined: list[tuple[str, int]] = []
+    for m in ABBR_PAREN.finditer(abstract):
+        abbr = m.group(1).strip()
+        full = expansion_for_abbr(abstract[: m.start()].rstrip(), abbr)
+        if not full:
+            continue
+        defined.append((abbr, m.end()))
+    if len(defined) > ABSTRACT_ABBR_MAX:
+        problems.append(
+            f"Abstract defines {len(defined)} abbreviations; "
+            f"a first-time reader cannot hold that many (max {ABSTRACT_ABBR_MAX}; "
+            "see review-prose, Abbreviations)"
+        )
+    for abbr, end in defined:
+        after = abstract[end:]
+        n = len(re.findall(rf"\b{re.escape(abbr)}s?\b", after))
+        if n == 0:
+            problems.append(
+                f"Abstract defines {abbr} but never uses it again; "
+                "write the term out in the Abstract (see review-prose)"
+            )
+    return problems
+
+
 def papers_from_table(table_md: str) -> list[tuple[str, str]]:
     papers: list[tuple[str, str]] = []
     for line in table_md.splitlines():
@@ -304,6 +335,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
         problems.append("Abstract contains a citation ([n]); narrative abstracts do not cite")
     if re.search(r"\bet al\.", abstract, re.I):
         problems.append("Abstract names a paper (et al.)")
+    problems.extend(abstract_sigla_problems(abstract))
     problems.extend(leftover_expanded_terms(body))
     return problems
 

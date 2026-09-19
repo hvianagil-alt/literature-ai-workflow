@@ -126,13 +126,17 @@ After a draft, grep the article for the banned flourish list and cut hits that a
 
 If a term will appear often, write it out **once**, then use the abbreviation. Pattern: `type 2 diabetes (T2D)`, then `T2D`. The same rule in any field: `polymerase chain reaction (PCR)`; `forced expiratory volume in one second (FEV1)`.
 
+The short form is a **label for a term the reader already understands**. It is not a way to compress the paper. A first-time reader who is expert in an adjacent field, not this one, must still follow the Abstract and Introduction without a glossary.
+
 - **When.** Any multi-word term (or a long technical noun) used about five times or more in the body. Also any term already abbreviated in the included papers, if you use it more than once.
-- **Where.** First use in the Abstract if the Abstract itself repeats the term; first use in the body independently (the Abstract is standalone). Headings and the title may stay expanded. References keep the original titles.
+- **How to introduce it.** Put `Full term (ABBR)` on the sentence that **teaches what the thing is**, not as a parenthetical inside a results dump. Wrong: “weekly SC agonism during AID found higher TIR.” Right: “Automated insulin delivery (AID) combines a glucose sensor, a pump, and an algorithm.” Then `AID` is fair.
+- **Where.** First use in the Abstract **only if the Abstract itself reuses the short form**. First use in the body independently (the Abstract is standalone). Headings and the title may stay expanded. References keep the original titles.
+- **Abstract.** Write the words. At most **four** abbreviations in the whole Abstract, and each one must appear again as the short form in the Abstract. Topic names that the Abstract repeats (`GLP-1`, `GIP`) may be shortened; `time in range`, `subcutaneous`, `bioavailability`, and `pharmacokinetics` usually stay written out there even if the body later shortens them.
 - **Which abbreviation.** Use the conventional one the papers use (`T2D`, `RCT`, `PK`). Do not invent a cute code. Do not abbreviate a drug or product name (`semaglutide`, `MEDI7219`).
 - **Plural.** `GLP-1 receptor agonists (GLP-1 RAs)`, then `GLP-1 RAs`. Do not write the expansion again in later Results or Discussion sentences.
-- **Do not.** Flood the Abstract with unused abbreviations. Do not define an abbreviation you never use again.
+- **Do not.** Stack three new `(ABBR)` definitions in one sentence. Do not define an abbreviation you never use again. Do not write a sentence that is only codes (`GLP-1 RA TIR`); keep one ordinary English noun (`time in range on a GLP-1 RA`). If the teaching sentence still needs the idea, keep enough English that the short form is optional, not the only way in.
 
-`check_article.py` fails if, after `Full term (ABBR)`, the expanded form still crowds the prose.
+`check_article.py` fails if, after `Full term (ABBR)`, the expanded form still crowds the prose. It also fails if the Abstract defines more than four abbreviations, or defines one it never uses again.
 
 ## Sentence construction (this is the article)
 

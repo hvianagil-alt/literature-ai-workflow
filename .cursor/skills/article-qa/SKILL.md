@@ -32,7 +32,7 @@ python3 scripts/check_article.py \
 
 Use `--short` **only** if the user asked for a short note. A full journal manuscript must pass the ~6,000-word body floor.
 
-If this fails: rewrite using `review-prose` (phenomenon-first Introduction; claim-first sentences; topic headings; no process talk; numbered Markdown results tables with in-text “Table 1” callouts; Abstract is a topic map with **no citations and no named papers**; repeated terms are `Full term (ABBR)` once, then the abbreviation) and run the script again. Repeat until exit 0. The script fails if, after `type 2 diabetes (T2D)`, the long form still crowds the prose.
+If this fails: rewrite using `review-prose` (phenomenon-first Introduction; claim-first sentences; topic headings; no process talk; numbered Markdown results tables with in-text “Table 1” callouts; Abstract is a topic map with **no citations and no named papers**; repeated terms are `Full term (ABBR)` once, then the abbreviation, without turning the Abstract into a glossary) and run the script again. Repeat until exit 0. The script fails if, after `type 2 diabetes (T2D)`, the long form still crowds the prose, or if the Abstract defines unused or too many abbreviations.
 
 ## Hard rules
 

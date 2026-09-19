@@ -36,7 +36,7 @@ No `[n]`. No *et al.*. No MEDI7219. Topic map with one unnamed hinge (AID time-i
 
 ## Abbreviations
 
-Repeated terms are now `Full term (ABBR)` at first use, then the short form: T2D, T1D, GLP-1 RA, AID, TIR, CGM, SC, BA, PK, GI, MSC, EV. The Abstract defines the terms it repeats; the body defines them again at first use (the Abstract is standalone). Headings, keywords, and reference titles stay expanded. Pass 1 spelled those phrases out every time.
+Repeated terms are `Full term (ABBR)` at first use in a teaching sentence, then the short form. The Abstract now keeps GLP-1 and GIP (which it reuses) and writes the rest in words so a first-time reader does not need a glossary. The body still shortens T2D, T1D, GLP-1 RA, AID, TIR, CGM, SC, BA, PK, GI, MSC, EV after those teaching sentences. Headings, keywords, and reference titles stay expanded.
 
 ## Tables in article
 
