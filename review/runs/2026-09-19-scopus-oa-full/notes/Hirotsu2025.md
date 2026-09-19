@@ -3,25 +3,34 @@
 - **Citation (as given in the paper / filename):** Hirotsu, Takao and Taniguchi, Kanta and Nishimura, Rimei, 2025, Frontiers in Clinical Diabetes and Healthcare. doi:10.3389/fcdhc.2025.1520389
 - **Source file:** papers/scopus-oa-full/Hirotsu2025.pdf
 - **Extracted:** 2026-09-19
-- **Screening:** included after full text. First-pass from extracted PDF text (abstract/lead). Numbers not in this lead are marked not stated.
+- **Screening:** included after full text.
 
 ## Research question
-As stated in the paper title/lead: Exploring factors predicting the effectiveness of oral semaglutide in Japanese individuals with type 2 diabetes switching from dipeptidyl peptidase 4 inhibitors: a pilot study
+Which factors predict HbA1c <7% after switching from a DPP-4 inhibitor to oral semaglutide in Japanese T2D?
 
 ## Methods
-See lead paragraph; study design not fully parsed in this mechanical pass.
+Pilot predictor/titration study of oral semaglutide after DPP-4i.
 
 ## Sample / data
-not stated in the extracted lead (check full PDF before using an N).
+74 Japanese adults with T2D (3 mg n=7; 7 mg n=24; 14 mg n=13 among those reaching target).
+
+## Claim-ready facts
+- **Design:** titration / predictor pilot (not placebo-controlled)
+- **Population / model:** Japanese adults with T2D switching from DPP-4 inhibitors
+- **n:** 74 (44 reached HbA1c <7%; 17 did not)
+- **Intervention / comparator:** oral semaglutide 3/7/14 mg after DPP-4i
+- **Primary endpoint:** HbA1c <7% (52 mmol·mol⁻¹)
+- **Primary result:** 44/74 reached target, most at 7 mg
+- **Cannot show:** placebo-controlled efficacy; class effect vs injection
 
 ## Key findings
-- Lead/abstract as extracted: Exploring factors predicting the effectiveness of oral semaglutide in Japanese individuals with type 2 diabetes switching from dipeptidyl peptidase 4 inhibitors: a pilot study Takao Hirotsu1*, Kanta Taniguchi2 and Rimei Nishimura3 1Department of Diabetes, Endocrinology and Hematology, Fuji Municipal Central Hospital, Fuji, Japan, 2Department of Internal Medicine, Taniguchi Medical Clinic, Fujinomiya, Japan, 3Division of Diabetes, Metabolism and Endocrinology, Department of Internal Medicine, Jikei University School of Medicine, Minato, Japan Introduction: Oral semaglutide is a glucagon-like peptide-1 receptor agonist (GLP-1 RA) approved for the treatment of type 2 diabetes mellitus (T2DM). Findings from randomized controlled trials (RCTs) and real-world studies indicate that oral semaglutide leads to signi ﬁcant improvements in HbA1c and body weight, comparable to those observed with injectable GLP-1 RAs. Consequently, oral semaglutide is expected to signi ﬁcantly reduce barriers to initiating GLP-1 RA therapy in individuals with diabetes and may lead to an increased transition from dipeptidyl peptidase-4 inhibitors (DPP-4is) to GLP-1 RA therapy. This study was conducted to prospectively investigate the clinical characteristics predicting the achievement of HbA1c < 7% (52 mmol/mol) in Japanese individuals with T2DM who switched from DPP-4is to oral semaglutide. Methods: The study enrolled a total of 74 patients who switched from DPP-4is to oral semaglutide between December 2021 and October 2022, with the dose being uptitrated to achieve HbA1c < 7% (52 mmol/mol) in these patients. Results: The study included a total of 44 individuals who achieved the target with oral semaglutide 3 mg (n=7), 7 mg (n=24), or 14 mg (n=13), and 17 individuals who did not (un-achieved group;
+- 44 of 74 reached HbA1c <7%, mostly at 7 mg.
 
 ## Limitations (as stated by the authors, or evident from the methods)
-- Mechanical first-pass note; verify against the PDF before citing a number.
+- Pilot; no placebo; single-country.
 
 ## Relevance to our research question
-Title-screened in because: Incretin/GLP-1 family in title. Full-text: Incretin/GLP-1 family in extracted full text.
+Oral semaglutide titration after DPP-4i.
 
 ## Open questions / things to verify
-Confirm sample size, effect sizes, and whether numbers in the lead were OCR/extract artifacts.
+None remaining for the numbers used in the article; cells marked “not reported” were absent from the extract/PDF pages used.

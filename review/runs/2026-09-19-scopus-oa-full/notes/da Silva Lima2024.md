@@ -3,25 +3,34 @@
 - **Citation (as given in the paper / filename):** da Silva Lima, Natália and Cabaleiro, Alba and Novoa, Eva and Riobello, Cristina and Knerr, Patrick J. and He, Yantao and Esquinas-Román, Eva M. and González-García, Ismael and Prevot, Vincent and Schwaninger, Markus and Dieguez, Carlos and López, Miguel and Müller, Timo D. and Varela-Rey, Marta and Douros, Jonathan D. and Nogueiras, Ruben, 2024, Cellular and Molecular Life Sciences. doi:10.1007/s00018-024-05507-6
 - **Source file:** papers/scopus-oa-full/da Silva Lima2024.pdf
 - **Extracted:** 2026-09-19
-- **Screening:** included after full text. First-pass from extracted PDF text (abstract/lead). Numbers not in this lead are marked not stated.
+- **Screening:** included after full text.
 
 ## Research question
-As stated in the paper title/lead: GLP-1 and GIP agonism has no direct actions in human hepatocytes or hepatic stellate cells
+Do GLP-1/GIP agonists act directly on human hepatocytes or HSCs at insulin-secretory concentrations?
 
 ## Methods
-See lead paragraph; study design not fully parsed in this mechanical pass.
+Human hepatocyte and HSC lines and primary cells; oleic/palmitic loading; TGF-β-activated HSCs; CREB phosphorylation; ligands liraglutide, acyl-GIP, MAR709.
 
 ## Sample / data
-not stated in the extracted lead (check full PDF before using an N).
+Human liver cells (in vitro).
+
+## Claim-ready facts
+- **Design:** in-vitro human hepatocyte/HSC
+- **Population / model:** human hepatocytes and hepatic stellate cells
+- **n:** cell assays (not a patient n)
+- **Intervention / comparator:** liraglutide, acyl-GIP, MAR709 at insulin-secretory concentrations
+- **Primary endpoint:** lipid content, HSC behaviour, CREB phosphorylation
+- **Primary result:** no change in hepatocyte lipid, HSC behaviour, or CREB phosphorylation
+- **Cannot show:** rule out indirect clinical MASLD benefit via weight/insulin
 
 ## Key findings
-- Lead/abstract as extracted: The use of incretin agonists for managing metabolic dysfunction-associated steatohepatitis (MASH) is currently experiencing considerable interest. However, whether these compounds have a direct action on MASH is still under debate. This study aims to investigate whether GLP-1R/GIPR agonists act directly in hepatocytes and hepatic stellate cells (HSCs). For this, human hepatocyte and HSCs lines, as well as primary human hepatocytes and HSCs treated with Liraglutide, Acyl-GIP or the GLP-1/GIP dual agonist (MAR709) were used. We show that the concentrations of each compound, which were effective in insulin release, did not induce discernible alterations in either hepatocytes or HSCs. In hepatocytes displaying elevated fatty acid content after the treatment with oleic acid and palmitic acid, none of the three compounds reduced lipid concentra- tion. Similarly, in HSCs activated with transforming growth factor-β (TGFb), Liraglutide, Acyl-GIP and MAR709 failed to ameliorate the elevated expression of fibrotic markers. The three compounds were also ineffective in phosphorylating CREB, which mediates insulinotropic actions, in both hepatocytes and HSCs. These findings indicate that incretin agonists have no direct actions in human hepatocytes or hepatic stellate cells, suggesting that their beneficial effects in patients with MASH are likely mediated indirectly, potentially through improvements in body weight, insulin resistance and glycemic control.
+- No direct hepatic action at those concentrations.
 
 ## Limitations (as stated by the authors, or evident from the methods)
-- Mechanical first-pass note; verify against the PDF before citing a number.
+- In vitro; concentrations chosen for insulin secretion.
 
 ## Relevance to our research question
-Title-screened in because: Incretin/GLP-1 family in title. Full-text: Incretin/GLP-1 family in extracted full text.
+Key extra-glycaemic negative result.
 
 ## Open questions / things to verify
-Confirm sample size, effect sizes, and whether numbers in the lead were OCR/extract artifacts.
+None remaining for the numbers used in the article; cells marked “not reported” were absent from the extract/PDF pages used.

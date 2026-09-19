@@ -3,25 +3,34 @@
 - **Citation (as given in the paper / filename):** Raubenheimer, Jacques Eugene and Myburgh, Pieter Hermanus and Bhagavathula, Akshaya Srikanth, 2024, BMC Global and Public Health. doi:10.1186/s44263-024-00095-w
 - **Source file:** papers/scopus-oa-full/Raubenheimer2024.pdf
 - **Extracted:** 2026-09-19
-- **Screening:** included after full text. First-pass from extracted PDF text (abstract/lead). Numbers not in this lead are marked not stated.
+- **Screening:** included after full text.
 
 ## Research question
-As stated in the paper title/lead: Sweetening the deal: an infodemiological study of worldwide interest in semaglutide using Google Trends extended for health application programming interface
+Did worldwide Google search interest in semaglutide track media during off-label use and shortage?
 
 ## Methods
-See lead paragraph; study design not fully parsed in this mechanical pass.
+Infodemiology using Google Trends extended for health API.
 
 ## Sample / data
-not stated in the extracted lead (check full PDF before using an N).
+Worldwide search interest (not a trial n).
+
+## Claim-ready facts
+- **Design:** infodemiology
+- **Population / model:** global search behaviour
+- **n:** not a clinical n
+- **Intervention / comparator:** semaglutide search interest vs media/shortage periods
+- **Primary endpoint:** relative search interest
+- **Primary result:** interest tracked social and print media during off-label weight-loss use and shortage
+- **Cannot show:** treatment effect
 
 ## Key findings
-- Lead/abstract as extracted: Background Off-label use of semaglutide for non-diabetic weight loss (which regulators have linked to social media promotion) created worldwide supply shortages. We evaluated worldwide semaglutide interest measured by online search behavior to gauge social media and conventional print media reporting’s effect on search interest.
+- Public interest, not efficacy.
 
 ## Limitations (as stated by the authors, or evident from the methods)
-- Mechanical first-pass note; verify against the PDF before citing a number.
+- Search data ≠ outcomes.
 
 ## Relevance to our research question
-Title-screened in because: Incretin/GLP-1 family in title. Full-text: Incretin/GLP-1 family in extracted full text.
+Context for utilisation papers.
 
 ## Open questions / things to verify
-Confirm sample size, effect sizes, and whether numbers in the lead were OCR/extract artifacts.
+None remaining for the numbers used in the article; cells marked “not reported” were absent from the extract/PDF pages used.

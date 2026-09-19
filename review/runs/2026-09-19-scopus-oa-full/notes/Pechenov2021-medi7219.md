@@ -14,6 +14,15 @@ Peptide engineering (protease-site substitution; bis-lipidation) plus sodium che
 ## Sample / data
 Dogs receiving oral tablets; dog model of obesity and insulin resistance. Exact n **not stated** in the extracted abstract.
 
+
+## Claim-ready facts
+- **Design:** preclinical oral-tablet PK/PD (peptide engineering + permeation enhancer)
+- **Population / model:** dogs; dog obesity and insulin-resistance model
+- **n:** not reported in the extracted abstract
+- **Intervention / comparator:** MEDI7219 enteric oral tablets
+- **Primary endpoint:** oral-tablet bioavailability; food intake / weight / glucose (PD)
+- **Primary result:** about 6% oral-tablet bioavailability in dogs; PD in obesity/IR model
+- **Cannot show:** human SNAC oral semaglutide PK; AID adjunct glycaemia
 ## Key findings
 - Authors report oral-tablet bioavailability of about 6% in dogs.
 - They contrast typical oral peptide bioavailability often limited to about 0.4–1% in cited literature.

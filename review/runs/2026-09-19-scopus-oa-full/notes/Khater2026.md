@@ -3,25 +3,34 @@
 - **Citation (as given in the paper / filename):** Khater, Safaa I. and Hussein, Mohamed M. A. and Abdel-Magied, Saydat S. and Lotfy, Marwa M. and khamis, Tarek and Abdelaziz, Sahar and Mostafa, Mahmoud and El-Shaer, Noha Osama and El-Emam, Mahran Mohamed Abd, 2026, Biological Research. doi:10.1186/s40659-026-00682-1
 - **Source file:** papers/scopus-oa-full/Khater2026.pdf
 - **Extracted:** 2026-09-19
-- **Screening:** included after full text. First-pass from extracted PDF text (abstract/lead). Numbers not in this lead are marked not stated.
+- **Screening:** included after full text.
 
 ## Research question
-As stated in the paper title/lead: Phyllanthus niruri niosomes ameliorate obesity-induced hepatic steatosis in rats via modulating MALAT1/miR-206/GLP-1R signaling and hepatic lipid metabolism
+Do Phyllanthus niruri niosomes reduce steatosis via GLP-1R signalling in HFD rats?
 
 ## Methods
-See lead paragraph; study design not fully parsed in this mechanical pass.
+Niosomes 225.1 ± 19.6 nm, EE 73.5 ± 4.2%; HFD rats; semaglutide and exendin 9–39 controls; MALAT1/miR-206/GLP-1R.
 
 ## Sample / data
-not stated in the extracted lead (check full PDF before using an N).
+n=8 per group across seven groups.
+
+## Claim-ready facts
+- **Design:** preclinical botanical niosomes
+- **Population / model:** high-fat-diet rats
+- **n:** 8 per group (7 groups)
+- **Intervention / comparator:** PHYLN niosomes vs semaglutide vs exendin 9–39
+- **Primary endpoint:** weight, BMI, steatosis, inflammation; antagonist reversal
+- **Primary result:** reduced weight/BMI/steatosis/inflammation; reversed by GLP-1R antagonist
+- **Cannot show:** substitution for licensed semaglutide tablets
 
 ## Key findings
-- Lead/abstract as extracted: Metabolic dysfunction associated fatty liver disease (MAFLD) is a rapidly growing global health burden characterized by hepatic lipid accumulation, insulin resistance, oxidative stress, and inflammation. Phyllanthus niruri (PHYLN) is rich in polyphenols and lignans with known antioxidant and anti-inflammatory properties; however, its therapeutic efficacy is limited by poor bioavailability. This study investigated the protective potential of PHYLN extract loaded into niosomal nanocarriers (PHYLN-NIO) against obesity-induced hepatic steatosis and explored its mechanistic similarity to glucagon-like peptide-1 receptor agonists (GLP-1RAs). Rats were divided into seven groups: control, PHYLN-NIO, HFD, HFD + Semaglutide, HFD + Semaglutide + exendin 9–39, HFD + PHYLN-NIO, and HFD + PHYLN-NIO + exendin 9–39. PHYLN-NIO markedly reduced body weight and body mass index, hepatic steatosis, and inflammation, while enhancing antioxidant status, insulin sensitivity, and lipid profiles. Mechanistically, PHYLN-NIO modulated the lncRNA-MALAT1/miR-206 axis, restored GLP-1/GLP-1R signaling, and downregulated key hepatic lipogenic regulators (LXR-α, SREBP-1c, FASN, ACC-1), while upregulating genes involved in fatty acid oxidation and metabolic homeostasis (FXR, PPAR-α, FOXA2). Notably, co-administration of exendin 9–39 reversed these effects, confirming a GLP-1R-dependent mechanism. These findings suggest that PHYLN-NIO effectively targets MALAT1/miR-206/GLP-1R signaling pathways, demonstrating its potential as a promising nanotherapeutic candidate for MAFLD management.
+- Antagonist reversal supports receptor biology, not interchangeability.
 
 ## Limitations (as stated by the authors, or evident from the methods)
-- Mechanical first-pass note; verify against the PDF before citing a number.
+- Rats; botanical vs licensed agonist.
 
 ## Relevance to our research question
-Title-screened in because: Incretin/GLP-1 family in title. Full-text: Incretin/GLP-1 family in extracted full text.
+GLP-1R-dependent, not a licensed RA.
 
 ## Open questions / things to verify
-Confirm sample size, effect sizes, and whether numbers in the lead were OCR/extract artifacts.
+None remaining for the numbers used in the article; cells marked “not reported” were absent from the extract/PDF pages used.

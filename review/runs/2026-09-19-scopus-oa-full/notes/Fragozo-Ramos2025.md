@@ -3,25 +3,34 @@
 - **Citation (as given in the paper / filename):** Fragozo-Ramos, Maria Carolina and Schenker, Gabriela and Hepprich, Matthias and Gallo-Villegas, Jaime and Züger, Thomas and Garcia-Tirado, Jose, 2025, PLOS ONE. doi:10.1371/journal.pone.0335060
 - **Source file:** papers/scopus-oa-full/Fragozo-Ramos2025.pdf
 - **Extracted:** 2026-09-19
-- **Screening:** included after full text. First-pass from extracted PDF text (abstract/lead). Numbers not in this lead are marked not stated.
+- **Screening:** included after full text.
 
 ## Research question
-As stated in the paper title/lead: GIP/GLP-1RA as adjunctive to automated insulin delivery in adults with Type 1 diabetes (the AID-JUNCT trial): Study protocol for a prospective, randomized, clinical trial
+Does tirzepatide as adjunct to AID improve TIR vs standard of care in T1D?
 
 ## Methods
-See lead paragraph; study design not fully parsed in this mechanical pass.
+Protocol for a prospective randomised open-label parallel-group superiority trial (AID-JUNCT).
 
 ## Sample / data
-not stated in the extracted lead (check full PDF before using an N).
+Planned 42 adults 18–65 years, T1D ≥12 months, AID ≥3 months, A1C 6.5–10%, BMI ≥23, 1:1 for 16 weeks.
+
+## Claim-ready facts
+- **Design:** trial protocol (no outcomes)
+- **Population / model:** adults with T1D on AID (planned)
+- **n:** planned 42
+- **Intervention / comparator:** tirzepatide (target 5 mg) vs standard of care
+- **Primary endpoint:** CGM TIR 3.9–10.0 mmol·L⁻¹
+- **Primary result:** no outcome data reported
+- **Cannot show:** dual-agonist adjunct efficacy until results exist
 
 ## Key findings
-- Lead/abstract as extracted: Background Glycemic control in type 1 diabetes (T1D) remains a challenge, with 20−30% of adults achieving an A1c target of <7%. Glucagon-like peptide 1 receptor agonist (GLP-1 RA) and dual glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 RA (GIP/GLP-1 RA) have emerged as a promising therapy in T1D. Previous studies have shown that patients with T1D can significantly improve glycemic control while experiencing a reduction in insulin dose and body weight when long-acting GLP- 1RAs or GIP/GLP-1RAs are added to insulin therapy. However, randomized con- trolled trials (RCT) are still insufficient.
+- Protocol only; outcomes not reported.
 
 ## Limitations (as stated by the authors, or evident from the methods)
-- Mechanical first-pass note; verify against the PDF before citing a number.
+- Open-label; different agonist and control from Pasqua.
 
 ## Relevance to our research question
-Title-screened in because: Incretin/GLP-1 family in title. Full-text: Incretin/GLP-1 family in extracted full text.
+Unanswered dual-agonist AID question.
 
 ## Open questions / things to verify
-Confirm sample size, effect sizes, and whether numbers in the lead were OCR/extract artifacts.
+None remaining for the numbers used in the article; cells marked “not reported” were absent from the extract/PDF pages used.
