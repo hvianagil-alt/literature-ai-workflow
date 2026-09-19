@@ -1,0 +1,458 @@
+# PRISMA 2020 flow — 2026-09-19-scopus-oa-full
+
+Counts below are taken from this run's catalog, fetch log, and screening log.
+They are not inferred. Empty cells mean the step has not been recorded yet.
+
+## Identification
+
+| Source | n |
+|---|---|
+| Records from Scopus export (`identification.bib`) | 459 |
+| Additional records from other sources | 0 |
+| Duplicates removed | 0 |
+| Records after duplicates removed | 459 |
+
+## Screening
+
+| Step | n |
+|---|---|
+| Records screened (title/metadata) | 459 |
+| Records excluded at title/metadata (with reason) | 274 |
+| Reports sought for retrieval (full text) | 185 |
+| Reports not retrieved | 139 |
+| Reports assessed for eligibility (full text) | 46 |
+| Reports excluded at full text (with reason) | 2 |
+
+## Included
+
+| Set | n |
+|---|---|
+| Studies included in the review | 44 |
+
+## Exclusion reasons (title/metadata)
+
+- `Desai2024631` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Chai2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kitazawa2026` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Goldberg2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `McEwan202524` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Coriati202519` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Li2025` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Ambrosy2025725` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Luthfiana2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Young2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yao202519480` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `2026S321` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Dimnjaković2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kuang2026166` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Sharma2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Luef2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Palacios2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Brayden2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Zeng2025` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Wood-Yang2025` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Kumar2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Sheth2025124` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Ng2025813` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Bai2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Li2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Zhang2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Klein2025164` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yu20245423` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Bajaj2026S183` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lee2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Saraiya2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Tian2025__0886022X20242438` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `de Oliveira2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lourie2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Hamza2025339` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Frolov202616` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Bajaj2026S166` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Steiger2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Eczacioglu2025545` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Wyckoff2025G1` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wang2026143` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Bailey2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lv2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wu2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kim2026309` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Rosenfeld202510S` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Martin2025e41` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Huang2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `2025S266` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Pangua20241189` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Talay2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Hu2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Tayebi2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Flint202535` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Boychenko2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Mu20248515` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `2024S244` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `McCartney2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Overgaard2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Brunzell20266471` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Fan2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Shi2025` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Oo2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Niu202592` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Conlon2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Holt2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Bhatti2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Dang2024524` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Li2025__s4159802519714z` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Iyer2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lu2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Guo2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Barrett2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Andreenko20257` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `MacDonald2025527` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Arrick2024481` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Grymyr2025e012367` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `West2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Tan2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Gong2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Nosair2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Nie2026381` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Bapat20251003` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `2025S181` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `McCoy2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Sahin2025371` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Iwanishi2025251` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `2024S158` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `López-Estévez2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Spinelli2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Dong2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Faconti20251` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Rogers2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kaplan2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Gao2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Atta2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Ebert2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Maung2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Crandall20251101` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Sirinyildiz2025462` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Song2026` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Coombs2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Fasseeh2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Čelutkienė2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Ghareb2024247` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Klein Cerrejon2025875` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Kanelli2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Abdulkarim20251558` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Sinézia2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Chen2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Gao2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Wen2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Valladales-Restrepo202565` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Ajjan2024426` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Zhang2025__s4146702563427w` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Xu2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Zaykov2024763` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Krupke2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Xiong2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Jensen2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Dudun2026` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Panou2025268` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Feng2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Zhang2025__s4159802593374x` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Ling2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wyckoff20252405` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Montero20251` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Naranjani2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lee2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Luo20261009` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Goraltchouk2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Liu20241548` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Karlsen20261825` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `McGlone2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `2026S89` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Cornelissen20262105` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Greydanus2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yu2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Al-Awadi2025857` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Zheng2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Nematullah2026579` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wen2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Cheng2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Zhang2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Xue202511425` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `2025S86` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Dela Ahator2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Fukuda2026141` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Campo2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Fifer2024435` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Rodriguez-Valadez2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Li2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Guo20245` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Bannigan2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Catalfamo2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Rosseel2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Xu2025__s40834025003841` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yao2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kim2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Milluzzo2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Hamza20241342` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Miller2024398` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Zhao2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `L’hostellier2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Palasantzas2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kim2025__pharmaceutics171` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Bays2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Xie2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Elmorsy2026` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Walker2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Jin2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Min2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Dreshaj2025406` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Genton2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kim2026__jbiopha202611976` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Fagan2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lund2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wang2026569` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lee2024546` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Milanović20242466` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Tocharus2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Daniell2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Roy2025607` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Merino-Torres2024785` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `McMackin2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Abd El-Aziz2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Weber2024677` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Williams2025285` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `de Freitas Queiroz Barros2026625` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yu2025187` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Mazzolai20243538` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Chen2025` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Sun2025__peerj20032` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Jendle20252311` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `De Meyer2026e0120` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Berselli2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Talay2024181` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Chew2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Fagan20253999` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Colazo20251366` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Chavanelle2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Ou2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Deák2026` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Meléndez-Martínez2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Liang20252557` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Charchar202423` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wu2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Sharma20245347` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lin2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Vrints20243415` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lopez2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kang2025582` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Boye2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Saha2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Talay2024187` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Sun2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Burhanuddin2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Li2026810` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Cazzaniga2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Schreiner2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Watada2026989` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Hopewell2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Heinz2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Qiu20268651` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Virani20251857` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lassen20241762` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Liu20241` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wu20256463` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Deusch20257344` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Sarwinska2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Park202613454` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Huang2024__life14020191` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Agarwal20257` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Osama2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Xian2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Tarawneh2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Tsuji20263031` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Colston2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Porth2024` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Chung202638` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Elbermawy2026` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `2025S283` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Wang2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Fan2025__AD20241538` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Kohler20243618` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Khan2026536` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Holtrop2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Nosair2025__s41598025179369` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Collins2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Giorgino2026389` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `He2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Paprocki2025` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Gao2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Alkudmani2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Bardonnet20262302` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Radakrishnan2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yan20243549` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `RADAKRISHNAN20251460` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Beloqui202431` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Parnizari20252189` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yang2026__jmtbio2026103369` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Rocha2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Durán-Lobato202517` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Chen2026499` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Reyes-Vallejo2025` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Dong2025139` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Liu2026__FSHW20259250548` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Lieu2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Retnakaran2025887` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Moon2024546` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Chen2025__jcelbio202510002` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Holstein2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+- `Yan2024` — Vesicle or delivery terms present but no metabolic/related setting in title
+- `Patil2026` — No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title
+
+## Exclusion reasons (full text)
+
+- `Qiao2025` — Oral cerium–peptide microspheres for IBD/fibrosis; GLP-1/semaglutide appear only in passing or references, not as the study intervention.
+- `Qiu2026` — Retrieved PDF body is a different JCI review (uPAR/innate immunity), not the catalogued BAF60a/GLP-1R paper; file not used as evidence.
+
+## Not retrieved
+
+- `Lee202670` — no_public_pdf_found
+- `Richards2025` — no_public_pdf_found
+- `Xu2025` — no_public_pdf_found
+- `Sklepinski2025` — no_public_pdf_found
+- `Tonon2026` — no_public_pdf_found
+- `Kim2026` — no_public_pdf_found
+- `Raptis2025` — no_public_pdf_found
+- `Subedi2026` — no_public_pdf_found
+- `Bian20261000` — no_public_pdf_found
+- `Garvey20261742` — no_public_pdf_found
+- `Zheng2025` — no_public_pdf_found
+- `Dayer20251488` — no_public_pdf_found
+- `Malgave2025` — no_public_pdf_found
+- `Liu2026` — no_public_pdf_found
+- `Reddiar2024` — no_public_pdf_found
+- `Solis-Herrera202474` — no_public_pdf_found
+- `Feng2025` — no_public_pdf_found
+- `Seetharaman2025311` — no_public_pdf_found
+- `Ke2025` — no_public_pdf_found
+- `Stefanou2024530` — no_public_pdf_found
+- `Kenawy2025` — no_public_pdf_found
+- `Oya2025608` — no_public_pdf_found
+- `Cirnigliaro2024597` — no_public_pdf_found
+- `Karki2026` — no_public_pdf_found
+- `Venne2026` — no_public_pdf_found
+- `Iriarte-Mesa2026` — no_public_pdf_found
+- `Zhang2025__1071754420252557` — no_public_pdf_found
+- `Liu2024` — no_public_pdf_found
+- `Elad2025864` — no_public_pdf_found
+- `Xia2024` — no_public_pdf_found
+- `Mariam2025` — no_public_pdf_found
+- `Maya20252186` — no_public_pdf_found
+- `Neumiller2025206` — no_public_pdf_found
+- `Mikami-Saito2025` — no_public_pdf_found
+- `Rao2025` — no_public_pdf_found
+- `Huang2024` — no_public_pdf_found
+- `Yoon2026` — no_public_pdf_found
+- `Mao2025` — no_public_pdf_found
+- `Liu2024__1753040713483` — no_public_pdf_found
+- `Jiang2026` — no_public_pdf_found
+- `Bonora2025` — no_public_pdf_found
+- `Toraih2025` — no_public_pdf_found
+- `Pedigo20251007` — no_public_pdf_found
+- `Mi20261089` — no_public_pdf_found
+- `Hao2026` — no_public_pdf_found
+- `Huang2026` — no_public_pdf_found
+- `Murphy20254936` — no_public_pdf_found
+- `Levi20261545` — no_public_pdf_found
+- `Tokgöz2025212` — no_public_pdf_found
+- `Bailey2025` — no_public_pdf_found
+- `Shahriar2024194` — no_public_pdf_found
+- `Tisdale2025e011649` — no_public_pdf_found
+- `Ababei-Bobu2026` — no_public_pdf_found
+- `Zinzi2026` — no_public_pdf_found
+- `Liu2025881` — no_public_pdf_found
+- `Lunati20261842` — no_public_pdf_found
+- `Huang2026__jijpx2026100639` — no_public_pdf_found
+- `Schneck2024494` — no_public_pdf_found
+- `Singh2024` — no_public_pdf_found
+- `Wong20256178` — no_public_pdf_found
+- `Holmager2025286` — no_public_pdf_found
+- `Chen2026__jijpharm20261267` — no_public_pdf_found
+- `Douros2025` — no_public_pdf_found
+- `McNally2026E249` — no_public_pdf_found
+- `Pinto202428406` — no_public_pdf_found
+- `Yu2026` — no_public_pdf_found
+- `Ekinci20268242` — no_public_pdf_found
+- `Hartsell2026` — no_public_pdf_found
+- `Li2026573` — no_public_pdf_found
+- `Singh2026` — no_public_pdf_found
+- `Dahl-Larsen2025` — no_public_pdf_found
+- `Klonoff20243128` — no_public_pdf_found
+- `Ziebarth2024` — no_public_pdf_found
+- `Lee2025__pharmaceutics170` — no_public_pdf_found
+- `Ashraf2026` — no_public_pdf_found
+- `Sasset2026` — no_public_pdf_found
+- `Subedi2025637` — no_public_pdf_found
+- `Yin2025` — no_public_pdf_found
+- `Moss2026` — no_public_pdf_found
+- `Prada Brichtova20259152` — no_public_pdf_found
+- `Thorens20241027` — no_public_pdf_found
+- `Levy2026` — no_public_pdf_found
+- `Wright2024754` — no_public_pdf_found
+- `Wang2024` — no_public_pdf_found
+- `Hennessy2026229` — no_public_pdf_found
+- `Kuo202513465` — no_public_pdf_found
+- `Balantekin2024` — no_public_pdf_found
+- `Paddu20242255` — no_public_pdf_found
+- `Im2026` — no_public_pdf_found
+- `Sonne2026` — no_public_pdf_found
+- `Li2025__biology14050575` — no_public_pdf_found
+- `Keith20245601` — no_public_pdf_found
+- `Tentolouris20266347` — no_public_pdf_found
+- `Kim2024` — no_public_pdf_found
+- `Chu20244674` — no_public_pdf_found
+- `Birro2025` — no_public_pdf_found
+- `Jiang2026607` — no_public_pdf_found
+- `Mullins2024361` — no_public_pdf_found
+- `Khan2026` — no_public_pdf_found
+- `Butt2024` — no_public_pdf_found
+- `Zangabad2024` — no_public_pdf_found
+- `Dearden20251` — no_public_pdf_found
+- `Sukumar2026447` — no_public_pdf_found
+- `Moon2026` — no_public_pdf_found
+- `Purcell2026296` — no_public_pdf_found
+- `Xie2025` — no_public_pdf_found
+- `Kim2026__nu18071050` — no_public_pdf_found
+- `Arduino2026` — no_public_pdf_found
+- `Dahan2026` — no_public_pdf_found
+- `Pinto2024621` — no_public_pdf_found
+- `Yang2025` — no_public_pdf_found
+- `Ruggiero2024` — no_public_pdf_found
+- `Nalbandian2026` — no_public_pdf_found
+- `Chowdhary2024540` — no_public_pdf_found
+- `Al Hayek2026` — no_public_pdf_found
+- `Richards2025__81912` — no_public_pdf_found
+- `Robinson2026` — no_public_pdf_found
+- `Dong2025` — no_public_pdf_found
+- `Fallot202620582` — no_public_pdf_found
+- `Singh20263158` — no_public_pdf_found
+- `Shapira-Furman2024` — no_public_pdf_found
+- `Talay20240` — no_public_pdf_found
+- `Lv2026` — no_public_pdf_found
+- `Kumar2025` — no_public_pdf_found
+- `Rebollo2025267` — no_public_pdf_found
+- `Gonzalez2026166` — no_public_pdf_found
+- `Ametov2026387` — no_public_pdf_found
+- `Xu20251790` — no_public_pdf_found
+- `Forslund202625` — no_public_pdf_found
+- `Cao2026` — no_public_pdf_found
+- `Emeh2025` — no_public_pdf_found
+- `Schmidt2025` — no_public_pdf_found
+- `Xu20251243` — no_public_pdf_found
+- `Ariaee2026` — no_public_pdf_found
+- `Furió-Novejarque2025332` — no_public_pdf_found
+- `Yang2025__nano15181399` — no_public_pdf_found
+- `Duan2026` — no_public_pdf_found
+- `Zhang2025__jex270099` — no_public_pdf_found
+- `Sagar20268034` — no_public_pdf_found
+
+## Notes
+
+Title include 185; not retrieved 139 (no public PDF body). Full text assessed 46. Two full-text excludes (Qiao2025 off-topic IBD delivery; Qiu2026 wrong PDF content). Included 44. Eligibility from extracted PDF text; no claims from unread files.

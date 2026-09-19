@@ -1846,5 +1846,254 @@
     "source_url": null,
     "attempted": [],
     "bytes": 0
+  },
+  {
+    "citekey": "Ametov2026387",
+    "doi": "10.19163/2307-9266-2026-14-4-387-409",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 4,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.19163/2307-9266-2026-14-4-387-409"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Xu20251790",
+    "doi": "10.1021/acssynbio.5c00132",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://pubs.acs.org/doi/pdf/10.1021/acssynbio.5c00132?ref=article_openPDF",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12090216/pdf/",
+      "https://doi.org/10.1021/acssynbio.5c00132"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Forslund202625",
+    "doi": "10.1093/ejendo/lvag033",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 4,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1093/ejendo/lvag033"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Cao2026",
+    "doi": "10.1002/advs.202520918",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1002/advs.202520918",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13170209/pdf/"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Emeh2025",
+    "doi": "10.1016/j.jconrel.2025.114144",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.jconrel.2025.114144",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.jconrel.2025.114144"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Schmidt2025",
+    "doi": "10.1016/j.ijpharm.2025.125711",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ijpharm.2025.125711",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijpharm.2025.125711"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Xiong20241717",
+    "doi": "10.1007/s13300-024-01594-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-full/Xiong20241717.pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s13300-024-01594-7.pdf?error=cookies_not_supported&code=3e44aa90-9df3-4c9d-8abd-41a30abaf965",
+    "attempted": [
+      "https://doi.org/10.1007/s13300-024-01594-7",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11263519/pdf/"
+    ],
+    "bytes": 2011194
+  },
+  {
+    "citekey": "Xu20251243",
+    "doi": "10.1002/oby.24315",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12213178/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12213178/pdf/",
+      "https://doi.org/10.1002/oby.24315"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ariaee2026",
+    "doi": "10.1016/j.jconrel.2026.114711",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.jconrel.2026.114711",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.jconrel.2026.114711"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Furi\u00f3-Novejarque2025332",
+    "doi": "10.1177/19322968241285925",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://journals.sagepub.com/doi/pdf/10.1177/19322968241285925?download=true",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11571630/pdf/",
+      "https://doi.org/10.1177/19322968241285925"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ma2024819",
+    "doi": "10.1007/s13300-024-01554-1",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-full/Ma2024819.pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s13300-024-01554-1.pdf?error=cookies_not_supported&code=edd4fb21-6427-4d41-bb13-fcd0bb0cd63a",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s13300-024-01554-1.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10951152/pdf/",
+      "https://doi.org/10.1007/s13300-024-01554-1"
+    ],
+    "bytes": 1002799
+  },
+  {
+    "citekey": "Pasqua20251239",
+    "doi": "10.1038/s41591-024-03463-z",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-full/Pasqua20251239.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41591-024-03463-z.pdf?error=cookies_not_supported&code=11fa6996-8aa6-4771-9643-2371d388a1ba",
+    "attempted": [
+      "https://www.nature.com/articles/s41591-024-03463-z.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12003151/pdf/",
+      "https://www.nature.com/articles/s41591-024-03463-z",
+      "https://doi.org/10.1038/s41591-024-03463-z"
+    ],
+    "bytes": 2754079
+  },
+  {
+    "citekey": "Yang2025__nano15181399",
+    "doi": "10.3390/nano15181399",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2079-4991/15/18/1399/pdf?version=1757590044",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12472674/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/nano15181399",
+      "https://doi.org/10.3390/nano15181399"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Duan2026",
+    "doi": "10.3390/separations13010015",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2297-8739/13/1/15/pdf?version=1767023980",
+      "https://www.mdpi.com/resolver?doi=10.3390/separations13010015",
+      "https://doi.org/10.3390/separations13010015"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Zhang2025__jex270099",
+    "doi": "10.1002/jex2.70099",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jex2.70099",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12640765/pdf/",
+      "https://doi.org/10.1002/jex2.70099"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Qi2025",
+    "doi": "10.3389/fphar.2025.1616181",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-full/Qi2025.pdf",
+    "http_calls": 4,
+    "source_url": "https://public-pages-files-2025.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1616181/pdf",
+    "attempted": [
+      "https://public-pages-files-2025.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1616181/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12616031/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fphar.2025.1616181/pdf",
+      "https://doi.org/10.3389/fphar.2025.1616181"
+    ],
+    "bytes": 3885436
+  },
+  {
+    "citekey": "Sagar20268034",
+    "doi": "10.1111/dom.71015",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13448860/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13448860/pdf/",
+      "https://doi.org/10.1111/dom.71015"
+    ],
+    "bytes": 0
   }
 ]

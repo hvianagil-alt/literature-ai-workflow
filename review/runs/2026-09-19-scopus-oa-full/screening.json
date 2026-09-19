@@ -1561,8 +1561,761 @@
     "Qi2025",
     "Sagar20268034"
   ],
-  "n_fulltext_assessed": 0,
-  "fulltext_excluded": [],
-  "included": [],
-  "notes": "Title screen only (BibTeX had no abstracts). 185 sought for full text; 274 excluded on title. Citekey collisions disambiguated with record_id."
+  "n_fulltext_assessed": 46,
+  "fulltext_excluded": [
+    {
+      "citekey": "Qiao2025",
+      "reason": "Oral cerium–peptide microspheres for IBD/fibrosis; GLP-1/semaglutide appear only in passing or references, not as the study intervention.",
+      "title": "An oral engineered cerium-peptide composite microsphere inhibits inflammatory bowel disease and reverses chronic fibrosis"
+    },
+    {
+      "citekey": "Qiu2026",
+      "reason": "Retrieved PDF body is a different JCI review (uPAR/innate immunity), not the catalogued BAF60a/GLP-1R paper; file not used as evidence.",
+      "title": "BAF60a-dependent chromatin remodeling preserves β cell function and contributes to the therapeutic benefits of GLP-1R agonists"
+    }
+  ],
+  "included": [
+    "Zachou2024127",
+    "Fredholt20261773",
+    "Lunati2026",
+    "Tian2025",
+    "Raubenheimer2024",
+    "Wallentowitz2026853",
+    "Jeong2026",
+    "Yue2025809",
+    "Domingues20242917",
+    "Hölscher20251201",
+    "Sandmeier20252146",
+    "Zhang2026",
+    "Chen2026",
+    "Wang202594",
+    "da Silva Lima2024",
+    "Nielsen2025269",
+    "Khater2026",
+    "Yu2025",
+    "Singh2026405",
+    "Xu2026",
+    "Tian2025__fneur20251653900",
+    "Abo-Elenin20252677",
+    "Dangi2025592",
+    "Sun2025",
+    "Hirotsu2025",
+    "Yao2026__NR202694908852",
+    "Mastaitis2025",
+    "Woo202511843",
+    "Swift20241547",
+    "Sillassen2025",
+    "Ali2025",
+    "Yang2026",
+    "Fragozo-Ramos2025",
+    "Kweon20242973",
+    "Shen2025",
+    "Abdallah20254286",
+    "Klotsman2024",
+    "Bonga20251",
+    "Son202610",
+    "Chen2024__fphar20241370594",
+    "Xiong20241717",
+    "Ma2024819",
+    "Pasqua20251239",
+    "Qi2025"
+  ],
+  "notes": "Title include 185; not retrieved 139 (no public PDF body). Full text assessed 46. Two full-text excludes (Qiao2025 off-topic IBD delivery; Qiu2026 wrong PDF content). Included 44. Eligibility from extracted PDF text; no claims from unread files.",
+  "not_retrieved": [
+    {
+      "citekey": "Lee202670",
+      "reason": "no_public_pdf_found",
+      "title": "Immunoregulatory protein-hybrid extracellular vesicles via self-loadable backbone cyclization for oral inflammatory bowel disease therapy"
+    },
+    {
+      "citekey": "Richards2025",
+      "reason": "no_public_pdf_found",
+      "title": "A Remotely Delivered GLP-1RA–Supported Specialist Weight Management Program in Adults Living With Obesity: Retrospective Service Evaluation"
+    },
+    {
+      "citekey": "Xu2025",
+      "reason": "no_public_pdf_found",
+      "title": "Semaglutide ameliorates retinal vascular permeability destruction in diabetic retinopathy by AnxA2-mediated MMP-9 activation and basement membrane remodeling"
+    },
+    {
+      "citekey": "Sklepinski2025",
+      "reason": "no_public_pdf_found",
+      "title": "Comparative effectiveness of GLP-1 receptor agonists on cardiovascular outcomes among adults with type 2 diabetes and moderate cardiovascular risk: emulation of a target trial"
+    },
+    {
+      "citekey": "Tonon2026",
+      "reason": "no_public_pdf_found",
+      "title": "Liraglutide Modifies Gut Microbiota Without Modulating Doxorubicin-Induced Toxicity in Rats"
+    },
+    {
+      "citekey": "Kim2026",
+      "reason": "no_public_pdf_found",
+      "title": "Formulation Engineering of Oral Semaglutide Tablets: Unleashing Gastric Intestinal Permeation with Sodium Caprate"
+    },
+    {
+      "citekey": "Raptis2025",
+      "reason": "no_public_pdf_found",
+      "title": "Permeation Enhancer-based Ionogel Shows Remarkable Potential for Oral Insulin Delivery"
+    },
+    {
+      "citekey": "Subedi2026",
+      "reason": "no_public_pdf_found",
+      "title": "Dual-transporter-targeted oral semaglutide nanomicelles enable enhanced intestinal absorption and metabolic reprogramming in obesity and diabetes"
+    },
+    {
+      "citekey": "Bian20261000",
+      "reason": "no_public_pdf_found",
+      "title": "Microbiota-driven gut-brain signaling underlies antidepressant effects of a GLP-1 analog"
+    },
+    {
+      "citekey": "Garvey20261742",
+      "reason": "no_public_pdf_found",
+      "title": "Oral GLP-1RA TERN-601 for Adults With Obesity/Overweight: Placebo-Controlled, Multiple-Ascending-Dose, Phase 1 and 2 Studies"
+    },
+    {
+      "citekey": "Zheng2025",
+      "reason": "no_public_pdf_found",
+      "title": "Utilization of Native CRISPR-Cas9 System for Expression of Glucagon-like Peptide-1 in Lacticaseibacillus paracasei"
+    },
+    {
+      "citekey": "Dayer20251488",
+      "reason": "no_public_pdf_found",
+      "title": "Comprehensive Access to Semaglutide: Clinical and Economic Implications for Medicare"
+    },
+    {
+      "citekey": "Malgave2025",
+      "reason": "no_public_pdf_found",
+      "title": "Influence of Buffering Capacity, pH, and Temperature on the Stability of Semaglutide: A Preformulation Study"
+    },
+    {
+      "citekey": "Liu2026",
+      "reason": "no_public_pdf_found",
+      "title": "Single-dose pharmacokinetics of sublingual semaglutide in rats"
+    },
+    {
+      "citekey": "Reddiar2024",
+      "reason": "no_public_pdf_found",
+      "title": "Lymphatic uptake of the lipidated and non-lipidated GLP-1 agonists liraglutide and exenatide is similar in rats"
+    },
+    {
+      "citekey": "Solis-Herrera202474",
+      "reason": "no_public_pdf_found",
+      "title": "Current Understanding of Sodium N-(8-[2-Hydroxylbenzoyl] Amino) Caprylate (SNAC) as an Absorption Enhancer: The Oral Semaglutide Experience"
+    },
+    {
+      "citekey": "Feng2025",
+      "reason": "no_public_pdf_found",
+      "title": "PEG-PLGA nanoparticles transport across in vitro intestinal epithelial models and show potential for oral delivery of antibodies in inflammatory bowel disease"
+    },
+    {
+      "citekey": "Seetharaman2025311",
+      "reason": "no_public_pdf_found",
+      "title": "The Promise of Adjunct Medications in Improving Type 1 Diabetes Outcomes: Glucagon-Like Peptide Receptor Agonists"
+    },
+    {
+      "citekey": "Ke2025",
+      "reason": "no_public_pdf_found",
+      "title": "Oral delivery of GLP-1 peptide using recombinant Lactobacillus gasseri for the treatment of type 2 diabetes mellitus"
+    },
+    {
+      "citekey": "Stefanou2024530",
+      "reason": "no_public_pdf_found",
+      "title": "Risk of major adverse cardiovascular events and stroke associated with treatment with GLP-1 or the dual GIP/GLP-1 receptor agonist tirzepatide for type 2 diabetes: A systematic review and meta-analysis"
+    },
+    {
+      "citekey": "Kenawy2025",
+      "reason": "no_public_pdf_found",
+      "title": "Real-world evidence on the association of novel antidiabetic medication use with cancer risk and protective effects: a systematic review and network meta-analysis"
+    },
+    {
+      "citekey": "Oya2025608",
+      "reason": "no_public_pdf_found",
+      "title": "Effectiveness for adding or switching from other incretin-related drugs to oral semaglutide in type 2 diabetes"
+    },
+    {
+      "citekey": "Cirnigliaro2024597",
+      "reason": "no_public_pdf_found",
+      "title": "Preliminary observations on the administration of a glucagon-like peptide-1 receptor agonist on body weight and select carbohydrate endpoints in persons with spinal cord injury: A controlled case series"
+    },
+    {
+      "citekey": "Karki2026",
+      "reason": "no_public_pdf_found",
+      "title": "A pullulan-based bilayer film for buccal delivery of a GLP-1 peptide analogue"
+    },
+    {
+      "citekey": "Venne2026",
+      "reason": "no_public_pdf_found",
+      "title": "Multicomponent Stapling of Glucagon-Like Peptide-1 Enables Receptor-Guided PROTAC Delivery"
+    },
+    {
+      "citekey": "Iriarte-Mesa2026",
+      "reason": "no_public_pdf_found",
+      "title": "Mesoporous Silica Nanoparticles-Based Formulations for Enhanced Oral Delivery of Peptide Drugs: A Case Study on Insulin"
+    },
+    {
+      "citekey": "Zhang2025__1071754420252557",
+      "reason": "no_public_pdf_found",
+      "title": "Integrating micro-needle jet injection and sustained GLP-1 therapy with structured feeding: a comprehensive strategy for obesity management"
+    },
+    {
+      "citekey": "Liu2024",
+      "reason": "no_public_pdf_found",
+      "title": "Baicalein Ameliorates Insulin Resistance of HFD/STZ Mice Through Activating PI3K/AKT Signal Pathway of Liver and Skeletal Muscle in a GLP-1R-Dependent Manner"
+    },
+    {
+      "citekey": "Elad2025864",
+      "reason": "no_public_pdf_found",
+      "title": "Glucagon-Like Peptide-1 Receptor Agonists in Patients With Durable Left Ventricular Assist Devices"
+    },
+    {
+      "citekey": "Xia2024",
+      "reason": "no_public_pdf_found",
+      "title": "An imbalanced GLP-1R/GIPR co-agonist peptide with a site-specific N-terminal PEGylation to maximize metabolic benefits"
+    },
+    {
+      "citekey": "Mariam2025",
+      "reason": "no_public_pdf_found",
+      "title": "Computational assessment of the dimeric incretin GLP-1cpGLP-1 reveals the structural bases for its activity"
+    },
+    {
+      "citekey": "Maya20252186",
+      "reason": "no_public_pdf_found",
+      "title": "Gestational Weight Gain and Pregnancy Outcomes After GLP-1 Receptor Agonist Discontinuation"
+    },
+    {
+      "citekey": "Neumiller2025206",
+      "reason": "no_public_pdf_found",
+      "title": "Kidney Outcomes with Glucagon-Like Peptide-1 Receptor Agonists, Sodium-Glucose Cotransporter 2 Inhibitors, Dipeptidyl Peptidase-4 Inhibitors, and Sulfonylureas in Type 2 Diabetes and Moderate Cardiovascular Risk"
+    },
+    {
+      "citekey": "Mikami-Saito2025",
+      "reason": "no_public_pdf_found",
+      "title": "Carnitine Deficiency Caused by Salcaprozic Acid Sodium Contained in Oral Semaglutide in a Patient with Multiple Acyl-CoA Dehydrogenase Deficiency"
+    },
+    {
+      "citekey": "Rao2025",
+      "reason": "no_public_pdf_found",
+      "title": "Enhanced FGF21 Delivery via Neutrophil-Membrane-Coated Nanoparticles Improves Therapeutic Efficacy for Myocardial Ischemia–Reperfusion Injury"
+    },
+    {
+      "citekey": "Huang2024",
+      "reason": "no_public_pdf_found",
+      "title": "Inflammation-oriented montmorillonite adjuvant enhanced oral delivery of anti-TNF-α nanobody against inflammatory bowel disease"
+    },
+    {
+      "citekey": "Yoon2026",
+      "reason": "no_public_pdf_found",
+      "title": "Quality by Design-Based Formulation Development of an Oral Semaglutide Tablet"
+    },
+    {
+      "citekey": "Mao2025",
+      "reason": "no_public_pdf_found",
+      "title": "pH-Responsive EGCG-Metal self-assembly as the carrier for rapid and prolonged insulin delivery"
+    },
+    {
+      "citekey": "Liu2024__1753040713483",
+      "reason": "no_public_pdf_found",
+      "title": "The efficacy and safety of beinaglutide alone or in combination with insulin glargine in Chinese patients with type 2 diabetes mellitus who are inadequately controlled with oral antihyperglycemic therapy: A multicenter, open-label, randomized trial"
+    },
+    {
+      "citekey": "Jiang2026",
+      "reason": "no_public_pdf_found",
+      "title": "Met@MPDA rejuvenates BMSC energy metabolism to promote bone regeneration in semaglutide-treated obese periodontitis"
+    },
+    {
+      "citekey": "Bonora2025",
+      "reason": "no_public_pdf_found",
+      "title": "Long-Term Effectiveness of Once-Weekly Semaglutide in Patients With Type 2 Diabetes Previously Treated With Insulin. A Multicentre Real-World Study"
+    },
+    {
+      "citekey": "Toraih2025",
+      "reason": "no_public_pdf_found",
+      "title": "The Risk of Vestibular Disorders with Semaglutide and Tirzepatide: Findings from a Large Real-World Cohort"
+    },
+    {
+      "citekey": "Pedigo20251007",
+      "reason": "no_public_pdf_found",
+      "title": "Leader-Independent C-Terminal Modification by a Radical S-Adenosyl-l-methionine Maturase Enables Macrocyclic GLP-1-Like Peptides"
+    },
+    {
+      "citekey": "Mi20261089",
+      "reason": "no_public_pdf_found",
+      "title": "Tirzepatide retention in iWAT with mesoporous polydopamine encapsulation enhances weight loss through leptin receptor signaling"
+    },
+    {
+      "citekey": "Hao2026",
+      "reason": "no_public_pdf_found",
+      "title": "Lycium barbarum-Derived Extracellular Vesicles Ameliorate Myocardial Hypertrophy in Heart Failure with Preserved Ejection Fraction, Associated with Reduced Cardiomyocyte Apoptosis"
+    },
+    {
+      "citekey": "Huang2026",
+      "reason": "no_public_pdf_found",
+      "title": "Oral delivery of GLP-1 analogues by recombinant Lactococcus lactis restores pancreatic islet structure through intestinal mucosal absorption in diabetic mice"
+    },
+    {
+      "citekey": "Murphy20254936",
+      "reason": "no_public_pdf_found",
+      "title": "In silico investigations of albumin-GLP-1 receptor agonist complexes for diabetes drug delivery applications"
+    },
+    {
+      "citekey": "Levi20261545",
+      "reason": "no_public_pdf_found",
+      "title": "How Low Could Semaglutide Prices Fall? An Analysis of Production Cost and Implications for Global Access"
+    },
+    {
+      "citekey": "Tokgöz2025212",
+      "reason": "no_public_pdf_found",
+      "title": "Activation of the HPA Axis Does Not Explain Nonresponsiveness to GLP-1R Agonist Treatment in Individuals With Type 2 Diabetes"
+    },
+    {
+      "citekey": "Bailey2025",
+      "reason": "no_public_pdf_found",
+      "title": "Multifunctional incretin peptides in therapies for type 2 diabetes, obesity and associated co-morbidities"
+    },
+    {
+      "citekey": "Shahriar2024194",
+      "reason": "no_public_pdf_found",
+      "title": "Enhancing the Therapeutic Efficacy of GLP-1 for Hyperglycemia Treatment: Overcoming Barriers of Oral Gene Therapy with Taurocholic Acid-Conjugated Protamine Sulfate and Calcium Phosphate"
+    },
+    {
+      "citekey": "Tisdale2025e011649",
+      "reason": "no_public_pdf_found",
+      "title": "Racial and Ethnic Differences in Semaglutide Prescriptions for Veterans with Overweight or Obesity in the Veterans Affairs Healthcare System"
+    },
+    {
+      "citekey": "Ababei-Bobu2026",
+      "reason": "no_public_pdf_found",
+      "title": "Chitosan-Coated Niosomal Nanocarriers for the Co-Delivery of Glibenclamide and Curcumin in Diabetes Mellitus"
+    },
+    {
+      "citekey": "Zinzi2026",
+      "reason": "no_public_pdf_found",
+      "title": "Semaglutide Exposure During Pregnancy: Results from the FAERS Database"
+    },
+    {
+      "citekey": "Liu2025881",
+      "reason": "no_public_pdf_found",
+      "title": "In-vitro metabolite identification for MEDI7219, an oral GLP-1 analog, using LC-MS/MS with CID and EAD approaches"
+    },
+    {
+      "citekey": "Lunati20261842",
+      "reason": "no_public_pdf_found",
+      "title": "The use of semaglutide as an add-on therapy in patients with latent autoimmune diabetes in adults"
+    },
+    {
+      "citekey": "Huang2026__jijpx2026100639",
+      "reason": "no_public_pdf_found",
+      "title": "SRT1720-loaded exosome-mimetic nanovesicles promote mitophagy via SIRT1/PARKIN activation to ameliorate diabetic cerebral infarction in a preclinical rat model"
+    },
+    {
+      "citekey": "Schneck2024494",
+      "reason": "no_public_pdf_found",
+      "title": "Population pharmacokinetics of the GIP/GLP receptor agonist tirzepatide"
+    },
+    {
+      "citekey": "Singh2024",
+      "reason": "no_public_pdf_found",
+      "title": "Single-Administration Self-Boosting Microneedle Patch for the Treatment of Obesity"
+    },
+    {
+      "citekey": "Wong20256178",
+      "reason": "no_public_pdf_found",
+      "title": "2FA-Platform Generates Dual Fatty Acid-Conjugated GLP-1 Receptor Agonist TE-8105 with Enhanced Diabetes, Obesity, and NASH Efficacy Compared to Semaglutide"
+    },
+    {
+      "citekey": "Holmager2025286",
+      "reason": "no_public_pdf_found",
+      "title": "GLP-1 Receptor Agonists in Overweight and Obese Individuals With Type 1 Diabetes Using an Automated Insulin Delivery Device: A Real-World Study"
+    },
+    {
+      "citekey": "Chen2026__jijpharm20261267",
+      "reason": "no_public_pdf_found",
+      "title": "Optimized sublingual delivery of dual fatty acid–conjugated GLP-1 receptor agonist TE-8105 produces durable efficacy in diabetic mice"
+    },
+    {
+      "citekey": "Douros2025",
+      "reason": "no_public_pdf_found",
+      "title": "A GLP-1 analogue optimized for cAMP-biased signaling improves weight loss in obese mice"
+    },
+    {
+      "citekey": "McNally2026E249",
+      "reason": "no_public_pdf_found",
+      "title": "Cost-effectiveness of sodium–glucose cotransporter 2 inhibitors and glucagon-like peptide-1 receptor agonists for patients with high cardiovascular risk and type 2 diabetes in Canada"
+    },
+    {
+      "citekey": "Pinto202428406",
+      "reason": "no_public_pdf_found",
+      "title": "Bioengineered Nanomedicines Targeting the Intestinal Fc Receptor Achieve the Improved Glucoregulatory Effect of Semaglutide in a Type 2 Diabetic Mice Model"
+    },
+    {
+      "citekey": "Yu2026",
+      "reason": "no_public_pdf_found",
+      "title": "A study to evaluate the impact of PB-119 injection (a pegylated exenatide formulation) on the pharmacokinetic profiles of Digoxin and Warfarin sodium in healthy subjects"
+    },
+    {
+      "citekey": "Ekinci20268242",
+      "reason": "no_public_pdf_found",
+      "title": "Dual Glucagon and GLP-1 Receptor Agonist Survodutide Improves Biomarkers of Beta-Cell Function and Insulin Sensitivity in People With Type 2 Diabetes or Living With Overweight/Obesity"
+    },
+    {
+      "citekey": "Hartsell2026",
+      "reason": "no_public_pdf_found",
+      "title": "Comparative Effectiveness of SGLT2 Inhibitor and GLP-1 Receptor Agonist on Kidney and Cardiovascular Outcomes by Kidney Failure Risk"
+    },
+    {
+      "citekey": "Li2026573",
+      "reason": "no_public_pdf_found",
+      "title": "Liraglutide Promoted Osteogenic Differentiation of Dental Pulp Stem Cells via H3K18 Lactylation-Dependent DSPP Activation"
+    },
+    {
+      "citekey": "Singh2026",
+      "reason": "no_public_pdf_found",
+      "title": "The ocular surface in type 2 diabetes: pathophysiology and impact of anti-diabetic drugs"
+    },
+    {
+      "citekey": "Dahl-Larsen2025",
+      "reason": "no_public_pdf_found",
+      "title": "Patient experiences with group consultations when treated with semaglutide for obesity: A qualitative case study in a Danish general practice"
+    },
+    {
+      "citekey": "Klonoff20243128",
+      "reason": "no_public_pdf_found",
+      "title": "Risks of peri- and postoperative complications with glucagon-like peptide-1 receptor agonists"
+    },
+    {
+      "citekey": "Ziebarth2024",
+      "reason": "no_public_pdf_found",
+      "title": "Oral Delivery of Liraglutide-Loaded Zein/Eudragit-Chitosan Nanoparticles Provides Pharmacokinetic and Glycemic Outcomes Comparable to Its Subcutaneous Injection in Rats"
+    },
+    {
+      "citekey": "Lee2025__pharmaceutics170",
+      "reason": "no_public_pdf_found",
+      "title": "Preparation and Therapeutic Evaluation of Engineered Semaglutide and Statin–Lipid Conjugate-Based Nanoparticle"
+    },
+    {
+      "citekey": "Ashraf2026",
+      "reason": "no_public_pdf_found",
+      "title": "GLP-1 receptor agonist adjunct therapy stabilises Ramadan dysglycaemia in insulin-treated diabetes: a CGM-based study"
+    },
+    {
+      "citekey": "Sasset2026",
+      "reason": "no_public_pdf_found",
+      "title": "DNA-based delivery of incretin receptor agonists using MYO Technology leads to durable weight loss in a diet-induced obesity model"
+    },
+    {
+      "citekey": "Subedi2025637",
+      "reason": "no_public_pdf_found",
+      "title": "An oral liraglutide nanomicelle formulation conferring reduced insulin-resistance and long-term hypoglycemic and lipid metabolic benefits"
+    },
+    {
+      "citekey": "Yin2025",
+      "reason": "no_public_pdf_found",
+      "title": "Efficacy of GLP-1 Receptor Agonist-Based Therapies on Cardiovascular Events and Cardiometabolic Parameters in Obese Individuals Without Diabetes: A Meta-Analysis of Randomized Controlled Trials"
+    },
+    {
+      "citekey": "Moss2026",
+      "reason": "no_public_pdf_found",
+      "title": "Incretin therapy and obesity: current and future pharmacologic possibilities"
+    },
+    {
+      "citekey": "Prada Brichtova20259152",
+      "reason": "no_public_pdf_found",
+      "title": "Observation of unique stable nano-assemblies of a lipidated glucagon-like peptide 1 analogue"
+    },
+    {
+      "citekey": "Thorens20241027",
+      "reason": "no_public_pdf_found",
+      "title": "Building the Glucagon-Like Peptide-1 Receptor Brick by Brick: Revisiting a 1993 Diabetes Classic by Thorens et al"
+    },
+    {
+      "citekey": "Levy2026",
+      "reason": "no_public_pdf_found",
+      "title": "A Text Messaging–Based Program to Transition From Basal Insulin to Glucagon-Like Peptide-1 Receptor Agonists in Safety-Net Diabetes Care: Pilot Quality Improvement Intervention Study"
+    },
+    {
+      "citekey": "Wright2024754",
+      "reason": "no_public_pdf_found",
+      "title": "Initiating GLP-1 Therapy in Combination with FreeStyle Libre Provides Greater Benefit Compared with GLP-1 Therapy Alone"
+    },
+    {
+      "citekey": "Wang2024",
+      "reason": "no_public_pdf_found",
+      "title": "Bitter-tasting drugs tune GDF15 and GLP-1 expression via bitter taste or motilin receptors in the intestine of patients with obesity"
+    },
+    {
+      "citekey": "Hennessy2026229",
+      "reason": "no_public_pdf_found",
+      "title": "Cost-Effectiveness of Semaglutide for Secondary Prevention of Cardiovascular Disease in US Adults"
+    },
+    {
+      "citekey": "Kuo202513465",
+      "reason": "no_public_pdf_found",
+      "title": "Dissecting Hidden Liraglutide Oligomerization Pathways via Direct Mass Technology, Electron-Capture Dissociation, and Molecular Dynamics"
+    },
+    {
+      "citekey": "Balantekin2024",
+      "reason": "no_public_pdf_found",
+      "title": "The emerging role of glucagon-like peptide 1 in binge eating"
+    },
+    {
+      "citekey": "Paddu20242255",
+      "reason": "no_public_pdf_found",
+      "title": "Weight maintenance on cost-effective antiobesity medications after 1 year of GLP-1 receptor agonist therapy: a real-world study"
+    },
+    {
+      "citekey": "Im2026",
+      "reason": "no_public_pdf_found",
+      "title": "Overcoming Gastric Barriers for Oral Peptide Delivery: QbD-Based Development of Sodium Caprate-Enabled Tirzepatide Tablets"
+    },
+    {
+      "citekey": "Sonne2026",
+      "reason": "no_public_pdf_found",
+      "title": "Generation and characterisation of a humanised GLP-1 receptor mouse model for translational drug development"
+    },
+    {
+      "citekey": "Li2025__biology14050575",
+      "reason": "no_public_pdf_found",
+      "title": "Transdermal Semaglutide Administration in Mice: Reduces Body Weight by Suppressing Appetite and Enhancing Metabolic Rate"
+    },
+    {
+      "citekey": "Keith20245601",
+      "reason": "no_public_pdf_found",
+      "title": "Energy Landscapes and Structural Ensembles of Glucagon-like Peptide-1 Monomers"
+    },
+    {
+      "citekey": "Tentolouris20266347",
+      "reason": "no_public_pdf_found",
+      "title": "GLP-1 Receptor Agonist Therapy and Cardiorenal Outcomes in Type 1 Diabetes: A Propensity-Matched Real-World Analysis"
+    },
+    {
+      "citekey": "Kim2024",
+      "reason": "no_public_pdf_found",
+      "title": "Enhanced Oral Efficacy of Semaglutide via an Ionic Nanocomplex with Organometallic Phyllosilicate in Type 2 Diabetic Rats"
+    },
+    {
+      "citekey": "Chu20244674",
+      "reason": "no_public_pdf_found",
+      "title": "Real-world impact of adding a glucagon-like peptide-1 receptor agonist compared with basal insulin on metabolic targets in adults living with type 2 diabetes and chronic kidney disease already treated with a sodium-glucose co-transporter-2 inhibitor: The Impact GLP-1 CKD study"
+    },
+    {
+      "citekey": "Birro2025",
+      "reason": "no_public_pdf_found",
+      "title": "Unlocking the potential of microfluidic assisted formulation of exenatide-loaded solid lipid nanoparticles"
+    },
+    {
+      "citekey": "Jiang2026607",
+      "reason": "no_public_pdf_found",
+      "title": "FAP-targeted gastrodin nanoparticles in responsive hydrogel alleviate cardiac fibrosis via fibroblast metabolic reprogramming"
+    },
+    {
+      "citekey": "Mullins2024361",
+      "reason": "no_public_pdf_found",
+      "title": "Tirzepatide Immunogenicity on Pharmacokinetics, Efficacy, and Safety: Analysis of Data From Phase 3 Studies"
+    },
+    {
+      "citekey": "Khan2026",
+      "reason": "no_public_pdf_found",
+      "title": "Intranasal delivery of Semaglutide using a thermoresponsive PNPHO nanocarrier: formulation development, characterization and biological evaluation"
+    },
+    {
+      "citekey": "Butt2024",
+      "reason": "no_public_pdf_found",
+      "title": "Long-Term clinical efficacy of liraglutide for type 2 diabetes: real-world evidence and outcomes from Pakistan"
+    },
+    {
+      "citekey": "Zangabad2024",
+      "reason": "no_public_pdf_found",
+      "title": "Porous Silicon Microparticles Enable Sustained Release of GLP-1R Agonist Peptides for the Treatment of Type 2 Diabetes"
+    },
+    {
+      "citekey": "Dearden20251",
+      "reason": "no_public_pdf_found",
+      "title": "Incretin receptor agonism during pregnancy: implications for mother and baby"
+    },
+    {
+      "citekey": "Sukumar2026447",
+      "reason": "no_public_pdf_found",
+      "title": "Weight Loss Patterns and Clinical Outcomes of GLP1 Receptor Agonists in Breast Cancer Survivors"
+    },
+    {
+      "citekey": "Moon2026",
+      "reason": "no_public_pdf_found",
+      "title": "Psychiatric Safety Signals of GLP-1 Receptor Agonists: A FAERS-Based Pharmacovigilance Study with Explainable Machine Learning"
+    },
+    {
+      "citekey": "Purcell2026296",
+      "reason": "no_public_pdf_found",
+      "title": "Glucagon-like peptide-1 receptor agonist treatment reduces body weight and improves glycaemic outcomes in patients with concurrent overweight/obesity and type 1 diabetes: A systematic review and meta-analysis"
+    },
+    {
+      "citekey": "Xie2025",
+      "reason": "no_public_pdf_found",
+      "title": "Dual-Targeted Glucose-Dependent Insulinotropic Polypeptide-Loaded Photothermal Nanoparticles to Prevent Obesity via Lipolysis and Browning of White Adipose Tissue"
+    },
+    {
+      "citekey": "Kim2026__nu18071050",
+      "reason": "no_public_pdf_found",
+      "title": "Energy-Metabolism-Enhancing Probiotics Enhance the Therapeutic Response to a Glucagon-like Peptide-1 Receptor Agonist"
+    },
+    {
+      "citekey": "Arduino2026",
+      "reason": "no_public_pdf_found",
+      "title": "Microfluidic-assisted formulation of hydrophobic ion pairing-based solid lipid nanoparticles for semaglutide delivery"
+    },
+    {
+      "citekey": "Dahan2026",
+      "reason": "no_public_pdf_found",
+      "title": "Is Oral Semaglutide a Good Fit for Patients After Metabolic Bariatric Surgery? A Biopharmaceutical Mechanistic Perspective"
+    },
+    {
+      "citekey": "Pinto2024621",
+      "reason": "no_public_pdf_found",
+      "title": "Nanoparticles targeting the intestinal Fc receptor enhance intestinal cellular trafficking of semaglutide"
+    },
+    {
+      "citekey": "Yang2025",
+      "reason": "no_public_pdf_found",
+      "title": "Design of potent and proteolytically stable double biaryl-stapled GLP-1R/GIPR peptide dual agonists"
+    },
+    {
+      "citekey": "Ruggiero2024",
+      "reason": "no_public_pdf_found",
+      "title": "Glucagon-like Peptide-1 Receptor Agonists and Suicidal Ideation: Analysis of Real-Word Data Collected in the European Pharmacovigilance Database"
+    },
+    {
+      "citekey": "Nalbandian2026",
+      "reason": "no_public_pdf_found",
+      "title": "15-PGDH inhibition promotes muscle repair and strength recovery during GLP-1 receptor agonist–induced weight loss"
+    },
+    {
+      "citekey": "Chowdhary2024540",
+      "reason": "no_public_pdf_found",
+      "title": "Liraglutide Improves Myocardial Perfusion and Energetics and Exercise Tolerance in Patients With Type 2 Diabetes"
+    },
+    {
+      "citekey": "Al Hayek2026",
+      "reason": "no_public_pdf_found",
+      "title": "Comparative Clinical and Metabolic Outcomes of GLP-1 Receptor Agonists Versus SGLT2 Inhibitors in Type 1 Diabetes: A Retrospective Cohort Study from Saudi Arabia"
+    },
+    {
+      "citekey": "Richards2025__81912",
+      "reason": "no_public_pdf_found",
+      "title": "Semaglutide and Tirzepatide in a Remote Weight Management Program: 12-Month Retrospective Observational Study"
+    },
+    {
+      "citekey": "Robinson2026",
+      "reason": "no_public_pdf_found",
+      "title": "Metabolic Outcomes in Patients With Type 2 Diabetes Prescribed Incretin-Based Therapy and Referred or Not to a Weight Management Clinic: A Single-Center Retrospective Analyses"
+    },
+    {
+      "citekey": "Dong2025",
+      "reason": "no_public_pdf_found",
+      "title": "Mazdutide, a dual agonist targeting GLP-1R and GCGR, mitigates diabetes-associated cognitive dysfunction: mechanistic insights from multi-omics analysis"
+    },
+    {
+      "citekey": "Fallot202620582",
+      "reason": "no_public_pdf_found",
+      "title": "Glucagon-Like Peptide-1 Receptor Agonists Inhibit the Initiation of Toxic Amyloid-β42 Aggregation"
+    },
+    {
+      "citekey": "Singh20263158",
+      "reason": "no_public_pdf_found",
+      "title": "Engineering Marker-Free Lettuce Chloroplast Genome to Express Functional Glucagon-Like Peptide-1 Receptor Agonists Exenatide and Lixisenatide"
+    },
+    {
+      "citekey": "Shapira-Furman2024",
+      "reason": "no_public_pdf_found",
+      "title": "The Synthesis of SNAC Phenolate Salts and the Effect on Oral Bioavailability of Semaglutide"
+    },
+    {
+      "citekey": "Talay20240",
+      "reason": "no_public_pdf_found",
+      "title": "Effectiveness and Side Effect Incidence in a Real-World Digital Weight-Loss Service Using Compounded Semaglutide: A Retrospective Comparative Study"
+    },
+    {
+      "citekey": "Lv2026",
+      "reason": "no_public_pdf_found",
+      "title": "Efficacy and safety of HRS-7535, an oral small-molecule GLP-1 receptor agonist, in patients with diabetic kidney disease (SOLID-DKD): a randomised, double-blind, placebo-controlled, phase 2 trial"
+    },
+    {
+      "citekey": "Kumar2025",
+      "reason": "no_public_pdf_found",
+      "title": "GLP-1/GLP-1R axis: from metabolism (obesity and T2DM) to immunity"
+    },
+    {
+      "citekey": "Rebollo2025267",
+      "reason": "no_public_pdf_found",
+      "title": "Salcaprozate-based ionic liquids for GLP-1 gastric delivery: A mechanistic understanding of in vivo performance"
+    },
+    {
+      "citekey": "Gonzalez2026166",
+      "reason": "no_public_pdf_found",
+      "title": "GLP-1 receptor agonists reduce body mass index and total daily insulin dose in youth with type 1 diabetes: a retrospective cohort study"
+    },
+    {
+      "citekey": "Ametov2026387",
+      "reason": "no_public_pdf_found",
+      "title": "Comparative analysis of bioequivalence, safety, and tolerability of semaglutide (tablets): Results of an open-label randomized crossover comparative study; [Сравнительный анализ биоэквивалентности, безопасности и переносимости семаглутида (таблетки): результаты открытого рандомизированного перекрестного сравнительного исследования]"
+    },
+    {
+      "citekey": "Xu20251790",
+      "reason": "no_public_pdf_found",
+      "title": "Design and Biosynthesis of Ornithine 8-Containing Semaglutide Variants with a Click Chemistry-Modifiable Position 26"
+    },
+    {
+      "citekey": "Forslund202625",
+      "reason": "no_public_pdf_found",
+      "title": "GLP-1 receptor agonist treatment in women with polycystic ovary syndrome—a systematic review and meta-analysis"
+    },
+    {
+      "citekey": "Cao2026",
+      "reason": "no_public_pdf_found",
+      "title": "Piperazine-Functionalized Nanoparticles Enable Oral Insulin Delivery in Obese Mice"
+    },
+    {
+      "citekey": "Emeh2025",
+      "reason": "no_public_pdf_found",
+      "title": "Impact of chemical structure, lipidation and formulation on luminal stability and intestinal absorption of GLP-1 analogues"
+    },
+    {
+      "citekey": "Schmidt2025",
+      "reason": "no_public_pdf_found",
+      "title": "Self-Emulsifying delivery systems for oral administration of exenatide: Hydrophobic ion pairs vs. Dry reverse micelles"
+    },
+    {
+      "citekey": "Xu20251243",
+      "reason": "no_public_pdf_found",
+      "title": "Titration and discontinuation of semaglutide for weight management in commercially insured US adults"
+    },
+    {
+      "citekey": "Ariaee2026",
+      "reason": "no_public_pdf_found",
+      "title": "Gut microbiota perturbation and systemic inflammation are associated with salcaprozate sodium (SNAC)-enabled oral semaglutide delivery"
+    },
+    {
+      "citekey": "Furió-Novejarque2025332",
+      "reason": "no_public_pdf_found",
+      "title": "GLP-1 Receptor Agonists Models for Type 1 Diabetes: A Narrative Review"
+    },
+    {
+      "citekey": "Yang2025__nano15181399",
+      "reason": "no_public_pdf_found",
+      "title": "Design of Electrostatic Nanocomplex of Semaglutide with Protamine and Zinc for Subcutaneous Prolonged Delivery"
+    },
+    {
+      "citekey": "Duan2026",
+      "reason": "no_public_pdf_found",
+      "title": "Effects of pH and Salts on the Aggregation State of Semaglutide and Membrane Filtration Performance"
+    },
+    {
+      "citekey": "Zhang2025__jex270099",
+      "reason": "no_public_pdf_found",
+      "title": "Oral Delivery of Semaglutide and Tirzepatide Using Milk-Derived Small Extracellular Vesicles"
+    },
+    {
+      "citekey": "Sagar20268034",
+      "reason": "no_public_pdf_found",
+      "title": "Electrospun Nanofiber Oral Thin Film Platform for Sublingual Peptide Delivery: A Promising Alternative to Conventional Semaglutide Formulations"
+    }
+  ]
 }

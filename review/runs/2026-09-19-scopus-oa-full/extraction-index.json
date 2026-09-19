@@ -1,0 +1,995 @@
+[
+  {
+    "record_id": "Zachou2024127",
+    "citekey": "Zachou2024127",
+    "title": "The role of anti-diabetic drugs in NAFLD. Have we found the Holy Grail? A narrative review",
+    "author": "Zachou, Maria and Flevari, Pagona and Nasiri-Ansari, Narjes and Varytimiadis, Constantinos and Kalaitzakis, Evangelos and Kassi, Eva and Androutsakos, Theodoros",
+    "year": "2024",
+    "journal": "European Journal of Clinical Pharmacology",
+    "doi": "10.1007/s00228-023-03586-1",
+    "title_reason": "Anti-diabetic drug paper in a metabolic setting (may include GLP-1; kept for full text)",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Purpose Non-alcoholic fatty liver disease (NAFLD) has become a leading cause of liver disease, affecting 30% of the global population. NAFLD prevalence is particularly high in obese individuals and patients with type 2 diabetes mellitus (T2DM). NAFLD ranges from simple fat deposition in the liver to necroinflammation and fibrosis (non-alcoholic steatohepatitis (NASH)), NASH-cirrhosis, and/or hepatocellular carcinoma. Insulin resistance plays a key role in NAFLD pathogenesis, alongside dysregulation of adipocytes, mitochondrial dysfunction, genetic factors, and changes in gut microbiota. Since insulin resistance is also a major predisposing factor of T2DM, the administration of anti-diabetic drugs for the management of NAFLD seems reasonable.",
+    "lead_chars": 751,
+    "text_chars": 127907,
+    "design": [
+      "review"
+    ],
+    "topics": [
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Fredholt20261773",
+    "citekey": "Fredholt20261773",
+    "title": "Impact of sodium caprate dosed as a mini-tablet or suspension on insulin delivery and mucosa histomorphology",
+    "author": "Fredholt, Freja and Heade, Joanne and Rantanen, Jukka and Rønholt, Stine and Nielsen, Hanne Mørck",
+    "year": "2026",
+    "journal": "Drug Delivery and Translational Research",
+    "doi": "10.1007/s13346-025-01977-8",
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Oral administration of solid dosage forms for delivery of therapeutic peptides is highly desired. Preclinical investigations on co-administration with permeation enhancers (PEs) to enable sufficient oral bioavailabilities are, however, predomi - nantly done using liquid formulations despite the commercial end-goal being a solid dosage form. Given the amounts needed of PE, this will typically result in a compacted tablet with high amounts of the PE of choice. The aim of this study was to compare the pharmacokinetics (PK) and pharmacodynamics (PD) of insulin after co-formulation with a fixed dose of sodium caprate (C10) in solid dosage forms versus liquid dosage forms. PK/PD parameters in rats were evaluated after dosing mini-tablets and liquid formulations with different amounts of insulin and 26 mg/kg C10 after intestinal administra- tion. Absorption of insulin was dose-dependent in the presence of the PE for both types of dosage forms, which was also reflected in the blood glucose levels. A significant absorption enhancing effect of C10 was found when dosing a 75 IU/ kg insulin mini-tablet, resulting in a 26-fold increase in bioavailability. The effect of C10 on the rat intestinal tissue was investigated by histomorphological assessment evaluating erosion and villi height. Effects caused by the C10 mini-tablets and the liquid formulations were similar and shown to be transient. Overall, the findings in this study suggest that mini- tablets can be used to assess peptide bioav",
+    "lead_chars": 1649,
+    "text_chars": 72277,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Lunati2026",
+    "citekey": "Lunati2026",
+    "title": "Case Report: Latent autoimmune diabetes in two young female patients successfully treated with oral semaglutide and basal insulin",
+    "author": "Lunati, Maria Elena and Galesi, Giuseppe and Bernasconi, Davide and Tinari, Camilla and Fiorina, Paolo",
+    "year": "2026",
+    "journal": "Frontiers in Endocrinology",
+    "doi": "10.3389/fendo.2026.1833794",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Case Report: Latent autoimmune diabetes in two young female patients successfully treated with oral semaglutide and basal insulin Maria Elena Lunati 1, Giuseppe Galesi 1, Davide Bernasconi 1, Camilla Tinari 1 and Paolo Fiorina 1,2,3,4* 1Division of Endocrinology, ASST Fatebenefratelli-Sacco, Milan, Italy, 2Department of Biomedical and Clinical Sciences, University of Milan, Milan, Italy, 3International Center for T1D, Pediatric Clinical Research Center Romeo ed Enrica Invernizzi, DIBIC, Università di Milano, Milan, Italy, 4Nephrology Division, Boston Children ’s Hospital, Harvard Medical School, Boston, MA, United States Latent autoimmune diabetes in youth (LADY) is a poorly characterized form of autoimmune diabetes with onset between 8 and 29 years of age and with slow progression toward insulin dependence, similarly to latent autoimmune diabetes of the adult (LADA), which leads to diagnostic dif ﬁculties and possibly to thera- peutic implications. In this case series, we discuss two cases of juvenile- and young adult-onset autoimmune diabetes with very low insulin need at least after diagnosis and the ef ﬁcacy of treatment with semaglutide. In case 1, a 20-year-old woman with obesity (31.8 kg/m 2) with a non-ketoacidotic onset of diabetes was initially put on metformin and basal insulin. Previous ultrasound of the abdomen showed a hyperechogenic liver pattern. Tests showed high-titer multiple diabe- tes-related autoantibodies positivity, but still detectable C-peptide level",
+    "lead_chars": 1800,
+    "text_chars": 28702,
+    "design": [
+      "case_report"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Tian2025",
+    "citekey": "Tian2025",
+    "title": "Semaglutide promotes the proliferation and osteogenic differentiation of bone-derived mesenchymal stem cells through activation of the Wnt/LRP5/β-catenin signaling pathway",
+    "author": "Tian, Yawei and Liu, Huiming and Bao, Xiaoxue and Li, Yukun",
+    "year": "2025",
+    "journal": "Frontiers in Pharmacology",
+    "doi": "10.3389/fphar.2025.1539411",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Semaglutide promotes the proliferation and osteogenic differentiation of bone-derived mesenchymal stem cells through activation of the Wnt/LRP5/ β-catenin signaling pathway Yawei Tian 1, Huiming Liu 2, Xiaoxue Bao 1 and Yukun Li 1* 1Department of Endocrinology, Hebei Medical University Third Hospital, Shijiazhuang, China, 2Department of Stomatology, Hebei Medical University Second Hospital, Shijiazhuang, China Diabetes mellitus is a global disease in which alterations in the internal environment disrupt the bone-fat balance, contributing to osteoporosis. Semaglutide, a single-target, long-acting glucagon-like peptide-1 receptor agonist (GLP-1RA), has been shown to promote osteogenesis in vitro , but the underlying mechanism remains unclear. In this study, the ability of Semaglutide to promote the proliferation of bone-derived mesenchymal stem cells (BMSCs) was determined by CCK-8 kit and ﬂow cytometry, Alkaline phosphatase (ALP) staining and alizarin red S staining showed that semaglutide increased ALP activity and the proportion of mineralised nodules during induction of osteogenesis, wound healing assay to evaluate the pro-migratory ability of semaglutide on BMSCs.Western blotting and RT-PCR showed that semaglutide promoted the mRNA and protein expression of osteocalcin (OCN) and Runt-related transcription factor 2 (RUNX2), and further determined the OCN expression level by immuno ﬂuorescence. RNA sequencing was performed to analyze the mechanisms underlying BMSC osteogenes",
+    "lead_chars": 1799,
+    "text_chars": 70643,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "vesicle",
+      "delivery",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Raubenheimer2024",
+    "citekey": "Raubenheimer2024",
+    "title": "Sweetening the deal: an infodemiological study of worldwide interest in semaglutide using Google Trends extended for health application programming interface",
+    "author": "Raubenheimer, Jacques Eugene and Myburgh, Pieter Hermanus and Bhagavathula, Akshaya Srikanth",
+    "year": "2024",
+    "journal": "BMC Global and Public Health",
+    "doi": "10.1186/s44263-024-00095-w",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Background Off-label use of semaglutide for non-diabetic weight loss (which regulators have linked to social media promotion) created worldwide supply shortages. We evaluated worldwide semaglutide interest measured by online search behavior to gauge social media and conventional print media reporting’s effect on search interest.",
+    "lead_chars": 330,
+    "text_chars": 67137,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Wallentowitz2026853",
+    "citekey": "Wallentowitz2026853",
+    "title": "Maternal obesity and the metabolic syndrome in reproductive health: assessing incretin-based interventions",
+    "author": "Wallentowitz, Luisa and Garcia, Mariana G and Atorrasagasti, Catalina and Harms, Charlotte and Huhn, Evelyn A and Roser, Pia and Verlohren, Stefan and Giesen, Emma M and Blois, Sandra M",
+    "year": "2026",
+    "journal": "Reviews in Endocrine and Metabolic Disorders",
+    "doi": "10.1007/s11154-026-10053-6",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "The global epidemic of overweight and obesity threatens gynecological and reproductive health, necessitating effective therapeutic strategies to improve maternal and fetal long-term health outcomes. This review provides an overview of weight loss interventions and discusses their use in the context of gestation, such as surgical interventions and anti-obesity medications. As the interest in incretin-based therapies has risen substantially, we discuss how incretin-based therapies, including glucagon-like peptide-1 (GLP-1) receptor agonists and GLP-1 receptor agonists and glucose-dependent insuli - notropic polypeptide (GIP) dual agonists, might improve reproductive function and could interact with the physiological metabolic changes ensuring a healthy pregnancy. These metabolic adaptations during pregnancy arise from the integration of insulin signaling, lipid metabolism, placental endocrine function, mitochondrial remodeling and inflammatory regula - tion. Furthermore, we consider not only short-term consequences of maternal overweight and obesity but also focus on fetal long-term health trajectories following pregnancy-related metabolic disorders, as maternal obesity and gestational weight gain are considered risk factors for childhood obesity and overweight.",
+    "lead_chars": 1280,
+    "text_chars": 132065,
+    "design": [
+      "review"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Jeong2026",
+    "citekey": "Jeong2026",
+    "title": "Morphology-driven zinc oxide biointeractive carriers with biological barrier modulating effects for pulmonary delivery of liraglutide",
+    "author": "Jeong, Jin-Hyuk and Han, Chang-Soo and Kang, Ji-Hyun and Kim, Dong-Wook and Park, Chun-Woong",
+    "year": "2026",
+    "journal": "Journal of Nanobiotechnology",
+    "doi": "10.1186/s12951-026-04085-y",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Pulmonary delivery provides a noninvasive route for systemic administration of biologics, yet efficient lung deposition and permeation across pulmonary barriers remain major challenges. In this study, morphology- engineered zinc oxide (ZO) biointeractive carriers were fabricated and evaluated as inhalable carriers for liraglutide (LG). Three distinct morphologies were obtained: smooth spherical ZO-1 (5–7 μm), spiky sea-urchin-like ZO-2 (5–8 μm with elongated ~ 3.5 μm tips), and compact spiky ZO-3 (1–3 μm with short ~ 1.3 μm tips). Particle image velocimetry (PIV) revealed morphology-dependent aerodynamic behaviors, where ZO-3 exhibited turbulence- driven dispersion favoring distal lung deposition. At the cellular level, ZO-3 demonstrated enhanced mucus penetration and reduced macrophage uptake, maintaining prolonged contact with the epithelial surface. Following intratracheal administration, LG@ZO-3 achieved bioavailability of ~ 60% relative to subcutaneous injection in healthy rats and ~ 51% in diabetic rats, far exceeding the < 2% oral bioavailability of semaglutide. These results suggest that morphology-controlled modulation of aerodynamic and biological interactions can overcome multiple pulmonary barriers, offering a promising strategy for effective inhalable delivery of peptide therapeutics.",
+    "lead_chars": 1318,
+    "text_chars": 108305,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Yue2025809",
+    "citekey": "Yue2025809",
+    "title": "IMPACT OF SEMAGLUTIDE ON DIABETIC RETINOPATHY: A FAERS DATABASE ANALYSIS AND PRECLINICAL STUDY",
+    "author": "Yue, Xinxin and Fu, Yang and Yu, Fei and Yin, Xiaoyan",
+    "year": "2025",
+    "journal": "Acta Poloniae Pharmaceutica - Drug Research",
+    "doi": "10.32383/appdr/216204",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "809 Acta Poloniae Pharmaceutica – Drug Research, V ol. 82 No. 5 pp. 809-824, 2025 DOI: 10.32383/appdr/216204 Received 16 October 2025, Received in revised form 11 December 2025, Accepted 29 December 2025 Published on-line: 3 March 2026 PHARMACOLOGY IMPACT OF SEMAGLUTIDE ON DIABETIC RETINOPATHY: A FAERS DATABASE ANALYSIS AND PRECLINICAL STUDY XINXIN YUE1 , YANG FU2 , FEI YU3 , and XIAOYAN YIN1* 1Department of College of Clinical Medicine, He University, Shenyang, 110163, China 2Department of Burns and plastic surgery, General Hospital of the Northern Theater Command, Shenyang, 110000, China 3Liaoning V ocational College of Medicine, Shenyang,110101, China Abstract: The primary objective of this study was to quantitatively evaluate the potential risk of semaglutide in increasing the incidence of diabetic retinopathy and to elucidate its effects on human retinal microvascular endothelial cells (HRMECs) at the cellular level. The study utilized the FAERS database, which collects spontaneously reported adverse events, as the data source. A total of 179,477,200 patients from 2004 Q1 to 2024 Q2 were included, with 53,352,754 adverse events recorded. For 287,470 patients using semaglutide and 82,931 associated adverse events, four signal detection algorithms (reported odds ratio, proportional reporting ratio, Bayesian confidence propagation neural network, and empirical Bayesian geometric mean) were applied. In vitro experiments involved culturing HRMECs under normal and high glucose",
+    "lead_chars": 1781,
+    "text_chars": 55064,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Domingues20242917",
+    "citekey": "Domingues20242917",
+    "title": "Effects of semaglutide-loaded lipid nanocapsules on metabolic dysfunction-associated steatotic liver disease",
+    "author": "Domingues, Inês and Yagoubi, Hafsa and Zhang, Wunan and Marotti, Valentina and Kambale, Espoir K. and Vints, Katlijn and Sliwinska, Malgorzata Alicja and Leclercq, Isabelle A. and Beloqui, Ana",
+    "year": "2024",
+    "journal": "Drug Delivery and Translational Research",
+    "doi": "10.1007/s13346-024-01576-z",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a highly prevalent chronic liver disease that can progress to end-stage conditions with life-threatening complications, but no pharmacologic therapy has been approved. Drug delivery systems such as lipid nanocapsules (LNC) are very versatile platforms that are easy to produce and can induce the secretion of the native glucagon-like peptide 1 (GLP-1) when orally administered. GLP-1 analogs are currently being studied in clinical trials in the context of MASLD. Our nanosystem provides with increased levels of the native GLP-1 and increased plasmatic absorption of the encapsulated GLP-1 analog (semaglutide). Our goal was to use our strategy to demonstrate a better outcome and a greater impact on the metabolic syndrome associated with MASLD and on liver disease progression with our strategy compared with the oral marketed version of semaglutide, Rybelsus®. Therefore, we studied the effect of our nanocarriers on a dietary mouse model of MASLD, the Western diet model, during a daily chronic treatment of 4 weeks. Overall, the results showed a positive impact of semaglutide-loaded lipid nanocapsules towards the normalization of glucose homeostasis and insulin resistance. In the liver, there were no significant changes in lipid accumulation, but an improvement in markers related to inflammation was observed. Overall, our strategy had a positive trend on the metabolic syndrome and at reducing inflam- mation, mitigating",
+    "lead_chars": 1723,
+    "text_chars": 51782,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Hölscher20251201",
+    "citekey": "Hölscher20251201",
+    "title": "Incretin Hormones GLP-1 and GIP Normalize Energy Utilization and Reduce Inflammation in the Brain in Alzheimer’s Disease and Parkinson’s Disease: From Repurposed GLP-1 Receptor Agonists to Novel Dual GLP-1/GIP Receptor Agonists as Potential Disease-Modifying Therapies",
+    "author": "Hölscher, Christian",
+    "year": "2025",
+    "journal": "CNS Drugs",
+    "doi": "10.1007/s40263-025-01226-z",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Vol.:(0123456789) CNS Drugs (2025) 39:1201–1220 https://doi.org/10.1007/s40263-025-01226-z LEADING ARTICLE Incretin Hormones GLP‑1 and GIP Normalize Energy Utilization and Reduce Inflammation in the Brain in Alzheimer’s Disease and Parkinson’s Disease: From Repurposed GLP‑1 Receptor Agonists to Novel Dual GLP‑1/GIP Receptor Agonists as Potential Disease‑Modifying Therapies Christian Hölscher1,2,3 Received: 22 May 2025 / Accepted: 27 August 2025 / Published online: 12 September 2025 © The Author(s) 2025 Abstract Alzheimer’s disease (AD) and Parkinson’s disease (PD) are chronic neurodegenerative disorders with few effective drug treatments available. An underrated element of these diseases is that glucose uptake and energy utilization is much reduced in neurons. In the brains of patients, signaling of insulin, insulin-like growth factor 1, and other growth factors is downregu- lated early on. This leads to reduced glucose utilization and impaired mitochondrial function. In an attempt to compensate for the loss, other pathways are upregulated, e.g., the increased use of ketones produced from fatty acids by astrocytes that are shuttled to neurons. In addition, amino acids are increasingly used to generate energy. Despite this, neurons generate less and less energy over time, leading to impaired synaptic activity, reduced cell repair, mitogenesis, autophagy, the accumula- tion of misfolded proteins, and finally, to cell death. At the same time, the chronic inflammation response in",
+    "lead_chars": 1785,
+    "text_chars": 104312,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Sandmeier20252146",
+    "citekey": "Sandmeier20252146",
+    "title": "Design of self-emulsifying oral delivery systems for semaglutide: reverse micelles versus hydrophobic ion pairs",
+    "author": "Sandmeier, Matthias and Ricci, Fabrizio and To, Dennis and Lindner, Sera and Stengel, Daniel and Schifferle, Michaela and Koz, Saadet and Bernkop-Schnürch, Andreas",
+    "year": "2025",
+    "journal": "Drug Delivery and Translational Research",
+    "doi": "10.1007/s13346-024-01729-0",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "It was the aim of this study to evaluate the potential of reverse micelles (RM) and hydrophobic ion pairs (HIP) for incor - poration of semaglutide into self-emulsifying oral drug delivery systems. Reverse micelles loaded with semaglutide were formed with a cationic (ethyl lauroyl arginate, ELA) and an anionic surfactant (docusate, DOC), whereas HIP were formed between semaglutide and ELA. Maximum solubility of the peptide and the rate of dissolution was evaluated in various lipophilic phases (glycerol monocaprylocaprate:caprylic acid 1:4 (m/m), glycerol monolinoleate:caprylic acid 1:4 (m/m) and glycerol monocaprylocaprate:glycerol monolinoleate 1:4 (m/m)). Self-emulsifying drug delivery systems (SEDDS) loaded with RM and HIP were characterized regarding size distribution, zeta potential, cytocompatibility and Caco-2 per - meability. Droplet sizes between 50 and 300 nm with polydispersity index (PDI) around 0.3 and zeta potentials between − 45 mV (RMDOC) and 36 mV (RM ELA) were obtained. RM provided an almost 2-fold higher lipophilicity of semaglutide than HIP resulting in a 4.2-fold higher payload of SEDDS compared to HIP. SEDDS containing RM or HIP showed high cytocompatibilities with a cell survival above 75% for concentrations up to 0.1% on Caco-2 cells and acceptable hemolytic activity. Permeation studies across Caco-2 monolayer revealed an at least 2-fold increase in permeability of semaglutide for the developed formulations. Statement of Significance Hydrophilicity of ",
+    "lead_chars": 2158,
+    "text_chars": 65342,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "delivery"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Zhang2026",
+    "citekey": "Zhang2026",
+    "title": "Microneedle patches deliver targeted GLP-1RAs-loaded nanoparticles for the treatment of rheumatoid arthritis",
+    "author": "Zhang, Hongyu and liu, Yao and Zhang, Shiyu and Wang, Zuli and Zhang, Xia and Zhang, Yang and Zhang, Ji and Liang, Shenju and Li, Changqing and Su, Min and Tian, Zhiqiang and Luo, Liwen",
+    "year": "2026",
+    "journal": "Journal of Nanobiotechnology",
+    "doi": "10.1186/s12951-026-04261-0",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Despite the strong immune-modulatory benefits, there has been a lag in using glucagon-like peptide-1 receptor agonists (GLP-1RAs) in rheumatoid arthritis (RA) due to inefficient articular delivery and poorly understood direct cartilage protection. In this paper, we addressed these critical issues through the mechanism-informed design of a hierarchical drug delivery system. We elucidated previously unnoted ways in which GLP-1RAs curbed RA pathology via direct suppression of the cGAS-STING signaling pathway to inhibit chondrocyte ferroptosis and concomitantly induced macrophage M2 polarization. To turn this mechanistic insight into a targeted therapy, we developed cartilage-targeting silk fibroin nanoparticles modified with a type II collagen-binding peptide WYRGRL for localized GLP-1RAs delivery (GLP-1RAs@NPs-WYRGRL). These GLP-1RAs@NPs-WYRGRL were subsequently loaded into dissolving microneedles (MNs) patches, giving a composite MNs/GLP-1RAs@NPs-WYRGRL system. This system enabled painless transdermal delivery with marked accumulation in arthritic joints, which effectively inhibited chondrocyte ferroptosis via the aforementioned mechanism and also promoted macrophage M2 polarization, thereby attenuating RA progression. This study not only found that the cGAS-STING-ferroptosis pathway was a druggable target in joints, but also pioneered a new flexible delivery platform that resolved the key limitation of low local drug concentrations in joints after systemic administration, and",
+    "lead_chars": 1551,
+    "text_chars": 116023,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Chen2026",
+    "citekey": "Chen2026",
+    "title": "Novel approach for diabetic wound healing: adipose-derived mesenchymal stromal cells Exo@SPHydrogel combined with laser therapy",
+    "author": "Chen, Weizhi and Hong, Jie and Wei, Yiliu and Ye, Junchen and Wu, Qiaoyi",
+    "year": "2026",
+    "journal": "npj Regenerative Medicine",
+    "doi": "10.1038/s41536-026-00459-w",
+    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting",
+    "fulltext_reason": "Stem-cell/exosome product in a metabolic or related setting (full text)",
+    "lead": "npj | regenerative medicine Article Published in partnership with the Australian Regenerative Medicine Institute https://doi.org/10.1038/s41536-026-00459-w Novel approach for diabetic wound healing: adipose-derived mesenchymal stromal cells Exo@SPHydrogel combined with laser therapy Check for updates Weizhi Chen1,2,3, Jie Hong1,3,Y i l i uW e i1,J u n c h e nY e1 & Qiaoyi Wu1,2 This study investigates the effectiveness of multifunctional hydrogels incorporating chlorophyll derivatives and adipose-derived mesenchymal stromal cells (AD-MSCs) exosomes for promoting wound healing in a rat model. Transcriptome sequencing analysis of rat wound tissues revealed a decrease in levels of endothelial cells and M2-type macrophages. The newly developed hydrogel, adipose-derived mesenchymal stromal cell exosomes@Spirulina Platensis (AD-MSC-exo@SP), demonstrated various functionalities including inhibition of bioﬁlm formation, antimicrobial properties, and stimulation of angiogenesis and M2-type macrophage polarization in vitro. Animal trials showed increased expression of proliferative and angiogenic proteins, enhanced M2-type macrophage polarization, reduced in ﬂammation, and improved antimicrobial effects when combined with laser therapy, leading to accelerated skin wound healing. These ﬁndings highlight the potential of the AD- MSC-exo@SP hydrogel as a promising approach to improve wound repair outcomes. With the aging population and an i ncrease in the number of diabetes patients, skin",
+    "lead_chars": 1800,
+    "text_chars": 79412,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "vesicle",
+      "delivery",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Wang202594",
+    "citekey": "Wang202594",
+    "title": "Racial and ethnic disparities in the uptake of SGLT2is and GLP-1RAs among Medicare beneficiaries with type 2 diabetes and heart failure, atherosclerotic cardiovascular disease and chronic kidney disease, 2013–2019",
+    "author": "Wang, Eric and Patorno, Elisabetta and Khosrow-Khavar, Farzin and Crystal, Stephen and Dave, Chintan V.",
+    "year": "2025",
+    "journal": "Diabetologia",
+    "doi": "10.1007/s00125-024-06321-2",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Aims/hypothesis The aim of this study was to investigate racial and ethnic disparities in the use of sodium–glucose cotrans- porter 2 inhibitors (SGLT2is) and glucagon-like peptide-1 receptor antagonists (GLP-1RAs) among older adults with type 2 diabetes and cardiorenal conditions.",
+    "lead_chars": 282,
+    "text_chars": 47719,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "da Silva Lima2024",
+    "citekey": "da Silva Lima2024",
+    "title": "GLP-1 and GIP agonism has no direct actions in human hepatocytes or hepatic stellate cells",
+    "author": "da Silva Lima, Natália and Cabaleiro, Alba and Novoa, Eva and Riobello, Cristina and Knerr, Patrick J. and He, Yantao and Esquinas-Román, Eva M. and González-García, Ismael and Prevot, Vincent and Schwaninger, Markus and Dieguez, Carlos and López, Miguel and Müller, Timo D. and Varela-Rey, Marta and Douros, Jonathan D. and Nogueiras, Ruben",
+    "year": "2024",
+    "journal": "Cellular and Molecular Life Sciences",
+    "doi": "10.1007/s00018-024-05507-6",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "The use of incretin agonists for managing metabolic dysfunction-associated steatohepatitis (MASH) is currently experiencing considerable interest. However, whether these compounds have a direct action on MASH is still under debate. This study aims to investigate whether GLP-1R/GIPR agonists act directly in hepatocytes and hepatic stellate cells (HSCs). For this, human hepatocyte and HSCs lines, as well as primary human hepatocytes and HSCs treated with Liraglutide, Acyl-GIP or the GLP-1/GIP dual agonist (MAR709) were used. We show that the concentrations of each compound, which were effective in insulin release, did not induce discernible alterations in either hepatocytes or HSCs. In hepatocytes displaying elevated fatty acid content after the treatment with oleic acid and palmitic acid, none of the three compounds reduced lipid concentra- tion. Similarly, in HSCs activated with transforming growth factor-β (TGFb), Liraglutide, Acyl-GIP and MAR709 failed to ameliorate the elevated expression of fibrotic markers. The three compounds were also ineffective in phosphorylating CREB, which mediates insulinotropic actions, in both hepatocytes and HSCs. These findings indicate that incretin agonists have no direct actions in human hepatocytes or hepatic stellate cells, suggesting that their beneficial effects in patients with MASH are likely mediated indirectly, potentially through improvements in body weight, insulin resistance and glycemic control.",
+    "lead_chars": 1466,
+    "text_chars": 48945,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Nielsen2025269",
+    "citekey": "Nielsen2025269",
+    "title": "A Bioequivalence Study of Two Formulations of Oral Semaglutide in Healthy Participants",
+    "author": "Nielsen, Mette Søndergaard and Brøndsted, Lise and Kankam, Martin and Morelli, Gaetano and Nguyen, David and Skjøth, Trine Vang and Patted, Usha Rani and van Hout, Marloes",
+    "year": "2025",
+    "journal": "Diabetes Therapy",
+    "doi": "10.1007/s13300-024-01674-8",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Introduction: The glucagon-like peptide-1 (GLP-1) analogue semaglutide is approved as an oral formulation for the treatment of type 2 diabetes. This study aimed to confirm bioequiv- alence between a new, second-generation (2G) oral semaglutide formulation (1.5, 4 and 9 mg) and the initially approved first-generation (1G) formulation (3, 7 and 14 mg).",
+    "lead_chars": 352,
+    "text_chars": 60303,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Khater2026",
+    "citekey": "Khater2026",
+    "title": "Phyllanthus niruri niosomes ameliorate obesity-induced hepatic steatosis in rats via modulating MALAT1/miR-206/GLP-1R signaling and hepatic lipid metabolism",
+    "author": "Khater, Safaa I. and Hussein, Mohamed M. A. and Abdel-Magied, Saydat S. and Lotfy, Marwa M. and khamis, Tarek and Abdelaziz, Sahar and Mostafa, Mahmoud and El-Shaer, Noha Osama and El-Emam, Mahran Mohamed Abd",
+    "year": "2026",
+    "journal": "Biological Research",
+    "doi": "10.1186/s40659-026-00682-1",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Metabolic dysfunction associated fatty liver disease (MAFLD) is a rapidly growing global health burden characterized by hepatic lipid accumulation, insulin resistance, oxidative stress, and inflammation. Phyllanthus niruri (PHYLN) is rich in polyphenols and lignans with known antioxidant and anti-inflammatory properties; however, its therapeutic efficacy is limited by poor bioavailability. This study investigated the protective potential of PHYLN extract loaded into niosomal nanocarriers (PHYLN-NIO) against obesity-induced hepatic steatosis and explored its mechanistic similarity to glucagon-like peptide-1 receptor agonists (GLP-1RAs). Rats were divided into seven groups: control, PHYLN-NIO, HFD, HFD + Semaglutide, HFD + Semaglutide + exendin 9–39, HFD + PHYLN-NIO, and HFD + PHYLN-NIO + exendin 9–39. PHYLN-NIO markedly reduced body weight and body mass index, hepatic steatosis, and inflammation, while enhancing antioxidant status, insulin sensitivity, and lipid profiles. Mechanistically, PHYLN-NIO modulated the lncRNA-MALAT1/miR-206 axis, restored GLP-1/GLP-1R signaling, and downregulated key hepatic lipogenic regulators (LXR-α, SREBP-1c, FASN, ACC-1), while upregulating genes involved in fatty acid oxidation and metabolic homeostasis (FXR, PPAR-α, FOXA2). Notably, co-administration of exendin 9–39 reversed these effects, confirming a GLP-1R-dependent mechanism. These findings suggest that PHYLN-NIO effectively targets MALAT1/miR-206/GLP-1R signaling pathways, demonstrating i",
+    "lead_chars": 1575,
+    "text_chars": 83289,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Yu2025",
+    "citekey": "Yu2025",
+    "title": "Design of a novel long-acting insulin analogs by acetylation modification and compared with insulin Icodec",
+    "author": "Yu, Min and Zhang, Chuanzhi and Xu, Hongjiang and Dong, Yuanzhen and Zhu, Hongxiang and Xia, Chunguang and Feng, Jun",
+    "year": "2025",
+    "journal": "Scientific Reports",
+    "doi": "10.1038/s41598-025-94014-0",
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_reason": "Delivery system in a metabolic or related setting (full text)",
+    "lead": "Design of a novel long-acting insulin analogs by acetylation modification and compared with insulin Icodec Min Yu1,2, Chuanzhi Zhang2, Hongjiang Xu2, Yuanzhen Dong1,3, Hongxiang Zhu1, Chunguang Xia2 & Jun Feng1,3 Insulin is a potent medication for managing diabetes, yet its short half-life requires daily administration. Currently, Novo Nordisk’s icodec is the sole insulin available on the market that requires administration only once a week. Insulin icodec, developed by Novo Nordisk through amino acid mutations and fatty acid side chain modifications, has demonstrated the capability to control blood glucose levels on a once-weekly basis. To improve its efficacy, we modified the acylation side chain of icodec to generate insulin analogs appropriate for weekly dosing. A promising insulin analog, TBE001-A-S033, was synthesized and conjugated, and its efficacy was assessed in ICR and db/db mice. TBE001-A-S033 prolonged blood glucose control in ICR mice and exhibited a comparable blood glucose trend to insulin icodec in db/db mice. These findings suggest that TBE001-A-S033 possesses a favorable hypoglycemic effect and a differential half-life across species compared to insulin icodec, indicating its potential for once-weekly use in humans. This preclinical investigation indicates that TBE001-A-S033 may serve as an effective therapeutic for type 2 diabetes mellitus (T2DM). Keywords Insulin analogs, Long-acting, Fatty acid Abbreviatons AUC Area under the curve DELFIA Dissociationen",
+    "lead_chars": 1775,
+    "text_chars": 60996,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Singh2026405",
+    "citekey": "Singh2026405",
+    "title": "Diabetes Mellitus: A Comprehensive Review On Pathophysiology, Current Therapeutic Challenges, And Future Perspectives Using PLGA Microspheres",
+    "author": "Singh, Abhishek and Pandey, Sushmita and Kandpal, Neeraj and Kashyap, Sidhant and Kumar, Alok and Tyagi, Yogita",
+    "year": "2026",
+    "journal": "International Journal of Drug Delivery Technology",
+    "doi": "10.25258/ijddt.16.6s.66",
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Objective: To provide a comprehensive evaluation of Diabetes Mellitus (DM), its underlying pathophysiology, limitations of existing therapeutic approaches, and to review the potential of Poly (lactic-co-glycolic acid) (PLGA)-based novel drug delivery systems for improving insulin therapy. Significance: Diabetes is a rapidly escalating global burden, and current insulin and oral hypoglycaemic treatments are limited by rapid enzymatic degradation, variable bioavailability, and poor patient adherence due to frequent dosing. Advanced delivery systems such as PLGA-based platforms may overcome these drawbacks by enabling sustained, pulsatile, and glucose-responsive insulin release.",
+    "lead_chars": 684,
+    "text_chars": 40676,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Xu2026",
+    "citekey": "Xu2026",
+    "title": "Incorporation of D-amino Acids and Ornithines into Tirzepatide by Biosynthesis in E. Coli",
+    "author": "Xu, Yanli and Fu, Yuxin and Kuipers, Oscar P.",
+    "year": "2026",
+    "journal": "International Journal of Peptide Research and Therapeutics",
+    "doi": "10.1007/s10989-026-10813-7",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Purpose Tirzepatide is an effective dual GLP-1 and GIP receptor agonist for type 2 diabetes and obesity but faces challenges with low oral bioavailability and stability. Currently, tirzepatide is produced industrially via solid-phase peptide synthesis (SPSS), allows incorporation of noncanonical residues but limited in scalability for rapid mutant generation and biological delivery strategies. This study aimed to develop a microbial biosynthetic platform for tirzepatide production to enable effi - cient mutant library construction and stability optimization.",
+    "lead_chars": 564,
+    "text_chars": 51011,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Tian2025__fneur20251653900",
+    "citekey": "Tian2025",
+    "title": "Efficacy evaluation and mechanistic investigation of transcutaneous auricular vagus nerve stimulation in enhancing the therapeutic effects of semaglutide and reducing its gastrointestinal side effects: a randomized controlled trial protocol",
+    "author": "Tian, Xinyi and Zhang, Lu and Zhang, Kaiqi and Ge, Xiaolei and Luo, Zhengrong and Zhang, Youwen and Wang, Ge and Zhai, Xu",
+    "year": "2025",
+    "journal": "Frontiers in Neurology",
+    "doi": "10.3389/fneur.2025.1653900",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Frontiers in Neurology 01 frontiersin.org Efficacy evaluation and mechanistic investigation of transcutaneous auricular vagus nerve stimulation in enhancing the therapeutic effects of semaglutide and reducing its gastrointestinal side effects: a randomized controlled trial protocol Xinyi Tian 1, Lu Zhang 2, Kaiqi Zhang 3, Xiaolei Ge 3, Zhengrong Luo 3, Youwen Zhang 3, Ge Wang 3 and Xu Zhai 4* 1 School of Acupuncture-Moxibustion and Tuina, Shandong University of Traditional Chinese Medicine, Jinan, China, 2 Institute of Chinese Medical History and Literatures, China Academy of Chinese Medical Sciences, Beijing, China, 3 Wangjing Hospital, China Academy of Chinese Medical Sciences, Beijing, China, 4 Graduate School, China Academy of Chinese Medical Sciences, Beijing, China Background: Type 2 diabetes mellitus (T2DM) is a chronic disorder with serious complications. Semaglutide, a GLP-1 receptor agonist, improves glycemic control and weight but is limited by gastrointestinal (GI) side effects, notably nausea, vomiting, and diarrhea, which impair adherence. Transcutaneous auricular vagus nerve stimulation (taVNS), a non-invasive therapy, shows potential in alleviating gastrointestinal symptoms, yet its role in mitigating semaglutide- related side effects and enhancing drug efficacy remains unexplored. Methods: A total of 60 T2DM participants experiencing semaglutide-induced GI side effects will be randomly assigned to a control or intervention group. The control group will receiv",
+    "lead_chars": 1776,
+    "text_chars": 60410,
+    "design": [
+      "rct"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Abo-Elenin20252677",
+    "citekey": "Abo-Elenin20252677",
+    "title": "The crucial role of beta-catenin in the osteoprotective effect of semaglutide in an ovariectomized rat model of osteoporosis",
+    "author": "Abo-Elenin, Mohannad Hakam Hamed and Kamel, Rehab and Nofal, Shahira and Ahmed, Amany Ali Eissa",
+    "year": "2025",
+    "journal": "Naunyn-Schmiedeberg's Archives of Pharmacology",
+    "doi": "10.1007/s00210-024-03378-z",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Postmenopausal osteoporosis is a common chronic medical illness resulting from an imbalance between bone resorption and bone formation along with microarchitecture degeneration attributed to estrogen deficiency and often accompanied by other medical conditions such as weight gain, depression, and insomnia. Semaglutide (SEM) is a recently introduced GLP-1 recep- tor agonist (GLP-1RA) for the treatment of obesity and type 2 diabetes mellitus by mitigating insulin resistance. It has been discovered that the beneficial effects of GLP-1 are associated with alterations in lipolysis, adipogenesis, and anti-inflammatory processes. GLP-1 analogs transmit signals directly to adipose tissue. Mesenchymal stem cells (MSCs) are multidisciplinary cells that originate from bone marrow, migrate to injury sites, and promote bone regeneration. MSCs can differentiate into osteoblasts, adipose cells, and cartilage cells. Our aim is to investigate the role of semaglutide on bone formation and the Wnt signaling pathway. Osteoporosis was induced in female rats by ovariectomy, and the ovariectomized rats were treated with alendronate as standard treatment with a dose of 3 mg/kg orally and semaglutide with two doses (150 mcg/kg and 300 mcg/ kg) S.C. for 10 successive weeks. Semaglutide ameliorates bone detrimental changes induced by ovariectomy. It improves bone microarchitecture and preserves bone mineral content. Semaglutide ameliorates ovariectomy-induced osteoporosis and increases the expression o",
+    "lead_chars": 1797,
+    "text_chars": 71129,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "vesicle",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Dangi2025592",
+    "citekey": "Dangi2025592",
+    "title": "Development and Characterization of Modified Release Dosage Form Utilizing Semaglutide",
+    "author": "Dangi, Aanchal and Sharma, Komal",
+    "year": "2025",
+    "journal": "International Journal of Drug Delivery Technology",
+    "doi": "10.25258/ijddt.15.2.28",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "An agonist of the glucagon-like peptide-1 (GLP-1) receptor, semaglutide, when administered as a pure medication solution, has a significant degree of variability in bioavailability due to its low solubility and low permeability . This variability is reflected in the wide range of plasma concentration values (5.85–38.14), affecting its therapeutic effectiveness. The present study aimed to develop and characterize a modified-release dosage form (FPR-8) to enhance the pharmacokinetic profile of Semaglutide by ensuring controlled and sustained drug release over 24 hours, thereby reducing fluctuations in plasma concentration and improving bioavailability. The optimized formulation FPR-8 was developed and evaluated for its drug release profile, pharmacokinetic parameters, and in vivo performance in animal models. The improved formulation's plasma concentration values were contrasted with those of a pure drug solution. Administration of FPR-8 resulted in significantly reduced variability in plasma concentration values (4.12–19.46) compared to the pure drug suspension. The controlled-release formulation facilitated slow and gradual absorption , ensuring prolonged systemic circulation of Semaglutide over 24 hours. This sustained-release effect contributed to enhanced bioavailability and reduced fluctuations, addressing the limitations associated with the pure drug's pharmacokinetic profile. The development of a modified-release dosage form (FPR-8) successfully optimized the pharmacoki",
+    "lead_chars": 1745,
+    "text_chars": 37183,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Sun2025",
+    "citekey": "Sun2025",
+    "title": "Effects of semaglutide on metabolism and gut microbiota in high-fat diet-induced obese mice",
+    "author": "Sun, Luyan and Shang, Bingqing and Lv, Suyuan and Liu, Guolong and Wu, Qiu and Geng, Yue",
+    "year": "2025",
+    "journal": "Frontiers in Pharmacology",
+    "doi": "10.3389/fphar.2025.1562896",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Effects of semaglutide on metabolism and gut microbiota in high-fat diet-induced obese mice Luyan Sun, Bingqing Shang, Suyuan Lv, Guolong Liu, Qiu Wu* and Yue Geng* Key Laboratory of Food Nutrition and Safety of SDNU, Provincial Key Laboratory of Animal Resistant Biology, College of Life Science, Shandong Normal University, Jinan, China Background: The purpose of this study was to explore how semaglutide, a GLP- 1RA, regulates serum metabolism and gut microbiota to improve obesity in mice and whether fecal microbiota transplantation (FMT) can transmit the bene ﬁcial effects of semaglutide to recipient mice. Methods: Male C57BL/6J mice were given standard diet (ND), high-fat diet (HFD), or high-fat diet with semaglutide (SHF, 100 μg/kg). Fecal microbiota transplantation was used to transplant the fecal suspension supernatant (MT) and bacteria (FMT) from SHF group mice to antibiotic-induced pseudo- germ-free mice. Results: Results showed that semaglutide signi ﬁcantly reduced the body weight, body fat, FBG, and insulin levels induced by high-fat diet, and improved insulin resistance and sensitivity damage ( p < 0.05). This was achieved by regulating the expression of genes related to lipid metabolism such as Pparα, Pparγ, Cpt1a, and Pgc1α in the liver and adipose tissue, as well as the appetite-related genes Leptin, Agrp, Npy, and Pomc in the hypothalamus. After stopping semaglutide intervention 4 weeks, the body weight of the mice rebounded signi ﬁcantly. Fecal microbiota tran",
+    "lead_chars": 1800,
+    "text_chars": 89971,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Hirotsu2025",
+    "citekey": "Hirotsu2025",
+    "title": "Exploring factors predicting the effectiveness of oral semaglutide in Japanese individuals with type 2 diabetes switching from dipeptidyl peptidase 4 inhibitors: a pilot study",
+    "author": "Hirotsu, Takao and Taniguchi, Kanta and Nishimura, Rimei",
+    "year": "2025",
+    "journal": "Frontiers in Clinical Diabetes and Healthcare",
+    "doi": "10.3389/fcdhc.2025.1520389",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Exploring factors predicting the effectiveness of oral semaglutide in Japanese individuals with type 2 diabetes switching from dipeptidyl peptidase 4 inhibitors: a pilot study Takao Hirotsu1*, Kanta Taniguchi2 and Rimei Nishimura3 1Department of Diabetes, Endocrinology and Hematology, Fuji Municipal Central Hospital, Fuji, Japan, 2Department of Internal Medicine, Taniguchi Medical Clinic, Fujinomiya, Japan, 3Division of Diabetes, Metabolism and Endocrinology, Department of Internal Medicine, Jikei University School of Medicine, Minato, Japan Introduction: Oral semaglutide is a glucagon-like peptide-1 receptor agonist (GLP-1 RA) approved for the treatment of type 2 diabetes mellitus (T2DM). Findings from randomized controlled trials (RCTs) and real-world studies indicate that oral semaglutide leads to signi ﬁcant improvements in HbA1c and body weight, comparable to those observed with injectable GLP-1 RAs. Consequently, oral semaglutide is expected to signi ﬁcantly reduce barriers to initiating GLP-1 RA therapy in individuals with diabetes and may lead to an increased transition from dipeptidyl peptidase-4 inhibitors (DPP-4is) to GLP-1 RA therapy. This study was conducted to prospectively investigate the clinical characteristics predicting the achievement of HbA1c < 7% (52 mmol/mol) in Japanese individuals with T2DM who switched from DPP-4is to oral semaglutide. Methods: The study enrolled a total of 74 patients who switched from DPP-4is to oral semaglutide between December 20",
+    "lead_chars": 1799,
+    "text_chars": 54014,
+    "design": [
+      "rct",
+      "observational"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": "7"
+  },
+  {
+    "record_id": "Yao2026__NR202694908852",
+    "citekey": "Yao2026",
+    "title": "Adipose-targeted microneedle patch co-delivering semaglutide and rosiglitazone unlocks adipose browning efficacy for obesity therapy",
+    "author": "Yao, Weiqin and Wang, Jiawen and Zeng, Xuan and Chen, Weihai and Zhang, Xianzheng",
+    "year": "2026",
+    "journal": "Nano Research",
+    "doi": "10.26599/NR.2026.94908852",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Current clinical management of obesity relies primarily on glucagon-like peptide-1 (GLP-1) receptor agonists or peroxisome proliferator-activated receptor gamma (PPAR-γ) agonists. However, GLP-1 agonists often lead to weight regain after discontinuation, while PPAR-γ agonist efficacy is limited by the pro-inflammatory adipose microenvironment. Here, we report an adipose-targeted nanocomposite microneedle patch (LRSG- SG@MN) for obesity treatment via an immuno-metabolic modulation strategy based on the co-delivery of rosiglitazone and semaglutide. This platform leverages the intrinsic affinity of nano-lipid droplets for adipocytes to deliver rosiglitazone, thereby activating PPAR-γ signaling and initiating mitochondrial biogenesis. Concurrently, the sustained release of semaglutide reprograms the local immune microenvironment by driving macrophage polarization from pro-inflammatory M1 to anti- inflammatory M2 phenotypes. Mechanistically, this resolution of adipose inflammation alleviates the suppression of thermogenesis, creating a circuit that potentiates the browning effects of rosiglitazone. In high-fat diet-induced obese mice, this strategy demonstrated robust efficacy, significantly reducing adiposity and ameliorating glucolipid metabolic disorders. Notably, the system exhibited excellent weight maintenance capacity following treatment cessation without significant rebound, achieving efficient and durable anti-obesity outcomes. This study unveils the non-central immunomod",
+    "lead_chars": 1804,
+    "text_chars": 72126,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Mastaitis2025",
+    "citekey": "Mastaitis2025",
+    "title": "GDF8 and activin A blockade protects against GLP-1–induced muscle loss while enhancing fat loss in obese male mice and non-human primates",
+    "author": "Mastaitis, Jason W. and Gomez, Daniel and Raya, José G. and Li, Diana and Min, Soo and Stec, Michael and Kleiner, Sandra and McWilliams, Toya and Altarejos, Judith Y. and Murphy, Andrew J. and Yancopoulos, George D. and Sleeman, Mark W.",
+    "year": "2025",
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-025-59485-9",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Article https://doi.org/10.1038/s41467-025-59485-9 GDF8 and activin A blockade protects against GLP-1–induced muscle loss while enhancing fat loss in obese male mice and non-human primates Jason W. Mastaitis , Daniel Gomez, José G. Raya, Diana Li, Soo Min, Michael Stec, Sandra Kleiner, Toya McWilliams, Judith Y. Altarejos ,A n d r e wJ .M u r p h y, George D. Yancopoulos & Mark W. Sleeman Glucagon-like peptide-1 receptor agonists act via appetite suppression and caloric restriction. These treatments can result in signiﬁcant muscle loss, likely due to evolutionary mechanisms protecting against food scarcity as muscle is a major energy utilizer. One mechanism that reduces muscle mass involves acti- vation of type II activin receptors, ActRIIA/B, which yield profound muscle growth in humans when blocked. We previously demonstrated GDF8, also known as myostatin, and activin A are the two major ActRIIA/B ligands mediating muscle minimization. Here, we reportthat dual blockade can also prevent muscle loss associated with glucagon-like peptide-1 receptor agonists– and even increase muscle mass– in both obese mice and non-human primates; moreover, this muscle preservation enhancesfat loss and is metabolically beneﬁcial. These data raise the possibility that supplementing glucagon-like peptide-1 receptor agonist treatment with GDF8 and activinA blockade could greatly improve the quality of weight loss during the treatment of obesity in humans. The dramatic increase in obesity over the",
+    "lead_chars": 1800,
+    "text_chars": 50373,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Woo202511843",
+    "citekey": "Woo202511843",
+    "title": "Fabrication and Preclinical Evaluation of Hyaluronic Acid/Aminoclay Nanocomposite Microneedles for Noninvasive Delivery of Semaglutide in Anti-Obesity Therapy",
+    "author": "Woo, Chang Rim and Kim, Gyu Lin and Han, Hyo-Kyung",
+    "year": "2025",
+    "journal": "International Journal of Nanomedicine",
+    "doi": "10.2147/IJN.S544952",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "ORIGINAL RESEARCH Fabrication and Preclinical Evaluation of Hyaluronic Acid/Aminoclay Nanocomposite Microneedles for Noninvasive Delivery of Semaglutide in Anti-Obesity Therapy Chang Rim Woo, Gyu Lin Kim, Hyo-Kyung Han College of Pharmacy, Dongguk University-Seoul, Goyang, Korea Correspondence: Hyo-Kyung Han, College of Pharmacy, Dongguk University-Seoul, Dongguk-ro-32, Ilsan-Donggu, Goyang, Korea, T el +82-31-961-5217, Fax +82-31-961-5206, Email hkhan@dongguk.edu Introduction: Injectable formulations are common for protein-based therapeutics. However, non-injectable formulations are crucial for improving patient compliance. This study aims to develop hyaluronic acid/aminoclay-based dissolving microneedles as a noninvasive delivery system for semaglutide in the treatment of obesity. Methods: The core nanocomplex (Sema-AC) was formed by combining semaglutide (Sema) with aminoclay (AC) via electrostatic interaction. This nanocomplex was then mixed with hyaluronic acid (HA) of varying molecular weights and poured into a reverse polydimethylsiloxane (PDMS) mold to create dissolving microneedles (MNs). Various in vitro and in vivo studies were performed to evaluate the physicochemical properties and therapeutic efficacy of the MNs. Results: Among the developed MNs, Sema-AC/HA10 demonstrated a mechanical strength of 0.37 ± 0.020 N/needle and retained stable physicochemical and morphological properties at 25°C during storage. Encapsulated Sema retained its conformational stability w",
+    "lead_chars": 1786,
+    "text_chars": 69106,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Swift20241547",
+    "citekey": "Swift20241547",
+    "title": "Real-World Treatment Patterns Among Patients with Type 2 Diabetes Mellitus Initiating Treatment with Oral Semaglutide",
+    "author": "Swift, Caroline and Frazer, Monica S. and Gronroos, Noelle N. and Sargent, Andrew and Leszko, Michael and Buysman, Erin and Alvarez, Sara and Dunn, Tyler J. and Noone, Josh and Guevarra, Mico",
+    "year": "2024",
+    "journal": "Diabetes Therapy",
+    "doi": "10.1007/s13300-024-01589-4",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Introduction: The treatment landscape for type 2 diabetes mellitus (T2DM) is complex and constantly evolving, and real-world evidence of prescribing patterns is limited. The objectives of this study were to characterize lines of therapy (LOTs), calculate the length of time spent on each LOT, and identify the reasons for the LOT end among patients who initiated oral semaglu- tide for T2DM.",
+    "lead_chars": 391,
+    "text_chars": 40710,
+    "design": [
+      "observational"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Sillassen2025",
+    "citekey": "Sillassen2025",
+    "title": "The adverse effects associated with semaglutide use in patients at increased risk of cardiovascular events: a systematic review with meta-analysis and Trial Sequential Analysis",
+    "author": "Sillassen, Christina Dam Bjerregaard and Petersen, Johanne Juul and Faltermeier, Pascal and Yucel, Delal and Siddiqui, Faiza and Andersen, Rebecca Kjær and Graever, Leonardo and Bjerg, Jonas Leth and Kamp, Caroline Barkholt and Grand, Johannes and Dominguez, Helena and Frølich, Anne and Gæde, Peter and Gluud, Christian and Mathiesen, Ole and Jakobsen, Janus Christian",
+    "year": "2025",
+    "journal": "BMC Medicine",
+    "doi": "10.1186/s12916-025-04486-0",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Background Semaglutide’s disease-specific weight-reducing effects are well established, but its adverse effects, which may not be disease-specific, have not been systematically assessed. The aim of this review was to assess the adverse effects associated with semaglutide use compared with placebo in patients at increased risk of cardiovas- cular events.",
+    "lead_chars": 355,
+    "text_chars": 86172,
+    "design": [
+      "meta_analysis",
+      "systematic_review",
+      "review"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Ali2025",
+    "citekey": "Ali2025",
+    "title": "Reduced insulin use and diabetes complications upon introduction of SGLT-2 inhibitors and GLP1-receptor agonists in low- and middle-income countries: A microsimulation",
+    "author": "Ali, Mohammed K. and Aryal, Krishna K. and Atun, Rifat and Bahendeka, Silver K. and Bärnighausen, Till and Basu, Sanjay and Beran, David H. and Bicaba, Brice W. and Bovet, Pascal and Brant, Luisa Campos Caldeira and Damasceno, Albertino and Davies, Justine and Flood, David and Geldsetzer, Pascal and Gurung, Mongal S. and Guwatudde, David and Houehanou, Corine and Jorgensen, Jutta M.A. and Karki, Khem B. and Oh, Sylvia Kehlenbrink and Lipska, Kasia and Luo, Jing and Malta, Deborah C. and Manne-Goehler, Jen and Martins, Joao S. and Mayige, Mary T. and Moghaddam, Sahar Saeedi and Mwalim, Omar and Mwangi, Kibachio Joseph and Norov, Bolormaa and Sibai, Abla Mehio and Teufel, Felix and Theilmann, Michaela and Vollmer, Sebastian and Yudkin, John S. and Zhumadilov, Zhaxybay",
+    "year": "2025",
+    "journal": "PLoS Medicine",
+    "doi": "10.1371/journal.pmed.1004559",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Background Diabetes mellitus, particularly type 2 diabetes, is a growing health concern in low- and middle-income countries (LMICs). The potential impact of newer diabetes medications, such as glucagon-like peptide 1 (GLP-1) receptor agonists and sodium-glucose co- transporter-2 (SGLT -2) inhibitors, on insulin dosage and health outcomes in these settings is not well understood.",
+    "lead_chars": 381,
+    "text_chars": 71714,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Yang2026",
+    "citekey": "Yang2026",
+    "title": "Electroacupuncture enables semaglutide dose sparing in type 2 diabetes by boosting drug concentration and suppressing β-cell apoptosis",
+    "author": "Yang, Xinyi and Wu, Jiayue and Gao, Bing and Zhu, Yunmao and Sun, Yuchen and Ouyang, Ling and Wu, Bufan and Lan, Wenxiao and Zhang, Jing and Zhang, Yujie and Yuan, Binbin and Sun, Yitong and Zhu, Yuanbing and Fu, Shuping and Jing, Xinyue and Xu, Bin",
+    "year": "2026",
+    "journal": "Frontiers in Endocrinology",
+    "doi": "10.3389/fendo.2026.1880819",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Electroacupuncture enables semaglutide dose sparing in type 2 diabetes by boosting drug concentration and suppressing b-cell apoptosis Xinyi Yang 1† , Jiayue Wu 1†, Bing Gao 1, Yunmao Zhu 1, Yuchen Sun 1, Ling Ouyang 2, Bufan Wu 3, Wenxiao Lan 1, Jing Zhang 1, Yujie Zhang 1, Binbin Yuan 1, Yitong Sun 4, Yuanbing Zhu 5, Shuping Fu 1*, Xinyue Jing 1* and Bin Xu 1* 1Key Laboratory of Acupuncture and Medicine Research of Ministry of Education, Nanjing University of Chinese Medicine, Nanjing, China, 2Traditional Chinese Medicine Hospital of Ruichang, Jiujiang, China, 3Nantong Hospital of Traditional Chinese Medicine, Nantong, China, 4School of Chinese Materia Medica, Beijing University of Chinese Medicine, Beijing, China, 5Acupuncture and Moxibustion College, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China Purpose: Semaglutide is effective for type 2 diabetes mellitus (T2DM) but limited by dose-dependent gastrointestinal adverse effects. As electroacupuncture (EA) possesses glucose-lowering effects, this study investigates the therapeutic potential and mechanism of combining EA with semaglutide to facilitate dose reduction while maintaining ef ﬁcacy. Methods: Male db/db mice were divided into: the model group(T2DM), the high/ normal/low-dose semaglutide grou p (SH, SN, SL), the normal/low-dose semaglutide + EA at ST25 group (ST25N, ST25L), and the EA at ST25 group (ST25). The db/m mice served as the control group (CON). Blood glucose regulation was asse",
+    "lead_chars": 1800,
+    "text_chars": 59711,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Fragozo-Ramos2025",
+    "citekey": "Fragozo-Ramos2025",
+    "title": "GIP/GLP-1RA as adjunctive to automated insulin delivery in adults with Type 1 diabetes (the AID-JUNCT trial): Study protocol for a prospective, randomized, clinical trial",
+    "author": "Fragozo-Ramos, Maria Carolina and Schenker, Gabriela and Hepprich, Matthias and Gallo-Villegas, Jaime and Züger, Thomas and Garcia-Tirado, Jose",
+    "year": "2025",
+    "journal": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0335060",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Background Glycemic control in type 1 diabetes (T1D) remains a challenge, with 20−30% of adults achieving an A1c target of <7%. Glucagon-like peptide 1 receptor agonist (GLP-1 RA) and dual glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 RA (GIP/GLP-1 RA) have emerged as a promising therapy in T1D. Previous studies have shown that patients with T1D can significantly improve glycemic control while experiencing a reduction in insulin dose and body weight when long-acting GLP- 1RAs or GIP/GLP-1RAs are added to insulin therapy. However, randomized con- trolled trials (RCT) are still insufficient.",
+    "lead_chars": 611,
+    "text_chars": 69909,
+    "design": [
+      "rct"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Kweon20242973",
+    "citekey": "Kweon20242973",
+    "title": "Coordinated ASBT and EGFR Mechanisms for Optimized Liraglutide Nanoformulation Absorption in the GI Tract",
+    "author": "Kweon, Seho and Park, Seong Jin and Lee, Ha Kyeong and Kang, Seo Hee and Chang, Kwan-Young and Choi, Jeong Uk and Park, Jooho and Shim, Jung-Hyun and Park, Jin Woo and Byun, Youngro",
+    "year": "2024",
+    "journal": "International Journal of Nanomedicine",
+    "doi": "10.2147/IJN.S442617",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "ORIGINAL RESEARCH Coordinated ASBT and EGFR Mechanisms for Optimized Liraglutide Nanoformulation Absorption in the GI Tract Seho Kweon 1,2, Seong Jin Park 3, Ha Kyeong Lee 1, Seo Hee Kang 4, Kwan-Y oung Chang 4, Jeong Uk Choi 5, Jooho Park 6, Jung-Hyun Shim 7, Jin Woo Park 7, Y oungro Byun1,3 1Department of Molecular Medicine and Biopharmaceutical Science, Graduate School of Convergence Science and T echnology, Seoul National University, Seoul, 08826, Republic of Korea; 2College of Pharmacy, Chonnam National University, Gwangju, 61186, Republic of Korea; 3College of Pharmacy, Seoul National University, Seoul, 08826, Republic of Korea; 4Global R&D Center, IcureBNP , Seoul, 06170, Republic of Korea; 5College of Pharmacy, Kyung Hee University, Seoul, 02447, Republic of Korea; 6Department of Biomedical & Health Science, Konkuk University, Chungju, 27478, Republic of Korea; 7College of Pharmacy and Biomedical and Healthcare Research Institute, Mokpo National University, Jeonnam, 58554, Republic of Korea Correspondence: Jin Woo Park; Y oungro Byun, T el +82 61 450 2704, Email jwpark@mokpo.ac.kr; yrbyun@snu.ac.kr Background: For maintenance therapy in type 2 diabetes, glucagon-like peptide-1 agonist (GLP-1A), which exhibits low cardiovas - cular risk and high efficacy, is a promising peptide therapeutic. However, developing an oral GLP-1A presents challenges due to the analog’s poor cellular permeability and gastrointestinal (GI) stability. Methods: To mitigate such limitations, an ",
+    "lead_chars": 1785,
+    "text_chars": 92565,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Shen2025",
+    "citekey": "Shen2025",
+    "title": "Understanding the risk of diabetic retinopathy from glucagon-like peptide-1 receptor agonists: a Mendelian randomization study and systematic review of European populations",
+    "author": "Shen, Baixuan and Wang, Wanying and Guo, Yuanhui and Chen, Zilong and Liu, Chuanxin and Huang, Jiarui and Li, Ying",
+    "year": "2025",
+    "journal": "Diabetology and Metabolic Syndrome",
+    "doi": "10.1186/s13098-025-01878-3",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Background Glucagon-like peptide-1 receptor agonists (GLP-1RA) are extensively prescribed to treat obesity and diabetes. However, previous studies have debated whether GLP-1RA use induces diabetic retinopathy (DR) in diabetic populations, and the relationship between the two is unclear.",
+    "lead_chars": 287,
+    "text_chars": 82736,
+    "design": [
+      "systematic_review"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Abdallah20254286",
+    "citekey": "Abdallah20254286",
+    "title": "Interest in Treatment with GLP-1 Receptor Agonists for the Management of Insufficient Weight Loss or Weight Regain After Bariatric Surgery",
+    "author": "Abdallah, Hussein and Klink, Wissam Hadi and Derienne, Joseph and Voican, Cosmin and Perlemuter, Gabriel and Courie, Rodi and Dagher, Ibrahim and Tranchart, Hadrien",
+    "year": "2025",
+    "journal": "Obesity Surgery",
+    "doi": "10.1007/s11695-025-08210-y",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Background Bariatric surgery (BS) is the most effective treatment for severe obesity, but a significant proportion of patients experience insufficient weight loss (IWL) or weight regain. Glucagon-like peptide-1 receptor agonists (arGLP-1) have emerged as a promising adjunctive therapy for managing these suboptimal outcomes. This study evaluates the efficacy and safety of arGLP-1 in patients with IWL or WR after BS.",
+    "lead_chars": 418,
+    "text_chars": 28429,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Klotsman2024",
+    "citekey": "Klotsman2024",
+    "title": "Drug release profile of a novel exenatide long-term drug delivery system (OKV-119) administered to cats",
+    "author": "Klotsman, Michael and Anderson, Wayne H. and Gilor, Chen",
+    "year": "2024",
+    "journal": "BMC Veterinary Research",
+    "doi": "10.1186/s12917-024-04051-6",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Beneficial weight-loss properties of glucagon-like peptide-1 receptor agonists (GLP-1RA) in obese people, with corresponding improvements in cardiometabolic risk factors, are well established. OKV-119 is an investigational drug delivery system that is being developed for the long-term delivery of the GLP-1RA exenatide to feline patients. The purpose of this study was to evaluate the drug release characteristics of subcutaneous OKV-119 implants configured to release exenatide for 84 days. Following a 7-day acclimation period, five purpose-bred cats were implanted with OKV-119 protypes and observed for a 112-day study period. Food intake, weekly plasma exenatide concentrations and body weight were measured. Exenatide plasma concentrations were detected at the first measured timepoint (Day 7) and maintained above baseline for over 84 Days. Over the first 28 days, reduced caloric intake and a reduction in body weight were observed in four of five cats. In these cats, a body weight reduction of at least 5% was maintained throughout the 112-day study period. This study demonstrates that a single OKV-119 implant can deliver the GLP-1RA exenatide for a months long duration. Results suggest that exposure to exenatide plasma concentrations ranging from 1.5 ng/ml to 4 ng/ml are sufficient for inducing weight loss in cats.",
+    "lead_chars": 1332,
+    "text_chars": 28165,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Bonga20251",
+    "citekey": "Bonga20251",
+    "title": "Incretin Analogues for Weight Reduction in Non-Diabetic Obese: A Review of Liraglutide, Semaglutide, and Tirzepatide Beyond Glycemic Control",
+    "author": "Bonga, Krishna Nikhila and Padhan, Milan",
+    "year": "2025",
+    "journal": "Rambam Maimonides Medical Journal",
+    "doi": "10.5041/RMMJ.10565",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Obesity is a complex, multifactorial disease that contributes to a broad range of cardiometabolic, reproductive, and psychological disorders. Representing a major global health challenge, obesity can be addressed by lifestyle modifications such as reduced calorie intake, physical activity, adequate sleep, and stress manage- ment to help achieve sustainable weight loss and improve metabolic health in the long term. Glucose - dependent insulinotropic polypeptide (GIP) and glucagon -like peptide-1 (GLP-1) are the two naturally produced incretin hormones in the gastrointestinal tract. Incretin analogues were initially approved for type 2 diabetes mellitus but were later found to exhibit weight-reducing properties. Liraglutide, semaglutide, and tirzepatide are the three incretin analogues approved for obesity in non -diabetic patients. This narrative review presents detailed comparisons of the three approved incretin analogues for obesity, their cost - effectiveness, and trends in the clinical setting. KEY WORDS: Liraglutide, obesity, semaglutide, tirzepatide, weight reduction Incretin Analogues in Weight Reduction Rambam Maimonides Medical Journal 2 January 2026  Volume 17  Issue 1  e0006",
+    "lead_chars": 1206,
+    "text_chars": 26735,
+    "design": [
+      "review"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Son202610",
+    "citekey": "Son202610",
+    "title": "Glucagon-like peptide-1–based pharmacological treatment of obesity: a narrative review",
+    "author": "Son, Jang Won",
+    "year": "2026",
+    "journal": "Journal of the Korean Medical Association",
+    "doi": "10.5124/jkma.25.0138",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "19비만 치료의 GLP-1 기반 약물요법 © Korean Medical Association This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/ by-nc/4.0) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. Purpose: Obesity is a chronic, complex disease influenced by genetic, biological, and environmental factors, requiring inte- grated treatment approaches. Since lifestyle modification alone often fails to achieve sustained weight loss, pharmacological interventions are essential for long-term management. Current concepts: Glucagon-like peptide-1 (GLP-1) receptor agonists and related co-agonists have transformed obesity and type 2 diabetes treatment. Agents including liraglutide and semaglutide, plus the dual glucose-dependent insulinotropic polypeptide/GLP-1 receptor agonist tirzepatide, induce substantial weight loss (approximately 10% to 25%) through appetite suppression and enhanced satiety while improving glycemic control. Beyond weight reduction, these therapies demonstrate clinically meaningful cardiovascular and renal benefits, some appearing at least partly independent of weight loss, suggesting direct organ-protective effects. The therapeutic scope of GLP-1–based agents has expanded to multiple obesity-related com- plications, including heart failure with preserved ejection fraction, metabolic dysfunction–associated ",
+    "lead_chars": 1791,
+    "text_chars": 41437,
+    "design": [
+      "review"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Chen2024__fphar20241370594",
+    "citekey": "Chen2024",
+    "title": "Real-world effectiveness of GLP-1 receptor agonist-based treatment strategies on “time in range” in patients with type 2 diabetes",
+    "author": "Chen, Yongru and Chen, Jingxian and Zhang, Shuo and Zhu, Dan and Deng, Feiying and Zuo, Rui and Hu, Yufei and Zhao, Yue and Duan, Yale and Lin, Benwei and Chen, Fengwu and Liang, Yun and Zheng, Jiaxiong and Khan, Barkat Ali and Hou, Kaijian",
+    "year": "2024",
+    "journal": "Frontiers in Pharmacology",
+    "doi": "10.3389/fphar.2024.1370594",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Real-world effectiveness of GLP-1 receptor agonist-based treatment strategies on “time in range ” in patients with type 2 diabetes Yongru Chen 1†, Jingxian Chen 2,3†, Shuo Zhang 1,3, Dan Zhu 4, Feiying Deng 1,3, Rui Zuo 2, Yufei Hu 2, Yue Zhao 5, Yale Duan 6, Benwei Lin 7, Fengwu Chen 1, Yun Liang 3, Jiaxiong Zheng 2, Barkat Ali Khan 8 and Kaijian Hou 2* 1The First Af ﬁliated Hospital of Shantou University Medical College, Shantou, China, 2School of Public Health, Shantou University, Shantou, China, 3Shantou University Medical College, Shantou, China, 4Department of Endocrine and Metabolic Diseases, Longhu People ’s Hospital, Shantou, China, 5School of Medicine, Tulane University, New Orleans, LA, United States, 6Department of Medical Affairs, Hanson (Shanghai) Health Technology Co, Ltd, Shanghai, China, 7School of Physiology, Pharmacology and Neuroscience, University of Bristol, Bristol, United Kingdom, 8Drug Delivery and Cosmetic Lab (DDCL), Gomal Center of Pharmaceutical Sciences, Faculty of Pharmacy, Gomal University, Dera Ismail Khan, Pakistan Background: Diabetes affects millions of people worldwide annually, and several methods, including medications, are used for its management; glucagon-like peptide-1 receptor agonists (GLP-1RAs) are one such class of medications. The efﬁcacy and safety of GLP-1RAs in treating type 2 diabetes mellitus (T2DM) have been assessed and have been shown to signiﬁcantly improve time in range (TIR) in several clinical trials. However, present",
+    "lead_chars": 1800,
+    "text_chars": 36705,
+    "design": [
+      "observational"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Xiong20241717",
+    "citekey": "Xiong20241717",
+    "title": "Adverse Events of Oral GLP-1 Receptor Agonist (Semaglutide Tablets): A Real-World Study Based on FAERS from 2019 to 2023",
+    "author": "Xiong, Si and Gou, Ruoyu and Liang, Xudong and Wu, Hao and Qin, Shuitao and Li, Bing and Luo, Changjun and Chen, Junan",
+    "year": "2024",
+    "journal": "Diabetes Therapy",
+    "doi": "10.1007/s13300-024-01594-7",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Introduction: Glucagon-like peptide-1 recep- tor agonists (GLP-1RAs) have attracted much attention because of their significant hypogly- cemic and weight-loss effects. Previous prepara- tions can only be subcutaneously injected. Oral administration of GLP-1RAs semaglutide helps to broaden treatment options, but its safety in the real world still needs to be observed. This study is based on FDA adverse event reporting system (FAERS) database to mine adverse drug events (ADE) of oral semaglutide, and provide references for the clinical safe use of this drug.",
+    "lead_chars": 562,
+    "text_chars": 45634,
+    "design": [
+      "observational"
+    ],
+    "topics": [
+      "incretin",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Ma2024819",
+    "citekey": "Ma2024819",
+    "title": "Effect of Food Consumption on the Pharmacokinetics, Safety, and Tolerability of Once-Daily Orally Administered Orforglipron (LY3502970), a Non-peptide GLP-1 Receptor Agonist",
+    "author": "Ma, Xiaosu and Liu, Rong and Pratt, Edward J. and Benson, Charles T. and Bhattachar, Shobha N. and Sloop, Kyle W.",
+    "year": "2024",
+    "journal": "Diabetes Therapy",
+    "doi": "10.1007/s13300-024-01554-1",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Introduction: We assessed the effect of the prandial state on the pharmacokinetics, safety, and tolerability of single and multiple doses of orforglipron (LY3502970), an oral, non-peptide glucagon-like peptide 1 receptor agonist (GLP-1 RA), in two studies (A and B).",
+    "lead_chars": 266,
+    "text_chars": 44542,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "incretin"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Pasqua20251239",
+    "citekey": "Pasqua20251239",
+    "title": "Subcutaneous weekly semaglutide with automated insulin delivery in type 1 diabetes: a double-blind, randomized, crossover trial",
+    "author": "Pasqua, Melissa-Rosina and Tsoukas, Michael A. and Kobayati, Alessandra and Aboznadah, Wedyan and Jafar, Adnan and Haidar, Ahmad",
+    "year": "2025",
+    "journal": "Nature Medicine",
+    "doi": "10.1038/s41591-024-03463-z",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Nature Medicine | Volume 31 | April 2025 | 1239–1245 1239 nature medicine https://doi.org/10.1038/s41591-024-03463-z Article Subcutaneous weekly semaglutide with automated insulin delivery in type 1 diabetes: a double-blind, randomized, crossover trial Melissa-Rosina Pasqua 1,2,3 , Michael A. Tsoukas1,2,3, Alessandra Kobayati2,3, Wedyan Aboznadah1,4, Adnan Jafar 5 & Ahmad Haidar 1,2,3,5 Efforts to improve glycemic control in type 1 diabetes are ongoing. We performed a randomized, double-blind, crossover trial to assess semaglutide as adjunct to automated insulin delivery therapy in adults with type 1 diabetes. At each intervention, participants were titrated up to 1 mg or the maximum tolerated dose of semaglutide or placebo over 11 weeks, followed by the use of an automated insulin delivery system for 4 weeks. The primary outcome was the percentage of time spent in the target glucose range of 3.9–10.0 mmol l−1 during the last 4 weeks of each intervention. Twenty-eight participants were randomized and 24 completed the trial. The primary endpoint was met. Compared to placebo, semaglutide increased time in the target range by a mean 4.8 (s.d. = 7.6) percentage points (P = 0.006), without increasing the time spent below 3.9 mmol l−1 (P = 0.19) or below 3.0 mmol l−1 (P = 0.65). While no diabetic ketoacidosis or severe hypoglycemia occurred during any of the interventions, there were two episodes of recurrent euglycemic ketosis without acidosis during semaglutide use. We conclude t",
+    "lead_chars": 1766,
+    "text_chars": 53397,
+    "design": [
+      "rct"
+    ],
+    "topics": [
+      "incretin",
+      "delivery",
+      "metabolic"
+    ],
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Qi2025",
+    "citekey": "Qi2025",
+    "title": "Agonizing GABABR suppresses GLP-1RA’s chronotropic effect and reduces post-myocardial infarction arrhythmogenesis",
+    "author": "Qi, Run and Jingjing, Zhang and Hongchang, Gu and Chenyu, Li and He, Hu and Juan, Li and Yuqin, Zhao and Xiaolin, Wu",
+    "year": "2025",
+    "journal": "Frontiers in Pharmacology",
+    "doi": "10.3389/fphar.2025.1616181",
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text",
+    "lead": "Agonizing GABA BR suppresses GLP-1RA’s chronotropic effect and reduces post-myocardial infarction arrhythmogenesis Run Qi 1,2,3†, Zhang Jingjing 4,5,6†, Gu Hongchang 1,2†, Li Chenyu 3, Hu He 1,2, Li Juan 1,2, Zhao Yuqin 1,2* and Wu Xiaolin 1,2,3* 1Department of Cardiology, Xiangyang Central Hospital, Afﬁliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China,2Institute of Cardiovascular Diseases, Xiangyang Central Hospital, Afﬁliated Hospital of Hubei University of Arts and Science, Xiangyang, Hubei, China,3Hubei Key Laboratory of Biological Targeted Therapy. Union Hospital, Tongji Medical Collage, Huazhong University of Science and Technology, Wuhan, Hubei, China, 4Department of Cardiology, Renmin Hospital of Wuhan University, Wuhan, Hubei, China, 5Department of Electrophysiology, Cardiovascular Research Institute of Wuhan University, Wuhan, Hubei, China,6Department of Electrophysiology, Hubei Key Laboratory of Cardiology, Wuhan, Hubei, China Background: Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have been reported to improve cardiovascular outcomes, potentially through glucose metabolism-independent mechanisms. However, their mechanism of heart rhythm remains controversial. Methods: We investigated the role of the GABA B receptor (GABABR) in mediating GLP-1RA’s chronotropic and anti-arrhythmic effects in a murine myocardial infarction (MI) model. MI was induced by left anterior descending artery ligation. Cardiomyocyte-speci ﬁc Gabbr1-knoc",
+    "lead_chars": 1800,
+    "text_chars": 44448,
+    "design": [
+      "preclinical"
+    ],
+    "topics": [
+      "incretin",
+      "related_setting"
+    ],
+    "n_in_lead": null
+  }
+]

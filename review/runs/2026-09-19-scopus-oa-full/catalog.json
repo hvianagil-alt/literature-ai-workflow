@@ -81,7 +81,9 @@
     "green_oa": true,
     "record_id": "Lee202670",
     "title_decision": "title_include",
-    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting"
+    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Richards2025",
@@ -102,7 +104,9 @@
     "green_oa": true,
     "record_id": "Richards2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Zachou2024127",
@@ -123,7 +127,9 @@
     "green_oa": true,
     "record_id": "Zachou2024127",
     "title_decision": "title_include",
-    "title_reason": "Anti-diabetic drug paper in a metabolic setting (may include GLP-1; kept for full text)"
+    "title_reason": "Anti-diabetic drug paper in a metabolic setting (may include GLP-1; kept for full text)",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Xu2025",
@@ -144,7 +150,9 @@
     "green_oa": false,
     "record_id": "Xu2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sklepinski2025",
@@ -165,7 +173,9 @@
     "green_oa": false,
     "record_id": "Sklepinski2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Goldberg2025",
@@ -207,7 +217,9 @@
     "green_oa": true,
     "record_id": "Tonon2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "McEwan202524",
@@ -270,7 +282,9 @@
     "green_oa": true,
     "record_id": "Kim2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Li2025",
@@ -333,7 +347,9 @@
     "green_oa": true,
     "record_id": "Raptis2025",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Subedi2026",
@@ -354,7 +370,9 @@
     "green_oa": false,
     "record_id": "Subedi2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Luthfiana2026",
@@ -396,7 +414,9 @@
     "green_oa": false,
     "record_id": "Bian20261000",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Fredholt20261773",
@@ -417,7 +437,9 @@
     "green_oa": true,
     "record_id": "Fredholt20261773",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Young2024",
@@ -480,7 +502,9 @@
     "green_oa": true,
     "record_id": "Lunati2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "2026S321",
@@ -543,7 +567,9 @@
     "green_oa": true,
     "record_id": "Garvey20261742",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Kuang2026166",
@@ -585,7 +611,9 @@
     "green_oa": true,
     "record_id": "Zheng2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Dayer20251488",
@@ -606,7 +634,9 @@
     "green_oa": true,
     "record_id": "Dayer20251488",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Tian2025",
@@ -627,7 +657,9 @@
     "green_oa": true,
     "record_id": "Tian2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Malgave2025",
@@ -648,7 +680,9 @@
     "green_oa": false,
     "record_id": "Malgave2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Liu2026",
@@ -669,7 +703,9 @@
     "green_oa": false,
     "record_id": "Liu2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sharma2026",
@@ -732,7 +768,9 @@
     "green_oa": true,
     "record_id": "Reddiar2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Palacios2025",
@@ -837,7 +875,9 @@
     "green_oa": true,
     "record_id": "Raubenheimer2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Kumar2026",
@@ -942,7 +982,9 @@
     "green_oa": true,
     "record_id": "Solis-Herrera202474",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Feng2025",
@@ -963,7 +1005,9 @@
     "green_oa": true,
     "record_id": "Feng2025",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Wallentowitz2026853",
@@ -984,7 +1028,9 @@
     "green_oa": true,
     "record_id": "Wallentowitz2026853",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Seetharaman2025311",
@@ -1005,7 +1051,9 @@
     "green_oa": true,
     "record_id": "Seetharaman2025311",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Ke2025",
@@ -1026,7 +1074,9 @@
     "green_oa": true,
     "record_id": "Ke2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Li2026",
@@ -1194,7 +1244,9 @@
     "green_oa": true,
     "record_id": "Stefanou2024530",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Tian2025",
@@ -1236,7 +1288,9 @@
     "green_oa": true,
     "record_id": "Kenawy2025",
     "title_decision": "title_include",
-    "title_reason": "Anti-diabetic drug paper in a metabolic setting (may include GLP-1; kept for full text)"
+    "title_reason": "Anti-diabetic drug paper in a metabolic setting (may include GLP-1; kept for full text)",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "de Oliveira2026",
@@ -1299,7 +1353,9 @@
     "green_oa": true,
     "record_id": "Oya2025608",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Hamza2025339",
@@ -1341,7 +1397,9 @@
     "green_oa": true,
     "record_id": "Cirnigliaro2024597",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Karki2026",
@@ -1362,7 +1420,9 @@
     "green_oa": false,
     "record_id": "Karki2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Frolov202616",
@@ -1425,7 +1485,9 @@
     "green_oa": true,
     "record_id": "Venne2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Steiger2025",
@@ -1488,7 +1550,9 @@
     "green_oa": true,
     "record_id": "Iriarte-Mesa2026",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Wyckoff2025G1",
@@ -1551,7 +1615,9 @@
     "green_oa": true,
     "record_id": "Zhang2025__1071754420252557",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Bailey2024",
@@ -1614,7 +1680,9 @@
     "green_oa": false,
     "record_id": "Jeong2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Wu2025",
@@ -1698,7 +1766,9 @@
     "green_oa": true,
     "record_id": "Liu2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Martin2025e41",
@@ -1803,7 +1873,9 @@
     "green_oa": false,
     "record_id": "Elad2025864",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Xia2024",
@@ -1824,7 +1896,9 @@
     "green_oa": true,
     "record_id": "Xia2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Mariam2025",
@@ -1845,7 +1919,9 @@
     "green_oa": true,
     "record_id": "Mariam2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Talay2026",
@@ -1950,7 +2026,9 @@
     "green_oa": true,
     "record_id": "Maya20252186",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Neumiller2025206",
@@ -1971,7 +2049,9 @@
     "green_oa": true,
     "record_id": "Neumiller2025206",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Boychenko2024",
@@ -2076,7 +2156,9 @@
     "green_oa": true,
     "record_id": "Mikami-Saito2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Overgaard2024",
@@ -2370,7 +2452,9 @@
     "green_oa": false,
     "record_id": "Yue2025809",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Guo2026",
@@ -2412,7 +2496,9 @@
     "green_oa": true,
     "record_id": "Rao2025",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Huang2024",
@@ -2433,7 +2519,9 @@
     "green_oa": true,
     "record_id": "Huang2024",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Barrett2026",
@@ -2580,7 +2668,9 @@
     "green_oa": true,
     "record_id": "Yoon2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Tan2025",
@@ -2685,7 +2775,9 @@
     "green_oa": false,
     "record_id": "Mao2025",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Liu2024",
@@ -2706,7 +2798,9 @@
     "green_oa": true,
     "record_id": "Liu2024__1753040713483",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Jiang2026",
@@ -2727,7 +2821,9 @@
     "green_oa": true,
     "record_id": "Jiang2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Bapat20251003",
@@ -2832,7 +2928,9 @@
     "green_oa": true,
     "record_id": "Bonora2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Iwanishi2025251",
@@ -2874,7 +2972,9 @@
     "green_oa": true,
     "record_id": "Domingues20242917",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "2024S158",
@@ -3000,7 +3100,9 @@
     "green_oa": true,
     "record_id": "Hölscher20251201",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Toraih2025",
@@ -3021,7 +3123,9 @@
     "green_oa": true,
     "record_id": "Toraih2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Rogers2025",
@@ -3084,7 +3188,9 @@
     "green_oa": true,
     "record_id": "Pedigo20251007",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Gao2026",
@@ -3147,7 +3253,9 @@
     "green_oa": true,
     "record_id": "Sandmeier20252146",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Mi20261089",
@@ -3168,7 +3276,9 @@
     "green_oa": true,
     "record_id": "Mi20261089",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Ebert2026",
@@ -3210,7 +3320,9 @@
     "green_oa": true,
     "record_id": "Zhang2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Maung2025",
@@ -3252,7 +3364,9 @@
     "green_oa": true,
     "record_id": "Chen2026",
     "title_decision": "title_include",
-    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting"
+    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Stem-cell/exosome product in a metabolic or related setting (full text)"
   },
   {
     "citekey": "Crandall20251101",
@@ -3483,7 +3597,9 @@
     "green_oa": true,
     "record_id": "Hao2026",
     "title_decision": "title_include",
-    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting"
+    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Huang2026",
@@ -3504,7 +3620,9 @@
     "green_oa": true,
     "record_id": "Huang2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sinézia2024",
@@ -3546,7 +3664,9 @@
     "green_oa": true,
     "record_id": "Wang202594",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "da Silva Lima2024",
@@ -3567,7 +3687,9 @@
     "green_oa": true,
     "record_id": "da Silva Lima2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Chen2024",
@@ -3651,7 +3773,9 @@
     "green_oa": true,
     "record_id": "Murphy20254936",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Levi20261545",
@@ -3672,7 +3796,9 @@
     "green_oa": true,
     "record_id": "Levi20261545",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Valladales-Restrepo202565",
@@ -3756,7 +3882,9 @@
     "green_oa": true,
     "record_id": "Tokgöz2025212",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Xu2024",
@@ -3840,7 +3968,9 @@
     "green_oa": false,
     "record_id": "Bailey2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Xiong2024",
@@ -3882,7 +4012,9 @@
     "green_oa": true,
     "record_id": "Shahriar2024194",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Jensen2024",
@@ -3924,7 +4056,9 @@
     "green_oa": true,
     "record_id": "Tisdale2025e011649",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Nielsen2025269",
@@ -3945,7 +4079,9 @@
     "green_oa": true,
     "record_id": "Nielsen2025269",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Khater2026",
@@ -3966,7 +4102,9 @@
     "green_oa": true,
     "record_id": "Khater2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Dudun2026",
@@ -4092,7 +4230,9 @@
     "green_oa": true,
     "record_id": "Ababei-Bobu2026",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Zinzi2026",
@@ -4113,7 +4253,9 @@
     "green_oa": true,
     "record_id": "Zinzi2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Yu2025",
@@ -4134,7 +4276,9 @@
     "green_oa": true,
     "record_id": "Yu2025",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Delivery system in a metabolic or related setting (full text)"
   },
   {
     "citekey": "Wyckoff20252405",
@@ -4239,7 +4383,9 @@
     "green_oa": true,
     "record_id": "Liu2025881",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Luo20261009",
@@ -4281,7 +4427,9 @@
     "green_oa": true,
     "record_id": "Lunati20261842",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Goraltchouk2024",
@@ -4323,7 +4471,9 @@
     "green_oa": true,
     "record_id": "Huang2026__jijpx2026100639",
     "title_decision": "title_include",
-    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting"
+    "title_reason": "Stem-cell/exosome product in a metabolic or related repair/inflammatory setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Liu20241548",
@@ -4365,7 +4515,9 @@
     "green_oa": false,
     "record_id": "Singh2026405",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Karlsen20261825",
@@ -4449,7 +4601,9 @@
     "green_oa": true,
     "record_id": "Schneck2024494",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Xu2026",
@@ -4470,7 +4624,9 @@
     "green_oa": true,
     "record_id": "Xu2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Cornelissen20262105",
@@ -4533,7 +4689,9 @@
     "green_oa": true,
     "record_id": "Singh2024",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Yu2024",
@@ -4596,7 +4754,9 @@
     "green_oa": false,
     "record_id": "Wong20256178",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Holmager2025286",
@@ -4617,7 +4777,9 @@
     "green_oa": true,
     "record_id": "Holmager2025286",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Zheng2026",
@@ -4722,7 +4884,9 @@
     "green_oa": false,
     "record_id": "Chen2026__jijpharm20261267",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Douros2025",
@@ -4743,7 +4907,9 @@
     "green_oa": true,
     "record_id": "Douros2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "McNally2026E249",
@@ -4764,7 +4930,9 @@
     "green_oa": false,
     "record_id": "McNally2026E249",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Zhang2024",
@@ -4911,7 +5079,9 @@
     "green_oa": true,
     "record_id": "Tian2025__fneur20251653900",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Fifer2024435",
@@ -4953,7 +5123,9 @@
     "green_oa": true,
     "record_id": "Pinto202428406",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Yu2026",
@@ -4974,7 +5146,9 @@
     "green_oa": true,
     "record_id": "Yu2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Ekinci20268242",
@@ -4995,7 +5169,9 @@
     "green_oa": true,
     "record_id": "Ekinci20268242",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Rodriguez-Valadez2024",
@@ -5037,7 +5213,9 @@
     "green_oa": true,
     "record_id": "Abo-Elenin20252677",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Li2024",
@@ -5079,7 +5257,9 @@
     "green_oa": true,
     "record_id": "Hartsell2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Guo20245",
@@ -5289,7 +5469,9 @@
     "green_oa": true,
     "record_id": "Li2026573",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Singh2026",
@@ -5310,7 +5492,9 @@
     "green_oa": false,
     "record_id": "Singh2026",
     "title_decision": "title_include",
-    "title_reason": "Anti-diabetic drug paper in a metabolic setting (may include GLP-1; kept for full text)"
+    "title_reason": "Anti-diabetic drug paper in a metabolic setting (may include GLP-1; kept for full text)",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Miller2024398",
@@ -5352,7 +5536,9 @@
     "green_oa": true,
     "record_id": "Dahl-Larsen2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Zhao2026",
@@ -5394,7 +5580,9 @@
     "green_oa": false,
     "record_id": "Dangi2025592",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "L’hostellier2026",
@@ -5436,7 +5624,9 @@
     "green_oa": true,
     "record_id": "Klonoff20243128",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sun2025",
@@ -5457,7 +5647,9 @@
     "green_oa": true,
     "record_id": "Sun2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Palasantzas2026",
@@ -5562,7 +5754,9 @@
     "green_oa": true,
     "record_id": "Ziebarth2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Hirotsu2025",
@@ -5583,7 +5777,9 @@
     "green_oa": true,
     "record_id": "Hirotsu2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Elmorsy2026",
@@ -5625,7 +5821,9 @@
     "green_oa": true,
     "record_id": "Lee2025__pharmaceutics170",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Yao2026",
@@ -5646,7 +5844,9 @@
     "green_oa": false,
     "record_id": "Yao2026__NR202694908852",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Walker2026",
@@ -5688,7 +5888,9 @@
     "green_oa": false,
     "record_id": "Ashraf2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sasset2026",
@@ -5709,7 +5911,9 @@
     "green_oa": true,
     "record_id": "Sasset2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Subedi2025637",
@@ -5730,7 +5934,9 @@
     "green_oa": false,
     "record_id": "Subedi2025637",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Jin2026",
@@ -5772,7 +5978,9 @@
     "green_oa": true,
     "record_id": "Yin2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Min2026",
@@ -5877,7 +6085,9 @@
     "green_oa": false,
     "record_id": "Moss2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Fagan2025",
@@ -6003,7 +6213,9 @@
     "green_oa": false,
     "record_id": "Prada Brichtova20259152",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Thorens20241027",
@@ -6024,7 +6236,9 @@
     "green_oa": true,
     "record_id": "Thorens20241027",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Tocharus2024",
@@ -6066,7 +6280,9 @@
     "green_oa": true,
     "record_id": "Mastaitis2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Levy2026",
@@ -6087,7 +6303,9 @@
     "green_oa": true,
     "record_id": "Levy2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Wright2024754",
@@ -6108,7 +6326,9 @@
     "green_oa": false,
     "record_id": "Wright2024754",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Daniell2025",
@@ -6171,7 +6391,9 @@
     "green_oa": true,
     "record_id": "Wang2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Merino-Torres2024785",
@@ -6213,7 +6435,9 @@
     "green_oa": true,
     "record_id": "Hennessy2026229",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "McMackin2026",
@@ -6276,7 +6500,9 @@
     "green_oa": true,
     "record_id": "Kuo202513465",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Weber2024677",
@@ -6318,7 +6544,9 @@
     "green_oa": true,
     "record_id": "Woo202511843",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Balantekin2024",
@@ -6339,7 +6567,9 @@
     "green_oa": true,
     "record_id": "Balantekin2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Williams2025285",
@@ -6402,7 +6632,9 @@
     "green_oa": true,
     "record_id": "Paddu20242255",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Yu2025187",
@@ -6444,7 +6676,9 @@
     "green_oa": true,
     "record_id": "Qiao2025",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Mazzolai20243538",
@@ -6507,7 +6741,9 @@
     "green_oa": true,
     "record_id": "Swift20241547",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Sun2025",
@@ -6591,7 +6827,9 @@
     "green_oa": true,
     "record_id": "Im2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sonne2026",
@@ -6612,7 +6850,9 @@
     "green_oa": true,
     "record_id": "Sonne2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Berselli2024",
@@ -6654,7 +6894,9 @@
     "green_oa": true,
     "record_id": "Li2025__biology14050575",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Keith20245601",
@@ -6675,7 +6917,9 @@
     "green_oa": true,
     "record_id": "Keith20245601",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sillassen2025",
@@ -6696,7 +6940,9 @@
     "green_oa": true,
     "record_id": "Sillassen2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Talay2024181",
@@ -6801,7 +7047,9 @@
     "green_oa": true,
     "record_id": "Tentolouris20266347",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Kim2024",
@@ -6822,7 +7070,9 @@
     "green_oa": true,
     "record_id": "Kim2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Chu20244674",
@@ -6843,7 +7093,9 @@
     "green_oa": false,
     "record_id": "Chu20244674",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Chavanelle2025",
@@ -6885,7 +7137,9 @@
     "green_oa": true,
     "record_id": "Ali2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Ou2026",
@@ -6927,7 +7181,9 @@
     "green_oa": true,
     "record_id": "Birro2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Deák2026",
@@ -6990,7 +7246,9 @@
     "green_oa": true,
     "record_id": "Jiang2026607",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Mullins2024361",
@@ -7011,7 +7269,9 @@
     "green_oa": true,
     "record_id": "Mullins2024361",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Khan2026",
@@ -7032,7 +7292,9 @@
     "green_oa": false,
     "record_id": "Khan2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Liang20252557",
@@ -7116,7 +7378,9 @@
     "green_oa": true,
     "record_id": "Butt2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sharma20245347",
@@ -7263,7 +7527,9 @@
     "green_oa": false,
     "record_id": "Zangabad2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Saha2024",
@@ -7305,7 +7571,9 @@
     "green_oa": true,
     "record_id": "Dearden20251",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Talay2024187",
@@ -7347,7 +7615,9 @@
     "green_oa": true,
     "record_id": "Sukumar2026447",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Moon2026",
@@ -7368,7 +7638,9 @@
     "green_oa": true,
     "record_id": "Moon2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Sun2026",
@@ -7431,7 +7703,9 @@
     "green_oa": false,
     "record_id": "Purcell2026296",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Li2026810",
@@ -7494,7 +7768,9 @@
     "green_oa": true,
     "record_id": "Xie2025",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Kim2026",
@@ -7515,7 +7791,9 @@
     "green_oa": true,
     "record_id": "Kim2026__nu18071050",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Schreiner2024",
@@ -7578,7 +7856,9 @@
     "green_oa": true,
     "record_id": "Yang2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Hopewell2025",
@@ -7683,7 +7963,9 @@
     "green_oa": false,
     "record_id": "Arduino2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Dahan2026",
@@ -7704,7 +7986,9 @@
     "green_oa": true,
     "record_id": "Dahan2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Fragozo-Ramos2025",
@@ -7725,7 +8009,9 @@
     "green_oa": true,
     "record_id": "Fragozo-Ramos2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Lassen20241762",
@@ -7767,7 +8053,9 @@
     "green_oa": true,
     "record_id": "Pinto2024621",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Yang2025",
@@ -7788,7 +8076,9 @@
     "green_oa": true,
     "record_id": "Yang2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Liu20241",
@@ -7893,7 +8183,9 @@
     "green_oa": true,
     "record_id": "Kweon20242973",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Park202613454",
@@ -7977,7 +8269,9 @@
     "green_oa": true,
     "record_id": "Ruggiero2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Shen2025",
@@ -7998,7 +8292,9 @@
     "green_oa": true,
     "record_id": "Shen2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Osama2026",
@@ -8040,7 +8336,9 @@
     "green_oa": true,
     "record_id": "Abdallah20254286",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Nalbandian2026",
@@ -8061,7 +8359,9 @@
     "green_oa": true,
     "record_id": "Nalbandian2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Xian2025",
@@ -8124,7 +8424,9 @@
     "green_oa": true,
     "record_id": "Chowdhary2024540",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Al Hayek2026",
@@ -8145,7 +8447,9 @@
     "green_oa": false,
     "record_id": "Al Hayek2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Tsuji20263031",
@@ -8187,7 +8491,9 @@
     "green_oa": true,
     "record_id": "Klotsman2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Colston2025",
@@ -8229,7 +8535,9 @@
     "green_oa": true,
     "record_id": "Bonga20251",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Richards2025",
@@ -8250,7 +8558,9 @@
     "green_oa": true,
     "record_id": "Richards2025__81912",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Porth2024",
@@ -8292,7 +8602,9 @@
     "green_oa": true,
     "record_id": "Robinson2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Son202610",
@@ -8313,7 +8625,9 @@
     "green_oa": false,
     "record_id": "Son202610",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Chung202638",
@@ -8355,7 +8669,9 @@
     "green_oa": true,
     "record_id": "Dong2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Elbermawy2026",
@@ -8397,7 +8713,9 @@
     "green_oa": true,
     "record_id": "Chen2024__fphar20241370594",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "2025S283",
@@ -8439,7 +8757,9 @@
     "green_oa": true,
     "record_id": "Fallot202620582",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Singh20263158",
@@ -8460,7 +8780,9 @@
     "green_oa": true,
     "record_id": "Singh20263158",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Shapira-Furman2024",
@@ -8481,7 +8803,9 @@
     "green_oa": true,
     "record_id": "Shapira-Furman2024",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Wang2026",
@@ -8607,7 +8931,9 @@
     "green_oa": true,
     "record_id": "Talay20240",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Nosair2025",
@@ -8670,7 +8996,9 @@
     "green_oa": true,
     "record_id": "Lv2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Kumar2025",
@@ -8691,7 +9019,9 @@
     "green_oa": true,
     "record_id": "Kumar2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Giorgino2026389",
@@ -8733,7 +9063,9 @@
     "green_oa": true,
     "record_id": "Qiu2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Rebollo2025267",
@@ -8754,7 +9086,9 @@
     "green_oa": false,
     "record_id": "Rebollo2025267",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Gonzalez2026166",
@@ -8775,7 +9109,9 @@
     "green_oa": false,
     "record_id": "Gonzalez2026166",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "He2025",
@@ -8859,7 +9195,9 @@
     "green_oa": false,
     "record_id": "Ametov2026387",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Alkudmani2025",
@@ -8901,7 +9239,9 @@
     "green_oa": true,
     "record_id": "Xu20251790",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Forslund202625",
@@ -8922,7 +9262,9 @@
     "green_oa": false,
     "record_id": "Forslund202625",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Bardonnet20262302",
@@ -9006,7 +9348,9 @@
     "green_oa": true,
     "record_id": "Cao2026",
     "title_decision": "title_include",
-    "title_reason": "Delivery system in a metabolic or related setting"
+    "title_reason": "Delivery system in a metabolic or related setting",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "RADAKRISHNAN20251460",
@@ -9048,7 +9392,9 @@
     "green_oa": true,
     "record_id": "Emeh2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Schmidt2025",
@@ -9069,7 +9415,9 @@
     "green_oa": false,
     "record_id": "Schmidt2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Beloqui202431",
@@ -9111,7 +9459,9 @@
     "green_oa": true,
     "record_id": "Xiong20241717",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Xu20251243",
@@ -9132,7 +9482,9 @@
     "green_oa": true,
     "record_id": "Xu20251243",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Ariaee2026",
@@ -9153,7 +9505,9 @@
     "green_oa": false,
     "record_id": "Ariaee2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Furió-Novejarque2025332",
@@ -9174,7 +9528,9 @@
     "green_oa": true,
     "record_id": "Furió-Novejarque2025332",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Parnizari20252189",
@@ -9342,7 +9698,9 @@
     "green_oa": true,
     "record_id": "Ma2024819",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Liu2026",
@@ -9468,7 +9826,9 @@
     "green_oa": true,
     "record_id": "Pasqua20251239",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Holstein2026",
@@ -9510,7 +9870,9 @@
     "green_oa": true,
     "record_id": "Yang2025__nano15181399",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Duan2026",
@@ -9531,7 +9893,9 @@
     "green_oa": true,
     "record_id": "Duan2026",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Yan2024",
@@ -9594,7 +9958,9 @@
     "green_oa": true,
     "record_id": "Zhang2025__jex270099",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   },
   {
     "citekey": "Qi2025",
@@ -9615,7 +9981,9 @@
     "green_oa": true,
     "record_id": "Qi2025",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "include",
+    "fulltext_reason": "Incretin/GLP-1 family in extracted full text"
   },
   {
     "citekey": "Sagar20268034",
@@ -9636,6 +10004,8 @@
     "green_oa": true,
     "record_id": "Sagar20268034",
     "title_decision": "title_include",
-    "title_reason": "Incretin/GLP-1 family in title"
+    "title_reason": "Incretin/GLP-1 family in title",
+    "fulltext_decision": "not_retrieved",
+    "fulltext_reason": "no_public_pdf_found"
   }
 ]
