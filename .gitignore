@@ -1,0 +1,29 @@
+# --- Papers (kept local by default; see papers/README.md) ---
+papers/*.pdf
+papers/**/*.pdf
+!papers/sample/*.pdf
+
+# --- Agent-generated review outputs (kept local by default) ---
+# The workflow writes per-paper notes, the literature table, and the final
+# report into review/. These are your research output, not repo content,
+# so they stay untracked unless you deliberately commit them.
+review/notes/*.md
+review/table/*.md
+review/report/*.md
+!review/notes/.gitkeep
+!review/table/.gitkeep
+!review/report/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Cursor local state ---
+.cursor/rules/*.local.md
