@@ -61,4 +61,17 @@ Phases to log: `workflow`, `discovery`, `fetching`, `screening`, `extraction`, `
 
 ## Handoff
 
-After PRISMA + notes + table exist, write `synthesis-rationale.md` (`synthesis-rationale` skill), attempt targeted OA retrieval for each interpretation gap (log in section (g); extract and update the table if PDFs arrive), **then** the article (`report-writing` skill) following the updated outline. Do not draft `article.md` first. Point at `prisma.md` from **Methods** if useful. Ground every claim in included full texts. **Do not put PRISMA counts, fetch logs, or usage meters in Discussion or Conclusions.** Keep `usage-log.md` beside the article, not inside it. Additional gap-fill records belong in PRISMA “additional records” if they were included.
+After PRISMA + notes + table exist, write `synthesis-rationale.md` (`synthesis-rationale` skill), attempt targeted OA retrieval for each interpretation gap (log in section (g); extract and update the table if PDFs arrive), **then** the article (`report-writing` skill) following the updated outline, **then** `article-qa` until `check_article.py` exits 0. Do not draft `article.md` first. Point at `prisma.md` from **Methods** if useful. Ground every claim in included full texts. **Do not put PRISMA counts, fetch logs, or usage meters in Discussion or Conclusions.** Keep `usage-log.md` beside the article, not inside it. Additional gap-fill records belong in PRISMA “additional records” if they were included.
+
+Write `protocol.md` at the start of the run:
+
+```markdown
+# Protocol — <run-id>
+
+- **Research question:**
+- **Inclusion:**
+- **Exclusion:**
+- **Emphasis:**
+- **Article kind:** narrative journal review (default) / systematic / short lab report
+- **Defaults used (if the user said just go):**
+```

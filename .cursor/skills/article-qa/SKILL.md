@@ -1,0 +1,46 @@
+---
+name: article-qa
+description: "Mandatory machine check after drafting article.md. Do not tell the user the review is done while check_extraction.py or check_article.py fails. Use as the last writing step of the literature-review workflow."
+---
+
+# First-pass quality gate
+
+The article is **not done** when the file exists. It is done when the scripts below exit 0. Previous runs failed because mechanical notes and catalog sentences were delivered as a manuscript. This skill exists so the next sample works the first time.
+
+## When to use
+
+- Automatically after extraction (notes) and after drafting `article.md`.
+- Before telling the user the review is ready.
+
+## 1. Notes must be claim-ready (before the table)
+
+```bash
+python3 scripts/check_extraction.py \
+  --notes-dir review/runs/<run-id>/notes \
+  --screening review/runs/<run-id>/screening.json
+```
+
+If this fails: open each included PDF, fill `## Claim-ready facts` in the note (design, population, n, comparator, endpoint, result with units, what the design cannot show), and delete stub phrases (`mechanical first-pass`, `extracted lead`, `not stated in the extracted lead`). Then rebuild the literature table from those facts — do not leave `write_table.py` DRAFT cells in the final table.
+
+## 2. Article must be a deliverable journal review (after drafting)
+
+```bash
+python3 scripts/check_article.py \
+  --article review/runs/<run-id>/article.md \
+  --table review/runs/<run-id>/table/literature-table.md
+```
+
+Use `--short` **only** if the user asked for a short note. A full journal manuscript must pass the ~6,000-word body floor.
+
+If this fails: rewrite using `review-prose` (phenomenon-first Introduction; claim-first sentences; topic headings; no process talk) and run the script again. Repeat until exit 0.
+
+## Hard rules
+
+- Do not skip these scripts.
+- Do not argue with a failure. Fix the draft.
+- Do not change a previous run’s `article.md` unless the user asked to rewrite that manuscript.
+- Copy **form only** from published reviews used as craft models. Do not import their findings.
+
+## Handoff
+
+Only after both scripts pass: tell the user where the article is and offer to iterate (add papers, adjust scope, refine a section).

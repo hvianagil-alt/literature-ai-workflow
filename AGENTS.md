@@ -8,7 +8,9 @@ Researchers who are not AI experts. Assume the user knows their field deeply but
 
 ## The workflow, in order
 
-This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **two hard gates** must complete before the journal article: direction check (step 2) and synthesis rationale + targeted extra retrieval (step 6).
+This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **three hard gates** must complete before you tell the user the article is done: direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), and the machine quality gate (step 8).
+
+**The article is not done when the file exists.** It is done when `scripts/check_extraction.py` and `scripts/check_article.py` exit 0. A previous run failed by delivering mechanical notes and catalog sentences. Do not repeat that. Do not rewrite an earlier sample's `article.md` unless the user asked to change that manuscript.
 
 ### 1. Intake
 
@@ -29,7 +31,7 @@ Before extracting anything in depth, confirm with the user:
 - **Inclusion/exclusion criteria**: is there a study design, date range, population, or venue that should be included/excluded?
 - **Emphasis**: should extraction lean toward methods (e.g. for a methods-focused thesis chapter), findings (e.g. for a grant background section), or something else?
 
-Summarize back what you understood in 2-4 sentences and get explicit confirmation ("does that sound right?") before moving on. If the user says "just go", proceed with sensible defaults but state the defaults you're using.
+Summarize back what you understood in 2-4 sentences and get explicit confirmation ("does that sound right?") before moving on. If the user says "just go", proceed with these defaults and write them into `protocol.md`: **journal-style narrative review**; teach in the Introduction; claim-first sentences; all included full texts; no process talk in Discussion; run the quality-gate scripts before delivering.
 
 **Do not proceed past this step without user input.** This is a hard gate: scope cannot be guessed.
 
@@ -41,11 +43,20 @@ Gap-driven extra retrieval after the table is **not** this step — that is step
 
 ### 4. Extract
 
-For each in-scope paper, use the `paper-extraction` skill to produce a note in `review/notes/` (and the run copy if you are in `review/runs/<run-id>/`). Report progress as you go (e.g. "3 of 7 done, 1 unreadable — see below"). Surface unreadable-PDF failures immediately rather than silently skipping them.
+For each in-scope paper, use the `paper-extraction` skill to produce a note in `review/notes/` (and the run copy if you are in `review/runs/<run-id>/`). `scripts/notes_from_text.py` is a **stub**. Fill `## Claim-ready facts` from the PDF. Report progress as you go (e.g. "3 of 7 done, 1 unreadable — see below"). Surface unreadable-PDF failures immediately rather than silently skipping them.
+
+Extraction is not finished until:
+
+```bash
+python3 scripts/check_extraction.py --notes-dir review/runs/<run-id>/notes \
+  --screening review/runs/<run-id>/screening.json
+```
+
+exits 0.
 
 ### 5. Build the literature table
 
-Use the `literature-table` skill to turn the notes into `review/table/literature-table.md`. Tell the user it's ready and suggest they skim it for obvious extraction errors before you go further — catching a misread finding here is much cheaper than catching it in the final article.
+Use the `literature-table` skill to turn the **verified** notes into `review/table/literature-table.md`. `scripts/write_table.py` writes a DRAFT only — rewrite every cell from Claim-ready facts. Tell the user it's ready and suggest they skim it for obvious extraction errors before you go further.
 
 **Do not write the journal article after this step.** The table is evidence, not interpretation.
 
@@ -65,7 +76,7 @@ Only after the rationale, the retrieval attempts, and the updated table exist ma
 
 ### 7. Write the journal review (only after step 6)
 
-Read `review-prose` **and** `report-writing` before drafting. `review-prose` is the genre, architecture, and voice file (match the spine to the review kind; Introduction opens on the phenomenon and ends with the aim; claim-first sentences; human scientific prose; length). `report-writing` executes the outline from `synthesis-rationale.md` in that voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
+Read `review-prose` **and** `report-writing` before drafting. Default output is a **journal-style narrative review**, not a lab report, unless the user asked for a short note. `review-prose` is the genre, architecture, and voice file (match the spine to the review kind; Introduction opens on the phenomenon and ends with the aim; claim-first sentences; human scientific prose; length). `report-writing` executes the outline from `synthesis-rationale.md` in that voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
 
 Produce a **PhD-quality, argument-driven journal review** of **all** in-scope evidence (original sample plus any successfully retrieved gap-fill papers), with thematic subsections and numbered citations from retrieved full texts.
 
@@ -80,9 +91,23 @@ The article is a **secondary** paper: it does not report a new experiment. It te
 
 Every included paper must be discussed with enough design and result detail to stand as a real review (not a citation dump). **Sentences must be constructed as in a scientific article:** the subject is the finding or the mechanism; the citation is evidence. Do not write a sequence of “Author et al. did X. This paper is a pilot.” file cards. **Discussion and Conclusions must read like a published scientific paper:** interpret mechanisms, clinical meaning, why studies cannot be pooled, and evidence limitations. Do **not** put screening counts, “OA export”, “PDFs we could open”, fetch logs, HTTP errors, token estimates, phase logs, or script names in the Abstract, Discussion, or Conclusions — those belong in `prisma.md` and `usage-log.md`. Methods may state search and eligibility briefly. Every claim must be traceable to the table/notes (including gap-fill rows). Open **scientific** gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article.** Write in ordinary scientific English (`is`/`are`/`was`/`showed`); after drafting, grep the banned chatbot flourishes listed in `review-prose` and cut them.
 
-### 8. Iterate
+### 8. Quality gate (mandatory, before you say it is done)
 
-Literature reviews are rarely one-shot. After delivering the article, ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), or refine specific sections.
+Use the `article-qa` skill. Do **not** skip this, and do not tell the user the article is ready while a script fails.
+
+```bash
+python3 scripts/check_extraction.py --notes-dir review/runs/<run-id>/notes \
+  --screening review/runs/<run-id>/screening.json
+python3 scripts/check_article.py \
+  --article review/runs/<run-id>/article.md \
+  --table review/runs/<run-id>/table/literature-table.md
+```
+
+If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. Repeat until exit 0. Use `--short` only if the user asked for a short note.
+
+### 9. Iterate
+
+Literature reviews are rarely one-shot. After a draft that **passed step 8**, ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), or refine specific sections.
 
 ## Hard rules (apply throughout)
 
@@ -94,6 +119,7 @@ Literature reviews are rarely one-shot. After delivering the article, ask if the
 6. **No required external services for reading local PDFs.** Extraction and the rationale can run on files already in the repo. Targeted extra retrieval uses the same public OA path as `oa-fetch`. If the network fails or no OA PDF exists, document that and write the article with the gap left open — never treat a missing PDF as a reason to invent a citation, and never treat OA fetch as a paywall bypass.
 7. **Keep outputs where they belong.** Per-paper notes → `review/notes/` (and run `notes/`). Table → `review/table/literature-table.md`. Rationale → `review/runs/<run-id>/synthesis-rationale.md` or `review/report/synthesis-rationale.md`. Article → `review/runs/<run-id>/article.md` and/or `review/report/final-report.md`. Usage/tokens → `usage-log.md` only.
 8. **PDFs stay gitignored.** Do not commit downloaded PDFs.
+9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py`. Do not rewrite a previous sample unless asked.
 
 ## Skills reference
 
@@ -104,6 +130,7 @@ Literature reviews are rarely one-shot. After delivering the article, ask if the
 | Interpreting the sample + gap-fill retrieval | `synthesis-rationale` | `.cursor/skills/synthesis-rationale/SKILL.md` |
 | Writing the journal review | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
 | Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
+| First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
 | Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
 | Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |

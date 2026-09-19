@@ -9,8 +9,10 @@ Turn N independent per-paper notes into one comparable table. The table is the e
 
 ## When to use this skill
 
-- After `paper-extraction` has produced notes in `review/notes/` for every in-scope paper.
+- After `paper-extraction` has produced notes in `review/notes/` for every in-scope paper **and** `scripts/check_extraction.py` exits 0.
 - The user asks to "build the table", "compare these papers", or as the automatic next step in the full review workflow.
+
+If extraction still contains "mechanical first-pass" or missing Claim-ready facts, **stop and finish the notes**. `scripts/write_table.py` is a DRAFT stub only. The final `literature-table.md` must be rewritten from Claim-ready facts.
 
 ## Inputs
 
@@ -50,4 +52,4 @@ See [`examples/literature-table.md`](../../../examples/literature-table.md) for 
 
 ## Handoff
 
-Once the table exists and the user has reviewed/corrected it (tables are good places for a human domain expert to catch errors — encourage a quick look before synthesis), move to the `synthesis-rationale` skill. **Do not skip to `report-writing`.** The sequence is table → synthesis-rationale (including targeted extra-paper retrieval for interpretation gaps) → updated table if new OA full texts were included → report. The article must not be drafted until `review/runs/<run-id>/synthesis-rationale.md` (or `review/notes/_synthesis-rationale.md`) exists **and** section (g) of that file records the extra-retrieval attempt (or an explicit “no extra retrieval indicated”).
+Once the table exists and the user has reviewed/corrected it (tables are good places for a human domain expert to catch errors — encourage a quick look before synthesis), move to the `synthesis-rationale` skill. **Do not skip to `report-writing`.** The sequence is table → synthesis-rationale (including targeted extra-paper retrieval for interpretation gaps) → updated table if new OA full texts were included → report → `article-qa`. The article must not be drafted until `review/runs/<run-id>/synthesis-rationale.md` (or `review/notes/_synthesis-rationale.md`) exists **and** section (g) of that file records the extra-retrieval attempt (or an explicit “no extra retrieval indicated”). Do not write the article from a `write_table.py` DRAFT.

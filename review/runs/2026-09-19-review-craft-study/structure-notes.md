@@ -61,6 +61,7 @@ Form rules above were written into:
 - `.cursor/skills/review-prose/SKILL.md`
 - `.cursor/skills/report-writing/SKILL.md`
 - `.cursor/skills/synthesis-rationale/SKILL.md` (outline must name the review kind and use topic headings)
+- `.cursor/skills/article-qa/SKILL.md` (machine check so the next sample cannot deliver a stub)
 - `AGENTS.md` and `.cursor/agents/literature-review.md`
 
-PDFs stay gitignored. This run does not produce an `article.md`.
+PDFs stay gitignored. This run does not produce an `article.md`. Do not import findings from these papers into any manuscript.

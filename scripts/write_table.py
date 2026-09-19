@@ -32,6 +32,16 @@ def cells(row: dict) -> dict[str, str]:
     }
 
 
+def protocol_question(run_dir: Path) -> str:
+    proto = run_dir / "protocol.md"
+    if proto.exists():
+        for line in proto.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"\*\*Research question:\*\*\s*(.+)", line)
+            if m:
+                return m.group(1).strip()
+    return "See protocol.md (do not invent a field-specific question here)."
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-dir", required=True)
@@ -41,11 +51,13 @@ def main() -> int:
     screen = json.loads((run_dir / "screening.json").read_text(encoding="utf-8"))
     index = sorted(index, key=lambda r: ((r.get("year") or ""), r.get("citekey") or ""))
     lines = [
-        f"# Literature Table — run {run_dir.name}",
+        f"# Literature Table — DRAFT — run {run_dir.name}",
         "",
-        "**Research question:** In this Scopus open-access export (2024–2026), what is reported about GLP-1 receptor agonists, stem-cell/exosome products, and drug-delivery systems in metabolic disease (diabetes, obesity, prediabetes, and closely related inflammatory or repair settings)?",
+        "> Mechanical stub from titles/abstracts. **Not the final table.** Rewrite from verified notes after `check_extraction.py` passes. Do not write the article from this draft.",
         "",
-        f"**Scope:** {len(index)} included full texts after title screen, public-OA retrieval, and full-text eligibility. Sorted by year then citekey. Every findings cell is the extracted abstract/lead from the matching note — not a new claim.",
+        f"**Research question:** {protocol_question(run_dir)}",
+        "",
+        f"**Scope:** {len(index)} included full texts after title screen, public-OA retrieval, and full-text eligibility. Sorted by year then citekey.",
         "",
         "| Paper | Research question | Methods | Sample / data | Key findings | Limitations | Relevance |",
         "|---|---|---|---|---|---|---|",
@@ -63,7 +75,7 @@ def main() -> int:
         "",
         "## How to read this table",
         "",
-        "Rows are included studies only. Cells compress the per-paper note (abstract/lead). Mechanical extraction can garble columns; treat numbers as provisional until checked against the PDF. Sorted by year, then citekey.",
+        "Rows are a **mechanical draft**. Replace every cell from the per-paper note's Claim-ready facts before synthesis. Sorted by year, then citekey.",
         "",
         "## Papers excluded from this table",
         "",

@@ -26,44 +26,11 @@ If the rationale file is missing, **stop and write it first** (see the `synthesi
 
 ## Output
 
-**Default (structured lab report).** One Markdown file: `review/report/final-report.md`. Use this spine unless the user asked for a journal article:
+## Output
 
-```markdown
-# Literature Review: <research question / topic>
+**Default is a journal-style review article** unless the user asked for a short lab report or a table-only note. Write `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md` when this is a run. **Match the spine to the review kind** (`review-prose`). Default kind is a narrative review with brief methods. Use full IMRaD Results only for a systematic review or meta-analysis. Thematic subsections **must** come from rationale (e) and must be **topic or argument titles**, never author names.
 
-## Scope
-<What was reviewed, inclusion criteria, n papers, link to the table. State that the
- section plan follows synthesis-rationale.md.>
-
-## <Thematic headings from rationale (e)>
-<2–5 argument sections, not "paper 1 / paper 2". Each section does a job named in
- the rationale (e.g. establish the only human comparative evidence; show why delivery
- papers cannot be pooled).>
-
-## Where the literature agrees
-<Only agreements the rationale marked as supported; each backed by 2+ papers or
- explicitly labeled as a single-study observation.>
-
-## Where the literature disagrees
-<From rationale (c): name papers and whether the tension is methods, population, or
- endpoint. Prefer "incommensurable" over fake controversy when endpoints differ.>
-
-## Gaps
-<From rationale (d): what this sample cannot answer.>
-
-## Implications for [the user's research question]
-<Concrete next step; do not overclaim beyond the included full texts.>
-
-## Full literature table
-<Link to the table>
-
-## Confidence and caveats
-<Well-supported vs thin. Small n or OA-slice reviews must say so.>
-```
-
-See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fictional illustration of tone, not a license to skip the rationale file.
-
-**Journal-style review article** (when the user asked for an article, in-text citations, reference list): write `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md`. **Match the spine to the review kind** (`review-prose`). Default here is a narrative review with brief methods. Use full IMRaD Results only for a systematic review or meta-analysis. Thematic subsections **must** come from rationale (e) and must be **topic or argument titles**, never author names.
+See [`examples/sample-article.md`](../../../examples/sample-article.md) for fictional journal prose (claim-first sentences). The lab-report example in [`examples/sample-report.md`](../../../examples/sample-report.md) is only for a short structured note.
 
 ```markdown
 # <Title>
@@ -90,6 +57,21 @@ See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fict
 ## Conclusions
 <Numbered scientific directions (First… Finally…), not “more research is needed.”>
 ## References
+```
+
+**Short lab report only if the user asked for one:**
+
+```markdown
+# Literature Review: <research question / topic>
+
+## Scope
+## <Thematic headings from rationale (e)>
+## Where the literature agrees
+## Where the literature disagrees
+## Gaps
+## Implications for [the user's research question]
+## Full literature table
+## Confidence and caveats
 ```
 
 **Do not put token estimates, phase logs, script names, or workflow metering in the article or report.** Those belong only in `review/runs/<run-id>/usage-log.md`.
@@ -145,8 +127,16 @@ Cite included papers in the text as Author Year or [n] keyed to the References l
 
 ## Prose check (mandatory before calling the article done)
 
-Grep the draft against the banned-flourish list in `review-prose`. Cut hits that are not technical terms. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the Introduction does not teach the field, expand it. If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
+Run the `article-qa` skill. Do not deliver while this fails:
+
+```bash
+python3 scripts/check_article.py \
+  --article review/runs/<run-id>/article.md \
+  --table review/runs/<run-id>/table/literature-table.md
+```
+
+If it fails, rewrite and run it again. Also grep the banned-flourish list in `review-prose`. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the Introduction does not teach the field, expand it. If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
 
 ## Handoff
 
-After the report is written, tell the user where it is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. Offer to iterate (re-scope, add papers, or refine sections). If they change inclusion, update the rationale before rewriting.
+After the report is written **and `check_article.py` exits 0**, tell the user where it is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. Offer to iterate (re-scope, add papers, or refine sections). If they change inclusion, update the rationale before rewriting.

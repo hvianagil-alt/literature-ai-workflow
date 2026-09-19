@@ -22,7 +22,7 @@ python3 scripts/fetch_oa_pdfs.py \
   --email <contact-email>
 ```
 
-Lookup order per DOI: OpenAlex → Unpaywall → Europe PMC → publisher PDF URL conventions → `doi.org` content negotiation. A file is kept only if the body starts with `%PDF-`.
+A file is kept only if the body starts with `%PDF-`. HTML at a `.pdf` URL is a failure, not a paper. Landing pages are parsed for `citation_pdf_url` and `/pdf` links, then those URLs are fetched. If a path named `<citekey>.pdf` is already a directory, write `<citekey>-fulltext.pdf` instead.
 
 ## Hard rules
 

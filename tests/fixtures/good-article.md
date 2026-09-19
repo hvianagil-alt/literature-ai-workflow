@@ -1,0 +1,43 @@
+# Structured note-taking and recall of technical material: a narrative review
+
+## Abstract
+Recall of technical prose is imperfect after a delay of days. Structured notes are widely recommended, yet a STEM-specific null sits beside a small positive pooled effect. Outline notes raised 1-week recall by 18% versus free-form notes in one laboratory sample (N=40) [1]. That benefit did not appear for STEM passages in a larger mixed-methods study (N=85) [2]. These results do not imply a semester-long study habit. The practical next measurement is delayed STEM recall with domain as a planned factor.
+
+## Keywords
+note-taking; recall; STEM; meta-analysis
+
+## 1. Introduction
+Delayed recall of a methods chapter is a specific memory problem: readers forget procedures, numbers, and caveats within a week. Current advice already tells students to take notes. What remains unsettled is whether the format of those notes changes recall, and whether that change is the same for STEM and humanities text.
+
+Outline notes, free-form notes, paper, and screens are the tools this literature uses. A 1-week free-recall test is the usual endpoint. A pooled effect that averages domains cannot answer a STEM-only question.
+
+The aim of this review is to compare the included experiments and one meta-analysis on structured versus unstructured notes, without pooling incommensurable endpoints.
+
+## 2. Methods
+### 2.1 Search and sources
+Four fictional full texts were read for this example.
+### 2.2 Eligibility
+Technical recall studies; creative-writing samples were out of scope.
+### 2.3 Study selection
+One record was excluded after the title screen.
+
+## 3. Overall direction of the recall effect
+Outline-style notes increased 1-week free-recall scores by 18% versus free-form notes in undergraduates (N=40; p<0.05) [1]. A later meta-analysis of 12 earlier studies reported a small positive pooled effect (d=0.25; aggregate N≈900) with high heterogeneity [3]. Digital and paper structured notes both showed the same benefit in graduates (N=52), with no medium difference [4]. Taken together, these data suggest a small positive effect when domains are pooled. They cannot show that the effect is uniform across subjects.
+
+## 4. Domain as a moderator
+No significant format effect was found for STEM material in a mixed-methods sample of 85 students, while a moderate humanities effect was reported (d=0.4) [2]. That STEM-null sits beside the pooled d in [3], which did not test the split. The tension is population and endpoint mix, not a direct replication failure.
+
+## 5. What this literature still lacks
+Semester-long retention was not measured. K–12 learners were not sampled. The STEM split remains a single-study observation.
+
+## Discussion
+The human outcome evidence is one small laboratory trial, one mixed-methods moderator test, one within-subjects medium test, and one heterogeneous meta-analysis. They agree on direction when domains are averaged. They do not agree that STEM recall improves. A rat or classroom-habit claim would be a different endpoint.
+
+## Conclusions
+First, replicate the STEM-null with domain as a planned factor. Finally, measure recall beyond one week. Those are unmeasured endpoints, not slogans.
+
+## References
+[1] Fictional Al Researcher. 2021. Journal of Made-Up Studies.
+[2] Fictional Bea Scholar. 2022. Proceedings of Placeholder Research.
+[3] Fictional Chen Example. 2023. Notional Review of Learning.
+[4] Fictional Dee Sample. 2024. Hypothetical Cognition Letters.

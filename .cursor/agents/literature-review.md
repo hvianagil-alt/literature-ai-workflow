@@ -15,11 +15,12 @@ Follow `AGENTS.md` step by step:
 2. **Direction check — mandatory user gate.** Confirm scope, inclusion/exclusion, and emphasis before deep work. Never skip this. If the user says "just go", state the defaults and proceed.
 3. Optional: import a Scopus/BibTeX file (`bib-import`), fetch public OA PDFs only (`oa-fetch`), record PRISMA + phase usage (`prisma-logging`).
 4. Optional related-paper **browse**, only if the user opts in before extraction (`.cursor/skills/related-paper-exploration/SKILL.md`, opt-in mode).
-5. Extract each in-scope paper (`.cursor/skills/paper-extraction/SKILL.md`) into `review/notes/`.
-6. Build the literature table (`.cursor/skills/literature-table/SKILL.md`) into `review/table/literature-table.md`.
+5. Extract each in-scope paper into `review/notes/`. Fill Claim-ready facts from the PDF. Run `scripts/check_extraction.py` until it passes. Do not leave mechanical first-pass stubs.
+6. Build the literature table from those verified notes — not from a `write_table.py` DRAFT.
 7. **Synthesis rationale + targeted extra retrieval — mandatory sequencing gate.** Write `synthesis-rationale.md`, list interpretation gaps, attempt OA retrieval for each gap, extract any new full texts, update the table. Never invent citations. See `.cursor/skills/synthesis-rationale/SKILL.md`. **Do not write the article before this is done.**
-8. Write a PhD-quality journal review. Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`. Match the spine to the review kind. Open the Introduction on the phenomenon in present tense; put the aim in the last paragraph. Headings are topics or arguments, not author names. Aim for ~6,000 body words (~20 Word pages) unless the user asked for a short note. Discuss every included paper’s design and results. Discussion/Conclusions are scientific interpretation, not screening or download logs. No chatbot flourishes; no token estimates in the article. Output: `review/report/final-report.md` and, for a run, `review/runs/<id>/article.md`. If other reviews were read only to learn form, do not import their findings.
-9. Offer to iterate.
+8. Write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`.
+9. **Quality gate — mandatory.** Run `.cursor/skills/article-qa/SKILL.md` (`check_extraction.py` then `check_article.py`). Rewrite until both exit 0. Do not tell the user the article is done while they fail. Do not rewrite a previous sample’s manuscript unless asked.
+10. Offer to iterate.
 
 ## Tone
 
@@ -32,6 +33,7 @@ Plain language, no AI/ML jargon unless the user uses it first. Explain what you'
 - Never skip the direction check.
 - Never skip the synthesis rationale / gap-retrieval gate.
 - Never start the journal article until the rationale exists and extra retrieval has been attempted (or explicitly logged as not possible).
+- Never tell the user the article is done while `check_article.py` fails.
 - Ground the article in the literature table and rationale, not in re-derived or remembered claims.
 - Never put token counts, usage meters, or script names in `article.md`.
 

@@ -23,6 +23,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         )
         self.assertIn("table → synthesis-rationale", text)
         self.assertIn("report-writing", text)
+        self.assertIn("check_extraction.py", text)
 
     def test_report_writing_requires_rationale_outline(self):
         text = (ROOT / ".cursor/skills/report-writing/SKILL.md").read_text(
@@ -37,6 +38,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Match the spine", text)
         self.assertIn("Taken together", text)
         self.assertIn("This review discusses", text)
+        self.assertIn("check_article.py", text)
+        self.assertIn("article-qa", text)
 
     def test_review_prose_skill_exists(self):
         text = (ROOT / ".cursor/skills/review-prose/SKILL.md").read_text(
@@ -64,6 +67,10 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("review-prose", text)
         self.assertIn("form only", text)
         self.assertIn("present tense", text)
+        self.assertIn("check_article.py", text)
+        self.assertIn("check_extraction.py", text)
+        self.assertIn("article-qa", text)
+        self.assertLess(text.find("### 8. Quality gate"), text.find("### 9. Iterate"))
 
     def test_synthesis_rationale_skill_exists_with_quality_bar(self):
         text = (ROOT / ".cursor/skills/synthesis-rationale/SKILL.md").read_text(
@@ -81,6 +88,23 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("hard sequencing gate", text.lower())
         self.assertIn("review kind", text)
         self.assertIn("topic or argument", text)
+
+    def test_article_qa_skill_exists(self):
+        text = (ROOT / ".cursor/skills/article-qa/SKILL.md").read_text(encoding="utf-8")
+        self.assertIn("check_article.py", text)
+        self.assertIn("check_extraction.py", text)
+        self.assertIn("not done", text.lower())
+
+    def test_example_journal_article_passes_short_qa(self):
+        import sys
+
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import check_article  # noqa: WPS433
+
+        article = (ROOT / "examples" / "sample-article.md").read_text(encoding="utf-8")
+        table = (ROOT / "examples" / "literature-table.md").read_text(encoding="utf-8")
+        problems = check_article.check(article, table, short=True)
+        self.assertEqual(problems, [], problems)
 
 
 class MiniReviewRunTests(unittest.TestCase):

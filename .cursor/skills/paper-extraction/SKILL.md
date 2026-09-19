@@ -39,6 +39,17 @@ One Markdown file at `review/notes/<paper-id>.md` (use a short slug like `smith2
 ## Sample / data
 <N, population, dataset size, domain — "not applicable" if purely theoretical>
 
+## Claim-ready facts
+<Required before the table. Fill from the PDF, not from the filename.>
+
+- **Design:** <RCT / observational / preclinical / PK / protocol / review / …>
+- **Population / model:** <species or patients>
+- **n:** <number, or "not reported">
+- **Intervention / comparator:**
+- **Primary endpoint:** <with units>
+- **Primary result:** <with n, units, p/CI if the paper reports them>
+- **Cannot show:** <what this design cannot support>
+
 ## Key findings
 <Bulleted, each tied to where in the paper it came from if possible, e.g. "(Section 4.2)" or "(Table 3)">
 
@@ -55,7 +66,9 @@ One Markdown file at `review/notes/<paper-id>.md` (use a short slug like `smith2
 ## Quality bar
 
 - **Every claim in the note must trace to the actual paper text.** If you're not sure a section says what you think, say so in "Open questions" rather than asserting it.
-- Never fill in a field with a plausible-sounding guess. If sample size isn't stated, write "not stated" — don't estimate.
+- Never fill in a field with a plausible-sounding guess. If sample size isn't stated, write "not reported" — don't estimate.
+- **`scripts/notes_from_text.py` is a stub, not a finished note.** Do not leave "mechanical first-pass", "extracted lead", or "not yet filled" in an included note. Read the PDF and fill Claim-ready facts.
+- Extraction is not done until `python3 scripts/check_extraction.py --notes-dir …` exits 0.
 - Prefer the paper's own terminology over your paraphrase when precision matters (e.g. exact effect sizes, exact model names).
 - Keep it skimmable: a domain expert should be able to read one note in under a minute and know whether to read the full paper.
 - Flag anything that contradicts the user's stated inclusion criteria (e.g. wrong population, wrong study design) instead of silently including it.
@@ -72,4 +85,4 @@ One Markdown file at `review/notes/<paper-id>.md` (use a short slug like `smith2
 
 ## Handoff
 
-Once notes exist for all in-scope papers, move to the `literature-table` skill to build the comparison table from these notes — do not re-read the PDFs from scratch for the table.
+Once notes exist for all in-scope papers, run `check_extraction.py`. Only then move to the `literature-table` skill — do not re-read the PDFs from scratch for the table, and do not build the table from mechanical stubs.

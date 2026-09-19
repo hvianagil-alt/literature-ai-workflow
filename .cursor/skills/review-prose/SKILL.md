@@ -154,4 +154,4 @@ Numbered scientific directions a trialist or experimentalist could actually run 
 
 ## Handoff
 
-`report-writing` executes the outline from `synthesis-rationale` **in this voice**. If the draft sounds like a chatbot or a methods log, rewrite it before calling the article done.
+`report-writing` executes the outline from `synthesis-rationale` **in this voice**. Then run `article-qa` (`scripts/check_article.py`). If the draft sounds like a chatbot or a methods log, or the script fails, rewrite it before calling the article done.

@@ -52,10 +52,11 @@ This is deliberately a conversation, not a batch job:
 1. **Intake** — you drop PDFs and say what you're trying to answer.
 2. **Direction check (the AI always does this before going deep)** — it confirms scope, what to include/exclude, and what to emphasize. It will not silently extract 20 papers before checking with you first.
 3. **Optional: explore related papers** — if you want broader coverage, the AI can suggest search queries, authors, or venues to check. It will not invent fake-sounding citations to pad out a list — see the [related-paper-exploration skill](.cursor/skills/related-paper-exploration/SKILL.md) for exactly how it handles uncertainty.
-4. **Extract** — one structured note per in-scope paper.
-5. **Table** — all notes compared side by side.
+4. **Extract** — one structured note per in-scope paper, including claim-ready facts (design, n, endpoint, result). A first automatic stub is not a finished note.
+5. **Table** — all notes compared side by side, rewritten from those facts.
 6. **Interpret + fetch extra context (always, before the article)** — a rationale file stating what each study measured, which themes the data support, real disagreements, what the sample cannot answer, and the outline of the review. For each interpretation gap (a striking result that cannot be put in perspective, conflicting findings, a missing comparator, or a paper that could not be retrieved), the AI must try to find more **public open-access** papers, log what was sought / found / not retrieved, and update the table. It will not invent citations or bypass paywalls. If nothing extra can be retrieved, it says so and leaves the gap open.
-7. **Report** — a PhD-quality journal write-up that follows that outline, grounded in the (updated) table. Token estimates stay in a separate usage log, not in the article.
+7. **Article** — a journal-style review that follows that outline, grounded in the (updated) table. Token estimates stay in a separate usage log, not in the article.
+8. **Check** — scripts confirm the notes are finished and the article reads like a paper. The AI should not say the review is done until those checks pass.
 
 Full detail lives in [`AGENTS.md`](AGENTS.md), which is the file the AI actually reads to run this.
 
@@ -92,6 +93,8 @@ Either way, nothing in this workflow requires you to sign up for or pay for an e
     ├── fetch_oa_pdfs.py         # optional: download public OA PDFs
     ├── search_oa_related.py     # optional: OpenAlex search for gap-fill (API hits only)
     ├── write_prisma.py          # optional: PRISMA 2020 counts from run logs
+    ├── check_extraction.py      # required before the table: notes are not stubs
+    ├── check_article.py         # required before delivery: article is a paper
     └── phase_log.py             # optional: per-phase usage / token estimates
 ```
 

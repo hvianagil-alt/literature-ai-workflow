@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import ssl
 import time
 import urllib.error
@@ -56,12 +57,38 @@ def _request(
         return 0, url, b""
 
 
-def looks_like_pdf(data: bytes, content_url: str) -> bool:
-    if data[:5] == b"%PDF-":
+def looks_like_pdf(data: bytes, content_url: str = "") -> bool:
+    """Keep only real PDF bytes. HTML served at a .pdf URL is a failure."""
+    stripped = (data or b"").lstrip()
+    if stripped[:5] == b"%PDF-":
         return True
-    # some servers prepend a UTF-8 BOM or whitespace
-    stripped = data.lstrip()
-    return stripped[:5] == b"%PDF-" or content_url.lower().endswith(".pdf") and stripped[:4] == b"%PDF"
+    # UTF-8 BOM then %PDF-
+    if stripped[:8].startswith(b"\xef\xbb\xbf") and stripped[3:8] == b"%PDF-":
+        return True
+    _ = content_url
+    return False
+
+
+def pdf_urls_from_html(html: str, base_url: str) -> list[str]:
+    """Pull candidate PDF URLs from a public landing page. No login URLs."""
+    found: list[str] = []
+    text = html or ""
+    for pattern in (
+        r'citation_pdf_url["\']?\s+content=["\']([^"\']+)',
+        r'content=["\']([^"\']+)["\'][^>]*name=["\']citation_pdf_url',
+        r'href=["\']([^"\']+?/pdf[^"\']*)',
+        r'href=["\']([^"\']+\.pdf[^"\']*)',
+    ):
+        for m in re.finditer(pattern, text, re.I):
+            found.append(m.group(1))
+    out: list[str] = []
+    seen: set[str] = set()
+    for raw in found:
+        url = urllib.parse.urljoin(base_url, raw.strip())
+        if url.startswith("http") and url not in seen:
+            seen.add(url)
+            out.append(url)
+    return out
 
 
 def openalex_oa_url(doi: str) -> tuple[str | None, int]:
@@ -175,26 +202,15 @@ def try_download_pdf(url: str) -> tuple[bytes | None, str, int]:
     calls = 1
     if looks_like_pdf(body, final_url):
         return body, final_url, calls
-    # HTML landing page: look for a PDF link
-    if code == 200 and b"%PDF-" not in body[:16]:
+    # HTML landing page: look for a PDF link (MDPI and others often return HTML
+    # at the first URL). Never keep the HTML body.
+    if code == 200 and not looks_like_pdf(body, final_url):
         text = body.decode("utf-8", errors="replace")
-        for pattern in (
-            'citation_pdf_url" content="',
-            "citation_pdf_url' content='",
-            'citation_pdf_url" content=\'',
-            'name="citation_pdf_url" content="',
-        ):
-            if pattern in text:
-                start = text.index(pattern) + len(pattern)
-                end = text.find('"', start)
-                if end == -1:
-                    end = text.find("'", start)
-                if end != -1:
-                    pdf_url = text[start:end]
-                    code2, final2, body2 = _request(pdf_url, accept="application/pdf")
-                    calls += 1
-                    if looks_like_pdf(body2, final2):
-                        return body2, final2, calls
+        for pdf_url in pdf_urls_from_html(text, final_url)[:8]:
+            code2, final2, body2 = _request(pdf_url, accept="application/pdf")
+            calls += 1
+            if looks_like_pdf(body2, final2):
+                return body2, final2, calls
     return None, final_url, calls
 
 
@@ -298,7 +314,9 @@ def main() -> int:
         doi = rec.get("doi") or ""
         citekey = rec.get("record_id") or rec.get("citekey") or "unknown"
         dest = out_dir / f"{citekey}.pdf"
-        if args.resume and dest.exists() and dest.stat().st_size > 1000:
+        if dest.exists() and dest.is_dir():
+            dest = out_dir / f"{citekey}-fulltext.pdf"
+        if args.resume and dest.exists() and dest.is_file() and dest.stat().st_size > 1000:
             ok_n += 1
             results.append(
                 {
