@@ -17,4 +17,4 @@ Start here for the analysis trail.
 | `gap-retrieval/` | Targeted OpenAlex searches + OA fetch log for interpretation gaps (does not replace `fetch-log.json`) |
 | `article.md` | Journal-style review following that outline (no token tables) |
 
-PDFs (gitignored) live in `papers/scopus-oa/`. Do not treat Huang 2026 as read.
+PDFs (gitignored) live in `papers/scopus-oa/` (export) and `papers/scopus-oa-gapfill/` (interpretation-gap OA fetch). Do not treat Huang 2026 as read.
