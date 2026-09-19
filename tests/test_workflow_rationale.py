@@ -44,6 +44,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("In-article results tables", text)
         self.assertIn("Full term (ABBR)", text)
         self.assertIn("at most four", text)
+        self.assertIn("Do not wait for the user", text)
         self.assertEqual(text.count("## Output"), 1)
         self.assertNotIn("glycaemia, safety, utilisation", text)
         self.assertNotIn("hepatic GLP-1", text)
@@ -74,6 +75,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Abbreviations", text)
         self.assertIn("T2D", text)
         self.assertIn("first-time", text)
+        self.assertIn("generic Results", text)
+        self.assertIn("Known failure", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -88,6 +91,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertLess(text.find("### 9. Double-check"), text.find("### 10. Iterate"))
         self.assertIn("numbered Markdown results tables", text)
         self.assertIn("double-check", text)
+        self.assertIn("adjacent-field", text)
+        self.assertIn("generic `## Results`", text)
 
     def test_readme_is_cloneable_and_lists_all_skills(self):
         text = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -123,6 +128,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("review kind", text)
         self.assertIn("topic or argument", text)
         self.assertIn("Table 1", text)
+        self.assertIn("generic Results", text)
 
     def test_article_qa_skill_exists(self):
         text = (ROOT / ".cursor/skills/article-qa/SKILL.md").read_text(encoding="utf-8")
@@ -133,6 +139,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("no citations", text.lower())
         self.assertIn("Full term (ABBR)", text)
         self.assertIn("glossary", text.lower())
+        self.assertIn("thematic", text.lower())
+        self.assertIn("Introduction is too short", text)
 
     def test_double_check_skill_exists(self):
         text = (ROOT / ".cursor/skills/double-check/SKILL.md").read_text(
@@ -143,6 +151,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("double-check.md", text)
         self.assertIn("Abbreviations", text)
         self.assertIn("glossary", text.lower())
+        self.assertIn("adjacent-field", text.lower())
+        self.assertIn("generic Results", text)
         self.assertIn(".cursor/skills/double-check/SKILL.md", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
         self.assertTrue((ROOT / "scripts" / "table_from_notes.py").is_file())
 

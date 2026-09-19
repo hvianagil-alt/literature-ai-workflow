@@ -91,7 +91,9 @@ Produce a **PhD-quality, argument-driven journal review** of **all** in-scope ev
 
 The article is a **secondary** paper: it does not report a new experiment. It teaches the reader the physiology or technology later sections assume, then compares included results, names gaps, and says what to measure next.
 
-**Introduction must teach.** Open on the phenomenon in present tense (not “This review discusses…”). A reader expert in an adjacent field must be able to follow the later sections after reading it (e.g. what an incretin is, what automated insulin delivery is, why oral peptides fail, what an extra-glycaemic claim would even mean). Put the aim or central argument in the **last** paragraph of the Introduction. Headings name topics or arguments, not papers. Do not dump screening theatre into the Introduction.
+**Introduction must teach, every time, without the user asking.** Open on the phenomenon in present tense (not “This review discusses…”). Write enough background that a reader expert in an **adjacent** field (not this subfield) can follow §§3–N: the clinical or biological problem, what current options already do and still fail, the compartments or tools later sections assume, and the live controversy. Put the aim or central argument in the **last** paragraph of the Introduction (`The aim of this review is…` / `The central argument of this review is…`). Headings name topics or arguments, not papers. **Do not use a generic `## Results` dump** and a stack of leftover `###` how-to fragments. Numbered thematic sections come from rationale (e). Do not dump screening theatre or “user-supplied seeds” into the Introduction. If the first draft would only make sense to someone who already knows the papers, **rewrite it before the user sees it** — that rewrite is part of the workflow, not a favour after a complaint.
+
+`check_article.py` fails a too-short Introduction, a missing aim paragraph, a generic Results heading, or too few thematic `##` sections. Passing the 6,000-word floor is not enough. The double-check must record an adjacent-field reader test; if it fails, rewrite without asking the user.
 
 **Title.** Prefer a colon subtitle that names the kind and the argument (`Topic: a narrative review of …`). The title is about the field, not about a list of papers or a database export.
 
@@ -117,11 +119,11 @@ python3 scripts/check_article.py \
   --table review/runs/<run-id>/table/literature-table.md
 ```
 
-If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. Repeat until exit 0. Use `--short` only if the user asked for a short note.
+If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. Repeat until exit 0. Use `--short` only if the user asked for a short note. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint.
 
 ### 9. Double-check (mandatory, after the scripts)
 
-Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, or a number in the article does not match the PDF. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, and write `review/runs/<run-id>/double-check.md`. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
+Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, a number in the article does not match the PDF, **or the Introduction still does not teach**. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, apply the **adjacent-field reader test** to the Introduction and heading spine, and write `review/runs/<run-id>/double-check.md`. If the teaching test fails, rewrite `article.md` without waiting for the user. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
 
 ### 10. Iterate
 
@@ -137,7 +139,7 @@ Literature reviews are rarely one-shot. After a draft that **passed step 8**, as
 6. **No required external services for reading local PDFs.** Extraction and the rationale can run on files already in the repo. Targeted extra retrieval uses the same public OA path as `oa-fetch`. If the network fails or no OA PDF exists, document that and write the article with the gap left open — never treat a missing PDF as a reason to invent a citation, and never treat OA fetch as a paywall bypass.
 7. **Keep outputs where they belong.** Per-paper notes → `review/notes/` (and run `notes/`). Table → `review/table/literature-table.md`. Rationale → `review/runs/<run-id>/synthesis-rationale.md` or `review/report/synthesis-rationale.md`. Article → `review/runs/<run-id>/article.md` and/or `review/report/final-report.md`. Usage/tokens → `usage-log.md` only.
 8. **PDFs stay gitignored.** Do not commit downloaded PDFs.
-9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py`. Do not rewrite a previous sample unless asked.
+9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py` (including the teaching-Introduction and thematic-spine gates). Story quality is a default, not a user request. Do not rewrite a previous sample unless asked.
 
 ## Skills reference
 

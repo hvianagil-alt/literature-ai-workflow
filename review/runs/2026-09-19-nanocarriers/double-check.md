@@ -37,7 +37,8 @@ No `[n]`. No *et al.*. Topic map: emptying problem, PEG vs pH trigger, AgNPs as 
 
 PEG, EPR, DOPE, CHEMS, MIC, AgNPs, FIC, LTLD, AINI introduced in teaching sentences, then shortened. Headings stay expanded.
 
-## Tables in article
+- Adjacent-field reader test (Introduction teaches later sections?): **yes**. An adjacent-field reader gets packaging → compartments → PEG trade-off → infection/nose before the original studies.
+- Heading spine: thematic `##` sections, not generic Results? **yes** (§§3–8). Pass 1 used `## Results` plus fragment `###` notes; that spine would now fail `check_article.py`.
 
 - Table 2 (review maps) in §3, pointed from Methods and §3.
 - Table 1 (experimental) in §4, pointed from Methods and §4.

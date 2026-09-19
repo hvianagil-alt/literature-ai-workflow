@@ -154,7 +154,7 @@ Issues and pull requests welcome — especially if you hit a workflow edge case 
 
 ## Repeatable by design
 
-Clone this repo, drop *your* PDFs (or a Scopus `.bib`, or just a topic), open it in Cursor, and say “Review my papers.” After you confirm scope, the agent should extract claim-ready notes, build the comparison table, write a synthesis rationale (and try public open-access extra papers for gaps), write a journal article with numbered results tables that the prose points to, and pass `scripts/check_extraction.py` plus `scripts/check_article.py`, then a double-check log. It should not rewrite a previous sample’s `article.md` unless you asked. Token estimates stay in `usage-log.md`. PDFs stay gitignored. If a check fails, the article is not done.
+Clone this repo, drop *your* PDFs (or a Scopus `.bib`, or just a topic), open it in Cursor, and say “Review my papers.” After you confirm scope, the agent should extract claim-ready notes, build the comparison table, write a synthesis rationale (and try public open-access extra papers for gaps), write a journal article whose Introduction teaches the field and whose body is numbered thematic sections (not a Results dump), with numbered results tables that the prose points to, and pass `scripts/check_extraction.py` plus `scripts/check_article.py`, then a double-check log that includes an adjacent-field reader test. It should not rewrite a previous sample’s `article.md` unless you asked. Token estimates stay in `usage-log.md`. PDFs stay gitignored. If a check fails, the article is not done.
 
 ## License
 

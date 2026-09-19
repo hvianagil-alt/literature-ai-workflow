@@ -14,6 +14,8 @@ Fails when the Abstract contains a numbered citation ([n]) or "et al."
 Fails when ``--table`` still looks like a ``write_table.py`` DRAFT (lead paste).
 Fails when a defined abbreviation is still followed by many leftover expanded forms.
 Fails when the Abstract defines more than four abbreviations, or defines one it never uses again.
+Fails a narrative spine that dumps science under a generic Results heading, or an
+Introduction too short to teach an adjacent-field reader (pass-1 failure mode).
 """
 
 from __future__ import annotations
@@ -37,6 +39,8 @@ PROCESS = [
     r"mechanical first-pass",
     r"\bhttp_calls\b",
     r"est_input_tokens",
+    r"\buser-supplied\b",
+    r"papers in this sample were assembled",
 ]
 
 FLOURISH = [
@@ -58,6 +62,29 @@ INTRO_BAD_OPENERS = (
 )
 
 REQUIRED_HEADINGS = ("abstract", "introduction", "discussion", "conclusions", "references")
+RESERVED_H2 = {
+    "abstract",
+    "keywords",
+    "introduction",
+    "methods",
+    "discussion",
+    "conclusions",
+    "references",
+    "key summary points",
+    "highlights",
+}
+RESULTS_H2 = re.compile(r"^(?:\d+\.\s+)?results$", re.I)
+AIM_RE = re.compile(
+    r"\b(aim of this review|central argument of this review|this review is to)\b",
+    re.I,
+)
+INTRO_MIN_WORDS_FULL = 400
+INTRO_MIN_WORDS_SHORT = 40
+INTRO_MIN_PARAS_FULL = 5
+INTRO_MIN_PARAS_SHORT = 3
+THEMATIC_H2_FULL = 3
+THEMATIC_H2_SHORT = 2
+H3_OUTSIDE_METHODS_MAX_FULL = 8
 
 TABLE_CALLOUT = re.compile(r"\bTable\s+\d+\b", re.I)
 TABLE_ROW = re.compile(r"^\s*\|.+\|\s*$")
@@ -97,6 +124,99 @@ def first_sentence(section: str) -> str:
 
 def heading_lines(text: str) -> list[str]:
     return [m.group(1).strip() for m in re.finditer(r"^#{1,4}\s+(.+)$", text, re.M)]
+
+
+def h2_titles(text: str) -> list[str]:
+    return [m.group(1).strip() for m in re.finditer(r"^##\s+(.+)$", text, re.M)]
+
+
+def thematic_h2_titles(text: str) -> list[str]:
+    out = []
+    for raw in h2_titles(text):
+        title = re.sub(r"^\d+\.\s+", "", raw).strip()
+        if title.lower() in RESERVED_H2:
+            continue
+        out.append(title)
+    return out
+
+
+def intro_paragraphs(intro: str) -> list[str]:
+    cleaned = re.sub(r"^#+\s+.*$", "", intro, flags=re.M).strip()
+    return [p.strip() for p in re.split(r"\n\s*\n", cleaned) if p.strip()]
+
+
+def section_span(text: str, heading: str) -> tuple[int, int] | None:
+    m = re.search(rf"^##\s+(?:\d+\.\s+)?{heading}\s*$", text, re.I | re.M)
+    if not m:
+        return None
+    nxt = re.search(r"^##\s+", text[m.end() :], re.M)
+    end = m.end() + nxt.start() if nxt else len(text)
+    return m.start(), end
+
+
+def h3_outside_methods(text: str) -> int:
+    span = section_span(text, "Methods")
+    n = 0
+    for m in re.finditer(r"^###\s+", text, re.M):
+        if span and span[0] <= m.start() < span[1]:
+            continue
+        n += 1
+    return n
+
+
+def story_problems(text: str, short: bool) -> list[str]:
+    """Narrative reviews must teach, then argue in thematic sections — not dump Results."""
+    problems: list[str] = []
+    intro = section_after(text, "Introduction")
+    words = intro.split()
+    paras = intro_paragraphs(intro)
+    min_words = INTRO_MIN_WORDS_SHORT if short else INTRO_MIN_WORDS_FULL
+    min_paras = INTRO_MIN_PARAS_SHORT if short else INTRO_MIN_PARAS_FULL
+    if len(words) < min_words:
+        problems.append(
+            f"Introduction word count {len(words)} < {min_words} "
+            "(teach the field so an adjacent-field reader can follow later sections; "
+            "see review-prose, Introduction)"
+        )
+    if len(paras) < min_paras:
+        problems.append(
+            f"Introduction has {len(paras)} paragraphs; need at least {min_paras} "
+            "(phenomenon, background, why current options fail, controversy, aim last)"
+        )
+    if paras and not AIM_RE.search(paras[-1]):
+        problems.append(
+            "Introduction last paragraph must state the aim or central argument "
+            "('The aim of this review is' / 'The central argument of this review is')"
+        )
+    for raw in h2_titles(text):
+        title = re.sub(r"^\d+\.\s+", "", raw).strip()
+        if RESULTS_H2.match(title):
+            problems.append(
+                "generic Results heading; use numbered thematic sections from "
+                "synthesis-rationale (e), not a Results dump (see review-prose, "
+                "Match the spine)"
+            )
+            break
+    need = THEMATIC_H2_SHORT if short else THEMATIC_H2_FULL
+    thematic = thematic_h2_titles(text)
+    if len(thematic) < need:
+        problems.append(
+            f"{len(thematic)} thematic ## sections; need at least {need} "
+            "topic/argument headings between Methods and Discussion"
+        )
+    if not short:
+        n_h3 = h3_outside_methods(text)
+        if n_h3 > H3_OUTSIDE_METHODS_MAX_FULL:
+            problems.append(
+                f"{n_h3} ### headings outside Methods (max {H3_OUTSIDE_METHODS_MAX_FULL}); "
+                "fold fragment subsections into the numbered thematic story"
+            )
+    lowered_intro = intro.lower()
+    if "user-supplied" in lowered_intro or "were assembled from" in lowered_intro:
+        problems.append(
+            "Introduction contains intake/process talk; teach the field, not how papers were gathered"
+        )
+    return problems
 
 
 def et_al_openers(text: str) -> int:
@@ -337,6 +457,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
         problems.append("Abstract names a paper (et al.)")
     problems.extend(abstract_sigla_problems(abstract))
     problems.extend(leftover_expanded_terms(body))
+    problems.extend(story_problems(text, short))
     return problems
 
 

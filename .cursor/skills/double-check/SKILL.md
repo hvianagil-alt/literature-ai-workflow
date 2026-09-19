@@ -20,10 +20,11 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 3. **Literature table.** If cells still say “mechanical first-pass”, “extracted lead”, or paste the PDF lead into Key findings, rewrite every included row from Claim-ready facts (`scripts/table_from_notes.py`). The extraction worksheet is not finished while those phrases remain.
 4. **Spot-check numbers.** Pick at least **five** numeric claims in `article.md` (n, %, RR, bioavailability, *P*). Open the matching note. If the note and the sentence disagree, open the PDF. Correct the note, the table row, and the article. Never invent the number.
 5. **Abstract and title.** No `[n]`, no *et al.*, no stack of effect sizes. Title is `Topic: a narrative review of …` (or the matching kind). See `review-prose`.
-6. **Abbreviations.** Repeated terms are `Full term (ABBR)` at first use, then the abbreviation (`type 2 diabetes (T2D)`, then `T2D`). Introduce each short form in a sentence that still teaches the thing. Read the Abstract as a first-time reader: if you need a glossary, write the words back in. Headings may stay expanded. Fix leftover long forms in Results and Discussion.
+6. **Abbreviations.** Repeated terms are `Full term (ABBR)` at first use, then the abbreviation (`type 2 diabetes (T2D)`, then `T2D`). Introduce each short form in a sentence that still teaches the thing. Read the Abstract as a first-time reader: if you need a glossary, write the words back in. Headings may stay expanded. Fix leftover long forms in the body and Discussion.
 7. **In-article tables.** At least one Markdown pipe table and an in-text `Table N` sentence. Cells must match the notes.
-8. **Discussion.** Interprets findings. No identification counts, fetch logs, or token meters.
-9. **Write the log** to `review/runs/<run-id>/double-check.md` (or `review/report/double-check.md`):
+8. **Story spine (do not skip; do not wait for the user).** Adjacent-field reader test: after the Introduction alone, can someone expert in a neighbouring field follow the later sections? Are `##` headings thematic arguments, not a generic Results dump plus fragment `###` notes? If either answer is no, rewrite `article.md` now and re-run `check_article.py`. Record the test in the log.
+9. **Discussion.** Interprets findings. No identification counts, fetch logs, or token meters.
+10. **Write the log** to `review/runs/<run-id>/double-check.md` (or `review/report/double-check.md`):
 
 ```markdown
 # Double-check — <run-id>
@@ -35,6 +36,8 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
   - …
 - Abstract: citations? named papers?
 - Abbreviations: repeated terms defined once then shortened? Abstract still readable without a glossary?
+- Adjacent-field reader test (Introduction teaches later sections?): yes/no. If no, rewrite before delivering.
+- Heading spine: thematic `##` sections, not generic Results?
 - Tables in article: Table 1 … mentioned in prose?
 - If two passes: rank pass 1 vs pass 2 on abstract, tables, traceability, Discussion, completeness (1–5 each) and say which is the deliverable.
 ```
@@ -48,6 +51,7 @@ Scope stays the agreed protocol. Do not silently drop or add papers. Extra OA re
 - Never fabricate a correction. If the PDF cannot be read, say so in the log and in the article.
 - Do not skip this step because the scripts passed.
 - Do not import findings from reviews that were read only to learn form.
+- Do not ask the user to notice that the story is unclear. If you would only understand the article because you extracted the PDFs, rewrite the Introduction.
 
 ## Handoff
 

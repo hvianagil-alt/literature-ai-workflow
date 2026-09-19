@@ -47,7 +47,12 @@ Published reviews do not all share one outline. Choose the spine that matches **
 - Optional bullet takeaways (**Key Summary Points**): each bullet is a claim plus its evidence grade, not a slogan.
 - Introduction that teaches, ending in one aim or thesis paragraph.
 - Brief Methods (sources, dates, eligibility) — one short section, not a pipeline memoir.
-- Numbered **thematic** body sections; nested subheadings when a mechanism has parts.
+- Unstructured abstract (problem → tension → calibrated findings → what they do not imply).
+- Keywords after the abstract.
+- Optional bullet takeaways (**Key Summary Points**): each bullet is a claim plus its evidence grade, not a slogan.
+- Introduction that teaches, ending in one aim or thesis paragraph.
+- Brief Methods (sources, dates, eligibility) — one short section, not a pipeline memoir.
+- Numbered **thematic** body sections; nested subheadings when a mechanism has parts. **Never** a lone `## Results` catalogue.
 - Discussion and Conclusions as interpretation and numbered scientific next steps.
 
 **Physiology / mechanisms review:**
@@ -61,15 +66,17 @@ Do not force full IMRaD Results (“study characteristics / results / synthesis�
 
 ### Introduction (mandatory teaching section)
 
-Write it in this **order**. A reader expert in an adjacent field but not this one must be able to follow §§3–N afterwards.
+Write it in this **order**. A reader expert in an adjacent field but not this one must be able to follow §§3–N afterwards. **Do this on the first draft of every topic.** Do not wait for the user to say the story is unclear.
 
-1. **Open on the phenomenon, present tense.** The first sentence is biology or the clinical problem. Not “This review discusses…”. Not “In recent years, X has gained increasing attention.”
-2. Teach the physiology or technology later sections assume (e.g. incretin effect, peptide gut barriers, what an automated insulin delivery system is), with citations to included papers where they state it.
+1. **Open on the phenomenon, present tense.** The first sentence is biology or the clinical problem. Not “This review discusses…”. Not “In recent years, X has gained increasing attention.” Not a molecular definition that only insiders already wanted.
+2. Teach the physiology or technology later sections assume (compartments, assays, devices, usual care), with citations to included papers where they state it.
 3. Why the clinical problem exists: what current therapy already does and still fails.
 4. The controversy or poorly mapped region the Discussion will return to.
 5. **Last paragraph only:** one conventional **aim** or **central argument** (“The aim of this review is…” / “The central argument of this review is…”). The phrase “this review” belongs here, not in the opening sentence.
 
-Do not dump screening theatre into the Introduction. Do not write “this paper stands as a testament to…” or similar. Do not preview every later heading as a table of contents.
+**Known failure (must not repeat):** a manuscript that passes the 6,000-word floor and has tables but opens on specialist physics, uses a generic Results dump (`## Results`) , then tacks on many `###` fragments (“how to read a pH”, “calcein is not doxorubicin”). That is a catalogue, not a review. Fold teaching into the Introduction and into numbered thematic sections. `check_article.py` now fails that spine.
+
+Do not dump screening theatre into the Introduction. Do not write “user-supplied seeds” or “papers in this sample were assembled”. Do not write “this paper stands as a testament to…” or similar. Do not preview every later heading as a table of contents.
 
 ### Title
 

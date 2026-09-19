@@ -120,6 +120,8 @@ Open scientific gaps (a missing human PK study; a protocol without outcomes; a m
 
 Cite included papers in the text as Author Year or [n] keyed to the References list. **Every factual sentence must map to an extracted note, the table, or (for Methods counts only) the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so as an evidence limitation — do not write as if a small slice were a complete field survey, and do not explain that limitation as a software or export problem.
 
+**Do not wait for the user to complain about structure.** After the first complete draft, reread the Introduction as an adjacent-field expert. If later sections would be opaque, rewrite the Introduction and the heading spine **once** before `check_article.py`. That rewrite is the default path, not a second assignment.
+
 ## Quality bar
 
 - **PhD-level argument, not a catalogue.** Topic sentences make claims about the set; papers are evidence for those claims. A reader should not be able to describe the article as “seven consecutive abstracts.”
@@ -153,7 +155,7 @@ python3 scripts/check_article.py \
   --table review/runs/<run-id>/table/literature-table.md
 ```
 
-If it fails, rewrite and run it again. Also grep the banned-flourish list in `review-prose`. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the Introduction does not teach the field, expand it. If the body has no Markdown results table or no “Table 1” (or Table N) sentence, add both. If a term repeats, write `Full term (ABBR)` once and then the abbreviation, in a sentence that still teaches the thing. Keep the Abstract readable: write terms out unless the Abstract itself reuses the short form (at most four abbreviations). If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
+If it fails, rewrite and run it again. Also grep the banned-flourish list in `review-prose`. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the heading spine is `## Results` plus fragment `###` notes, rewrite into numbered thematic sections before the user sees the file. If the Introduction does not teach the field, expand it. If the body has no Markdown results table or no “Table 1” (or Table N) sentence, add both. If a term repeats, write `Full term (ABBR)` once and then the abbreviation, in a sentence that still teaches the thing. Keep the Abstract readable: write terms out unless the Abstract itself reuses the short form (at most four abbreviations). If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
 
 ## Handoff
 
