@@ -97,9 +97,11 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertNotIn("cd literature-ai\n", text)
         self.assertIn("review-prose", text)
         self.assertIn("article-qa", text)
-        self.assertIn("This repo has eleven", text)
+        self.assertIn("This repo has twelve", text)
         self.assertNotIn("This repo has eight", text)
         self.assertNotIn("This repo has ten", text)
+        self.assertNotIn("This repo has eleven", text)
+        self.assertIn("find-papers", text)
         self.assertIn("Table 1", text)
         self.assertIn("double-check", text)
         self.assertIn("T2D", text)
@@ -143,6 +145,25 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("glossary", text.lower())
         self.assertIn(".cursor/skills/double-check/SKILL.md", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
         self.assertTrue((ROOT / "scripts" / "table_from_notes.py").is_file())
+
+    def test_find_papers_skill_exists(self):
+        text = (ROOT / ".cursor/skills/find-papers/SKILL.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("OpenAlex", text)
+        self.assertIn("topic_search", text)
+        self.assertIn("related_to_seeds", text)
+        self.assertIn("find_papers.py", text)
+        self.assertIn("Never fabricate", text)
+        self.assertIn("contact email", text.lower())
+        agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        self.assertIn("find-papers", agents)
+        self.assertIn("If `papers/` is empty", agents)
+        self.assertTrue((ROOT / "scripts" / "find_papers.py").is_file())
+        related = (ROOT / ".cursor/skills/related-paper-exploration/SKILL.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("find-papers", related)
 
     def test_example_journal_article_passes_short_qa(self):
         import sys

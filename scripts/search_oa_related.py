@@ -153,7 +153,7 @@ def search_openalex(
     }
 
 
-def catalog_rows(records: list[dict]) -> list[dict]:
+def catalog_rows(records: list[dict], *, origin: str = "gap_fill") -> list[dict]:
     """Subset of fields fetch_oa_pdfs.py needs."""
     rows = []
     for r in records:
@@ -169,7 +169,8 @@ def catalog_rows(records: list[dict]) -> list[dict]:
                 "doi": r.get("doi") or "",
                 "open_access_flag": True,
                 "gold_oa": (r.get("oa_status") or "") in {"gold", "hybrid"},
-                "gap_fill": True,
+                "gap_fill": origin == "gap_fill",
+                "origin": origin,
             }
         )
     return rows

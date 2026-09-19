@@ -19,7 +19,7 @@ Look at what's in `papers/` (recursively, ignoring non-paper files). Tell the us
 - What's your research question, or what field/topic is this for?
 - What does "good" look like for this review — e.g. a table for a lit-review section of a paper, background reading before starting a project, a sanity check on 3 specific papers?
 
-If `papers/` is empty, say so and point them to `papers/README.md` instead of proceeding.
+**If `papers/` is empty**, do not stop. They can still drop files by hand (`papers/README.md`), **or** you find free open-access papers for them. Use the `find-papers` skill: search OpenAlex for the topic they named, fetch public PDFs only, then continue. Ask once for a contact email if Unpaywall/OpenAlex need it. Do not ask them to buy an API. If the network fails or nothing is OA, say so and wait for PDFs.
 
 If the user starts from a **Scopus/PubMed `.bib` export** rather than PDFs, do not skip intake: count the records, then use the `bib-import` skill into `review/runs/<run-id>/`. PDF retrieval is a separate, explicit step (`oa-fetch`) — only public open-access files, with failures logged. Document identification/screening with the `prisma-logging` skill.
 
@@ -35,9 +35,11 @@ Summarize back what you understood in 2-4 sentences and get explicit confirmatio
 
 **Do not proceed past this step without user input.** This is a hard gate: scope cannot be guessed.
 
-### 3. Optional: explore related papers (user opt-in, before extraction)
+### 3. Find related papers (default when the folder is empty or they gave seeds)
 
-If the user wants broader coverage, or if you notice the seed papers cite a body of work not represented in `papers/`, offer (don't force) this exploration step: see the `related-paper-exploration` skill in **opt-in browse** mode. This step **never invents fake citations**. Only run this *browse* before extraction if the user opts in.
+If they dropped a seed set (for example ten PDFs on one topic), use `find-papers` in **related-to-seeds** mode: search free OpenAlex OA records on that shared topic and fetch public PDFs. Do this without waiting for a special opt-in — it is free and cheap. Tell them the titles the API returned. Confirm at the direction check which retrieved files to extract.
+
+If they only want search strings and no downloads, use `related-paper-exploration` in **opt-in browse** mode instead. That step **never invents fake citations**.
 
 Gap-driven extra retrieval after the table is **not** this step — that is step 6, and it is mandatory.
 
@@ -145,6 +147,7 @@ Literature reviews are rarely one-shot. After a draft that **passed step 8**, as
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
 | Second look after the scripts | `double-check` | `.cursor/skills/double-check/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
+| Find OA papers when none (or few) were dropped | `find-papers` | `.cursor/skills/find-papers/SKILL.md` |
 | Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
 | Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |
 | PRISMA counts + phase/token log | `prisma-logging` | `.cursor/skills/prisma-logging/SKILL.md` |

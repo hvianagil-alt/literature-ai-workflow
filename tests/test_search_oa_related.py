@@ -44,6 +44,51 @@ class RecordTests(unittest.TestCase):
         self.assertEqual(len(rows), 1)
         self.assertTrue(rows[0]["gap_fill"])
         self.assertEqual(rows[0]["doi"], "10.1/abc")
+        self.assertEqual(rows[0]["origin"], "gap_fill")
+
+    def test_catalog_rows_can_mark_seed_search(self):
+        rows = catalog_rows(
+            [
+                {
+                    "citekey": "Example2024_x",
+                    "title": "A",
+                    "author": "Ada Example",
+                    "year": "2024",
+                    "journal": "J",
+                    "doi": "10.1/abc",
+                    "oa_status": "gold",
+                }
+            ],
+            origin="related_to_seeds",
+        )
+        self.assertFalse(rows[0]["gap_fill"])
+        self.assertEqual(rows[0]["origin"], "related_to_seeds")
+
+
+class FindPapersCliTests(unittest.TestCase):
+    def test_per_page_cap_rejects_without_network(self):
+        import sys
+        from unittest.mock import patch
+
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+        import find_papers  # noqa: WPS433
+
+        with patch.object(
+            sys,
+            "argv",
+            [
+                "find_papers.py",
+                "--query",
+                "x",
+                "--mailto",
+                "a@b.c",
+                "--run-dir",
+                "/tmp",
+                "--per-page",
+                "99",
+            ],
+        ):
+            self.assertEqual(find_papers.main(), 2)
 
 
 if __name__ == "__main__":

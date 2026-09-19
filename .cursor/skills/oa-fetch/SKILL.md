@@ -10,6 +10,7 @@ Download full texts **only** from public OA sources.
 ## When to use
 
 - After `bib-import` has produced `review/runs/<id>/catalog.json`.
+- After `find-papers` has written `review/runs/<id>/seed-search/catalog.json` (empty folder or seed expansion). Fetch into `papers/<id>-found/`.
 - The user asked you to find/get PDFs (and typically said they should be OA).
 - After `synthesis-rationale` lists interpretation gaps: fetch a **separate** catalog of selected OpenAlex hits (`review/runs/<id>/gap-retrieval/catalog.json`) into `papers/<id>-gapfill/`. Never overwrite the original run’s `fetch-log.json`.
 

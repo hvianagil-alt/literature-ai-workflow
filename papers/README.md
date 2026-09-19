@@ -4,6 +4,8 @@ This folder is the **intake tray**. Put the PDFs you want reviewed directly in h
 
 You don't need to rename, tag, or organize anything before starting — the agent will ask you clarifying questions about scope once it sees what's here.
 
+If this folder is empty, you can still start. Tell the agent the topic; it will search **free open-access** papers (OpenAlex) and download public PDFs into a subfolder. If you drop a handful of seed PDFs, it will search for related OA papers on the same topic. It will not use pirate sites or paid logins. It may ask once for a contact email (Unpaywall/OpenAlex polite pool).
+
 ## Keep PDFs local (default)
 
 By default, `.gitignore` at the repo root excludes `*.pdf` inside `papers/`. That means:
@@ -42,7 +44,7 @@ Some PDFs are scanned images, DRM-protected, or otherwise not text-extractable. 
 
 ## What happens next
 
-Once your PDFs are in place, open this repo in Cursor and say something like:
+Once your PDFs are in place — or once you have named a topic with an empty folder — open this repo in Cursor and say something like:
 
 > "Review my papers"
 

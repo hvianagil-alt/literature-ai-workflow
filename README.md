@@ -22,7 +22,7 @@ If you've never used Cursor or an AI coding tool before, here's the entire menta
    cd literature-ai-workflow
    ```
 
-2. **Drop your PDFs into `papers/`.** Subfolders are fine. See [`papers/README.md`](papers/README.md) if you're wondering whether this will accidentally publish your papers (short answer: no, they're excluded from git by default).
+2. **Drop your PDFs into `papers/`** — or skip this if you don't have them yet. Subfolders are fine. See [`papers/README.md`](papers/README.md) if you're wondering whether this will accidentally publish your papers (short answer: no, they're excluded from git by default). If the folder is empty, say your topic in the chat; the AI will search **free open-access** papers and download what it can. If you drop a few seed PDFs, it will also search for related OA work.
 
 3. **Open the folder in Cursor.** (File → Open Folder, or `cursor .` from the terminal if you have the CLI installed.)
 
@@ -30,7 +30,11 @@ If you've never used Cursor or an AI coding tool before, here's the entire menta
 
    > Review my papers
 
-   The AI will look at what's in `papers/`, ask you what your research question is and what you're trying to get out of the review, and then walk through the workflow below — checking in with you before doing the deep work, never just silently processing everything.
+   or, with no PDFs yet:
+
+   > Review oral GLP-1 delivery in type 2 diabetes
+
+   The AI will look at what's in `papers/` (or search if it's empty), ask you what your research question is and what you're trying to get out of the review, and then walk through the workflow below — checking in with you before doing the deep work, never just silently processing everything.
 
 That's it. You don't need to open or read `AGENTS.md` or the `.cursor/skills/` files yourself — they're instructions for the AI, not for you. (Though you're welcome to — see [How it works](#how-it-works) below.)
 
@@ -49,9 +53,9 @@ Want to see what these look like before running anything? Check [`examples/`](ex
 
 This is deliberately a conversation, not a batch job:
 
-1. **Intake** — you drop PDFs and say what you're trying to answer.
+1. **Intake** — you drop PDFs (or a topic, if the folder is empty) and say what you're trying to answer. If there are no PDFs, the AI searches free open-access papers and fetches what it can.
 2. **Direction check (the AI always does this before going deep)** — it confirms scope, what to include/exclude, and what to emphasize. It will not silently extract 20 papers before checking with you first.
-3. **Optional: explore related papers** — if you want broader coverage, the AI can suggest search queries, authors, or venues to check. It will not invent fake-sounding citations to pad out a list — see the [related-paper-exploration skill](.cursor/skills/related-paper-exploration/SKILL.md) for exactly how it handles uncertainty.
+3. **Find related papers** — if you dropped a seed set, it searches free OA papers on the same topic and fetches public PDFs. It will not invent fake-sounding citations — see the [find-papers](.cursor/skills/find-papers/SKILL.md) and [related-paper-exploration](.cursor/skills/related-paper-exploration/SKILL.md) skills.
 4. **Extract** — one structured note per in-scope paper, including claim-ready facts (design, n, endpoint, result). A first automatic stub is not a finished note.
 5. **Table** — all notes compared side by side, rewritten from those facts (`scripts/table_from_notes.py`, not a pasted abstract).
 6. **Interpret + fetch extra context (always, before the article)** — a rationale file stating what each study measured, which themes the data support, real disagreements, what the sample cannot answer, and the outline of the review. For each interpretation gap (a striking result that cannot be put in perspective, conflicting findings, a missing comparator, or a paper that could not be retrieved), the AI must try to find more **public open-access** papers, log what was sought / found / not retrieved, and update the table. It will not invent citations or bypass paywalls. If nothing extra can be retrieved, it says so and leaves the gap open.
@@ -65,7 +69,9 @@ Full detail lives in [`AGENTS.md`](AGENTS.md), which is the file the AI actually
 
 **No, not for the core workflow.** Reading PDFs, extracting notes, building the table, and writing the report all happen inside Cursor's chat using whatever model your Cursor account already has — no separate signup.
 
-The only place an external tool could optionally help is if a PDF is a scanned image that can't be read as text (rare, but it happens — old papers, bad scans). In that case:
+Finding papers when you didn't drop PDFs uses **OpenAlex** (free). Fetching files uses Unpaywall / Europe PMC / publisher OA links already in this repo. The only thing those services want is a **contact email** (not a paid key). The AI will ask you for that email before it searches. It will not log into publishers or use pirate sites.
+
+The only other place an external tool could optionally help is if a PDF is a scanned image that can't be read as text (rare, but it happens — old papers, bad scans). In that case:
 
 - The AI will tell you exactly which file failed and why.
 - You can paste the text yourself into a `.txt` file next to the PDF, or
@@ -93,6 +99,7 @@ Either way, nothing in this workflow requires you to sign up for or pay for an e
     ├── import_bib.py            # optional: parse a Scopus/BibTeX export
     ├── fetch_oa_pdfs.py         # optional: download public OA PDFs
     ├── search_oa_related.py     # optional: OpenAlex search for gap-fill (API hits only)
+    ├── find_papers.py           # optional: topic or seed-related OA search at intake
     ├── write_prisma.py          # optional: PRISMA 2020 counts from run logs
     ├── check_extraction.py      # required before the table: notes are not stubs
     ├── check_article.py         # required before delivery: article is a paper
@@ -122,7 +129,7 @@ python3 scripts/write_prisma.py --run-dir review/runs/my-review
 
 ## How it works (for the curious)
 
-Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has eleven:
+Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has twelve:
 
 | Skill | What it does |
 |---|---|
@@ -133,6 +140,7 @@ Cursor supports **skills**: small instruction files that tell the AI exactly how
 | [`review-prose`](.cursor/skills/review-prose/SKILL.md) | Genre, architecture, and voice: claim-first sentences, teaching Introduction, in-article results tables |
 | [`article-qa`](.cursor/skills/article-qa/SKILL.md) | Runs the extraction and article checks; the review is not done while they fail |
 | [`double-check`](.cursor/skills/double-check/SKILL.md) | Second look after the scripts: spot-check claims, Abstract, tables; write a log |
+| [`find-papers`](.cursor/skills/find-papers/SKILL.md) | If you didn't drop PDFs (or dropped a few seeds), search free OA papers and fetch them |
 | [`related-paper-exploration`](.cursor/skills/related-paper-exploration/SKILL.md) | Opt-in browse *or* mandatory gap-driven OA retrieval; never invents citations |
 | [`bib-import`](.cursor/skills/bib-import/SKILL.md) | Parses a Scopus/BibTeX export into a screening catalog |
 | [`oa-fetch`](.cursor/skills/oa-fetch/SKILL.md) | Retrieves public open-access PDFs for those DOIs |
@@ -146,7 +154,7 @@ Issues and pull requests welcome — especially if you hit a workflow edge case 
 
 ## Repeatable by design
 
-Clone this repo, drop *your* PDFs (or a Scopus `.bib`), open it in Cursor, and say “Review my papers.” After you confirm scope, the agent should extract claim-ready notes, build the comparison table, write a synthesis rationale (and try public open-access extra papers for gaps), write a journal article with numbered results tables that the prose points to, and pass `scripts/check_extraction.py` plus `scripts/check_article.py`, then a double-check log. It should not rewrite a previous sample’s `article.md` unless you asked. Token estimates stay in `usage-log.md`. PDFs stay gitignored. If a check fails, the article is not done.
+Clone this repo, drop *your* PDFs (or a Scopus `.bib`, or just a topic), open it in Cursor, and say “Review my papers.” After you confirm scope, the agent should extract claim-ready notes, build the comparison table, write a synthesis rationale (and try public open-access extra papers for gaps), write a journal article with numbered results tables that the prose points to, and pass `scripts/check_extraction.py` plus `scripts/check_article.py`, then a double-check log. It should not rewrite a previous sample’s `article.md` unless you asked. Token estimates stay in `usage-log.md`. PDFs stay gitignored. If a check fails, the article is not done.
 
 ## License
 

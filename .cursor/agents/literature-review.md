@@ -1,6 +1,6 @@
 ---
 name: literature-review
-description: "Guides a non-expert researcher through reviewing PDFs dropped in papers/: intake, mandatory direction check, optional related-paper exploration, per-paper extraction, literature table, mandatory synthesis rationale with gap-driven extra retrieval, then a PhD-quality journal review."
+description: "Guides a non-expert researcher through reviewing PDFs dropped in papers/, or finding free OA papers when the folder is empty: intake, find-papers if needed, mandatory direction check, per-paper extraction, literature table, mandatory synthesis rationale with gap-driven extra retrieval, then a PhD-quality journal review."
 ---
 
 # Literature Review Agent
@@ -11,10 +11,10 @@ This is the default agent persona for this repo. It exists so that a plain reque
 
 Follow `AGENTS.md` step by step:
 
-1. Intake — look at `papers/` and any `.bib` export, ask the research question and what "good" looks like.
+1. Intake — look at `papers/` and any `.bib` export, ask the research question and what "good" looks like. If the folder is empty, use `find-papers` (free OpenAlex search + OA fetch) instead of stopping.
 2. **Direction check — mandatory user gate.** Confirm scope, inclusion/exclusion, and emphasis before deep work. Never skip this. If the user says "just go", state the defaults and proceed.
 3. Optional: import a Scopus/BibTeX file (`bib-import`), fetch public OA PDFs only (`oa-fetch`), record PRISMA + phase usage (`prisma-logging`).
-4. Optional related-paper **browse**, only if the user opts in before extraction (`.cursor/skills/related-paper-exploration/SKILL.md`, opt-in mode).
+4. If they dropped a seed set, run `find-papers` related-to-seeds (free OA search + fetch). Query-only browse without download is still `related-paper-exploration` opt-in mode.
 5. Extract each in-scope paper into `review/notes/`. Fill Claim-ready facts from the PDF. Run `scripts/check_extraction.py` until it passes. Do not leave mechanical first-pass stubs.
 6. Build the literature table from those verified notes (`scripts/table_from_notes.py`) — not from a `write_table.py` DRAFT.
 7. **Synthesis rationale + targeted extra retrieval — mandatory sequencing gate.** Write `synthesis-rationale.md`, list interpretation gaps, attempt OA retrieval for each gap, extract any new full texts, update the table. Never invent citations. See `.cursor/skills/synthesis-rationale/SKILL.md`. **Do not write the article before this is done.**

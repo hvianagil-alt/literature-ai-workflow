@@ -1,13 +1,15 @@
 ---
 name: related-paper-exploration
-description: "Find related papers without inventing citations. Two modes: (1) optional user-opt-in browse before extraction, and (2) mandatory gap-driven OA retrieval after the synthesis rationale, before the journal article."
+description: "Find related papers without inventing citations. Opt-in browse, or mandatory gap-driven OA retrieval after the rationale. Intake search when the folder is empty is the find-papers skill."
 ---
 
 # Related-Paper Exploration
 
 Help find more of the literature — without ever presenting a fabricated citation as real. This skill produces *leads* (search queries, named authors/venues/concepts, and API-verified records) and, in gap-driven mode, a fetch list for public OA PDFs. It is not a padded bibliography.
 
-## Two modes
+## Two modes in this skill (browse / gap-fill)
+
+Intake search-and-fetch (empty folder, or expand a seed set) is the `find-papers` skill, not this file. This file stays: (1) opt-in browse of queries without download, and (2) mandatory gap-driven OA retrieval after the synthesis rationale.
 
 ### Mode A — opt-in browse (before extraction)
 
@@ -74,10 +76,10 @@ If OpenAlex errors, Unpaywall has no PDF, or the publisher returns HTML/403: rec
 
 | Situation | What to do |
 |---|---|
-| User asks "just give me 10 papers to read" | Push back gently: explain you can't guarantee the existence/accuracy of a long specific list, and offer search queries plus any papers you're genuinely confident about instead. |
+| User asks "just give me 10 papers to read" | Do **not** invent a list from memory. If they want real files, run `find-papers` (OpenAlex API hits + OA fetch). If they only want ideas, give search queries plus any papers you're genuinely confident about. |
 | You're not sure if a paper you're thinking of is real or a conflation of two papers | Don't list it. Describe the idea/topic and suggest a search query instead. |
 | The gap is in a subfield you have little grounded knowledge of | Say so plainly rather than generating generic-sounding suggestions to fill space. |
-| User wants to actually fetch/download suggested papers (Mode A) | Offer the public OA path (`oa-fetch` / `search_oa_related.py`). Do not bypass paywalls. If they prefer to download manually, they drop PDFs in `papers/` and you re-run extraction. |
+| User wants to actually fetch/download suggested papers (Mode A) | Use `find-papers` / `oa-fetch`. Do not bypass paywalls. If they prefer to download manually, they drop PDFs in `papers/` and you re-run extraction. |
 | Mode B search or fetch fails | Log not retrieved in `synthesis-rationale.md`. Do not invent a stand-in citation. Proceed to the article with the gap explicit. |
 
 ## Handoff
