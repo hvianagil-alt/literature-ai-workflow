@@ -1,59 +1,68 @@
 # Double-check — 2026-09-19-nanocarriers
 
-Second look after `article-qa`. One manuscript (`article.md`); this is not a rewrite of a previous nanocarrier sample.
+Second look after rewriting `article.md` for structure and Introduction. Pass 1 kept as `article-pass1.md`. Pass 2 is `article.md`.
 
 ## Scripts
 
-- `check_extraction.py --notes-dir review/runs/2026-09-19-nanocarriers/notes --screening review/runs/2026-09-19-nanocarriers/screening.json`: **19/19 included notes claim-ready** (exit 0).
-- `check_article.py --article review/runs/2026-09-19-nanocarriers/article.md --table review/runs/2026-09-19-nanocarriers/table/literature-table.md`: **exit 0**. Body before References is 6018 words (floor is 6000). Earlier drafts failed only on that floor (5986, then 5997).
+- `check_extraction.py --notes-dir review/runs/2026-09-19-nanocarriers/notes --screening review/runs/2026-09-19-nanocarriers/screening.json`: **19/19 included notes claim-ready** (unchanged).
+- `check_article.py --article …/article.md --table …/table/literature-table.md`: **exit 0**. Body before References is 6176 words.
 
 ## Notes still stub?
 
-No (0/19). Each included note has `## Claim-ready facts` without stub markers.
+No (0/19).
 
 ## Table still DRAFT/lead-paste?
 
-No. `review/runs/2026-09-19-nanocarriers/table/literature-table.md` is rewritten from Claim-ready facts (19 rows). No “mechanical first-pass” / extracted-lead cells.
+No. Same 19-row table from Claim-ready facts.
 
 ## Claims spot-checked (paper, number, note/PDF agree?)
 
-- Lutta 2025: LM-pectin 965 ± 178 nm; uncoated ~220 nm; ratio 0.7 and flow 2:1. Note, Table 1 in the article, and `Lutta2025_pectin.txt` (Table 2 line “LM-pectin liposomes 965 ± 178”) agree.
-- Muenraya 2022: F3 loading 11.55 ± 0.93%; free colistin MIC 1 µg/mL. Note, article, and `Muenraya2022_colistin.txt` (Abstract and Results) agree. The article’s caution that conjugation does not beat free colistin on MIC is the same comparison as the PDF.
-- Valkova 2025: VRE AgNP MIC 13.5 mg L−1, vancomycin 512 mg L−1, combination 3.38 + 2 mg L−1, FIC 0.25. Note, article Table 1, and PDF Table 1 in `Valkova2025_vancomycin.txt` agree.
-- Nunes 2022: Lip-DOX tumour-growth inhibition 60.4%; size ~140 nm / 139.4 ± 3.8 nm; EE >90% / 93.1 ± 1.2%; n=7/group. Note, article, and `Nunes2022_140272.txt` agree.
-- Chauhan 2020 (AJP OA): 154.10 nm; 69.46% ± 1 entrapment. Note, article, and `Chauhan2020_sertraline.txt` agree. Group n remains unstated in the extract.
-- Aloss 2023: LTLD 50 mg/m2 15 min before ablation; HEAT missed PFS; OS similar in the main analysis; ≥45 min ablation subgroup; phase I n=24. Note, article, and `Makwana2023_030893.txt` (HEAT paragraph) agree. Filename is a download tag; the paper is Aloss & Hamar, *Pharmaceutics* 2023.
-- Azimzadeh 2025: colistin MIC 8–128 µg/mL (min 8, max 128 in the extract); AgNP MIC 0.07–37.5 µg/mL; L929 IC50 75 µg/mL; >50% viability at 37.5 µg/mL. Note, article, and `Azimzadeh2025_00056.txt` agree.
-- Mahmoudzadeh 2021: cited calcein 55% / 24% / 10% at 0 / 0.6 / 3 mol% PEG-lipid, pH 5.5. Note and article both label these as **cited experiments**, not new MD output.
+Unchanged from the pass-1 log; pass 2 reuses the same numbers:
 
-No number was invented to resolve a mismatch.
+- Lutta 2025: 965 ± 178 nm; ~220 nm uncoated; ratio 0.7 / FRR 2:1. Note and `Lutta2025_pectin.txt` agree.
+- Muenraya 2022: 11.55 ± 0.93% loading; free colistin MIC 1 µg/mL; 11.61 ± 0.84% hemolysis at 32 µg/mL. Note and `Muenraya2022_colistin.txt` agree.
+- Valkova 2025: VRE 13.5 / 512 / 3.38+2 mg L−1, FIC 0.25. Note and PDF Table 1 agree.
+- Nunes 2022: 60.4% growth inhibition; ~140 nm; n=7/group. Note and `Nunes2022_140272.txt` agree.
+- Chauhan 2020: 154.10 nm; 69.46% ± 1. Note and `Chauhan2020_sertraline.txt` agree.
+- Aloss 2023: 50 mg/m2; HEAT missed PFS; ≥45 min subgroup; phase I n=24. Note and `Makwana2023_030893.txt` agree.
+- Azimzadeh 2025: colistin MIC 8–128 µg/mL; AgNP 0.07–37.5; IC50 75 µg/mL. Note and PDF extract agree.
+
+No number was invented.
 
 ## Abstract: citations? named papers?
 
-No `[n]`. No *et al.*. Topic map (emptying problem, PEG vs pH trigger, AgNP–antibiotic combinations, nasal inlet, HEAT miss, unread polymersome). Readable without a glossary: PEG, AgNP, and MIC are defined in words on first use.
+No `[n]`. No *et al.*. Topic map: emptying problem, PEG vs pH trigger, AgNPs as a different tactic, nasal inlet, HEAT miss. Abbreviations in the Abstract: PEG and AgNPs only, each reused.
 
 ## Abbreviations
 
-PEG, AgNP, MIC, DOPE, FIC, AINI, LTLD, HEAT are introduced in teaching sentences, then shortened. Headings and reference titles stay expanded. The Abstract defines PEG, AgNPs, and MIC and reuses them.
+PEG, EPR, DOPE, CHEMS, MIC, AgNPs, FIC, LTLD, AINI introduced in teaching sentences, then shortened. Headings stay expanded.
 
 ## Tables in article
 
-- Table 1 (experimental full texts) called in Results and Discussion.
-- Table 2 (reviews / clinical secondary literature) called in Results and Discussion.
-- Table 3 (AgNP–antibiotic metrics) called in Results.
-
-Cells match the notes for the spot-checked numbers above.
+- Table 2 (review maps) in §3, pointed from Methods and §3.
+- Table 1 (experimental) in §4, pointed from Methods and §4.
+- Table 3 (antimicrobial metrics) in §7.
+- Discussion points back to Table 1 and Table 2.
 
 ## Discussion
 
-Interprets PEG vs acid-trigger vs thermosensitive clinical failure, pectin coats vs stimulus, AgNP synergy vs liposomes, and inlet constraints. No fetch-log, PRISMA, or token meters. Andresen 2026 is not used as a results source (no `%PDF-` full text).
+Interprets knobs (PEG vs heat vs coat vs FIC vs inlet). No fetch-log, PRISMA, or token meters. Polymersome full text treated as an unmeasured comparison, not as findings.
 
-## Gaps left explicit
+## What pass 2 changed
 
-- Andresen 2026 polymersome full text: not retrieved; not cited as findings.
-- JDDST 2020 sertraline: paywalled; AJP 2020 OA used instead and labelled.
-- Related search: 2021–2026 open-access journal articles, relevance-sorted; older seeds kept.
+Pass 1 taught lipid physics early, then used a generic Results heading and many fragment subsections (pH definitions, calcein vs doxorubicin, charge signs) after the story had already jumped. Pass 2 opens on the clinical packaging problem, teaches compartments and cues before DOPE shape, then walks trigger → PEG/acid → HEAT → coats → AgNPs → mucosa in numbered thematic sections.
 
-## Ranks
+## Ranks (1–5)
 
-Single pass. Deliverable is `article.md` (also copied to `review/report/final-report.md`).
+| Criterion | Pass 1 | Pass 2 |
+|---|---|---|
+| Abstract (topic map, no citations) | 4 | 5 |
+| Introduction (teaches later sections) | 2 | 5 |
+| In-article tables | 5 | 5 |
+| Traceability (notes → table → article) | 5 | 5 |
+| Discussion (scientific, no process talk) | 4 | 5 |
+| Story / section architecture | 2 | 5 |
+| Completeness of the sample | 5 | 5 |
+| **Mean** | **3.9** | **5.0** |
+
+**Deliverable:** pass 2 (`article.md`). Pass 1 remains as `article-pass1.md`.

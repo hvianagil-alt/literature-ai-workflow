@@ -45,13 +45,18 @@ Forced if claimed: unified clinical efficacy of “smart liposomes”; that Col-
 
 ## (e) Outline of the review
 
-Kind: narrative review.
+Kind: narrative review. Pass 2 retells the same argument with a teaching Introduction and numbered thematic sections (not a dump of mini-essays after a generic Results heading).
 
-1. Introduction — vesicles, EPR-without-release, pH/heat/enzyme cues, PEG corona, mucosal/nasal and infection as second geography. Aim last paragraph.
-2. Methods — seeds, 2021–2026 journal OA expansion, eligibility.
-3. Results — Table 1 experimental; Table 2 reviews; Table 3 antimicrobial combinations. Subsections: stimulus map; PEG vs pH; coatings; AgNP–antibiotic; nasal inlet; clinical LTLD.
-4. Discussion — why designs disagree; translation; open biofilm/CRS gap.
-5. Conclusions.
+1. Introduction — clinical packaging problem; what a liposome is; why accumulation ≠ release; tumour/endosome acid; biofilm and mucosa as other geographies; PEG as circulation help and trigger tax; AgNPs as a different tactic. Aim last paragraph.
+2. Methods — seeds, 2021–2026 journal OA expansion, eligibility (brief).
+3. Why a trigger is needed (review maps; Table 2).
+4. PEG versus acid-triggered DOPE membranes (MD, cells, 4T1 mice; Table 1).
+5. Heat-triggered doxorubicin and the HEAT miss (Aloss).
+6. Polymer coats and surface charge (Lutta, Pasarin, Chauhan).
+7. Silver–antibiotic combinations (Table 3).
+8. Mucosal geography: nasal inlet and biofilm matrix (Felding, Guo).
+9. Discussion — incommensurable knobs; translation; open CRS polymersome measurement.
+10. Conclusions — numbered next experiments.
 
 ## (f) Interpretation gaps (must attempt retrieval)
 
