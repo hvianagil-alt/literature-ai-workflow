@@ -56,8 +56,8 @@ python3 scripts/phase_log.py --run-dir review/runs/<id> --phase extraction \
 
 Phases to log: `workflow`, `discovery`, `fetching`, `screening`, `extraction`, `table`, `synthesis`.
 
-`est_*_tokens_chars_div_4` is **characters/4**, not vendor billing. Put that sentence in the article methods so a reader is not misled.
+`est_*_tokens_chars_div_4` is **characters/4**, not vendor billing. Write a human-readable copy to `usage-log.md`. **Do not put token estimates or phase meters in `article.md`.** The review article is a normal scientific paper; usage stays in this run folder as a separate analysis file.
 
 ## Handoff
 
-After PRISMA + notes + table exist, write the article (`report-writing` skill, article style) and point at `prisma.md` from the methods section. Ground every claim in included full texts.
+After PRISMA + notes + table exist, write the article (`report-writing` skill, article style) with thematic subsections. Point at `prisma.md` from methods if useful. Ground every claim in included full texts. Keep `usage-log.md` beside the article, not inside it.
