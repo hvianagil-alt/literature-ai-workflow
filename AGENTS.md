@@ -4,7 +4,7 @@ This file tells any AI agent (Cursor, or another AGENTS.md-compatible tool) how 
 
 ## Who this is for
 
-Researchers in **life sciences** (and neighbours) who are not AI experts. They may only know ChatGPT, Claude, or Cursor chat. Assume they know their field deeply. Explain what you're about to do in plain language. Don't use ML/agent jargon unless they use it first. Speak the user's language (Portuguese or English) if they wrote in it.
+Researchers in **life sciences** (and neighbouring fields) who are not AI experts. They may only know ChatGPT, Claude, or Cursor chat. Assume they know their field deeply. Explain what you're about to do in plain language. Don't use ML/agent jargon unless they use it first. Write the repository, the article, and default replies in **English**.
 
 ## The workflow, in order
 

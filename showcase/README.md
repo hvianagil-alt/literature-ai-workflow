@@ -1,26 +1,26 @@
-# Exemplos no Git (para ver qualidade)
+# Examples in git (to judge quality)
 
-Esta pasta aponta para manuscritos **reais** já gravados no repositório, para quem chega ao GitHub e quer ver se o tom serve para ciências da vida.
+This folder points at **real** manuscripts already stored in the repository, so someone opening GitHub can see whether the tone works for the life sciences.
 
-Os PDFs dos artigos originais **não** estão aqui (direitos de autor). O que está no Git é o texto da revisão, a tabela, e o diário de conferência de números.
+Original paper **PDFs are not here** (copyright). Git holds the review text, the table, and the log that checks numbers.
 
-## O que abrir
+## What to open
 
-1. **Nanocarreadores, lipossomas, AgNP, mucosa nasal** (revisão narrativa, 2026)  
-   - Artigo: [`../review/runs/2026-09-19-nanocarriers/article.md`](../review/runs/2026-09-19-nanocarriers/article.md)  
-   - Tabela: [`../review/runs/2026-09-19-nanocarriers/table/literature-table.md`](../review/runs/2026-09-19-nanocarriers/table/literature-table.md)  
-   - Conferência: [`../review/runs/2026-09-19-nanocarriers/double-check.md`](../review/runs/2026-09-19-nanocarriers/double-check.md)
+1. **Nanocarriers, liposomes, AgNPs, nasal mucosa** (narrative review, 2026)
+   - Article: [`../review/runs/2026-09-19-nanocarriers/article.md`](../review/runs/2026-09-19-nanocarriers/article.md)
+   - Table: [`../review/runs/2026-09-19-nanocarriers/table/literature-table.md`](../review/runs/2026-09-19-nanocarriers/table/literature-table.md)
+   - Double-check: [`../review/runs/2026-09-19-nanocarriers/double-check.md`](../review/runs/2026-09-19-nanocarriers/double-check.md)
 
-2. **Exemplo de forma (papéis inventados)** — não citar como ciência  
+2. **Form example (invented papers)** — do not cite as science
    - [`../examples/sample-article.md`](../examples/sample-article.md)
 
-Se existir no seu clone uma revisão GLP-1 / Scopus em `review/runs/`, é o mesmo tipo de saída: `article.md` + tabela + `double-check.md`.
+If your clone also has a GLP-1 / Scopus review under `review/runs/`, it is the same kind of output: `article.md` + table + `double-check.md`.
 
-## Como julgar
+## How to judge
 
-- A introdução explica o problema clínico **antes** da física ou da química fina.
-- Os headings são temas, não “Results” + uma lista de autores.
-- Os números da tabela batem com as notas.
-- O Abstract não tem `[1]` nem “et al.”.
+- The introduction explains the clinical problem **before** fine-grained physics or chemistry.
+- Headings are topics, not “Results” plus a list of authors.
+- Table numbers match the notes.
+- The Abstract has no `[1]` and no “et al.”
 
-Isto é um rascunho de artigo, não um paper aceite. Sirva-se do nível; não copie as conclusões para o seu trabalho sem ler os originais.
+This is a draft article, not an accepted paper. Use it to judge the level; do not copy the conclusions into your own work without reading the primary sources.

@@ -8,24 +8,24 @@ making money.
 
 ---
 
-Linguagem simples / Plain language
+Plain language
 
-Pode:
-- copiar, ler e usar este repositório
-- adaptar as instruções à sua revisão de literatura
-- partilhar a sua versão, desde que também seja sem fins comerciais
-  e com a mesma licença
-- usar os artigos de exemplo para ver a qualidade do fluxo
+You may:
+- copy, read, and use this repository
+- adapt the instructions for your own literature review
+- share your version, as long as it stays non-commercial and under this
+  same license
+- use the example articles to judge the quality of the workflow
 
-Não pode:
-- vender este projeto, nem um clone, nem um serviço pago de “revisão
-  automática de artigos”
-- incluir este fluxo num produto comercial (software, consultoria
-  empacotada, curso pago cujo conteúdo principal seja este repo)
-- retirar esta restrição e republicar como se fosse MIT ou domínio público
+You may not:
+- sell this project, a clone of it, or a paid “automatic paper review”
+  service
+- fold this workflow into a commercial product (software, packaged
+  consultancy, or a paid course whose main content is this repo)
+- strip this restriction and republish the work as MIT or public domain
 
-Pode citar o repositório numa tese, paper ou relatório académico.
-Isso não é uso comercial.
+Citing the repository in a thesis, paper, or academic report is allowed.
+That is not commercial use.
 
 If you need a commercial license, contact the copyright holder.
 Until then, no commercial use is granted.

@@ -1,108 +1,104 @@
-# Revisão de literatura para ciências da vida
+# Life-science literature review helper
 
-Ferramenta **grátis para investigação sem fins comerciais**: conversa com um assistente (Cursor, ChatGPT ou Claude) e recebe uma revisão de literatura em Markdown — notas por artigo, uma tabela comparativa, e um artigo científico.
+A **free, non-commercial** tool: talk to an assistant (Cursor, ChatGPT, or Claude) and get a literature review in Markdown — one note per paper, a comparison table, and a journal-style article.
 
-Não precisa de saber programar. Não precisa de treinar um modelo. Precisa só de uma subscrição do chat que já usa, e de abrir este repositório.
+You do not need to know how to code. You do not need to train a model. You need a chat subscription you already use, and this repository.
 
-**Licença:** pode usar, copiar e adaptar para tese, papers e ensino. **Não pode vender isto** nem transformar o fluxo num serviço ou produto que ganhe dinheiro. Ver [LICENSE](LICENSE).
+**License:** you may use, copy, and adapt this for a thesis, papers, and teaching. **You may not sell it** or turn the workflow into a paid product or service. See [LICENSE](LICENSE).
 
 ---
 
-## O que isto faz (em uma frase)
+## What it does (one sentence)
 
-Diz ao assistente o seu tema (ou larga PDFs). Ele pergunta quem é e o que precisa. Depois lê artigos em acesso aberto, extrai factos, monta uma tabela, e escreve um artigo em `.md` — com introdução que ensina o campo, não uma lista de resumos.
+Tell the assistant your topic (or drop PDFs). It asks who you are and what you need. Then it reads open-access papers, extracts facts, builds a table, and writes an `.md` article whose introduction teaches the field — not a list of abstracts.
 
-## De que precisa
+## What you need
 
-Qualquer uma destas contas chega:
+Any one of these accounts is enough:
 
-| Ferramenta | O que fazer |
+| Tool | What to do |
 |---|---|
-| **[Cursor](https://cursor.com)** (recomendado) | Abrir esta pasta. O ficheiro `AGENTS.md` diz ao assistente o que fazer, sozinho. |
-| **ChatGPT** (Plus / Team / Edu) | Criar um *Project*, carregar `AGENTS.md` e a pasta `.cursor/skills/`, e escrever: “Segue AGENTS.md. Quero uma revisão de literatura.” |
-| **Claude** (Pro / Team) | O mesmo: *Project* com esses ficheiros, e o mesmo pedido. |
+| **[Cursor](https://cursor.com)** (recommended) | Open this folder. `AGENTS.md` tells the assistant what to do. |
+| **ChatGPT** (Plus / Team / Edu) | Create a Project, upload `AGENTS.md` and the `.cursor/skills/` folder, and type: “Follow AGENTS.md. I want a literature review.” |
+| **Claude** (Pro / Team) | Same: a Project with those files, and the same request. |
 
-Não precisa de chave da OpenAlex nem de Unpaywall. Se o assistente for à internet buscar artigos, pede-lhe **um email de contacto** (regra de boa educação desses serviços), não um cartão de crédito.
+You do not need an OpenAlex or Unpaywall API key. If the assistant searches the web for papers, it asks for a **contact email** (those services request it), not a credit card.
 
-## Tutorial em 6 passos (Cursor)
+## Tutorial in 6 steps (Cursor)
 
-1. Abra [este repositório no GitHub](https://github.com/hvianagil-alt/literature-ai-workflow). Clique **Code → Open with Cursor**, ou descarregue o ZIP e abra a pasta no Cursor (**File → Open Folder**).
-2. Abra o **chat** (não precisa de abrir código).
-3. Escreva, em português ou inglês, por exemplo: `Quero uma revisão de literatura` ou `Review my papers`.
-4. O assistente **pergunta primeiro** (não começa a escrever o artigo):
-   - em que área trabalha (ex.: nanomedicina, endocrinologia, microbiologia)
-   - para que quer a revisão (tese, grant, introdução de paper, leitura)
-   - se **já tem artigos** (PDFs na pasta `papers/`, ou títulos/DOIs no chat)
-   - se **não tem**, se quer que ele **busque na internet** só artigos em acesso aberto
-   - filtros: **anos** (ex.: últimos 6 anos) e **qualidade da revista** (só journals com revisão por pares, etc.)
-   - se no fim quer também Word ou PDF (o ficheiro principal é sempre **Markdown**)
-5. Confirme (“sim, está certo”) antes do trabalho fundo.
-6. Receba, na pasta `review/`:
-   - `article.md` — o artigo (este é o ficheiro que importa)
-   - tabela e notas ao lado
-   - um `double-check.md` a dizer que os números foram conferidos
+1. Open [this repository on GitHub](https://github.com/hvianagil-alt/literature-ai-workflow). Click **Code → Open with Cursor**, or download the ZIP and open the folder in Cursor (**File → Open Folder**).
+2. Open **chat** (you do not need to open any code).
+3. Type, for example: `Review my papers` or `I want a literature review on [topic]`.
+4. The assistant **asks first** (it does not start the article immediately):
+   - your research area (e.g. nanomedicine, endocrinology, microbiology)
+   - what the review is for (thesis, grant, paper introduction, reading)
+   - whether you **already have papers** (PDFs in `papers/`, or titles/DOIs in the chat)
+   - if **not**, whether it should **search the web** for open-access papers only
+   - filters: **years** (e.g. last 6 years) and **journal quality** (peer-reviewed journals, etc.)
+   - whether you also want Word or PDF later (the main file is always **Markdown**)
+5. Confirm (“yes, that is right”) before the deep work.
+6. Receive, in the `review/` folder:
+   - `article.md` — the article (this is the file that matters)
+   - a table and notes next to it
+   - a `double-check.md` showing that numbers were checked
 
-Se não tiver PDFs, não pare. Diga o tema. Ele procura artigos **gratuitos e públicos**. Não entra em sites pirata nem em paywalls.
+If you have no PDFs, do not stop. Name the topic. It searches **free public** papers. It does not use pirate sites or paywalls.
 
-### Sem Cursor (só ChatGPT ou Claude)
+### Without Cursor (ChatGPT or Claude only)
 
-1. No GitHub, clique **Code → Download ZIP**.
-2. No ChatGPT ou Claude, crie um Project e carregue pelo menos `AGENTS.md` e os ficheiros dentro de `.cursor/skills/`.
-3. Se tiver PDFs, carregue-os também (ou cole títulos e DOIs).
-4. Escreva: `Segue AGENTS.md. Trabalho em [área]. Quero [tipo de revisão].`
-5. Responda às perguntas. Peça o artigo em Markdown no chat e grave o texto num ficheiro `.md`.
+1. On GitHub, click **Code → Download ZIP**.
+2. In ChatGPT or Claude, create a Project and upload at least `AGENTS.md` and the files under `.cursor/skills/`.
+3. If you have PDFs, upload them too (or paste titles and DOIs).
+4. Type: `Follow AGENTS.md. I work in [field]. I want [kind of review].`
+5. Answer the questions. Ask for the article in Markdown and save the text as a `.md` file.
 
-Quem só usa o chat no telemóvel consegue o texto; quem usa Cursor consegue os ficheiros já organizados na pasta.
+Phone chat gives you the text; Cursor gives you files already organized in the folder.
 
-## O fluxo (mapa)
+## The workflow (map)
 
 ```mermaid
 flowchart TD
-  A[Abre o chat e diz o tema] --> B[Perguntas: área, objetivo, artigos, anos, revistas]
-  B --> C{Tem PDFs ou só um tema?}
-  C -->|Tem PDFs ou DOIs| D[Lê os artigos]
-  C -->|Não tem| E[Procura artigos em acesso aberto]
+  A[Open chat and name the topic] --> B[Questions: field, goal, papers, years, journals]
+  B --> C{Do you have PDFs or only a topic?}
+  C -->|PDFs or DOIs| D[Read the papers]
+  C -->|No papers yet| E[Search open-access papers]
   E --> D
-  D --> F[Notas + tabela comparativa]
-  F --> G[Procura o que ainda falta]
-  G --> H[Escreve o artigo em Markdown]
-  H --> I[Verificações de qualidade]
-  I --> J[Pergunta se quer Word ou PDF]
+  D --> F[Notes + comparison table]
+  F --> G[Search for what is still missing]
+  G --> H[Write the article in Markdown]
+  H --> I[Quality checks]
+  I --> J[Ask if you also want Word or PDF]
 ```
 
-## Como fica o texto
+## How the text is formatted
 
-O artigo sai sempre em **Markdown** (`.md`): dá para abrir no Cursor, no VS Code, no GitHub, ou colar no Word.
+The article is always **Markdown** (`.md`): you can open it in Cursor, VS Code, GitHub, or paste it into Word.
 
-Se pedir Word ou PDF, o assistente usa o passo `export-manuscript`: corpo em **Times New Roman**, **12 pt**, **texto justificado**. Pode também abrir o HTML no browser e fazer Imprimir → Guardar como PDF.
+If you ask for Word or PDF, the assistant uses `export-manuscript`: body in **Times New Roman**, **12 pt**, **justified**. You can also open the HTML in a browser and use Print → Save as PDF.
 
-## Ver qualidade antes de usar (exemplos reais neste repo)
+## See quality before you run it (real examples in this repo)
 
-Estes são resultados de testes com artigos de ciências da vida — para ver o tom e o nível, não para citar como se fossem o seu trabalho:
+These are test outputs in the life sciences — to judge tone and level, not to cite as your own work:
 
-| O que é | Ficheiro |
+| What it is | File |
 |---|---|
-| Revisão de nanocarreadores / lipossomas / AgNP (2026) | [`review/runs/2026-09-19-nanocarriers/article.md`](review/runs/2026-09-19-nanocarriers/article.md) |
-| Tabela dessa revisão | [`review/runs/2026-09-19-nanocarriers/table/literature-table.md`](review/runs/2026-09-19-nanocarriers/table/literature-table.md) |
-| Segunda leitura (números conferidos) | [`review/runs/2026-09-19-nanocarriers/double-check.md`](review/runs/2026-09-19-nanocarriers/double-check.md) |
-| Exemplo **inventado** (não é investigação real) | [`examples/sample-article.md`](examples/sample-article.md) |
+| Nanocarriers / liposomes / AgNPs (2026) | [`review/runs/2026-09-19-nanocarriers/article.md`](review/runs/2026-09-19-nanocarriers/article.md) |
+| Comparison table for that review | [`review/runs/2026-09-19-nanocarriers/table/literature-table.md`](review/runs/2026-09-19-nanocarriers/table/literature-table.md) |
+| Second look (numbers checked) | [`review/runs/2026-09-19-nanocarriers/double-check.md`](review/runs/2026-09-19-nanocarriers/double-check.md) |
+| **Fictional** form example (not real research) | [`examples/sample-article.md`](examples/sample-article.md) |
 
-Mais contexto: [`showcase/README.md`](showcase/README.md).
+More context: [`showcase/README.md`](showcase/README.md).
 
-Os PDFs originais **não** vão para o Git (direitos de autor). Só o manuscrito da revisão.
+Original paper **PDFs are not in git** (copyright). Only the review manuscript is.
 
-## O que **não** faz
+## What it does not do
 
-- Não inventa citações.
-- Não desbloqueia artigos pagos.
-- Não substitui o seu julgamento científico. É um rascunho forte para si editar.
-- Não é um produto comercial. Ver [LICENSE](LICENSE).
+- Invent citations.
+- Unlock paywalled papers.
+- Replace your scientific judgment. It is a strong draft for you to edit.
+- Act as a commercial product. See [LICENSE](LICENSE).
 
 ---
-
-## English (short)
-
-**Life-science literature review helper.** Free for non-profit research. Not for resale.
 
 Clone or open [this GitHub repo](https://github.com/hvianagil-alt/literature-ai-workflow) in **Cursor**, or load `AGENTS.md` into a ChatGPT / Claude project. Type “Review my papers.” The assistant asks your field, the job (thesis, grant, paper), whether you have PDFs or it should fetch **open-access** papers, and filters (years, journal quality). Default output is **Markdown**. Word/PDF (Times New Roman, justified) is optional.
 
