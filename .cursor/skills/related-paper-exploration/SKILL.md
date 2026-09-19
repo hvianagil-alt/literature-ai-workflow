@@ -1,16 +1,24 @@
 ---
 name: related-paper-exploration
-description: "Given seed papers already in papers/ and the user's stated research direction, suggest related papers, search queries, or things to look up next. Never invents fake citations. Use when the user wants to expand coverage before extracting/synthesizing, or when the report surfaces a gap."
+description: "Find related papers without inventing citations. Two modes: (1) optional user-opt-in browse before extraction, and (2) mandatory gap-driven OA retrieval after the synthesis rationale, before the journal article."
 ---
 
 # Related-Paper Exploration
 
-Help the user find more of the literature — without ever presenting a fabricated citation as real. This skill produces *leads* (search queries, named authors/venues/concepts worth checking, and any real, verifiable references you already have grounded knowledge of), not a padded bibliography.
+Help find more of the literature — without ever presenting a fabricated citation as real. This skill produces *leads* (search queries, named authors/venues/concepts, and API-verified records) and, in gap-driven mode, a fetch list for public OA PDFs. It is not a padded bibliography.
 
-## When to use this skill
+## Two modes
 
-- Optional step, explicitly opt-in: only run this when the user asks for it (e.g. "what else should I read?", "are there important papers I'm missing?") or when `report-writing` surfaces a gap and the user wants to fill it before finalizing.
-- Never run this automatically as part of a default pipeline — expanding scope is a direction decision, and direction decisions go through the user first (see the intake/direction-check step in `AGENTS.md`).
+### Mode A — opt-in browse (before extraction)
+
+- Run only when the user asks for broader coverage (e.g. "what else should I read?") **before** notes/table exist.
+- Expanding the *initial* scope is a direction decision; that still goes through the user (see step 2 in `AGENTS.md`).
+- Output is leads, not automatic downloads, unless the user then asks to fetch.
+
+### Mode B — gap-driven retrieval (mandatory after the table, before the article)
+
+- This mode **is** part of the default pipeline. After `literature-table`, the `synthesis-rationale` skill lists interpretation gaps. For **each** gap you **must** attempt targeted extra retrieval before writing `article.md`.
+- You still **never invent citations**. You still fetch **only public OA**. Failure to retrieve is an allowed, explicit outcome — not a reason to skip the attempt, and not a reason to fill the gap from memory.
 
 ## Inputs
 
@@ -34,6 +42,26 @@ A short Markdown note (either appended to the conversation or saved as `review/n
 
 If you cannot confidently name a specific paper, do not include one just to fill the section — an empty section with an honest note ("I don't have verifiable specific titles for this gap; try the search queries above") is strictly better than a plausible-sounding fake citation.
 
+## Mode B extras (gap-driven, after rationale)
+
+For each interpretation gap in `synthesis-rationale.md`:
+
+1. Ground the query in the gap (and in citations that already appear in the included PDFs, when those titles are visible in the notes).
+2. Search OpenAlex (API hits only):
+
+   ```bash
+   python3 scripts/search_oa_related.py \
+     --query "<gap-specific query>" \
+     --mailto <user-email> \
+     --out review/runs/<run-id>/gap-retrieval/search-<gap-id>.json
+   ```
+
+3. Select a small number of hits that actually address the gap. Write why each was chosen or skipped. Do not treat the JSON file as a reference list.
+4. Copy selected rows into `review/runs/<run-id>/gap-retrieval/catalog.json` and fetch with `oa-fetch` into a **separate** PDF folder (`papers/<run-id>-gapfill/`) so the original `fetch-log.json` is not overwritten.
+5. Log **sought / found / not retrieved** in the rationale. Extract found PDFs; update the table; do not cite not-retrieved records.
+
+If OpenAlex errors, Unpaywall has no PDF, or the publisher returns HTML/403: record `not retrieved` and leave the gap open. **No Sci-Hub, no publisher login, no paywall bypass.**
+
 ## Quality bar — this is the highest-stakes skill in this repo
 
 - **Never fabricate a citation.** Do not invent author names, titles, years, DOIs, or venues that sound plausible. This is the single most damaging failure mode for a literature review tool: a confidently wrong citation can end up in someone's actual paper.
@@ -49,8 +77,10 @@ If you cannot confidently name a specific paper, do not include one just to fill
 | User asks "just give me 10 papers to read" | Push back gently: explain you can't guarantee the existence/accuracy of a long specific list, and offer search queries plus any papers you're genuinely confident about instead. |
 | You're not sure if a paper you're thinking of is real or a conflation of two papers | Don't list it. Describe the idea/topic and suggest a search query instead. |
 | The gap is in a subfield you have little grounded knowledge of | Say so plainly rather than generating generic-sounding suggestions to fill space. |
-| User wants to actually fetch/download suggested papers | This repo doesn't do that automatically (no network calls, no browsing baked into the workflow) — tell the user to search/download manually and drop new PDFs in `papers/`, then re-run extraction. |
+| User wants to actually fetch/download suggested papers (Mode A) | Offer the public OA path (`oa-fetch` / `search_oa_related.py`). Do not bypass paywalls. If they prefer to download manually, they drop PDFs in `papers/` and you re-run extraction. |
+| Mode B search or fetch fails | Log not retrieved in `synthesis-rationale.md`. Do not invent a stand-in citation. Proceed to the article with the gap explicit. |
 
 ## Handoff
 
-Once the user has downloaded any new papers into `papers/`, route back to `paper-extraction` for the new files, then rebuild the table and report so the new evidence is actually incorporated (don't just bolt exploration notes onto an old report).
+- **Mode A:** once new PDFs are in `papers/`, route to `paper-extraction`, then rebuild the table. Do not jump to the article.
+- **Mode B:** extract new OA full texts, rebuild the table, finish the retrieval log in `synthesis-rationale.md`, **then** `report-writing`. Don't bolt exploration notes onto an old article.

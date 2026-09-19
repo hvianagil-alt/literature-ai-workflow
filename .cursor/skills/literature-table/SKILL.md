@@ -1,6 +1,6 @@
 ---
 name: literature-table
-description: "Build a comparable literature table (question, methods, sample, findings, limitations, relevance) from per-paper notes. Use after paper-extraction has produced notes for the papers in scope, when the user wants a side-by-side comparison."
+description: "Build a comparable literature table (question, methods, sample, findings, limitations, relevance) from per-paper notes. Use after paper-extraction. Handoff is table → synthesis-rationale → report; do not skip to the article."
 ---
 
 # Literature Table
@@ -50,4 +50,4 @@ See [`examples/literature-table.md`](../../../examples/literature-table.md) for 
 
 ## Handoff
 
-Once the table exists and the user has reviewed/corrected it (tables are good places for a human domain expert to catch errors — encourage a quick look before synthesis), move to the `report-writing` skill.
+Once the table exists and the user has reviewed/corrected it (tables are good places for a human domain expert to catch errors — encourage a quick look before synthesis), move to the `synthesis-rationale` skill. **Do not skip to `report-writing`.** The sequence is table → synthesis-rationale (including targeted extra-paper retrieval for interpretation gaps) → updated table if new OA full texts were included → report. The article must not be drafted until `review/runs/<run-id>/synthesis-rationale.md` (or `review/notes/_synthesis-rationale.md`) exists **and** section (g) of that file records the extra-retrieval attempt (or an explicit “no extra retrieval indicated”).

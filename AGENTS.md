@@ -8,7 +8,7 @@ Researchers who are not AI experts. Assume the user knows their field deeply but
 
 ## The workflow, in order
 
-This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — direction check (step 2) is mandatory before deep work.
+This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **two hard gates** must complete before the journal article: direction check (step 2) and synthesis rationale + targeted extra retrieval (step 6).
 
 ### 1. Intake
 
@@ -31,36 +31,61 @@ Before extracting anything in depth, confirm with the user:
 
 Summarize back what you understood in 2-4 sentences and get explicit confirmation ("does that sound right?") before moving on. If the user says "just go", proceed with sensible defaults but state the defaults you're using.
 
-**Do not proceed past this step without user input.** This is the one hard gate in the workflow — everything else can reasonably be run with sensible defaults, but scope cannot be guessed.
+**Do not proceed past this step without user input.** This is a hard gate: scope cannot be guessed.
 
-### 3. Optional: explore related papers
+### 3. Optional: explore related papers (user opt-in, before extraction)
 
-If the user wants broader coverage, or if you notice the seed papers cite a body of work not represented in `papers/`, offer (don't force) the exploration step: see the `related-paper-exploration` skill. This step **never invents fake citations** — see that skill's quality bar. Only run it if the user opts in.
+If the user wants broader coverage, or if you notice the seed papers cite a body of work not represented in `papers/`, offer (don't force) this exploration step: see the `related-paper-exploration` skill in **opt-in browse** mode. This step **never invents fake citations**. Only run this *browse* before extraction if the user opts in.
+
+Gap-driven extra retrieval after the table is **not** this step — that is step 6, and it is mandatory.
 
 ### 4. Extract
 
-For each in-scope paper, use the `paper-extraction` skill to produce a note in `review/notes/`. Report progress as you go (e.g. "3 of 7 done, 1 unreadable — see below"). Surface unreadable-PDF failures immediately rather than silently skipping them.
+For each in-scope paper, use the `paper-extraction` skill to produce a note in `review/notes/` (and the run copy if you are in `review/runs/<run-id>/`). Report progress as you go (e.g. "3 of 7 done, 1 unreadable — see below"). Surface unreadable-PDF failures immediately rather than silently skipping them.
 
 ### 5. Build the literature table
 
-Use the `literature-table` skill to turn the notes into `review/table/literature-table.md`. Tell the user it's ready and suggest they skim it for obvious extraction errors before you synthesize — catching a misread finding here is much cheaper than catching it in the final report.
+Use the `literature-table` skill to turn the notes into `review/table/literature-table.md`. Tell the user it's ready and suggest they skim it for obvious extraction errors before you go further — catching a misread finding here is much cheaper than catching it in the final article.
 
-### 6. Synthesize the report
+**Do not write the journal article after this step.** The table is evidence, not interpretation.
 
-Use the `report-writing` skill to produce `review/report/final-report.md`, grounded in the table (not re-derived from scratch). Every claim should be traceable to the table/notes.
+### 6. Synthesis rationale + targeted extra retrieval (mandatory hard gate)
 
-### 7. Iterate
+This is a sequencing gate like step 2: **do not skip it, and do not treat it as optional.** Unlike step 2, you do **not** wait for the user to confirm before doing it — you must complete it before any article.
 
-Literature reviews are rarely one-shot. After delivering the report, ask if they want to: add more papers (loop back to step 3/4), adjust scope (loop back to step 2), or refine specific sections of the report.
+Use the `synthesis-rationale` skill:
+
+1. Write `review/runs/<run-id>/synthesis-rationale.md` (fallback `review/report/synthesis-rationale.md` or `review/notes/_synthesis-rationale.md`). Interpret the **whole sample**. The file **must** state: **(a)** what each included study actually measured; **(b)** themes the data support vs themes that would be forced; **(c)** real disagreements and why (methods / population / endpoint); **(d)** what this sample cannot answer; **(e)** the outline of the review. **No article yet.** If the user says “just write the review,” still write this file first, then the article, and tell them that you did.
+2. In that rationale, list **interpretation gaps** (thin evidence; conflicting results; missing comparator, mechanism, or population; a striking finding that cannot be put in perspective from the current sample; an eligible paper that was not retrieved).
+3. For **each** gap, attempt **targeted retrieval** of additional related papers **before** writing the article. Use the `related-paper-exploration` quality bar (**never invent citations**). Search with `scripts/search_oa_related.py` (OpenAlex; API hits only). Fetch **only public OA** via existing `oa-fetch` / `bib-import` / Unpaywall / OpenAlex / Europe PMC / publisher OA. **No paywall bypass.** Log sought / found / not retrieved.
+4. Extract any newly included papers into notes and **update the table**.
+5. If additional papers cannot be retrieved, say so explicitly in the rationale (and later in the article). **Do not fill gaps with speculation or invented citations.**
+
+Only after the rationale, the retrieval attempts, and the updated table exist may you go to step 7.
+
+### 7. Write the journal review (only after step 6)
+
+Use the `report-writing` skill to produce a **PhD-quality, argument-driven journal review** of **all** in-scope evidence (original sample plus any successfully retrieved gap-fill papers), with thematic subsections and numbered citations from retrieved full texts.
+
+- Run-based review: `review/runs/<run-id>/article.md`, also copied to `review/report/final-report.md` if useful.
+- Folder-of-PDFs review: `review/report/final-report.md`.
+
+Every claim must be traceable to the table/notes (including gap-fill rows). Open gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article** — they belong only in `review/runs/<run-id>/usage-log.md`.
+
+### 8. Iterate
+
+Literature reviews are rarely one-shot. After delivering the article, ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), or refine specific sections.
 
 ## Hard rules (apply throughout)
 
-1. **Never fabricate a citation, quote, or finding.** If you're not sure a paper says something, say you're not sure. This applies most acutely in the `related-paper-exploration` skill, but holds everywhere.
+1. **Never fabricate a citation, quote, or finding.** If you're not sure a paper says something, say you're not sure. This applies most acutely when searching for extra papers, but holds everywhere.
 2. **Never silently skip a paper.** If a PDF can't be read or a paper is deemed out of scope, say so explicitly and why.
-3. **Talk to the user before going deep.** Step 2 is not optional. Don't extract 20 papers before confirming direction.
-4. **Ground synthesis in the table.** The report should not introduce claims that aren't backed by the literature table or notes.
-5. **No required external services.** This workflow runs entirely on what Cursor can already read (PDF/text in the repo) and the model's own reasoning. If a user wants to use an external PDF/OCR tool or LLM API for something this workflow can't do locally (e.g. OCR a scanned PDF), treat it as optional and documented — never a blocker (see the root `README.md`, "Do I need an API key?").
-6. **Keep outputs where they belong.** Per-paper notes → `review/notes/`. Table → `review/table/literature-table.md`. Report → `review/report/final-report.md`. Don't scatter outputs elsewhere.
+3. **Talk to the user before going deep on scope.** Step 2 is not optional. Don't extract 20 papers before confirming direction.
+4. **Understand the sample before writing the article.** Step 6 is not optional. Don't start `article.md` from the table alone.
+5. **Ground the article in the table, notes, and rationale.** The article must not introduce claims that aren't backed by those files. Unfilled gaps are stated, not speculated away.
+6. **No required external services for reading local PDFs.** Extraction and the rationale can run on files already in the repo. Targeted extra retrieval uses the same public OA path as `oa-fetch`. If the network fails or no OA PDF exists, document that and write the article with the gap left open — never treat a missing PDF as a reason to invent a citation, and never treat OA fetch as a paywall bypass.
+7. **Keep outputs where they belong.** Per-paper notes → `review/notes/` (and run `notes/`). Table → `review/table/literature-table.md`. Rationale → `review/runs/<run-id>/synthesis-rationale.md` or `review/report/synthesis-rationale.md`. Article → `review/runs/<run-id>/article.md` and/or `review/report/final-report.md`. Usage/tokens → `usage-log.md` only.
+8. **PDFs stay gitignored.** Do not commit downloaded PDFs.
 
 ## Skills reference
 
@@ -68,12 +93,13 @@ Literature reviews are rarely one-shot. After delivering the report, ask if they
 |---|---|---|
 | Reading/extracting a paper | `paper-extraction` | `.cursor/skills/paper-extraction/SKILL.md` |
 | Building the comparison table | `literature-table` | `.cursor/skills/literature-table/SKILL.md` |
-| Writing the synthesis report | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
-| Suggesting related papers (optional) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
+| Interpreting the sample + gap-fill retrieval | `synthesis-rationale` | `.cursor/skills/synthesis-rationale/SKILL.md` |
+| Writing the journal review | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
+| Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
 | Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
 | Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |
 | PRISMA counts + phase/token log | `prisma-logging` | `.cursor/skills/prisma-logging/SKILL.md` |
 
 ## Worked examples
 
-Before running this for real, you (the agent) and the user can both look at [`examples/`](examples/README.md) for a fully worked, clearly fictional literature table and report — this shows the destination of the workflow without needing real papers first.
+Before running this for real, you (the agent) and the user can both look at [`examples/`](examples/README.md) for a fully worked, clearly fictional literature table, synthesis rationale, and report — this shows the destination of the workflow without needing real papers first.

@@ -37,7 +37,8 @@ This example review covers 4 fictional papers on whether structured (e.g. outlin
 
 ## Implications for our research question
 
-If your question is specifically about technical/STEM material, the current evidence (mainly Bea Scholar 2022) is weaker and more mixed than the general literature suggests — worth treating structured note-taking as "plausibly helpful, not proven" for STEM specifically, and worth designing a new study with domain as an explicit factor rather than assuming the general effect transfers.
+If your question is specifically about technical/STEM material, the current evidence (mainly Bea Scholar 2022) is weaker and more mixed than the general literature suggests — worth treating structured note-taking as "plausibly helpful, not proven" for STEM specifically, and worth designing a new study with domain as an explicit factor rather than assuming the general effect transfers. A real workflow would have attempted extra OA retrieval for that STEM-null gap before writing this section (see [`synthesis-rationale.md`](synthesis-rationale.md)).
+
 
 ## Full literature table
 

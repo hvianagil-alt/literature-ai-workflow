@@ -41,7 +41,7 @@ Numeric results, sample sizes, and mechanistic claims are taken from the PDF tex
 
 ## Token / usage logging
 
-Cursor does not expose billed token counts to this workflow. Each phase writes `usage-log.jsonl` with character counts and a **characters/4 token estimate**, plus HTTP call counts for fetching. Methods in the article must say this is an estimate.
+Cursor does not expose billed token counts to this workflow. Each phase writes `usage-log.jsonl` with character counts and a **characters/4 token estimate**, plus HTTP call counts for fetching. Token estimates belong only in `usage-log.md` / `usage-log.jsonl`, never in `article.md` or `synthesis-rationale.md`.
 
 ## Phases (this run)
 
@@ -51,4 +51,6 @@ Cursor does not expose billed token counts to this workflow. Each phase writes `
 4. `screening` — title then full text
 5. `extraction` — per-paper notes
 6. `table` — comparison table
-7. `synthesis` — article
+7. `rationale` — `synthesis-rationale.md` (mandatory before the article)
+8. `gap_retrieval` — targeted OA searches for interpretation gaps; extra PDFs only if public
+9. `synthesis` — article, following the rationale outline (after extra retrieval)

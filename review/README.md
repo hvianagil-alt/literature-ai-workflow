@@ -4,9 +4,12 @@ This is scratch space the agent writes to while it works through your papers. Yo
 
 ```
 review/
-├── notes/     one Markdown file per paper (extracted facts, quotes, page refs)
+├── notes/     one Markdown file per paper (extracted facts, quotes, page refs);
+│              fallback `_synthesis-rationale.md` if there is no run folder
 ├── table/     the running literature comparison table (literature-table.md)
-└── report/    the final synthesized report (final-report.md)
+├── report/    the final synthesized report (final-report.md) — written only
+│              after the rationale exists
+└── runs/<id>/ methods trail, including synthesis-rationale.md, gap-retrieval/, then article.md
 ```
 
 These are your research outputs, not repo source, so they're **git-ignored by default** (see the root `.gitignore`) — the same reasoning as for `papers/`: your unpublished research direction shouldn't leak into a public repo by accident.

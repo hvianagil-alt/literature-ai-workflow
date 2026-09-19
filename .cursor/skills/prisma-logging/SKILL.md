@@ -20,7 +20,8 @@ Every review run that claims to be a real article needs a methods trail: where r
 | `screening.json` | Title and full-text decisions |
 | `prisma.md` | PRISMA 2020 counts generated from the files above |
 | `usage-log.jsonl` | Per-phase effort, including token *estimates* |
-| `notes/` `table/` `article.md` | Copies of extraction/synthesis for later analysis |
+| `notes/` `table/` `synthesis-rationale.md` `article.md` | Extraction, interpretation, then the article. Token estimates stay in `usage-log.md`, not in the rationale or article. |
+| `gap-retrieval/` | Targeted extra-paper search JSON, selected catalog, and fetch log for interpretation gaps. Do **not** overwrite the original run `fetch-log.json`. |
 
 ## PRISMA 2020 counts (minimum)
 
@@ -54,10 +55,10 @@ python3 scripts/phase_log.py --run-dir review/runs/<id> --phase extraction \
   --input-chars N --output-chars N --items N --notes "..."
 ```
 
-Phases to log: `workflow`, `discovery`, `fetching`, `screening`, `extraction`, `table`, `synthesis`.
+Phases to log: `workflow`, `discovery`, `fetching`, `screening`, `extraction`, `table`, `rationale`, `gap_retrieval`, `synthesis`.
 
 `est_*_tokens_chars_div_4` is **characters/4**, not vendor billing. Write a human-readable copy to `usage-log.md`. **Do not put token estimates or phase meters in `article.md`.** The review article is a normal scientific paper; usage stays in this run folder as a separate analysis file.
 
 ## Handoff
 
-After PRISMA + notes + table exist, write the article (`report-writing` skill, article style) with thematic subsections. Point at `prisma.md` from methods if useful. Ground every claim in included full texts. Keep `usage-log.md` beside the article, not inside it.
+After PRISMA + notes + table exist, write `synthesis-rationale.md` (`synthesis-rationale` skill), attempt targeted OA retrieval for each interpretation gap (log in section (g); extract and update the table if PDFs arrive), **then** the article (`report-writing` skill) following the updated outline. Do not draft `article.md` first. Point at `prisma.md` from methods if useful. Ground every claim in included full texts. Keep `usage-log.md` beside the article, not inside it. Additional gap-fill records belong in PRISMA “additional records” if they were included.

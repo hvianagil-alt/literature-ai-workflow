@@ -40,7 +40,8 @@ For each review you run, in a `review/` folder that appears once you start:
 
 - **Per-paper notes** (`review/notes/`) — one Markdown file per paper: research question, methods, sample/data, findings, limitations, and why it matters to *your* question.
 - **A literature table** (`review/table/literature-table.md`) — one row per paper, same columns, so you can actually compare them side by side.
-- **A synthesized report** (`review/report/final-report.md`) — themes, where the literature agrees and disagrees, gaps, and what it means for your research direction.
+- **A synthesis rationale** (`review/runs/<id>/synthesis-rationale.md`) — what each study measured, which themes the data can support, interpretation gaps, a log of extra OA papers sought/found/not retrieved, and the outline of the review. Written before the article.
+- **A synthesized report** (`review/report/final-report.md`) — a scientific argument that follows that outline, not a catalogue of paper summaries. Token estimates stay in `usage-log.md`.
 
 Want to see what these look like before running anything? Check [`examples/`](examples/README.md) — a fully worked example built from clearly fictional placeholder papers (no real citations, so nothing there could be mistaken for actual research).
 
@@ -53,7 +54,8 @@ This is deliberately a conversation, not a batch job:
 3. **Optional: explore related papers** — if you want broader coverage, the AI can suggest search queries, authors, or venues to check. It will not invent fake-sounding citations to pad out a list — see the [related-paper-exploration skill](.cursor/skills/related-paper-exploration/SKILL.md) for exactly how it handles uncertainty.
 4. **Extract** — one structured note per in-scope paper.
 5. **Table** — all notes compared side by side.
-6. **Report** — a full write-up grounded in the table, with themes, tensions, gaps, and implications.
+6. **Interpret + fetch extra context (always, before the article)** — a rationale file stating what each study measured, which themes the data support, real disagreements, what the sample cannot answer, and the outline of the review. For each interpretation gap (a striking result that cannot be put in perspective, conflicting findings, a missing comparator, or a paper that could not be retrieved), the AI must try to find more **public open-access** papers, log what was sought / found / not retrieved, and update the table. It will not invent citations or bypass paywalls. If nothing extra can be retrieved, it says so and leaves the gap open.
+7. **Report** — a PhD-quality journal write-up that follows that outline, grounded in the (updated) table. Token estimates stay in a separate usage log, not in the article.
 
 Full detail lives in [`AGENTS.md`](AGENTS.md), which is the file the AI actually reads to run this.
 
@@ -88,6 +90,7 @@ Either way, nothing in this workflow requires you to sign up for or pay for an e
     ├── list_papers.py           # optional: list papers/, stub an empty table
     ├── import_bib.py            # optional: parse a Scopus/BibTeX export
     ├── fetch_oa_pdfs.py         # optional: download public OA PDFs
+    ├── search_oa_related.py     # optional: OpenAlex search for gap-fill (API hits only)
     ├── write_prisma.py          # optional: PRISMA 2020 counts from run logs
     └── phase_log.py             # optional: per-phase usage / token estimates
 ```
@@ -115,14 +118,15 @@ python3 scripts/write_prisma.py --run-dir review/runs/my-review
 
 ## How it works (for the curious)
 
-Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has seven:
+Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has eight:
 
 | Skill | What it does |
 |---|---|
 | [`paper-extraction`](.cursor/skills/paper-extraction/SKILL.md) | Reads one paper, produces one structured note |
 | [`literature-table`](.cursor/skills/literature-table/SKILL.md) | Turns notes into a comparable table |
-| [`report-writing`](.cursor/skills/report-writing/SKILL.md) | Synthesizes the table into a full report |
-| [`related-paper-exploration`](.cursor/skills/related-paper-exploration/SKILL.md) | Suggests related papers/searches, with an explicit no-fake-citations rule |
+| [`synthesis-rationale`](.cursor/skills/synthesis-rationale/SKILL.md) | Interprets the set, lists interpretation gaps, and attempts targeted OA extra retrieval before any article is written |
+| [`report-writing`](.cursor/skills/report-writing/SKILL.md) | Writes the review from that rationale — PhD-level argument, not a catalogue of abstracts |
+| [`related-paper-exploration`](.cursor/skills/related-paper-exploration/SKILL.md) | Opt-in browse *or* mandatory gap-driven OA retrieval; never invents citations |
 | [`bib-import`](.cursor/skills/bib-import/SKILL.md) | Parses a Scopus/BibTeX export into a screening catalog |
 | [`oa-fetch`](.cursor/skills/oa-fetch/SKILL.md) | Retrieves public open-access PDFs for those DOIs |
 | [`prisma-logging`](.cursor/skills/prisma-logging/SKILL.md) | PRISMA 2020 counts and per-phase usage / token estimates |

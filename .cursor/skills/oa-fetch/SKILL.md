@@ -11,6 +11,7 @@ Download full texts **only** from public OA sources.
 
 - After `bib-import` has produced `review/runs/<id>/catalog.json`.
 - The user asked you to find/get PDFs (and typically said they should be OA).
+- After `synthesis-rationale` lists interpretation gaps: fetch a **separate** catalog of selected OpenAlex hits (`review/runs/<id>/gap-retrieval/catalog.json`) into `papers/<id>-gapfill/`. Never overwrite the original run’s `fetch-log.json`.
 
 ## How
 
@@ -32,4 +33,6 @@ Lookup order per DOI: OpenAlex → Unpaywall → Europe PMC → publisher PDF UR
 
 ## Handoff
 
-Update PRISMA "reports sought / not retrieved" with `scripts/write_prisma.py`, then screen titles, then `paper-extraction` on retrieved files only.
+For the original identification set: update PRISMA "reports sought / not retrieved" with `scripts/write_prisma.py`, then screen titles, then `paper-extraction` on retrieved files only.
+
+For gap-fill catalogs: extract retrieved PDFs, add rows to the literature table, and log sought / found / not retrieved in `synthesis-rationale.md` section (g). Do not cite a DOI that did not yield a `%PDF-` file.

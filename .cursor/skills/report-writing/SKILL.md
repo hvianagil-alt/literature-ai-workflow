@@ -1,58 +1,67 @@
 ---
 name: report-writing
-description: "Synthesize the literature table and per-paper notes into a structured full report covering themes, agreements/disagreements, gaps, and implications. Use when the user wants a written synthesis, not just a table, and the literature table already exists."
+description: "Write a PhD-quality review from the synthesis rationale, literature table, and notes. Use only after synthesis-rationale.md exists. Normal journal spine; thematic sections from the rationale; no token meters in the article."
 ---
 
 # Report Writing
 
-Turn the literature table into a structured narrative: what the field agrees on, where it disagrees, what's missing, and what that means for the user's research question. This is synthesis, not summary — the report should say things no single paper says on its own.
+Write the review as a scientific argument about **all** included studies, not a catalogue of abstracts and not a token/phase log. The argument was decided in `synthesis-rationale.md`; this skill executes that outline.
 
 ## When to use this skill
 
-- After `literature-table` has produced `review/table/literature-table.md`.
-- The user asks for "a report", "write this up", "synthesize", or as the final step of the full review workflow.
+- After `synthesis-rationale` has produced `review/runs/<run-id>/synthesis-rationale.md`, `review/report/synthesis-rationale.md`, or `review/notes/_synthesis-rationale.md`.
+- The user asks for "a report", "write this up", "synthesize", "write the article," or as the report step of the full review workflow.
 
-## Inputs
+If the rationale file is missing, **stop and write it first** (see the `synthesis-rationale` skill), even if the user asked only for the article. Then write the report and say that you did the rationale step first.
 
-- `review/table/literature-table.md`
-- `review/notes/*.md` (for pulling specific detail/quotes the table compressed away)
-- The agreed research direction from intake (the report should be framed around it, not generic)
+## Inputs (read in this order)
+
+1. **`synthesis-rationale.md` — required.** Section (e) is the outline. Sections (a)–(d) constrain what you may claim. Do not invent a different structure while writing.
+2. `review/table/literature-table.md` (or the run copy)
+3. `review/notes/*.md` (detail the table compressed away)
+4. The agreed research direction from intake / `protocol.md`
+5. PRISMA/screening files for methods counts only
 
 ## Output
 
-One Markdown file: `review/report/final-report.md`, structured as:
+**Default (structured lab report).** One Markdown file: `review/report/final-report.md`. Use this spine unless the user asked for a journal article:
 
 ```markdown
 # Literature Review: <research question / topic>
 
 ## Scope
-<What was reviewed, what date range/inclusion criteria, how many papers, and a link back to the literature table>
+<What was reviewed, inclusion criteria, n papers, link to the table. State that the
+ section plan follows synthesis-rationale.md.>
 
-## Themes
-<2-5 major themes that emerged across papers, each with a short paragraph and citations to specific papers>
+## <Thematic headings from rationale (e)>
+<2–5 argument sections, not "paper 1 / paper 2". Each section does a job named in
+ the rationale (e.g. establish the only human comparative evidence; show why delivery
+ papers cannot be pooled).>
 
 ## Where the literature agrees
-<Bulleted, each backed by 2+ papers>
+<Only agreements the rationale marked as supported; each backed by 2+ papers or
+ explicitly labeled as a single-study observation.>
 
 ## Where the literature disagrees
-<Bulleted; name the papers on each side and, if visible, a plausible reason for the disagreement (different methods, populations, time periods) rather than just asserting "results conflict">
+<From rationale (c): name papers and whether the tension is methods, population, or
+ endpoint. Prefer "incommensurable" over fake controversy when endpoints differ.>
 
 ## Gaps
-<What's under-studied, under-powered, or simply absent given the user's research question>
+<From rationale (d): what this sample cannot answer.>
 
 ## Implications for [the user's research question]
-<Concrete: what this means for their next step — a hypothesis, a method choice, a population they should study>
+<Concrete next step; do not overclaim beyond the included full texts.>
 
 ## Full literature table
-<Link to review/table/literature-table.md, or inline it if the user wants a self-contained document>
+<Link to the table>
 
 ## Confidence and caveats
-<Be explicit about what's well-supported vs. thin — e.g. "based on only 2 papers" — so the user doesn't over-trust a synthesis of sparse evidence>
+<Well-supported vs thin. Small n or OA-slice reviews must say so.>
 ```
 
-See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fully worked example.
+See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fictional illustration of tone, not a license to skip the rationale file.
 
-If the user asked for a **journal-style review article** (in-text citations, reference list), write that as `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md`. Use a **normal review spine**. Do **not** put token estimates, phase logs, script names, or workflow metering in the article — those belong only in `review/runs/<run-id>/usage-log.md`.
+**Journal-style review article** (when the user asked for an article, in-text citations, reference list): write `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md`. Use a **normal journal review spine**. Thematic subsections **must** come from rationale (e).
 
 ```markdown
 # <Title>
@@ -64,34 +73,43 @@ If the user asked for a **journal-style review article** (in-text citations, ref
 ### 2.1 Search and sources
 ### 2.2 Eligibility
 ### 2.3 Study selection
-## 3–N. Thematic sections
-<Choose subsection headings from what the included papers actually cover
- (e.g. delivery routes, clinical efficacy, vesicle therapeutics, extra-glycaemic biology).
- Do not force a generic "study characteristics / synthesis" split if themes fit better.>
+## 3–N. Thematic sections from synthesis-rationale.md (e)
+<Each section is an argument that uses every relevant included paper.
+ Do not use a generic "study characteristics / results / synthesis" split.
+ Do not devote one numbered section to one paper unless that paper is the
+ sole evidence for that construct — and then say so.>
 ## Discussion
 ## Conclusions
 ## References
 ```
 
-Cite included papers in the text as Author Year or [n] keyed to the References list. **Every factual sentence must map to an extracted note or the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so in the abstract and discussion — do not write as if a small OA slice were a complete field survey.
+**Do not put token estimates, phase logs, script names, or workflow metering in the article or report.** Those belong only in `review/runs/<run-id>/usage-log.md`.
+
+Cite included papers in the text as Author Year or [n] keyed to the References list. **Every factual sentence must map to an extracted note, the table, or the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so in the abstract and discussion — do not write as if a small OA slice were a complete field survey.
 
 ## Quality bar
 
-- **Every claim in the report must be traceable to a row in the literature table or a specific note.** If you can't point to which paper(s) support a sentence, cut the sentence or mark it as your own inference clearly labeled as such (e.g. "This is our inference, not something any single paper states directly: ...").
-- Do not invent citations, page numbers, or quotes. If you don't have exact page/section info, say "per [paper]" without a fabricated locator rather than making one up.
-- Name disagreements explicitly rather than smoothing them into a false consensus — a good literature review makes tension visible.
-- Calibrate confidence to evidence volume: 1-2 papers supporting a claim is "preliminary evidence," not "the literature shows."
-- Write for the user's stated audience/purpose from intake — a report meant to justify a grant proposal reads differently from one meant to scope a thesis chapter. If that wasn't specified, ask before assuming.
+- **PhD-level argument, not a catalogue.** Topic sentences make claims about the set; papers are evidence for those claims. A reader should not be able to describe the article as “seven consecutive abstracts.”
+- **Follow the rationale.** If writing tempts you to add a theme the rationale marked as forced, don’t. Update the rationale first only when the notes/table actually support the change.
+- **Every included study appears in the argument.** Do not drop a paper because it is awkward (e.g. a PRO instrument beside an NMA).
+- **Every claim is traceable** to a table row or note. If you can't point to which paper(s) support a sentence, cut it or label it as your inference (e.g. "This is our inference, not something any single paper states directly: ...").
+- **Do not overclaim.** One NMA is not “clinical efficacy of the class across diabetes.” Animal PK is not human bioavailability. A mechanistic probe is not an outcomes trial. Botanical GLP-1R agonism is not a licensed GLP-1 RA.
+- Do not invent citations, page numbers, or quotes. If you don't have an exact locator, cite the paper without fabricating one.
+- Name real disagreements (methods / population / endpoint). Do not smooth them into false consensus, and do not invent conflict where studies never measured the same thing.
+- Calibrate confidence to evidence volume: 1–2 papers is preliminary, not “the literature shows.”
+- Write for the user's stated audience/purpose from intake. If that wasn't specified, keep the journal-review default above rather than guessing a grant vs thesis voice.
 
 ## Failure modes and how to handle them
 
 | Situation | What to do |
 |---|---|
-| Literature table has very few rows (e.g. 1-3 papers) | Say so plainly in "Scope" and "Confidence and caveats." Do not write a report that reads like a mature field survey when it isn't one. |
-| Themes don't cleanly emerge (papers are too heterogeneous) | Report that honestly — "these papers don't share enough methodology/framing to synthesize into unified themes; here's what we can say about each" — instead of forcing artificial themes. |
-| User wants the report before the table is reviewed/corrected | Warn them that unreviewed extraction errors will propagate into the synthesis, and offer to proceed anyway if they accept that tradeoff. |
-| The topic legitimately needs more papers than are in `papers/` to answer well | Say so in Gaps/Confidence, and suggest using the `related-paper-exploration` skill before finalizing. |
+| `synthesis-rationale.md` does not exist | Write it first (`synthesis-rationale` skill). Do not draft the article. |
+| Literature table has very few rows (e.g. 1–3 papers) | Say so in Scope/Abstract/Discussion. Do not write a mature field survey. |
+| Themes don't cleanly emerge | Follow rationale (b): organize by construct and say the set is incommensurable. |
+| User wants the report before the table or rationale is reviewed | Warn that extraction errors will propagate; still write the rationale before the article. |
+| The topic needs more papers than are in `papers/` | That is rationale (f). Extra retrieval must already have been attempted (rationale g) before this skill runs. Remaining open gaps stay in the article. Do not pad with uncited memory. |
+| Extra papers were retrieved for a gap | They are in-scope evidence. Update the table first; then every such paper appears in the argument. Methods must say they were targeted OA additions, not part of the original database export. |
 
 ## Handoff
 
-After the report is written, tell the user where it is (`review/report/final-report.md`) and offer to iterate (re-scope, add papers via `related-paper-exploration`, or refine specific sections) rather than treating this as a one-shot final deliverable.
+After the report is written, tell the user where it is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. Offer to iterate (re-scope, add papers, or refine sections). If they change inclusion, update the rationale before rewriting.
