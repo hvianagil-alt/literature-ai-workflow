@@ -1,4 +1,4 @@
 {
   "name": "literature-ai-workflow",
-  "install": "bash .cursor/install-github-auth.sh"
+  "install": "bash .cursor/install.sh"
 }
