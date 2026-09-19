@@ -66,6 +66,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("This review discusses", text)
         self.assertIn("Tables in the article", text)
         self.assertIn("Table 1", text)
+        self.assertIn("Do not put in the Abstract", text)
+        self.assertIn("colon subtitle", text.lower())
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -115,6 +117,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("check_extraction.py", text)
         self.assertIn("not done", text.lower())
         self.assertIn("Table 1", text)
+        self.assertIn("no citations", text.lower())
 
     def test_example_journal_article_passes_short_qa(self):
         import sys
@@ -214,6 +217,19 @@ class FullScopusRunArticleTests(unittest.TestCase):
             ):
                 et_al_openers += 1
         self.assertLess(et_al_openers, 4)
+
+    def test_abstract_is_a_topic_map_without_citations(self):
+        import re
+
+        text = (self.run_dir / "article.md").read_text(encoding="utf-8")
+        title = text.split("\n", 1)[0]
+        self.assertIn("narrative review", title.lower())
+        abstract = text.split("## Abstract", 1)[1].split("## Keywords", 1)[0]
+        self.assertIsNone(re.search(r"\[\d+\]", abstract))
+        self.assertNotIn("et al.", abstract.lower())
+        self.assertNotIn("MEDI7219", abstract)
+        self.assertNotIn("54,972", abstract)
+        self.assertIn("incretin", abstract.lower())
 
 
 class ReviewCraftStudyTests(unittest.TestCase):

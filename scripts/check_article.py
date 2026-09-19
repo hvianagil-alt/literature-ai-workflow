@@ -10,6 +10,7 @@ Usage:
     python3 scripts/check_article.py --article path.md --short
 
 Fails when the body has no Markdown pipe table or no in-text "Table N" callout.
+Fails when the Abstract contains a numbered citation ([n]) or "et al."
 """
 
 from __future__ import annotations
@@ -187,6 +188,11 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
         problems.append(
             "missing in-text Table N callout (e.g. 'Table 1 summarises…')"
         )
+    abstract = section_after(text, "Abstract")
+    if re.search(r"\[\d+\]", abstract):
+        problems.append("Abstract contains a citation ([n]); narrative abstracts do not cite")
+    if re.search(r"\bet al\.", abstract, re.I):
+        problems.append("Abstract names a paper (et al.)")
     return problems
 
 

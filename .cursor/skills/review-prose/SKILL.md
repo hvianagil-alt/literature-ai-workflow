@@ -71,17 +71,26 @@ Write it in this **order**. A reader expert in an adjacent field but not this on
 
 Do not dump screening theatre into the Introduction. Do not write “this paper stands as a testament to…” or similar. Do not preview every later heading as a table of contents.
 
+### Title
+
+Prefer a **colon subtitle** that names the kind and the argument, not a shopping list of papers or a database export. Pattern: `Topic: a narrative review of <the tension or map>`. Wrong: three paper names, “Scopus OA export”, or a comma-stack of constructs with no kind. The title is about the field, not about the run.
+
 ### Abstract
+
+A **narrative** abstract is a map of the topic. It is not a results table and not a catalogue of included papers. Published narrative reviews in the form-study sample open on the phenomenon, state a tension, rank kinds of evidence, and close on what that rank does not imply. They do **not** cite, and they do **not** name Author Year.
 
 Write it in this **order**:
 
-1. Established fact or clinical/biological problem.
+1. Established fact or clinical/biological problem (present tense).
 2. Tension: what existing coverage misses, or two signals that do not point the same way (*yet…*, *at the same time…*).
-3. Calibrated results from the included papers (design + n + units; name the strongest evidence as strongest).
-4. What those results do **not** imply (observational ≠ guideline; animal ≠ approval; dual effects are not uniformly beneficial).
-5. One implication for practice or next measurement.
+3. How this review is organised around that problem (themes, not paper names).
+4. Rank of the literature (human vs animal; trial vs observational; mechanistic vs outcome). At most **one** hinge finding, still without a citation, and only if it carries the argument. Do not dump n, p, RR, and bioavailability for several studies.
+5. What those patterns do **not** imply (observational ≠ guideline; animal ≠ approval; dual effects are not uniformly beneficial).
+6. One implication for practice or next measurement, if it fits in the same paragraph.
 
-Keywords after the abstract. No workflow, no “OA export,” no table of contents. Use a structured abstract only when the article itself is a systematic review or meta-analysis.
+**Do not put in the Abstract:** numbered citations (`[1]`), *et al.*, product codes that exist in only one included paper, Table 1, PRISMA counts, or a stack of effect sizes. Numbers belong in Results and in the in-article tables. Keywords after the abstract. No workflow, no “OA export,” no table of contents.
+
+**Systematic review / meta-analysis:** use a structured abstract (Background / Methods / Results / Conclusions). Pooled numbers may appear there. Still **no numbered citations** and **no named papers** (journals commonly forbid references in abstracts).
 
 ### Discussion (see also report-writing)
 

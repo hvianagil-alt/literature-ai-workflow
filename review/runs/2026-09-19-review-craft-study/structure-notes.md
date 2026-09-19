@@ -28,13 +28,20 @@ The default article in this workflow is (2): narrative with brief methods, unles
 3. What current therapy already does and still fails; where the map is incomplete.
 4. Last paragraph only: aim or **central argument**. The words “this review” belong here.
 
+## Title
+
+Colon subtitle is common (`Topic: a narrative review of…`). The title names the field and the argument, not a list of papers and not the database export.
+
 ## Abstract order
 
-1. Established problem.
+Narrative abstracts in this sample are **topic maps**. They do not cite and they do not name included studies.
+
+1. Established problem (present tense).
 2. Tension (*yet…*, *at the same time…*): missing coverage, or two signals that do not point the same way.
-3. Calibrated findings (design rank + n + units).
-4. What the findings do **not** imply.
-5. Keywords. Structured abstract only for SR/MA.
+3. How the review is organised (themes). Rank of evidence (human vs animal; trial vs observational), not a stack of n and p from several papers.
+4. At most one hinge finding, still unnamed, and only if it carries the argument.
+5. What those patterns do **not** imply.
+6. Keywords. Structured abstract only for SR/MA (pooled numbers allowed there; still no `[1]` / Author et al.).
 
 ## Headings
 

@@ -34,7 +34,7 @@ See [`examples/sample-article.md`](../../../examples/sample-article.md) for fict
 # <Title>
 
 ## Abstract
-<Problem → tension → calibrated findings → what they do not imply. See review-prose.>
+<Topic map, not a results dump. No citations, no named papers. See review-prose.>
 ## Keywords
 ## 1. Introduction
 <Present-tense phenomenon first. Teach physiology/technology later sections assume.

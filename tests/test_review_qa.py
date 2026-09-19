@@ -95,3 +95,14 @@ class CheckArticleTests(unittest.TestCase):
         problems = check_article.check(stripped, None, short=True)
         self.assertTrue(any("table n callout" in p.lower() for p in problems), problems)
         self.assertFalse(any("markdown results table" in p.lower() for p in problems), problems)
+
+    def test_abstract_citation_or_et_al_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        cited = text.replace(
+            "The practical next measurement is delayed STEM recall with domain as a planned factor.",
+            "Al Researcher et al. raised recall by 18% [1]. The practical next measurement is delayed STEM recall with domain as a planned factor.",
+            1,
+        )
+        problems = check_article.check(cited, None, short=True)
+        self.assertTrue(any("abstract contains a citation" in p.lower() for p in problems), problems)
+        self.assertTrue(any("abstract names a paper" in p.lower() for p in problems), problems)

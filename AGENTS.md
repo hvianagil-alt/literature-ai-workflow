@@ -87,6 +87,10 @@ The article is a **secondary** paper: it does not report a new experiment. It te
 
 **Introduction must teach.** Open on the phenomenon in present tense (not “This review discusses…”). A reader expert in an adjacent field must be able to follow the later sections after reading it (e.g. what an incretin is, what automated insulin delivery is, why oral peptides fail, what an extra-glycaemic claim would even mean). Put the aim or central argument in the **last** paragraph of the Introduction. Headings name topics or arguments, not papers. Do not dump screening theatre into the Introduction.
 
+**Title.** Prefer a colon subtitle that names the kind and the argument (`Topic: a narrative review of …`). The title is about the field, not about a list of papers or a database export.
+
+**Abstract.** For a narrative review, the abstract is a map of the topic. Do **not** cite (`[1]`) and do **not** name included papers. Rank kinds of evidence. At most one hinge finding, still unnamed. Exact n, p, RR, and bioavailability belong in Results and in Table 1, not stacked in the Abstract. Structured abstracts (with pooled numbers, still without citations) are for systematic reviews and meta-analyses only.
+
 **Length.** Unless the user asked for a short note, aim for at least ~6,000 words of body text (about 20 pages in a typical double-spaced Word document). Add length by teaching in the Introduction and by giving each included study its design and results — not by slogans or process talk.
 
 **Tables in the article.** Put numbered Markdown results tables in `article.md` (Table 1, Table 2, …) with a caption, the paper, n, endpoint, and result in the cells. Mention the table from the Results: “Primary endpoints are summarised in Table 1 [1].” That is not the extraction worksheet in `literature-table.md`; curate comparable rows. `check_article.py` fails if the manuscript has no pipe table or no “Table N” callout.

@@ -1,7 +1,7 @@
 # Structured note-taking and recall of technical material: a narrative review
 
 ## Abstract
-Recall of technical prose is imperfect after a delay of days. Structured notes are widely recommended, yet a STEM-specific null sits beside a small positive pooled effect. Outline notes raised 1-week recall by 18% versus free-form notes in one laboratory sample (N=40) [1]. That benefit did not appear for STEM passages in a larger mixed-methods study (N=85) [2]. These results do not imply a semester-long study habit. The practical next measurement is delayed STEM recall with domain as a planned factor.
+Recall of technical prose is imperfect after a delay of days. Structured notes are widely recommended, yet whether format changes recall, and whether that change is the same for STEM and humanities text, remains unsettled. This narrative review organises the literature around domain as a moderator rather than around a single pooled effect. Laboratory and meta-analytic work generally points to a small positive recall benefit when domains are averaged; the STEM-specific test did not. Those patterns do not imply a semester-long study habit. The practical next measurement is delayed STEM recall with domain as a planned factor.
 
 ## Keywords
 note-taking; recall; STEM; meta-analysis
