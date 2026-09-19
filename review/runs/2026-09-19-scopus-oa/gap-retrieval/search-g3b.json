@@ -1,0 +1,199 @@
+{
+  "ts_utc": "2026-09-19T20:10:28.450955+00:00",
+  "query": "exosomes ischemic stroke diabetes mellitus",
+  "from_year": 2018,
+  "source": "openalex",
+  "status": {
+    "ok": true,
+    "http_status": 200,
+    "error": null,
+    "query_url": "https://api.openalex.org/works?search=exosomes+ischemic+stroke+diabetes+mellitus&filter=is_oa%3Atrue%2Chas_doi%3Atrue%2Cfrom_publication_date%3A2018-01-01&per_page=8&mailto=hugogilcontas%40gmail.com&sort=cited_by_count%3Adesc",
+    "openalex_count": 4653,
+    "returned": 8
+  },
+  "warning": "These are API hits, not included studies. Verify each record, select only those that address the stated gap, then fetch OA PDFs. Do not cite from this list without a retrieved full text.",
+  "records": [
+    {
+      "citekey": "Rinella2023_000323",
+      "record_id": "Rinella2023_000323",
+      "openalex_id": "https://openalex.org/W4318923555",
+      "title": "AASLD Practice Guidance on the clinical assessment and management of nonalcoholic fatty liver disease",
+      "author": "Mary E. Rinella and Brent A. Neuschwander‐Tetri and Mohammad Shadab Siddiqui and Manal F. Abdelmalek and Stephen H. Caldwell and Diana Barb and David E. Kleiner and Rohit Loomba",
+      "authors": [
+        "Mary E. Rinella",
+        "Brent A. Neuschwander‐Tetri",
+        "Mohammad Shadab Siddiqui",
+        "Manal F. Abdelmalek",
+        "Stephen H. Caldwell",
+        "Diana Barb",
+        "David E. Kleiner",
+        "Rohit Loomba"
+      ],
+      "year": "2023",
+      "doi": "10.1097/hep.0000000000000323",
+      "journal": "Hepatology",
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/pdf/nihms-1948413.pdf",
+      "cited_by_count": 2532,
+      "publication_date": "2023-02-02",
+      "type": "article"
+    },
+    {
+      "citekey": "Sweeney2018_02017",
+      "record_id": "Sweeney2018_02017",
+      "openalex_id": "https://openalex.org/W2895430781",
+      "title": "Blood-Brain Barrier: From Physiology to Disease and Back",
+      "author": "Melanie D. Sweeney and Zhen Zhao and Axel Montagne and Amy R. Nelson and Berislav V. Zloković",
+      "authors": [
+        "Melanie D. Sweeney",
+        "Zhen Zhao",
+        "Axel Montagne",
+        "Amy R. Nelson",
+        "Berislav V. Zloković"
+      ],
+      "year": "2018",
+      "doi": "10.1152/physrev.00050.2017",
+      "journal": "Physiological Reviews",
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://journals.physiology.org/doi/pdf/10.1152/physrev.00050.2017",
+      "cited_by_count": 2262,
+      "publication_date": "2018-10-03",
+      "type": "review"
+    },
+    {
+      "citekey": "Kany2019_236008",
+      "record_id": "Kany2019_236008",
+      "openalex_id": "https://openalex.org/W2990337693",
+      "title": "Cytokines in Inflammatory Disease",
+      "author": "Shinwan Kany and Jan Tilmann Vollrath and Borna Relja",
+      "authors": [
+        "Shinwan Kany",
+        "Jan Tilmann Vollrath",
+        "Borna Relja"
+      ],
+      "year": "2019",
+      "doi": "10.3390/ijms20236008",
+      "journal": "International Journal of Molecular Sciences",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1422-0067/20/23/6008/pdf?version=1574957092",
+      "cited_by_count": 1994,
+      "publication_date": "2019-11-28",
+      "type": "article"
+    },
+    {
+      "citekey": "Herrmann2021_09312",
+      "record_id": "Herrmann2021_09312",
+      "openalex_id": "https://openalex.org/W3175628958",
+      "title": "Extracellular vesicles as a next-generation drug delivery platform",
+      "author": "Inge K. Herrmann and Matthew J. A. Wood and Gregor Fuhrmann",
+      "authors": [
+        "Inge K. Herrmann",
+        "Matthew J. A. Wood",
+        "Gregor Fuhrmann"
+      ],
+      "year": "2021",
+      "doi": "10.1038/s41565-021-00931-2",
+      "journal": "Nature Nanotechnology",
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://www.nature.com/articles/s41565-021-00931-2.pdf",
+      "cited_by_count": 1952,
+      "publication_date": "2021-07-01",
+      "type": "article"
+    },
+    {
+      "citekey": "Jia2018_311586",
+      "record_id": "Jia2018_311586",
+      "openalex_id": "https://openalex.org/W2792805849",
+      "title": "Diabetic Cardiomyopathy",
+      "author": "Guanghong Jia and Michael A. Hill and James R. Sowers",
+      "authors": [
+        "Guanghong Jia",
+        "Michael A. Hill",
+        "James R. Sowers"
+      ],
+      "year": "2018",
+      "doi": "10.1161/circresaha.117.311586",
+      "journal": "Circulation Research",
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://www.ahajournals.org/doi/pdf/10.1161/CIRCRESAHA.117.311586",
+      "cited_by_count": 1868,
+      "publication_date": "2018-02-15",
+      "type": "article"
+    },
+    {
+      "citekey": "Li2021_06870",
+      "record_id": "Li2021_06870",
+      "openalex_id": "https://openalex.org/W3188249461",
+      "title": "Pattern recognition receptors in health and diseases",
+      "author": "Danyang Li and Minghua Wu",
+      "authors": [
+        "Danyang Li",
+        "Minghua Wu"
+      ],
+      "year": "2021",
+      "doi": "10.1038/s41392-021-00687-0",
+      "journal": "Signal Transduction and Targeted Therapy",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41392-021-00687-0.pdf",
+      "cited_by_count": 1810,
+      "publication_date": "2021-08-03",
+      "type": "article"
+    },
+    {
+      "citekey": "CabralPacheco2020_249739",
+      "record_id": "CabralPacheco2020_249739",
+      "openalex_id": "https://openalex.org/W3117437033",
+      "title": "The Roles of Matrix Metalloproteinases and Their Inhibitors in Human Diseases",
+      "author": "Griselda A. Cabral-Pacheco and Idalia Garza‐Veloz and Claudia Castruita-De la Rosa and Jesus Manuel Ramirez-Acuña and Braulio A Perez-Romero and Jesús F Guerrero-Rodriguez and Nadia Martínez-Avila and Margarita L. Martínez‐Fierro",
+      "authors": [
+        "Griselda A. Cabral-Pacheco",
+        "Idalia Garza‐Veloz",
+        "Claudia Castruita-De la Rosa",
+        "Jesus Manuel Ramirez-Acuña",
+        "Braulio A Perez-Romero",
+        "Jesús F Guerrero-Rodriguez",
+        "Nadia Martínez-Avila",
+        "Margarita L. Martínez‐Fierro"
+      ],
+      "year": "2020",
+      "doi": "10.3390/ijms21249739",
+      "journal": "International Journal of Molecular Sciences",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1422-0067/21/24/9739/pdf?version=1608701802",
+      "cited_by_count": 1802,
+      "publication_date": "2020-12-20",
+      "type": "article"
+    },
+    {
+      "citekey": "Weiyi2020_12863",
+      "record_id": "Weiyi2020_12863",
+      "openalex_id": "https://openalex.org/W3112047397",
+      "title": "Circular RNA: metabolism, functions and interactions with proteins",
+      "author": "Zhou Wei-yi and Zerong Cai and Jia Liu and De‐Shen Wang and Huai‐Qiang Ju and Rui‐Hua Xu",
+      "authors": [
+        "Zhou Wei-yi",
+        "Zerong Cai",
+        "Jia Liu",
+        "De‐Shen Wang",
+        "Huai‐Qiang Ju",
+        "Rui‐Hua Xu"
+      ],
+      "year": "2020",
+      "doi": "10.1186/s12943-020-01286-3",
+      "journal": "Molecular Cancer",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://molecular-cancer.biomedcentral.com/track/pdf/10.1186/s12943-020-01286-3",
+      "cited_by_count": 1622,
+      "publication_date": "2020-12-01",
+      "type": "article"
+    }
+  ]
+}

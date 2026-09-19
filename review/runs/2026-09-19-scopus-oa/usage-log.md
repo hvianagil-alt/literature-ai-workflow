@@ -13,3 +13,6 @@ Cursor does not expose billed model tokens. `est_*` = characters ÷ 4. Screening
 | extraction | 2026-09-19T19:36:18 | 7 | 0 | 210068 | 4609 | 214677 | notes for 7 included + exclusion file; claims only from PDFs |
 | table | 2026-09-19T19:36:19 | 7 | 0 | 4609 | 1135 | 5744 | literature table from notes |
 | synthesis | 2026-09-19T19:37:31 | 1 | 0 | 5744 | 3420 | 9163 | first article draft (later rewritten without usage text in the article body) |
+| rationale | 2026-09-19T20:12:02 | 7 | 0 | 1135 | 4672 | 5807 | synthesis-rationale.md from notes+table (a–e); no tokens in article |
+| gap_retrieval | 2026-09-19T20:12:02 | 8 | 6 | 500 | 2000 | 2500 | OpenAlex G1–G8; Huang DOI retry not retrieved; zero extra full texts |
+| synthesis | 2026-09-19T20:12:02 | 1 | 0 | 4672 | 4710 | 9382 | article rewritten from rationale outline; tokens remain in this file only |

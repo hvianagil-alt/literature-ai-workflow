@@ -1,0 +1,96 @@
+{
+  "selected": [
+    {
+      "doi": "10.1056/nejmoa2032183",
+      "citekey": "Wilding2021_032183",
+      "gap": "G1",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+      "oa_status": "green"
+    },
+    {
+      "doi": "10.1016/j.molmet.2020.101102",
+      "citekey": "Nauck2020_101102",
+      "gap": "G1/G2",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "GLP-1 receptor agonists in the treatment of type 2 diabetes \u2013 state-of-the-art",
+      "oa_status": "gold"
+    },
+    {
+      "doi": "10.3389/fendo.2019.00155",
+      "citekey": "Knudsen2019_00155",
+      "gap": "G2",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "The Discovery and Development of Liraglutide and Semaglutide",
+      "oa_status": "gold"
+    },
+    {
+      "doi": "10.1056/nejmoa2307563",
+      "citekey": "Lincoff2023_307563",
+      "gap": "G5",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes",
+      "oa_status": "green"
+    },
+    {
+      "doi": "10.1056/nejmoa1607141",
+      "citekey": "Marso2016_607141",
+      "gap": "G5",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes",
+      "oa_status": "bronze"
+    },
+    {
+      "doi": "10.1038/s41598-022-05323-7",
+      "citekey": "Meurot2022_53237",
+      "gap": "G6",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "Liraglutide, a glucagon-like peptide 1 receptor agonist, exerts analgesic, anti-inflammatory and anti-degradative actions in osteoarthritis",
+      "oa_status": "gold"
+    },
+    {
+      "doi": "10.1016/j.ijpx.2026.100639",
+      "citekey": "Huang2026",
+      "gap": "G3",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "SRT1720-loaded exosome-mimetic nanovesicles in diabetic cerebral infarction (title from original Scopus export; PDF not previously retrieved)",
+      "oa_status": "gold"
+    },
+    {
+      "doi": "10.7150/thno.29766",
+      "citekey": "Wang2018_29766",
+      "gap": "G4",
+      "selected": true,
+      "reason": "On-topic OpenAlex OA hit (or Huang retry) for the named interpretation gap",
+      "title": "Engineering Bioactive Self-Healing Antibacterial Exosomes Hydrogel for Promoting Chronic Diabetic Wound Healing and Complete Skin Regeneration",
+      "oa_status": "gold"
+    }
+  ],
+  "skipped": [
+    {
+      "doi": null,
+      "gap": "G6 first query",
+      "selected": false,
+      "reason": "Top hits were off-topic (gum arabic; psychiatry commission). Not fetched."
+    },
+    {
+      "doi": null,
+      "gap": "G3 first query",
+      "selected": false,
+      "reason": "Top hits were generic EV reviews, not diabetic cerebral infarction. Not fetched except Huang DOI retry and no on-topic substitute found."
+    },
+    {
+      "doi": "10.1186/s41687-026-01037-w",
+      "gap": "G8",
+      "selected": false,
+      "reason": "Hit is Boye 2026, already included. No later psychometric paper found."
+    }
+  ]
+}

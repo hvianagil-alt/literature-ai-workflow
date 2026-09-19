@@ -1,0 +1,30 @@
+[
+  {
+    "citekey": "Huang2026_gap",
+    "record_id": "Huang2026_gap",
+    "entry_type": "ARTICLE",
+    "title": "SRT1720-loaded exosome-mimetic nanovesicles (retry of originally eligible, not-retrieved DOI)",
+    "author": "Huang",
+    "year": "2026",
+    "journal": "Int J Pharm X",
+    "doi": "10.1016/j.ijpx.2026.100639",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": true,
+    "title_decision": "title_include"
+  },
+  {
+    "citekey": "Niu2021_oralglp1",
+    "record_id": "Niu2021_oralglp1",
+    "entry_type": "ARTICLE",
+    "title": "Development of an orally delivered GLP-1 receptor agonist through peptide engineering and formulation",
+    "author": "",
+    "year": "2021",
+    "journal": "Scientific Reports",
+    "doi": "10.1038/s41598-021-01750-0",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": true,
+    "title_decision": "title_include"
+  }
+]

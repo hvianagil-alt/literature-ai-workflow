@@ -2,7 +2,7 @@
 
 **Research question:** In this Scopus open-access export, what is reported about GLP-1 receptor agonists, stem-cell/exosome products, and drug-delivery systems in metabolic disease (diabetes, obesity, and closely related inflammatory or repair settings)?
 
-**Included studies:** 7 full texts — Jeong 2026; Zhang 2026; Khater 2026; Wu 2026; Chen 2026; Guo 2026; Boye 2026.
+**Included studies:** 7 full texts from the export — Jeong 2026; Zhang 2026; Khater 2026; Wu 2026; Chen 2026; Guo 2026; Boye 2026 — plus 5 gap-fill OA full texts retrieved after this rationale’s first pass (Wilding 2021; Knudsen 2019; Lincoff 2023; Meurot 2022; Wang 2019). Gap-fill papers are labeled as such; they were not in the original 10-record identification set.
 
 **Not used as evidence:**
 - Li 2026 — yeast plasmid copy-number control; excluded on topic.
@@ -109,9 +109,22 @@ These are obstacles to putting an included result in perspective. Each must be s
 
 ## (g) Targeted extra retrieval log
 
-*To be filled after OpenAlex search + OA fetch. Do not cite API hits without a retrieved PDF.*
+OpenAlex (`scripts/search_oa_related.py`) then public-OA fetch (`fetch_oa_pdfs.py`) into `papers/scopus-oa-gapfill/` using a **separate** catalog (`gap-retrieval/catalog.json`) so the original run `fetch-log.json` was not overwritten. Off-topic highly cited hits (ADA/ESC guidelines, gum arabic, psychiatry commissions) were logged as **not selected**. API hit lists remain in `gap-retrieval/search-*.json` and are not a reference list. The 459-record fetch in `papers/scopus-oa-full/` was not used and was not interrupted.
+
+Eight on-topic DOIs were selected for fetch. **5/8 public PDFs** were kept.
+
+| Gap | Sought (selected) | Found (PDF kept) | Not retrieved / not selected | In table? |
+|---|---|---|---|---|
+| G1 Wu −13.59 kg / 2.4 mg SC | Wilding 2021 STEP 1 `10.1056/nejmoa2032183`; Nauck 2020 `10.1016/j.molmet.2020.101102` | Wilding 2021 (green OA, 482 854 bytes) | Nauck 2020 `no_public_pdf_found` | **Yes** Wilding |
+| G2 oral BA vs Jeong <2% | Knudsen 2019 `10.3389/fendo.2019.00155`; Nauck 2020 (shared) | Knudsen 2019 (Frontiers PDF) | Nauck 2020 as above | **Yes** Knudsen |
+| G3 Huang / diabetic CNS vesicles | Retry Huang `10.1016/j.ijpx.2026.100639`; OpenAlex exosome + diabetic cerebral infarction / stroke + diabetes | none on-topic with a PDF | Huang 2026 still `no_public_pdf_found`; other hits were generic EV reviews (not fetched) | **No** — gap open |
+| G4 Chen wound exo-hydrogel | Wang 2019 `10.7150/thno.29766` | Wang 2019 (Theranostics PDF) | — | **Yes** Wang. Chen’s n still missing |
+| G5 Guo vs clinical CV | Lincoff 2023 SELECT `10.1056/nejmoa2307563`; Marso 2016 SUSTAIN-6 `10.1056/nejmoa1607141` | Lincoff 2023 (green OA PDF) | Marso 2016 `no_public_pdf_found` | **Yes** Lincoff. T2D CVOT still missing |
+| G6 Zhang RA / GLP-1 | First query off-topic (not fetched). Meurot 2022 `10.1038/s41598-022-05323-7` | Meurot 2022 (Sci Rep PDF) | No CIA/RA GLP-1 trial besides Zhang | **Yes** Meurot (**OA**, not RA) |
+| G7 clinical non-injectable vs SC | Oral vs SC / PIONEER queries | none that was a pulmonary or MN vs SC H2H PDF | No such OA full text in the selected catalog | **No** — gap open |
+| G8 PSMD psychometrics | PSMD questionnaire query | Hit was Boye 2026 itself (already included) | No later measurement-properties paper | **No** — gap open |
 
 ## (h) Decision to write
 
-*Blocked until (g) is complete.*
+Rationale + extra retrieval are done. The article may be written from the updated table: **7 original + 5 gap-fill full texts**. Open gaps that must stay explicit: Huang 2026 still unread; Chen n still missing; no pulmonary/MN vs SC clinical H2H; no PSMD psychometrics; SUSTAIN-6 not retrieved; Meurot is osteoarthritis, not RA. Do not fill those from memory. No token estimates in the article.
 

@@ -1,0 +1,138 @@
+{
+  "ts_utc": "2026-09-19T20:13:39.947766+00:00",
+  "query": "oral semaglutide absolute bioavailability SNAC Rybelsus",
+  "from_year": null,
+  "source": "openalex",
+  "status": {
+    "ok": true,
+    "http_status": 200,
+    "error": null,
+    "query_url": "https://api.openalex.org/works?search=oral+semaglutide+absolute+bioavailability+SNAC+Rybelsus&filter=is_oa%3Atrue%2Chas_doi%3Atrue&per_page=5&mailto=hugogilcontas%40gmail.com&sort=cited_by_count%3Adesc",
+    "openalex_count": 48,
+    "returned": 5
+  },
+  "warning": "These are API hits, not included studies. Verify each record, select only those that address the stated gap, then fetch OA PDFs. Do not cite from this list without a retrieved full text.",
+  "records": [
+    {
+      "citekey": "Walsh2022_1582x",
+      "record_id": "Walsh2022_1582x",
+      "openalex_id": "https://openalex.org/W4311675123",
+      "title": "Biopharmaceutical benchmarks 2022",
+      "author": "Gary Walsh and Eithne Walsh",
+      "authors": [
+        "Gary Walsh",
+        "Eithne Walsh"
+      ],
+      "year": "2022",
+      "doi": "10.1038/s41587-022-01582-x",
+      "journal": "Nature Biotechnology",
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://www.nature.com/articles/s41587-022-01582-x.pdf",
+      "cited_by_count": 557,
+      "publication_date": "2022-12-01",
+      "type": "article"
+    },
+    {
+      "citekey": "Zhu2021_04001",
+      "record_id": "Zhu2021_04001",
+      "openalex_id": "https://openalex.org/W3157245446",
+      "title": "Oral delivery of proteins and peptides: Challenges, status quo and future perspectives",
+      "author": "Quangang Zhu and Zhongjian Chen and Pijush Paul and Yi Lü and Wei Wu and Jianping Qi",
+      "authors": [
+        "Quangang Zhu",
+        "Zhongjian Chen",
+        "Pijush Paul",
+        "Yi Lü",
+        "Wei Wu",
+        "Jianping Qi"
+      ],
+      "year": "2021",
+      "doi": "10.1016/j.apsb.2021.04.001",
+      "journal": "Acta Pharmaceutica Sinica B",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.sciencedirect.com/science/article/pii/S2211383521001167/pdf",
+      "cited_by_count": 350,
+      "publication_date": "2021-04-29",
+      "type": "article"
+    },
+    {
+      "citekey": "Mahapatra2022_96991",
+      "record_id": "Mahapatra2022_96991",
+      "openalex_id": "https://openalex.org/W4205983920",
+      "title": "Semaglutide, a glucagon like peptide-1 receptor agonist with cardiovascular benefits for management of type 2 diabetes",
+      "author": "Manoj Kumar Mahapatra and Muthukumar Karuppasamy and Biswa Mohan Sahoo",
+      "authors": [
+        "Manoj Kumar Mahapatra",
+        "Muthukumar Karuppasamy",
+        "Biswa Mohan Sahoo"
+      ],
+      "year": "2022",
+      "doi": "10.1007/s11154-021-09699-1",
+      "journal": "Reviews in Endocrine and Metabolic Disorders",
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s11154-021-09699-1.pdf",
+      "cited_by_count": 153,
+      "publication_date": "2022-01-07",
+      "type": "article"
+    },
+    {
+      "citekey": "Nicze2024_020815",
+      "record_id": "Nicze2024_020815",
+      "openalex_id": "https://openalex.org/W4390731482",
+      "title": "The Current and Promising Oral Delivery Methods for Protein- and Peptide-Based Drugs",
+      "author": "Michał Nicze and Maciej Borówka and Adrianna Dec and Aleksandra Niemiec and Łukasz Bułdak and Bogusław Okopień",
+      "authors": [
+        "Michał Nicze",
+        "Maciej Borówka",
+        "Adrianna Dec",
+        "Aleksandra Niemiec",
+        "Łukasz Bułdak",
+        "Bogusław Okopień"
+      ],
+      "year": "2024",
+      "doi": "10.3390/ijms25020815",
+      "journal": "International Journal of Molecular Sciences",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1422-0067/25/2/815/pdf?version=1704787409",
+      "cited_by_count": 90,
+      "publication_date": "2024-01-09",
+      "type": "article"
+    },
+    {
+      "citekey": "Pechenov2021_17500",
+      "record_id": "Pechenov2021_17500",
+      "openalex_id": "https://openalex.org/W3214549833",
+      "title": "Development of an orally delivered GLP-1 receptor agonist through peptide engineering and drug delivery to treat chronic disease",
+      "author": "Sergei Pechenov and Jefferson D. Revell and Sarah Will and Jacqueline Naylor and Puneet Tyagi and Chandresh Patel and Lihuan Liang and Leo Tseng and Yue Huang and Anton I. Rosenbaum and Kemal Balic and Anish Konkar and Joseph Grimsby and J. Anand Subramony",
+      "authors": [
+        "Sergei Pechenov",
+        "Jefferson D. Revell",
+        "Sarah Will",
+        "Jacqueline Naylor",
+        "Puneet Tyagi",
+        "Chandresh Patel",
+        "Lihuan Liang",
+        "Leo Tseng",
+        "Yue Huang",
+        "Anton I. Rosenbaum",
+        "Kemal Balic",
+        "Anish Konkar",
+        "Joseph Grimsby",
+        "J. Anand Subramony"
+      ],
+      "year": "2021",
+      "doi": "10.1038/s41598-021-01750-0",
+      "journal": "Scientific Reports",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41598-021-01750-0.pdf",
+      "cited_by_count": 78,
+      "publication_date": "2021-11-18",
+      "type": "article"
+    }
+  ]
+}

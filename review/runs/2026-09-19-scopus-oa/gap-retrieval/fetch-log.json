@@ -1,0 +1,121 @@
+[
+  {
+    "citekey": "Wilding2021_032183",
+    "doi": "10.1056/nejmoa2032183",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-gapfill/Wilding2021_032183.pdf",
+    "http_calls": 4,
+    "source_url": "https://discovery.ucl.ac.uk/id/eprint/10127569/1/nejmoa2032183.pdf",
+    "attempted": [
+      "https://discovery.ucl.ac.uk/10127569/1/nejmoa2032183.pdf",
+      "https://doi.org/10.1056/nejmoa2032183"
+    ],
+    "bytes": 482854
+  },
+  {
+    "citekey": "Nauck2020_101102",
+    "doi": "10.1016/j.molmet.2020.101102",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S2212877820301769/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8085572/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.molmet.2020.101102",
+      "https://doi.org/10.1016/j.molmet.2020.101102"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Knudsen2019_00155",
+    "doi": "10.3389/fendo.2019.00155",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-gapfill/Knudsen2019_00155.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00155/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/articles/10.3389/fendo.2019.00155/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6474072/pdf/",
+      "https://doi.org/10.3389/fendo.2019.00155"
+    ],
+    "bytes": 13852600
+  },
+  {
+    "citekey": "Lincoff2023_307563",
+    "doi": "10.1056/nejmoa2307563",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-gapfill/Lincoff2023_307563.pdf",
+    "http_calls": 4,
+    "source_url": "https://discovery.ucl.ac.uk/id/eprint/10184940/1/nejmoa2307563.pdf",
+    "attempted": [
+      "https://discovery.ucl.ac.uk/10184940/1/nejmoa2307563.pdf",
+      "https://doi.org/10.1056/nejmoa2307563"
+    ],
+    "bytes": 564440
+  },
+  {
+    "citekey": "Marso2016_607141",
+    "doi": "10.1056/nejmoa1607141",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1607141?articleTools=true",
+      "https://doi.org/10.1056/nejmoa1607141"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Meurot2022_53237",
+    "doi": "10.1038/s41598-022-05323-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-gapfill/Meurot2022_53237.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41598-022-05323-7.pdf?error=cookies_not_supported&code=5c1751e8-95cd-4cc8-936a-def3455693ab",
+    "attempted": [
+      "https://www.nature.com/articles/s41598-022-05323-7.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8799666/pdf/",
+      "https://www.nature.com/articles/s41598-022-05323-7",
+      "https://doi.org/10.1038/s41598-022-05323-7"
+    ],
+    "bytes": 1988634
+  },
+  {
+    "citekey": "Huang2026",
+    "doi": "10.1016/j.ijpx.2026.100639",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ijpx.2026.100639",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13524642/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijpx.2026.100639"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Wang2018_29766",
+    "doi": "10.7150/thno.29766",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-gapfill/Wang2018_29766.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.thno.org/v09p0065.pdf",
+    "attempted": [
+      "https://www.thno.org/v09p0065.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6332800/pdf/",
+      "https://doi.org/10.7150/thno.29766"
+    ],
+    "bytes": 2520380
+  }
+]

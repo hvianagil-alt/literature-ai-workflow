@@ -8,9 +8,9 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Source | n |
 |---|---|
 | Records from Scopus export (`identification.bib`) | 10 |
-| Additional records from other sources | 0 |
+| Additional records from other sources | 8 |
 | Duplicates removed | 0 |
-| Records after duplicates removed | 10 |
+| Records after duplicates removed | 18 |
 
 ## Screening
 
@@ -27,7 +27,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 
 | Set | n |
 |---|---|
-| Studies included in the review | 7 |
+| Studies included in the review | 12 |
 
 ## Exclusion reasons (title/metadata)
 
@@ -39,8 +39,13 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 
 ## Not retrieved
 
-- `Huang2026` — Scopus/Unpaywall gold OA, but no public PDF body obtained (`no_public_pdf_found`; ScienceDirect 403; PMC returned HTML).
+- `Huang2026` — Scopus/Unpaywall gold OA, but no public PDF body obtained on the original fetch or the gap-fill retry (`no_public_pdf_found`; ScienceDirect 403; PMC HTML).
+- Gap-fill catalog (8 selected DOIs): Nauck 2020 (`10.1016/j.molmet.2020.101102`) and Marso 2016 SUSTAIN-6 (`10.1056/nejmoa1607141`) also `no_public_pdf_found`. Huang counted in both the original “not retrieved” row and this retry.
+
+## Additional records (interpretation-gap retrieval)
+
+Eight DOIs were selected from OpenAlex hits to address named gaps (see `gap-retrieval/selection-log.json`). Off-topic API hits were not fetched. Five public PDFs were extracted and included (Wilding 2021, Knudsen 2019, Lincoff 2023, Meurot 2022, Wang 2019). These five are the “additional records” that entered the included set (7 + 5 = 12). They were not part of the Scopus export.
 
 ## Notes
 
-Li2026 was excluded at title (confirmed on full text, which was retrieved). Huang2026 was sought but not retrieved. Barrett2026 was assessed in full text and excluded. Guo2026 was kept after full text because the paper reports semaglutide/GLP-1–related angiogenesis experiments, which the title alone did not make obvious.
+Li2026 was excluded at title (confirmed on full text, which was retrieved). Huang2026 was sought twice and not retrieved. Barrett2026 was assessed in full text and excluded. Guo2026 was kept after full text because the paper reports semaglutide/GLP-1–related angiogenesis experiments, which the title alone did not make obvious. Gap-fill papers are documented in `synthesis-rationale.md` section (g) and `gap-retrieval/`.

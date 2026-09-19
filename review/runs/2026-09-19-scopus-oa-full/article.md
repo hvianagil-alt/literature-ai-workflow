@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This article reviews the papers that could be read in full from a complete Scopus gold/open-access BibTeX export (459 records, 19 September 2026) on glucagon-like peptide-1 receptor agonists (GLP-1 RAs), stem-cell/exosome products, and drug-delivery systems in metabolic disease and closely related settings. Titles were screened with pre-specified keywords (185 sought). Public PDFs were requested only from open-access endpoints; 139 eligible titles had no downloadable public PDF and are not cited as evidence. Forty-six files were assessed; two were excluded (one off-topic inflammatory-bowel delivery paper; one file whose body was a different journal article). **Forty-four studies were included.** They do not share a primary endpoint. Human comparative data in this retrieved set include a type 1 diabetes crossover trial of weekly semaglutide plus automated insulin delivery (time in range 74.2% vs 69.4% on placebo; mean difference 4.8 percentage points; 24 completers of 28 randomized) and a 50-trial safety meta-analysis of semaglutide in people at raised cardiovascular risk (54,972 participants; all-cause mortality RR 0.85, 95% CI 0.79–0.91). Non-injectable GLP-1 RA delivery remains largely preclinical (pulmonary liraglutide–zinc oxide; microneedle semaglutide or GLP-1 RA nanoparticles; oral lipid nanocapsules and self-emulsifying systems). One adipose-MSC exosome hydrogel was studied in diabetic wounds. This is an auditable reading of one OA export, not a field-wide systematic review.
+This article reviews the papers that could be read in full from a complete Scopus gold/open-access BibTeX export (459 records, 19 September 2026) on glucagon-like peptide-1 receptor agonists (GLP-1 RAs), stem-cell/exosome products, and drug-delivery systems in metabolic disease and closely related settings. Titles were screened with pre-specified keywords (185 sought). Public PDFs were requested only from open-access endpoints; 139 eligible titles had no downloadable public PDF and are not cited as evidence. Forty-six files were assessed; two were excluded (one off-topic inflammatory-bowel delivery paper; one file whose body was a different journal article). **Forty-four studies from the export were included**, plus one gap-fill OA paper on oral GLP-1 tablet engineering (Pechenov et al., 2021). They do not share a primary endpoint. Human comparative data in this retrieved set include a type 1 diabetes crossover trial of weekly semaglutide plus automated insulin delivery (time in range 74.2% vs 69.4% on placebo; mean difference 4.8 percentage points; 24 completers of 28 randomized) and a 50-trial safety meta-analysis of semaglutide in people at raised cardiovascular risk (54,972 participants; all-cause mortality RR 0.85, 95% CI 0.79–0.91). Non-injectable GLP-1 RA delivery remains largely preclinical (pulmonary liraglutide–zinc oxide; microneedle semaglutide or GLP-1 RA nanoparticles; oral lipid nanocapsules and self-emulsifying systems). One adipose-MSC exosome hydrogel was studied in diabetic wounds. This is an auditable reading of one OA export, not a field-wide systematic review.
 
 ## Keywords
 
@@ -12,7 +12,7 @@ GLP-1 receptor agonists; semaglutide; liraglutide; drug delivery; extracellular 
 
 GLP-1 RAs and dual GIP/GLP-1 agonists are now central to type 2 diabetes and obesity care. In parallel, formulation science tries to avoid subcutaneous injection, and cell-derived vesicles are tested for diabetic complications. A keyword export from Scopus mixes those themes with off-topic OA hits. This paper answers a narrower question: **what is in this 459-record open-access export after public PDFs are fetched and eligibility is applied?**
 
-The protocol was written before retrieval (`protocol.md`). Token/effort estimates are in `usage-log.md`, not in this narrative.
+The protocol was written before retrieval. One additional open-access full text (Pechenov et al., 2021) was retrieved after the table to contextualize oral GLP-1 bioavailability; it was not in the original export.
 
 ## 2. Methods
 
@@ -28,11 +28,11 @@ A record was **included** if the title, then the retrieved full text, addressed 
 
 ### 2.3 Retrieval
 
-`scripts/fetch_oa_pdfs.py` requested public PDFs (OpenAlex, Unpaywall, Europe PMC, publisher conventions, doi.org). Files were kept only if the body started with `%PDF-`. Paywalled and pirate sources were not used. Unpaywall queries used the run owner’s contact email. Many Scopus-tagged OA articles (especially Elsevier, MDPI, Wiley) returned no public PDF body; those titles are listed in `prisma.md` and are not used as evidence.
+Public PDFs were requested from open-access endpoints (OpenAlex, Unpaywall, Europe PMC, publisher conventions, doi.org). Files were kept only if the body started with `%PDF-`. Paywalled and pirate sources were not used. Many Scopus-tagged OA articles (especially Elsevier, MDPI, Wiley) returned no public PDF body; those titles are listed in the PRISMA file and are not used as evidence.
 
 ### 2.4 Extraction and synthesis
 
-Retrieved PDFs were converted locally with pypdf. Structured notes copy the abstract/lead and flag missing numbers as **not stated**. The comparison table was built from those notes. Factual sentences below map to extracted text or to the PRISMA/fetch logs. Two protocols without outcome data are named as protocols, not as efficacy results.
+Retrieved PDFs were converted locally to text. Structured notes copy the abstract/lead and flag missing numbers as **not stated**. The comparison table was built from those notes. Factual sentences below map to extracted text or to the PRISMA/fetch logs. Two protocols without outcome data are named as protocols, not as efficacy results.
 
 ### 2.5 Study selection
 
@@ -80,7 +80,7 @@ Woo et al. made dissolving hyaluronic acid/aminoclay microneedles carrying a sem
 
 Domingues et al. gave oral semaglutide-loaded lipid nanocapsules intended both to raise native GLP-1 secretion and to absorb encapsulated semaglutide in MASLD models [23]. Sandmeier et al. compared reverse micelles versus hydrophobic ion pairs for loading semaglutide into self-emulsifying systems (droplet sizes 50–300 nm in the extracted lead) [24]. Kweon et al. report a liraglutide nanoformulation aimed at ASBT/EGFR-mediated intestinal absorption [25]. Dangi and Sharma describe a modified-release semaglutide dosage form (FPR-8) intended to flatten a wide plasma-concentration range (5.85–38.14 in the unformulated solution, units **not restated** in the lead) [26].
 
-Fredholt et al. compared sodium caprate (C10, 26 mg/kg) as mini-tablets versus liquid with insulin in rats—an insulin, not GLP-1, payload [27]. Klotsman et al. implanted an 84-day exenatide delivery system (OKV-119) in five cats and detected plasma exenatide through day 84 [28]. Singh et al. review PLGA microspheres for insulin [29]. Yu et al. acetylated a long-acting insulin analogue versus insulin icodec [30]. Xu et al. biosynthesized tirzepatide variants with D-amino acids/ornithines in *E. coli* [31]. These last four are delivery or peptide-engineering papers in a metabolic setting; they are not clinical GLP-1 RA outcome trials.
+As a gap-fill (not in the original export), Pechenov et al. engineered MEDI7219, an oral GLP-1 RA tablet, and report about 6% bioavailability in dogs—higher than the 0.4–1% range they cite for many oral peptides, and a different product and species than Jeong’s product-literature contrast with oral semaglutide [45]. Fredholt et al. compared sodium caprate (C10, 26 mg/kg) as mini-tablets versus liquid with insulin in rats—an insulin, not GLP-1, payload [27]. Klotsman et al. implanted an 84-day exenatide delivery system (OKV-119) in five cats and detected plasma exenatide through day 84 [28]. Singh et al. review PLGA microspheres for insulin [29]. Yu et al. acetylated a long-acting insulin analogue versus insulin icodec [30]. Xu et al. biosynthesized tirzepatide variants with D-amino acids/ornithines in *E. coli* [31]. These last four are delivery or peptide-engineering papers in a metabolic setting; they are not clinical GLP-1 RA outcome trials.
 
 ## 5. Extra-glycaemic biology, complications, and public interest
 
@@ -104,7 +104,7 @@ Second, **non-injectable GLP-1 RA exposure is still mostly animal or in vitro he
 
 Third, **retrieval, not title screening, was the main bottleneck**. Of 185 titles kept for full text, 139 had no public PDF (Elsevier, MDPI, Wiley, and other OA-labelled venues). Those include many papers that would likely have been eligible. Huang-style failures are logged, not filled in from memory. MDPI’s resolver returned HTTP 403 in a probe; we did not seek paywall copies.
 
-Limits of this write-up: pypdf garbles columns; several leads omit n; two included files are protocols [12,13]; Qiu et al. could not be read because the downloaded file was the wrong article. Token figures are characters/4 estimates in `usage-log.md`.
+Limits of this write-up: PDF text extraction garbles columns; several leads omit n; two included files are protocols [12,13]; Qiu et al. could not be read because the downloaded file was the wrong article.
 
 ## 8. Conclusions
 
@@ -156,6 +156,7 @@ From this 459-record OA export, 44 full texts can be cited. Weekly semaglutide i
 42. Raubenheimer JE, Myburgh PH, Bhagavathula AS. Sweetening the deal: an infodemiological study of worldwide interest in semaglutide using Google Trends extended for health application programming interface. *BMC Glob Public Health*. 2024. doi:10.1186/s44263-024-00095-w
 43. Khater SI, Hussein MMA, Abdel-Magied SS, et al. Phyllanthus niruri niosomes ameliorate obesity-induced hepatic steatosis in rats via modulating MALAT1/miR-206/GLP-1R signaling and hepatic lipid metabolism. *Biol Res*. 2026. doi:10.1186/s40659-026-00682-1
 44. Chen W, Hong J, Wei Y, Ye J, Wu Q. Novel approach for diabetic wound healing: adipose-derived mesenchymal stromal cells Exo@SPHydrogel combined with laser therapy. *npj Regen Med*. 2026. doi:10.1038/s41536-026-00459-w
+45. Pechenov S, Revell J, Will S, et al. Development of an orally delivered GLP-1 receptor agonist through peptide engineering and drug delivery to treat chronic disease. *Sci Rep*. 2021;11:22521. doi:10.1038/s41598-021-01750-0
 
 ### Identified but not used as evidence
 
@@ -165,8 +166,5 @@ From this 459-record OA export, 44 full texts can be cited. Weekly semaglutide i
 
 ## Supplementary files (this run)
 
-- Protocol: `review/runs/2026-09-19-scopus-oa-full/protocol.md`
-- PRISMA: `review/runs/2026-09-19-scopus-oa-full/prisma.md`
-- Usage log: `review/runs/2026-09-19-scopus-oa-full/usage-log.md`
-- Table: `review/runs/2026-09-19-scopus-oa-full/table/literature-table.md`
-- Notes: `review/runs/2026-09-19-scopus-oa-full/notes/`
+- Protocol, PRISMA, notes, and table: `review/runs/2026-09-19-scopus-oa-full/`
+- Synthesis rationale: `review/runs/2026-09-19-scopus-oa-full/synthesis-rationale.md`

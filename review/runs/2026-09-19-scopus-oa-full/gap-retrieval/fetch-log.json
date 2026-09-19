@@ -1,0 +1,33 @@
+[
+  {
+    "citekey": "Huang2026_gap",
+    "doi": "10.1016/j.ijpx.2026.100639",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ijpx.2026.100639",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13524642/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijpx.2026.100639"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Niu2021_oralglp1",
+    "doi": "10.1038/s41598-021-01750-0",
+    "ok": true,
+    "error": null,
+    "path": "papers/scopus-oa-full-gapfill/Niu2021_oralglp1.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41598-021-01750-0.pdf?error=cookies_not_supported&code=a559d3a8-2c47-4f2b-96f2-4e7a78753af6",
+    "attempted": [
+      "https://www.nature.com/articles/s41598-021-01750-0.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8602401/pdf/",
+      "https://www.nature.com/articles/s41598-021-01750-0",
+      "https://doi.org/10.1038/s41598-021-01750-0"
+    ],
+    "bytes": 1278781
+  }
+]

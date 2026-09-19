@@ -1,0 +1,128 @@
+{
+  "ts_utc": "2026-09-19T20:13:41.397340+00:00",
+  "query": "BAF60a GLP-1 receptor agonist beta cell chromatin",
+  "from_year": null,
+  "source": "openalex",
+  "status": {
+    "ok": true,
+    "http_status": 200,
+    "error": null,
+    "query_url": "https://api.openalex.org/works?search=BAF60a+GLP-1+receptor+agonist+beta+cell+chromatin&filter=is_oa%3Atrue%2Chas_doi%3Atrue&per_page=5&mailto=hugogilcontas%40gmail.com&sort=cited_by_count%3Adesc",
+    "openalex_count": 9,
+    "returned": 5
+  },
+  "warning": "These are API hits, not included studies. Verify each record, select only those that address the stated gap, then fetch OA PDFs. Do not cite from this list without a retrieved full text.",
+  "records": [
+    {
+      "citekey": "Ramatchandirin2023_020515",
+      "record_id": "Ramatchandirin2023_020515",
+      "openalex_id": "https://openalex.org/W4320728860",
+      "title": "Regulation of Liver Glucose and Lipid Metabolism by Transcriptional Factors and Coactivators",
+      "author": "Balamurugan Ramatchandirin and Alexia Pearah and Ling He",
+      "authors": [
+        "Balamurugan Ramatchandirin",
+        "Alexia Pearah",
+        "Ling He"
+      ],
+      "year": "2023",
+      "doi": "10.3390/life13020515",
+      "journal": "Life",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2075-1729/13/2/515/pdf?version=1676288029",
+      "cited_by_count": 36,
+      "publication_date": "2023-02-13",
+      "type": "article"
+    },
+    {
+      "citekey": "Brandão2021_115906",
+      "record_id": "Brandão2021_115906",
+      "openalex_id": "https://openalex.org/W3157210297",
+      "title": "Thermogenic Fat: Development, Physiological Function, and Therapeutic Potential",
+      "author": "Bruna B. Brandão and Ankita Poojari and Atefeh Rabiee",
+      "authors": [
+        "Bruna B. Brandão",
+        "Ankita Poojari",
+        "Atefeh Rabiee"
+      ],
+      "year": "2021",
+      "doi": "10.3390/ijms22115906",
+      "journal": "International Journal of Molecular Sciences",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1422-0067/22/11/5906/pdf?version=1622535750",
+      "cited_by_count": 21,
+      "publication_date": "2021-05-31",
+      "type": "article"
+    },
+    {
+      "citekey": "Gaur2024_100332",
+      "record_id": "Gaur2024_100332",
+      "openalex_id": "https://openalex.org/W4404438126",
+      "title": "Deciphering the mechanisms and effects of hyperglycemia on skeletal muscle atrophy",
+      "author": "Khushboo Gaur and Lucy Mohapatra and Pranay Wal and Amana Parveen and Shivam Kumar and Vaishali Gupta",
+      "authors": [
+        "Khushboo Gaur",
+        "Lucy Mohapatra",
+        "Pranay Wal",
+        "Amana Parveen",
+        "Shivam Kumar",
+        "Vaishali Gupta"
+      ],
+      "year": "2024",
+      "doi": "10.1016/j.metop.2024.100332",
+      "journal": "Metabolism Open",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.metop.2024.100332",
+      "cited_by_count": 16,
+      "publication_date": "2024-11-16",
+      "type": "article"
+    },
+    {
+      "citekey": "Nie2024_01751",
+      "record_id": "Nie2024_01751",
+      "openalex_id": "https://openalex.org/W4394575043",
+      "title": "Chromatin modifiers in human disease: from functional roles to regulatory mechanisms",
+      "author": "Yali Nie and Chao Song and Hong Huang and Shuqing Mao and Kai Ding and Huifang Tang",
+      "authors": [
+        "Yali Nie",
+        "Chao Song",
+        "Hong Huang",
+        "Shuqing Mao",
+        "Kai Ding",
+        "Huifang Tang"
+      ],
+      "year": "2024",
+      "doi": "10.1186/s43556-024-00175-1",
+      "journal": "Molecular Biomedicine",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://link.springer.com/content/pdf/10.1186/s43556-024-00175-1.pdf",
+      "cited_by_count": 16,
+      "publication_date": "2024-04-07",
+      "type": "article"
+    },
+    {
+      "citekey": "Grimes2025_625391",
+      "record_id": "Grimes2025_625391",
+      "openalex_id": "https://openalex.org/W4417363071",
+      "title": "Macrophages: friend or foe in diabetes pathogenesis and therapy",
+      "author": "RT Grimes and Marco Orecchioni and Estefanía Quesada‐Masachs",
+      "authors": [
+        "RT Grimes",
+        "Marco Orecchioni",
+        "Estefanía Quesada‐Masachs"
+      ],
+      "year": "2025",
+      "doi": "10.3389/fimmu.2025.1625391",
+      "journal": "Frontiers in Immunology",
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1625391/pdf",
+      "cited_by_count": 12,
+      "publication_date": "2025-12-15",
+      "type": "article"
+    }
+  ]
+}

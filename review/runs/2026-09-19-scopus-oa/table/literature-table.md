@@ -2,7 +2,7 @@
 
 **Research question:** In this Scopus open-access export, what is reported about GLP-1 receptor agonists, stem-cell/exosome products, and drug-delivery systems in metabolic disease (diabetes, obesity, and closely related inflammatory or repair settings)?
 
-**Scope:** 7 included full texts, all published 2026, from a 10-record Scopus OA BibTeX file. Sorted by theme (delivery → clinical NMA → PRO → cardiac mechanism). Every cell is from the matching note in `notes/`.
+**Scope:** 7 full texts from the 10-record 2026 Scopus OA export, plus **5 gap-fill OA full texts** retrieved after the synthesis rationale (OpenAlex + public PDF only). Gap-fill rows are marked. Sorted by theme. Every cell is from the matching note in `notes/`.
 
 | Paper | Research question | Methods | Sample / data | Key findings | Limitations | Relevance |
 |---|---|---|---|---|---|---|
@@ -13,13 +13,20 @@
 | Wu 2026, *BMC Medicine* | Which anti-prediabetic drugs are most effective/safe? | Bayesian NMA of RCTs ≥12 weeks; search to 29 Mar 2025 | 55 RCTs; 16,610 participants; 37 interventions | Semaglutide 2.4 mg SC weight MD −13.59 kg (95% CI −17.30 to −9.91); tirzepatide 15 mg FPG MD −9.58 mg/dL (−12.00 to −7.15); authors rank GLP-1RA / GIP-GLP-1RA / TZD favorably | Heterogeneity; sparse safety data; 12–120 week span | Only **clinical comparative** GLP-1/incretin evidence in this set |
 | Guo 2026, *Nat Commun* | Does PCSK5 (and semaglutide via PCSK5) aid post-MI angiogenesis? | Human MI tissue/plasma; mouse ECKO; HUVECs; semaglutide | Plasma ELISA n=30 vs 28 AMI; several mouse arms n=6; correlation n=42 | PCSK5 up after MI; semaglutide angiogenesis partly PCSK5-dependent (authors’ statement) | Not a diabetes RCT; modest human n | **Semaglutide** cardiac-repair mechanism |
 | Boye 2026, *J Patient-Rep Outcomes* | Can a new PRO capture satisfaction on current diabetes meds including GLP-1 RAs? | Concept elicitation then cognitive interviews | CE: T1D 10 / T2D 20; cognitive: T1D 5 / T2D 10 | Instrument judged clear/relevant; T2D cognitive sample included GLP-1 and GIP/GLP-1 users | Content validity only; industry-affiliated | Peripheral: **GLP-1 as a treatment patients take**, not efficacy/delivery |
+| **Wilding 2021 (gap-fill G1)**, *NEJM* STEP 1 | Does semaglutide 2.4 mg SC weekly reduce weight in overweight/obesity without diabetes? | Double-blind RCT, 68 weeks, 2:1 vs placebo + lifestyle | N=1961 (1306/655); 43.7% baseline prediabetes; not a diabetes trial | Weight −14.9% vs −2.4% (ETD −12.4 pp); kg ETD −12.7 (95% CI −13.7 to −11.7) | Obesity indication, not Wu’s prediabetes NMA; industry-funded | Same dose as Wu’s highlighted node; **different population/design** |
+| **Knudsen 2019 (gap-fill G2)**, *Front Endocrinol* | How were liraglutide/semaglutide developed, including oral SNAC? | Narrative industry review | Not a new trial; cites phase 2 oral semaglutide | Oral semaglutide + SNAC bioavailability **~1%** (authors’ summary of phase 2) | Review; ~1% not re-analysed here | Independent OA anchor for Jeong’s oral-BA contrast |
+| **Lincoff 2023 (gap-fill G5)**, *NEJM* SELECT | Does semaglutide 2.4 mg SC reduce MACE in CVD + overweight/obesity without diabetes? | Event-driven RCT vs placebo | N=17,604; follow-up ~39.8 months | MACE 6.5% vs 8.0%; HR 0.80 (0.72–0.90) | No PCSK5/angiogenesis assays; not T2D CVOT | Clinical CV outcomes for semaglutide; **does not confirm Guo’s mechanism** |
+| **Meurot 2022 (gap-fill G6)**, *Sci Rep* | Does IA liraglutide treat osteoarthritis via GLP-1R? | MIA OA mice; chondrocyte/macrophage assays; exendin 9–39 | Short-term n=15–19/group (von Frey) | Pain↓; IL-6/PGE2/NO↓; M1→M2; GLP-1R antagonist reversed anti-inflammatory effect | **OA not RA**; IA not microneedles | Joint GLP-1R pharmacology; not Zhang’s CIA-MN device |
+| **Wang 2019 (gap-fill G4)**, *Theranostics* | Do AMSC-exo in FHE hydrogel heal diabetic wounds better than exo or gel alone? | Diabetic mouse full-thickness wounds; HUVECs | Four groups, days 0–21; in-vivo n **not stated** in extract (WB n=3) | Authors report faster closure, angiogenesis, less scar vs components alone | Preclinical; n missing from extract | Same **class** as Chen 2026; does not fill Chen’s missing n |
 
 ## How to read this table
 
-Rows are included studies only. Cells are compressed from independent notes — do not treat this 7-paper OA slice as a complete field map. Sorted by theme (delivery, then clinical NMA, then mechanism/PRO).
+Rows are included studies (original Scopus set plus gap-fill). Cells are compressed from independent notes — do not treat this OA slice as a complete field map. Gap-fill papers were sought only to contextualize named interpretation gaps.
 
 ## Papers excluded from this table
 
 - **Li 2026** — yeast plasmid copy-number control (off-topic).
 - **Barrett 2026** — NHS digital weight-management experience; GLP-1 not the intervention.
-- **Huang 2026** — likely eligible on title (exosome-mimetic nanovesicles, diabetic cerebral infarction) but **PDF not retrieved**; no findings used.
+- **Huang 2026** — likely eligible on title (exosome-mimetic nanovesicles, diabetic cerebral infarction) but **PDF not retrieved** on the original fetch **or** the gap-fill retry; no findings used.
+- **Nauck 2020** (doi:10.1016/j.molmet.2020.101102) — sought for G1/G2 (GLP-1 RA state-of-the-art review); **no public PDF**.
+- **Marso 2016** (doi:10.1056/NEJMoa1607141, SUSTAIN-6) — sought for G5 (semaglutide CVOT in T2D); **no public PDF**.
