@@ -74,6 +74,9 @@ def work_to_record(work: dict) -> dict:
         "year": str(work.get("publication_year") or "") ,
         "doi": doi,
         "journal": source.get("display_name") or "",
+        "source_type": source.get("type") or "",
+        "is_in_doaj": bool(source.get("is_in_doaj")),
+        "issn_l": source.get("issn_l") or "",
         "is_oa": bool(oa.get("is_oa")),
         "oa_status": oa.get("oa_status"),
         "oa_url": oa.get("oa_url") or best.get("pdf_url") or best.get("landing_page_url"),
@@ -83,17 +86,75 @@ def work_to_record(work: dict) -> dict:
     }
 
 
+JOURNAL_QUALITY = ("none", "journal", "doaj", "cited")
+
+
+def build_openalex_filters(
+    *,
+    from_year: int | None = None,
+    to_year: int | None = None,
+    journal_quality: str = "journal",
+    min_cited_by: int | None = None,
+) -> list[str]:
+    """OpenAlex filter strings. Never invents titles — only query constraints.
+
+    journal_quality:
+      none    — OA works with DOIs (preprints and repositories allowed)
+      journal — peer-reviewed journal articles (default)
+      doaj    — journal articles in the Directory of Open Access Journals
+      cited   — journal articles with cited_by_count above min_cited_by
+    """
+    if journal_quality not in JOURNAL_QUALITY:
+        raise ValueError(
+            f"journal_quality must be one of {JOURNAL_QUALITY}, got {journal_quality!r}"
+        )
+    filters = ["is_oa:true", "has_doi:true"]
+    if from_year:
+        filters.append(f"from_publication_date:{from_year}-01-01")
+    if to_year:
+        filters.append(f"to_publication_date:{to_year}-12-31")
+    if journal_quality in {"journal", "doaj", "cited"}:
+        filters.append("type:article")
+        filters.append("primary_location.source.type:journal")
+    if journal_quality == "doaj":
+        filters.append("primary_location.source.is_in_doaj:true")
+    if journal_quality == "cited":
+        n = 10 if min_cited_by is None else min_cited_by
+        if n < 0:
+            raise ValueError("min_cited_by must be >= 0")
+        filters.append(f"cited_by_count:>{n}")
+    elif min_cited_by is not None:
+        if min_cited_by < 0:
+            raise ValueError("min_cited_by must be >= 0")
+        filters.append(f"cited_by_count:>{min_cited_by}")
+    return filters
+
+
 def search_openalex(
     query: str,
     *,
     mailto: str,
     per_page: int = 8,
     from_year: int | None = None,
+    to_year: int | None = None,
+    journal_quality: str = "journal",
+    min_cited_by: int | None = None,
 ) -> tuple[list[dict], dict]:
     """Return (records, meta). records is empty on HTTP/parse failure (not invented)."""
-    filters = ["is_oa:true", "has_doi:true"]
-    if from_year:
-        filters.append(f"from_publication_date:{from_year}-01-01")
+    try:
+        filters = build_openalex_filters(
+            from_year=from_year,
+            to_year=to_year,
+            journal_quality=journal_quality,
+            min_cited_by=min_cited_by,
+        )
+    except ValueError as e:
+        return [], {
+            "ok": False,
+            "http_status": None,
+            "error": str(e),
+            "query_url": None,
+        }
     params = {
         "search": query,
         "filter": ",".join(filters),
@@ -193,6 +254,24 @@ def main() -> int:
         help="Optional lower bound on publication year (OpenAlex from_publication_date)",
     )
     parser.add_argument(
+        "--to-year",
+        type=int,
+        default=None,
+        help="Optional upper bound on publication year (OpenAlex to_publication_date)",
+    )
+    parser.add_argument(
+        "--journal-quality",
+        choices=JOURNAL_QUALITY,
+        default="journal",
+        help="Venue bar: none, peer-reviewed journal, DOAJ-listed, or cited journal articles",
+    )
+    parser.add_argument(
+        "--min-cited-by",
+        type=int,
+        default=None,
+        help="Optional cited_by_count floor. With --journal-quality cited, default is 10.",
+    )
+    parser.add_argument(
         "--write-catalog",
         default="",
         help="Optional path to a fetch_oa_pdfs catalog.json of these hits (still not inclusion)",
@@ -204,11 +283,17 @@ def main() -> int:
         mailto=args.mailto,
         per_page=args.per_page,
         from_year=args.from_year,
+        to_year=args.to_year,
+        journal_quality=args.journal_quality,
+        min_cited_by=args.min_cited_by,
     )
     payload = {
         "ts_utc": datetime.now(timezone.utc).isoformat(),
         "query": args.query,
         "from_year": args.from_year,
+        "to_year": args.to_year,
+        "journal_quality": args.journal_quality,
+        "min_cited_by": args.min_cited_by,
         "source": "openalex",
         "status": status,
         "warning": (

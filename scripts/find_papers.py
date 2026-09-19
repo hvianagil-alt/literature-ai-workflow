@@ -37,6 +37,14 @@ def main() -> int:
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--per-page", type=int, default=20)
     parser.add_argument("--from-year", type=int, default=None)
+    parser.add_argument("--to-year", type=int, default=None)
+    parser.add_argument(
+        "--journal-quality",
+        choices=("none", "journal", "doaj", "cited"),
+        default="journal",
+        help="Venue bar asked at direction check (default: peer-reviewed journals)",
+    )
+    parser.add_argument("--min-cited-by", type=int, default=None)
     parser.add_argument(
         "--origin",
         choices=ORIGINS,
@@ -53,6 +61,9 @@ def main() -> int:
         mailto=args.mailto,
         per_page=args.per_page,
         from_year=args.from_year,
+        to_year=args.to_year,
+        journal_quality=args.journal_quality,
+        min_cited_by=args.min_cited_by,
     )
     out_dir = Path(args.run_dir) / "seed-search"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -60,6 +71,9 @@ def main() -> int:
         "ts_utc": datetime.now(timezone.utc).isoformat(),
         "query": args.query,
         "from_year": args.from_year,
+        "to_year": args.to_year,
+        "journal_quality": args.journal_quality,
+        "min_cited_by": args.min_cited_by,
         "origin": args.origin,
         "source": "openalex",
         "status": status,

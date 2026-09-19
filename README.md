@@ -54,7 +54,7 @@ Want to see what these look like before running anything? Check [`examples/`](ex
 This is deliberately a conversation, not a batch job:
 
 1. **Intake** — you drop PDFs (or a topic, if the folder is empty) and say what you're trying to answer. If there are no PDFs, the AI searches free open-access papers and fetches what it can.
-2. **Direction check (the AI always does this before going deep)** — it confirms scope, what to include/exclude, and what to emphasize. It will not silently extract 20 papers before checking with you first.
+2. **Direction check (the AI always does this before going deep)** — it confirms scope, what to include/exclude, what to emphasize, **which years** to search, and **how picky to be about journals** (any OA work, peer-reviewed journals, DOAJ-listed journals, or a citation floor). It will not silently extract 20 papers before checking with you first. If you say “just go,” it uses the last six years and peer-reviewed journals for related-paper search, and it still keeps the PDFs you dropped even if they are older.
 3. **Find related papers** — if you dropped a seed set, it searches free OA papers on the same topic and fetches public PDFs. It will not invent fake-sounding citations — see the [find-papers](.cursor/skills/find-papers/SKILL.md) and [related-paper-exploration](.cursor/skills/related-paper-exploration/SKILL.md) skills.
 4. **Extract** — one structured note per in-scope paper, including claim-ready facts (design, n, endpoint, result). A first automatic stub is not a finished note.
 5. **Table** — all notes compared side by side, rewritten from those facts (`scripts/table_from_notes.py`, not a pasted abstract).

@@ -25,13 +25,17 @@ If the user starts from a **Scopus/PubMed `.bib` export** rather than PDFs, do n
 
 ### 2. Direction check (mandatory, do not skip)
 
-Before extracting anything in depth, confirm with the user:
+Before extracting anything in depth, confirm with the user. **Do this for every new user and every new review**, even if a previous run already used filters:
 
 - **Scope**: which papers (if any) are out of scope, and why (wrong population, wrong method, too old, off-topic)?
 - **Inclusion/exclusion criteria**: is there a study design, date range, population, or venue that should be included/excluded?
+- **Search filters (ask explicitly — do not assume):**
+  - **Years**: from which year to which year should related-paper search run? (Example: last 5, 6, or 7 years.)
+  - **Journal quality**: what venue bar should related-paper search use? Options the scripts support: no venue filter (`none`); peer-reviewed **journal** articles (default); **DOAJ**-listed journals; journal articles with a **citation** floor (`cited`, default floor 10).
+- **Seeds vs filters**: papers the user dropped stay in the sample even if they are older than the year window, unless the user excludes them.
 - **Emphasis**: should extraction lean toward methods (e.g. for a methods-focused thesis chapter), findings (e.g. for a grant background section), or something else?
 
-Summarize back what you understood in 2-4 sentences and get explicit confirmation ("does that sound right?") before moving on. If the user says "just go", proceed with these defaults and write them into `protocol.md`: **journal-style narrative review**; teach in the Introduction; claim-first sentences; numbered Markdown results tables with in-text Table N callouts; all included full texts; no process talk in Discussion; run the quality-gate scripts before delivering.
+Summarize back what you understood in 2-4 sentences and get explicit confirmation ("does that sound right?") before moving on. If the user says "just go", proceed with these defaults and write them into `protocol.md`: **journal-style narrative review**; teach in the Introduction; claim-first sentences; numbered Markdown results tables with in-text Table N callouts; all included full texts; no process talk in Discussion; run the quality-gate scripts before delivering; related-paper search uses the **last 6 years** (from-year = current year minus 5) through the current year; journal quality = peer-reviewed **journal** articles (`--journal-quality journal`). Pass those flags to `find_papers.py` / `search_oa_related.py`.
 
 **Do not proceed past this step without user input.** This is a hard gate: scope cannot be guessed.
 

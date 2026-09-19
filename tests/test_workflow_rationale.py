@@ -159,7 +159,13 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         self.assertIn("find-papers", agents)
         self.assertIn("If `papers/` is empty", agents)
+        self.assertIn("journal quality", agents.lower())
+        self.assertIn("last 6 years", agents)
+        self.assertIn("--journal-quality", agents)
+        self.assertIn("Seeds vs filters", agents)
         self.assertTrue((ROOT / "scripts" / "find_papers.py").is_file())
+        self.assertIn("--journal-quality", text)
+        self.assertIn("Seeds vs filters", text)
         related = (ROOT / ".cursor/skills/related-paper-exploration/SKILL.md").read_text(
             encoding="utf-8"
         )

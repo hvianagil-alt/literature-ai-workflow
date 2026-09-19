@@ -54,10 +54,13 @@ python3 scripts/find_papers.py \
   --mailto <contact-email> \
   --run-dir review/runs/<run-id> \
   --origin topic_search \
-  --per-page 20
+  --per-page 20 \
+  --from-year <year they chose, or current year minus 5 if they said just go> \
+  --to-year <year they chose, or the current year> \
+  --journal-quality journal
 ```
 
-Optional: `--from-year 2020` if they set a date floor.
+`--journal-quality` is `none` | `journal` | `doaj` | `cited` (see `scripts/search_oa_related.py`). Optional `--min-cited-by`. Ask at the direction check; do not silently search all years or all venues.
 
 ### B. Seed papers — search related work
 
@@ -69,8 +72,15 @@ python3 scripts/find_papers.py \
   --mailto <contact-email> \
   --run-dir review/runs/<run-id> \
   --origin related_to_seeds \
-  --per-page 20
+  --per-page 20 \
+  --from-year <agreed year floor> \
+  --to-year <agreed year ceiling> \
+  --journal-quality journal
 ```
+
+## Seeds vs filters
+
+Do **not** drop the user's seed PDFs because they are older than `--from-year`. The year and journal-quality flags apply to **retrieved** related work.
 
 ### Then fetch (public OA only)
 

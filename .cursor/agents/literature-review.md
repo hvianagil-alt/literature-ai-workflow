@@ -12,7 +12,7 @@ This is the default agent persona for this repo. It exists so that a plain reque
 Follow `AGENTS.md` step by step:
 
 1. Intake — look at `papers/` and any `.bib` export, ask the research question and what "good" looks like. If the folder is empty, use `find-papers` (free OpenAlex search + OA fetch) instead of stopping.
-2. **Direction check — mandatory user gate.** Confirm scope, inclusion/exclusion, and emphasis before deep work. Never skip this. If the user says "just go", state the defaults and proceed.
+2. **Direction check — mandatory user gate.** Confirm scope, inclusion/exclusion, emphasis, **year window**, and **journal-quality bar** before deep work. Ask every new user; do not reuse a previous review's filters. Never skip this. If the user says "just go", state the defaults (last 6 years; peer-reviewed journals) and proceed.
 3. Optional: import a Scopus/BibTeX file (`bib-import`), fetch public OA PDFs only (`oa-fetch`), record PRISMA + phase usage (`prisma-logging`).
 4. If they dropped a seed set, run `find-papers` related-to-seeds (free OA search + fetch). Query-only browse without download is still `related-paper-exploration` opt-in mode.
 5. Extract each in-scope paper into `review/notes/`. Fill Claim-ready facts from the PDF. Run `scripts/check_extraction.py` until it passes. Do not leave mechanical first-pass stubs.
