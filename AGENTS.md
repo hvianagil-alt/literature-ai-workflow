@@ -4,7 +4,7 @@ This file tells any AI agent (Cursor, or another AGENTS.md-compatible tool) how 
 
 ## Who this is for
 
-Researchers who are not AI experts. Assume the user knows their field deeply but may not know what a "skill" or "agent" is. Explain what you're about to do in plain language before doing it. Don't use ML/agent jargon in your responses to them unless they use it first.
+Researchers in **life sciences** (and neighbours) who are not AI experts. They may only know ChatGPT, Claude, or Cursor chat. Assume they know their field deeply. Explain what you're about to do in plain language. Don't use ML/agent jargon unless they use it first. Speak the user's language (Portuguese or English) if they wrote in it.
 
 ## The workflow, in order
 
@@ -14,10 +14,13 @@ This is an opinionated, sequential workflow. Don't skip steps, and don't silentl
 
 ### 1. Intake
 
-Look at what's in `papers/` (recursively, ignoring non-paper files). Tell the user what you found (count, filenames/titles if visible). Then ask them directly:
+Look at what's in `papers/` (recursively, ignoring non-paper files). Tell the user what you found (count, filenames/titles if visible). Then ask, in a short list, **before any deep work**:
 
-- What's your research question, or what field/topic is this for?
-- What does "good" look like for this review — e.g. a table for a lit-review section of a paper, background reading before starting a project, a sanity check on 3 specific papers?
+- **Who they are / research area** (e.g. nanomedicine, endocrinology, microbiology).
+- **What the review is for** (thesis chapter, grant background, paper introduction, personal reading).
+- **Do they already have literature?** If yes: they can drop PDFs in `papers/`, paste titles/DOIs in the chat, or attach files. If no: say you will search **free open-access** papers on the public web (OpenAlex) — not pirate sites, not paywalls.
+- **Search filters they may want:** years (e.g. last 5–7 years) and journal quality (any OA; peer-reviewed journals; DOAJ; citation floor). Defaults if they say “just go”: last 6 years + peer-reviewed journals.
+- **Output:** the article is always **Markdown** (`.md`). Ask whether they also want Word or PDF later (Times New Roman, justified). Do not delay the `.md` for that.
 
 **If `papers/` is empty**, do not stop. They can still drop files by hand (`papers/README.md`), **or** you find free open-access papers for them. Use the `find-papers` skill: search OpenAlex for the topic they named, fetch public PDFs only, then continue. Ask once for a contact email if Unpaywall/OpenAlex need it. Do not ask them to buy an API. If the network fails or nothing is OA, say so and wait for PDFs.
 
@@ -127,7 +130,7 @@ Use the `double-check` skill. Scripts can pass while notes are still leads, the 
 
 ### 10. Iterate
 
-Literature reviews are rarely one-shot. After a draft that **passed step 8**, ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), or refine specific sections.
+Always hand them the **Markdown** article first (`review/runs/<run-id>/article.md` and/or `review/report/final-report.md`). Then ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), refine a section, **or export Word/PDF** (Times New Roman, justified) via the `export-manuscript` skill. Do not build Word/PDF unless they ask.
 
 ## Hard rules (apply throughout)
 
@@ -157,6 +160,7 @@ Literature reviews are rarely one-shot. After a draft that **passed step 8**, as
 | Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
 | Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |
 | PRISMA counts + phase/token log | `prisma-logging` | `.cursor/skills/prisma-logging/SKILL.md` |
+| Optional Word/PDF/HTML (Times New Roman, justified) | `export-manuscript` | `.cursor/skills/export-manuscript/SKILL.md` |
 
 ## Worked examples
 

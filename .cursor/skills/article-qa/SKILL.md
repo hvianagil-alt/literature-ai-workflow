@@ -43,4 +43,4 @@ If this fails: rewrite using `review-prose` (phenomenon-first Introduction; clai
 
 ## Handoff
 
-Only after both scripts pass: run the `double-check` skill (spot-check claims; write `double-check.md`). Only then tell the user where the article is and offer to iterate (add papers, adjust scope, refine a section).
+Only after both scripts pass: run the `double-check` skill (spot-check claims; write `double-check.md`). Only then tell the user where the **Markdown** article is and offer to iterate (add papers, adjust scope, refine a section, or export Word/PDF with `export-manuscript`).
