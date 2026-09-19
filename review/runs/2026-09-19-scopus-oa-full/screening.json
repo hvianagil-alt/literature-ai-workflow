@@ -1,0 +1,1568 @@
+{
+  "duplicates_removed": 0,
+  "additional_records": 0,
+  "n_screened": 459,
+  "title_excluded": [
+    {
+      "citekey": "Desai2024631",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Heart failure with mildly reduced and preserved ejection fraction: A review of disease burden and remaining unmet medical needs within a new treatment landscape"
+    },
+    {
+      "citekey": "Chai2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Identification, screening, and comprehensive evaluation of novel thrombin inhibitory peptides from the hirudo produced using pepsin"
+    },
+    {
+      "citekey": "Kitazawa2026",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Quantitative method for analyzing the adhesion and migration dynamics of porous microspheres on the cell surfaces using in vitro cultured gastrointestinal epithelial and mucus-secreting cells"
+    },
+    {
+      "citekey": "Goldberg2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The Chimeric Peptide (GEP44) Reduces Body Weight and Both Energy Intake and Energy Expenditure in Diet-Induced Obese Rats"
+    },
+    {
+      "citekey": "McEwan202524",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The health economics of insulin therapy: How do we address the rising demands, costs, inequalities and barriers to achieving optimal outcomes"
+    },
+    {
+      "citekey": "Coriati202519",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Cystic Fibrosis–related Diabetes: A First Canadian Clinical Practice Guideline"
+    },
+    {
+      "citekey": "Li2025",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Pharmacokinetics and pharmacodynamics studies of Relugolix long-acting microcrystalline formulation in male Beagle dogs"
+    },
+    {
+      "citekey": "Ambrosy2025725",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Incidence of Heart Failure in Asian American, Native Hawaiian, and Other Pacific Islander Populations"
+    },
+    {
+      "citekey": "Luthfiana2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Backbone N-Methylation Improves PPCA-Binding of a Stylissatin A Analogue via Conformational Modulation"
+    },
+    {
+      "citekey": "Young2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Medicare Coverage and Patient Out-of-Pocket Costs for Cardiovascular-Kidney-Metabolic Medications"
+    },
+    {
+      "citekey": "Yao202519480",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Microdroplet Mass Spectrometry Enables Rapid and Sensitive Measurement of Glucose Homeostasis for Elucidating Mechanism of Drug Action"
+    },
+    {
+      "citekey": "2026S321",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "15. Management of Diabetes in Pregnancy: Standards of Care in Diabetes—2026"
+    },
+    {
+      "citekey": "Dimnjaković2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Identifying high-risk combinations of metformin during COVID-19"
+    },
+    {
+      "citekey": "Kuang2026166",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A comprehensive study using multiple experimental models validated the potential blood pressure reduction effect of rivaroxaban"
+    },
+    {
+      "citekey": "Sharma2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Worsening Kidney Function and Cardiovascular Outcomes in Type 2 Diabetes and Atherosclerotic Disease"
+    },
+    {
+      "citekey": "Luef2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Study protocol for a 15-year follow-up of a randomized controlled trial on lifestyle intervention in pregnancy: assessing long-term effects on body composition, metabolic traits, and mental health in mothers and offspring"
+    },
+    {
+      "citekey": "Palacios2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "High-velocity delivery of biologics via the gastrointestinal tract by self-pressurized oral capsules"
+    },
+    {
+      "citekey": "Brayden2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The fourth controlled release society workshop on oral peptide administration"
+    },
+    {
+      "citekey": "Zeng2025",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Smart ultra-long-lasting sequentially triggerable and artfully implantable nozzle system for on-demand drug delivery for chronotherapy"
+    },
+    {
+      "citekey": "Wood-Yang2025",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Stabilization of Self-Pressurized Gelatin Capsules for Oral Delivery of Biologics"
+    },
+    {
+      "citekey": "Kumar2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Co-design, implementation, and evaluation of a nested diabetes model of care for adults with cystic fibrosis: a mixed methods pre-post implementation study"
+    },
+    {
+      "citekey": "Sheth2025124",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Practical Recommendations on Cardiovascular Risk Evaluation in Patients With Psoriasis and Psoriatic Arthritis for Dermatologists, Rheumatologists, and Primary Care Physicians by the Psoriasis and Psoriatic Arthritis Clinics Multicenter Advancement Network"
+    },
+    {
+      "citekey": "Ng2025813",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021"
+    },
+    {
+      "citekey": "Bai2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Novel Aurone Derivative Ameliorates MASH Lipid Metabolism via the AMPK-ACC-PPARα Axis"
+    },
+    {
+      "citekey": "Li2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A hybrid system enables plasmid copy number control in yeast"
+    },
+    {
+      "citekey": "Zhang2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Cyclization of the Analgesic α-Conotoxin Vc1.1 With a Non-Natural Linker: Effects on Structure, Stability, and Bioactivity"
+    },
+    {
+      "citekey": "Klein2025164",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Glycemic Management and Individualized Diabetes Care in Dialysis-Dependent Kidney Failure"
+    },
+    {
+      "citekey": "Yu20245423",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Evaluating the oral delivery of GalNAc-conjugated siRNAs in rodents and non-human primates"
+    },
+    {
+      "citekey": "Bajaj2026S183",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026"
+    },
+    {
+      "citekey": "Lee2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Nano-anticoagulant based on carrier-free low molecular weight heparin and octadecylamine with an albumin shuttling effect"
+    },
+    {
+      "citekey": "Saraiya2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "An Evaluation of Primary Care Clinician Referrals for Behavioral Weight Loss Counseling"
+    },
+    {
+      "citekey": "Tian2025__0886022X20242438",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Dapagliflozin improves diabetic kidney disease by inhibiting ferroptosis through β-hydroxybutyrate production"
+    },
+    {
+      "citekey": "de Oliveira2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Position Statement on Cardiometabolic Health Across the Woman's Life Course – 2025"
+    },
+    {
+      "citekey": "Lourie2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A novel gene therapy platform for the treatment of type 2 diabetes and obesity"
+    },
+    {
+      "citekey": "Hamza2025339",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "TETRADECYL MALTOSIDE AND DIMETHYL-PALMITOYLAMMONIO-PROPANE-SULFONATE AS EFFECTIVE PERMEATION ENHANCERS FOR SALMON CALCITONIN AND PRAMLINTIDE: A COMPARATIVE IN VITRO STUDY ON CACO-2 CELL LINES"
+    },
+    {
+      "citekey": "Frolov202616",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Peptide-Tools–Web Server for Calculating Physicochemical Properties of Peptides"
+    },
+    {
+      "citekey": "Bajaj2026S166",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Obesity and Weight Management for the Prevention and Treatment of Diabetes: Standards of Care in Diabetes-2026"
+    },
+    {
+      "citekey": "Steiger2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Enzymatic absorption promoters for non-invasive peptide delivery"
+    },
+    {
+      "citekey": "Eczacioglu2025545",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Self-emulsifying drug delivery systems: A comparison of dry and wet reverse micelles"
+    },
+    {
+      "citekey": "Wyckoff2025G1",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Preexisting Diabetes and Pregnancy: An Endocrine Society and European Society of Endocrinology Joint Clinical Practice Guideline"
+    },
+    {
+      "citekey": "Wang2026143",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Hidradenitis suppurativa: a review of hormonal and metabolic interventions"
+    },
+    {
+      "citekey": "Bailey2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Duodenal enteroendocrine cells and GIP as treatment targets for obesity and type 2 diabetes"
+    },
+    {
+      "citekey": "Lv2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Hyaluronic acid-modified epigallocatechin gallate nanoliposomes:Preparation and evaluation of the stability and anticancer activity"
+    },
+    {
+      "citekey": "Wu2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Swimming exercise induces redox-lipid crosstalk to ameliorate osteoarthritis progression"
+    },
+    {
+      "citekey": "Kim2026309",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Toward a Chronic VNS Strategy for Obesity Treatment: Pilot Study on a PFA-Based Neural Interface in Diet-Induced Obese Rabbits"
+    },
+    {
+      "citekey": "Rosenfeld202510S",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Lifestyle Interventions for Treatment and Remission of Type 2 Diabetes and Prediabetes in Adults: A Clinical Practice Guideline From the American College of Lifestyle Medicine"
+    },
+    {
+      "citekey": "Martin2025e41",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "2025 Heart Disease and Stroke Statistics: A Report of US and Global Data from the American Heart Association"
+    },
+    {
+      "citekey": "Huang2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Development and validation of machine learning-based diagnostic models using blood transcriptomics for early childhood diabetes prediction"
+    },
+    {
+      "citekey": "2025S266",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "13. Older adults: Standards of care in diabetes—2025"
+    },
+    {
+      "citekey": "Pangua20241189",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Mucus-penetrating and permeation enhancer albumin-based nanoparticles for oral delivery of macromolecules: Application to bevacizumab"
+    },
+    {
+      "citekey": "Talay2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Patient Outcomes Under Varying Engagement Patterns on Real-World Lifestyle-Supported Pharmacological Weight-Loss Therapy"
+    },
+    {
+      "citekey": "Hu2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Microtopography enhances intestinal drug absorption via Piezo1-mediated tight junction modulation"
+    },
+    {
+      "citekey": "Tayebi2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Technological Innovation in Increasing Sport Access and Participation for People with Disabilities and Inactivity-A Report on 1st Conference USCI (University Sport Consortium International)_November 5-6, 2024"
+    },
+    {
+      "citekey": "Flint202535",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The real-life experiences of people living with overweight and obesity: A psychosocial perspective"
+    },
+    {
+      "citekey": "Boychenko2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Assessment of Adipocyte Transduction Using Different AAV Capsid Variants"
+    },
+    {
+      "citekey": "Mu20248515",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Re-engineering lysozyme solubility and activity through surfactant complexation"
+    },
+    {
+      "citekey": "2024S244",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "13. Older Adults: Standards of Care in Diabetes—2024"
+    },
+    {
+      "citekey": "McCartney2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "LabrafacTM MC60 is an efficacious intestinal permeation enhancer for macromolecules: Comparisons with Labrasol® ALF in ex vivo and in vivo rat studies"
+    },
+    {
+      "citekey": "Overgaard2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "ProtecT-2-D trial protocol: cardiovascular protection in patients with type 2 diabetes and established heart and/or vascular disease at a cardio-metabolic clinic—a randomized controlled trial"
+    },
+    {
+      "citekey": "Brunzell20266471",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Self-Assembly of a Therapeutic Peptide Surfactant: A Small-Angle X-ray Scattering Study"
+    },
+    {
+      "citekey": "Fan2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Integrated metabolomic and transcriptome analyses reveal the regulatory mechanisms of partridge tea phenolics-rich extracts on type 2 diabetes mice"
+    },
+    {
+      "citekey": "Shi2025",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Harnessing the therapeutic potential of bacterial extracellular vesicles via functional peptides"
+    },
+    {
+      "citekey": "Oo2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Trends in global glucose lowering medication consumption: Insights from pharmaceutical sales data (2010–2021)"
+    },
+    {
+      "citekey": "Niu202592",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Combining SNAC and C10 in oral tablet formulations for gastric peptide delivery: A preclinical and clinical study"
+    },
+    {
+      "citekey": "Conlon2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Amphibian host-defense peptides with potential for Type 2 diabetes therapy – an updated review"
+    },
+    {
+      "citekey": "Holt2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Optimising cardiac surgery outcomes in people with diabetes: the OCTOPuS pilot feasibility study"
+    },
+    {
+      "citekey": "Bhatti2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Dual-targeting strategies for cancer and diabetes: Converging pharmacological pathways and repurposed therapies"
+    },
+    {
+      "citekey": "Dang2024524",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Analyzing the Metabolic Destiny of Potentilla discolor Bge. Extract and its Primary Components in Rat Models"
+    },
+    {
+      "citekey": "Li2025__s4159802519714z",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Correlation between C-peptide and diabetic retinopathy in patients with type 2 diabetes mellitus: a cross-sectional study"
+    },
+    {
+      "citekey": "Iyer2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Exogenous oral application of PYY and exendin-4 impacts upon taste-related behavior and taste perception in wild-type mice"
+    },
+    {
+      "citekey": "Lu2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Trojan horse-inspired spatiotemporal strategy augments cartilage regeneration by enhancing mitochondrial energy production"
+    },
+    {
+      "citekey": "Guo2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "PCSK5 promotes angiogenesis and cardiac repair after myocardial infarction"
+    },
+    {
+      "citekey": "Barrett2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Evaluation of the experience of people referred under the NHS enhanced service incentive for obesity to the NHS digital weight management programme: a mixed method study"
+    },
+    {
+      "citekey": "Andreenko20257",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Difficult airways in adults in hospitals (Fourth edition, 2025). Methodological recommendations of the All-Russian public organization “Federation of Anesthesiologists and Reanimatologists”"
+    },
+    {
+      "citekey": "MacDonald2025527",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A pilot randomised trial of group versus individual education for obese adults with type 2 insulin dependent diabetes"
+    },
+    {
+      "citekey": "Arrick2024481",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Cephalopod-inspired jetting devices for gastrointestinal drug delivery"
+    },
+    {
+      "citekey": "Grymyr2025e012367",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Long-Term Trajectories of Left Heart Geometry, Mechanics, and Oxygen Demand After Bariatric Surgery"
+    },
+    {
+      "citekey": "West2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Mas1 Receptor Activation is Necessary and Sufficient to Transduce ACE2 Effect in PAH, But Ang(1-7) Alone is Insufficient"
+    },
+    {
+      "citekey": "Tan2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "PD-L1-Targeting Biomimetic Photoresponsive Thermosensitive Liposomes for Triple-Negative Breast Cancer"
+    },
+    {
+      "citekey": "Gong2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Fatty acid conjugated BimBH3 analogues with D‑amino acid substitution as PTPN1 inhibitors with enhanced activity, biostability and orally available potency for the treatment of diabetes"
+    },
+    {
+      "citekey": "Nosair2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Deciphering the efficacy of staphyloxanthin-encapsulated niosomal nanovesicles to attenuate biofilm formation, quorum sensing, and meropenem persistence in Acinetobacter baumannii"
+    },
+    {
+      "citekey": "Nie2026381",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Dual rescue mission: P-G3 dendrimer addresses ovarian and neuroendocrine roots of obesity-linked subfertility"
+    },
+    {
+      "citekey": "Bapat20251003",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Modification of Peptide and Permeation Enhancer In Vitro Release Rates by Dispersion with a Gel-Forming Polymer"
+    },
+    {
+      "citekey": "2025S181",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "9. Pharmacologic approaches to glycemic treatment: Standards of care in diabetes—2025"
+    },
+    {
+      "citekey": "McCoy2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Derivation of an Annualized Claims-Based Major Adverse Cardiovascular Event Estimator in Type 2 Diabetes"
+    },
+    {
+      "citekey": "Sahin2025371",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Development of a mucoadhesive drug delivery system and its interaction with gastric cells"
+    },
+    {
+      "citekey": "Iwanishi2025251",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A Male Japanese Patient with Temple Syndrome Complicated by Type 2 Diabetes Mellitus"
+    },
+    {
+      "citekey": "2024S158",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2024"
+    },
+    {
+      "citekey": "López-Estévez2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Nanoassemblies for oral protein delivery — The case of monoclonals for inflammatory bowel disease"
+    },
+    {
+      "citekey": "Spinelli2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Amphibian-Derived Peptides as Natural Inhibitors of SARS-CoV-2 Main Protease (Mpro): A Combined In Vitro and In Silico Approach"
+    },
+    {
+      "citekey": "Dong2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A nose-to-brain axis for spoiled food odor-triggered defensive responses in male mice"
+    },
+    {
+      "citekey": "Faconti20251",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Investigation and management of resistant hypertension: British and Irish Hypertension Society position statement"
+    },
+    {
+      "citekey": "Rogers2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Oral Tablet Formulations with Lactoferrin, a Cohesive Biomacromolecule"
+    },
+    {
+      "citekey": "Kaplan2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Assessing the state of obesity care: Quality, access, guidelines, and standards"
+    },
+    {
+      "citekey": "Gao2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Managing Obesity in Individuals with Cardiovascular Disease: Are We Missing the Obvious?"
+    },
+    {
+      "citekey": "Atta2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Agrocybe cylindracea polysaccharides and polysaccharides-conditioned fecal microbiota transplantation similarly restore ciprofloxacin-induced microbial dysbiosis and improve intestinal barrier function: a comparative study"
+    },
+    {
+      "citekey": "Ebert2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Oral (poly)peptide delivery: On the emulsifying properties of inverted lipid phases under gastrointestinal conditions"
+    },
+    {
+      "citekey": "Maung2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Effects of FGF21, soluble TGFBR2, and environmental temperature on metabolic dysfunction in lipodystrophic mice"
+    },
+    {
+      "citekey": "Crandall20251101",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The Diabetes Prevention Program and Its Outcomes Study: NIDDK’s Journey Into the Prevention of Type 2 Diabetes and Its Public Health Impact"
+    },
+    {
+      "citekey": "Sirinyildiz2025462",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Arbutin as a potential nephroprotective agent: Dose-related effects in renal ischemia–reperfusion injury"
+    },
+    {
+      "citekey": "Song2026",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Interpretable Two-Stage Machine Learning for Early and Full Drug Release Prediction in PLGA Microspheres"
+    },
+    {
+      "citekey": "Coombs2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Ruvidar®—An Effective Anti-Herpes Simplex Virus Agent"
+    },
+    {
+      "citekey": "Fasseeh2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Framework for developing cost-effectiveness analysis threshold: the case of Egypt"
+    },
+    {
+      "citekey": "Čelutkienė2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Counteracting the Mechanisms of Heart Failure is the Most Effective Way to Decongest Patients while Improving Outcomes"
+    },
+    {
+      "citekey": "Ghareb2024247",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Development, biological evaluation, and molecular modelling of some benzene-sulfonamide derivatives as protein tyrosine phosphatase-1B inhibitors for managing diabetes mellitus and associated metabolic disorders"
+    },
+    {
+      "citekey": "Klein Cerrejon2025875",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Optimized suction patch design for enhanced transbuccal macromolecular drug delivery"
+    },
+    {
+      "citekey": "Kanelli2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Enhanced macromolecule bioavailability in rats and pigs using an in situ forming synthetic epithelial lining"
+    },
+    {
+      "citekey": "Abdulkarim20251558",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Novel zwitterionic densely charged neutral sulfobetaine polymeric micelles for oral delivery of therapeutic peptides: a proof-of-concept study"
+    },
+    {
+      "citekey": "Sinézia2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Oral delivery of the amylin receptor agonist pramlintide"
+    },
+    {
+      "citekey": "Chen2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Repurposing a human acetyl-CoA carboxylase inhibitor firsocostat to treat fungal candidiasis alone and in combination"
+    },
+    {
+      "citekey": "Gao2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Pain-free oral delivery of biologic drugs using intestinal peristalsis-actuated microneedle robots"
+    },
+    {
+      "citekey": "Wen2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Biopharmaceutical Characterization of Grapiprant Within the BCS Framework Under Canine-Relevant Conditions: Solubility and Caco-2 Permeability Assessment"
+    },
+    {
+      "citekey": "Valladales-Restrepo202565",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Level of Satisfaction Among Patients Using Insulin Administered by Pen vs Vial/Syringe. An Observational Prospective Study"
+    },
+    {
+      "citekey": "Ajjan2024426",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Continuous glucose monitoring for the routine care of type 2 diabetes mellitus"
+    },
+    {
+      "citekey": "Zhang2025__s4146702563427w",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "GD2TIF cells as a platform for single-dose and long-term delivery of biologics"
+    },
+    {
+      "citekey": "Xu2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Smart control lipid-based nanocarriers for fine-tuning gut hormone secretion"
+    },
+    {
+      "citekey": "Zaykov2024763",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Toward once-monthly insulin therapy via synergy in two pharmacokinetic protractors: Fc-conjugation and fatty acid acylation"
+    },
+    {
+      "citekey": "Krupke2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A biodegradable suction patch for sustainable transbuccal peptide delivery"
+    },
+    {
+      "citekey": "Xiong2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "The Development of a Stable Peptide-Loaded Long-Acting Injection Formulation through a Comprehensive Understanding of Peptide Degradation Mechanisms: A QbD-Based Approach"
+    },
+    {
+      "citekey": "Jensen2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Peripherally restricted PICK1 inhibitor mPD5 ameliorates pain behaviors in murine inflammatory and neuropathic pain models"
+    },
+    {
+      "citekey": "Dudun2026",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Enhancing mesenchymal stem cell function with epiregulin in tissue engineering: From tissue regeneration to gut microbiota modulation"
+    },
+    {
+      "citekey": "Panou2025268",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Contraception and Diabetes Mellitus"
+    },
+    {
+      "citekey": "Feng2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Hemodynamic Changes in the Ophthalmic Artery and Their Correlation with Serum Cytokines in Pediatric Diabetic Retinopathy"
+    },
+    {
+      "citekey": "Zhang2025__s4159802593374x",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Comparative analysis of organoid, air-liquid interface, and direct infection models for studying pathogen–host interactions in endometrial tissue"
+    },
+    {
+      "citekey": "Ling2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Chlorogenic acid modulates mitochondrial damage and mitophagy to repair injured myocardial tissue and cells"
+    },
+    {
+      "citekey": "Wyckoff20252405",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Preexisting Diabetes and Pregnancy: An Endocrine Society and European Society of Endocrinology Joint Clinical Practice Guideline"
+    },
+    {
+      "citekey": "Montero20251",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Clinical Practice Guideline for detection and management of diabetic kidney disease: A consensus report by the Spanish Society of Nephrology; [Guía de práctica clínica sobre detección y manejo de la enfermedad renal diabética: documento de consenso de la Sociedad Española de Nefrología]"
+    },
+    {
+      "citekey": "Naranjani2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Mechanics of small intestine motility for oral macromolecular delivery: modelling segmentation versus peristalsis"
+    },
+    {
+      "citekey": "Lee2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Obesity Alters the Vascular Morphology and VEGF-A Signaling in Adipose Tissue"
+    },
+    {
+      "citekey": "Luo20261009",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Understanding Diabetic Retinopathy Using Multi-Omics Approaches: A Narrative Review; [Memahami Retinopati Diabetes Menggunakan Pendekatan Multi-Omik: Satu Ulasan Naratif]"
+    },
+    {
+      "citekey": "Goraltchouk2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Development and characterization of a first-in-class adjustable-dose gene therapy system"
+    },
+    {
+      "citekey": "Liu20241548",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Application of the integrated data platform combined with dietary management for adults with diabetes: A prospective randomized controlled trial"
+    },
+    {
+      "citekey": "Karlsen20261825",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Implementing sustainable liver health in Europe: a second EASL–Lancet Commission"
+    },
+    {
+      "citekey": "McGlone2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Glucagon-based therapy for people with diabetes and obesity: What is the sweet spot?"
+    },
+    {
+      "citekey": "2026S89",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "5. Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes—2026"
+    },
+    {
+      "citekey": "Cornelissen20262105",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Influence of exercise and nutrition on sarcopenia in cardiovascular disease: a Scientific Statement of the European Association of Preventive Cardiology of the European Society of Cardiology"
+    },
+    {
+      "citekey": "Greydanus2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Opioid use and abuse in adolescents and young adults; dealing with science, laws and ethics: Charming the COBRAS"
+    },
+    {
+      "citekey": "Yu2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The active components of Erzhi wan and their anti-Alzheimer's disease mechanisms determined by an integrative approach of network pharmacology, bioinformatics, molecular docking, and molecular dynamics simulation"
+    },
+    {
+      "citekey": "Al-Awadi2025857",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Are strategies to increase muscle mass and strength as effective in people with type 2 diabetes?"
+    },
+    {
+      "citekey": "Zheng2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Designing biomaterial-based oral protein drug-delivery systems for therapeutics"
+    },
+    {
+      "citekey": "Nematullah2026579",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Long-Term Safety of Dpp-4 Inhibitors: An Insight from Clinical Trials and Real-World Evidence"
+    },
+    {
+      "citekey": "Wen2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Pharmacokinetics of Tylvalosin Following Intravenous or Oral Administration at Different Doses in Broiler Chickens"
+    },
+    {
+      "citekey": "Cheng2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Inflammation-triggered self-immolative conjugates enable oral peptide delivery by overcoming gastrointestinal barriers"
+    },
+    {
+      "citekey": "Zhang2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Compaction behavior of freeze-dried and spray-dried trypsin/lactose particulate systems"
+    },
+    {
+      "citekey": "Xue202511425",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "State-Specific Peptide Design Targeting G Protein-Coupled Receptors"
+    },
+    {
+      "citekey": "2025S86",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "5. Facilitating positive health behaviors and well-being to improve health outcomes: Standards of care in diabetes—2025"
+    },
+    {
+      "citekey": "Dela Ahator2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Overcoming barriers to delivery of biologics by novel approaches and advanced delivery systems"
+    },
+    {
+      "citekey": "Fukuda2026141",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Ionic Liquids Composed of Lactic Acid and Trometamol Enhance the Oral Absorption of 10 kDa Dextran, as a Model Compound of Mid-Sized Molecules"
+    },
+    {
+      "citekey": "Campo2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Ivermectin reduces withdrawal-induced alcohol intake in rats: Association with CeA GABAergic enhancement and P2rx4 genetic liability"
+    },
+    {
+      "citekey": "Fifer2024435",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Patient and Healthcare Professional Preferences for Prescription Weight Loss Medications in Australia: Two Discrete Choice Experiments"
+    },
+    {
+      "citekey": "Rodriguez-Valadez2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Potential Mediators for Treatment Effects of Novel Diabetes Medications on Cardiovascular and Renal Outcomes: A Meta-Regression Analysis"
+    },
+    {
+      "citekey": "Li2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Extracellular vesicles from neural stem cells safeguard neurons in intracerebral hemorrhage by suppressing reactive astrocyte neurotoxicity"
+    },
+    {
+      "citekey": "Guo20245",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Guideline for the Management of Diabetes Mellitus in the Elderly in China (2024 Edition)"
+    },
+    {
+      "citekey": "Bannigan2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The Dawn of a New Pharmaceutical Epoch: Can AI and Robotics Reshape Drug Formulation?"
+    },
+    {
+      "citekey": "Catalfamo2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "“Ozempic Face”: An Emerging Drug-Related Aesthetic Concern and Its Treatment with Endotissutal Bipolar Radiofrequency (RF)—Our Experience"
+    },
+    {
+      "citekey": "Rosseel2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Small intestinal compared with colonic short-chain fatty acid delivery drives distinct systemic concentrations and endocrine responses in humans: a randomized, crossover trial"
+    },
+    {
+      "citekey": "Xu2025__s40834025003841",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Live birth following multimodal therapy in a patient with asherman’s syndrome, recurrent pregnancy loss, and polycystic ovarian syndrome: a case report and literature review"
+    },
+    {
+      "citekey": "Yao2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Maternal gestational diabetes mellitus leads to adverse growth patterns and disease risk in offspring in vivo: evidence from cross-generational effects on gut microbiota"
+    },
+    {
+      "citekey": "Kim2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Impact of diabetes on the progression of Alzheimer's disease via trajectories of amyloid–tau–neurodegeneration (ATN) biomarkers"
+    },
+    {
+      "citekey": "Milluzzo2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Efficacy of a phone reminder to improve adherence to post-partum glucose tolerance testing after gestational diabetes and clinical predictors of post-partum follow-up compliance"
+    },
+    {
+      "citekey": "Hamza20241342",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A COMPARATIVE STUDY OF FOUR PERMEATION ENHANCERS FOR INCREASING THE TRANSPORT OF SALMON CALCITONIN ON CACO-2 CELL LINES"
+    },
+    {
+      "citekey": "Miller2024398",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Detection and Intervention: Use of Continuous Glucose Monitoring in the Early Stages of Type 2 Diabetes"
+    },
+    {
+      "citekey": "Zhao2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Significance of neuroendocrine systems and the gut-brain axis (GBA) in the regulation of obesity"
+    },
+    {
+      "citekey": "L’hostellier2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Doravirine versus dolutegravir-based regimen in antiretroviral treatment-naive people living with HIV-1 (ANRS0392s ELDORADO): protocol for an international, open-label, randomised, non-inferiority, phase III trial"
+    },
+    {
+      "citekey": "Palasantzas2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Assessing Nutraceuticals for Hepatic Steatosis: A Standardized In Vitro Approach"
+    },
+    {
+      "citekey": "Kim2025__pharmaceutics171",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Effective Oral Delivery of Teriparatide Using Organoclay—Polymethacrylate Nanocomposites for Osteoporosis Therapy"
+    },
+    {
+      "citekey": "Bays2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Obesity, dyslipidemia, and cardiovascular disease: A joint expert review from the Obesity Medicine Association and the National Lipid Association 2024"
+    },
+    {
+      "citekey": "Xie2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "A gut-liver lipid flux checkpoint mediates FAHFA protection from MASLD"
+    },
+    {
+      "citekey": "Elmorsy2026",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Bioresponsive gelatin-coated silk fibroin nanoparticles enhance roxadustat therapy in experimental pulmonary fibrosis"
+    },
+    {
+      "citekey": "Walker2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Bitter hop nutraceutical stimulates fat mass loss while preserving muscle mass in a cohort of individuals with overweight or obesity receiving diet and exercise advice"
+    },
+    {
+      "citekey": "Jin2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "To investigate the effect of a high-fat diet on pharmacokinetics/renal function/RAAS-related parameters after a single dose of empagliflozin in healthy Chinese adults"
+    },
+    {
+      "citekey": "Min2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Intravenous Everolimus Formulation (Sapu003) for Clinical Trials"
+    },
+    {
+      "citekey": "Dreshaj2025406",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Medicinal Plants as Powerful and Efficient Sources of Diabetes Treatment Compared to Medicinal Insulins: Case Study Dukagjin Region in Kosovo"
+    },
+    {
+      "citekey": "Genton2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Challenges of nutritional support in patients with diabetes: A position paper of the ESPEN special interest group"
+    },
+    {
+      "citekey": "Kim2026__jbiopha202611976",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Engineered polymer micelles with tunable gas release for effective reduction of local fat deposits"
+    },
+    {
+      "citekey": "Fagan2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Direct compression peptide tablets: insights into the importance of permeation enhancer processibility and peptide stability"
+    },
+    {
+      "citekey": "Lund2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Assessment of greenhouse gas emission of type 2 diabetes management in adults: a modelling study in the UK"
+    },
+    {
+      "citekey": "Wang2026569",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Clusterin Drives Fiber Endocytosis by Mesothelial Cells to Resolve Liver Fibrosis"
+    },
+    {
+      "citekey": "Lee2024546",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Long-term safety study of the highly absorbable curcumin formulation TS-P1 in healthy Japanese adults: a randomized, placebo-controlled, double-blind, parallel-group comparative study"
+    },
+    {
+      "citekey": "Milanović20242466",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "TAAR1 agonist ulotaront delays gastric emptying of solids in patients with schizophrenia and concurrent metabolic syndrome with prediabetes"
+    },
+    {
+      "citekey": "Tocharus2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Hypoglycemic Ability of Sericin-Derived Oligopeptides (SDOs) from Bombyx mori Yellow Silk Cocoons and Their Physiological Effects on Streptozotocin (STZ)-Induced Diabetic Rats"
+    },
+    {
+      "citekey": "Daniell2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Evaluation of Biologics ACE2/Ang(1–7) Encapsulated in Plant Cells for FDA Approval: Safety and Toxicology Studies"
+    },
+    {
+      "citekey": "Roy2025607",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Crystallographic and physicochemical characterization of salcaprozoic acid: A structural basis for SNAC-enabled drug delivery systems"
+    },
+    {
+      "citekey": "Merino-Torres2024785",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Cost-Utility of Real-Time Continuous Glucose Monitoring versus Self-Monitoring of Blood Glucose in People with Insulin-Treated Type 2 Diabetes in Spain"
+    },
+    {
+      "citekey": "McMackin2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "JAK4D, a first-in-class thyrotropin-releasing hormone analogue, reverses scopolamine-induced memory deficits"
+    },
+    {
+      "citekey": "Abd El-Aziz2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Matcha mitigates metabolic and inflammatory disturbances induced by high-fat-sucrose diets in rats"
+    },
+    {
+      "citekey": "Weber2024677",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Evaluation of the Effects of Meal Type and Acid-Reducing Agents on the Pharmacokinetics of Cilofexor, a Selective Nonsteroidal Farnesoid X Receptor Agonist"
+    },
+    {
+      "citekey": "Williams2025285",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Pharmacological management of binge eating disorder"
+    },
+    {
+      "citekey": "de Freitas Queiroz Barros2026625",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "From diet to hypothalamic dysfunction: Neuroanatomical and hormonal integration of the microbiota-hypothalamus-adipose tissue axis"
+    },
+    {
+      "citekey": "Yu2025187",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The GIP receptor activates futile calcium cycling in white adipose tissue to increase energy expenditure and drive weight loss in mice"
+    },
+    {
+      "citekey": "Mazzolai20243538",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "2024 ESC Guidelines for the management of peripheral arterial and aortic diseases : Developed by the task force on the management of peripheral arterial and aortic diseases of the European Society of Cardiology (ESC Endorsed by the European Association for Cardio-Thoracic Surgery (EACTS, the European Reference Network on Rare Multisystemic Vascular Diseases (VASCERN, and the European Society of Vascular Medicine (ESVM)"
+    },
+    {
+      "citekey": "Chen2025",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Cell-specific mRNA delivery via nanobody-functionalized lipid nanoparticles"
+    },
+    {
+      "citekey": "Sun2025__peerj20032",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Advances and challenges in research methods on oral absorption mechanisms of nano-formulations"
+    },
+    {
+      "citekey": "Jendle20252311",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Cost-Utility of Real-Time Continuous Glucose Monitoring Versus Self-monitoring of Blood Glucose in People with Insulin-Treated Type 2 Diabetes in Sweden"
+    },
+    {
+      "citekey": "De Meyer2026e0120",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Preoperative fasting guidelines: A narrative review"
+    },
+    {
+      "citekey": "Berselli2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Therapeutic Peptides and Proteins: Stabilization Challenges and Biomedical Applications by Means of Nanodelivery Systems"
+    },
+    {
+      "citekey": "Talay2024181",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Patient Satisfaction with an Australian Digital Weight-Loss Service: A Comparative Retrospective Analysis"
+    },
+    {
+      "citekey": "Chew2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Type 2 diabetes mellitus and cardiometabolic outcomes in metabolic dysfunction-associated steatotic liver disease population"
+    },
+    {
+      "citekey": "Fagan20253999",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Impact of Permeation Enhancers on the Release of Insulin from Tablets in Biorelevant Media"
+    },
+    {
+      "citekey": "Colazo20251366",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "siRNA conjugate with high albumin affinity and degradation resistance for delivery and treatment of arthritis in mice and guinea pigs"
+    },
+    {
+      "citekey": "Chavanelle2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Totum-448 Improves MASLD and Modulates Microbiota in Hamsters: Dose–Response Study and Effects of Supplementation Cessation"
+    },
+    {
+      "citekey": "Ou2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Post-marketing safety of tarlatamab in small cell lung cancer based on FAERS and WHO-VigiAccess with SHAP-based interpretable machine learning analysis of immune-related adverse events"
+    },
+    {
+      "citekey": "Deák2026",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Optimizing Self-Emulsifying Drug Delivery Systems for the Oral Delivery of a Hydrophobic Ion-Paired Lysozyme Complex"
+    },
+    {
+      "citekey": "Meléndez-Martínez2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Bioprospection of rattlesnake venom peptide fractions with anti-adipose and anti-insulin resistance activity in vitro"
+    },
+    {
+      "citekey": "Liang20252557",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Evaluation of Luteolin Nanosuspensions on Pharmacokinetics of Atorvastatin: Drug-Drug Interactions Using Rat Models"
+    },
+    {
+      "citekey": "Charchar202423",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Lifestyle management of hypertension: International Society of Hypertension position paper endorsed by the World Hypertension League and European Society of Hypertension"
+    },
+    {
+      "citekey": "Wu2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Efficacy and safety of anti-prediabetic drugs in patients with prediabetes: a Bayesian network meta-analysis"
+    },
+    {
+      "citekey": "Sharma20245347",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Elucidating the role of weight loss and glycaemic control in patients with type 2 diabetes"
+    },
+    {
+      "citekey": "Lin2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Lipidation of the KV1.3 blocking peptide HsTX1[R14A] alters its pharmacokinetics and biodistribution"
+    },
+    {
+      "citekey": "Vrints20243415",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "2024 ESC Guidelines for the management of chronic coronary syndromes"
+    },
+    {
+      "citekey": "Lopez2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Sex-specific effects of appetite suppressants on stereotypy in rats"
+    },
+    {
+      "citekey": "Kang2025582",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "2025 clinical practice guidelines for diabetes management in korea: Recommendation of the korean diabetes association"
+    },
+    {
+      "citekey": "Boye2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Development of the Patient Satisfaction with Medication for Diabetes (PSMD) questionnaire"
+    },
+    {
+      "citekey": "Saha2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Preclinical Development of a Genetically Engineered Albumin-Binding Nanoparticle of Paclitaxel"
+    },
+    {
+      "citekey": "Talay2024187",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Why People with Overweight and Obesity Are Seeking Care Through Digital Obesity Services: A Qualitative Analysis of Patients from Australia’s Largest Digital Obesity Provider"
+    },
+    {
+      "citekey": "Sun2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Metabolic Enzyme-Inspired Molecular Clusters for Advanced Type 2 Diabetic Complications by Alleviating Immunosuppression"
+    },
+    {
+      "citekey": "Burhanuddin2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The Impact of Paediatric Obesity on Drug Pharmacokinetics: A Virtual Clinical Trials Case Study with Amlodipine"
+    },
+    {
+      "citekey": "Li2026810",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "One-step assembly of astaxanthin-loaded probiotic-derived extracellular vesicles: a strategy for enhancing absorption and alleviating oxidative stress"
+    },
+    {
+      "citekey": "Cazzaniga2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Medicinal and Crop Protection Chemistry: Breaking Barriers, Building Synergies"
+    },
+    {
+      "citekey": "Schreiner2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Unlocking the potential of microfold cells for enhanced permeation of nanocarriers in oral drug delivery"
+    },
+    {
+      "citekey": "Watada2026989",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Cost-effectiveness analysis comparing real-time continuous glucose monitoring with self-monitoring of blood glucose for patients with type 2 diabetes treated with insulin in Japan"
+    },
+    {
+      "citekey": "Hopewell2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "CONSORT 2025 explanation and elaboration: updated guideline for reporting randomised trials"
+    },
+    {
+      "citekey": "Heinz2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Learning Mechanisms in Alcohol Use Disorders"
+    },
+    {
+      "citekey": "Qiu20268651",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Stearic acid-modified PSMA-targeting peptide–drug conjugate for long-acting prostate cancer therapy"
+    },
+    {
+      "citekey": "Virani20251857",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF > 40%)"
+    },
+    {
+      "citekey": "Lassen20241762",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Cardiovascular-kidney-metabolic overlap in heart failure with preserved ejection fraction: Cardiac structure and function, clinical outcomes, and response to sacubitril/valsartan in PARAGON-HF"
+    },
+    {
+      "citekey": "Liu20241",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Efficacy of powder of ginsengporia and atractylodis macrocephalae combined with aerobic exercise in the treatment of obese T2DM: A randomized controlled clinical trial"
+    },
+    {
+      "citekey": "Wu20256463",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Brain Delivery Strategies for Biomacromolecular Drugs: Intranasal Administration"
+    },
+    {
+      "citekey": "Deusch20257344",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Coated glucose microbeads stimulate enteric hormone release and improve glucose tolerance in Phase 1 and 2 clinical trials"
+    },
+    {
+      "citekey": "Sarwinska2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Real-life dosing conditions in older adults and geriatric patients in Poland – An international questionnaire study to investigate the regional differences in drug intake behaviour in the older population"
+    },
+    {
+      "citekey": "Park202613454",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Boosting peptide half-life: enabling efficient generation of Fc–peptide conjugates"
+    },
+    {
+      "citekey": "Huang2024__life14020191",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Construction and Identification of a Breast Bioreactor for Human-Derived Hypoglycemic Protein Amylin"
+    },
+    {
+      "citekey": "Agarwal20257",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Diabetes and Glucose Management in People on Hemodialysis"
+    },
+    {
+      "citekey": "Osama2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Melatonin Mitigates Central Sensitization and Nociplastic Pain in Spinal Cord and Dorsal Root Ganglia of FM Rat Model: Modulation of SIRT1/PGC-1α/MAPK/NF-κB Signaling"
+    },
+    {
+      "citekey": "Xian2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Advances in Homing Peptide Targeted Therapies"
+    },
+    {
+      "citekey": "Tarawneh2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Glycation at the Gate: A Brain Endothelial Glycocalyx Model and Therapeutic Roadmap for Alzheimer’s Disease"
+    },
+    {
+      "citekey": "Tsuji20263031",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Affinity enhancement of polo-like kinase 1 polo-box domain-binding peptides by N-methylation and lipidation"
+    },
+    {
+      "citekey": "Colston2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Permeation enhancer-induced membrane defects assist the oral absorption of peptide drugs"
+    },
+    {
+      "citekey": "Porth2024",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Monitoring what matters to people with diabetes: Do we underestimate the importance of behaviour, attitude, and well-being?"
+    },
+    {
+      "citekey": "Chung202638",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Amylin Revisited: A 5-Year Perspective on Its Emerging Role in the Treatment of Diabesity"
+    },
+    {
+      "citekey": "Elbermawy2026",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Synergistic Neuroprotection in Tauopathic Mice via Green-Synthesized Silver Nanoparticles Co-delivering Methylene Blue and Moringa oleifera"
+    },
+    {
+      "citekey": "2025S283",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "14. Children and adolescents: Standards of care in diabetes—2025"
+    },
+    {
+      "citekey": "Wang2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Lifestyle and prognosis after percutaneous coronary intervention: from revascularization to long-term management"
+    },
+    {
+      "citekey": "Fan2025__AD20241538",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Spatiotemperal Dynamics of Osteoarthritis: Bridging Insights from Bench to Bedside"
+    },
+    {
+      "citekey": "Kohler20243618",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Comparison of Protocols to Test Peptide Stability in Blood Plasma and Cell Culture Supernatants"
+    },
+    {
+      "citekey": "Khan2026536",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Deciphering Mental Illness: Neurons vs. Neuroglia"
+    },
+    {
+      "citekey": "Holtrop2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Primary care patient and practice member perspectives on weight loss medications: challenges and opportunities"
+    },
+    {
+      "citekey": "Nosair2025__s41598025179369",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Staphyloxanthin loaded niosomal nanocarrier augments its anthelmintic activity against Trichinella spiralis infection in mice"
+    },
+    {
+      "citekey": "Collins2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The gut microbiome modulates the lipase-mediated digestion of dietary lipid emulsions"
+    },
+    {
+      "citekey": "Giorgino2026389",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Orforglipron Added to Titrated Insulin Glargine in Type 2 Diabetes The ACHIEVE-5 Randomized Clinical Trial"
+    },
+    {
+      "citekey": "He2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The association between diabetes and head and neck squamous cell carcinoma: evidence from clinical cohort and bioinformatics analyses"
+    },
+    {
+      "citekey": "Paprocki2025",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "pH Controlled Transient Cyclization of Peptides for Increased Stability towards Oral Delivery"
+    },
+    {
+      "citekey": "Gao2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The Detrimental Effects of Crystalline Excipients: How They Jeopardize the Long-Term Stability of Freeze-Dried Polypeptide Formulations"
+    },
+    {
+      "citekey": "Alkudmani2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Molecular impact of single nucleotide polymorphisms in GIPR gene among type 2 diabetes mellitus patients in the Saudi population"
+    },
+    {
+      "citekey": "Bardonnet20262302",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "An effort to enhance the clinical translatability of caprate-based tablet formulations in gastric peptide delivery"
+    },
+    {
+      "citekey": "Radakrishnan2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Underpinnings of heart failure with preserved ejection fraction in women - From prevention to improving function. A co-publication with the American Journal of Preventive Cardiology and the Journal of Cardiac Failure"
+    },
+    {
+      "citekey": "Yan20243549",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Porous silicon and silica carriers for delivery of peptide therapeutics"
+    },
+    {
+      "citekey": "RADAKRISHNAN20251460",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Underpinnings of Heart Failure With Preserved Ejection Fraction in Women - From Prevention to Improving Function. A Co-publication With the American Journal of Preventive Cardiology and the Journal of Cardiac Failure"
+    },
+    {
+      "citekey": "Beloqui202431",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Gut hormone stimulation as a therapeutic approach in oral peptide delivery"
+    },
+    {
+      "citekey": "Parnizari20252189",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Safety of Drugs in Breastfeeding Women With CKD"
+    },
+    {
+      "citekey": "Yang2026__jmtbio2026103369",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Engineering oral celastrol-polysaccharide supramolecular nanoassemblies across intestinal barriers for the intervention of nonalcoholic steatohepatitis"
+    },
+    {
+      "citekey": "Rocha2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Anti-Candida Activity of Cysteine-Modified Amidated Decoralin in the Presence of Engineered Nanomaterials"
+    },
+    {
+      "citekey": "Durán-Lobato202517",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Bioinspired orthogonal-shaped protein–biometal nanocrystals enable oral protein absorption"
+    },
+    {
+      "citekey": "Chen2026499",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Prescribing GLPs for Obesity Treatment for Adults at a University Based Health Maintenance Organization by Race, Ethnicity, and Socioeconomic Status"
+    },
+    {
+      "citekey": "Reyes-Vallejo2025",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Preclinical Evaluation of 2-Aminobenzothiazole Derivatives: In Silico, In Vitro, and Preliminary In Vivo Studies as Diabetic Treatments and Their Complications"
+    },
+    {
+      "citekey": "Dong2025139",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Animal Models of Exercise and Cardiometabolic Disease"
+    },
+    {
+      "citekey": "Liu2026__FSHW20259250548",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Neuroprotective effects of shrimp peptides by improving synaptic plasticity through Adcy5/PKA/p-CREB based on proteomic techniques"
+    },
+    {
+      "citekey": "Lieu2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The plant hormone, 6-benzylaminopurine, ameliorates obesity in male and female mice while on a high-fat diet"
+    },
+    {
+      "citekey": "Retnakaran2025887",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "One-Hour Oral Glucose Tolerance Test for the Postpartum Reclassification of Women With Hyperglycemia in Pregnancy"
+    },
+    {
+      "citekey": "Moon2024546",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "2023 Clinical Practice Guidelines for Diabetes Management in Korea: Full Version Recommendation of the Korean Diabetes Association"
+    },
+    {
+      "citekey": "Chen2025__jcelbio202510002",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "Implement enhanced artificial “enteroendocrine L cells” via oral administration for effective treatment of type 2 diabetes"
+    },
+    {
+      "citekey": "Holstein2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "First diagnosis of familial partial lipodystrophy syndrome type 3 during pregnancy associated with a novel heterozygous PPARG variant and a concurrent ABCC8 variant: a case report"
+    },
+    {
+      "citekey": "Yan2024",
+      "reason": "Vesicle or delivery terms present but no metabolic/related setting in title",
+      "title": "Modified Chitosan for Highly Efficient Non-Invasive Transdermal Delivery of Catalase to Repair and Prevent Skin Photodamages"
+    },
+    {
+      "citekey": "Patil2026",
+      "reason": "No GLP-1/incretin, stem-cell/exosome, or delivery-system terms in title",
+      "title": "The evolving therapeutic landscape of gut-pancreatic peptide signalling in metabolic disorders: from mono- to multi-agonist therapies"
+    }
+  ],
+  "sought_for_retrieval": [
+    "Lee202670",
+    "Richards2025",
+    "Zachou2024127",
+    "Xu2025",
+    "Sklepinski2025",
+    "Tonon2026",
+    "Kim2026",
+    "Raptis2025",
+    "Subedi2026",
+    "Bian20261000",
+    "Fredholt20261773",
+    "Lunati2026",
+    "Garvey20261742",
+    "Zheng2025",
+    "Dayer20251488",
+    "Tian2025",
+    "Malgave2025",
+    "Liu2026",
+    "Reddiar2024",
+    "Raubenheimer2024",
+    "Solis-Herrera202474",
+    "Feng2025",
+    "Wallentowitz2026853",
+    "Seetharaman2025311",
+    "Ke2025",
+    "Stefanou2024530",
+    "Kenawy2025",
+    "Oya2025608",
+    "Cirnigliaro2024597",
+    "Karki2026",
+    "Venne2026",
+    "Iriarte-Mesa2026",
+    "Zhang2025__1071754420252557",
+    "Jeong2026",
+    "Liu2024",
+    "Elad2025864",
+    "Xia2024",
+    "Mariam2025",
+    "Maya20252186",
+    "Neumiller2025206",
+    "Mikami-Saito2025",
+    "Yue2025809",
+    "Rao2025",
+    "Huang2024",
+    "Yoon2026",
+    "Mao2025",
+    "Liu2024__1753040713483",
+    "Jiang2026",
+    "Bonora2025",
+    "Domingues20242917",
+    "Hölscher20251201",
+    "Toraih2025",
+    "Pedigo20251007",
+    "Sandmeier20252146",
+    "Mi20261089",
+    "Zhang2026",
+    "Chen2026",
+    "Hao2026",
+    "Huang2026",
+    "Wang202594",
+    "da Silva Lima2024",
+    "Murphy20254936",
+    "Levi20261545",
+    "Tokgöz2025212",
+    "Bailey2025",
+    "Shahriar2024194",
+    "Tisdale2025e011649",
+    "Nielsen2025269",
+    "Khater2026",
+    "Ababei-Bobu2026",
+    "Zinzi2026",
+    "Yu2025",
+    "Liu2025881",
+    "Lunati20261842",
+    "Huang2026__jijpx2026100639",
+    "Singh2026405",
+    "Schneck2024494",
+    "Xu2026",
+    "Singh2024",
+    "Wong20256178",
+    "Holmager2025286",
+    "Chen2026__jijpharm20261267",
+    "Douros2025",
+    "McNally2026E249",
+    "Tian2025__fneur20251653900",
+    "Pinto202428406",
+    "Yu2026",
+    "Ekinci20268242",
+    "Abo-Elenin20252677",
+    "Hartsell2026",
+    "Li2026573",
+    "Singh2026",
+    "Dahl-Larsen2025",
+    "Dangi2025592",
+    "Klonoff20243128",
+    "Sun2025",
+    "Ziebarth2024",
+    "Hirotsu2025",
+    "Lee2025__pharmaceutics170",
+    "Yao2026__NR202694908852",
+    "Ashraf2026",
+    "Sasset2026",
+    "Subedi2025637",
+    "Yin2025",
+    "Moss2026",
+    "Prada Brichtova20259152",
+    "Thorens20241027",
+    "Mastaitis2025",
+    "Levy2026",
+    "Wright2024754",
+    "Wang2024",
+    "Hennessy2026229",
+    "Kuo202513465",
+    "Woo202511843",
+    "Balantekin2024",
+    "Paddu20242255",
+    "Qiao2025",
+    "Swift20241547",
+    "Im2026",
+    "Sonne2026",
+    "Li2025__biology14050575",
+    "Keith20245601",
+    "Sillassen2025",
+    "Tentolouris20266347",
+    "Kim2024",
+    "Chu20244674",
+    "Ali2025",
+    "Birro2025",
+    "Jiang2026607",
+    "Mullins2024361",
+    "Khan2026",
+    "Butt2024",
+    "Zangabad2024",
+    "Dearden20251",
+    "Sukumar2026447",
+    "Moon2026",
+    "Purcell2026296",
+    "Xie2025",
+    "Kim2026__nu18071050",
+    "Yang2026",
+    "Arduino2026",
+    "Dahan2026",
+    "Fragozo-Ramos2025",
+    "Pinto2024621",
+    "Yang2025",
+    "Kweon20242973",
+    "Ruggiero2024",
+    "Shen2025",
+    "Abdallah20254286",
+    "Nalbandian2026",
+    "Chowdhary2024540",
+    "Al Hayek2026",
+    "Klotsman2024",
+    "Bonga20251",
+    "Richards2025__81912",
+    "Robinson2026",
+    "Son202610",
+    "Dong2025",
+    "Chen2024__fphar20241370594",
+    "Fallot202620582",
+    "Singh20263158",
+    "Shapira-Furman2024",
+    "Talay20240",
+    "Lv2026",
+    "Kumar2025",
+    "Qiu2026",
+    "Rebollo2025267",
+    "Gonzalez2026166",
+    "Ametov2026387",
+    "Xu20251790",
+    "Forslund202625",
+    "Cao2026",
+    "Emeh2025",
+    "Schmidt2025",
+    "Xiong20241717",
+    "Xu20251243",
+    "Ariaee2026",
+    "Furió-Novejarque2025332",
+    "Ma2024819",
+    "Pasqua20251239",
+    "Yang2025__nano15181399",
+    "Duan2026",
+    "Zhang2025__jex270099",
+    "Qi2025",
+    "Sagar20268034"
+  ],
+  "n_fulltext_assessed": 0,
+  "fulltext_excluded": [],
+  "included": [],
+  "notes": "Title screen only (BibTeX had no abstracts). 185 sought for full text; 274 excluded on title. Citekey collisions disambiguated with record_id."
+}

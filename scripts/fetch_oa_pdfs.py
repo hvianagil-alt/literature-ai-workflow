@@ -255,10 +255,22 @@ def main() -> int:
         required=True,
         help="Contact email sent to Unpaywall/OpenAlex-style APIs (required by Unpaywall)",
     )
+    parser.add_argument(
+        "--title-include-only",
+        action="store_true",
+        help="fetch only catalog rows with title_decision=title_include",
+    )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="skip record_ids that already have a PDF in out-dir",
+    )
     args = parser.parse_args()
     run_dir = Path(args.run_dir)
     out_dir = Path(args.out_dir)
     catalog = json.loads((run_dir / "catalog.json").read_text(encoding="utf-8"))
+    if args.title_include_only:
+        catalog = [r for r in catalog if r.get("title_decision") == "title_include"]
     out_dir.mkdir(parents=True, exist_ok=True)
 
     results = []
@@ -266,7 +278,25 @@ def main() -> int:
     ok_n = 0
     for rec in catalog:
         doi = rec.get("doi") or ""
-        citekey = rec.get("citekey") or "unknown"
+        citekey = rec.get("record_id") or rec.get("citekey") or "unknown"
+        dest = out_dir / f"{citekey}.pdf"
+        if args.resume and dest.exists() and dest.stat().st_size > 1000:
+            ok_n += 1
+            results.append(
+                {
+                    "citekey": citekey,
+                    "doi": doi,
+                    "ok": True,
+                    "error": None,
+                    "path": str(dest),
+                    "http_calls": 0,
+                    "source_url": "resume",
+                    "attempted": [],
+                    "bytes": dest.stat().st_size,
+                }
+            )
+            print(f"SKIP {citekey} (already have PDF)", flush=True)
+            continue
         if not doi:
             results.append(
                 {
@@ -283,7 +313,6 @@ def main() -> int:
             continue
         got = fetch_one(doi, args.email)
         total_http += int(got["http_calls"])
-        dest = out_dir / f"{citekey}.pdf"
         row = {
             "citekey": citekey,
             "doi": doi,
@@ -298,11 +327,15 @@ def main() -> int:
         if got["ok"]:
             dest.write_bytes(got["pdf"])
             ok_n += 1
-            print(f"OK  {citekey}  {doi}  {got['bytes']} bytes  {got['source_url']}")
+            print(f"OK  {citekey}  {doi}  {got['bytes']} bytes  {got['source_url']}", flush=True)
         else:
-            print(f"FAIL {citekey}  {doi}  {got['error']}")
+            print(f"FAIL {citekey}  {doi}  {got['error']}", flush=True)
         results.append(row)
-        time.sleep(0.4)
+        # Incremental log so a killed run can still be resumed from fetch-log + PDFs.
+        log_path = run_dir / "fetch-log.json"
+        serializable = [{k: v for k, v in r.items() if k != "pdf"} for r in results]
+        log_path.write_text(json.dumps(serializable, indent=2) + "\n", encoding="utf-8")
+        time.sleep(0.2)
 
     log_path = run_dir / "fetch-log.json"
     serializable = [{k: v for k, v in r.items() if k != "pdf"} for r in results]
