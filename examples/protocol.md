@@ -10,4 +10,4 @@ at the start of a real run. Do not copy the made-up question as science.
 - **Exclusion:** Creative-writing samples (wrong domain).
 - **Emphasis:** findings, with methods detail enough to judge comparability.
 - **Article kind:** narrative journal review (default)
-- **Defaults used (if the user said just go):** journal-style narrative review; phenomenon-first Introduction; claim-first sentences; all included full texts; quality-gate scripts before delivery.
+- **Defaults used (if the user said just go):** journal-style narrative review; phenomenon-first Introduction; claim-first sentences; numbered Markdown results tables with in-text Table N callouts; all included full texts; quality-gate scripts before delivery.

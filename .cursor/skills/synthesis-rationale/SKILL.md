@@ -54,6 +54,7 @@ Use this structure (keep (a)–(e) even if you also write a prose summary; repor
  match the spine. Headings must be topic or argument names, not author names.
  Note that the Introduction opens on the phenomenon and ends with an aim or
  central-argument paragraph. Topic sentences, which papers appear where.
+ Place numbered in-article results tables (Table 1, …) in the outline.
  Do not draft the article here.>
 
 ## (f) Interpretation gaps (must attempt retrieval)

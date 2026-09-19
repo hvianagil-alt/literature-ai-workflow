@@ -26,9 +26,7 @@ If the rationale file is missing, **stop and write it first** (see the `synthesi
 
 ## Output
 
-## Output
-
-**Default is a journal-style review article** unless the user asked for a short lab report or a table-only note. Write `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md` when this is a run. **Match the spine to the review kind** (`review-prose`). Default kind is a narrative review with brief methods. Use full IMRaD Results only for a systematic review or meta-analysis. Thematic subsections **must** come from rationale (e) and must be **topic or argument titles**, never author names.
+**Default is a journal-style review article** unless the user asked for a short lab report or a table-only note. Write `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md` when this is a run. **Match the spine to the review kind** (`review-prose`). Default kind is a narrative review with brief methods. Use full IMRaD Results only for a systematic review or meta-analysis. Thematic subsections **must** come from rationale (e) and must be **topic or argument titles**, never author names. The article **must contain numbered Markdown results tables** (Table 1, …) and in-text callouts — see In-article results tables below.
 
 See [`examples/sample-article.md`](../../../examples/sample-article.md) for fictional journal prose (claim-first sentences). The lab-report example in [`examples/sample-report.md`](../../../examples/sample-report.md) is only for a short structured note.
 
@@ -52,7 +50,8 @@ See [`examples/sample-article.md`](../../../examples/sample-article.md) for fict
  Allowed subsection names include limits to inference and what the literature still lacks.
  Do not use a generic "study characteristics / results / synthesis" split.
  Do not devote one numbered section to one paper unless that paper is the
- sole evidence for that construct — and then say so.>
+ sole evidence for that construct — and then say so.
+ Include numbered Markdown results tables (Table 1, …) and mention them from the prose.>
 ## Discussion
 ## Conclusions
 <Numbered scientific directions (First… Finally…), not “more research is needed.”>
@@ -80,25 +79,44 @@ See [`examples/sample-article.md`](../../../examples/sample-article.md) for fict
 
 Each included paper must appear inside **scientific sentences**, not as a stack of “Author et al. did X” abstracts. For every study, the prose must still carry design, model or population, n if reported, intervention/comparator, primary finding with units, and what that design cannot show — but the **claim comes first** and the citation supports it (see `review-prose`, Sentence construction). Group by theme. Rank evidence in the sentence (trial vs observational vs animal). After a cluster of studies, add a synthesis line (*Taken together…*). Close the subsection with what that heading cannot show. Do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing, write that it was **not reported**; do not write “the extracted lead omits n,” and do not invent the number.
 
+When the paragraph reports comparable numbers, **point at the in-article table**: “Primary endpoints are summarised in Table 1 [1–4].” Then keep writing in sentences. The table does not replace the claim-first prose; the prose does not replace the table.
+
+### In-article results tables
+
+`article.md` is a Markdown manuscript. Put **real Markdown tables** in it (pipe tables), numbered **Table 1**, **Table 2**, …, with a bold caption. Name the paper, n, design, endpoint, and result in the cells. Mention the table from the Results (and, if useful, Methods or Discussion). See `review-prose`, Tables in the article.
+
+This is not the extraction worksheet in `literature-table.md`. Curate: one table per comparable construct. Drop columns that do not help a reader compare those rows. Every cell must already exist in a note.
+
+```markdown
+**Table 1.** Primary endpoint results in the included human studies.
+
+| Study | Design | Population (n) | Comparison | Primary endpoint | Result |
+|---|---|---|---|---|---|
+| Name Year [1] | RCT | adults (n=…) | A vs B | … | … (units; p/CI) |
+```
+
+In the text: “Adjunct weekly semaglutide increased time in range by 4.8 percentage points versus placebo (Table 1) [1].”
+
 ### Discussion (journal article) — write like a published paper
 
-The Discussion interprets **findings**, not the review pipeline. A reader of *Diabetes*, *Nature Medicine*, or *Drug Delivery and Translational Research* should recognize the genre.
+The Discussion interprets **findings**, not the review pipeline. A reader of a specialty journal in *this topic* should recognize the genre.
 
-**Must include:**
+**Must include** (map each bullet onto *this* sample’s constructs, not onto a previous run’s disease area):
 
-- What the human outcome evidence jointly shows (glycaemia, safety, utilisation) and at what level of design (RCT vs observational vs protocol).
-- How formulation/PK papers relate (or fail to relate) to those clinical results: species, route, payload, and endpoint.
-- Mechanistic extra-glycaemic work (liver, bone, muscle, heart, retina, brain) interpreted as biology, not as a second outcomes trial.
+- What the primary outcome evidence jointly shows, and at what level of design (RCT vs observational vs protocol vs preclinical, as the included papers actually are).
+- How supporting papers (mechanism, formulation, pharmacokinetics, qualitative, or methods) relate — or fail to relate — to those results: species or population, route or setting, model, and endpoint.
+- Extra-primary or mechanistic work interpreted as the biology or technology it is, not as a second outcomes trial.
 - Why papers that look related cannot be pooled (incommensurable endpoints), named as scientific disagreement or non-comparability.
-- Translational implications calibrated to design (e.g. rat lung bioavailability is not human inhaled GLP-1 RA approval).
-- Evidence limitations that a scientist would name: small n, missing human PK, protocols without results, observational confounding, single-study constructs.
+- Translational implications calibrated to design (animal PK is not human approval; a one-week laboratory test is not a semester-long habit; a protocol is not an outcome).
+- Evidence limitations a scientist would name: small n, missing human data, protocols without results, confounding, single-study constructs.
+- Pointers back to in-article tables when the interpretation rests on a row (“as in Table 1”).
 
 **Must not include in Discussion, Conclusions, or Abstract:**
 
-- Identification/screening theatre: “459-record export”, “44 full texts can be cited”, “139 not retrieved”, “PDFs we could open”, HTTP codes, Unpaywall, script names, token estimates, “this is not a 15-paper review”, paths to `prisma.md`.
+- Identification/screening theatre: database-export sizes, “full texts can be cited”, “not retrieved”, “PDFs we could open”, HTTP codes, Unpaywall, script names, token estimates, “this is not an N-paper review”, paths to `prisma.md`.
 - Instructions to the reader about the workflow. PRISMA counts belong in Methods (briefly) and in `prisma.md`, not in the scientific argument.
 
-Open scientific gaps (no human inhaled liraglutide PK; no second T1D AID RCT in the set; hepatic GLP-1 action still debated) **are** in scope for Discussion — as unanswered biology/clinical questions, not as download failures.
+Open scientific gaps (a missing human PK study; a protocol without outcomes; a mechanism still debated) **are** in scope for Discussion — as unanswered questions in the field, not as download failures.
 
 Cite included papers in the text as Author Year or [n] keyed to the References list. **Every factual sentence must map to an extracted note, the table, or (for Methods counts only) the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so as an evidence limitation — do not write as if a small slice were a complete field survey, and do not explain that limitation as a software or export problem.
 
@@ -106,9 +124,9 @@ Cite included papers in the text as Author Year or [n] keyed to the References l
 
 - **PhD-level argument, not a catalogue.** Topic sentences make claims about the set; papers are evidence for those claims. A reader should not be able to describe the article as “seven consecutive abstracts.”
 - **Follow the rationale.** If writing tempts you to add a theme the rationale marked as forced, don’t. Update the rationale first only when the notes/table actually support the change.
-- **Every included study appears in the argument.** Do not drop a paper because it is awkward (e.g. a PRO instrument beside an NMA).
+- **Every included study appears in the argument.** Do not drop a paper because it is awkward (e.g. a patient-reported instrument beside a network meta-analysis).
 - **Every claim is traceable** to a table row or note. If you can't point to which paper(s) support a sentence, cut it or label it as your inference (e.g. "This is our inference, not something any single paper states directly: ...").
-- **Do not overclaim.** One NMA is not “clinical efficacy of the class across diabetes.” Animal PK is not human bioavailability. A mechanistic probe is not an outcomes trial. Botanical GLP-1R agonism is not a licensed GLP-1 RA.
+- **Do not overclaim.** One network meta-analysis is not class-wide clinical efficacy. Animal pharmacokinetics are not human bioavailability. A mechanistic probe is not an outcomes trial. A botanical receptor study is not a licensed drug.
 - Do not invent citations, page numbers, or quotes. If you don't have an exact locator, cite the paper without fabricating one.
 - Name real disagreements (methods / population / endpoint). Do not smooth them into false consensus, and do not invent conflict where studies never measured the same thing.
 - Calibrate confidence to evidence volume: 1–2 papers is preliminary, not “the literature shows.”
@@ -135,7 +153,7 @@ python3 scripts/check_article.py \
   --table review/runs/<run-id>/table/literature-table.md
 ```
 
-If it fails, rewrite and run it again. Also grep the banned-flourish list in `review-prose`. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the Introduction does not teach the field, expand it. If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
+If it fails, rewrite and run it again. Also grep the banned-flourish list in `review-prose`. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the Introduction does not teach the field, expand it. If the body has no Markdown results table or no “Table 1” (or Table N) sentence, add both. If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
 
 ## Handoff
 

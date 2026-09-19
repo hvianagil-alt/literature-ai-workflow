@@ -53,3 +53,5 @@ See [`examples/literature-table.md`](../../../examples/literature-table.md) for 
 ## Handoff
 
 Once the table exists and the user has reviewed/corrected it (tables are good places for a human domain expert to catch errors — encourage a quick look before synthesis), move to the `synthesis-rationale` skill. **Do not skip to `report-writing`.** The sequence is table → synthesis-rationale (including targeted extra-paper retrieval for interpretation gaps) → updated table if new OA full texts were included → report → `article-qa`. The article must not be drafted until `review/runs/<run-id>/synthesis-rationale.md` (or `review/notes/_synthesis-rationale.md`) exists **and** section (g) of that file records the extra-retrieval attempt (or an explicit “no extra retrieval indicated”). Do not write the article from a `write_table.py` DRAFT.
+
+This extraction worksheet is **not** what goes inside `article.md`. The journal article curates numbered results tables (Table 1, …) from these rows and points to them in the prose (`review-prose`, Tables in the article). Do not paste this whole file into the manuscript.

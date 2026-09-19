@@ -30,10 +30,19 @@ Technical recall studies; creative-writing samples were out of scope.
 One record was excluded after the title screen.
 
 ## 3. Overall direction of the recall effect
-Outline-style notes increased 1-week free-recall scores by 18% versus free-form notes in undergraduates (N=40; p<0.05) [1]. A later meta-analysis of 12 earlier studies reported a small positive pooled effect (d=0.25; aggregate N≈900) with high heterogeneity [3]. Digital and paper structured notes both showed the same benefit in graduates (N=52), with no medium difference [4]. Taken together, these data suggest a small positive effect when domains are pooled. They cannot show that the effect is uniform across subjects.
+Outline-style notes increased 1-week free-recall scores by 18% versus free-form notes in undergraduates (N=40; p<0.05) [1]. A later meta-analysis of 12 earlier studies reported a small positive pooled effect (d=0.25; aggregate N≈900) with high heterogeneity [3]. Digital and paper structured notes both showed the same benefit in graduates (N=52), with no medium difference [4]. Primary endpoints for those four full texts are summarised in Table 1. Taken together, these data suggest a small positive effect when domains are pooled. They cannot show that the effect is uniform across subjects.
+
+**Table 1.** Included studies of structured versus unstructured notes (fictional).
+
+| Study | Design | Population (n) | Comparison | Primary endpoint | Result |
+|---|---|---|---|---|---|
+| Al Researcher 2021 [1] | between-subjects lab | undergraduates (40) | outline vs free-form | 1-week free recall | +18% (p<0.05) |
+| Bea Scholar 2022 [2] | mixed methods | two disciplines (85) | format × domain | STEM vs humanities recall | STEM null; humanities d=0.4 |
+| Chen Example 2023 [3] | meta-analysis | 12 studies (≈900) | structured vs unstructured | pooled d | d=0.25; high heterogeneity |
+| Dee Sample 2024 [4] | within-subjects | graduates (52) | digital vs paper structured | 1-week recall | no medium difference |
 
 ## 4. Domain as a moderator
-No significant format effect was found for STEM material in a mixed-methods sample of 85 students, while a moderate humanities effect was reported (d=0.4) [2]. That STEM-null sits beside the pooled d in [3], which did not test the split. The tension is population and endpoint mix, not a direct replication failure.
+No significant format effect was found for STEM material in a mixed-methods sample of 85 students, while a moderate humanities effect was reported (d=0.4) [2]. That STEM-null sits beside the pooled d in Table 1 [3], which did not test the split. The tension is population and endpoint mix, not a direct replication failure.
 
 ## 5. What this literature still lacks
 Semester-long retention was not measured. K–12 learners were not sampled. The STEM split remains a single-study observation.

@@ -127,6 +127,22 @@ Right (scientific article):
 
 Weave studies that share a question into one paragraph. Keep design, n, and units. When a number is missing, write **“sample size was not reported”** (or equivalent), never “the extracted lead does not state n.”
 
+## Tables in the article
+
+Put **numbered Markdown tables** in `article.md` the way a journal editor would: a caption, columns that a reader can scan, and a sentence in the Results that points at the table.
+
+- Number them **Table 1**, **Table 2**, … Caption on the line above: `**Table 1.** Primary endpoint results in the included trials.`
+- Typical columns (adapt to the topic): Study / design / population / n / intervention or comparator / primary endpoint / result (with units). Name the paper in the first column (Author Year plus [n]).
+- **Point to the table from the prose.** Do not leave a naked grid. Write the scientific claim, then send the reader to the table, then keep discussing what the numbers mean:
+
+  > Time in the 3.9–10.0 mmol·L⁻¹ range rose with adjunct weekly semaglutide versus placebo (Table 1) [1].
+
+  > Outline notes raised 1-week recall by 18% versus free-form notes in one laboratory sample (N=40; Table 1) [1].
+
+- Put in the table **everything a reader needs to compare those rows**: n, design, endpoint, the numeric result. The surrounding paragraph still states the claim; the table is not a substitute for sentences, and the sentences are not a substitute for the table.
+- Use more than one table when the constructs differ (for example Table 1 human outcomes, Table 2 animal pharmacokinetics). Do **not** paste the whole screening worksheet from `literature-table.md` into the article — that file is the extraction grid. In-article tables are curated results displays.
+- Methods may mention that included studies are listed in Table 1. Discussion may say “as summarised in Table 1” when interpreting. Do not invent numbers that are only in the table; every cell must already appear in a note.
+
 **Do not put in the article body:**
 
 - reviewer stage directions: *this Introduction is that map*; *Section 3.1 reports*; *the paper’s job is*; *in this set*; *as read*; *in the extracts used here*

@@ -1,6 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
+import re
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -41,6 +42,22 @@ class CheckExtractionTests(unittest.TestCase):
             with patch.object(sys, "argv", ["check_extraction.py", "--notes-dir", tmp]):
                 self.assertEqual(check_extraction.main(), 1)
 
+    def test_underscore_sidecar_files_are_not_treated_as_notes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            notes = Path(tmp)
+            (notes / "good.md").write_text(
+                (FIX / "good-note.md").read_text(encoding="utf-8"), encoding="utf-8"
+            )
+            (notes / "_synthesis-rationale.md").write_text(
+                "# Synthesis rationale\n\nNot a paper note.\n", encoding="utf-8"
+            )
+            (notes / "_excluded-and-not-retrieved.md").write_text(
+                "# Excluded\n\nLog, not a paper.\n", encoding="utf-8"
+            )
+            paths = check_extraction.included_note_paths(notes, None)
+            self.assertEqual([p.name for p in paths], ["good.md"])
+            self.assertEqual(check_extraction.check_note(notes / "good.md"), [])
+
 
 class CheckArticleTests(unittest.TestCase):
     def test_bad_article_fails(self):
@@ -61,3 +78,20 @@ class CheckArticleTests(unittest.TestCase):
         text = (FIX / "good-article.md").read_text(encoding="utf-8")
         problems = check_article.check(text, None, short=False)
         self.assertTrue(any("word count" in p for p in problems))
+
+    def test_missing_markdown_table_and_callout_fail(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        stripped = "\n".join(
+            ln for ln in text.splitlines() if not ln.strip().startswith("|")
+        )
+        stripped = re.sub(r"\bTable\s+\d+\b", "the results", stripped)
+        problems = check_article.check(stripped, None, short=True)
+        self.assertTrue(any("markdown results table" in p.lower() for p in problems), problems)
+        self.assertTrue(any("table n callout" in p.lower() for p in problems), problems)
+
+    def test_table_without_in_text_callout_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        stripped = re.sub(r"\bTable\s+\d+\b", "the grid", text)
+        problems = check_article.check(stripped, None, short=True)
+        self.assertTrue(any("table n callout" in p.lower() for p in problems), problems)
+        self.assertFalse(any("markdown results table" in p.lower() for p in problems), problems)

@@ -8,6 +8,8 @@ Usage:
     python3 scripts/check_article.py --article review/runs/<id>/article.md \\
         --table review/runs/<id>/table/literature-table.md
     python3 scripts/check_article.py --article path.md --short
+
+Fails when the body has no Markdown pipe table or no in-text "Table N" callout.
 """
 
 from __future__ import annotations
@@ -53,6 +55,10 @@ INTRO_BAD_OPENERS = (
 
 REQUIRED_HEADINGS = ("abstract", "introduction", "discussion", "conclusions", "references")
 
+TABLE_CALLOUT = re.compile(r"\bTable\s+\d+\b", re.I)
+TABLE_ROW = re.compile(r"^\s*\|.+\|\s*$")
+TABLE_SEP = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$")
+
 
 def body_before_references(text: str) -> str:
     parts = re.split(r"^##\s+References\s*$", text, maxsplit=1, flags=re.I | re.M)
@@ -88,6 +94,19 @@ def et_al_openers(text: str) -> int:
         if re.match(r"^[A-Z][A-Za-z\-]+ et al\.", line):
             n += 1
     return n
+
+
+def has_markdown_table(text: str) -> bool:
+    """True if the text contains a GitHub-flavoured Markdown table (header, sep, row)."""
+    lines = text.splitlines()
+    for i in range(len(lines) - 2):
+        if (
+            TABLE_ROW.match(lines[i])
+            and TABLE_SEP.match(lines[i + 1])
+            and TABLE_ROW.match(lines[i + 2])
+        ):
+            return True
+    return False
 
 
 def papers_from_table(table_md: str) -> list[tuple[str, str]]:
@@ -160,6 +179,14 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     for pat in (r"\bprisma\.md\b", r"\bfetch-log\b", r"\bnot retrieved\b"):
         if re.search(pat, disc, re.I):
             problems.append(f"Discussion/Conclusions contains process talk: {pat}")
+    if not has_markdown_table(body):
+        problems.append(
+            "missing Markdown results table (put a |header| table in the article body)"
+        )
+    if not TABLE_CALLOUT.search(body):
+        problems.append(
+            "missing in-text Table N callout (e.g. 'Table 1 summarises…')"
+        )
     return problems
 
 

@@ -5,6 +5,9 @@ The first-run article fails when the writer treats notes_from_text.py output as
 finished. This gate exists so a later sample cannot reach the table or article
 until every included note has claim-ready facts read from the PDF.
 
+Files that start with ``_`` (synthesis rationale, exclusion logs) are not notes
+and are skipped.
+
 Usage:
     python3 scripts/check_extraction.py --notes-dir review/runs/<id>/notes
     python3 scripts/check_extraction.py --notes-dir review/notes \\
@@ -36,6 +39,17 @@ SKIP_NOTE = re.compile(
     r"full text \*\*(?:excluded|not retrieved)\*\*",
     re.I | re.M,
 )
+SKIP_NOTE_NAMES = {"readme.md"}
+
+
+def is_paper_note(path: Path) -> bool:
+    """Skip rationale, exploration, and exclusion logs that live beside notes."""
+    name = path.name
+    if name.startswith("_"):
+        return False
+    if name.lower() in SKIP_NOTE_NAMES:
+        return False
+    return True
 
 
 def included_note_paths(notes_dir: Path, screening: dict | None) -> list[Path]:
@@ -43,10 +57,10 @@ def included_note_paths(notes_dir: Path, screening: dict | None) -> list[Path]:
         paths = []
         for rid in screening["included"]:
             p = notes_dir / f"{rid}.md"
-            if p.exists():
+            if p.exists() and is_paper_note(p):
                 paths.append(p)
         return paths
-    return sorted(notes_dir.glob("*.md"))
+    return sorted(p for p in notes_dir.glob("*.md") if is_paper_note(p))
 
 
 def check_note(path: Path) -> list[str]:

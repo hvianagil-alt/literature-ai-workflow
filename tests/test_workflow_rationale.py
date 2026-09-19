@@ -40,6 +40,10 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("This review discusses", text)
         self.assertIn("check_article.py", text)
         self.assertIn("article-qa", text)
+        self.assertIn("In-article results tables", text)
+        self.assertEqual(text.count("## Output"), 1)
+        self.assertNotIn("glycaemia, safety, utilisation", text)
+        self.assertNotIn("hepatic GLP-1", text)
 
     def test_review_prose_skill_exists(self):
         text = (ROOT / ".cursor/skills/review-prose/SKILL.md").read_text(
@@ -60,6 +64,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Taken together", text)
         self.assertIn("Headings name topics", text)
         self.assertIn("This review discusses", text)
+        self.assertIn("Tables in the article", text)
+        self.assertIn("Table 1", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -71,6 +77,19 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("check_extraction.py", text)
         self.assertIn("article-qa", text)
         self.assertLess(text.find("### 8. Quality gate"), text.find("### 9. Iterate"))
+        self.assertIn("numbered Markdown results tables", text)
+
+    def test_readme_is_cloneable_and_lists_all_skills(self):
+        text = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn("github.com/hvianagil-alt/literature-ai-workflow", text)
+        self.assertNotIn("<this-repo-url>", text)
+        self.assertIn("cd literature-ai-workflow", text)
+        self.assertNotIn("cd literature-ai\n", text)
+        self.assertIn("review-prose", text)
+        self.assertIn("article-qa", text)
+        self.assertIn("This repo has ten", text)
+        self.assertNotIn("This repo has eight", text)
+        self.assertIn("Table 1", text)
 
     def test_synthesis_rationale_skill_exists_with_quality_bar(self):
         text = (ROOT / ".cursor/skills/synthesis-rationale/SKILL.md").read_text(
@@ -88,12 +107,14 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("hard sequencing gate", text.lower())
         self.assertIn("review kind", text)
         self.assertIn("topic or argument", text)
+        self.assertIn("Table 1", text)
 
     def test_article_qa_skill_exists(self):
         text = (ROOT / ".cursor/skills/article-qa/SKILL.md").read_text(encoding="utf-8")
         self.assertIn("check_article.py", text)
         self.assertIn("check_extraction.py", text)
         self.assertIn("not done", text.lower())
+        self.assertIn("Table 1", text)
 
     def test_example_journal_article_passes_short_qa(self):
         import sys

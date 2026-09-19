@@ -4,7 +4,7 @@ These show the **destination** of the workflow before you've run it on real pape
 
 - [`literature-table.md`](literature-table.md) — a sample comparison table.
 - [`synthesis-rationale.md`](synthesis-rationale.md) — a sample interpretation file (including a gap-retrieval log) written **before** the article.
-- [`sample-article.md`](sample-article.md) — the default destination: a fictional **journal** review (claim-first sentences, phenomenon-first Introduction).
+- [`sample-article.md`](sample-article.md) — the default destination: a fictional **journal** review (claim-first sentences, phenomenon-first Introduction, numbered results tables with in-text “Table 1” callouts).
 - [`sample-report.md`](sample-report.md) — a short lab-report spine, only if the user asked for that instead of an article.
 - [`protocol.md`](protocol.md) — question, inclusion, and “just go” defaults written down at the start of a run.
 

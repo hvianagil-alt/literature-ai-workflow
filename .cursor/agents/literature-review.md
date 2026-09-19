@@ -18,7 +18,7 @@ Follow `AGENTS.md` step by step:
 5. Extract each in-scope paper into `review/notes/`. Fill Claim-ready facts from the PDF. Run `scripts/check_extraction.py` until it passes. Do not leave mechanical first-pass stubs.
 6. Build the literature table from those verified notes — not from a `write_table.py` DRAFT.
 7. **Synthesis rationale + targeted extra retrieval — mandatory sequencing gate.** Write `synthesis-rationale.md`, list interpretation gaps, attempt OA retrieval for each gap, extract any new full texts, update the table. Never invent citations. See `.cursor/skills/synthesis-rationale/SKILL.md`. **Do not write the article before this is done.**
-8. Write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`.
+8. Write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`. Put numbered Markdown results tables in the article and mention them from the Results (“Table 1 summarises…”).
 9. **Quality gate — mandatory.** Run `.cursor/skills/article-qa/SKILL.md` (`check_extraction.py` then `check_article.py`). Rewrite until both exit 0. Do not tell the user the article is done while they fail. Do not rewrite a previous sample’s manuscript unless asked.
 10. Offer to iterate.
 

@@ -18,8 +18,8 @@ If you've never used Cursor or an AI coding tool before, here's the entire menta
 1. **Get this repo onto your machine.**
 
    ```bash
-   git clone <this-repo-url>
-   cd literature-ai
+   git clone https://github.com/hvianagil-alt/literature-ai-workflow.git
+   cd literature-ai-workflow
    ```
 
 2. **Drop your PDFs into `papers/`.** Subfolders are fine. See [`papers/README.md`](papers/README.md) if you're wondering whether this will accidentally publish your papers (short answer: no, they're excluded from git by default).
@@ -41,7 +41,7 @@ For each review you run, in a `review/` folder that appears once you start:
 - **Per-paper notes** (`review/notes/`) — one Markdown file per paper: research question, methods, sample/data, findings, limitations, and why it matters to *your* question.
 - **A literature table** (`review/table/literature-table.md`) — one row per paper, same columns, so you can actually compare them side by side.
 - **A synthesis rationale** (`review/runs/<id>/synthesis-rationale.md`) — what each study measured, which themes the data can support, interpretation gaps, a log of extra OA papers sought/found/not retrieved, and the outline of the review. Written before the article.
-- **A synthesized report** (`review/report/final-report.md`) — a scientific argument that follows that outline, not a catalogue of paper summaries. Token estimates stay in `usage-log.md`.
+- **A synthesized journal article** (`review/report/final-report.md`, and `review/runs/<id>/article.md` on a run) — a scientific argument that follows that outline, not a catalogue of paper summaries. Results live in numbered Markdown tables (Table 1, …) that the prose points to. Token estimates stay in `usage-log.md`.
 
 Want to see what these look like before running anything? Check [`examples/`](examples/README.md) — a fully worked example built from clearly fictional placeholder papers (no real citations, so nothing there could be mistaken for actual research).
 
@@ -55,7 +55,7 @@ This is deliberately a conversation, not a batch job:
 4. **Extract** — one structured note per in-scope paper, including claim-ready facts (design, n, endpoint, result). A first automatic stub is not a finished note.
 5. **Table** — all notes compared side by side, rewritten from those facts.
 6. **Interpret + fetch extra context (always, before the article)** — a rationale file stating what each study measured, which themes the data support, real disagreements, what the sample cannot answer, and the outline of the review. For each interpretation gap (a striking result that cannot be put in perspective, conflicting findings, a missing comparator, or a paper that could not be retrieved), the AI must try to find more **public open-access** papers, log what was sought / found / not retrieved, and update the table. It will not invent citations or bypass paywalls. If nothing extra can be retrieved, it says so and leaves the gap open.
-7. **Article** — a journal-style review that follows that outline, grounded in the (updated) table. Token estimates stay in a separate usage log, not in the article.
+7. **Article** — a journal-style review that follows that outline, grounded in the (updated) table. Put numbered results tables in the Markdown manuscript and mention them from the text (“Table 1 summarises…”). Token estimates stay in a separate usage log, not in the article.
 8. **Check** — scripts confirm the notes are finished and the article reads like a paper. The AI should not say the review is done until those checks pass.
 
 Full detail lives in [`AGENTS.md`](AGENTS.md), which is the file the AI actually reads to run this.
@@ -121,7 +121,7 @@ python3 scripts/write_prisma.py --run-dir review/runs/my-review
 
 ## How it works (for the curious)
 
-Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has eight:
+Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has ten:
 
 | Skill | What it does |
 |---|---|
@@ -129,6 +129,8 @@ Cursor supports **skills**: small instruction files that tell the AI exactly how
 | [`literature-table`](.cursor/skills/literature-table/SKILL.md) | Turns notes into a comparable table |
 | [`synthesis-rationale`](.cursor/skills/synthesis-rationale/SKILL.md) | Interprets the set, lists interpretation gaps, and attempts targeted OA extra retrieval before any article is written |
 | [`report-writing`](.cursor/skills/report-writing/SKILL.md) | Writes the review from that rationale — PhD-level argument, not a catalogue of abstracts |
+| [`review-prose`](.cursor/skills/review-prose/SKILL.md) | Genre, architecture, and voice: claim-first sentences, teaching Introduction, in-article results tables |
+| [`article-qa`](.cursor/skills/article-qa/SKILL.md) | Runs the extraction and article checks; the review is not done while they fail |
 | [`related-paper-exploration`](.cursor/skills/related-paper-exploration/SKILL.md) | Opt-in browse *or* mandatory gap-driven OA retrieval; never invents citations |
 | [`bib-import`](.cursor/skills/bib-import/SKILL.md) | Parses a Scopus/BibTeX export into a screening catalog |
 | [`oa-fetch`](.cursor/skills/oa-fetch/SKILL.md) | Retrieves public open-access PDFs for those DOIs |
@@ -139,6 +141,10 @@ Cursor supports **skills**: small instruction files that tell the AI exactly how
 ## Contributing
 
 Issues and pull requests welcome — especially if you hit a workflow edge case (a PDF type that trips things up, a discipline whose literature table needs different columns, etc.).
+
+## Repeatable by design
+
+Clone this repo, drop *your* PDFs (or a Scopus `.bib`), open it in Cursor, and say “Review my papers.” After you confirm scope, the agent should extract claim-ready notes, build the comparison table, write a synthesis rationale (and try public open-access extra papers for gaps), write a journal article with numbered results tables that the prose points to, and pass `scripts/check_extraction.py` plus `scripts/check_article.py`. It should not rewrite a previous sample’s `article.md`. Token estimates stay in `usage-log.md`. PDFs stay gitignored. If a check fails, the article is not done.
 
 ## License
 

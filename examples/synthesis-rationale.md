@@ -37,7 +37,14 @@ Semester-long retention; K–12 learners; whether the STEM split replicates.
 
 ## (e) Outline of the review
 
-1. Scope. 2. Overall direction of effect (Al, Chen, Dee). 3. Domain as a moderator (Bea vs Chen). 4. Medium (Dee). 5. Gaps and implications.
+**Kind:** narrative journal review (not a systematic review).
+
+1. Introduction — delayed recall as the phenomenon; tools (outline, free-form, paper, screen); aim last.
+2. Brief Methods.
+3. Overall direction of the recall effect (Al, Chen, Dee), with **Table 1** (design, n, endpoint, result).
+4. Domain as a moderator (Bea vs Chen).
+5. What this literature still lacks.
+6. Discussion / Conclusions.
 
 ## (f) Interpretation gaps
 
