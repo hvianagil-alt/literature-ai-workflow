@@ -91,7 +91,7 @@ See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fict
 
 ### Results sections (thematic §§3–N)
 
-Each included paper must be **discussed as science**, not name-checked. For every study, state (as far as the note/PDF extract supports): design, model or population, n if extracted, intervention/comparator, primary finding with units, and what that design cannot show. Group by theme, but do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing from the extract, say the extract does not state it — do not invent it.
+Each included paper must appear inside **scientific sentences**, not as a stack of “Author et al. did X” abstracts. For every study, the prose must still carry design, model or population, n if reported, intervention/comparator, primary finding with units, and what that design cannot show — but the **claim comes first** and the citation supports it (see `review-prose`, Sentence construction). Group by theme. Do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing, write that it was **not reported**; do not write “the extracted lead omits n,” and do not invent the number.
 
 ### Discussion (journal article) — write like a published paper
 

@@ -45,6 +45,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("stands as", text)
         self.assertIn("delve", text)
         self.assertIn("Not only X, but also Y", text)
+        self.assertIn("Sentence construction", text)
+        self.assertIn("Author et al.", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -133,6 +135,26 @@ class FullScopusRunArticleTests(unittest.TestCase):
         ):
             self.assertNotIn(banned, lowered)
         self.assertNotIn("Additionally,", body)
+        import re
+        for banned_voice in (
+            r"extracted lead",
+            r"\bin this set\b",
+            r"this introduction is that map",
+            r"the paper's job",
+            r"extracts used here",
+        ):
+            self.assertIsNone(re.search(banned_voice, lowered))
+        # Claim-first: results sections must not be a stack of "Author et al. did".
+        results = body.split("## 3. Clinical incretin use", 1)[1].split("## 7. Discussion", 1)[0]
+        et_al_openers = 0
+        for para in results.split("\n\n"):
+            line = para.strip().split("\n", 1)[0]
+            if line.startswith("et al.") or (
+                "et al." in line[:80]
+                and re.match(r"^[A-Z][a-zA-Z\-]+ et al\.", line)
+            ):
+                et_al_openers += 1
+        self.assertLess(et_al_openers, 4)
 
 
 if __name__ == "__main__":

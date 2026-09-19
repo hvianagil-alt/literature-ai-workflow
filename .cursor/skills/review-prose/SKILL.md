@@ -74,6 +74,28 @@ LLMs regress to generic, promotional, statistically common phrasing. Scientific 
 
 After a draft, grep the article for the banned flourish list and cut hits that are not technical terms (e.g. “landscape” in ecology is fine; “the therapeutic landscape” is not).
 
+## Sentence construction (this is the article)
+
+`article.md` must read as a **published scientific review**, not as a catalogue of notes. The grammatical subject of a sentence is a result, a mechanism, or a clinical problem. The citation is evidence, usually in brackets at the end of the clause. Authors’ names may appear, but **do not start three consecutive paragraphs with “Author et al. [verb].”**
+
+Wrong (file-card / lab-log):
+
+> Pasqua et al. randomized 28 adults. Twenty-four completed both periods. The trial is small. It is the only blinded experiment in this set.
+
+Right (scientific article):
+
+> Adjunct weekly semaglutide increased time in the 3.9–10.0 mmol·L⁻¹ range by 4.8 percentage points versus placebo in adults using automated insulin delivery (28 randomized, 24 completers; 74.2% versus 69.4%; *P* = 0.006), without increasing time below 3.9 mmol·L⁻¹ [1].
+
+Weave studies that share a question into one paragraph. Keep design, n, and units. When a number is missing, write **“sample size was not reported”** (or equivalent), never “the extracted lead does not state n.”
+
+**Do not put in the article body:**
+
+- reviewer stage directions: *this Introduction is that map*; *Section 3.1 reports*; *the paper’s job is*; *in this set*; *as read*; *in the extracts used here*
+- extraction artefacts: *extracted lead*; *extracted abstract*; *mechanical first-pass*
+- talk about the writing of the review except a conventional aim sentence at the end of the Introduction and a conventional Methods paragraph
+
+The Introduction teaches physiology in the same voice as a journal background section, not by addressing “a reader who does not work on this.” Methods may state eligibility briefly, as other reviews do. Discussion interprets findings. It does not explain how the reviewer organised files.
+
 ## Handoff
 
 `report-writing` executes the outline from `synthesis-rationale` **in this voice**. If the draft sounds like a chatbot or a methods log, rewrite it before calling the article done.

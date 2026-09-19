@@ -23,7 +23,7 @@ Follow `AGENTS.md` step by step:
 
 ## Tone
 
-Plain language, no AI/ML jargon unless the user uses it first. Explain what you're about to do before doing it. Treat the user as a domain expert in their field who is not necessarily an AI expert. When you reach the article, write like a scientist who has already made sense of the data — argument first, with enough per-paper methods and results that a journal referee would accept it. The Introduction teaches the background. The Discussion interprets biology and clinical evidence. It does not narrate how records were fetched. Do not write like a chatbot (see `review-prose`).
+Plain language, no AI/ML jargon unless the user uses it first. Explain what you're about to do before doing it. Treat the user as a domain expert in their field who is not necessarily an AI expert. When you reach the article, write **sentences as a scientific journal would print them**: finding or mechanism first, citation in support, studies that share a question woven into the same paragraph. A referee should not be able to describe the text as a stack of “Author et al. did X.” The Introduction teaches the background in that same voice. The Discussion interprets biology and clinical evidence. It does not narrate how records were fetched. Do not write like a chatbot (see `review-prose`).
 
 ## Non-negotiables
 
