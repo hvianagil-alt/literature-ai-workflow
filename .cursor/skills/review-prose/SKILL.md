@@ -1,11 +1,13 @@
 ---
 name: review-prose
-description: "How to write a journal review article in human scientific prose: review-article job (not a primary research paper), introduction that teaches the field, Discussion that synthesises, and a ban on LLM writing tells. Read before drafting or rewriting article.md."
+description: "How to write a journal review article in human scientific prose: match the spine to the review kind, teach in the Introduction, claim-first sentences, Discussion that synthesises, and a ban on LLM writing tells. Read before drafting or rewriting article.md."
 ---
 
 # Review-article craft and human prose
 
-Read this **before** drafting or rewriting `article.md` / `final-report.md`. Pair with `report-writing`. This file is about **genre and voice**. It is not a license to invent citations.
+Read this **before** drafting or rewriting `article.md` / `final-report.md`. Pair with `report-writing`. This file is about **genre, architecture, and voice**. It is not a license to invent citations.
+
+When published reviews are read **to learn how to write**, copy **form only**. Do not import their findings, quotes, or scientific examples into `article.md`.
 
 ## What a review article is
 
@@ -29,20 +31,57 @@ Kinds that appear in this workflow:
 
 Unless the user asks for a short note, a full journal manuscript should be long enough to teach the background and treat every included study. Aim for **at least ~6,000 words of body text** (about 20 pages in a typical Word document: 12-pt serif, double-spaced, ~300 words/page). Do not pad with repetition, slogans, or process talk. Add length in the Introduction (teaching) and in per-paper methods/results.
 
+### Match the spine to the review kind
+
+Published reviews do not all share one outline. Choose the spine that matches **what this article is**, then keep it.
+
+**Systematic review / meta-analysis** (only if the user asked, or you are pooling compatible numbers from included papers):
+
+- Structured abstract: Background / Methods / Results / Conclusions.
+- IMRaD body: Introduction → Methods (search, eligibility, selection, extraction, quality, statistics) → Results (flow, characteristics, primary, safety, secondary) → Discussion → Conclusion.
+
+**Narrative / literature review** (default journal article in this workflow):
+
+- Unstructured abstract (problem → tension → calibrated findings → what they do not imply).
+- Keywords after the abstract.
+- Optional bullet takeaways (**Key Summary Points**): each bullet is a claim plus its evidence grade, not a slogan.
+- Introduction that teaches, ending in one aim or thesis paragraph.
+- Brief Methods (sources, dates, eligibility) — one short section, not a pipeline memoir.
+- Numbered **thematic** body sections; nested subheadings when a mechanism has parts.
+- Discussion and Conclusions as interpretation and numbered scientific next steps.
+
+**Physiology / mechanisms review:**
+
+- Introduction opens on the organismal problem in present tense.
+- Deep nested topic headings (2.1.1).
+- Journals sometimes omit Methods; in this workflow still keep a brief Methods if a database was screened.
+- Close with emerging research directions and critical gaps as numbered scientific questions (First, … Finally).
+
+Do not force full IMRaD Results (“study characteristics / results / synthesis”) onto a narrative review. Do not omit eligibility entirely from a screened bibliographic export.
+
 ### Introduction (mandatory teaching section)
 
-A reader who is expert in an adjacent field but not this one must be able to follow §§3–N after the Introduction. Cover, with citations to included papers where they state it:
+Write it in this **order**. A reader expert in an adjacent field but not this one must be able to follow §§3–N afterwards.
 
-- physiology or technology the later sections assume (e.g. incretin effect, peptide gut barriers, what an automated insulin delivery system is);
-- why the clinical problem exists (what current therapy already does and still fails);
-- the debates the Discussion will return to;
-- a last paragraph that states the **aim of this review** (manageable scope, recent work, what is in vs out).
+1. **Open on the phenomenon, present tense.** The first sentence is biology or the clinical problem. Not “This review discusses…”. Not “In recent years, X has gained increasing attention.”
+2. Teach the physiology or technology later sections assume (e.g. incretin effect, peptide gut barriers, what an automated insulin delivery system is), with citations to included papers where they state it.
+3. Why the clinical problem exists: what current therapy already does and still fails.
+4. The controversy or poorly mapped region the Discussion will return to.
+5. **Last paragraph only:** one conventional **aim** or **central argument** (“The aim of this review is…” / “The central argument of this review is…”). The phrase “this review” belongs here, not in the opening sentence.
 
-Do not dump screening theatre into the Introduction. Do not write “this paper stands as a testament to…” or similar.
+Do not dump screening theatre into the Introduction. Do not write “this paper stands as a testament to…” or similar. Do not preview every later heading as a table of contents.
 
 ### Abstract
 
-Topic; main empirical results with n and units from included papers; what those results do **not** imply; one implication for practice or next measurement. No workflow, no “OA export.”
+Write it in this **order**:
+
+1. Established fact or clinical/biological problem.
+2. Tension: what existing coverage misses, or two signals that do not point the same way (*yet…*, *at the same time…*).
+3. Calibrated results from the included papers (design + n + units; name the strongest evidence as strongest).
+4. What those results do **not** imply (observational ≠ guideline; animal ≠ approval; dual effects are not uniformly beneficial).
+5. One implication for practice or next measurement.
+
+Keywords after the abstract. No workflow, no “OA export,” no table of contents. Use a structured abstract only when the article itself is a systematic review or meta-analysis.
 
 ### Discussion (see also report-writing)
 
@@ -95,6 +134,23 @@ Weave studies that share a question into one paragraph. Keep design, n, and unit
 - talk about the writing of the review except a conventional aim sentence at the end of the Introduction and a conventional Methods paragraph
 
 The Introduction teaches physiology in the same voice as a journal background section, not by addressing “a reader who does not work on this.” Methods may state eligibility briefly, as other reviews do. Discussion interprets findings. It does not explain how the reviewer organised files.
+
+## Headings and paragraphs
+
+**Headings name topics or arguments, never papers.** Wrong: `3.1 Smith et al. (2024)`. Right: `3.1 Human outcome evidence`, `3.2 Biologic rationale`, `3.3 Limits to mechanistic inference`, `3.4 What this literature still lacks`. Nested numbering is appropriate when a mechanism has parts.
+
+Inside a theme:
+
+- The topic sentence is a claim or a working model, not a citation list.
+- Rank the evidence in the same sentence: preclinical versus human; trial versus retrospective; “the only direct clinical study…”.
+- Use contrast where the data split: *However*, *By contrast*, *At the same time*.
+- Close a run of studies with a synthesis line: *Taken together, these data suggest…*
+- End the subsection by naming what that heading cannot show.
+- Present tense for established physiology; past tense for a specific published experiment.
+
+## Conclusions
+
+Numbered scientific directions a trialist or experimentalist could actually run (First… Finally…), plus unmeasured endpoints. Not the slogan “more research is needed.” Not screening counts. If two readings of the data remain plausible, keep both and say which one the evidence favours.
 
 ## Handoff
 

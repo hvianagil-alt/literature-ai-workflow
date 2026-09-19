@@ -49,7 +49,11 @@ Use this structure (keep (a)–(e) even if you also write a prose summary; repor
 <Honesty list: missing comparator, mechanism, population, or unread eligible record.>
 
 ## (e) Outline of the review
-<Numbered section plan for the article. Topic sentences, which papers appear where.
+<Numbered section plan for the article. First name the review kind (narrative,
+ systematic, physiology/mechanisms, or meta-analysis) so report-writing can
+ match the spine. Headings must be topic or argument names, not author names.
+ Note that the Introduction opens on the phenomenon and ends with an aim or
+ central-argument paragraph. Topic sentences, which papers appear where.
  Do not draft the article here.>
 
 ## (f) Interpretation gaps (must attempt retrieval)
@@ -135,4 +139,4 @@ If the network is down, the API returns nothing, or no OA PDF exists: **say so**
 
 ## Handoff
 
-Only after **Decision to write** is filled: read `review-prose`, then use the `report-writing` skill. That skill must read this file and use section **(e)** as the article outline. The article is a secondary review: the Introduction must teach the field, body text should reach ~6,000 words (~20 Word pages) unless the user asked for a short note, and chatbot flourishes are banned (`review-prose`). The article must be a PhD-quality, argument-driven review of **all** in-scope evidence (original sample **plus** successfully retrieved gap-fill papers). Every included study is discussed with design and results. **Discussion and Conclusions are scientific interpretation** (mechanisms, pooling, clinical meaning, evidence limits). Do not put identification counts, fetch logs, HTTP errors, or token estimates in those sections. Remaining open **scientific** gaps must appear as unanswered questions, not as silent omissions. Do not put token estimates in this file or in the article.
+Only after **Decision to write** is filled: read `review-prose`, then use the `report-writing` skill. That skill must read this file and use section **(e)** as the article outline, **matching the spine to the review kind** named there. Headings in (e) are topic or argument names, not author names. The article is a secondary review: the Introduction must open on the phenomenon and teach the field, body text should reach ~6,000 words (~20 Word pages) unless the user asked for a short note, and chatbot flourishes are banned (`review-prose`). The article must be a PhD-quality, argument-driven review of **all** in-scope evidence (original sample **plus** successfully retrieved gap-fill papers). Every included study is discussed with design and results. **Discussion and Conclusions are scientific interpretation** (mechanisms, pooling, clinical meaning, evidence limits). Do not put identification counts, fetch logs, HTTP errors, or token estimates in those sections. Remaining open **scientific** gaps must appear as unanswered questions, not as silent omissions. Do not put token estimates in this file or in the article. Do not import findings from reviews that were read only to learn form.

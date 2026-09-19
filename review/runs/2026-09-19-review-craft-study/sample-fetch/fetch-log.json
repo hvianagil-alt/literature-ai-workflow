@@ -1,0 +1,123 @@
+[
+  {
+    "citekey": "Jia2025",
+    "doi": "10.3389/fcvm.2025.1633114",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/review-craft-study/Jia2025.pdf",
+    "http_calls": 5,
+    "source_url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1633114/pdf",
+    "attempted": [
+      "https://doi.org/10.3389/fcvm.2025.1633114",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12533278/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fcvm.2025.1633114/pdf"
+    ],
+    "bytes": 37209920
+  },
+  {
+    "citekey": "Beutler2026",
+    "doi": "10.1172/JCI194744",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/review-craft-study/Beutler2026.pdf",
+    "http_calls": 4,
+    "source_url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/194000/194744/JCI194744.v1.pdf",
+    "attempted": [
+      "http://www.jci.org/articles/view/194744/files/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12807470/pdf/",
+      "https://doi.org/10.1172/JCI194744"
+    ],
+    "bytes": 549300
+  },
+  {
+    "citekey": "Bair20262545",
+    "doi": "10.1007/s40123-026-01425-x",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/review-craft-study/Bair20262545.pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s40123-026-01425-x.pdf?error=cookies_not_supported&code=595257ec-3b6c-4ba4-806d-12df57addd8d",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s40123-026-01425-x.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13424029/pdf/",
+      "https://doi.org/10.1007/s40123-026-01425-x"
+    ],
+    "bytes": 611812
+  },
+  {
+    "citekey": "Fabiano2025182",
+    "doi": "10.4067/S0717-95022025000100182",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/review-craft-study/Fabiano2025182.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.scielo.cl/pdf/ijmorphol/v43n1/0717-9502-ijmorphol-43-01-182.pdf",
+    "attempted": [
+      "http://www.scielo.cl/pdf/ijmorphol/v43n1/0717-9502-ijmorphol-43-01-182.pdf",
+      "https://doi.org/10.4067/S0717-95022025000100182"
+    ],
+    "bytes": 1410090
+  },
+  {
+    "citekey": "Costa2025",
+    "doi": "10.3390/JCM14134619",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2077-0383/14/13/4619/pdf?version=1751265784",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12251260/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/JCM14134619",
+      "https://doi.org/10.3390/JCM14134619"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Dias2025",
+    "doi": "10.3390/obesities5040088",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2673-4168/5/4/88/pdf?version=1764669579",
+      "https://www.mdpi.com/resolver?doi=10.3390/obesities5040088",
+      "https://doi.org/10.3390/obesities5040088"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Albaghlany2026",
+    "doi": "10.1038/s41387-026-00426-w",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/review-craft-study/Albaghlany2026.pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41387-026-00426-w_reference.pdf?error=cookies_not_supported&code=f66ab4ff-07fd-4460-93f6-9e2ae91a0b73",
+    "attempted": [
+      "https://www.nature.com/articles/s41387-026-00426-w_reference.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13315620/pdf/",
+      "https://www.nature.com/articles/s41387-026-00426-w.pdf",
+      "https://www.nature.com/articles/s41387-026-00426-w",
+      "https://doi.org/10.1038/s41387-026-00426-w"
+    ],
+    "bytes": 1930470
+  },
+  {
+    "citekey": "Frey20261221",
+    "doi": "10.1080/14796694.2026.2654735",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://pubmed.ncbi.nlm.nih.gov/41930781/",
+      "https://doi.org/10.1080/14796694.2026.2654735"
+    ],
+    "bytes": 0
+  }
+]

@@ -1,11 +1,11 @@
 ---
 name: report-writing
-description: "Write a PhD-quality review from the synthesis rationale, literature table, and notes. Use only after synthesis-rationale.md exists. Normal journal spine; thematic sections from the rationale; no token meters in the article."
+description: "Write a PhD-quality review from the synthesis rationale, literature table, and notes. Use only after synthesis-rationale.md exists. Match the journal spine to the review kind; thematic argument headings; no token meters in the article."
 ---
 
 # Report Writing
 
-**Read `review-prose` first** (`.cursor/skills/review-prose/SKILL.md`). That file defines the genre (secondary review article, not a primary paper), the teaching Introduction, manuscript length (~6,000 body words / ~20 Word pages unless the user asked for a short note), and the ban on chatbot diction. This skill executes the outline from `synthesis-rationale.md` **in that voice**.
+**Read `review-prose` first** (`.cursor/skills/review-prose/SKILL.md`). That file defines the genre (secondary review article, not a primary paper), **how to match the spine to the review kind**, the teaching Introduction (phenomenon first, aim last), abstract order, heading and paragraph craft, manuscript length (~6,000 body words / ~20 Word pages unless the user asked for a short note), and the ban on chatbot diction. This skill executes the outline from `synthesis-rationale.md` **in that voice**. Do not import findings from reviews that were read only to learn form.
 
 Write the review as a scientific argument about **all** included studies, not a catalogue of abstracts and not a token/phase log. The argument was decided in `synthesis-rationale.md`.
 
@@ -63,27 +63,32 @@ If the rationale file is missing, **stop and write it first** (see the `synthesi
 
 See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fictional illustration of tone, not a license to skip the rationale file.
 
-**Journal-style review article** (when the user asked for an article, in-text citations, reference list): write `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md`. Use a **normal journal review spine**. Thematic subsections **must** come from rationale (e).
+**Journal-style review article** (when the user asked for an article, in-text citations, reference list): write `review/report/final-report.md` **and** copy it to `review/runs/<run-id>/article.md`. **Match the spine to the review kind** (`review-prose`). Default here is a narrative review with brief methods. Use full IMRaD Results only for a systematic review or meta-analysis. Thematic subsections **must** come from rationale (e) and must be **topic or argument titles**, never author names.
 
 ```markdown
 # <Title>
 
 ## Abstract
+<Problem → tension → calibrated findings → what they do not imply. See review-prose.>
 ## Keywords
 ## 1. Introduction
-<Must teach the physiology/technology later sections assume. See review-prose.
- A reader from an adjacent field should be able to follow §§3–N after this section.>
+<Present-tense phenomenon first. Teach physiology/technology later sections assume.
+ Last paragraph = aim or central argument. “This review” belongs there, not in sentence one.>
 ## 2. Methods
 ### 2.1 Search and sources
 ### 2.2 Eligibility
 ### 2.3 Study selection
+<Keep this short for a narrative review. Expand to PRISMA-complete methods only for SR/MA.>
 ## 3–N. Thematic sections from synthesis-rationale.md (e)
 <Each section is an argument that uses every relevant included paper.
+ Nested subheadings (3.1.1) when a mechanism has parts.
+ Allowed subsection names include limits to inference and what the literature still lacks.
  Do not use a generic "study characteristics / results / synthesis" split.
  Do not devote one numbered section to one paper unless that paper is the
  sole evidence for that construct — and then say so.>
 ## Discussion
 ## Conclusions
+<Numbered scientific directions (First… Finally…), not “more research is needed.”>
 ## References
 ```
 
@@ -91,7 +96,7 @@ See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fict
 
 ### Results sections (thematic §§3–N)
 
-Each included paper must appear inside **scientific sentences**, not as a stack of “Author et al. did X” abstracts. For every study, the prose must still carry design, model or population, n if reported, intervention/comparator, primary finding with units, and what that design cannot show — but the **claim comes first** and the citation supports it (see `review-prose`, Sentence construction). Group by theme. Do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing, write that it was **not reported**; do not write “the extracted lead omits n,” and do not invent the number.
+Each included paper must appear inside **scientific sentences**, not as a stack of “Author et al. did X” abstracts. For every study, the prose must still carry design, model or population, n if reported, intervention/comparator, primary finding with units, and what that design cannot show — but the **claim comes first** and the citation supports it (see `review-prose`, Sentence construction). Group by theme. Rank evidence in the sentence (trial vs observational vs animal). After a cluster of studies, add a synthesis line (*Taken together…*). Close the subsection with what that heading cannot show. Do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing, write that it was **not reported**; do not write “the extracted lead omits n,” and do not invent the number.
 
 ### Discussion (journal article) — write like a published paper
 
@@ -140,7 +145,7 @@ Cite included papers in the text as Author Year or [n] keyed to the References l
 
 ## Prose check (mandatory before calling the article done)
 
-Grep the draft against the banned-flourish list in `review-prose`. Cut hits that are not technical terms. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the Introduction does not teach the field, expand it. If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
+Grep the draft against the banned-flourish list in `review-prose`. Cut hits that are not technical terms. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the Introduction does not teach the field, expand it. If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
 
 ## Handoff
 

@@ -65,7 +65,7 @@ Only after the rationale, the retrieval attempts, and the updated table exist ma
 
 ### 7. Write the journal review (only after step 6)
 
-Read `review-prose` **and** `report-writing` before drafting. `review-prose` is the genre and voice file (what a review article is; Introduction that teaches the field; human scientific prose; length). `report-writing` executes the outline from `synthesis-rationale.md` in that voice.
+Read `review-prose` **and** `report-writing` before drafting. `review-prose` is the genre, architecture, and voice file (match the spine to the review kind; Introduction opens on the phenomenon and ends with the aim; claim-first sentences; human scientific prose; length). `report-writing` executes the outline from `synthesis-rationale.md` in that voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
 
 Produce a **PhD-quality, argument-driven journal review** of **all** in-scope evidence (original sample plus any successfully retrieved gap-fill papers), with thematic subsections and numbered citations from retrieved full texts.
 
@@ -74,7 +74,7 @@ Produce a **PhD-quality, argument-driven journal review** of **all** in-scope ev
 
 The article is a **secondary** paper: it does not report a new experiment. It teaches the reader the physiology or technology later sections assume, then compares included results, names gaps, and says what to measure next.
 
-**Introduction must teach.** A reader expert in an adjacent field must be able to follow the later sections after reading it (e.g. what an incretin is, what automated insulin delivery is, why oral peptides fail, what an extra-glycaemic claim would even mean). Do not dump screening theatre into the Introduction.
+**Introduction must teach.** Open on the phenomenon in present tense (not “This review discusses…”). A reader expert in an adjacent field must be able to follow the later sections after reading it (e.g. what an incretin is, what automated insulin delivery is, why oral peptides fail, what an extra-glycaemic claim would even mean). Put the aim or central argument in the **last** paragraph of the Introduction. Headings name topics or arguments, not papers. Do not dump screening theatre into the Introduction.
 
 **Length.** Unless the user asked for a short note, aim for at least ~6,000 words of body text (about 20 pages in a typical double-spaced Word document). Add length by teaching in the Introduction and by giving each included study its design and results — not by slogans or process talk.
 

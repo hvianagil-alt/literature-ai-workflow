@@ -34,6 +34,9 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("usage-log.md", text)
         self.assertIn("review-prose", text)
         self.assertIn("6,000", text)
+        self.assertIn("Match the spine", text)
+        self.assertIn("Taken together", text)
+        self.assertIn("This review discusses", text)
 
     def test_review_prose_skill_exists(self):
         text = (ROOT / ".cursor/skills/review-prose/SKILL.md").read_text(
@@ -47,11 +50,20 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Not only X, but also Y", text)
         self.assertIn("Sentence construction", text)
         self.assertIn("Author et al.", text)
+        self.assertIn("Match the spine", text)
+        self.assertIn("present tense", text)
+        self.assertIn("central argument", text)
+        self.assertIn("form only", text)
+        self.assertIn("Taken together", text)
+        self.assertIn("Headings name topics", text)
+        self.assertIn("This review discusses", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         self.assertIn(".cursor/skills/review-prose/SKILL.md", text)
         self.assertIn("review-prose", text)
+        self.assertIn("form only", text)
+        self.assertIn("present tense", text)
 
     def test_synthesis_rationale_skill_exists_with_quality_bar(self):
         text = (ROOT / ".cursor/skills/synthesis-rationale/SKILL.md").read_text(
@@ -67,6 +79,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
             self.assertIn(heading, text)
         self.assertIn("article.md", text)
         self.assertIn("hard sequencing gate", text.lower())
+        self.assertIn("review kind", text)
+        self.assertIn("topic or argument", text)
 
 
 class MiniReviewRunTests(unittest.TestCase):
@@ -155,6 +169,32 @@ class FullScopusRunArticleTests(unittest.TestCase):
             ):
                 et_al_openers += 1
         self.assertLess(et_al_openers, 4)
+
+
+class ReviewCraftStudyTests(unittest.TestCase):
+    run_dir = ROOT / "review" / "runs" / "2026-09-19-review-craft-study"
+    article = ROOT / "review" / "runs" / "2026-09-19-scopus-oa-full" / "article.md"
+
+    def test_form_only_notes_exist(self):
+        readme = (self.run_dir / "README.md").read_text(encoding="utf-8")
+        notes = (self.run_dir / "structure-notes.md").read_text(encoding="utf-8")
+        for text in (readme, notes):
+            self.assertIn("form only", text.lower())
+        self.assertIn("Do **not** import", readme)
+        self.assertIn("Match kind", notes)
+        self.assertIn("present tense", notes.lower())
+        self.assertIn("central argument", notes.lower())
+
+    def test_craft_study_findings_were_not_imported_into_manuscript(self):
+        text = self.article.read_text(encoding="utf-8")
+        for banned in (
+            "Jia 2025",
+            "Beutler 2026",
+            "Bair 2026",
+            "Albaghlany",
+            "Fabiano 2025",
+        ):
+            self.assertNotIn(banned, text)
 
 
 if __name__ == "__main__":
