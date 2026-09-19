@@ -65,12 +65,20 @@ Only after the rationale, the retrieval attempts, and the updated table exist ma
 
 ### 7. Write the journal review (only after step 6)
 
-Use the `report-writing` skill to produce a **PhD-quality, argument-driven journal review** of **all** in-scope evidence (original sample plus any successfully retrieved gap-fill papers), with thematic subsections and numbered citations from retrieved full texts.
+Read `review-prose` **and** `report-writing` before drafting. `review-prose` is the genre and voice file (what a review article is; Introduction that teaches the field; human scientific prose; length). `report-writing` executes the outline from `synthesis-rationale.md` in that voice.
+
+Produce a **PhD-quality, argument-driven journal review** of **all** in-scope evidence (original sample plus any successfully retrieved gap-fill papers), with thematic subsections and numbered citations from retrieved full texts.
 
 - Run-based review: `review/runs/<run-id>/article.md`, also copied to `review/report/final-report.md` if useful.
 - Folder-of-PDFs review: `review/report/final-report.md`.
 
-Every included paper must be discussed with enough design and result detail to stand as a real review (not a citation dump). **Discussion and Conclusions must read like a published scientific paper:** interpret mechanisms, clinical meaning, why studies cannot be pooled, and evidence limitations. Do **not** put screening counts, “OA export”, “PDFs we could open”, fetch logs, HTTP errors, token estimates, phase logs, or script names in the Abstract, Discussion, or Conclusions — those belong in `prisma.md` and `usage-log.md`. Methods may state search and eligibility briefly. Every claim must be traceable to the table/notes (including gap-fill rows). Open **scientific** gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article.**
+The article is a **secondary** paper: it does not report a new experiment. It teaches the reader the physiology or technology later sections assume, then compares included results, names gaps, and says what to measure next.
+
+**Introduction must teach.** A reader expert in an adjacent field must be able to follow the later sections after reading it (e.g. what an incretin is, what automated insulin delivery is, why oral peptides fail, what an extra-glycaemic claim would even mean). Do not dump screening theatre into the Introduction.
+
+**Length.** Unless the user asked for a short note, aim for at least ~6,000 words of body text (about 20 pages in a typical double-spaced Word document). Add length by teaching in the Introduction and by giving each included study its design and results — not by slogans or process talk.
+
+Every included paper must be discussed with enough design and result detail to stand as a real review (not a citation dump). **Discussion and Conclusions must read like a published scientific paper:** interpret mechanisms, clinical meaning, why studies cannot be pooled, and evidence limitations. Do **not** put screening counts, “OA export”, “PDFs we could open”, fetch logs, HTTP errors, token estimates, phase logs, or script names in the Abstract, Discussion, or Conclusions — those belong in `prisma.md` and `usage-log.md`. Methods may state search and eligibility briefly. Every claim must be traceable to the table/notes (including gap-fill rows). Open **scientific** gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article.** Write in ordinary scientific English (`is`/`are`/`was`/`showed`); after drafting, grep the banned chatbot flourishes listed in `review-prose` and cut them.
 
 ### 8. Iterate
 
@@ -95,6 +103,7 @@ Literature reviews are rarely one-shot. After delivering the article, ask if the
 | Building the comparison table | `literature-table` | `.cursor/skills/literature-table/SKILL.md` |
 | Interpreting the sample + gap-fill retrieval | `synthesis-rationale` | `.cursor/skills/synthesis-rationale/SKILL.md` |
 | Writing the journal review | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
+| Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
 | Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
 | Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |

@@ -5,7 +5,9 @@ description: "Write a PhD-quality review from the synthesis rationale, literatur
 
 # Report Writing
 
-Write the review as a scientific argument about **all** included studies, not a catalogue of abstracts and not a token/phase log. The argument was decided in `synthesis-rationale.md`; this skill executes that outline.
+**Read `review-prose` first** (`.cursor/skills/review-prose/SKILL.md`). That file defines the genre (secondary review article, not a primary paper), the teaching Introduction, manuscript length (~6,000 body words / ~20 Word pages unless the user asked for a short note), and the ban on chatbot diction. This skill executes the outline from `synthesis-rationale.md` **in that voice**.
+
+Write the review as a scientific argument about **all** included studies, not a catalogue of abstracts and not a token/phase log. The argument was decided in `synthesis-rationale.md`.
 
 ## When to use this skill
 
@@ -69,6 +71,8 @@ See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fict
 ## Abstract
 ## Keywords
 ## 1. Introduction
+<Must teach the physiology/technology later sections assume. See review-prose.
+ A reader from an adjacent field should be able to follow §§3–N after this section.>
 ## 2. Methods
 ### 2.1 Search and sources
 ### 2.2 Eligibility
@@ -133,6 +137,10 @@ Cite included papers in the text as Author Year or [n] keyed to the References l
 | User wants the report before the table or rationale is reviewed | Warn that extraction errors will propagate; still write the rationale before the article. |
 | The topic needs more papers than are in `papers/` | That is rationale (f). Extra retrieval must already have been attempted (rationale g) before this skill runs. Remaining open gaps stay in the article. Do not pad with uncited memory. |
 | Extra papers were retrieved for a gap | They are in-scope evidence. Update the table first; then every such paper appears in the argument. Methods must say they were targeted OA additions, not part of the original database export. |
+
+## Prose check (mandatory before calling the article done)
+
+Grep the draft against the banned-flourish list in `review-prose`. Cut hits that are not technical terms. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the Introduction does not teach the field, expand it. If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
 
 ## Handoff
 

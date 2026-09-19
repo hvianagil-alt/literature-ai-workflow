@@ -63,8 +63,8 @@ Almost entirely **incommensurable designs**, not conflicting point estimates. Pa
 
 Argument: this OA export, after public-PDF retrieval, is a **translational scatter**. Human comparative evidence is thin (Pasqua; Sillassen; mixed real-world/PK papers). Delivery and vesicle work is mostly animal. Do not pool.
 
-1. Abstract / keywords — 44 export papers + 1 gap-fill; 139 not retrieved; do not pool.
-2. Introduction — question is what this export contains after OA fetch.
+1. Abstract / keywords — empirical anchors with n and units; do not pool.
+2. Introduction — **teach** incretin physiology, AID, oral/pulmonary barriers, extra-glycaemic organs, and vesicles so a non-specialist can read the rest; then state the aim. No screening theatre.
 3. Methods — identification, eligibility, selection counts; no token meters.
 4. Clinical incretin use (Pasqua, Chen 2024, Nielsen, Ma, Hirotsu, Swift, Xiong, Wang, Abdallah, Ali, Lunati, Fragozo-Ramos, Tian protocol).
 5. Safety MA and narrative clinical reviews (Sillassen, Yue, Shen, Bonga, Son, Wallentowitz, Zachou, Hölscher).
