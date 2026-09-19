@@ -106,3 +106,15 @@ class CheckArticleTests(unittest.TestCase):
         problems = check_article.check(cited, None, short=True)
         self.assertTrue(any("abstract contains a citation" in p.lower() for p in problems), problems)
         self.assertTrue(any("abstract names a paper" in p.lower() for p in problems), problems)
+
+    def test_draft_literature_table_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        draft = (
+            "# Literature Table — DRAFT\n\n"
+            "> Not the final table.\n\n"
+            "| Paper | Research question | Methods | Sample / data | Key findings | Limitations | Relevance |\n"
+            "|---|---|---|---|---|---|---|\n"
+            "| Fictional Al Researcher, 2021, *J* | q | methods | not stated in extracted lead | extracted lead paste | First-pass from extracted PDF text | on topic |\n"
+        )
+        problems = check_article.check(text, draft, short=True)
+        self.assertTrue(any("draft" in p.lower() for p in problems), problems)

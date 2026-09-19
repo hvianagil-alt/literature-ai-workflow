@@ -11,6 +11,7 @@ Usage:
 
 Fails when the body has no Markdown pipe table or no in-text "Table N" callout.
 Fails when the Abstract contains a numbered citation ([n]) or "et al."
+Fails when ``--table`` still looks like a ``write_table.py`` DRAFT (lead paste).
 """
 
 from __future__ import annotations
@@ -59,6 +60,14 @@ REQUIRED_HEADINGS = ("abstract", "introduction", "discussion", "conclusions", "r
 TABLE_CALLOUT = re.compile(r"\bTable\s+\d+\b", re.I)
 TABLE_ROW = re.compile(r"^\s*\|.+\|\s*$")
 TABLE_SEP = re.compile(r"^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$")
+TABLE_STUB = (
+    "mechanical first-pass",
+    "extracted lead",
+    "first-pass from extracted pdf",
+    "not the final table",
+    "literature table — draft",
+    "not stated in extracted lead",
+)
 
 
 def body_before_references(text: str) -> str:
@@ -168,6 +177,14 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     if n_open >= 4:
         problems.append(f"{n_open} results paragraphs open with 'Author et al.' (max 3)")
     if table:
+        lowered_table = table.lower()
+        for marker in TABLE_STUB:
+            if marker in lowered_table:
+                problems.append(
+                    f"literature table still looks like a DRAFT (found '{marker}'); "
+                    "rewrite from Claim-ready facts (scripts/table_from_notes.py)"
+                )
+                break
         missing = []
         for surname, year in papers_from_table(table):
             if surname not in text or year not in text:

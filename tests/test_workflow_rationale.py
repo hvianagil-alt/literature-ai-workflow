@@ -24,6 +24,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("table → synthesis-rationale", text)
         self.assertIn("report-writing", text)
         self.assertIn("check_extraction.py", text)
+        self.assertIn("table_from_notes.py", text)
 
     def test_report_writing_requires_rationale_outline(self):
         text = (ROOT / ".cursor/skills/report-writing/SKILL.md").read_text(
@@ -78,8 +79,10 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("check_article.py", text)
         self.assertIn("check_extraction.py", text)
         self.assertIn("article-qa", text)
-        self.assertLess(text.find("### 8. Quality gate"), text.find("### 9. Iterate"))
+        self.assertLess(text.find("### 8. Quality gate"), text.find("### 9. Double-check"))
+        self.assertLess(text.find("### 9. Double-check"), text.find("### 10. Iterate"))
         self.assertIn("numbered Markdown results tables", text)
+        self.assertIn("double-check", text)
 
     def test_readme_is_cloneable_and_lists_all_skills(self):
         text = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -89,9 +92,11 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertNotIn("cd literature-ai\n", text)
         self.assertIn("review-prose", text)
         self.assertIn("article-qa", text)
-        self.assertIn("This repo has ten", text)
+        self.assertIn("This repo has eleven", text)
         self.assertNotIn("This repo has eight", text)
+        self.assertNotIn("This repo has ten", text)
         self.assertIn("Table 1", text)
+        self.assertIn("double-check", text)
 
     def test_synthesis_rationale_skill_exists_with_quality_bar(self):
         text = (ROOT / ".cursor/skills/synthesis-rationale/SKILL.md").read_text(
@@ -118,6 +123,16 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("not done", text.lower())
         self.assertIn("Table 1", text)
         self.assertIn("no citations", text.lower())
+
+    def test_double_check_skill_exists(self):
+        text = (ROOT / ".cursor/skills/double-check/SKILL.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("spot-check", text.lower())
+        self.assertIn("article-pass1.md", text)
+        self.assertIn("double-check.md", text)
+        self.assertIn(".cursor/skills/double-check/SKILL.md", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
+        self.assertTrue((ROOT / "scripts" / "table_from_notes.py").is_file())
 
     def test_example_journal_article_passes_short_qa(self):
         import sys
@@ -230,6 +245,20 @@ class FullScopusRunArticleTests(unittest.TestCase):
         self.assertNotIn("MEDI7219", abstract)
         self.assertNotIn("54,972", abstract)
         self.assertIn("incretin", abstract.lower())
+
+    def test_pass2_has_in_article_tables_and_claim_ready_worksheet(self):
+        text = (self.run_dir / "article.md").read_text(encoding="utf-8")
+        table = (self.run_dir / "table" / "literature-table.md").read_text(encoding="utf-8")
+        self.assertIn("| Study |", text)
+        self.assertIn("Table 1", text)
+        self.assertIn("Table 2", text)
+        self.assertIn("Table 3", text)
+        self.assertNotIn("mechanical first-pass", table.lower())
+        self.assertNotIn("extracted lead", table.lower())
+        self.assertIn("Claim-ready facts", table)
+        log = (self.run_dir / "double-check.md").read_text(encoding="utf-8")
+        self.assertIn("pass 1", log.lower())
+        self.assertIn("pass 2", log.lower())
 
 
 class ReviewCraftStudyTests(unittest.TestCase):

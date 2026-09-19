@@ -8,7 +8,7 @@ Researchers who are not AI experts. Assume the user knows their field deeply but
 
 ## The workflow, in order
 
-This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **three hard gates** must complete before you tell the user the article is done: direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), and the machine quality gate (step 8).
+This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **four hard gates** must complete before you tell the user the article is done: direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), the machine quality gate (step 8), and the double-check (step 9).
 
 **The article is not done when the file exists.** It is done when `scripts/check_extraction.py` and `scripts/check_article.py` exit 0. A previous run failed by delivering mechanical notes and catalog sentences. Do not repeat that. Do not rewrite an earlier sample's `article.md` unless the user asked to change that manuscript.
 
@@ -56,7 +56,7 @@ exits 0.
 
 ### 5. Build the literature table
 
-Use the `literature-table` skill to turn the **verified** notes into `review/table/literature-table.md`. `scripts/write_table.py` writes a DRAFT only — rewrite every cell from Claim-ready facts. Tell the user it's ready and suggest they skim it for obvious extraction errors before you go further.
+Use the `literature-table` skill to turn the **verified** notes into `review/table/literature-table.md`. `scripts/write_table.py` writes a DRAFT only. Run `scripts/table_from_notes.py --run-dir review/runs/<run-id>` so every cell comes from Claim-ready facts. Tell the user it's ready and suggest they skim it for obvious extraction errors before you go further.
 
 **Do not write the journal article after this step.** The table is evidence, not interpretation.
 
@@ -111,7 +111,11 @@ python3 scripts/check_article.py \
 
 If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. Repeat until exit 0. Use `--short` only if the user asked for a short note.
 
-### 9. Iterate
+### 9. Double-check (mandatory, after the scripts)
+
+Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, or a number in the article does not match the PDF. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, and write `review/runs/<run-id>/double-check.md`. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
+
+### 10. Iterate
 
 Literature reviews are rarely one-shot. After a draft that **passed step 8**, ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), or refine specific sections.
 
@@ -137,6 +141,7 @@ Literature reviews are rarely one-shot. After a draft that **passed step 8**, as
 | Writing the journal review | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
 | Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
+| Second look after the scripts | `double-check` | `.cursor/skills/double-check/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
 | Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
 | Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |

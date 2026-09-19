@@ -157,4 +157,4 @@ If it fails, rewrite and run it again. Also grep the banned-flourish list in `re
 
 ## Handoff
 
-After the report is written **and `check_article.py` exits 0**, tell the user where it is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. Offer to iterate (re-scope, add papers, or refine sections). If they change inclusion, update the rationale before rewriting.
+After the report is written **and `check_article.py` exits 0**, run the `double-check` skill and write `double-check.md`. Only then tell the user where the article is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. Offer to iterate (re-scope, add papers, or refine sections). If they change inclusion, update the rationale before rewriting.

@@ -53,10 +53,11 @@ This is deliberately a conversation, not a batch job:
 2. **Direction check (the AI always does this before going deep)** — it confirms scope, what to include/exclude, and what to emphasize. It will not silently extract 20 papers before checking with you first.
 3. **Optional: explore related papers** — if you want broader coverage, the AI can suggest search queries, authors, or venues to check. It will not invent fake-sounding citations to pad out a list — see the [related-paper-exploration skill](.cursor/skills/related-paper-exploration/SKILL.md) for exactly how it handles uncertainty.
 4. **Extract** — one structured note per in-scope paper, including claim-ready facts (design, n, endpoint, result). A first automatic stub is not a finished note.
-5. **Table** — all notes compared side by side, rewritten from those facts.
+5. **Table** — all notes compared side by side, rewritten from those facts (`scripts/table_from_notes.py`, not a pasted abstract).
 6. **Interpret + fetch extra context (always, before the article)** — a rationale file stating what each study measured, which themes the data support, real disagreements, what the sample cannot answer, and the outline of the review. For each interpretation gap (a striking result that cannot be put in perspective, conflicting findings, a missing comparator, or a paper that could not be retrieved), the AI must try to find more **public open-access** papers, log what was sought / found / not retrieved, and update the table. It will not invent citations or bypass paywalls. If nothing extra can be retrieved, it says so and leaves the gap open.
 7. **Article** — a journal-style review that follows that outline, grounded in the (updated) table. Put numbered results tables in the Markdown manuscript and mention them from the text (“Table 1 summarises…”). Token estimates stay in a separate usage log, not in the article.
-8. **Check** — scripts confirm the notes are finished and the article reads like a paper. The AI should not say the review is done until those checks pass.
+8. **Check** — scripts confirm the notes are finished and the article reads like a paper.
+9. **Double-check** — a second look: spot-check numbers against notes (and PDFs if needed), confirm the Abstract and tables, write a short log. The AI should not say the review is done until those checks pass.
 
 Full detail lives in [`AGENTS.md`](AGENTS.md), which is the file the AI actually reads to run this.
 
@@ -121,7 +122,7 @@ python3 scripts/write_prisma.py --run-dir review/runs/my-review
 
 ## How it works (for the curious)
 
-Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has ten:
+Cursor supports **skills**: small instruction files that tell the AI exactly how to do a specific job, including what "good" looks like and how to handle failure cases. This repo has eleven:
 
 | Skill | What it does |
 |---|---|
@@ -131,6 +132,7 @@ Cursor supports **skills**: small instruction files that tell the AI exactly how
 | [`report-writing`](.cursor/skills/report-writing/SKILL.md) | Writes the review from that rationale — PhD-level argument, not a catalogue of abstracts |
 | [`review-prose`](.cursor/skills/review-prose/SKILL.md) | Genre, architecture, and voice: claim-first sentences, teaching Introduction, in-article results tables |
 | [`article-qa`](.cursor/skills/article-qa/SKILL.md) | Runs the extraction and article checks; the review is not done while they fail |
+| [`double-check`](.cursor/skills/double-check/SKILL.md) | Second look after the scripts: spot-check claims, Abstract, tables; write a log |
 | [`related-paper-exploration`](.cursor/skills/related-paper-exploration/SKILL.md) | Opt-in browse *or* mandatory gap-driven OA retrieval; never invents citations |
 | [`bib-import`](.cursor/skills/bib-import/SKILL.md) | Parses a Scopus/BibTeX export into a screening catalog |
 | [`oa-fetch`](.cursor/skills/oa-fetch/SKILL.md) | Retrieves public open-access PDFs for those DOIs |
@@ -144,7 +146,7 @@ Issues and pull requests welcome — especially if you hit a workflow edge case 
 
 ## Repeatable by design
 
-Clone this repo, drop *your* PDFs (or a Scopus `.bib`), open it in Cursor, and say “Review my papers.” After you confirm scope, the agent should extract claim-ready notes, build the comparison table, write a synthesis rationale (and try public open-access extra papers for gaps), write a journal article with numbered results tables that the prose points to, and pass `scripts/check_extraction.py` plus `scripts/check_article.py`. It should not rewrite a previous sample’s `article.md`. Token estimates stay in `usage-log.md`. PDFs stay gitignored. If a check fails, the article is not done.
+Clone this repo, drop *your* PDFs (or a Scopus `.bib`), open it in Cursor, and say “Review my papers.” After you confirm scope, the agent should extract claim-ready notes, build the comparison table, write a synthesis rationale (and try public open-access extra papers for gaps), write a journal article with numbered results tables that the prose points to, and pass `scripts/check_extraction.py` plus `scripts/check_article.py`, then a double-check log. It should not rewrite a previous sample’s `article.md` unless you asked. Token estimates stay in `usage-log.md`. PDFs stay gitignored. If a check fails, the article is not done.
 
 ## License
 

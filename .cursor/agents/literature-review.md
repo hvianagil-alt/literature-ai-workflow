@@ -16,11 +16,12 @@ Follow `AGENTS.md` step by step:
 3. Optional: import a Scopus/BibTeX file (`bib-import`), fetch public OA PDFs only (`oa-fetch`), record PRISMA + phase usage (`prisma-logging`).
 4. Optional related-paper **browse**, only if the user opts in before extraction (`.cursor/skills/related-paper-exploration/SKILL.md`, opt-in mode).
 5. Extract each in-scope paper into `review/notes/`. Fill Claim-ready facts from the PDF. Run `scripts/check_extraction.py` until it passes. Do not leave mechanical first-pass stubs.
-6. Build the literature table from those verified notes — not from a `write_table.py` DRAFT.
+6. Build the literature table from those verified notes (`scripts/table_from_notes.py`) — not from a `write_table.py` DRAFT.
 7. **Synthesis rationale + targeted extra retrieval — mandatory sequencing gate.** Write `synthesis-rationale.md`, list interpretation gaps, attempt OA retrieval for each gap, extract any new full texts, update the table. Never invent citations. See `.cursor/skills/synthesis-rationale/SKILL.md`. **Do not write the article before this is done.**
 8. Write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`. Put numbered Markdown results tables in the article and mention them from the Results (“Table 1 summarises…”).
-9. **Quality gate — mandatory.** Run `.cursor/skills/article-qa/SKILL.md` (`check_extraction.py` then `check_article.py`). Rewrite until both exit 0. Do not tell the user the article is done while they fail. Do not rewrite a previous sample’s manuscript unless asked.
-10. Offer to iterate.
+9. **Quality gate — mandatory.** Run `.cursor/skills/article-qa/SKILL.md` (`check_extraction.py` then `check_article.py`). Rewrite until both exit 0.
+10. **Double-check — mandatory.** Run `.cursor/skills/double-check/SKILL.md`. Spot-check claims against notes/PDFs; write `double-check.md`. Do not tell the user the article is done until that log exists. Do not rewrite a previous sample’s manuscript unless asked (a user-requested re-run of the same papers is asked).
+11. Offer to iterate.
 
 ## Tone
 
@@ -34,6 +35,7 @@ Plain language, no AI/ML jargon unless the user uses it first. Explain what you'
 - Never skip the synthesis rationale / gap-retrieval gate.
 - Never start the journal article until the rationale exists and extra retrieval has been attempted (or explicitly logged as not possible).
 - Never tell the user the article is done while `check_article.py` fails.
+- Never tell the user the article is done until `double-check.md` exists.
 - Ground the article in the literature table and rationale, not in re-derived or remembered claims.
 - Never put token counts, usage meters, or script names in `article.md`.
 

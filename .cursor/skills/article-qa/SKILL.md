@@ -20,7 +20,7 @@ python3 scripts/check_extraction.py \
   --screening review/runs/<run-id>/screening.json
 ```
 
-If this fails: open each included PDF, fill `## Claim-ready facts` in the note (design, population, n, comparator, endpoint, result with units, what the design cannot show), and delete stub phrases (`mechanical first-pass`, `extracted lead`, `not stated in the extracted lead`). Then rebuild the literature table from those facts — do not leave `write_table.py` DRAFT cells in the final table.
+If this fails: open each included PDF, fill `## Claim-ready facts` in the note (design, population, n, comparator, endpoint, result with units, what the design cannot show), and delete stub phrases (`mechanical first-pass`, `extracted lead`, `not stated in the extracted lead`). Then rebuild the literature table with `python3 scripts/table_from_notes.py --run-dir review/runs/<run-id>` — do not leave `write_table.py` DRAFT cells in the final table. `check_article.py --table` fails if those DRAFT markers remain.
 
 ## 2. Article must be a deliverable journal review (after drafting)
 
@@ -43,4 +43,4 @@ If this fails: rewrite using `review-prose` (phenomenon-first Introduction; clai
 
 ## Handoff
 
-Only after both scripts pass: tell the user where the article is and offer to iterate (add papers, adjust scope, refine a section).
+Only after both scripts pass: run the `double-check` skill (spot-check claims; write `double-check.md`). Only then tell the user where the article is and offer to iterate (add papers, adjust scope, refine a section).

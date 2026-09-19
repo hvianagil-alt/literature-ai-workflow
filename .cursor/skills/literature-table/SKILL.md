@@ -12,7 +12,13 @@ Turn N independent per-paper notes into one comparable table. The table is the e
 - After `paper-extraction` has produced notes in `review/notes/` for every in-scope paper **and** `scripts/check_extraction.py` exits 0.
 - The user asks to "build the table", "compare these papers", or as the automatic next step in the full review workflow.
 
-If extraction still contains "mechanical first-pass" or missing Claim-ready facts, **stop and finish the notes**. `scripts/write_table.py` is a DRAFT stub only. The final `literature-table.md` must be rewritten from Claim-ready facts.
+If extraction still contains "mechanical first-pass" or missing Claim-ready facts, **stop and finish the notes**. `scripts/write_table.py` is a DRAFT stub only. After notes pass `check_extraction.py`, run:
+
+```bash
+python3 scripts/table_from_notes.py --run-dir review/runs/<run-id>
+```
+
+That writes `literature-table.md` from Claim-ready facts. `check_article.py --table …` fails if the worksheet still contains DRAFT/lead-paste markers. Do not write the article from a `write_table.py` DRAFT.
 
 ## Inputs
 
