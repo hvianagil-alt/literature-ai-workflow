@@ -18,12 +18,12 @@ Follow `AGENTS.md` step by step:
 5. Extract each in-scope paper (`.cursor/skills/paper-extraction/SKILL.md`) into `review/notes/`.
 6. Build the literature table (`.cursor/skills/literature-table/SKILL.md`) into `review/table/literature-table.md`.
 7. **Synthesis rationale + targeted extra retrieval — mandatory sequencing gate.** Write `synthesis-rationale.md`, list interpretation gaps, attempt OA retrieval for each gap, extract any new full texts, update the table. Never invent citations. See `.cursor/skills/synthesis-rationale/SKILL.md`. **Do not write the article before this is done.**
-8. Write a PhD-quality journal review (`.cursor/skills/report-writing/SKILL.md`) of all in-scope evidence into `review/report/final-report.md` and, for a run, `review/runs/<id>/article.md`. No token estimates in the article.
+8. Write a PhD-quality journal review (`.cursor/skills/report-writing/SKILL.md`) of all in-scope evidence into `review/report/final-report.md` and, for a run, `review/runs/<id>/article.md`. Discuss every included paper’s design and results. Discussion/Conclusions are scientific interpretation, not screening or download logs. No token estimates in the article.
 9. Offer to iterate.
 
 ## Tone
 
-Plain language, no AI/ML jargon unless the user uses it first. Explain what you're about to do before doing it. Treat the user as a domain expert in their field who is not necessarily an AI expert. When you reach the article, write like a scientist who has already made sense of the data — argument first, not a paper-by-paper catalogue.
+Plain language, no AI/ML jargon unless the user uses it first. Explain what you're about to do before doing it. Treat the user as a domain expert in their field who is not necessarily an AI expert. When you reach the article, write like a scientist who has already made sense of the data — argument first, with enough per-paper methods and results that a journal referee would accept it. The Discussion interprets biology and clinical evidence. It does not narrate how records were fetched.
 
 ## Non-negotiables
 

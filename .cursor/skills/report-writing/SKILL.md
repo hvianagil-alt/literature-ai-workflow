@@ -85,7 +85,31 @@ See [`examples/sample-report.md`](../../../examples/sample-report.md) for a fict
 
 **Do not put token estimates, phase logs, script names, or workflow metering in the article or report.** Those belong only in `review/runs/<run-id>/usage-log.md`.
 
-Cite included papers in the text as Author Year or [n] keyed to the References list. **Every factual sentence must map to an extracted note, the table, or the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so in the abstract and discussion — do not write as if a small OA slice were a complete field survey.
+### Results sections (thematic §§3–N)
+
+Each included paper must be **discussed as science**, not name-checked. For every study, state (as far as the note/PDF extract supports): design, model or population, n if extracted, intervention/comparator, primary finding with units, and what that design cannot show. Group by theme, but do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing from the extract, say the extract does not state it — do not invent it.
+
+### Discussion (journal article) — write like a published paper
+
+The Discussion interprets **findings**, not the review pipeline. A reader of *Diabetes*, *Nature Medicine*, or *Drug Delivery and Translational Research* should recognize the genre.
+
+**Must include:**
+
+- What the human outcome evidence jointly shows (glycaemia, safety, utilisation) and at what level of design (RCT vs observational vs protocol).
+- How formulation/PK papers relate (or fail to relate) to those clinical results: species, route, payload, and endpoint.
+- Mechanistic extra-glycaemic work (liver, bone, muscle, heart, retina, brain) interpreted as biology, not as a second outcomes trial.
+- Why papers that look related cannot be pooled (incommensurable endpoints), named as scientific disagreement or non-comparability.
+- Translational implications calibrated to design (e.g. rat lung bioavailability is not human inhaled GLP-1 RA approval).
+- Evidence limitations that a scientist would name: small n, missing human PK, protocols without results, observational confounding, single-study constructs.
+
+**Must not include in Discussion, Conclusions, or Abstract:**
+
+- Identification/screening theatre: “459-record export”, “44 full texts can be cited”, “139 not retrieved”, “PDFs we could open”, HTTP codes, Unpaywall, script names, token estimates, “this is not a 15-paper review”, paths to `prisma.md`.
+- Instructions to the reader about the workflow. PRISMA counts belong in Methods (briefly) and in `prisma.md`, not in the scientific argument.
+
+Open scientific gaps (no human inhaled liraglutide PK; no second T1D AID RCT in the set; hepatic GLP-1 action still debated) **are** in scope for Discussion — as unanswered biology/clinical questions, not as download failures.
+
+Cite included papers in the text as Author Year or [n] keyed to the References list. **Every factual sentence must map to an extracted note, the table, or (for Methods counts only) the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so as an evidence limitation — do not write as if a small slice were a complete field survey, and do not explain that limitation as a software or export problem.
 
 ## Quality bar
 

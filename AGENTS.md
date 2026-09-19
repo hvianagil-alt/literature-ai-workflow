@@ -70,7 +70,7 @@ Use the `report-writing` skill to produce a **PhD-quality, argument-driven journ
 - Run-based review: `review/runs/<run-id>/article.md`, also copied to `review/report/final-report.md` if useful.
 - Folder-of-PDFs review: `review/report/final-report.md`.
 
-Every claim must be traceable to the table/notes (including gap-fill rows). Open gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article** — they belong only in `review/runs/<run-id>/usage-log.md`.
+Every included paper must be discussed with enough design and result detail to stand as a real review (not a citation dump). **Discussion and Conclusions must read like a published scientific paper:** interpret mechanisms, clinical meaning, why studies cannot be pooled, and evidence limitations. Do **not** put screening counts, “OA export”, “PDFs we could open”, fetch logs, HTTP errors, token estimates, phase logs, or script names in the Abstract, Discussion, or Conclusions — those belong in `prisma.md` and `usage-log.md`. Methods may state search and eligibility briefly. Every claim must be traceable to the table/notes (including gap-fill rows). Open **scientific** gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article.**
 
 ### 8. Iterate
 
