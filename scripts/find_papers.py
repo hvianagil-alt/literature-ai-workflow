@@ -46,6 +46,12 @@ def main() -> int:
     )
     parser.add_argument("--min-cited-by", type=int, default=None)
     parser.add_argument(
+        "--sort",
+        choices=("cited_by_count:desc", "relevance_score:desc", "publication_date:desc"),
+        default="cited_by_count:desc",
+        help="Use relevance_score:desc for related-to-seeds so generic mega-reviews do not crowd the list",
+    )
+    parser.add_argument(
         "--origin",
         choices=ORIGINS,
         default="topic_search",
@@ -64,6 +70,7 @@ def main() -> int:
         to_year=args.to_year,
         journal_quality=args.journal_quality,
         min_cited_by=args.min_cited_by,
+        sort=args.sort,
     )
     out_dir = Path(args.run_dir) / "seed-search"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -74,6 +81,7 @@ def main() -> int:
         "to_year": args.to_year,
         "journal_quality": args.journal_quality,
         "min_cited_by": args.min_cited_by,
+        "sort": args.sort,
         "origin": args.origin,
         "source": "openalex",
         "status": status,

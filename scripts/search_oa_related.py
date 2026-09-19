@@ -139,6 +139,7 @@ def search_openalex(
     to_year: int | None = None,
     journal_quality: str = "journal",
     min_cited_by: int | None = None,
+    sort: str = "cited_by_count:desc",
 ) -> tuple[list[dict], dict]:
     """Return (records, meta). records is empty on HTTP/parse failure (not invented)."""
     try:
@@ -155,12 +156,20 @@ def search_openalex(
             "error": str(e),
             "query_url": None,
         }
+    allowed_sort = {"cited_by_count:desc", "relevance_score:desc", "publication_date:desc"}
+    if sort not in allowed_sort:
+        return [], {
+            "ok": False,
+            "http_status": None,
+            "error": f"sort must be one of {sorted(allowed_sort)}",
+            "query_url": None,
+        }
     params = {
         "search": query,
         "filter": ",".join(filters),
         "per_page": str(per_page),
         "mailto": mailto,
-        "sort": "cited_by_count:desc",
+        "sort": sort,
     }
     url = OPENALEX_WORKS + "?" + urllib.parse.urlencode(params)
     headers = {"User-Agent": USER_AGENT, "From": mailto, "Accept": "application/json"}
@@ -272,6 +281,12 @@ def main() -> int:
         help="Optional cited_by_count floor. With --journal-quality cited, default is 10.",
     )
     parser.add_argument(
+        "--sort",
+        choices=("cited_by_count:desc", "relevance_score:desc", "publication_date:desc"),
+        default="cited_by_count:desc",
+        help="OpenAlex sort. Use relevance_score:desc when expanding a seed set.",
+    )
+    parser.add_argument(
         "--write-catalog",
         default="",
         help="Optional path to a fetch_oa_pdfs catalog.json of these hits (still not inclusion)",
@@ -286,6 +301,7 @@ def main() -> int:
         to_year=args.to_year,
         journal_quality=args.journal_quality,
         min_cited_by=args.min_cited_by,
+        sort=args.sort,
     )
     payload = {
         "ts_utc": datetime.now(timezone.utc).isoformat(),
@@ -294,6 +310,7 @@ def main() -> int:
         "to_year": args.to_year,
         "journal_quality": args.journal_quality,
         "min_cited_by": args.min_cited_by,
+        "sort": args.sort,
         "source": "openalex",
         "status": status,
         "warning": (

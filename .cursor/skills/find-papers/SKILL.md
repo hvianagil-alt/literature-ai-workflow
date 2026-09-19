@@ -57,7 +57,8 @@ python3 scripts/find_papers.py \
   --per-page 20 \
   --from-year <year they chose, or current year minus 5 if they said just go> \
   --to-year <year they chose, or the current year> \
-  --journal-quality journal
+  --journal-quality journal \
+  --sort relevance_score:desc
 ```
 
 `--journal-quality` is `none` | `journal` | `doaj` | `cited` (see `scripts/search_oa_related.py`). Optional `--min-cited-by`. Ask at the direction check; do not silently search all years or all venues.
