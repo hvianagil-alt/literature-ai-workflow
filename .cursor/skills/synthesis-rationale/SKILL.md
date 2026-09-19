@@ -52,6 +52,8 @@ Use this structure (keep (a)–(e) even if you also write a prose summary; repor
 <Numbered section plan for the article. First name the review kind (narrative,
  systematic, physiology/mechanisms, or meta-analysis) so report-writing can
  match the spine. Headings must be topic or argument names, not author names.
+ Do not outline a generic Results heading as the only science block; numbered
+ thematic sections must teach an adjacent-field reader after the Introduction.
  Note that the Introduction opens on the phenomenon and ends with an aim or
  central-argument paragraph. Topic sentences, which papers appear where.
  Place numbered in-article results tables (Table 1, …) in the outline.

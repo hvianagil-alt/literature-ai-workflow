@@ -4,7 +4,7 @@ This file tells any AI agent (Cursor, or another AGENTS.md-compatible tool) how 
 
 ## Who this is for
 
-Researchers who are not AI experts. Assume the user knows their field deeply but may not know what a "skill" or "agent" is. Explain what you're about to do in plain language before doing it. Don't use ML/agent jargon in your responses to them unless they use it first.
+Researchers in **life sciences** (and neighbours) who are not AI experts. They may only know ChatGPT, Claude, or Cursor chat. Assume they know their field deeply. Explain what you're about to do in plain language. Don't use ML/agent jargon unless they use it first. Speak the user's language (Portuguese or English) if they wrote in it.
 
 ## The workflow, in order
 
@@ -14,10 +14,13 @@ This is an opinionated, sequential workflow. Don't skip steps, and don't silentl
 
 ### 1. Intake
 
-Look at what's in `papers/` (recursively, ignoring non-paper files). Tell the user what you found (count, filenames/titles if visible). Then ask them directly:
+Look at what's in `papers/` (recursively, ignoring non-paper files). Tell the user what you found (count, filenames/titles if visible). Then ask, in a short list, **before any deep work**:
 
-- What's your research question, or what field/topic is this for?
-- What does "good" look like for this review — e.g. a table for a lit-review section of a paper, background reading before starting a project, a sanity check on 3 specific papers?
+- **Who they are / research area** (e.g. nanomedicine, endocrinology, microbiology).
+- **What the review is for** (thesis chapter, grant background, paper introduction, personal reading).
+- **Do they already have literature?** If yes: they can drop PDFs in `papers/`, paste titles/DOIs in the chat, or attach files. If no: say you will search **free open-access** papers on the public web (OpenAlex) — not pirate sites, not paywalls.
+- **Search filters they may want:** years (e.g. last 5–7 years) and journal quality (any OA; peer-reviewed journals; DOAJ; citation floor). Defaults if they say “just go”: last 6 years + peer-reviewed journals.
+- **Output:** the article is always **Markdown** (`.md`). Ask whether they also want Word or PDF later (Times New Roman, justified). Do not delay the `.md` for that.
 
 **If `papers/` is empty**, do not stop. They can still drop files by hand (`papers/README.md`), **or** you find free open-access papers for them. Use the `find-papers` skill: search OpenAlex for the topic they named, fetch public PDFs only, then continue. Ask once for a contact email if Unpaywall/OpenAlex need it. Do not ask them to buy an API. If the network fails or nothing is OA, say so and wait for PDFs.
 
@@ -25,13 +28,17 @@ If the user starts from a **Scopus/PubMed `.bib` export** rather than PDFs, do n
 
 ### 2. Direction check (mandatory, do not skip)
 
-Before extracting anything in depth, confirm with the user:
+Before extracting anything in depth, confirm with the user. **Do this for every new user and every new review**, even if a previous run already used filters:
 
 - **Scope**: which papers (if any) are out of scope, and why (wrong population, wrong method, too old, off-topic)?
 - **Inclusion/exclusion criteria**: is there a study design, date range, population, or venue that should be included/excluded?
+- **Search filters (ask explicitly — do not assume):**
+  - **Years**: from which year to which year should related-paper search run? (Example: last 5, 6, or 7 years.)
+  - **Journal quality**: what venue bar should related-paper search use? Options the scripts support: no venue filter (`none`); peer-reviewed **journal** articles (default); **DOAJ**-listed journals; journal articles with a **citation** floor (`cited`, default floor 10).
+- **Seeds vs filters**: papers the user dropped stay in the sample even if they are older than the year window, unless the user excludes them.
 - **Emphasis**: should extraction lean toward methods (e.g. for a methods-focused thesis chapter), findings (e.g. for a grant background section), or something else?
 
-Summarize back what you understood in 2-4 sentences and get explicit confirmation ("does that sound right?") before moving on. If the user says "just go", proceed with these defaults and write them into `protocol.md`: **journal-style narrative review**; teach in the Introduction; claim-first sentences; numbered Markdown results tables with in-text Table N callouts; all included full texts; no process talk in Discussion; run the quality-gate scripts before delivering.
+Summarize back what you understood in 2-4 sentences and get explicit confirmation ("does that sound right?") before moving on. If the user says "just go", proceed with these defaults and write them into `protocol.md`: **journal-style narrative review**; teach in the Introduction; claim-first sentences; numbered Markdown results tables with in-text Table N callouts; all included full texts; no process talk in Discussion; run the quality-gate scripts before delivering; related-paper search uses the **last 6 years** (from-year = current year minus 5) through the current year; journal quality = peer-reviewed **journal** articles (`--journal-quality journal`). Pass those flags to `find_papers.py` / `search_oa_related.py`.
 
 **Do not proceed past this step without user input.** This is a hard gate: scope cannot be guessed.
 
@@ -87,7 +94,9 @@ Produce a **PhD-quality, argument-driven journal review** of **all** in-scope ev
 
 The article is a **secondary** paper: it does not report a new experiment. It teaches the reader the physiology or technology later sections assume, then compares included results, names gaps, and says what to measure next.
 
-**Introduction must teach.** Open on the phenomenon in present tense (not “This review discusses…”). A reader expert in an adjacent field must be able to follow the later sections after reading it (e.g. what an incretin is, what automated insulin delivery is, why oral peptides fail, what an extra-glycaemic claim would even mean). Put the aim or central argument in the **last** paragraph of the Introduction. Headings name topics or arguments, not papers. Do not dump screening theatre into the Introduction.
+**Introduction must teach, every time, without the user asking.** Open on the phenomenon in present tense (not “This review discusses…”). Write enough background that a reader expert in an **adjacent** field (not this subfield) can follow §§3–N: the clinical or biological problem, what current options already do and still fail, the compartments or tools later sections assume, and the live controversy. Put the aim or central argument in the **last** paragraph of the Introduction (`The aim of this review is…` / `The central argument of this review is…`). Headings name topics or arguments, not papers. **Do not use a generic `## Results` dump** and a stack of leftover `###` how-to fragments. Numbered thematic sections come from rationale (e). Do not dump screening theatre or “user-supplied seeds” into the Introduction. If the first draft would only make sense to someone who already knows the papers, **rewrite it before the user sees it** — that rewrite is part of the workflow, not a favour after a complaint.
+
+`check_article.py` fails a too-short Introduction, a missing aim paragraph, a generic Results heading, or too few thematic `##` sections. Passing the 6,000-word floor is not enough. The double-check must record an adjacent-field reader test; if it fails, rewrite without asking the user.
 
 **Title.** Prefer a colon subtitle that names the kind and the argument (`Topic: a narrative review of …`). The title is about the field, not about a list of papers or a database export.
 
@@ -113,15 +122,15 @@ python3 scripts/check_article.py \
   --table review/runs/<run-id>/table/literature-table.md
 ```
 
-If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. Repeat until exit 0. Use `--short` only if the user asked for a short note.
+If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. Repeat until exit 0. Use `--short` only if the user asked for a short note. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint.
 
 ### 9. Double-check (mandatory, after the scripts)
 
-Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, or a number in the article does not match the PDF. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, and write `review/runs/<run-id>/double-check.md`. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
+Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, a number in the article does not match the PDF, **or the Introduction still does not teach**. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, apply the **adjacent-field reader test** to the Introduction and heading spine, and write `review/runs/<run-id>/double-check.md`. If the teaching test fails, rewrite `article.md` without waiting for the user. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
 
 ### 10. Iterate
 
-Literature reviews are rarely one-shot. After a draft that **passed step 8**, ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), or refine specific sections.
+Always hand them the **Markdown** article first (`review/runs/<run-id>/article.md` and/or `review/report/final-report.md`). Then ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), refine a section, **or export Word/PDF** (Times New Roman, justified) via the `export-manuscript` skill. Do not build Word/PDF unless they ask.
 
 ## Hard rules (apply throughout)
 
@@ -133,7 +142,7 @@ Literature reviews are rarely one-shot. After a draft that **passed step 8**, as
 6. **No required external services for reading local PDFs.** Extraction and the rationale can run on files already in the repo. Targeted extra retrieval uses the same public OA path as `oa-fetch`. If the network fails or no OA PDF exists, document that and write the article with the gap left open — never treat a missing PDF as a reason to invent a citation, and never treat OA fetch as a paywall bypass.
 7. **Keep outputs where they belong.** Per-paper notes → `review/notes/` (and run `notes/`). Table → `review/table/literature-table.md`. Rationale → `review/runs/<run-id>/synthesis-rationale.md` or `review/report/synthesis-rationale.md`. Article → `review/runs/<run-id>/article.md` and/or `review/report/final-report.md`. Usage/tokens → `usage-log.md` only.
 8. **PDFs stay gitignored.** Do not commit downloaded PDFs.
-9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py`. Do not rewrite a previous sample unless asked.
+9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py` (including the teaching-Introduction and thematic-spine gates). Story quality is a default, not a user request. Do not rewrite a previous sample unless asked.
 
 ## Skills reference
 
@@ -151,6 +160,7 @@ Literature reviews are rarely one-shot. After a draft that **passed step 8**, as
 | Importing a Scopus/BibTeX export | `bib-import` | `.cursor/skills/bib-import/SKILL.md` |
 | Fetching public OA PDFs | `oa-fetch` | `.cursor/skills/oa-fetch/SKILL.md` |
 | PRISMA counts + phase/token log | `prisma-logging` | `.cursor/skills/prisma-logging/SKILL.md` |
+| Optional Word/PDF/HTML (Times New Roman, justified) | `export-manuscript` | `.cursor/skills/export-manuscript/SKILL.md` |
 
 ## Worked examples
 

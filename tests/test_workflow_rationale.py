@@ -44,6 +44,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("In-article results tables", text)
         self.assertIn("Full term (ABBR)", text)
         self.assertIn("at most four", text)
+        self.assertIn("Do not wait for the user", text)
         self.assertEqual(text.count("## Output"), 1)
         self.assertNotIn("glycaemia, safety, utilisation", text)
         self.assertNotIn("hepatic GLP-1", text)
@@ -74,6 +75,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Abbreviations", text)
         self.assertIn("T2D", text)
         self.assertIn("first-time", text)
+        self.assertIn("generic Results", text)
+        self.assertIn("Known failure", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -88,6 +91,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertLess(text.find("### 9. Double-check"), text.find("### 10. Iterate"))
         self.assertIn("numbered Markdown results tables", text)
         self.assertIn("double-check", text)
+        self.assertIn("adjacent-field", text)
+        self.assertIn("generic `## Results`", text)
 
     def test_readme_is_cloneable_and_lists_all_skills(self):
         text = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -97,11 +102,14 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertNotIn("cd literature-ai\n", text)
         self.assertIn("review-prose", text)
         self.assertIn("article-qa", text)
-        self.assertIn("This repo has twelve", text)
+        self.assertIn("This repo has thirteen", text)
         self.assertNotIn("This repo has eight", text)
         self.assertNotIn("This repo has ten", text)
         self.assertNotIn("This repo has eleven", text)
+        self.assertNotIn("This repo has twelve", text)
+        self.assertIn("export-manuscript", text)
         self.assertIn("find-papers", text)
+        self.assertIn("Non-commercial", text)
         self.assertIn("Table 1", text)
         self.assertIn("double-check", text)
         self.assertIn("T2D", text)
@@ -123,6 +131,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("review kind", text)
         self.assertIn("topic or argument", text)
         self.assertIn("Table 1", text)
+        self.assertIn("generic Results", text)
 
     def test_article_qa_skill_exists(self):
         text = (ROOT / ".cursor/skills/article-qa/SKILL.md").read_text(encoding="utf-8")
@@ -133,6 +142,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("no citations", text.lower())
         self.assertIn("Full term (ABBR)", text)
         self.assertIn("glossary", text.lower())
+        self.assertIn("thematic", text.lower())
+        self.assertIn("Introduction is too short", text)
 
     def test_double_check_skill_exists(self):
         text = (ROOT / ".cursor/skills/double-check/SKILL.md").read_text(
@@ -143,6 +154,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("double-check.md", text)
         self.assertIn("Abbreviations", text)
         self.assertIn("glossary", text.lower())
+        self.assertIn("adjacent-field", text.lower())
+        self.assertIn("generic Results", text)
         self.assertIn(".cursor/skills/double-check/SKILL.md", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
         self.assertTrue((ROOT / "scripts" / "table_from_notes.py").is_file())
 
@@ -158,12 +171,31 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("contact email", text.lower())
         agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         self.assertIn("find-papers", agents)
+        self.assertIn("export-manuscript", agents)
+        self.assertIn(".cursor/skills/export-manuscript/SKILL.md", agents)
         self.assertIn("If `papers/` is empty", agents)
+        self.assertIn("journal quality", agents.lower())
+        self.assertIn("last 6 years", agents)
+        self.assertIn("--journal-quality", agents)
+        self.assertIn("Seeds vs filters", agents)
         self.assertTrue((ROOT / "scripts" / "find_papers.py").is_file())
+        self.assertIn("--journal-quality", text)
+        self.assertIn("Seeds vs filters", text)
         related = (ROOT / ".cursor/skills/related-paper-exploration/SKILL.md").read_text(
             encoding="utf-8"
         )
         self.assertIn("find-papers", related)
+
+    def test_export_manuscript_skill_exists(self):
+        text = (ROOT / ".cursor/skills/export-manuscript/SKILL.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("Times New Roman", text)
+        self.assertIn("justified", text.lower())
+        self.assertIn("export_manuscript.py", text)
+        self.assertIn(".md", text)
+        self.assertTrue((ROOT / "scripts" / "export_manuscript.py").is_file())
+        self.assertTrue((ROOT / "templates" / "manuscript.css").is_file())
 
     def test_example_journal_article_passes_short_qa(self):
         import sys

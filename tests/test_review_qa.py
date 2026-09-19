@@ -195,3 +195,33 @@ class CheckArticleTests(unittest.TestCase):
             ),
             problems,
         )
+
+    def test_generic_results_heading_fails(self):
+        text = (FIX / "bad-article.md").read_text(encoding="utf-8")
+        problems = check_article.check(text, None, short=True)
+        self.assertTrue(any("generic results" in p.lower() for p in problems), problems)
+
+    def test_short_intro_fails_full_manuscript_even_with_word_padding(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        padded = text.replace(
+            "## Discussion",
+            ("Background sentence. " * 4000) + "\n\n## Discussion",
+        )
+        problems = check_article.check(padded, None, short=False)
+        self.assertFalse(
+            any(p.startswith("body word count") for p in problems), problems
+        )
+        self.assertTrue(any("introduction word count" in p.lower() for p in problems), problems)
+        self.assertTrue(any("paragraphs" in p.lower() for p in problems), problems)
+
+    def test_nanocarrier_pass2_clears_story_gate(self):
+        article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"
+        table = ROOT / "review/runs/2026-09-19-nanocarriers/table/literature-table.md"
+        if not article.is_file():
+            self.skipTest("nanocarrier article not in this checkout")
+        problems = check_article.check(
+            article.read_text(encoding="utf-8"),
+            table.read_text(encoding="utf-8"),
+            short=False,
+        )
+        self.assertEqual(problems, [], problems)

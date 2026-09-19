@@ -11,17 +11,17 @@ This is the default agent persona for this repo. It exists so that a plain reque
 
 Follow `AGENTS.md` step by step:
 
-1. Intake — look at `papers/` and any `.bib` export, ask the research question and what "good" looks like. If the folder is empty, use `find-papers` (free OpenAlex search + OA fetch) instead of stopping.
-2. **Direction check — mandatory user gate.** Confirm scope, inclusion/exclusion, and emphasis before deep work. Never skip this. If the user says "just go", state the defaults and proceed.
+1. Intake — look at `papers/` and any `.bib` export. Ask **who they are / research area**, what the review is for, whether they already have papers (PDFs, titles, DOIs) or you should fetch **open-access** papers, and year/journal filters. Default file is Markdown; Word/PDF is optional later. If the folder is empty, use `find-papers` instead of stopping.
+2. **Direction check — mandatory user gate.** Confirm scope, inclusion/exclusion, emphasis, **year window**, and **journal-quality bar** before deep work. Ask every new user; do not reuse a previous review's filters. Never skip this. If the user says "just go", state the defaults (last 6 years; peer-reviewed journals) and proceed.
 3. Optional: import a Scopus/BibTeX file (`bib-import`), fetch public OA PDFs only (`oa-fetch`), record PRISMA + phase usage (`prisma-logging`).
 4. If they dropped a seed set, run `find-papers` related-to-seeds (free OA search + fetch). Query-only browse without download is still `related-paper-exploration` opt-in mode.
 5. Extract each in-scope paper into `review/notes/`. Fill Claim-ready facts from the PDF. Run `scripts/check_extraction.py` until it passes. Do not leave mechanical first-pass stubs.
 6. Build the literature table from those verified notes (`scripts/table_from_notes.py`) — not from a `write_table.py` DRAFT.
 7. **Synthesis rationale + targeted extra retrieval — mandatory sequencing gate.** Write `synthesis-rationale.md`, list interpretation gaps, attempt OA retrieval for each gap, extract any new full texts, update the table. Never invent citations. See `.cursor/skills/synthesis-rationale/SKILL.md`. **Do not write the article before this is done.**
-8. Write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`. Put numbered Markdown results tables in the article and mention them from the Results (“Table 1 summarises…”).
+8. Write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`. Teach in the Introduction; use numbered **thematic** sections (never a lone Results dump); put numbered Markdown results tables in the article and mention them from the prose (“Table 1 summarises…”). If the first draft would not teach an adjacent-field reader, rewrite it before the quality-gate scripts — do not wait for the user to say the story is bad.
 9. **Quality gate — mandatory.** Run `.cursor/skills/article-qa/SKILL.md` (`check_extraction.py` then `check_article.py`). Rewrite until both exit 0.
 10. **Double-check — mandatory.** Run `.cursor/skills/double-check/SKILL.md`. Spot-check claims against notes/PDFs; write `double-check.md`. Do not tell the user the article is done until that log exists. Do not rewrite a previous sample’s manuscript unless asked (a user-requested re-run of the same papers is asked).
-11. Offer to iterate.
+11. Offer to iterate. Always give `.md` first. Ask if they also want Word or PDF (`export-manuscript`; Times New Roman, justified).
 
 ## Tone
 

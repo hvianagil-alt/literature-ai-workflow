@@ -1,0 +1,42 @@
+{
+  "included": [
+    "Lutta2025_pectin",
+    "Muenraya2022_colistin",
+    "Heidarli2017_srliposomes",
+    "Valkova2025_vancomycin",
+    "Mahmoudzadeh2021_pegmd",
+    "Felding2026_aini",
+    "Chauhan2020_sertraline",
+    "Lee2017_srdd",
+    "Torres2025_020245",
+    "Alrbyawi2024_070966",
+    "Cheng2025_06021",
+    "Pasarin2023_030782",
+    "Ferreira2021_072047",
+    "Rustad2022_061125",
+    "Nunes2022_140272",
+    "Azimzadeh2025_00056",
+    "Dove2023_064095",
+    "Aloss2023_ltld",
+    "Guo2023_lungbiofilm"
+  ],
+  "title_excluded": [],
+  "fulltext_excluded": [
+    {
+      "citekey": "Andresen2026_polymersomes",
+      "reason": "OA hybrid at Small but no public %PDF- retrieved; abstract only — not used as evidence"
+    },
+    {
+      "citekey": "Chauhan2020_jddst",
+      "reason": "JDDST 10.1016/j.jddst.2020.101780 not retrieved; AJP 2020 OA paper used instead (Chauhan2020_sertraline)"
+    },
+    {
+      "citekey": "Veriato2023_04913",
+      "reason": "Fetch returned an unrelated EUCAST PDF; discarded, not cited"
+    },
+    {
+      "citekey": "Heidarli2017_wrong_ijpr",
+      "reason": "First DOI guess 10.22037/ijpr.2017.2127 downloaded a methadone IJPR article; replaced with brieflands 127507.pdf (Heidarli 2017 review)"
+    }
+  ]
+}

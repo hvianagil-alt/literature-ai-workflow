@@ -1,21 +1,62 @@
-MIT License
+Non-Commercial Academic License (based on Creative Commons BY-NC-SA 4.0)
 
-Copyright (c) 2026 Literature AI contributors
+Copyright (c) 2026 Hugo Viana Gil and contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This project is free to use for learning, teaching, and non-profit research.
+It is not free to turn into a product, a paid service, or any other way of
+making money.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Linguagem simples / Plain language
+
+Pode:
+- copiar, ler e usar este repositório
+- adaptar as instruções à sua revisão de literatura
+- partilhar a sua versão, desde que também seja sem fins comerciais
+  e com a mesma licença
+- usar os artigos de exemplo para ver a qualidade do fluxo
+
+Não pode:
+- vender este projeto, nem um clone, nem um serviço pago de “revisão
+  automática de artigos”
+- incluir este fluxo num produto comercial (software, consultoria
+  empacotada, curso pago cujo conteúdo principal seja este repo)
+- retirar esta restrição e republicar como se fosse MIT ou domínio público
+
+Pode citar o repositório numa tese, paper ou relatório académico.
+Isso não é uso comercial.
+
+If you need a commercial license, contact the copyright holder.
+Until then, no commercial use is granted.
+
+---
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made.
+
+  NonCommercial — You may not use the material for commercial purposes.
+  Charging money for access to this software, wrapping it as a paid
+  literature-review product or consultancy package, or using it as the
+  core of a for-profit service is not allowed.
+
+  ShareAlike — If you remix, transform, or build upon the material, you
+  must distribute your contributions under the same license as the original.
+
+  No additional restrictions — You may not apply legal terms or
+  technological measures that legally restrict others from doing
+  anything this license permits.
+
+This license is intended to match Creative Commons Attribution-
+NonCommercial-ShareAlike 4.0 International. The full legal code is at:
+
+  https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+THE SOFTWARE AND TEXTS ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.

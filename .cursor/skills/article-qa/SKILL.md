@@ -30,9 +30,9 @@ python3 scripts/check_article.py \
   --table review/runs/<run-id>/table/literature-table.md
 ```
 
-Use `--short` **only** if the user asked for a short note. A full journal manuscript must pass the ~6,000-word body floor.
+A full journal manuscript must pass the ~6,000-word body floor **and** the teaching-Introduction / thematic-spine gates. Word count alone is not enough.
 
-If this fails: rewrite using `review-prose` (phenomenon-first Introduction; claim-first sentences; topic headings; no process talk; numbered Markdown results tables with in-text “Table 1” callouts; Abstract is a topic map with **no citations and no named papers**; repeated terms are `Full term (ABBR)` once, then the abbreviation, without turning the Abstract into a glossary) and run the script again. Repeat until exit 0. The script fails if, after `type 2 diabetes (T2D)`, the long form still crowds the prose, or if the Abstract defines unused or too many abbreviations.
+If this fails: rewrite using `review-prose` (phenomenon-first Introduction; claim-first sentences; **thematic headings, never a generic Results dump**; no process talk; numbered Markdown results tables with in-text “Table 1” callouts; Abstract is a topic map with **no citations and no named papers**; repeated terms are `Full term (ABBR)` once, then the abbreviation, without turning the Abstract into a glossary) and run the script again. Repeat until exit 0. The script fails if the Introduction is too short to teach, if the last Introduction paragraph lacks an aim, if a defined abbreviation still crowds the prose, or if the Abstract defines unused or too many abbreviations.
 
 ## Hard rules
 
@@ -43,4 +43,4 @@ If this fails: rewrite using `review-prose` (phenomenon-first Introduction; clai
 
 ## Handoff
 
-Only after both scripts pass: run the `double-check` skill (spot-check claims; write `double-check.md`). Only then tell the user where the article is and offer to iterate (add papers, adjust scope, refine a section).
+Only after both scripts pass: run the `double-check` skill (spot-check claims; write `double-check.md`). Only then tell the user where the **Markdown** article is and offer to iterate (add papers, adjust scope, refine a section, or export Word/PDF with `export-manuscript`).
