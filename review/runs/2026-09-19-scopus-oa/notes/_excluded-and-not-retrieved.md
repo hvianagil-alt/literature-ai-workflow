@@ -13,4 +13,4 @@ Barrett S, et al. Evaluation of the experience of people referred under the NHS 
 ## Huang2026 — not retrieved
 
 Huang Q, Zhao F, Sun B, Yang X, Chen M. SRT1720-loaded exosome-mimetic nanovesicles … diabetic cerebral infarction. Int J Pharm X. 2026;12:100639. doi:10.1016/j.ijpx.2026.100639  
-Scopus/Unpaywall mark gold OA (CC BY-NC-ND); **no public PDF was obtained** (Elsevier 403; PMC HTML). **No findings from this paper are used in the article.** Title suggests it would have been eligible (exosome-mimetic delivery, diabetic complication) if retrieved.
+Title suggests it would have been eligible (exosome-mimetic delivery, diabetic complication) if retrieved. **Retry during gap-fill (G3) also failed** (`no_public_pdf_found`). Still not used as evidence.
