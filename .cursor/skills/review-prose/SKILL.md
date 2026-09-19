@@ -122,6 +122,18 @@ LLMs regress to generic, promotional, statistically common phrasing. Scientific 
 
 After a draft, grep the article for the banned flourish list and cut hits that are not technical terms (e.g. “landscape” in ecology is fine; “the therapeutic landscape” is not).
 
+## Abbreviations (sigla)
+
+If a term will appear often, write it out **once**, then use the abbreviation. Pattern: `type 2 diabetes (T2D)`, then `T2D`. The same rule in any field: `polymerase chain reaction (PCR)`; `forced expiratory volume in one second (FEV1)`.
+
+- **When.** Any multi-word term (or a long technical noun) used about five times or more in the body. Also any term already abbreviated in the included papers, if you use it more than once.
+- **Where.** First use in the Abstract if the Abstract itself repeats the term; first use in the body independently (the Abstract is standalone). Headings and the title may stay expanded. References keep the original titles.
+- **Which abbreviation.** Use the conventional one the papers use (`T2D`, `RCT`, `PK`). Do not invent a cute code. Do not abbreviate a drug or product name (`semaglutide`, `MEDI7219`).
+- **Plural.** `GLP-1 receptor agonists (GLP-1 RAs)`, then `GLP-1 RAs`. Do not write the expansion again in later Results or Discussion sentences.
+- **Do not.** Flood the Abstract with unused abbreviations. Do not define an abbreviation you never use again.
+
+`check_article.py` fails if, after `Full term (ABBR)`, the expanded form still crowds the prose.
+
 ## Sentence construction (this is the article)
 
 `article.md` must read as a **published scientific review**, not as a catalogue of notes. The grammatical subject of a sentence is a result, a mechanism, or a clinical problem. The citation is evidence, usually in brackets at the end of the clause. Authors’ names may appear, but **do not start three consecutive paragraphs with “Author et al. [verb].”**

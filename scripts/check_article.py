@@ -12,6 +12,7 @@ Usage:
 Fails when the body has no Markdown pipe table or no in-text "Table N" callout.
 Fails when the Abstract contains a numbered citation ([n]) or "et al."
 Fails when ``--table`` still looks like a ``write_table.py`` DRAFT (lead paste).
+Fails when a defined abbreviation is still followed by many leftover expanded forms.
 """
 
 from __future__ import annotations
@@ -119,6 +120,99 @@ def has_markdown_table(text: str) -> bool:
     return False
 
 
+SKIP_WORDS = {"and", "or", "of", "the", "in", "a", "an", "to", "for", "with"}
+TOKEN_RE = re.compile(r"[A-Za-z][-A-Za-z0-9]*|[0-9]+")
+ABBR_PAREN = re.compile(
+    r"\(([A-Z][A-Z0-9]{1,6}(?:[- ][A-Z0-9][A-Z0-9]{0,6}){0,2}s?)\)"
+)
+
+
+def _initials_from(tokens: list[str]) -> str:
+    sig = [t for t in tokens if t.lower() not in SKIP_WORDS]
+    return "".join(t[0].upper() if t[0].isalpha() else t for t in sig)
+
+
+def _sig_tokens(full: str) -> list[str]:
+    return [t for t in re.findall(r"[A-Za-z0-9]+", full) if t.lower() not in SKIP_WORDS]
+
+
+def _initials_variants(full: str) -> set[str]:
+    """Hyphenated compounds count as one token or as split words (GLP-1 vs GIP)."""
+    kept = [t for t in TOKEN_RE.findall(full) if t.lower() not in SKIP_WORDS]
+    split = _sig_tokens(full)
+    return {_initials_from(kept), _initials_from(split)}
+
+
+def looks_like_sigla(full: str, abbr: str) -> bool:
+    """True if ABBR is a conventional short form of the expanded phrase."""
+    abbr_n = re.sub(r"[^A-Z0-9]", "", abbr.upper())
+    if len(abbr_n) < 2 or len(abbr_n) > 8:
+        return False
+    variants = _initials_variants(full)
+    if abbr_n in variants:
+        return True
+    sig = _sig_tokens(full)
+    if len(sig) >= 2:
+        first = sig[0][0].upper() if sig[0][0].isalpha() else ""
+        tail = "".join(t[0].upper() for t in sig[-2:] if t[0].isalpha())
+        if first and tail and abbr_n.startswith(first) and abbr_n.endswith(tail):
+            return True
+    return False
+
+
+def expansion_for_abbr(before: str, abbr: str) -> str | None:
+    """Right-aligned phrase immediately before ``(ABBR)``, not a longer clause."""
+    cut = before.rfind(")")
+    if cut != -1:
+        before = before[cut + 1 :]
+    window = before[-160:]
+    tokens = list(TOKEN_RE.finditer(window))[-8:]
+    if not tokens:
+        return None
+    exact = None
+    tail = None
+    abbr_n = re.sub(r"[^A-Z0-9]", "", abbr.upper())
+    for n in range(1, len(tokens) + 1):
+        full = window[tokens[-n].start() :].strip().rstrip(" ,;:")
+        if "(" in full or not looks_like_sigla(full, abbr):
+            continue
+        if abbr_n in _initials_variants(full):
+            if exact is None:
+                exact = full
+        elif n <= 4:
+            tail = full
+    return exact or tail
+
+
+def leftover_expanded_terms(body: str) -> list[str]:
+    """After 'Full term (ABBR)', the long form should not keep flooding the prose."""
+    problems: list[str] = []
+    seen: set[str] = set()
+    for m in ABBR_PAREN.finditer(body):
+        abbr = m.group(1).strip()
+        full = expansion_for_abbr(body[: m.start()].rstrip(), abbr)
+        if not full:
+            continue
+        key = (full.lower(), abbr.upper())
+        if key in seen:
+            continue
+        seen.add(key)
+        leftover = 0
+        after = body[m.end() :]
+        for line in after.splitlines():
+            if re.match(r"^#{1,4}\s", line):
+                continue
+            leftover += len(
+                re.findall(rf"{re.escape(full)}(?![A-Za-z])", line, re.I)
+            )
+        if leftover >= 4:
+            problems.append(
+                f"after defining {abbr}, '{full}' still appears {leftover} times; "
+                "use the abbreviation (see review-prose, Abbreviations)"
+            )
+    return problems
+
+
 def papers_from_table(table_md: str) -> list[tuple[str, str]]:
     papers: list[tuple[str, str]] = []
     for line in table_md.splitlines():
@@ -210,6 +304,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
         problems.append("Abstract contains a citation ([n]); narrative abstracts do not cite")
     if re.search(r"\bet al\.", abstract, re.I):
         problems.append("Abstract names a paper (et al.)")
+    problems.extend(leftover_expanded_terms(body))
     return problems
 
 

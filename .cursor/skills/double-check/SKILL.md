@@ -20,9 +20,10 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 3. **Literature table.** If cells still say “mechanical first-pass”, “extracted lead”, or paste the PDF lead into Key findings, rewrite every included row from Claim-ready facts (`scripts/table_from_notes.py`). The extraction worksheet is not finished while those phrases remain.
 4. **Spot-check numbers.** Pick at least **five** numeric claims in `article.md` (n, %, RR, bioavailability, *P*). Open the matching note. If the note and the sentence disagree, open the PDF. Correct the note, the table row, and the article. Never invent the number.
 5. **Abstract and title.** No `[n]`, no *et al.*, no stack of effect sizes. Title is `Topic: a narrative review of …` (or the matching kind). See `review-prose`.
-6. **In-article tables.** At least one Markdown pipe table and an in-text `Table N` sentence. Cells must match the notes.
-7. **Discussion.** Interprets findings. No identification counts, fetch logs, or token meters.
-8. **Write the log** to `review/runs/<run-id>/double-check.md` (or `review/report/double-check.md`):
+6. **Abbreviations.** Repeated terms are `Full term (ABBR)` at first use, then the abbreviation (`type 2 diabetes (T2D)`, then `T2D`). Headings may stay expanded. Fix leftover long forms in Results and Discussion.
+7. **In-article tables.** At least one Markdown pipe table and an in-text `Table N` sentence. Cells must match the notes.
+8. **Discussion.** Interprets findings. No identification counts, fetch logs, or token meters.
+9. **Write the log** to `review/runs/<run-id>/double-check.md` (or `review/report/double-check.md`):
 
 ```markdown
 # Double-check — <run-id>
@@ -33,6 +34,7 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 - Claims spot-checked (paper, number, note/PDF agree?):
   - …
 - Abstract: citations? named papers?
+- Abbreviations: repeated terms defined once then shortened?
 - Tables in article: Table 1 … mentioned in prose?
 - If two passes: rank pass 1 vs pass 2 on abstract, tables, traceability, Discussion, completeness (1–5 each) and say which is the deliverable.
 ```

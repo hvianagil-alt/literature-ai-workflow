@@ -118,3 +118,48 @@ class CheckArticleTests(unittest.TestCase):
         )
         problems = check_article.check(text, draft, short=True)
         self.assertTrue(any("draft" in p.lower() for p in problems), problems)
+
+    def test_leftover_expanded_term_after_sigla_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        bloated = text.replace(
+            "Delayed recall of a methods chapter is a specific memory problem:",
+            "Type 2 diabetes (T2D) is a specific memory problem:",
+            1,
+        )
+        bloated = bloated.replace(
+            "Current advice already tells students to take notes.",
+            "Type 2 diabetes is still discussed. "
+            "Type 2 diabetes is still discussed. "
+            "Type 2 diabetes is still discussed. "
+            "Type 2 diabetes is still discussed.",
+            1,
+        )
+        problems = check_article.check(bloated, None, short=True)
+        self.assertTrue(any("t2d" in p.lower() or "abbreviation" in p.lower() for p in problems), problems)
+
+    def test_leftover_sigla_ignores_leading_clause(self):
+        body = (
+            "Agonists are licensed for type 2 diabetes (T2D). "
+            "Type 2 diabetes is still discussed. "
+            "Type 2 diabetes is still discussed. "
+            "Type 2 diabetes is still discussed. "
+            "Type 2 diabetes is still discussed."
+        )
+        problems = check_article.leftover_expanded_terms(body)
+        self.assertTrue(problems, problems)
+        self.assertIn("type 2 diabetes", problems[0].lower())
+        self.assertNotIn("licensed", problems[0].lower())
+        self.assertEqual(
+            check_article.expansion_for_abbr(
+                "Agonists are licensed for type 2 diabetes", "T2D"
+            ),
+            "type 2 diabetes",
+        )
+        self.assertEqual(
+            check_article.expansion_for_abbr(
+                "Glucagon-like peptide-1 (GLP-1) and "
+                "glucose-dependent insulinotropic polypeptide",
+                "GIP",
+            ),
+            "glucose-dependent insulinotropic polypeptide",
+        )

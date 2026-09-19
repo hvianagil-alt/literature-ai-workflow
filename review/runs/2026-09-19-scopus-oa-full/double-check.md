@@ -34,6 +34,10 @@ No number was invented to resolve a mismatch. Several notes still mark n as not 
 
 No `[n]`. No *et al.*. No MEDI7219. Topic map with one unnamed hinge (AID time-in-range). Same as pass 1; that part already met the craft rule.
 
+## Abbreviations
+
+Repeated terms are now `Full term (ABBR)` at first use, then the short form: T2D, T1D, GLP-1 RA, AID, TIR, CGM, SC, BA, PK, GI, MSC, EV. The Abstract defines the terms it repeats; the body defines them again at first use (the Abstract is standalone). Headings, keywords, and reference titles stay expanded. Pass 1 spelled those phrases out every time.
+
 ## Tables in article
 
 - Table 1 (human glycaemia / tablet PK / pooled safety) mentioned in §3 and Discussion.

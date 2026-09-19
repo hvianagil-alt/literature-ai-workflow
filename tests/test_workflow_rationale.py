@@ -42,6 +42,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("check_article.py", text)
         self.assertIn("article-qa", text)
         self.assertIn("In-article results tables", text)
+        self.assertIn("Full term (ABBR)", text)
         self.assertEqual(text.count("## Output"), 1)
         self.assertNotIn("glycaemia, safety, utilisation", text)
         self.assertNotIn("hepatic GLP-1", text)
@@ -69,6 +70,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Table 1", text)
         self.assertIn("Do not put in the Abstract", text)
         self.assertIn("colon subtitle", text.lower())
+        self.assertIn("Abbreviations", text)
+        self.assertIn("T2D", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -97,6 +100,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertNotIn("This repo has ten", text)
         self.assertIn("Table 1", text)
         self.assertIn("double-check", text)
+        self.assertIn("T2D", text)
 
     def test_synthesis_rationale_skill_exists_with_quality_bar(self):
         text = (ROOT / ".cursor/skills/synthesis-rationale/SKILL.md").read_text(
@@ -123,6 +127,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("not done", text.lower())
         self.assertIn("Table 1", text)
         self.assertIn("no citations", text.lower())
+        self.assertIn("Full term (ABBR)", text)
 
     def test_double_check_skill_exists(self):
         text = (ROOT / ".cursor/skills/double-check/SKILL.md").read_text(
@@ -131,6 +136,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("spot-check", text.lower())
         self.assertIn("article-pass1.md", text)
         self.assertIn("double-check.md", text)
+        self.assertIn("Abbreviations", text)
         self.assertIn(".cursor/skills/double-check/SKILL.md", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
         self.assertTrue((ROOT / "scripts" / "table_from_notes.py").is_file())
 
@@ -191,14 +197,12 @@ class FullScopusRunArticleTests(unittest.TestCase):
         words = body.split()
         self.assertGreaterEqual(len(words), 6000, "body should be ~20 Word pages")
         intro = body.split("## 1. Introduction", 1)[1].split("## 2. Methods", 1)[0]
-        for phrase in (
-            "incretin",
-            "automated insulin delivery",
-            "protease",
-            "time in range",
-            "hepatic",
-        ):
-            self.assertIn(phrase.lower(), intro.lower())
+        intro_l = intro.lower()
+        self.assertIn("incretin", intro_l)
+        self.assertIn("automated insulin delivery", intro_l)
+        self.assertIn("protease", intro_l)
+        self.assertTrue("time in range" in intro_l or "tir" in intro_l)
+        self.assertIn("hepatic", intro_l)
         lowered = body.lower()
         for banned in (
             "token estimate",
@@ -256,9 +260,13 @@ class FullScopusRunArticleTests(unittest.TestCase):
         self.assertNotIn("mechanical first-pass", table.lower())
         self.assertNotIn("extracted lead", table.lower())
         self.assertIn("Claim-ready facts", table)
+        self.assertIn("type 2 diabetes (T2D)", text)
+        self.assertIn("Type 1 diabetes (T1D)", text)
+        self.assertIn("GLP-1 receptor agonist (GLP-1 RA)", text)
         log = (self.run_dir / "double-check.md").read_text(encoding="utf-8")
         self.assertIn("pass 1", log.lower())
         self.assertIn("pass 2", log.lower())
+        self.assertIn("Abbreviations", log)
 
 
 class ReviewCraftStudyTests(unittest.TestCase):
