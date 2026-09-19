@@ -46,6 +46,12 @@ def main() -> int:
     if fp.exists():
         for row in json.loads(fp.read_text(encoding="utf-8")):
             fetch[row.get("citekey")] = row
+    screen = {}
+    sp = run_dir / "screening.json"
+    if sp.exists():
+        screen = json.loads(sp.read_text(encoding="utf-8"))
+    included = set(screen.get("included") or [])
+    full_ex = {r.get("citekey"): r for r in (screen.get("fulltext_excluded") or [])}
     n = 0
     for rec in catalog:
         if rec.get("title_decision") != "title_include":
@@ -53,6 +59,26 @@ def main() -> int:
         rid = rec["record_id"]
         txt_path = txt_dir / f"{rid}.txt"
         fetched = fetch.get(rid, {})
+        ft_status = rec.get("fulltext_decision")
+        if rid in full_ex and not txt_path.exists():
+            reason = full_ex[rid].get("reason") or "full-text exclude"
+            note = (
+                f"# {rec['title']}\n\n"
+                f"- **Citation (as given in the paper / filename):** {rec['author']}, {rec['year']}, {rec['journal']}. doi:{rec['doi']}\n"
+                f"- **Source file:** papers/{txt_dir.name}/{rid}.pdf\n"
+                f"- **Extracted:** {date.today().isoformat()}\n"
+                f"- **Screening:** Title include; full text **excluded** — {reason}\n\n"
+                "## Research question\nOut of scope after full text (see screening reason).\n\n"
+                "## Methods\nnot used — excluded\n\n"
+                "## Sample / data\nnot used — excluded\n\n"
+                "## Key findings\n- not used as evidence; paper excluded at full text\n\n"
+                "## Limitations (as stated by the authors, or evident from the methods)\n- excluded from synthesis\n\n"
+                f"## Relevance to our research question\nOut of scope: {reason}\n\n"
+                "## Open questions / things to verify\nNone; excluded.\n"
+            )
+            (notes_dir / f"{rid}.md").write_text(note, encoding="utf-8")
+            n += 1
+            continue
         if not txt_path.exists():
             note = (
                 f"# {rec['title']}\n\n"
@@ -73,12 +99,32 @@ def main() -> int:
             continue
         raw = txt_path.read_text(encoding="utf-8", errors="replace")
         lead = abstract_or_lead(raw)
+        if rid in full_ex or ft_status == "exclude":
+            reason = (full_ex.get(rid) or {}).get("reason") or rec.get("fulltext_reason") or "full-text exclude"
+            note = (
+                f"# {rec['title']}\n\n"
+                f"- **Citation (as given in the paper / filename):** {rec['author']}, {rec['year']}, {rec['journal']}. doi:{rec['doi']}\n"
+                f"- **Source file:** papers/{txt_dir.name}/{rid}.pdf\n"
+                f"- **Extracted:** {date.today().isoformat()}\n"
+                f"- **Screening:** Title include; full text **excluded** — {reason}\n\n"
+                f"## Research question\nOut of scope after full text.\n\n"
+                f"## Methods\nnot used — excluded\n\n"
+                f"## Sample / data\nnot used — excluded\n\n"
+                f"## Key findings\n- not used as evidence; paper excluded at full text\n\n"
+                f"## Limitations (as stated by the authors, or evident from the methods)\n- excluded from synthesis\n\n"
+                f"## Relevance to our research question\nOut of scope: {reason}\n\n"
+                f"## Open questions / things to verify\nNone; excluded.\n"
+            )
+            (notes_dir / f"{rid}.md").write_text(note, encoding="utf-8")
+            n += 1
+            continue
+        in_flag = "included after full text" if (not included or rid in included) else "title include; full-text decision pending"
         note = (
             f"# {rec['title']}\n\n"
             f"- **Citation (as given in the paper / filename):** {rec['author']}, {rec['year']}, {rec['journal']}. doi:{rec['doi']}\n"
             f"- **Source file:** papers/{txt_dir.name}/{rid}.pdf\n"
             f"- **Extracted:** {date.today().isoformat()}\n"
-            f"- **Screening:** Title include; first-pass from extracted PDF text (abstract/lead). Numbers not in this lead are marked not stated.\n\n"
+            f"- **Screening:** {in_flag}. First-pass from extracted PDF text (abstract/lead). Numbers not in this lead are marked not stated.\n\n"
             f"## Research question\n"
             f"As stated in the paper title/lead: {rec['title']}\n\n"
             f"## Methods\n"
@@ -90,9 +136,9 @@ def main() -> int:
             f"## Limitations (as stated by the authors, or evident from the methods)\n"
             f"- Mechanical first-pass note; verify against the PDF before citing a number.\n\n"
             f"## Relevance to our research question\n"
-            f"Title-screened in because: {rec.get('title_reason')}\n\n"
+            f"Title-screened in because: {rec.get('title_reason')}. Full-text: {rec.get('fulltext_reason') or 'pending'}.\n\n"
             f"## Open questions / things to verify\n"
-            f"Confirm sample size, effect sizes, and whether the paper is in-scope after full text.\n"
+            f"Confirm sample size, effect sizes, and whether numbers in the lead were OCR/extract artifacts.\n"
         )
         (notes_dir / f"{rid}.md").write_text(note, encoding="utf-8")
         n += 1

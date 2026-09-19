@@ -19,6 +19,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import socket
 import sys
 from pathlib import Path
 
@@ -51,6 +52,8 @@ def _request(
     except urllib.error.HTTPError as e:
         body = e.read() if e.fp else b""
         return e.code, e.geturl() if hasattr(e, "geturl") else url, body
+    except (urllib.error.URLError, TimeoutError, socket.timeout, ssl.SSLError, OSError):
+        return 0, url, b""
 
 
 def looks_like_pdf(data: bytes, content_url: str) -> bool:
@@ -152,6 +155,10 @@ def publisher_guess_urls(doi: str) -> list[str]:
         urls.append(f"https://www.nature.com/articles/{art}")
     if doi.startswith("10.1016/"):
         urls.append(f"https://www.sciencedirect.com/science/article/pii/pdf?doi={urllib.parse.quote(doi)}")
+    if doi.startswith("10.3390/"):
+        urls.append("https://www.mdpi.com/resolver?doi=" + urllib.parse.quote(doi))
+    if doi.startswith("10.3389/"):
+        urls.append(f"https://www.frontiersin.org/articles/{doi}/pdf")
     urls.append(f"https://doi.org/{doi}")
     # de-dupe preserving order
     seen: set[str] = set()
@@ -173,7 +180,9 @@ def try_download_pdf(url: str) -> tuple[bytes | None, str, int]:
         text = body.decode("utf-8", errors="replace")
         for pattern in (
             'citation_pdf_url" content="',
+            "citation_pdf_url' content='",
             'citation_pdf_url" content=\'',
+            'name="citation_pdf_url" content="',
         ):
             if pattern in text:
                 start = text.index(pattern) + len(pattern)
@@ -276,6 +285,15 @@ def main() -> int:
     results = []
     total_http = 0
     ok_n = 0
+    prior: dict[str, dict] = {}
+    log_path = run_dir / "fetch-log.json"
+    if args.resume and log_path.exists():
+        try:
+            for row in json.loads(log_path.read_text(encoding="utf-8")):
+                if row.get("citekey"):
+                    prior[row["citekey"]] = row
+        except json.JSONDecodeError:
+            prior = {}
     for rec in catalog:
         doi = rec.get("doi") or ""
         citekey = rec.get("record_id") or rec.get("citekey") or "unknown"
@@ -297,6 +315,13 @@ def main() -> int:
             )
             print(f"SKIP {citekey} (already have PDF)", flush=True)
             continue
+        if args.resume and citekey in prior:
+            row = dict(prior[citekey])
+            if row.get("ok"):
+                ok_n += 1
+            results.append(row)
+            print(f"SKIP {citekey} (logged {row.get('error') or 'ok'})", flush=True)
+            continue
         if not doi:
             results.append(
                 {
@@ -311,7 +336,20 @@ def main() -> int:
                 }
             )
             continue
-        got = fetch_one(doi, args.email)
+        try:
+            got = fetch_one(doi, args.email)
+        except Exception as e:
+            got = {
+                "doi": doi,
+                "ok": False,
+                "source_url": None,
+                "attempted": [],
+                "http_calls": 0,
+                "bytes": 0,
+                "pdf": None,
+                "error": f"exception:{type(e).__name__}",
+            }
+            print(f"FAIL {citekey}  {doi}  {got['error']}", flush=True)
         total_http += int(got["http_calls"])
         row = {
             "citekey": citekey,
