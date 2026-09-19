@@ -89,8 +89,8 @@ The article is a mini-review of *this set*. Argument: the only human comparative
 6. **Extra-glycaemic and regenerative work in this set is mechanistic, not metabolic-outcomes evidence (Guo, Chen; Zhang already placed as local joint delivery).** Job: separate cardiac PCSK5/semaglutide from MSC-exosome wounds; do not treat them as one “regenerative GLP-1” class.
 7. **Satisfaction with diabetes medicines, including GLP-1 RAs, is a different endpoint (Boye).** Job: content validity only; GLP-1 users in the sample ≠ drug-effect estimate.
 8. **Discussion** — Three stable messages from (b); incommensurability from (c); cannot-answer list from (d); Huang gap.
-9. **Conclusions** — Claims limited to these seven full texts.
-10. **References** — The seven included papers only (excluded/not-retrieved named in methods, not used as evidence).
+9. **Conclusions** — Claims limited to retrieved full texts (export + gap-fill); open gaps stay open.
+10. **References** — Included full texts only (excluded/not-retrieved named in methods, not used as evidence).
 
 Every included paper appears: Wu in §4; Jeong, Zhang, Khater in §5; Guo and Chen in §6 (Zhang cross-referenced); Boye in §7. If extra OA full texts are retrieved for the gaps in (f), they are added as rows in the table and cited in the matching section; they are not silently omitted and they are not invented.
 
