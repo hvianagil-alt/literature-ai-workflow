@@ -46,6 +46,11 @@ Semester-long retention; K–12 learners; whether the STEM split replicates.
 5. What this literature still lacks.
 6. Discussion / Conclusions.
 
+## (j) Condition clusters
+
+- **Overall recall effect:** Al 2021 (lab, N=40, +18%, p<0.05) and Chen 2023 (meta-analysis, d=0.25) share an endpoint family (delayed recall of structured vs unstructured notes) but differ in design (single experiment vs pooled d) and in whether domain is tested. Dee 2024 is the same recall family with a medium split (digital vs paper), not a format split.
+- **Domain moderator:** Bea 2022 (STEM null, humanities d=0.4, N=85) vs Chen’s pooled d — population/endpoint mix, not a direct replication failure. Single-study observation for the STEM split.
+
 ## (f) Interpretation gaps
 
 G1 — STEM split rests on one study.

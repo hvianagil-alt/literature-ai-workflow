@@ -34,7 +34,7 @@ Then `python3 scripts/table_from_notes.py --run-dir review/runs/<id>`.
 
 ### Rationale loop (once, not optional)
 
-Write `synthesis-rationale.md` with **(i)** and **(a)–(e)**. Attempt OA gap retrieval. Update notes/table. If nothing extra is OA, log that. Then go on.
+Write `synthesis-rationale.md` with **(i)**, **(a)–(e)**, and **(j) condition clusters**. Attempt OA gap retrieval. Update notes/table. If nothing extra is OA, log that. Then go on.
 
 ### Form loop (once, before draft)
 

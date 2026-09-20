@@ -29,6 +29,10 @@ Mechanism articulation). ``--short`` skips this gate.
 Fails conversational review-metaphor (``the plate can still``, ``invent a
 disagreement``) and stacked ``According to Author`` citation openers
 (see scientific-synthesis).
+Fails a full manuscript whose thematic sections dump one study per paragraph
+without naming why similar experiments agree or differ (population, system,
+cell or strain, dose, endpoint, geography, statistics). ``--short`` skips
+this gate.
 """
 
 from __future__ import annotations
@@ -481,6 +485,117 @@ def first_thematic_section(text: str) -> str:
     if not titles:
         return ""
     return section_after(text, titles[0])
+
+
+FILE_CARD_MIN_WORDS = 50
+RESULT_STAT_RE = re.compile(
+    r"(?:"
+    r"\bp\s*[=<>]"
+    r"|n\s*=\s*\d+"
+    r"|odds ratio"
+    r"|\baOR\b"
+    r"|95%\s*CI"
+    r"|effect size"
+    r"|hedges['’]?\s*g"
+    r")",
+    re.I,
+)
+COMPARISON_RE = re.compile(
+    r"\b(?:"
+    r"however|whereas|unlike|in contrast|by contrast|"
+    r"taken together|cannot be pooled|incommensurable|"
+    r"sits? beside|that (?:split|tension|dissociation|mismatch|pattern)|"
+    r"those (?:studies|papers|trials|cohorts|assays|conditions|limits)|"
+    r"across (?:studies|papers|cohorts|trials)|"
+    r"does not contradict|consistent with|matches the|"
+    r"the two papers|these two|"
+    r"not the same|"
+    r"a different (?:molecule|dose|endpoint|species|population|design|"
+    r"ligand|receptor|sample|cohort|trial|assay|system|instrument|"
+    r"geography|country)|"
+    r"another (?:study|trial|cohort|sample|paper)|"
+    r"shared (?:endpoint|question|ligand|receptor|programme)|"
+    r"same (?:programme|health system|ligand|receptor|question|endpoint|"
+    r"people|cohort|tracer|sample)|"
+    r"why (?:they|those|these) (?:differ|agree)|"
+    r"both (?:studies|papers|trials|cohorts|samples)|"
+    r"neither (?:study|paper|trial)|"
+    r"this heading cannot|"
+    r"replication|"
+    r"not identical|"
+    r"the other (?:study|trial|cohort|sample|paper|arm)|"
+    r"opposite chairs|"
+    r"same country|"
+    r"different (?:endpoint|dose|species|population|cell|strain|"
+    r"geography|instrument|design)"
+    r")\b",
+    re.I,
+)
+
+
+def _unique_cites(para: str) -> list[int]:
+    nums: list[int] = []
+    for m in CITE_BRACKET.finditer(para):
+        for n in expand_cite_inner(m.group(1)):
+            if n not in nums:
+                nums.append(n)
+    return nums
+
+
+def _prose_paragraphs(section: str) -> list[str]:
+    out: list[str] = []
+    for raw in re.split(r"\n\s*\n", section):
+        para = raw.strip()
+        if not para:
+            continue
+        if re.match(r"^#{1,4}\s+", para):
+            continue
+        if re.match(r"^\*\*Table\s+\d+", para, re.I):
+            continue
+        lines = [ln for ln in para.splitlines() if ln.strip()]
+        if lines and all(ln.strip().startswith("|") for ln in lines):
+            continue
+        out.append(para)
+    return out
+
+
+def _is_file_card(para: str) -> bool:
+    """One study's statistics, no named reason similar experiments agree or differ."""
+    if len(para.split()) < FILE_CARD_MIN_WORDS:
+        return False
+    if len(_unique_cites(para)) != 1:
+        return False
+    if not RESULT_STAT_RE.search(para):
+        return False
+    if COMPARISON_RE.search(para):
+        return False
+    return True
+
+
+def condition_cluster_problems(text: str, short: bool) -> list[str]:
+    """Thematic sections must cluster similar experiments, not dump one study each."""
+    if short:
+        return []
+    for title in thematic_h2_titles(text):
+        paras = _prose_paragraphs(section_after(text, re.escape(title)))
+        run = 0
+        max_run = 0
+        for para in paras:
+            if _is_file_card(para):
+                run += 1
+                if run > max_run:
+                    max_run = run
+            else:
+                run = 0
+        if max_run >= 2:
+            return [
+                f"thematic section '{title}' dumps one study per paragraph "
+                "without naming why similar experiments agree or differ "
+                "(population, system, cell or strain, dose, endpoint, "
+                "geography, statistics); cluster comparable designs "
+                "(see scientific-synthesis, Condition clusters)"
+            ]
+    return []
 
 
 def mechanism_prose_problems(text: str, short: bool) -> list[str]:
@@ -1003,6 +1118,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(front_matter_problems(text))
     problems.extend(glued_heading_problems(text))
     problems.extend(mechanism_prose_problems(text, short))
+    problems.extend(condition_cluster_problems(text, short))
     return problems
 
 

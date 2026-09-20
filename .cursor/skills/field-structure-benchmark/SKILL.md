@@ -37,6 +37,7 @@ From each comparator, list:
 - Where Methods sit (early / buried / absent)
 - Whether Discussion is separate from Results
 - Topics that recur in ≥2 comparators
+- **How results are presented (form only):** do comparators cluster similar experiments in one paragraph and name why they agree or differ (population, cells, dose, endpoint, geography, statistics), or do they dump one study per paragraph? Copy that **craft**, not their numbers.
 
 **Forbidden:** copying their numbers, quoted findings, or example organisms into `article.md` unless that paper is already an included full text for **science**.
 
@@ -58,6 +59,8 @@ Write `review/runs/<run-id>/structure-benchmark.md` (fallback `review/report/str
 | … | Zhang §3; Wu §2 | §3 membranes | keep / add / omit (why) |
 
 ## What matches
+## Result-presentation craft (form only)
+<Do comparators cluster similar experiments and name why results differ, or do they catalogue papers? The article must match the clustering craft, never their findings.>
 ## What we omit on purpose
 <Field-standard sections we will not write because this sample has no primary evidence.>
 ## What we should add before drafting

@@ -1,5 +1,19 @@
 # Synthesis rationale — 2026-09-20-pd-cannabinoids
 
+## (i) Intellectual model
+
+1. **Central question:** Which cannabinoid products, in which PD populations or models, change which endpoints — and why those results cannot be pooled.
+2. **Variables:** ligand (nabilone vs CBD vs mixed oil vs CB2/PPAR tools), dose class (sub-mg vs mg/kg vs µM vs µg), population (clinic cohort vs web vs enriched RCT vs toxin/AAV model), endpoint family (use/acceptability vs sleep items vs SEDASI vs MDS-UPDRS II/III vs PET VT vs viability/TH/pSer129).
+3. **Mechanisms (as papers state them):** CB1/CB2 partial agonism (nabilone); low-affinity multi-target CBD; CB1 availability on PET; CB2 immune modulation; PPAR-γ (VCE-003.2); AT1–CB1 heteromers.
+4. **Heterogeneity:** geography and denominator for surveys; withdrawal vs open-label in one nabilone programme; species/dose/endpoint for CBD.
+5. **Evidence types:** surveys; one EERW RCT post-hoc plus extension; nested dermatology RCT analysis; tiny oil series; PET/VBM maps; cellular/animal models; secondary clinic reviews.
+6. **Established (in this sample):** people with PD already use or would accept cannabis/CBD; nabilone sleep items move without motor Parts II/III in an enriched programme; randomised short oral CBD has not shown a SEDASI win here; clinic reviews rank motor cannabis as non-significant.
+7. **Suggested/uncertain:** CB1 VT maps to axial/cognitive features; animal protection-like readouts for CBD-related ligands.
+8. **Unknown:** parent Colorado CBD+THC motor numbers (not retrieved); head-to-head nabilone vs CBD insomnia; human disease modification; PET as a nabilone-response biomarker.
+9. **Consequence:** counselling and product-specific non-motor claims are licensed by design; a “cannabinoids for PD” pooled motor claim is not.
+
+**Causal chain:** product and receptor class → occupancy or off-target action in a named population or cell → a named endpoint moves or does not → disagreement is explained by population, dose, and endpoint, not by “the literature disagrees.”
+
 **Research question:** How do cannabinoids (plant cannabis, CBD, THC, nabilone, and CB1/CB2 ligands) change motor and non-motor outcomes, receptor imaging, and mechanisms in Parkinson’s disease, given this Scopus identification set plus two gap-fill full texts?
 
 **Included studies (31):** 19 original articles + 10 reviews from the user export that had a public full text and a cannabinoid/PD question, plus gap-fill `Peball2022sleep` (nabilone RCT post-hoc sleep) and `Han2022ecs` (basal-ganglia ECS review). Reviews and articles were kept in separate catalogs during screening so secondary summaries are not treated as new trials.
@@ -88,6 +102,22 @@
 6. **Models: why animals still look better than clinics** — Esfandi, Lima, Kim, Burgaz, Joers, Rivas, Lapmanee, Jamshaid.
 7. **How 2024–2026 reviews framed the same question** — Blebea, Białoń, Șolea, Fowler, Hakami, Shoyama, Kaszyńska, de Aquino.
 8. **Discussion / Conclusions** — two readings (NMS cannabinoid vs motor disease-modifying story); why pooling fails; next measurements.
+
+## (j) Condition clusters
+
+Field-agnostic method: papers that share an endpoint family are one cluster. The article writes one argument per cluster, not one paragraph per paper.
+
+1. **Use, not efficacy (surveys).** Shared question: how common is cannabis/CBD among people with PD or their clinicians? Same: self-report, no randomised endpoint. Differ: Netherlands clinic-linked PRIME-NL (Diadhiou 13.1% cannabis among 367 respondents; 36% is any natural product) vs German questionnaire band 8.3–37% (Hidding) vs user-only clinic samples (de Freitas 66% tremor among 261 users) vs French web acceptability (Barré 2024, n=1136, cannabis 81.7%, CBD 87.4%) vs French providers (Barré 2026, physician aOR 0.13/0.10, n=45 physicians). Geography, denominator (users vs population vs hypothetical willingness), and occupation explain the spread. Jointly supports a disclosure/counselling fact. Cannot support MDS-UPDRS efficacy. Caiza Asitimbay is not in this cluster (methods warning).
+
+2. **Nabilone sleep/pain vs motor (same programme).** Peball 2022 post-hoc EERW sleep items (n=31/38) and Peball 2024 open-label extension (n=22/19, mean 0.87 mg/day). Same ligand, same people largely, different design (withdrawal vs unblinded continuation). Sleep/pain items move; MDS-UPDRS II/III do not (p>0.513). Cannot pool with CBD mg/kg or microgram oils.
+
+3. **Oral CBD / mixed oil in PD (different molecule and endpoint).** Weber SEDASI null (n=26/27, ~16 days, 2.5 mg/kg/day CBD, p=0.38) vs Ruver-Martins ISI p=0.03 at 1000:112 μg/day in n=3 per dose, no placebo. Clinic reviews (de Freitas, Hidding, Hafida, Fowler) add secondary motor/RBD ranking, not new n. Disagree with nabilone because receptor, dose class, and endpoint differ — not because “the literature disagrees.”
+
+4. **CB1 anatomy in living PD.** Ajalin 2025 motor PET (n=15, PIGD p=0.002, rigidity p<0.001, tremor p=0.995) and Ajalin 2026 cognition PET (n=23, Logical Memory I q=0.006, TMT B–A q=0.004) share tracer and overlapping sample; endpoints differ (axial/rigid vs memory/executive). Pisani psychosis maps (CB1 r=0.337, CB2 ns after spatial correction) are a different method (VBM vs occupancy). Not a CBD target-engagement cluster.
+
+5. **CBD-like protection in models (why animals look better).** Esfandi PC12 6-OHDA (10 µM, viability 81.65%) vs Lima reserpine mice (0.5 mg/kg, TH preserved, open-field not rescued) vs Lapmanee STZ+HFD+MPTP rats (CBD-LNP 20 mg/kg vs free CBD vs levodopa). Same ligand family; differ in cell vs mouse vs comorbid rat, µM vs mg/kg, viability/TH vs behaviour. Exposure and endpoint, not honesty, explain the preclinical–clinical gap (Weber plasma 49.29 ng/mL is not 10 µM).
+
+6. **Cannabinoid-related but not CBD/nabilone.** Burgaz VCE-003.2 PPAR-γ CBG quinone vs Joers SMM-189 CB2 inverse agonist vs Kim GB34 pharmacopuncture (CB1/PPAR antagonists) vs Rivas AT1–CB1 heteromers vs Jamshaid docking. Shared “endocannabinoid neighbourhood”; different receptors, species, and whether a phytocannabinoid was even given. Do not average with Peball or Weber.
 
 ## (f) Interpretation gaps
 

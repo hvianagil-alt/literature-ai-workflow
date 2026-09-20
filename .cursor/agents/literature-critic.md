@@ -27,6 +27,7 @@ After `check_extraction.py` and `check_article.py` exit 0. If they fail, stop an
 - Adjacent-field Introduction: pass / fail
 - Numbers spot-checked: (paper, number, agree yes/no)
 - Catalogue voice remaining: yes/no
+- Condition clusters (similar experiments compared): yes/no
 - Acquisition language outside Methods: yes/no
 - Graphical abstract present: no (must be no)
 - Critic verdict: PASS / FAIL
