@@ -1,21 +1,28 @@
 # Double-check — 2026-09-20-pd-cannabinoids
 
-- Scripts: `check_extraction.py` 31/31 claim-ready (exit 0); `check_article.py` exit 0 after removing banned phrase “in this set” and renaming the contemporaneous-reviews heading (year window not in a non-Methods title).
+- Scripts: `check_extraction.py` 31/31 claim-ready (exit 0); `check_article.py` exit 0 after pass-2 condition-cluster rewrite (consecutive one-study dumps now fail the machine gate).
 - Notes still stub? no (0).
 - Table still DRAFT/lead-paste? no (`table_from_notes.py`; header states not a write_table DRAFT).
 - Claims spot-checked (paper, number, note/PDF agree?):
   - Diadhiou 2024: 13.1% (48/367) cannabis for PD symptoms — article Table 1 and prose match `Diadhiou20241257.md`.
   - Barré 2024: cannabis 81.7%, CBD 87.4%, p<0.001 — match `Barré2024.md`.
-  - Peball 2022: placebo MDS-UPDRS-1.7 +2.00 (1.32–2.68), p=0.004; between-groups p<0.001; 77.4% no relevant sleep problem — match `Peball2022sleep.md` and JATS extract.
+  - Peball 2022: placebo MDS-UPDRS-1.7 +2.00 (1.32–2.68), p=0.004; between-groups p<0.001; 77.4% no relevant sleep problem — match `Peball2022sleep.md`.
   - Peball 2024: NMSS Domain 2 −8.26, p=0.004; KPPS −8.00, p=0.046; MDS-UPDRS II/III p>0.513; n=19 completers — match `Peball2024.md`.
   - Weber 2024: SEDASI treatment p=0.38; n=26/27; 2.5 mg/kg/day ~16 days — match `Weber2024.md`.
   - Esfandi 2025: viability 48.25% to 81.65% at 10 µM CBD, p<0.0001, n=4 — match `Esfandi2025.md`.
 - Abstract: citations? no. named papers? no. search/OA/year-window language? no (Methods only).
-- Citation order: first-appearance [1]…[n] after `renumber_citations.py`. References each in their own paragraph.
+- Citation order: first-appearance [1]…[n] after `renumber_citations.py` (Lapmanee now [22] because it was clustered with Esfandi/Lima). References each in their own paragraph.
 - Abbreviations: PD, CBD, THC, CB1 introduced in teaching sentences; Abstract remains readable as a topic map.
 - Adjacent-field reader test (Introduction teaches later sections?): yes. Opens on PD synucleinopathy and dopamine circuits; teaches levodopa limits, plant vs synthetic products, CB1 vs CB2 before surveys and trials.
+- Mechanism articulation (condition → effect → measurement; grade not upgraded?): yes.
+- Paragraph function (claim → evidence → contrast → explanation → synthesis): yes after pass 2.
+- Condition clusters (similar experiments compared; differences named): yes. §3 clusters Dutch ever-use vs German questionnaire band vs French patient/provider chairs; §4 clusters NMS-Nab withdrawal with the extension, then CBD SEDASI with microgram oil against nabilone milligrams; §5 clusters the two [18F]FMPEP-d2 papers then contrasts VBM gene maps; §6 clusters CBD dish/mouse/LNP, then synuclein VCE vs SMM-189, then CB1-without-plant (Kim/Rivas). Pass 1 kept as `article-pass1.md`.
+- Whole-paper argument (problem / evidence / explanation / limitation / contribution): PD leaves non-motor burden after levodopa; people already use cannabis while physicians doubt efficacy; nabilone sleep items move without motor Parts II/III; CBD and models do not close that gap because species, dose, and endpoint differ; next measurements are head-to-head insomnia with PSG and a defined-ratio motor trial.
+- Field-structure benchmark (`structure-benchmark.md`): done; verdict keep question-driven spine and add clustering craft from clinic comparators.
+- Field memory card: `review/memory/generic-narrative.md`
+- Critic verdict: PASS
 - Heading spine: thematic `##` sections 3–7, not generic Results.
 - Tables in article: Table 1 (surveys), Table 2 (trials), Table 3 (imaging) mentioned in prose.
 - Caiza Asitimbay 2025: not used as efficacy (methods warning only).
 - Liu 2024 / Leehey 2023 motor and fluency numbers: not invented (no public PDF).
-- If two passes: single pass for this run (not a rewrite of HPP or GLP-1 manuscripts).
+- If two passes: rank pass 1 vs pass 2 (1–5): abstract 4/4; tables 5/5; traceability 5/5; Discussion 4/5; completeness 5/5. Pass 2 is the deliverable because results paragraphs now compare similar experiments instead of listing one study’s percentage at a time.
