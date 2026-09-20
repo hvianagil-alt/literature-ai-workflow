@@ -1,6 +1,6 @@
 # Double-check — 2026-09-20-hpp-rerun
 
-- Scripts: check_extraction.py 43/43 OK (re-run this critic pass, exit 0); check_article.py OK (writer/orchestrator report; `--form-model review/ml/model.json`); score_review_form.py food-science p_published_form=1.000 (orchestrator report)
+- Scripts: check_extraction.py 43/43 OK (prior critic pass, exit 0); check_article.py OK after the two number fixes (writer/orchestrator report); score_review_form.py food-science p_published_form=1.000 (orchestrator report)
 - Notes still stub? no (0). `check_extraction.py` reports 43/43 claim-ready. Extra files `Baek2026.md` (pet-food, excluded by protocol) and `Bhanu Prakash Reddy2026.md` (wrong/unretrieved full text) are logged in Methods, not treated as included evidence.
 - Table still DRAFT/lead-paste? no (`review/runs/2026-09-20-hpp-rerun/table/literature-table.md` states rewritten from Claim-ready facts; no “mechanical first-pass” / “extracted lead”)
 - Claims spot-checked (paper, number, note/PDF agree?):
@@ -10,8 +10,9 @@
   - Jönsson 2023, hardness −67.7% (200 MPa) to −87.7% (600 MPa), 180 s — note agree
   - Szczepańska 2021, max 1.4 log TMC at 200 MPa; TMC 5.36; Dv(50) 308 → 15.8 µm — note agree
   - Nikparvar 2021, 7.79 ± 0.82 log; 1.338 → 0.809 nm; n = 318 cells — note agree
-  - Serra-Castelló 2021, δ Scott A 0.70 vs 2.48 min; second-log 2.10 vs 11.22 min — note/PDF agree **in body**; Table 1 “1.29–2.35 log with 2.8% lactate” — **disagree** (PDF: 2.51, 1.75, 2.35 log at 2.8%; 1.29 log is 1.4% lactate, Scott A)
-  - Scepankova 2022, 5.65 log undiluted at 85 °C; ≥3.7 log to LOD at aW 0.85–0.90 / 75 °C — Table 3 agree; §5 “same pressure–time cycle” after 85 °C — **disagree** (LOD is 75 °C PATP)
+  - Serra-Castelló 2021, δ Scott A 0.70 vs 2.48 min; second-log 2.10 vs 11.22 min — note/PDF agree
+  - Serra-Castelló 2021, Table 1 and §3 “1.75–2.51 log with 2.8% lactate” — note/PDF agree after rewrite (PDF 2.51, 1.75, 2.35 at 2.8%; 1.29–2.35 removed)
+  - Scepankova 2022, 5.65 log undiluted at 85 °C — note agree; PATP 600 MPa/15 min/75 °C to 1.30 log LOD at aW 0.85–0.90 in Table 1, §3, and Table 3 — note agree after rewrite
   - Eran Nagar 2026, PPO 41 ± 8 vs 58 ± 13; ΔE ~6.4–6.5 — note agree
   - Koker 2023, TABC 4.04; 200 MPa 0.85 log; heat 0.72–1.34 log — note agree
   - Koutsoumanis 2022, 600 MPa/6 min ~6 log *S. aureus*; RTE 5-log *Listeria* 4.7 min at 600 MPa — note agree
@@ -22,23 +23,18 @@
 - Abstract: citations? no. named papers? no. search/OA/year-window language (must be Methods only)? no in Abstract/Introduction/Discussion/Conclusions. Scopus, OpenAlex, 2021–2026, public PDF, paywall, and screening counts sit only in §2 Methods. No *First, Second, Third* or (i)(ii)(iii) spine. Title is a colon subtitle naming the phenomenon. Keywords follow the Abstract.
 - Citation order: first-appearance [1]…[43]? yes ([1] Koutsoumanis in the Introduction). References each in their own paragraph? yes (blank line between entries).
 - Abbreviations: repeated terms defined once then shortened? yes (HPP, HPTP, HPH, EFSA, VBNC, PPO, RTE, aW). Abstract still readable without a glossary? yes (Abstract stays in words; HPP/HPH not required there).
-- Adjacent-field reader test (Introduction teaches later sections?): yes. Heat as the default verifiable kill step, legal milk 72 °C/15 s and juice five-log as performance criteria, isostatic HPP vs adiabatic HPTP vs valve HPH, vegetative vs spore physiology, injury/VBNC, and PPO as a quality enzyme that need not track plates are all taught before §3. A neighbour-field food scientist can follow coefficients, legal bars, spores, quality, and false-equivalence chapters. If no, rewrite before delivering.
+- Adjacent-field reader test (Introduction teaches later sections?): yes. Heat as the default verifiable kill step, legal milk 72 °C/15 s and juice five-log as performance criteria, isostatic HPP vs adiabatic HPTP vs valve HPH, vegetative vs spore physiology, injury/VBNC, and PPO as a quality enzyme that need not track plates are all taught before §3. A neighbour-field food scientist can follow coefficients, legal bars, spores, quality, and false-equivalence chapters.
 - Mechanism articulation (condition → effect → measurement; grade not upgraded?): yes. Ice, aW, agar/time, pores, lactate, and pulse are joined to log reductions; pores and nucleic-acid leak are treated as demonstrated, lactate piezo-protection and Ice I–III as proposed/compiled.
 - Paragraph function (claim → evidence → contrast → explanation → synthesis): yes. Thematic sections open on the coefficient or bar, then name designs, then contrast matrices, then close on what the section cannot show.
 - Whole-paper argument (problem / evidence / explanation / limitation / contribution): a labelled megapascal hold is treated as if it were pasteurisation; included opinion, milk mixed-model, and primary challenges show vegetative kill in high-moisture foods with matrix- and assay-dependent logs; ice, solute, injury, heat assistance, and shear vs hydrostatic explain why the same number is not one outcome; no retrieved paired 72 °C/15 s *S. aureus* milk trial, no industrial 600 MPa named-pathogen juice five-log, no proteolytic *C. botulinum* food curve; process specifications must name matrix, assay, and whether heat was part of the kill.
 - Field-structure benchmark (`structure-benchmark.md`): done; verdict keep. Heading spine matches rationale (e) and the food-science card’s question-driven shapes (coefficients; legal criteria; spores/HPTP; quality vs plates; neighbouring operations as refusal; separate Discussion). No empty equipment/energy/consumer chapter. No graphical abstract.
 - Field memory card: `review/memory/food-science.md`
-- Critic verdict: FAIL
+- Critic verdict: PASS
 - Heading spine: thematic `##` sections, not generic Results? yes (§1–9 as in rationale (e))
-- Tables in article: Table 1–4 present, captioned, and called from prose (“summarised in Table 1”; Table 2–4 similarly). Table 1 Serra-Castelló cell must be corrected (see critic log).
+- Tables in article: Table 1–4 present, captioned, and called from prose. Table 1 Serra-Castelló cell now matches the PDF (1.75–2.51 log at 2.8% lactate). Table 1 and Table 3 Scepankova cells name 75 °C PATP for the diluted-honey LOD.
 - If two passes: rank pass 1 vs pass 2 on abstract, tables, traceability, Discussion, completeness (1–5 each) and say which is the deliverable. Not ranked. Comparison to `review/runs/2026-09-20-scopus-hpp/article.md` is forbidden until this run’s harness is green.
 - Graphical abstract present: no
 - Catalogue voice remaining: no
 - Acquisition language outside Methods: no
 
-## Critic required fixes (do not deliver until rewritten and re-checked)
-
-- Table 1 Serra-Castelló 2021: 2.8% lactate 10 min kill range must be **1.75–2.51 log** (PDF 2.51, 1.75, 2.35), not 1.29–2.35. See `critic-log.md`.
-- §5 Scepankova: name **75 °C PATP** for the aW 0.85–0.90 LOD result; do not attach it to the 85 °C undiluted-honey cycle.
-
-Independent critic files: `review/runs/2026-09-20-hpp-rerun/critic-log.md` and this log. Article.md was not edited by the critic.
+Re-critic after writer fixes: both prior FAIL items are gone. No new number, teaching, catalogue, or acquisition failures. Article.md was not edited by the critic.

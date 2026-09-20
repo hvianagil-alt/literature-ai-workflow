@@ -10,9 +10,10 @@
   - Jönsson 2023, hardness −67.7% at 200 MPa to −87.7% at 600 MPa / 180 s, agree yes (note)
   - Szczepańska 2021, max 1.4 log TMC at 200 MPa HPH; fresh TMC 5.36 log; Dv(50) 308 → 15.8 µm at 100 MPa, agree yes (note)
   - Nikparvar 2021, 7.79 ± 0.82 log; pore radius 1.338 → 0.809 nm; 318 cells, agree yes (note)
-  - Serra-Castelló 2021, control Scott A δ = 0.70 min; 2.8% lactate Scott A δ = 2.48 min; second-log time 2.10 → 11.22 min, agree yes in body prose (note + PDF)
-  - Serra-Castelló 2021, Table 1 cell “10 min kill lower by 1.29–2.35 log with 2.8% lactate”, agree **no** (PDF and note: 2.8% lactate differences are 2.51, 1.75, and 2.35 log; 1.29 log is the 1.4% lactate Scott A figure). Body text already has 1.75–2.51 correctly.
-  - Scepankova 2022, undiluted honey aW 0.57 unchanged at 5.65 log after 600 MPa/15 min/85 °C; ≥3.70 log to LOD 1.30 at aW 0.85–0.90 under PATP 75 °C, Table 3 agree yes (note); §5 prose “the same pressure–time cycle” after the 85 °C sentence, agree **no** (LOD is 75 °C PATP, not the 85 °C undiluted cycle)
+  - Serra-Castelló 2021, control Scott A δ = 0.70 min; 2.8% lactate Scott A δ = 2.48 min; second-log time 2.10 → 11.22 min, agree yes (note)
+  - Serra-Castelló 2021, Table 1 and §3 “10 min kill lower by 1.75–2.51 log with 2.8% lactate”, agree yes after rewrite (note + PDF: 2.51, 1.75, 2.35 log at 2.8%; 1.29 log is 1.4% lactate and is no longer in the table)
+  - Scepankova 2022, undiluted honey aW 0.57 unchanged at 5.65 log after 600 MPa/15 min/85 °C, agree yes (note)
+  - Scepankova 2022, PATP 600 MPa/15 min/75 °C took diluted aW 0.85–0.90 to the 1.30 log LOD (Table 1, §3 aW paragraph, Table 3), agree yes after rewrite (note: PATP 75 °C, ≥3.70 log to 1.30 LOD). Prior “same pressure–time cycle” wording is gone.
   - Eran Nagar 2026, PPO 41 ± 8 vs fresh 58 ± 13; ΔE ~6.4–6.5, agree yes (note)
   - Koker 2023, TABC 4.04 log; 200 MPa 0.85 log; 75 °C 0.72–1.34 log, agree yes (note)
   - Koutsoumanis 2022, RTE *Listeria* ≥5 log at 600 MPa needs 4.7 min; 600 MPa/6 min about 6 log *S. aureus*; product <45 °C; low-moisture <~40% water, agree yes (note)
@@ -23,7 +24,5 @@
 - Catalogue voice remaining: no
 - Acquisition language outside Methods: no
 - Graphical abstract present: no
-- Critic verdict: FAIL
+- Critic verdict: PASS
 - If FAIL, required fixes (bullet list the writer must do):
-  - **Table 1, Serra-Castelló 2021:** replace “10 min kill lower by 1.29–2.35 log with 2.8% lactate” with the PDF values for **2.8%** lactate at 10 min: 2.51, 1.75, and 2.35 log (CTC1011, CTC1034, Scott A), i.e. range **1.75–2.51 log**. Do not use 1.29 here; that figure is the 1.4% lactate difference for Scott A (`papers/2026-09-20-hpp-rerun/Serra-Castelló2021.txt`; note `Serra-Castelló2021.md`). Align the table with the already-correct §3 sentence (“1.75–2.51 log”).
-  - **§5 Scepankova 2022:** after the undiluted-honey 600 MPa/15 min/**85 °C** / 5.65 log sentence, do not write that “the same pressure–time cycle” took honey-water preparations to the 1.30 log LOD at aW 0.85–0.90. Name **PATP 600 MPa/15 min/75 °C**, as Table 3 and the note already do. Optionally add 75 °C to the Table 1 diluted-honey clause so it cannot inherit 85 °C from the first cell.
