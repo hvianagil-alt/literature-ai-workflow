@@ -162,7 +162,7 @@
     "Wang2021_882539",
     "Goñi2022_04271"
   ],
-  "n_fulltext_assessed": 22,
+  "n_fulltext_assessed": 27,
   "fulltext_excluded": [],
   "included": [
     "Kim2021_010108",
@@ -186,9 +186,14 @@
     "Mathis2022_040723",
     "Koç2023_28316",
     "Wang2021_882539",
-    "Goñi2022_04271"
+    "Goñi2022_04271",
+    "Group2015_01482",
+    "Augustin2019_834474",
+    "FusiRubiano2018_01457",
+    "Khanani2025_50006",
+    "Pieramici2025_50001"
   ],
-  "notes": "Title screen then OA fetch. Sought 26; retrieved 22 public full texts (PDF or Europe PMC/PMC HTML); not retrieved 4 (hybrid Elsevier or MDPI 403 without PMC XML). All retrieved full texts mention diabetic retinopathy/DME and a delivery system, implant, nanoparticle, or intravitreal therapy and were included.",
+  "notes": "Title screen then OA fetch. Sought 26; retrieved 22 public full texts (PDF or Europe PMC/PMC HTML); not retrieved 4 (hybrid Elsevier or MDPI 403 without PMC XML). All retrieved full texts mention diabetic retinopathy/DME and a delivery system, implant, nanoparticle, or intravitreal therapy and were included. Gap-fill (post synthesis-rationale): added Group2015_01482 (G1 MEAD subgroup), Augustin2019_834474 and FusiRubiano2018_01457 (G2 FAc 3-year/pharmacology), Khanani2025_50006 and Pieramici2025_50001 (G4 PDS Pagoda/Pavilion).",
   "not_retrieved": [
     {
       "citekey": "Singer2022_01015",
