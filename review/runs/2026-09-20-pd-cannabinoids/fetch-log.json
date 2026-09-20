@@ -1,0 +1,2100 @@
+[
+  {
+    "citekey": "Karunakaran2025",
+    "doi": "10.1038/s41398-025-03351-1",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Karunakaran2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41398-025-03351-1.pdf?error=cookies_not_supported&code=de95a85f-7721-486d-9010-df13216fdf4d",
+    "attempted": [
+      "https://www.nature.com/articles/s41398-025-03351-1.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11971416/pdf/",
+      "https://www.nature.com/articles/s41398-025-03351-1",
+      "https://doi.org/10.1038/s41398-025-03351-1"
+    ],
+    "bytes": 3080257
+  },
+  {
+    "citekey": "Liu2024863",
+    "doi": "10.1002/mds.29768",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.29768",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11102313/pdf/",
+      "https://doi.org/10.1002/mds.29768"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Anis2026",
+    "doi": "10.1177/25785125261458680",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1177/25785125261458680"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Constantinides2025",
+    "doi": "10.1016/j.jns.2025.123731",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.jns.2025.123731",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.jns.2025.123731"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Esfandi2025",
+    "doi": "10.5812/ijpr-160499",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Esfandi2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://brieflands.com/journals/ijpr/articles/160499.pdf",
+    "attempted": [
+      "https://brieflands.com/articles/ijpr-160499.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12297029/pdf/",
+      "https://doi.org/10.5812/ijpr-160499"
+    ],
+    "bytes": 764829
+  },
+  {
+    "citekey": "Blebea2025",
+    "doi": "10.3390/ph18060890",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Blebea2025.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ph18060890/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1424-8247/18/6/890/pdf?version=1749817637",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12196234/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ph18060890",
+      "https://doi.org/10.3390/ph18060890"
+    ],
+    "bytes": 128476
+  },
+  {
+    "citekey": "Tabi2025",
+    "doi": "10.1016/j.jns.2025.123527",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.jns.2025.123527",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.jns.2025.123527"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "de Almeida Cruz2026",
+    "doi": "10.1016/j.fitote.2025.106968",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://resolver.sub.uni-goettingen.de/purl?gro-2/153111",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fitote.2025.106968",
+      "https://doi.org/10.1016/j.fitote.2025.106968"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "dos Santos Pereira2024",
+    "doi": "10.1016/j.neuropharm.2024.109926",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.neuropharm.2024.109926",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988267/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.neuropharm.2024.109926"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kaszy\u0144ska2024",
+    "doi": "10.3390/ph17060813",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Kaszy\u0144ska2024.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ph17060813/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/ph17060813",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11207064/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ph17060813"
+    ],
+    "bytes": 143523
+  },
+  {
+    "citekey": "Panegyres202435",
+    "doi": "10.2217/nmt-2023-0011",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.2217/nmt-2023-0011"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Fanciulli2025",
+    "doi": "10.1007/s00415-024-12730-5",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Fanciulli2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s00415-024-12730-5.pdf?error=cookies_not_supported&code=77245da5-97b8-44bf-a81c-1bdb733715c5",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s00415-024-12730-5.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11698777/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs00415-024-12730-5.pdf",
+      "https://doi.org/10.1007/s00415-024-12730-5"
+    ],
+    "bytes": 1421073
+  },
+  {
+    "citekey": "Estrada-Valencia202512984",
+    "doi": "10.1007/s12035-025-05104-z",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs12035-025-05104-z.pdf",
+      "https://doi.org/10.1007/s12035-025-05104-z"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Demiri2025",
+    "doi": "10.3390/brainsci15030241",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Demiri2025.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/brainsci15030241/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/brainsci15030241",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11940017/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/brainsci15030241"
+    ],
+    "bytes": 84215
+  },
+  {
+    "citekey": "Dellarole2024",
+    "doi": "10.1038/s41531-024-00728-9",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Dellarole2024.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41531-024-00728-9.pdf?error=cookies_not_supported&code=26de13e2-54f7-43e6-a3bc-c4f48bd49606",
+    "attempted": [
+      "https://www.nature.com/articles/s41531-024-00728-9.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11180195/pdf/",
+      "https://www.nature.com/articles/s41531-024-00728-9",
+      "https://doi.org/10.1038/s41531-024-00728-9"
+    ],
+    "bytes": 3489006
+  },
+  {
+    "citekey": "Sukmueng2026",
+    "doi": "10.1007/s00702-026-03239-4",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs00702-026-03239-4.pdf",
+      "https://doi.org/10.1007/s00702-026-03239-4"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Niu2025",
+    "doi": "10.1016/j.nut.2024.112610",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.nut.2024.112610",
+      "https://doi.org/10.1016/j.nut.2024.112610"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "de F\u00e1tima dos Santos Sampaio2024574",
+    "doi": "10.1111/bcpt.13997",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bcpt.13997",
+      "https://doi.org/10.1111/bcpt.13997"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bhushan2025434",
+    "doi": "10.2174/0118715273325667241212041540",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.2174/0118715273325667241212041540"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lima2025",
+    "doi": "10.3389/fphar.2025.1539783",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Lima2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1539783/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1539783/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12095250/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fphar.2025.1539783/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fphar.2025.1539783/pdf",
+      "https://doi.org/10.3389/fphar.2025.1539783"
+    ],
+    "bytes": 2352156
+  },
+  {
+    "citekey": "Gad2026",
+    "doi": "10.1177/19714009261423704",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12885977/",
+      "https://doi.org/10.1177/19714009261423704"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kitchigina202637",
+    "doi": "10.1016/j.neuroscience.2026.03.023",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.neuroscience.2026.03.023",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.neuroscience.2026.03.023"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kim2026",
+    "doi": "10.1155/prm/3334432",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Kim2026.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1155/prm/3334432/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1155/prm/3334432",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13239103/pdf/"
+    ],
+    "bytes": 92083
+  },
+  {
+    "citekey": "Bia\u0142o\u01442026",
+    "doi": "10.3390/ph19020330",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Bia\u0142o\u01442026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ph19020330/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1424-8247/19/2/330/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12943572/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ph19020330",
+      "https://doi.org/10.3390/ph19020330"
+    ],
+    "bytes": 116888
+  },
+  {
+    "citekey": "Saraswathi2026",
+    "doi": "10.1007/s11011-026-01868-y",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11011-026-01868-y.pdf",
+      "https://doi.org/10.1007/s11011-026-01868-y"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Dall\u2019soto20251046",
+    "doi": "10.1007/s43450-025-00675-3",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs43450-025-00675-3.pdf",
+      "https://doi.org/10.1007/s43450-025-00675-3"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Batheja2024250",
+    "doi": "10.1016/j.radcr.2023.09.012",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Batheja2024250.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.radcr.2023.09.012/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.radcr.2023.09.012",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10630753/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.radcr.2023.09.012"
+    ],
+    "bytes": 20289
+  },
+  {
+    "citekey": "Berry20251490",
+    "doi": "10.1002/mdc3.70144",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Berry20251490.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/mdc3.70144/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mdc3.70144",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12528972/pdf/",
+      "https://doi.org/10.1002/mdc3.70144"
+    ],
+    "bytes": 65477
+  },
+  {
+    "citekey": "Constantinides2024169",
+    "doi": "10.1007/s11940-024-00787-6",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11940-024-00787-6.pdf",
+      "https://doi.org/10.1007/s11940-024-00787-6"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Dainton-Howard2025167",
+    "doi": "10.1016/j.ncl.2024.12.002",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ncl.2024.12.002",
+      "https://doi.org/10.1016/j.ncl.2024.12.002"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Shoyama2025",
+    "doi": "10.1186/s44424-025-00013-3",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Shoyama2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s44424-025-00013-3.pdf?error=cookies_not_supported&code=c4792a21-735f-4f49-b91d-a34a6db2a4ac",
+    "attempted": [
+      "https://iam.biomedcentral.com/counter/pdf/10.1186/s44424-025-00013-3",
+      "https://doi.org/10.1186/s44424-025-00013-3",
+      "https://link.springer.com/content/pdf/10.1186%2Fs44424-025-00013-3.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s44424-025-00013-3.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s44424-025-00013-3.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s44424-025-00013-3.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s44424-025-00013-3.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s44424-025-00013-3.pdf"
+    ],
+    "bytes": 1832894
+  },
+  {
+    "citekey": "Sasikumar2024",
+    "doi": "10.1016/j.compbiomed.2024.108195",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.compbiomed.2024.108195",
+      "https://doi.org/10.1016/j.compbiomed.2024.108195"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Burgaz2024",
+    "doi": "10.1186/s12993-024-00256-9",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Burgaz2024.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s12993-024-00256-9.pdf?error=cookies_not_supported&code=c1488793-231a-423b-a561-7e03bfcfa2c7",
+    "attempted": [
+      "https://behavioralandbrainfunctions.biomedcentral.com/counter/pdf/10.1186/s12993-024-00256-9",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11531178/pdf/",
+      "https://doi.org/10.1186/s12993-024-00256-9",
+      "https://link.springer.com/content/pdf/10.1186%2Fs12993-024-00256-9.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12993-024-00256-9.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12993-024-00256-9.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s12993-024-00256-9.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s12993-024-00256-9.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s12993-024-00256-9.pdf"
+    ],
+    "bytes": 2928649
+  },
+  {
+    "citekey": "Del-Bel202465",
+    "doi": "10.1016/bs.irn.2024.04.015",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/bs.irn.2024.04.015",
+      "https://doi.org/10.1016/bs.irn.2024.04.015"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bochniak2024",
+    "doi": "10.3390/biomedicines12102257",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Bochniak2024.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/biomedicines12102257/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2227-9059/12/10/2257/pdf?version=1728035313",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11504037/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/biomedicines12102257",
+      "https://doi.org/10.3390/biomedicines12102257"
+    ],
+    "bytes": 52844
+  },
+  {
+    "citekey": "Jha2024",
+    "doi": "10.1016/j.arr.2024.102386",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.arr.2024.102386",
+      "https://doi.org/10.1016/j.arr.2024.102386"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Giannakis2025341",
+    "doi": "10.1007/s00702-024-02865-0",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs00702-024-02865-0.pdf",
+      "https://doi.org/10.1007/s00702-024-02865-0"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sosero2025",
+    "doi": "10.1038/s41531-025-01078-w",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Sosero2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41531-025-01078-w.pdf?error=cookies_not_supported&code=b2c3d365-2dbb-475c-8ac3-c2d6349c7525",
+    "attempted": [
+      "https://www.nature.com/articles/s41531-025-01078-w.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12462436/pdf/",
+      "https://www.nature.com/articles/s41531-025-01078-w",
+      "https://doi.org/10.1038/s41531-025-01078-w"
+    ],
+    "bytes": 741994
+  },
+  {
+    "citekey": "Joers2024",
+    "doi": "10.1186/s12974-024-03221-5",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Joers2024.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s12974-024-03221-5.pdf?error=cookies_not_supported&code=f7f999fd-dd02-4db1-bfdd-cfebe2a038af",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1186/s12974-024-03221-5.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11438102/pdf/",
+      "https://doi.org/10.1186/s12974-024-03221-5",
+      "https://link.springer.com/content/pdf/10.1186%2Fs12974-024-03221-5.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12974-024-03221-5.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12974-024-03221-5.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s12974-024-03221-5.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s12974-024-03221-5.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s12974-024-03221-5.pdf"
+    ],
+    "bytes": 9606196
+  },
+  {
+    "citekey": "Jasak2026",
+    "doi": "10.1016/j.parkreldis.2026.108917",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.parkreldis.2026.108917",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.parkreldis.2026.108917"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lissoni2025513",
+    "doi": "10.2147/CIA.S513910",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Lissoni2025513.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.dovepress.com/article/download/102506",
+    "attempted": [
+      "https://www.dovepress.com/article/download/102506",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12050209/pdf/",
+      "https://doi.org/10.2147/CIA.S513910"
+    ],
+    "bytes": 905120
+  },
+  {
+    "citekey": "Ajalin2026980",
+    "doi": "10.1177/1877718X261457830",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Ajalin2026980.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1177/1877718X261457830/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1177/1877718x261457830",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13435193/pdf/",
+      "https://doi.org/10.1177/1877718X261457830"
+    ],
+    "bytes": 55440
+  },
+  {
+    "citekey": "\u0218olea2026",
+    "doi": "10.3390/ph19081238",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/\u0218olea2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ph19081238/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1424-8247/19/8/1238/pdf?version=1786009891",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13516537/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ph19081238",
+      "https://doi.org/10.3390/ph19081238"
+    ],
+    "bytes": 126810
+  },
+  {
+    "citekey": "Meanti2025",
+    "doi": "10.1016/j.biopha.2025.118044",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.biopha.2025.118044",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.biopha.2025.118044"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ayerra2025600",
+    "doi": "10.1016/j.bbi.2025.04.037",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.bbi.2025.04.037",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.bbi.2025.04.037"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Huissoud2024715",
+    "doi": "10.1016/j.neurol.2023.04.010",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.neurol.2023.04.010",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.neurol.2023.04.010"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kale2025630",
+    "doi": "10.2174/0113816128318194240918113954",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.2174/0113816128318194240918113954"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Keir20241865",
+    "doi": "10.3174/ajnr.A8313",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.ajnr.org/content/ajnr/early/2024/08/29/ajnr.A8313.full.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11630880/pdf/",
+      "https://doi.org/10.3174/ajnr.A8313"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rivas-Santisteban2024",
+    "doi": "10.1038/s41531-024-00827-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Rivas-Santisteban2024.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41531-024-00827-7.pdf?error=cookies_not_supported&code=1f79a562-de17-4461-b846-7a6f954d6145",
+    "attempted": [
+      "https://www.nature.com/articles/s41531-024-00827-7.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11568119/pdf/",
+      "https://www.nature.com/articles/s41531-024-00827-7",
+      "https://doi.org/10.1038/s41531-024-00827-7"
+    ],
+    "bytes": 4104840
+  },
+  {
+    "citekey": "De Freitas2024873",
+    "doi": "10.3233/JPD-230358",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/De Freitas2024873.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3233/JPD-230358/fullTextXML",
+    "attempted": [
+      "https://content.iospress.com:443/download/journal-of-parkinsons-disease/jpd230358?id=journal-of-parkinsons-disease%2Fjpd230358",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11191450/pdf/",
+      "https://doi.org/10.3233/JPD-230358"
+    ],
+    "bytes": 39730
+  },
+  {
+    "citekey": "Sun2025",
+    "doi": "10.1016/j.phymed.2025.156725",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.phymed.2025.156725",
+      "https://doi.org/10.1016/j.phymed.2025.156725"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bougea2025921",
+    "doi": "10.1007/s00702-025-02930-2",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs00702-025-02930-2.pdf",
+      "https://doi.org/10.1007/s00702-025-02930-2"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Barr\u00e92026",
+    "doi": "10.1016/j.curtheres.2026.100830",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Barr\u00e92026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.curtheres.2026.100830/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.curtheres.2026.100830",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13141070/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.curtheres.2026.100830"
+    ],
+    "bytes": 60968
+  },
+  {
+    "citekey": "Fern\u00e1ndez-Rodr\u00edguez2026",
+    "doi": "10.1007/s00259-026-08022-x",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Fern\u00e1ndez-Rodr\u00edguez2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s00259-026-08022-x.pdf?error=cookies_not_supported&code=fa6ba590-ca74-4178-81d5-166e88ba1abe",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s00259-026-08022-x.pdf",
+      "https://link.springer.com/content/pdf/10.1007%2Fs00259-026-08022-x.pdf",
+      "https://doi.org/10.1007/s00259-026-08022-x"
+    ],
+    "bytes": 2412924
+  },
+  {
+    "citekey": "Fowler2026",
+    "doi": "10.1186/s42238-026-00445-5",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Fowler2026.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s42238-026-00445-5.pdf?error=cookies_not_supported&code=23ef4ab2-678e-43f7-9420-1ae2c4709fef",
+    "attempted": [
+      "https://doi.org/10.1186/s42238-026-00445-5",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13344039/pdf/",
+      "https://link.springer.com/content/pdf/10.1186%2Fs42238-026-00445-5.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s42238-026-00445-5.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s42238-026-00445-5.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s42238-026-00445-5.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s42238-026-00445-5.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s42238-026-00445-5.pdf"
+    ],
+    "bytes": 2780800
+  },
+  {
+    "citekey": "Ramos-Molina2025191",
+    "doi": "10.1016/j.nrl.2022.11.004",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.nrl.2022.11.004",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.nrl.2022.11.004"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Murakami2025",
+    "doi": "10.1111/bpa.13286",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Murakami2025.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1111/bpa.13286/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1111/bpa.13286",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11669411/pdf/"
+    ],
+    "bytes": 64397
+  },
+  {
+    "citekey": "Barr\u00e92024",
+    "doi": "10.1016/j.prdoa.2024.100286",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Barr\u00e92024.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.prdoa.2024.100286/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.prdoa.2024.100286",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11647636/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.prdoa.2024.100286"
+    ],
+    "bytes": 67776
+  },
+  {
+    "citekey": "Takigawa2024",
+    "doi": "10.1016/j.prdoa.2024.100279",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Takigawa2024.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.prdoa.2024.100279/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.prdoa.2024.100279",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11554922/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.prdoa.2024.100279"
+    ],
+    "bytes": 53752
+  },
+  {
+    "citekey": "Byun2026",
+    "doi": "10.1016/j.sleep.2026.109154",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.sleep.2026.109154",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.sleep.2026.109154"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Brenlla202597",
+    "doi": "10.5603/pjnns.104070",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Brenlla202597.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://journals.viamedica.pl/neurologia_neurochirurgia_polska/article/download/104070/82359",
+    "attempted": [
+      "https://journals.viamedica.pl/neurologia_neurochirurgia_polska/article/download/104070/82359",
+      "https://doi.org/10.5603/pjnns.104070"
+    ],
+    "bytes": 708329
+  },
+  {
+    "citekey": "del Rey2024",
+    "doi": "10.1038/s41531-024-00777-0",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/del Rey2024.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://www.nature.com/articles/s41531-024-00777-0.pdf?error=cookies_not_supported&code=c3dc19f1-36d5-434c-9c2f-60a00feee1ff",
+    "attempted": [
+      "https://doi.org/10.1038/s41531-024-00777-0",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11369234/pdf/",
+      "https://www.nature.com/articles/s41531-024-00777-0.pdf",
+      "https://www.nature.com/articles/s41531-024-00777-0"
+    ],
+    "bytes": 20948566
+  },
+  {
+    "citekey": "Marano20242693",
+    "doi": "10.23812/j.biol.regul.homeost.agents.20243804.212",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.23812/j.biol.regul.homeost.agents.20243804.212"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sura20267933",
+    "doi": "10.26538/tjnpr/v10i3.39",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.26538/tjnpr/v10i3.39"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Hidding2024117",
+    "doi": "10.1007/s00702-023-02719-1",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Hidding2024117.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s00702-023-02719-1.pdf?error=cookies_not_supported&code=365c1407-c981-4391-9d8c-7030db11b66d",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s00702-023-02719-1.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10791790/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs00702-023-02719-1.pdf",
+      "https://doi.org/10.1007/s00702-023-02719-1"
+    ],
+    "bytes": 719791
+  },
+  {
+    "citekey": "Hafida2024",
+    "doi": "10.1515/med-2024-1075",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Hafida2024.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1515/med-2024-1075/fullTextXML",
+    "attempted": [
+      "https://www.degruyterbrill.com/document/doi/10.1515/med-2024-1075/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11524397/pdf/",
+      "https://doi.org/10.1515/med-2024-1075"
+    ],
+    "bytes": 105742
+  },
+  {
+    "citekey": "Mekala2024605",
+    "doi": "10.1039/d4md00576g",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11638850/pdf/MD-016-D4MD00576G.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11638850/pdf/",
+      "https://doi.org/10.1039/d4md00576g"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Diadhiou20241257",
+    "doi": "10.3233/JPD-240102",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Diadhiou20241257.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3233/JPD-240102/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3233/jpd-240102",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11380301/pdf/",
+      "https://doi.org/10.3233/JPD-240102"
+    ],
+    "bytes": 36522
+  },
+  {
+    "citekey": "Ajalin2025163",
+    "doi": "10.1002/mds.30042",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Ajalin2025163.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/mds.30042/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.30042",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11752992/pdf/",
+      "https://doi.org/10.1002/mds.30042"
+    ],
+    "bytes": 26403
+  },
+  {
+    "citekey": "Hakami2025",
+    "doi": "10.3389/fphar.2025.1521792",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Hakami2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://public-pages-files-2025.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1521792/pdf",
+    "attempted": [
+      "https://public-pages-files-2025.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1521792/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11839665/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fphar.2025.1521792/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fphar.2025.1521792/pdf",
+      "https://doi.org/10.3389/fphar.2025.1521792"
+    ],
+    "bytes": 880527
+  },
+  {
+    "citekey": "Satapathy2024",
+    "doi": "10.1016/j.prmcm.2024.100499",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.prmcm.2024.100499",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.prmcm.2024.100499"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Saturnino Guarino20244210",
+    "doi": "10.1021/acschemneuro.4c00493",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Saturnino Guarino20244210.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1021/acschemneuro.4c00493/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1021/acschemneuro.4c00493",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11587505/pdf/"
+    ],
+    "bytes": 39514
+  },
+  {
+    "citekey": "Deliz2026541",
+    "doi": "10.1002/mdc3.70350",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Deliz2026541.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/mdc3.70350/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mdc3.70350",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12911459/pdf/",
+      "https://doi.org/10.1002/mdc3.70350"
+    ],
+    "bytes": 12056
+  },
+  {
+    "citekey": "He2025e44392",
+    "doi": "10.1097/MD.0000000000044392",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/He2025e44392.txt",
+    "format": "jats_xml",
+    "http_calls": 11,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1097/MD.0000000000044392/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1097/md.0000000000044392",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12537207/pdf/",
+      "https://doi.org/10.1097/MD.0000000000044392"
+    ],
+    "bytes": 109204
+  },
+  {
+    "citekey": "Peball2024",
+    "doi": "10.1038/s41531-024-00665-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Peball2024.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41531-024-00665-7.pdf?error=cookies_not_supported&code=5ca86ee3-b0d3-49c9-9cb1-be35cf5fffaa",
+    "attempted": [
+      "https://www.nature.com/articles/s41531-024-00665-7.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10943069/pdf/",
+      "https://www.nature.com/articles/s41531-024-00665-7",
+      "https://doi.org/10.1038/s41531-024-00665-7"
+    ],
+    "bytes": 1127722
+  },
+  {
+    "citekey": "Jellinger2025",
+    "doi": "10.3390/diseases13020039",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Jellinger2025.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/diseases13020039/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2079-9721/13/2/39/pdf?version=1738330727",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11854393/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/diseases13020039",
+      "https://doi.org/10.3390/diseases13020039"
+    ],
+    "bytes": 137403
+  },
+  {
+    "citekey": "Ruver-Martins2024",
+    "doi": "10.3389/fnhum.2024.1466438",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Ruver-Martins2024.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1466438/pdf",
+    "attempted": [
+      "https://doi.org/10.3389/fnhum.2024.1466438",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11891160/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1466438/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fnhum.2024.1466438/pdf"
+    ],
+    "bytes": 841199
+  },
+  {
+    "citekey": "Liu2024733",
+    "doi": "10.1152/jn.00137.2024",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1152/jn.00137.2024"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ting2026",
+    "doi": "10.1007/s00415-026-13742-z",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs00415-026-13742-z.pdf",
+      "https://doi.org/10.1007/s00415-026-13742-z"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Zong2026",
+    "doi": "10.1007/s12035-026-06021-5",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs12035-026-06021-5.pdf",
+      "https://doi.org/10.1007/s12035-026-06021-5"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Prajjwal2024",
+    "doi": "10.1002/hsr2.2019",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Prajjwal2024.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/hsr2.2019/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hsr2.2019",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10982460/pdf/",
+      "https://doi.org/10.1002/hsr2.2019"
+    ],
+    "bytes": 34906
+  },
+  {
+    "citekey": "Ghirelli2026",
+    "doi": "10.1016/j.nicl.2026.104031",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Ghirelli2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.nicl.2026.104031/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.nicl.2026.104031",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13380421/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.nicl.2026.104031"
+    ],
+    "bytes": 60471
+  },
+  {
+    "citekey": "Alves202434",
+    "doi": "10.1016/j.neuro.2024.08.002",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.neuro.2024.08.002",
+      "https://doi.org/10.1016/j.neuro.2024.08.002"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Hu20253239",
+    "doi": "10.1093/brain/awaf132",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Hu20253239.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1093/brain/awaf132/fullTextXML",
+    "attempted": [
+      "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awaf132/62941043/awaf132.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12404716/pdf/",
+      "https://doi.org/10.1093/brain/awaf132"
+    ],
+    "bytes": 75380
+  },
+  {
+    "citekey": "Targa2025",
+    "doi": "10.1016/j.ejphar.2025.177745",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://research.rug.nl/en/publications/391ac5a8-2665-48fa-925d-da2d5bcd9ef4",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ejphar.2025.177745",
+      "https://doi.org/10.1016/j.ejphar.2025.177745"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Upadhyay2026",
+    "doi": "10.1016/bs.apha.2026.04.002",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/bs.apha.2026.04.002",
+      "https://doi.org/10.1016/bs.apha.2026.04.002"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chang2024",
+    "doi": "10.1016/j.mehy.2023.111231",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.mehy.2023.111231",
+      "https://doi.org/10.1016/j.mehy.2023.111231"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Jurado-Coronel2026774",
+    "doi": "10.1016/j.freeradbiomed.2026.08.012",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.freeradbiomed.2026.08.012",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.freeradbiomed.2026.08.012"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Jena2024",
+    "doi": "10.1016/j.ejmech.2024.116592",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ejmech.2024.116592",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ejmech.2024.116592"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Jamshaid2026260",
+    "doi": "10.47852/bonviewMEDIN62029324",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Jamshaid2026260.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://ojs.bonviewpress.com/index.php/MEDIN/article/download/9324/2098",
+    "attempted": [
+      "https://ojs.bonviewpress.com/index.php/MEDIN/article/download/9324/2098",
+      "https://doi.org/10.47852/bonviewmedin62029324",
+      "https://doi.org/10.47852/bonviewMEDIN62029324"
+    ],
+    "bytes": 1870879
+  },
+  {
+    "citekey": "Messak2026",
+    "doi": "10.1007/s13760-026-03082-0",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs13760-026-03082-0.pdf",
+      "https://doi.org/10.1007/s13760-026-03082-0"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Jiang2024--article",
+    "doi": "10.1016/j.fitote.2024.105883",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fitote.2024.105883",
+      "https://doi.org/10.1016/j.fitote.2024.105883"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Santos2025",
+    "doi": "10.1016/j.ejphar.2025.177748",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ejphar.2025.177748",
+      "https://doi.org/10.1016/j.ejphar.2025.177748"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Baldasso2026",
+    "doi": "10.1016/j.phrs.2026.108185",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.phrs.2026.108185",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.phrs.2026.108185"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ruttle202640",
+    "doi": "10.26635/6965.7117",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Ruttle202640.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://nzmj.org.nz/media/pages/journal/vol-139-no-1628/percutaneous-endoscopic-gastrostomy-in-atypical-parkinsonian-syndromes-survival-and-aspiration-outcomes-from-a-retrospective-int/9486dbad64-1769551532/7117.pdf",
+    "attempted": [
+      "https://doi.org/10.26635/6965.7117"
+    ],
+    "bytes": 418914
+  },
+  {
+    "citekey": "Salabasidou20241642",
+    "doi": "10.1097/j.pain.0000000000003173",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1097/j.pain.0000000000003173"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Shi2024",
+    "doi": "10.1016/j.nbd.2024.106527",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.nbd.2024.106527",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.nbd.2024.106527"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Pisani20261566",
+    "doi": "10.1002/mds.70222",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Pisani20261566.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/mds.70222/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.70222",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13307235/pdf/",
+      "https://doi.org/10.1002/mds.70222"
+    ],
+    "bytes": 26105
+  },
+  {
+    "citekey": "Weber2024",
+    "doi": "10.2196/49965",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Weber2024.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.2196/49965/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.2196/49965",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10964137/pdf/"
+    ],
+    "bytes": 28958
+  },
+  {
+    "citekey": "Gros2025399",
+    "doi": "10.1016/j.ncl.2024.12.013",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ncl.2024.12.013",
+      "https://doi.org/10.1016/j.ncl.2024.12.013"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ono20261405",
+    "doi": "10.1002/ana.78193",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Ono20261405.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/ana.78193/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1002/ana.78193",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13206486/pdf/"
+    ],
+    "bytes": 42122
+  },
+  {
+    "citekey": "Zhao2026",
+    "doi": "10.1002/brb3.71722",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Zhao2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/brb3.71722/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/brb3.71722",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13507520/pdf/",
+      "https://doi.org/10.1002/brb3.71722"
+    ],
+    "bytes": 61986
+  },
+  {
+    "citekey": "Yan2024",
+    "doi": "10.1016/j.nbd.2024.106549",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.nbd.2024.106549",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.nbd.2024.106549"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Griffith2024198",
+    "doi": "10.1016/j.neuro.2024.05.008",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.neuro.2024.05.008",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.neuro.2024.05.008"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lapmanee2024",
+    "doi": "10.3390/pharmaceutics16040514",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Lapmanee2024.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/pharmaceutics16040514/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/16/4/514/pdf?version=1712559807",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11054774/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics16040514",
+      "https://doi.org/10.3390/pharmaceutics16040514"
+    ],
+    "bytes": 71405
+  },
+  {
+    "citekey": "Okrah2026",
+    "doi": "10.1016/j.pharmthera.2025.108943",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.26181/33317355",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.pharmthera.2025.108943",
+      "https://doi.org/10.1016/j.pharmthera.2025.108943"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "de Aquino2025",
+    "doi": "10.70151/np6wdt13",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/de Aquino2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://rbpm.emnuvens.com.br/revista/article/download/169/141",
+    "attempted": [
+      "https://rbpm.emnuvens.com.br/revista/article/download/169/141",
+      "https://doi.org/10.70151/np6wdt13"
+    ],
+    "bytes": 768098
+  },
+  {
+    "citekey": "Erustes2025",
+    "doi": "10.1016/j.brainres.2024.149414",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.brainres.2024.149414",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.brainres.2024.149414"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "De Mattos2024307",
+    "doi": "10.1017/neu.2024.15",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1017/neu.2024.15"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kordinov\u00e12026",
+    "doi": "10.1016/j.ejmech.2025.118217",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ejmech.2025.118217",
+      "https://doi.org/10.1016/j.ejmech.2025.118217"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Priya202497",
+    "doi": "10.33483/jfpau.1340094",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Priya202497.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://dergipark.org.tr/en/download/article-file/3318465",
+    "attempted": [
+      "https://dergipark.org.tr/en/download/article-file/3318465",
+      "https://doi.org/10.33483/jfpau.1340094"
+    ],
+    "bytes": 911307
+  },
+  {
+    "citekey": "Vaughan2025",
+    "doi": "10.1007/s00415-025-12990-9",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Vaughan2025.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s00415-025-12990-9.pdf?error=cookies_not_supported&code=4a683b32-e896-4baa-a420-35be7cfad862",
+    "attempted": [
+      "https://doi.org/10.1007/s00415-025-12990-9",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11947049/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs00415-025-12990-9.pdf"
+    ],
+    "bytes": 1483499
+  },
+  {
+    "citekey": "Hastings2024",
+    "doi": "10.1212/WNL.0000000000209453",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.neurology.org/doi/pdf/10.1212/WNL.0000000000209453",
+      "https://doi.org/10.1212/WNL.0000000000209453"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Fleury2025440",
+    "doi": "10.1177/1877718X241312604",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Fleury2025440.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1177/1877718X241312604/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1177/1877718x241312604",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13347438/pdf/",
+      "https://doi.org/10.1177/1877718X241312604"
+    ],
+    "bytes": 23053
+  },
+  {
+    "citekey": "Giraldo-Berrio2024",
+    "doi": "10.1007/s12640-024-00705-3",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Giraldo-Berrio2024.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s12640-024-00705-3.pdf?error=cookies_not_supported&code=f6ad51fd-a0b2-4781-ad20-df1af4a3ff2c",
+    "attempted": [
+      "https://doi.org/10.1007/s12640-024-00705-3",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11156752/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs12640-024-00705-3.pdf"
+    ],
+    "bytes": 6475712
+  },
+  {
+    "citekey": "Zikereya2025",
+    "doi": "10.1016/j.expneurol.2025.115289",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.expneurol.2025.115289",
+      "https://doi.org/10.1016/j.expneurol.2025.115289"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Perez-Soriano2025",
+    "doi": "10.1007/s00702-025-03070-3",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs00702-025-03070-3.pdf",
+      "https://doi.org/10.1007/s00702-025-03070-3"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Godad202513636",
+    "doi": "10.1007/s12035-025-05145-4",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs12035-025-05145-4.pdf",
+      "https://doi.org/10.1007/s12035-025-05145-4"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sinisterra Sol\u00eds2024",
+    "doi": "10.3390/brainsci14090930",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Sinisterra Sol\u00eds2024.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/brainsci14090930/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/brainsci14090930",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11429636/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/brainsci14090930"
+    ],
+    "bytes": 46523
+  },
+  {
+    "citekey": "DeJesus2026877",
+    "doi": "10.1080/17581869.2026.2672489",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13432835/",
+      "https://doi.org/10.1080/17581869.2026.2672489"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Vo20262380",
+    "doi": "10.1093/brain/awaf432",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Vo20262380.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1093/brain/awaf432/fullTextXML",
+    "attempted": [
+      "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awaf432/65292384/awaf432.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13337226/pdf/",
+      "https://doi.org/10.1093/brain/awaf432"
+    ],
+    "bytes": 87063
+  },
+  {
+    "citekey": "Mitarnun2025",
+    "doi": "10.1016/j.parkreldis.2025.107841",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.parkreldis.2025.107841",
+      "https://doi.org/10.1016/j.parkreldis.2025.107841"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Mohammad2024181",
+    "doi": "10.4103/aomd.aomd_27_24",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.4103/aomd.aomd_27_24"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Stojiljkovi\u010720261",
+    "doi": "10.5603/nmr.111816",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Stojiljkovi\u010720261.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://journals.viamedica.pl/nuclear_medicine_review/article/download/111816/90785",
+    "attempted": [
+      "https://journals.viamedica.pl/nuclear_medicine_review/article/download/111816/90785",
+      "https://doi.org/10.5603/nmr.111816"
+    ],
+    "bytes": 702205
+  },
+  {
+    "citekey": "Dhiman2024",
+    "doi": "10.1016/j.lfs.2024.122537",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lfs.2024.122537",
+      "https://doi.org/10.1016/j.lfs.2024.122537"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Argerich2024",
+    "doi": "10.1038/s41531-024-00788-x",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Argerich2024.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41531-024-00788-x.pdf?error=cookies_not_supported&code=3a70693b-8e8a-4b14-a93f-222643c71d46",
+    "attempted": [
+      "https://www.nature.com/articles/s41531-024-00788-x.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11387472/pdf/",
+      "https://www.nature.com/articles/s41531-024-00788-x",
+      "https://doi.org/10.1038/s41531-024-00788-x"
+    ],
+    "bytes": 2328445
+  },
+  {
+    "citekey": "Brumberg2025926",
+    "doi": "10.2967/jnumed.124.268956",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Brumberg2025926.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://jnm.snmjournals.org/content/jnumed/early/2025/04/17/jnumed.124.268956.full.pdf",
+    "attempted": [
+      "https://jnm.snmjournals.org/content/jnumed/early/2025/04/17/jnumed.124.268956.full.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12175977/pdf/",
+      "https://doi.org/10.2967/jnumed.124.268956"
+    ],
+    "bytes": 1070146
+  },
+  {
+    "citekey": "Bhaskar20242733",
+    "doi": "10.23812/j.biol.regul.homeost.agents.20243804.214",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.23812/j.biol.regul.homeost.agents.20243804.214"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Jellinger2025495",
+    "doi": "10.1007/s00702-025-02890-7",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs00702-025-02890-7.pdf",
+      "https://doi.org/10.1007/s00702-025-02890-7"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Caiza Asitimbay2025",
+    "doi": "10.56294/hl2025772",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Caiza Asitimbay2025.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://hl.ageditor.ar/index.php/hl/article/download/772/1498",
+    "attempted": [
+      "https://hl.ageditor.ar/index.php/hl/article/download/772/1498",
+      "https://doi.org/10.56294/hl2025772"
+    ],
+    "bytes": 276988
+  },
+  {
+    "citekey": "Chunowski2024",
+    "doi": "10.3390/jcm13195798",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids/Chunowski2024.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jcm13195798/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2077-0383/13/19/5798/pdf?version=1727509706",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11477316/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jcm13195798",
+      "https://doi.org/10.3390/jcm13195798"
+    ],
+    "bytes": 77449
+  },
+  {
+    "citekey": "Rathod202515943",
+    "doi": "10.1007/s00210-025-04281-x",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs00210-025-04281-x.pdf",
+      "https://doi.org/10.1007/s00210-025-04281-x"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kubota2026",
+    "doi": "10.1002/mds.70449",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1002/mds.70449"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Priya2025",
+    "doi": "10.56808/3027-7922.3050",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.56808/3027-7922.3050"
+    ],
+    "bytes": 0
+  }
+]

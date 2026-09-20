@@ -1,0 +1,34 @@
+[
+  {
+    "citekey": "Liu2024863",
+    "doi": "10.1002/mds.29768",
+    "title": "Short-Term Cannabidiol with Δ-9-Tetrahydrocannabinol in Parkinson's Disease: A Randomized Trial",
+    "year": "2024",
+    "title_decision": "title_include",
+    "gap": "g2-parent-motor-cognition-RCT"
+  },
+  {
+    "citekey": "Peball2022sleep",
+    "doi": "10.1002/mdc3.13471",
+    "title": "Effects of Nabilone on Sleep Outcomes in Patients with Parkinson's Disease: A Post-hoc Analysis",
+    "year": "2022",
+    "title_decision": "title_include",
+    "gap": "g1-nabilone-RCT-sleep"
+  },
+  {
+    "citekey": "Leehey2023cog",
+    "doi": "10.1002/mds.29447",
+    "title": "Cognitive Safety Data from a Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Trial of Cannabidiol in Parkinson's Disease",
+    "year": "2023",
+    "title_decision": "title_include",
+    "gap": "g2-parent-motor-cognition-RCT"
+  },
+  {
+    "citekey": "Han2022ecs",
+    "doi": "10.3389/fncel.2022.832854",
+    "title": "Roles of the Cannabinoid System in the Basal Ganglia in Parkinson’s Disease",
+    "year": "2022",
+    "title_decision": "title_include",
+    "gap": "g4-basal-ganglia-ECS-map"
+  }
+]

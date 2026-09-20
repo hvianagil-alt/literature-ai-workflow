@@ -1,0 +1,66 @@
+[
+  {
+    "citekey": "Liu2024863",
+    "doi": "10.1002/mds.29768",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.29768",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11102313/pdf/",
+      "https://doi.org/10.1002/mds.29768"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Peball2022sleep",
+    "doi": "10.1002/mdc3.13471",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids-gapfill/Peball2022sleep.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1002/mdc3.13471/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mdc3.13471",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9346252/pdf/",
+      "https://doi.org/10.1002/mdc3.13471"
+    ],
+    "bytes": 36913
+  },
+  {
+    "citekey": "Leehey2023cog",
+    "doi": "10.1002/mds.29447",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.29447",
+      "https://doi.org/10.1002/mds.29447"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Han2022ecs",
+    "doi": "10.3389/fncel.2022.832854",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-pd-cannabinoids-gapfill/Han2022ecs.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2022.832854/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/articles/10.3389/fncel.2022.832854/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8900732/pdf/",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fncel.2022.832854/pdf",
+      "https://doi.org/10.3389/fncel.2022.832854"
+    ],
+    "bytes": 4032537
+  }
+]

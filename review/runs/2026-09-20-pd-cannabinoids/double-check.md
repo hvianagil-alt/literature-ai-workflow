@@ -1,0 +1,21 @@
+# Double-check — 2026-09-20-pd-cannabinoids
+
+- Scripts: `check_extraction.py` 31/31 claim-ready (exit 0); `check_article.py` exit 0 after removing banned phrase “in this set” and renaming the contemporaneous-reviews heading (year window not in a non-Methods title).
+- Notes still stub? no (0).
+- Table still DRAFT/lead-paste? no (`table_from_notes.py`; header states not a write_table DRAFT).
+- Claims spot-checked (paper, number, note/PDF agree?):
+  - Diadhiou 2024: 13.1% (48/367) cannabis for PD symptoms — article Table 1 and prose match `Diadhiou20241257.md`.
+  - Barré 2024: cannabis 81.7%, CBD 87.4%, p<0.001 — match `Barré2024.md`.
+  - Peball 2022: placebo MDS-UPDRS-1.7 +2.00 (1.32–2.68), p=0.004; between-groups p<0.001; 77.4% no relevant sleep problem — match `Peball2022sleep.md` and JATS extract.
+  - Peball 2024: NMSS Domain 2 −8.26, p=0.004; KPPS −8.00, p=0.046; MDS-UPDRS II/III p>0.513; n=19 completers — match `Peball2024.md`.
+  - Weber 2024: SEDASI treatment p=0.38; n=26/27; 2.5 mg/kg/day ~16 days — match `Weber2024.md`.
+  - Esfandi 2025: viability 48.25% to 81.65% at 10 µM CBD, p<0.0001, n=4 — match `Esfandi2025.md`.
+- Abstract: citations? no. named papers? no. search/OA/year-window language? no (Methods only).
+- Citation order: first-appearance [1]…[n] after `renumber_citations.py`. References each in their own paragraph.
+- Abbreviations: PD, CBD, THC, CB1 introduced in teaching sentences; Abstract remains readable as a topic map.
+- Adjacent-field reader test (Introduction teaches later sections?): yes. Opens on PD synucleinopathy and dopamine circuits; teaches levodopa limits, plant vs synthetic products, CB1 vs CB2 before surveys and trials.
+- Heading spine: thematic `##` sections 3–7, not generic Results.
+- Tables in article: Table 1 (surveys), Table 2 (trials), Table 3 (imaging) mentioned in prose.
+- Caiza Asitimbay 2025: not used as efficacy (methods warning only).
+- Liu 2024 / Leehey 2023 motor and fluency numbers: not invented (no public PDF).
+- If two passes: single pass for this run (not a rewrite of HPP or GLP-1 manuscripts).
