@@ -476,13 +476,6 @@ def main() -> int:
             )
             print(f"SKIP {citekey} (already have OA text)", flush=True)
             continue
-        if args.resume and citekey in prior:
-            row = dict(prior[citekey])
-            if row.get("ok"):
-                ok_n += 1
-            results.append(row)
-            print(f"SKIP {citekey} (logged {row.get('error') or 'ok'})", flush=True)
-            continue
         if not doi:
             results.append(
                 {
