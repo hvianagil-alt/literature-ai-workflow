@@ -270,7 +270,7 @@ Put **numbered Markdown tables** in `article.md` the way a journal editor would:
 
 ## Graphical abstract
 
-Many food-science and MDPI *Foods* reviews print a one-panel graphical abstract. After double-check, run `graphical-abstract` (Lovable if connected, otherwise a local HTML/PDF). The Abstract itself stays text. Do not put new numbers on the figure.
+Many food-science and MDPI *Foods* reviews print a one-panel graphical abstract. After double-check, run `graphical-abstract` (Lovable if connected, otherwise a BioRender-style illustration). The Abstract itself stays text. Do not put new numbers on the figure. Do not ship a four-box text table.
 
 - **Point to the table from the prose.** Do not leave a naked grid. Write the scientific claim, then send the reader to the table, then keep discussing what the numbers mean:
 

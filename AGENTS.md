@@ -140,7 +140,7 @@ Use the `double-check` skill. Scripts can pass while notes are still leads, the 
 
 ### 9b. Graphical abstract (after double-check)
 
-Use `graphical-abstract`. Prefer the **Lovable** MCP for a designed one-panel figure. If Lovable is not authenticated, write a local HTML/PDF figure from the intellectual model. No new numbers. Do not put the figure inside the Abstract.
+Use `graphical-abstract`. Prefer the **Lovable** MCP. If Lovable is not authenticated, generate a **BioRender-style illustrated panel** (catchy title, short labels, no four-box HTML table). No new numbers. Do not put the figure inside the Abstract.
 
 ### 10. Iterate
 

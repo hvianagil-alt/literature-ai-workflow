@@ -13,7 +13,7 @@ high-pressure processing; high-pressure thermal processing; microbial inactivati
 - Enzymes, bioactive proteins, and texture often move against plate counts on the same cycle, so they have to be named as endpoints.
 - Spore tails remain at commercial pressures; either heat under pressure or a planned cold chain still has to carry that control.
 
-A one-panel graphical abstract is in `figures/graphical-abstract.pdf`.
+A one-panel graphical abstract is in `figures/graphical-abstract.png`.
 
 ## 1. Introduction
 Foodborne illness remains a large-scale problem. Fruit-and-vegetable HPP reviews reciting World Health Organization figures attribute hundreds of millions of illnesses and hundreds of thousands of deaths each year to contaminated food, with vegetative bacteria, spores, parasites, and viruses as the usual agents [1]. Thermal pasteurisation and sterilisation remain the default controls because time–temperature combinations can be written into law. In the European Union, milk pasteurisation is at least 72 °C for 15 s or 63 °C for 30 min, with a 5 log10 performance criterion as the international reference for several milk pathogens [2]. Juice processors in the United States are told to achieve a 5-log reduction of the pertinent pathogen [3]. Heat meets those specifications in most high-water-activity foods. It also cooks colour, volatiles, and whey proteins that some products are sold for.
