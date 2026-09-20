@@ -1,20 +1,29 @@
 # Critic log — 2026-09-20-hpp-rerun
 
-- Field memory card: `review/memory/food-science.md` (Memory consulted line in `structure-benchmark.md`).
-- Shape vs card: justified departure. Question-driven coefficients → legal criteria → spores/HPTP → quality vs plates → neighbouring operations as refusal, matching the card’s heading *shapes*. Commodity catalogues and equal-time PEF/plasma chapters omitted on purpose; no empty equipment/energy/consumer chapter.
-- Adjacent-field Introduction: pass. Opens on heat as the default kill step, then teaches isostatic HPP, adiabatic heating, HPH as a different machine, vegetative vs spore physiology, VBNC/injury, and legal 5-log / milk performance criteria before the aim paragraph.
+- Field memory card: `review/memory/food-science.md`
+- Shape vs card: match (question-driven narrative; commodity/technology catalogue omitted on purpose and recorded in `structure-benchmark.md` as a justified departure)
+- Adjacent-field Introduction: pass
 - Numbers spot-checked: (paper, number, agree yes/no)
-  - Bulut 2021, 1.83 / 5.63 / 6.83 log at 400 MPa/9 min, yes (note + PDF).
-  - Nikparvar 2021, 7.79 ± 0.82 log and 1.338→0.809 nm, yes (note + PDF).
-  - Sykora 2026, 450/500/600 MPa average >5-log, yes (note + PDF).
-  - Koutsoumanis 2022, 600 MPa–4.7 min for ≥5 log RTE *Listeria*, yes (note + PDF).
-  - Szczepańska 2021, 1.4 log max native kill at 200 MPa HPH, yes (note + PDF).
-  - Eran Nagar 2026, ~3-log matched aerobes and PPO ~30% vs >90% heat, yes (note + PDF).
-  - Li 2021, APC 6.33 / Y&M 6.31 and PPO 75.2% vs 22.6%, yes (note).
-- Catalogue voice remaining: no. Topic sentences are claims about coefficients or legal bars; papers are evidence. Tables are curated results, not the extraction worksheet.
-- Acquisition language outside Methods: no (Scopus, OpenAlex, paywall, screening counts confined to §2).
+  - Bulut 2021, unfrozen PBS 1.83 log vs frozen −24 °C 5.63 / −80 °C 6.83 log at 400 MPa/9 min/4 °C, agree yes (note)
+  - Sykora 2026, ~450/500/600 MPa for *Listeria*/*Salmonella*/*S. aureus*; F = 171.12; time P = 0.06139 for *S. aureus*; β-Lg 20.1% and LF 39.0% native; *E. coli* 1.6 vs 3.0 log in 3.6% fat vs skim, agree yes (note)
+  - Li 2021, PPO 75.2% vs 22.6%; POD 80.7% vs 10.2%; sensory n = 101; untreated APC/Y&M 6.33/6.31 log CFU/g, agree yes (note; article omits ±SD, not a contradiction)
+  - Jönsson 2023, hardness −67.7% at 200 MPa to −87.7% at 600 MPa / 180 s, agree yes (note)
+  - Szczepańska 2021, max 1.4 log TMC at 200 MPa HPH; fresh TMC 5.36 log; Dv(50) 308 → 15.8 µm at 100 MPa, agree yes (note)
+  - Nikparvar 2021, 7.79 ± 0.82 log; pore radius 1.338 → 0.809 nm; 318 cells, agree yes (note)
+  - Serra-Castelló 2021, control Scott A δ = 0.70 min; 2.8% lactate Scott A δ = 2.48 min; second-log time 2.10 → 11.22 min, agree yes in body prose (note + PDF)
+  - Serra-Castelló 2021, Table 1 cell “10 min kill lower by 1.29–2.35 log with 2.8% lactate”, agree **no** (PDF and note: 2.8% lactate differences are 2.51, 1.75, and 2.35 log; 1.29 log is the 1.4% lactate Scott A figure). Body text already has 1.75–2.51 correctly.
+  - Scepankova 2022, undiluted honey aW 0.57 unchanged at 5.65 log after 600 MPa/15 min/85 °C; ≥3.70 log to LOD 1.30 at aW 0.85–0.90 under PATP 75 °C, Table 3 agree yes (note); §5 prose “the same pressure–time cycle” after the 85 °C sentence, agree **no** (LOD is 75 °C PATP, not the 85 °C undiluted cycle)
+  - Eran Nagar 2026, PPO 41 ± 8 vs fresh 58 ± 13; ΔE ~6.4–6.5, agree yes (note)
+  - Koker 2023, TABC 4.04 log; 200 MPa 0.85 log; 75 °C 0.72–1.34 log, agree yes (note)
+  - Koutsoumanis 2022, RTE *Listeria* ≥5 log at 600 MPa needs 4.7 min; 600 MPa/6 min about 6 log *S. aureus*; product <45 °C; low-moisture <~40% water, agree yes (note)
+  - Heydenreich 2024, vHP −2.1 before heat / −5.7 after; +2,500 IU/mL nisin −5.3 before heat, agree yes (note)
+  - Tsikrika 2021, Rooster day-14 ΔE 8.06 / 21.23 / 18.03, agree yes (note)
+  - Torrents-Masoliver 2024, banana–apple *Listeria* 0.3 ± 0.2 log; AEHPP Scott A 6.2 ± 0.1 log, agree yes (note)
+  - Zhang 2022 compiled, *E. coli* D 2.12 vs 5.32 min; frozen orange juice 4.88 vs 0.42 log; *A. acidoterrestris* D 4.17 → 13.71 min, agree yes (note)
+- Catalogue voice remaining: no
+- Acquisition language outside Methods: no
 - Graphical abstract present: no
-- Machine form score: `p_published_form=1.000`.
-- Open scientific gaps left open: no paired primary HPP vs 72 °C/15 s *S. aureus* milk trial; no industrial 600 MPa juice named-pathogen 5-log; no proteolytic *C. botulinum* food file; freeze-HPP only *E. coli* K12.
-- Critic verdict: PASS
-- If FAIL, required fixes:
+- Critic verdict: FAIL
+- If FAIL, required fixes (bullet list the writer must do):
+  - **Table 1, Serra-Castelló 2021:** replace “10 min kill lower by 1.29–2.35 log with 2.8% lactate” with the PDF values for **2.8%** lactate at 10 min: 2.51, 1.75, and 2.35 log (CTC1011, CTC1034, Scott A), i.e. range **1.75–2.51 log**. Do not use 1.29 here; that figure is the 1.4% lactate difference for Scott A (`papers/2026-09-20-hpp-rerun/Serra-Castelló2021.txt`; note `Serra-Castelló2021.md`). Align the table with the already-correct §3 sentence (“1.75–2.51 log”).
+  - **§5 Scepankova 2022:** after the undiluted-honey 600 MPa/15 min/**85 °C** / 5.65 log sentence, do not write that “the same pressure–time cycle” took honey-water preparations to the 1.30 log LOD at aW 0.85–0.90. Name **PATP 600 MPa/15 min/75 °C**, as Table 3 and the note already do. Optionally add 75 °C to the Table 1 diluted-honey clause so it cannot inherit 85 °C from the first cell.
