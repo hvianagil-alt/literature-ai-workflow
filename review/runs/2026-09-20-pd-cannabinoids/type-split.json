@@ -1,0 +1,28 @@
+{
+  "source_bib": "papers/exports/scopus_export_Sep_20-2026-pd-cannabinoids.bib",
+  "n_identified": 279,
+  "by_scopus_type": {
+    "Article": 162,
+    "Review": 117
+  },
+  "n_review": 117,
+  "n_article": 162,
+  "n_other": 0,
+  "n_open_access_flag": 184,
+  "years_all": {
+    "2024": 112,
+    "2025": 97,
+    "2026": 70
+  },
+  "years_reviews": {
+    "2024": 44,
+    "2025": 41,
+    "2026": 32
+  },
+  "years_articles": {
+    "2024": 68,
+    "2025": 56,
+    "2026": 38
+  },
+  "note": "This run is Parkinson disease / cannabinoids / related neurology. It is not the HPP food-processing export."
+}
