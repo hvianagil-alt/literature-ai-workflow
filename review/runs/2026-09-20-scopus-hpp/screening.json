@@ -1,6 +1,6 @@
 {
   "duplicates_removed": 0,
-  "additional_records": 0,
+  "additional_records": 1,
   "n_screened": 359,
   "sought_for_retrieval": [
     "Zheng20249829",
@@ -917,6 +917,10 @@
     {
       "citekey": "Chotyakul2026",
       "reason": "Retrieved PDF extracts to a 1-page stub (~2500 characters); full text unreadable."
+    },
+    {
+      "citekey": "Bhanu Prakash Reddy2026",
+      "reason": "Retrieved PDF is an alcoholic-beverage methods manual, not the Scopus article on PEF/HPP of tender coconut water."
     }
   ],
   "not_retrieved": [
@@ -1455,7 +1459,6 @@
   ],
   "included": [
     "Agriopoulou20231",
-    "Bhanu Prakash Reddy2026",
     "Bhatnagar2022",
     "Braspaiboon2024",
     "Bulut2021",
@@ -1497,7 +1500,8 @@
     "Wu2025",
     "Xia2022",
     "Zhang2022",
-    "Zhang2026"
+    "Zhang2026",
+    "Huang2022plant"
   ],
-  "notes": "Title screen of 359 Scopus records (2021–2026). Journal articles/reviews naming HPP/HPH/ultrasound/PEF/plasma/irradiation/nonthermal in a food context were sought. Public OA PDF or Europe PMC JATS only. Five retrieved files excluded at full text (off-topic, bibliometric-only, unreadable, or wrong document)."
+  "notes": "Title screen of 359 Scopus records (2021–2026). Journal articles/reviews naming HPP/HPH/ultrasound/PEF/plasma/irradiation/nonthermal in a food context were sought. Public OA PDF or Europe PMC JATS only. Five retrieved files excluded at full text (off-topic, bibliometric-only, unreadable, or wrong document). Gap-fill: Huang et al. 2022 Foods plant-food HPP review retrieved via Europe PMC JATS. Two other OpenAlex hits (Gouvea 2021 Food Res; Stratakos 2021 LWT) had no public PDF/JATS."
 }

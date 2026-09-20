@@ -1,0 +1,21 @@
+# Double-check — 2026-09-20-scopus-hpp
+
+- Scripts: `check_extraction.py` 44/44 OK (exit 0); `check_article.py` OK (exit 0) on `review/runs/2026-09-20-scopus-hpp/article.md` with `table/literature-table.md`.
+- Notes still stub? no (0 of 44 included notes contained stub markers).
+- Table still DRAFT/lead-paste? no (`table_from_notes.py` rewrite; no DRAFT header).
+- Claims spot-checked (paper, number, note/PDF agree?):
+  - Bulut 2021: 1.83 vs 5.63 vs 6.83 log CFU·ml−1 at 400 MPa / 9 min (4 °C vs −24 °C vs −80 °C hold) — note `Bulut2021.md` Primary result; extract abstract agrees.
+  - Maghami 2026: DF-4 yeast >3.6 log, mould 2.7, aerobic 2.8 — note `Maghami2026.md`; JATS abstract agrees.
+  - Koutsoumanis 2022: industrial 600 MPa / 6 min fewer log10 than legal milk pasteurisation — note `Koutsoumanis2022.md`; EFSA JATS ToR paragraph agrees.
+  - Guzel 2026: HPP 29/74 studies; 1–7 log at 500–600 MPa; <1 log below 400 MPa — note `Guzel2026.md`.
+  - Scepankova 2022: undiluted honey, 600 MPa / 85 °C / 15 min, no TEL reduction — note `Scepankova2022.md`.
+  - Houska/Silva 2022 gap-fill: *A. acidoterrestris* D 8.6 min at 600 MPa / 45 °C in apple juice — note `Huang2022plant.md`; JATS agrees (cited Uchida and Silva).
+  - Jönsson 2023: hardness 312.3 g untreated vs 38.3 g at 600 MPa — note `Jönsson2023.md`.
+  - Koker 2023: article uses results-section 0.85 / 1.58 / 4.04 log TABC (not abstract) — note flags abstract mismatch; article follows results.
+- Abstract: citations? no. named papers? no. *et al.*? no.
+- Abbreviations: HPP, HPTP, RTE, PPO, APC, EFSA, CFU defined in running text; Abstract uses HPP and names polyphenol oxidase in words.
+- Adjacent-field reader test (Introduction teaches later sections?): yes. Opens on foodborne illness and legal heat specs, then HPP physics (300–600 MPa, isostatic), then quality counterexamples, milk/juice law, injury/HPTP, aim last. A dairy or juice microbiologist who does not work on pressure should be able to follow §§3–7.
+- Heading spine: thematic `##` 3–7 (membranes/kill, pasteurisation criteria, spores/hurdles, quality, other fields); no generic Results heading.
+- Tables in article: Table 1 (microbial primary), Table 2 (pasteurisation benchmarks), Table 3 (spores/hurdles); each called in prose.
+- Discussion: interprets commercial vs regulatory readings; no identification counts or fetch logs.
+- If two passes: single pass; deliverable is `article.md`.

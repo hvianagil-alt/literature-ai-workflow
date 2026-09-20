@@ -8,7 +8,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Source | n |
 |---|---|
 | Records from Scopus export (`identification.bib`) | 359 |
-| Additional records from other sources | 0 |
+| Additional records from other sources | 1 |
 | Duplicates removed | 0 |
 | Records after duplicates removed | 359 |
 
@@ -21,7 +21,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Reports sought for retrieval (full text) | 182 |
 | Reports not retrieved | 133 |
 | Reports assessed for eligibility (full text) | 49 |
-| Reports excluded at full text (with reason) | 5 |
+| Reports excluded at full text (with reason) | 6 |
 
 ## Included
 
@@ -216,6 +216,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 - `Toshmamatov2025` — Bibliometric mapping of PEF in tomato processing; no original inactivation or quality experiment and no synthesised quantitative food endpoints.
 - `Kavindya20269740` — Retrieved file is a 591-page document dump, not the journal article named in Scopus; unusable as that paper’s full text.
 - `Chotyakul2026` — Retrieved PDF extracts to a 1-page stub (~2500 characters); full text unreadable.
+- `Bhanu Prakash Reddy2026` — Retrieved PDF is an alcoholic-beverage methods manual, not the Scopus article on PEF/HPP of tender coconut water.
 
 ## Not retrieved
 
@@ -355,4 +356,4 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 
 ## Notes
 
-Title screen of 359 Scopus records (2021–2026). Journal articles/reviews naming HPP/HPH/ultrasound/PEF/plasma/irradiation/nonthermal in a food context were sought. Public OA PDF or Europe PMC JATS only. Five retrieved files excluded at full text (off-topic, bibliometric-only, unreadable, or wrong document).
+Title screen of 359 Scopus records (2021–2026). Journal articles/reviews naming HPP/HPH/ultrasound/PEF/plasma/irradiation/nonthermal in a food context were sought. Public OA PDF or Europe PMC JATS only. Five retrieved files excluded at full text (off-topic, bibliometric-only, unreadable, or wrong document). Gap-fill: Huang et al. 2022 Foods plant-food HPP review retrieved via Europe PMC JATS. Two other OpenAlex hits (Gouvea 2021 Food Res; Stratakos 2021 LWT) had no public PDF/JATS.
