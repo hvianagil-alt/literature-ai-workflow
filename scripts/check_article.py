@@ -16,6 +16,9 @@ Fails when a defined abbreviation is still followed by many leftover expanded fo
 Fails when the Abstract defines more than four abbreviations, or defines one it never uses again.
 Fails a narrative spine that dumps science under a generic Results heading, or an
 Introduction too short to teach an adjacent-field reader (pass-1 failure mode).
+Fails when numbered in-text citations are not Vancouver first-appearance order
+(the first cited paper is [1], the next new paper is [2], and so on) or when
+References are not that same sequence with a blank line between entries.
 """
 
 from __future__ import annotations
@@ -102,6 +105,163 @@ TABLE_STUB = (
 def body_before_references(text: str) -> str:
     parts = re.split(r"^##\s+References\s*$", text, maxsplit=1, flags=re.I | re.M)
     return parts[0]
+
+
+def references_section(text: str) -> str:
+    parts = re.split(r"^##\s+References\s*$", text, maxsplit=1, flags=re.I | re.M)
+    return parts[1] if len(parts) > 1 else ""
+
+
+CITE_BRACKET = re.compile(r"\[(\d+(?:\s*[,;]\s*\d+|\s*[–—−\-]\s*\d+)*)\]")
+REF_START = re.compile(r"^\[(\d+)\]\s+|^(\d+)\.\s+", re.M)
+
+
+def expand_cite_inner(inner: str) -> list[int]:
+    nums: list[int] = []
+    for part in re.split(r"[,;]", inner):
+        part = part.strip()
+        if not part:
+            continue
+        m = re.match(r"(\d+)\s*[–—−\-]\s*(\d+)$", part)
+        if m:
+            a, b = int(m.group(1)), int(m.group(2))
+            step = 1 if b >= a else -1
+            nums.extend(range(a, b + step, step))
+        elif part.isdigit():
+            nums.append(int(part))
+    return nums
+
+
+def citation_scan_text(text: str) -> str:
+    """Body citations only: skip Abstract/Keywords so numbering starts in the article."""
+    body = body_before_references(text)
+    for heading in ("Abstract", "Keywords"):
+        span = section_span(body, heading)
+        if span:
+            body = body[: span[0]] + "\n" + body[span[1] :]
+    return body
+
+
+def first_appearance_numbers(text: str) -> list[int]:
+    seen: list[int] = []
+    for m in CITE_BRACKET.finditer(citation_scan_text(text)):
+        for n in expand_cite_inner(m.group(1)):
+            if n not in seen:
+                seen.append(n)
+    return seen
+
+
+def parse_reference_entries(ref_text: str) -> dict[int, str]:
+    starts = list(REF_START.finditer(ref_text))
+    entries: dict[int, str] = {}
+    for i, m in enumerate(starts):
+        num = int(m.group(1) or m.group(2))
+        end = starts[i + 1].start() if i + 1 < len(starts) else len(ref_text)
+        body = re.sub(r"\s+", " ", ref_text[m.end() : end].strip())
+        entries[num] = body
+    return entries
+
+
+def references_paragraph_separated(ref_text: str) -> bool:
+    starts = list(REF_START.finditer(ref_text))
+    if len(starts) < 2:
+        return True
+    for i in range(len(starts) - 1):
+        between = ref_text[starts[i].end() : starts[i + 1].start()]
+        if "\n\n" not in between:
+            return False
+    return True
+
+
+def format_cite_cluster(nums: list[int]) -> str:
+    compact: list[int] = []
+    for n in nums:
+        if n not in compact:
+            compact.append(n)
+    compact.sort()
+    return "[" + ",".join(str(n) for n in compact) + "]"
+
+
+def citation_order_problems(text: str) -> list[str]:
+    problems: list[str] = []
+    order = first_appearance_numbers(text)
+    if not order:
+        return problems
+    if order != list(range(1, len(order) + 1)):
+        problems.append(
+            "numbered citations must follow first-appearance order "
+            "(first cited paper is [1], next new paper is [2], …); "
+            f"in-text first-appearance sequence is {order[:12]}"
+            + ("…" if len(order) > 12 else "")
+        )
+    refs = parse_reference_entries(references_section(text))
+    if not refs:
+        problems.append("References list has no numbered entries matching in-text [n]")
+        return problems
+    expected_keys = list(range(1, len(order) + 1))
+    actual_keys = sorted(refs)
+    if actual_keys != expected_keys:
+        problems.append(
+            "References numbering must be [1]…[n] in first-appearance order "
+            f"(cited n={len(order)}, listed n={len(refs)})"
+        )
+    unused = sorted(set(refs) - set(order))
+    missing = sorted(set(order) - set(refs))
+    if missing:
+        problems.append("in-text citations with no References entry: " + ",".join(map(str, missing[:12])))
+    if unused:
+        problems.append("References never cited in the body: " + ",".join(map(str, unused[:12])))
+    if not references_paragraph_separated(references_section(text)):
+        problems.append(
+            "each References entry must be its own paragraph (blank line between [n] items)"
+        )
+    return problems
+
+
+def _replace_cites_outside_abstract(front: str, repl) -> str:
+    spans: list[tuple[int, int]] = []
+    for heading in ("Abstract", "Keywords"):
+        span = section_span(front, heading)
+        if span:
+            spans.append(span)
+    spans.sort()
+    if not spans:
+        return CITE_BRACKET.sub(repl, front)
+    out: list[str] = []
+    pos = 0
+    for start, end in spans:
+        out.append(CITE_BRACKET.sub(repl, front[pos:start]))
+        out.append(front[start:end])
+        pos = end
+    out.append(CITE_BRACKET.sub(repl, front[pos:]))
+    return "".join(out)
+
+
+def renumber_vancouver(text: str) -> str:
+    """Rewrite [n] and the References list into first-appearance Vancouver order."""
+    parts = re.split(r"^(##\s+References\s*)$", text, maxsplit=1, flags=re.I | re.M)
+    front = parts[0]
+    heading = parts[1] if len(parts) > 1 else "## References"
+    ref_text = parts[2] if len(parts) > 2 else ""
+    old_order = first_appearance_numbers(text)
+    if not old_order:
+        return text
+    mapping = {old: i for i, old in enumerate(old_order, start=1)}
+    refs = parse_reference_entries(ref_text)
+
+    def replace_cluster(m: re.Match[str]) -> str:
+        nums = [mapping.get(n, n) for n in expand_cite_inner(m.group(1))]
+        return format_cite_cluster(nums)
+
+    new_front = _replace_cites_outside_abstract(front, replace_cluster)
+    lines = []
+    for i, old in enumerate(old_order, start=1):
+        entry = refs.get(old, "")
+        if not entry:
+            entry = f"(missing original reference [{old}])"
+        lines.append(f"[{i}] {entry}")
+    new_refs = "\n\n".join(lines)
+    return new_front.rstrip() + "\n\n" + heading + "\n\n" + new_refs + "\n"
 
 
 def section_after(text: str, heading: str) -> str:
@@ -458,6 +618,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(abstract_sigla_problems(abstract))
     problems.extend(leftover_expanded_terms(body))
     problems.extend(story_problems(text, short))
+    problems.extend(citation_order_problems(text))
     return problems
 
 

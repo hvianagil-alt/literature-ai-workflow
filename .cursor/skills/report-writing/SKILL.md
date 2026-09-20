@@ -56,6 +56,8 @@ See [`examples/sample-article.md`](../../../examples/sample-article.md) for fict
 ## Conclusions
 <Numbered scientific directions (First… Finally…), not “more research is needed.”>
 ## References
+<Vancouver: [1] is the first paper cited in the body, [2] the next new paper, …>
+<One reference per paragraph: blank line between [n] entries. No stacked list.>
 ```
 
 **Short lab report only if the user asked for one:**
@@ -118,7 +120,7 @@ The Discussion interprets **findings**, not the review pipeline. A reader of a s
 
 Open scientific gaps (a missing human PK study; a protocol without outcomes; a mechanism still debated) **are** in scope for Discussion — as unanswered questions in the field, not as download failures.
 
-Cite included papers in the text as Author Year or [n] keyed to the References list. **Every factual sentence must map to an extracted note, the table, or (for Methods counts only) the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so as an evidence limitation — do not write as if a small slice were a complete field survey, and do not explain that limitation as a software or export problem.
+Cite included papers in the text as numbered Vancouver citations `[n]` keyed to the References list. **Number papers in the order they first appear in the body** (not Abstract, not Keywords): the first cited paper is `[1]`, the next new paper is `[2]`, and so on. Re-citations keep that number. After drafting, run `python3 scripts/renumber_citations.py --article review/runs/<run-id>/article.md` so the list matches the prose, then `check_article.py` (it fails if the sequence is wrong). **Every factual sentence must map to an extracted note, the table, or (for Methods counts only) the PRISMA/fetch log.** If the set is heterogeneous or n is small, say so as an evidence limitation — do not write as if a small slice were a complete field survey, and do not explain that limitation as a software or export problem.
 
 **Do not wait for the user to complain about structure.** After the first complete draft, reread the Introduction as an adjacent-field expert. If later sections would be opaque, rewrite the Introduction and the heading spine **once** before `check_article.py`. That rewrite is the default path, not a second assignment.
 
@@ -159,4 +161,4 @@ If it fails, rewrite and run it again. Also grep the banned-flourish list in `re
 
 ## Handoff
 
-After the report is written **and `check_article.py` exits 0**, run the `double-check` skill and write `double-check.md`. Only then tell the user where the **Markdown** article is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. Offer to iterate (re-scope, add papers, refine sections, or export Word/PDF via `export-manuscript`). If they change inclusion, update the rationale before rewriting.
+After the report is written **and `check_article.py` exits 0**, run the `double-check` skill and write `double-check.md`. Only then tell the user where the **Markdown** article is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. **In that same message, ask if they also want Word and PDF.** Offer to iterate (re-scope, add papers, refine sections). If they change inclusion, update the rationale before rewriting.

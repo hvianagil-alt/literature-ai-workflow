@@ -1,0 +1,2641 @@
+[
+  {
+    "citekey": "Zheng20249829",
+    "doi": "10.1080/10408398.2023.2217268",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10408398.2023.2217268"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Zhang2022",
+    "doi": "10.3390/foods11223698",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Zhang2022.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods11223698/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/11/22/3698/pdf?version=1668761618",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9689688/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods11223698",
+      "https://doi.org/10.3390/foods11223698"
+    ],
+    "bytes": 76760
+  },
+  {
+    "citekey": "Ferreira2023",
+    "doi": "10.1016/j.ijfoodmicro.2023.110293",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2023.110293",
+      "https://doi.org/10.1016/j.ijfoodmicro.2023.110293"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Erdem20249151",
+    "doi": "10.1002/jsfa.13736",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jsfa.13736",
+      "https://doi.org/10.1002/jsfa.13736"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Maghami2026",
+    "doi": "10.1016/j.ultsonch.2026.107926",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Maghami2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.ultsonch.2026.107926/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.ultsonch.2026.107926",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13316184/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ultsonch.2026.107926"
+    ],
+    "bytes": 63259
+  },
+  {
+    "citekey": "Onyeaka20233663",
+    "doi": "10.1080/87559129.2021.2013255",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/87559129.2021.2013255"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Stefanini2022193",
+    "doi": "10.1515/ijfe-2021-0023",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1515/ijfe-2021-0023"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Seyedalangi2025",
+    "doi": "10.1371/journal.pone.0336896",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Seyedalangi2025.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1232763
+  },
+  {
+    "citekey": "Schnabel2021115",
+    "doi": "10.1007/s12393-020-09238-9",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Schnabel2021115.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 5179286
+  },
+  {
+    "citekey": "Beitia20232802",
+    "doi": "10.1111/1541-4337.13163",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1541-4337.13163",
+      "https://doi.org/10.1111/1541-4337.13163"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Braspaiboon2024",
+    "doi": "10.3390/foods13060922",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Braspaiboon2024.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods13060922/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/13/6/922/pdf?version=1710772266",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10969792/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods13060922",
+      "https://doi.org/10.3390/foods13060922"
+    ],
+    "bytes": 94256
+  },
+  {
+    "citekey": "Zhang2025756",
+    "doi": "10.1007/s12393-025-09410-z",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs12393-025-09410-z.pdf",
+      "https://doi.org/10.1007/s12393-025-09410-z"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bhabani20241541",
+    "doi": "10.1007/s10068-024-01529-9",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Bhabani20241541.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 4675851
+  },
+  {
+    "citekey": "Gonz\u00e1lez-Tejedor2023372",
+    "doi": "10.1177/10820132221095607",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://research.wur.nl/en/publications/application-of-high-hydrostatic-pressure-in-fresh-purple-smoothie",
+      "https://doi.org/10.1177/10820132221095607"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ding2026913",
+    "doi": "10.1080/10408398.2025.2534421",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10408398.2025.2534421"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ledina2023149",
+    "doi": "10.18485/meattech.2023.64.2.27",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Ledina2023149.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 586004
+  },
+  {
+    "citekey": "Sykora2026",
+    "doi": "10.1111/1541-4337.70324",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Sykora2026.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1111/1541-4337.70324/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1111/1541-4337.70324",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12616593/pdf/"
+    ],
+    "bytes": 117908
+  },
+  {
+    "citekey": "Garcia Bustos2024",
+    "doi": "10.1016/j.ifset.2024.103784",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2024.103784",
+      "https://doi.org/10.1016/j.ifset.2024.103784"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Koo2023",
+    "doi": "10.1128/aem.00602-23",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10686058/pdf/aem.00602-23.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10686058/pdf/",
+      "https://doi.org/10.1128/aem.00602-23"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Nikparvar2021",
+    "doi": "10.3389/fmicb.2021.598739",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Nikparvar2021.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1650734
+  },
+  {
+    "citekey": "Singh2025",
+    "doi": "10.1111/jfpe.70177",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfpe.70177",
+      "https://doi.org/10.1111/jfpe.70177"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ganjeh2024",
+    "doi": "10.1016/j.foohum.2024.100252",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.foohum.2024.100252",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foohum.2024.100252"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Yildiz2021",
+    "doi": "10.1016/j.foodres.2020.110040",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.foodres.2020.110040",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodres.2020.110040"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kim2023",
+    "doi": "10.1093/lambio/ovad068",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1093/lambio/ovad068"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Koo2023",
+    "doi": "10.1016/j.ifset.2023.103284",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ifset.2023.103284",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2023.103284"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ying20241",
+    "doi": "10.1111/1541-4337.13290",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1541-4337.13290"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Tang20248587",
+    "doi": "10.1080/10408398.2023.2201834",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10408398.2023.2201834"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chaikham2025",
+    "doi": "10.1016/j.focha.2025.101174",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.focha.2025.101174",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.focha.2025.101174"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Leong20247739",
+    "doi": "10.1111/ijfs.17203",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/ijfs.17203"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bhatnagar2022",
+    "doi": "10.1016/j.heliyon.2022.e10918",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Bhatnagar2022.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.heliyon.2022.e10918/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.heliyon.2022.e10918",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9557900/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.heliyon.2022.e10918"
+    ],
+    "bytes": 64353
+  },
+  {
+    "citekey": "Sheen20225042",
+    "doi": "10.1111/1750-3841.16346",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1750-3841.16346"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Machado2023",
+    "doi": "10.3390/foods12193640",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Machado2023.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods12193640/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/12/19/3640/pdf?version=1696136641",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10572675/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods12193640",
+      "https://doi.org/10.3390/foods12193640"
+    ],
+    "bytes": 50180
+  },
+  {
+    "citekey": "Zou2021",
+    "doi": "10.1093/fqsafe/fyab001",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://academic.oup.com/fqs/article-pdf/doi/10.1093/fqsafe/fyab001/42083163/fyab001.pdf",
+      "https://doi.org/10.1093/fqsafe/fyab001"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bhanu Prakash Reddy2026",
+    "doi": "10.1007/s11947-026-04278-1",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Bhanu Prakash Reddy2026.pdf",
+    "format": "pdf",
+    "http_calls": 6,
+    "source_url": "https://fssai.gov.in/upload/uploadfiles/files/Order_Manual_Analysis_Alcoholic_Beverages_20_07_2021.pdf",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11947-026-04278-1.pdf",
+      "https://doi.org/10.1007/s11947-026-04278-1"
+    ],
+    "bytes": 3269318
+  },
+  {
+    "citekey": "Kumar2025",
+    "doi": "10.1016/j.foohum.2025.100757",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foohum.2025.100757",
+      "https://doi.org/10.1016/j.foohum.2025.100757"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chandel2025",
+    "doi": "10.1111/jfpe.70105",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfpe.70105",
+      "https://doi.org/10.1111/jfpe.70105"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Katsigiannis2022",
+    "doi": "10.1016/j.ifset.2022.103150",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2022.103150",
+      "https://doi.org/10.1016/j.ifset.2022.103150"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Erdem2026",
+    "doi": "10.1016/j.ijfoodmicro.2026.111653",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105028241155&origin=inward",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2026.111653",
+      "https://doi.org/10.1016/j.ijfoodmicro.2026.111653"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sabill\u00f3n202170",
+    "doi": "10.1002/cche.10377",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1002/cche.10377"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Vettickathadathil2026",
+    "doi": "10.3390/app16146925",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.3390/app16146925",
+      "https://www.mdpi.com/resolver?doi=10.3390/app16146925"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rossi Ribeiro2026",
+    "doi": "10.3389/frfst.2026.1817509",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Rossi Ribeiro2026.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 2021107
+  },
+  {
+    "citekey": "Alinovi2021",
+    "doi": "10.1111/jfpp.15912",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/jfpp.15912"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Reddy2024",
+    "doi": "10.1111/jfpe.14624",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/jfpe.14624"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Al-Sharify2025",
+    "doi": "10.3390/app15063049",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.3390/app15063049",
+      "https://www.mdpi.com/resolver?doi=10.3390/app15063049"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Fan2021362",
+    "doi": "10.1080/10408398.2020.1816892",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10408398.2020.1816892"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Mukhtar2022",
+    "doi": "10.1016/j.ultsonch.2022.106194",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Mukhtar2022.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.ultsonch.2022.106194/fullTextXML",
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S1350417722002905/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9576986/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ultsonch.2022.106194",
+      "https://doi.org/10.1016/j.ultsonch.2022.106194"
+    ],
+    "bytes": 83486
+  },
+  {
+    "citekey": "Wang2025351",
+    "doi": "10.3844/ajbbsp.2025.351.361",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Wang2025351.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 770890
+  },
+  {
+    "citekey": "Ord\u00f3\u00f1ez2026",
+    "doi": "10.1016/j.afres.2026.102300",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.afres.2026.102300",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.afres.2026.102300"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Torrents-Masoliver2024",
+    "doi": "10.3390/foods13162600",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Torrents-Masoliver2024.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods13162600/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/13/16/2600/pdf?version=1724138872",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11353608/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods13162600",
+      "https://doi.org/10.3390/foods13162600"
+    ],
+    "bytes": 54664
+  },
+  {
+    "citekey": "Pandiselvam2024",
+    "doi": "10.1016/j.fufo.2024.100488",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.fufo.2024.100488",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fufo.2024.100488"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Zulli2024",
+    "doi": "10.1016/j.ifset.2024.103765",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2024.103765",
+      "https://doi.org/10.1016/j.ifset.2024.103765"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Melhem2022",
+    "doi": "10.3390/su141710503",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2071-1050/14/17/10503/pdf?version=1661259033",
+      "https://www.mdpi.com/resolver?doi=10.3390/su141710503",
+      "https://doi.org/10.3390/su141710503"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bulut2021",
+    "doi": "10.1016/j.lwt.2020.110313",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Bulut2021.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 362946
+  },
+  {
+    "citekey": "Nasharuddin2026",
+    "doi": "10.1155/jfpp/7349863",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1155/jfpp/7349863"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Yuan2025",
+    "doi": "10.1080/10942912.2025.2587367",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10942912.2025.2587367"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chen2025103",
+    "doi": "10.1016/bs.afnr.2024.09.010",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/bs.afnr.2024.09.010",
+      "https://doi.org/10.1016/bs.afnr.2024.09.010"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Mar\u00e7al2021",
+    "doi": "10.3390/foods10020209",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Mar\u00e7al2021.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods10020209/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/10/2/209/pdf?version=1611371756",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7909550/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods10020209",
+      "https://doi.org/10.3390/foods10020209"
+    ],
+    "bytes": 44496
+  },
+  {
+    "citekey": "Chen202337",
+    "doi": "10.7506/spkx1002-6630-20230630-242",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://doaj.org/article/3d31294536ec4dc6ba47f95b1fbc3f7b",
+      "https://doi.org/10.7506/spkx1002-6630-20230630-242"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Agriopoulou20231",
+    "doi": "10.15832/ankutbd.1150112",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Agriopoulou20231.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 541351
+  },
+  {
+    "citekey": "Castillo-Zamudio2021",
+    "doi": "10.1016/j.ifset.2020.102557",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S1466856420305038",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2020.102557",
+      "https://doi.org/10.1016/j.ifset.2020.102557"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Yang20211800",
+    "doi": "10.1111/1541-4337.12724",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1541-4337.12724"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kavindya20269740",
+    "doi": "10.1007/s11694-026-04439-y",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Kavindya20269740.pdf",
+    "format": "pdf",
+    "http_calls": 6,
+    "source_url": "https://www.webpal.org/SAFE/aaarecovery/2_food_storage/Food%20Processing%20Technology.pdf",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11694-026-04439-y.pdf",
+      "https://doi.org/10.1007/s11694-026-04439-y"
+    ],
+    "bytes": 11870734
+  },
+  {
+    "citekey": "Du2026",
+    "doi": "10.1007/s11694-026-04870-1",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11694-026-04870-1.pdf",
+      "https://doi.org/10.1007/s11694-026-04870-1"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rios2024",
+    "doi": "10.1016/j.ijfoodmicro.2024.110859",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "http://dx.doi.org/10.1016/j.ijfoodmicro.2024.110859",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2024.110859",
+      "https://doi.org/10.1016/j.ijfoodmicro.2024.110859"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Tsagkaropoulou2024",
+    "doi": "10.1016/j.ifset.2024.103645",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S1466856424000845/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2024.103645",
+      "https://doi.org/10.1016/j.ifset.2024.103645"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Li2021",
+    "doi": "10.3390/foods10112608",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Li2021.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods10112608/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/10/11/2608/pdf?version=1635413713",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8620349/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods10112608",
+      "https://doi.org/10.3390/foods10112608"
+    ],
+    "bytes": 87556
+  },
+  {
+    "citekey": "Yang2025",
+    "doi": "10.1016/j.ifset.2025.103996",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2025.103996",
+      "https://doi.org/10.1016/j.ifset.2025.103996"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Dey2022",
+    "doi": "10.1111/jfpp.16508",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfpp.16508",
+      "https://doi.org/10.1111/jfpp.16508"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Hashemi Moosavi2021",
+    "doi": "10.1016/j.ultsonch.2021.105755",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Hashemi Moosavi2021.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.ultsonch.2021.105755/fullTextXML",
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S1350417721002972/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8476429/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ultsonch.2021.105755",
+      "https://doi.org/10.1016/j.ultsonch.2021.105755"
+    ],
+    "bytes": 42979
+  },
+  {
+    "citekey": "Pravallika2022",
+    "doi": "10.1016/j.afres.2022.100229",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S2772502222001846/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.afres.2022.100229",
+      "https://doi.org/10.1016/j.afres.2022.100229"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Adam2021",
+    "doi": "10.1016/j.foodres.2021.110464",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodres.2021.110464",
+      "https://doi.org/10.1016/j.foodres.2021.110464"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Arya2021",
+    "doi": "10.1111/jfpp.15794",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/jfpp.15794"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Gautam20241840",
+    "doi": "10.1111/raq.12925",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/raq.12925"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chen20221226",
+    "doi": "10.1111/ijfs.15505",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/ijfs.15505"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Cheng2024592",
+    "doi": "10.1177/10820132231219525",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1177/10820132231219525"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "P\u00e9rez Alcal\u00e12023",
+    "doi": "10.3390/foods12061206",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/P\u00e9rez Alcal\u00e12023.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods12061206/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/12/6/1206/pdf?version=1678685302",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10047930/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods12061206",
+      "https://doi.org/10.3390/foods12061206"
+    ],
+    "bytes": 56706
+  },
+  {
+    "citekey": "Khan2026",
+    "doi": "10.1111/1541-4337.70430",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1541-4337.70430"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Zhang2026",
+    "doi": "10.1016/j.ultsonch.2026.107903",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Zhang2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.ultsonch.2026.107903/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.ultsonch.2026.107903",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13235383/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ultsonch.2026.107903"
+    ],
+    "bytes": 76384
+  },
+  {
+    "citekey": "Koker2023292",
+    "doi": "10.1017/S0022029923000572",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Koker2023292.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 368591
+  },
+  {
+    "citekey": "Inanoglu20224939",
+    "doi": "10.1111/1541-4337.13058",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1541-4337.13058"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kateh20244185",
+    "doi": "10.1111/ijfs.16758",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijfs.16758",
+      "https://doi.org/10.1111/ijfs.16758"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Romulo202138",
+    "doi": "10.26656/fr.2017.5(2).352",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.26656/fr.2017.5(2).352"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Nilsuwan2024",
+    "doi": "10.3390/foods13081264",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Nilsuwan2024.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods13081264/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/13/8/1264/pdf?version=1713607990",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11049107/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods13081264",
+      "https://doi.org/10.3390/foods13081264"
+    ],
+    "bytes": 77548
+  },
+  {
+    "citekey": "Sykora202513213",
+    "doi": "10.3168/jds.2025-27003",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.3168/jds.2025-27003"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Eran Nagar2026",
+    "doi": "10.3390/foods15040672",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Eran Nagar2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods15040672/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/15/4/672/pdf?version=1771895580",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12939781/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods15040672",
+      "https://doi.org/10.3390/foods15040672"
+    ],
+    "bytes": 62095
+  },
+  {
+    "citekey": "Na Lamphun2026",
+    "doi": "10.1016/j.afres.2025.101628",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.afres.2025.101628",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.afres.2025.101628"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Liao2023",
+    "doi": "10.1016/j.lwt.2023.114887",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.lwt.2023.114887",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lwt.2023.114887"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Silva2023",
+    "doi": "10.3390/app13021193",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2076-3417/13/2/1193/pdf?version=1673855873",
+      "https://www.mdpi.com/resolver?doi=10.3390/app13021193",
+      "https://doi.org/10.3390/app13021193"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lian2023",
+    "doi": "10.1016/j.foodcont.2022.109401",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Lian2023.txt",
+    "format": "jats_xml",
+    "http_calls": 9,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.foodcont.2022.109401/fullTextXML",
+    "attempted": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/9512252",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9512252/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodcont.2022.109401",
+      "https://doi.org/10.1016/j.foodcont.2022.109401"
+    ],
+    "bytes": 58863
+  },
+  {
+    "citekey": "Tsikrika2021",
+    "doi": "10.3390/molecules26092614",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Tsikrika2021.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/molecules26092614/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1420-3049/26/9/2614/pdf?version=1619707079",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8124339/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/molecules26092614",
+      "https://doi.org/10.3390/molecules26092614"
+    ],
+    "bytes": 55204
+  },
+  {
+    "citekey": "Serra-Castell\u00f32025",
+    "doi": "10.1016/j.ijfoodmicro.2025.111174",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ijfoodmicro.2025.111174",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2025.111174"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lima2023",
+    "doi": "10.1016/j.ifset.2023.103460",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ifset.2023.103460",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2023.103460"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rodr\u00edguez2024",
+    "doi": "10.3390/foods13213463",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Rodr\u00edguez2024.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods13213463/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/foods13213463",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11545795/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods13213463"
+    ],
+    "bytes": 52617
+  },
+  {
+    "citekey": "McGraw2026",
+    "doi": "10.1155/jfpp/3596521",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/jfpp/3596521",
+      "https://doi.org/10.1155/jfpp/3596521"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Tian2025",
+    "doi": "10.3390/horticulturae11121466",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2311-7524/11/12/1466/pdf",
+      "https://www.mdpi.com/resolver?doi=10.3390/horticulturae11121466",
+      "https://doi.org/10.3390/horticulturae11121466"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Xia2022",
+    "doi": "10.3389/fnut.2022.878904",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Xia2022.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 716536
+  },
+  {
+    "citekey": "Amsasekar2022996",
+    "doi": "10.1108/NFS-08-2021-0249",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1108/NFS-08-2021-0249"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chuang20211193",
+    "doi": "10.1002/jsfa.10731",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1002/jsfa.10731"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sherman20241",
+    "doi": "10.1111/1541-4337.13282",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1541-4337.13282",
+      "https://doi.org/10.1111/1541-4337.13282"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Roy2026",
+    "doi": "10.1007/s40477-026-01199-9",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs40477-026-01199-9.pdf",
+      "https://doi.org/10.1007/s40477-026-01199-9"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lee2021",
+    "doi": "10.1111/jfpp.15345",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfpp.15345",
+      "https://doi.org/10.1111/jfpp.15345"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lima2023857",
+    "doi": "10.1177/10820132221124196",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1177/10820132221124196"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Masotti20235643",
+    "doi": "10.1080/10408398.2021.2022596",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10408398.2021.2022596"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Torrents-Masoliver2025",
+    "doi": "10.1016/j.foodres.2025.117328",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.foodres.2025.117328",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodres.2025.117328"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Nakthong2025",
+    "doi": "10.1016/j.afres.2025.101353",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.afres.2025.101353",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.afres.2025.101353"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Darmawan2026",
+    "doi": "10.1016/j.afres.2026.101897",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.afres.2026.101897",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.afres.2026.101897"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lee2021",
+    "doi": "10.1016/j.lwt.2021.111325",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lwt.2021.111325",
+      "https://doi.org/10.1016/j.lwt.2021.111325"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Serra-Castell\u00f32021",
+    "doi": "10.1016/j.foodres.2020.110003",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Serra-Castell\u00f32021.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 2493805
+  },
+  {
+    "citekey": "A\u011fag\u00fcnd\u00fcz20251284",
+    "doi": "10.1039/d5fb00136f",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://pubs.rsc.org/en/content/articlepdf/2025/fb/d5fb00136f",
+      "https://doi.org/10.1039/d5fb00136f"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Wu2025",
+    "doi": "10.3390/foods14132374",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Wu2025.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods14132374/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/14/13/2374/pdf?version=1751620034",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12248489/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods14132374",
+      "https://doi.org/10.3390/foods14132374"
+    ],
+    "bytes": 144914
+  },
+  {
+    "citekey": "Yildiz2023403",
+    "doi": "10.1111/1750-3841.16403",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1750-3841.16403"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Usaga2021",
+    "doi": "10.1016/j.ijfoodmicro.2020.109034",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ijfoodmicro.2020.109034",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2020.109034"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "P\u00e9rez-Garc\u00eda2026",
+    "doi": "10.1016/j.fbio.2026.109576",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.fbio.2026.109576",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fbio.2026.109576"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Yang2024145",
+    "doi": "10.1016/bs.afnr.2024.02.003",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/bs.afnr.2024.02.003",
+      "https://doi.org/10.1016/bs.afnr.2024.02.003"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Pokhrel2022",
+    "doi": "10.1016/j.lwt.2022.113219",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S0023643822001542/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lwt.2022.113219",
+      "https://doi.org/10.1016/j.lwt.2022.113219"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Moghaddam2024",
+    "doi": "10.1186/s41110-024-00301-7",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 16,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1186/s41110-024-00301-7",
+      "https://link.springer.com/content/pdf/10.1186%2Fs41110-024-00301-7.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s41110-024-00301-7.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s41110-024-00301-7.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s41110-024-00301-7.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s41110-024-00301-7.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s41110-024-00301-7.pdf"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Pimsannil2025",
+    "doi": "10.1016/j.fochx.2024.102070",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Pimsannil2025.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.fochx.2024.102070/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.fochx.2024.102070",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11696631/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fochx.2024.102070"
+    ],
+    "bytes": 54582
+  },
+  {
+    "citekey": "Chai2021",
+    "doi": "10.1016/j.foodcont.2020.107784",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.foodcont.2020.107784",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodcont.2020.107784"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Li2026",
+    "doi": "10.1111/1541-4337.70594",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13452071/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13452071/pdf/",
+      "https://doi.org/10.1111/1541-4337.70594"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Palamae2026",
+    "doi": "10.1016/j.foodcont.2025.111934",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodcont.2025.111934",
+      "https://doi.org/10.1016/j.foodcont.2025.111934"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Koutsoumanis2022",
+    "doi": "10.2903/j.efsa.2022.7128",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Koutsoumanis2022.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.2903/j.efsa.2022.7128/fullTextXML",
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.2903/j.efsa.2022.7128",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8902661/pdf/",
+      "https://doi.org/10.2903/j.efsa.2022.7128"
+    ],
+    "bytes": 691558
+  },
+  {
+    "citekey": "Meenu2026",
+    "doi": "10.1039/d6fb00085a",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1039/d6fb00085a"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Malik20232509",
+    "doi": "10.1080/10942912.2023.2249262",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.tandfonline.com/doi/pdf/10.1080/10942912.2023.2249262?needAccess=true&role=button",
+      "https://doi.org/10.1080/10942912.2023.2249262"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Raja2025",
+    "doi": "10.1155/jfpp/6677975",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/jfpp/6677975",
+      "https://doi.org/10.1155/jfpp/6677975"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Levy2021490",
+    "doi": "10.1007/s12393-020-09239-8",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs12393-020-09239-8.pdf",
+      "https://doi.org/10.1007/s12393-020-09239-8"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sehrawat202119",
+    "doi": "10.1007/s10068-020-00831-6",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 11,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s10068-020-00831-6.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7847475/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs10068-020-00831-6.pdf",
+      "https://doi.org/10.1007/s10068-020-00831-6"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Gonz\u00e1lez-Cantillo2026",
+    "doi": "10.3390/foods15040789",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Gonz\u00e1lez-Cantillo2026.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 95538
+  },
+  {
+    "citekey": "Chen2025",
+    "doi": "10.1016/j.ijfoodmicro.2025.111316",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2025.111316",
+      "https://doi.org/10.1016/j.ijfoodmicro.2025.111316"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rashvand202510283",
+    "doi": "10.1007/s11947-025-04078-z",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Rashvand202510283.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1423119
+  },
+  {
+    "citekey": "Hinojosa-Luna20263625",
+    "doi": "10.1002/jsfa.70480",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1002/jsfa.70480"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chotyakul2026",
+    "doi": "10.1007/s13197-026-06723-7",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Chotyakul2026.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 145352
+  },
+  {
+    "citekey": "Toshmamatov2025",
+    "doi": "10.1007/s44187-025-00663-5",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Toshmamatov2025.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1842139
+  },
+  {
+    "citekey": "Ismail2024514",
+    "doi": "10.47836/ifrj.31.2.22",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.47836/ifrj.31.2.22"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Pimsannil2026",
+    "doi": "10.1007/s11947-026-04401-2",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11947-026-04401-2.pdf",
+      "https://doi.org/10.1007/s11947-026-04401-2"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "In\u00e1cio20213975",
+    "doi": "10.1002/jsfa.11023",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jsfa.11023",
+      "https://doi.org/10.1002/jsfa.11023"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Guzel2026",
+    "doi": "10.1111/1541-4337.70506",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Guzel2026.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 127165
+  },
+  {
+    "citekey": "Goraya20253856",
+    "doi": "10.1080/10408398.2024.2373390",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10408398.2024.2373390"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Das20261393",
+    "doi": "10.1007/s10068-025-02009-4",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 9,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13129163/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs10068-025-02009-4.pdf",
+      "https://doi.org/10.1007/s10068-025-02009-4"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Fuangpaiboon202566",
+    "doi": "",
+    "ok": false,
+    "error": "missing_doi",
+    "path": null,
+    "http_calls": 0,
+    "source_url": null,
+    "attempted": []
+  },
+  {
+    "citekey": "Gokul Nath2023",
+    "doi": "10.1016/j.jfoodeng.2023.111521",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.jfoodeng.2023.111521",
+      "https://doi.org/10.1016/j.jfoodeng.2023.111521"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rothwell20222490",
+    "doi": "10.1111/jam.15429",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/jam.15429"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Le2023399",
+    "doi": "10.34044/j.anres.2023.57.3.04",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Le2023399.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 2250560
+  },
+  {
+    "citekey": "Lee2023",
+    "doi": "10.1016/j.fm.2023.104302",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fm.2023.104302",
+      "https://doi.org/10.1016/j.fm.2023.104302"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Weihe2026",
+    "doi": "10.1088/1361-6463/ae8e87",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Weihe2026.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 4416596
+  },
+  {
+    "citekey": "Lee2023",
+    "doi": "10.1016/j.lwt.2023.115294",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.lwt.2023.115294",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lwt.2023.115294"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Palamae2024",
+    "doi": "10.1016/j.foodchem.2024.139840",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodchem.2024.139840",
+      "https://doi.org/10.1016/j.foodchem.2024.139840"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Nolasco-Gonz\u00e1lez2024",
+    "doi": "10.1016/j.ifset.2024.103817",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2024.103817",
+      "https://doi.org/10.1016/j.ifset.2024.103817"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Serment-Moreno2021465",
+    "doi": "10.1007/s12393-020-09263-8",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs12393-020-09263-8.pdf",
+      "https://doi.org/10.1007/s12393-020-09263-8"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Masilamani202519",
+    "doi": "10.15586/qas.v17i2.1515",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Masilamani202519.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 757914
+  },
+  {
+    "citekey": "Akdemir Evrendilek2021",
+    "doi": "10.1111/jfpp.15465",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfpp.15465",
+      "https://doi.org/10.1111/jfpp.15465"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Fariha2026",
+    "doi": "10.1093/ijfood/vvag076",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1093/ijfood/vvag076"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Grau-Fuentes2025",
+    "doi": "10.1016/j.foodres.2024.115593",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.foodres.2024.115593",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodres.2024.115593"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Song2025",
+    "doi": "10.1093/ijfood/vvaf249",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://academic.oup.com/ijfst/advance-article-pdf/doi/10.1093/ijfood/vvaf249/65800226/vvaf249.pdf",
+      "https://doi.org/10.1093/ijfood/vvaf249"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Cava2021",
+    "doi": "10.1016/j.meatsci.2020.108273",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.meatsci.2020.108273",
+      "https://doi.org/10.1016/j.meatsci.2020.108273"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Wu2022",
+    "doi": "10.1016/j.fpsl.2022.100983",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fpsl.2022.100983",
+      "https://doi.org/10.1016/j.fpsl.2022.100983"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Knoerzer2025627",
+    "doi": "10.1007/s12393-025-09414-9",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Knoerzer2025627.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 2047248
+  },
+  {
+    "citekey": "Yu2025",
+    "doi": "10.1016/j.ijfoodmicro.2024.110926",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "http://psasir.upm.edu.my/id/eprint/119145/1/119145.pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2024.110926",
+      "https://doi.org/10.1016/j.ijfoodmicro.2024.110926"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ding2025",
+    "doi": "10.1016/j.ifset.2025.104200",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ifset.2025.104200",
+      "https://doi.org/10.1016/j.ifset.2025.104200"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Amin2026",
+    "doi": "10.1016/j.foodcont.2026.112390",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodcont.2026.112390",
+      "https://doi.org/10.1016/j.foodcont.2026.112390"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Kim2026",
+    "doi": "10.1007/s11947-025-04151-7",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11947-025-04151-7.pdf",
+      "https://doi.org/10.1007/s11947-025-04151-7"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Palamae2026",
+    "doi": "10.1007/s11947-025-04193-x",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 8,
+    "source_url": null,
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007%2Fs11947-025-04193-x.pdf",
+      "https://doi.org/10.1007/s11947-025-04193-x"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Bento2026",
+    "doi": "10.1016/j.supflu.2025.106781",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.supflu.2025.106781",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.supflu.2025.106781"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lemos2022",
+    "doi": "10.1016/j.fm.2022.104031",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.fm.2022.104031",
+      "https://doi.org/10.1016/j.fm.2022.104031"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Buzrul2025",
+    "doi": "10.1111/jfpe.70044",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfpe.70044",
+      "https://doi.org/10.1111/jfpe.70044"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Scepankova2022",
+    "doi": "10.3390/molecules27185918",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Scepankova2022.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 52201
+  },
+  {
+    "citekey": "Ozen2022",
+    "doi": "10.1016/j.ijfoodmicro.2022.109913",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijfoodmicro.2022.109913",
+      "https://doi.org/10.1016/j.ijfoodmicro.2022.109913"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Andaluz-Mej\u00eda2022",
+    "doi": "10.3390/pr10050995",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2227-9717/10/5/995/pdf?version=1652797240",
+      "https://www.mdpi.com/resolver?doi=10.3390/pr10050995",
+      "https://doi.org/10.3390/pr10050995"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ates2021",
+    "doi": "10.1111/jfpp.15598",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jfpp.15598",
+      "https://doi.org/10.1111/jfpp.15598"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Castrica2021",
+    "doi": "10.3390/foods10081775",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Castrica2021.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 53747
+  },
+  {
+    "citekey": "Al2026",
+    "doi": "10.1080/19476337.2026.2672211",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.tandfonline.com/doi/pdf/10.1080/19476337.2026.2672211?needAccess=true",
+      "https://doi.org/10.1080/19476337.2026.2672211"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Meng2026514",
+    "doi": "10.13386/j.issn1002-0306.2025040167",
+    "ok": false,
+    "error": "exception:IncompleteRead:IncompleteRead(15428 bytes read)",
+    "path": null,
+    "format": null,
+    "http_calls": 0,
+    "source_url": null,
+    "attempted": [],
+    "bytes": 0
+  },
+  {
+    "citekey": "Serra-Castell\u00f32022",
+    "doi": "10.3390/app122412732",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2076-3417/12/24/12732/pdf?version=1670847112",
+      "https://www.mdpi.com/resolver?doi=10.3390/app122412732",
+      "https://doi.org/10.3390/app122412732"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Peng2023313",
+    "doi": "10.17221/87/2023-CJFS",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Peng2023313.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 847416
+  },
+  {
+    "citekey": "Jeevitha2023",
+    "doi": "10.1007/s44187-023-00066-4",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/Jeevitha2023.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1118634
+  },
+  {
+    "citekey": "Khouryieh202531",
+    "doi": "10.2174/012772574X289005240215093457",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.2174/012772574X289005240215093457"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rosario20211163",
+    "doi": "10.1080/10408398.2020.1754755",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1080/10408398.2020.1754755"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Dong2025",
+    "doi": "10.1016/j.afres.2025.101364",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.afres.2025.101364",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.afres.2025.101364"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Rey20222324",
+    "doi": "10.1111/1750-3841.16179",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1750-3841.16179"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Liossi2024",
+    "doi": "10.1016/j.foodres.2024.115316",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodres.2024.115316",
+      "https://doi.org/10.1016/j.foodres.2024.115316"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sevenich2026117",
+    "doi": "10.1146/annurev-chembioeng-082323-120912",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1146/annurev-chembioeng-082323-120912"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Ahmadi2026",
+    "doi": "10.1155/jfpp/6722854",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/jfpp/6722854",
+      "https://doi.org/10.1155/jfpp/6722854"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "J\u00f6nsson2023",
+    "doi": "10.3389/frfst.2023.1150482",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp/J\u00f6nsson2023.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1124429
+  }
+]

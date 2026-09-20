@@ -1,0 +1,51 @@
+[
+  {
+    "citekey": "Gouvea2021",
+    "doi": "10.1016/j.foodres.2020.110091",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S0963996920311169/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodres.2020.110091",
+      "https://doi.org/10.1016/j.foodres.2020.110091"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Huang2022plant",
+    "doi": "10.3390/foods11020223",
+    "ok": true,
+    "error": null,
+    "path": "/workspace/papers/2026-09-20-scopus-hpp-gapfill/Huang2022plant.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods11020223/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/11/2/223/pdf?version=1642154910",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8774875/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods11020223",
+      "https://doi.org/10.3390/foods11020223"
+    ],
+    "bytes": 126936
+  },
+  {
+    "citekey": "Stratakos2021pef",
+    "doi": "10.1016/j.lwt.2021.111000",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S0023643821001535/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lwt.2021.111000",
+      "https://doi.org/10.1016/j.lwt.2021.111000"
+    ],
+    "bytes": 0
+  }
+]

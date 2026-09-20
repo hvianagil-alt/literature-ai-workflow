@@ -24,16 +24,18 @@ python3 scripts/export_manuscript.py \
   --format html,docx,pdf
 ```
 
-`--format` may be a subset. `html` always works (Times New Roman, justified). `docx` and `pdf` need Pandoc (and a PDF engine for pdf). If a format cannot be built, say so and still give the HTML and the `.md`.
+`--format` may be a subset. `html` always works (Times New Roman or Liberation Serif, justified). `docx` uses Pandoc when it is installed. `pdf` is built from the HTML with WeasyPrint when Pandoc has no PDF engine. If a format cannot be built, say so and still give the HTML and the `.md`.
 
 3. Tell the user, in plain language:
    - Markdown is the file to edit and to put in git.
    - HTML opens in a browser; Print → Save as PDF keeps the Times New Roman layout if that font is on their computer.
    - Word/PDF are copies; if they edit those, the next review run will not see the edits unless they say so.
 
+**When you first deliver `article.md`:** always ask this in the same message (“Queres também Word e PDF?”). Do not wait for them to remember.
+
 ## Style
 
-Body text: Times New Roman (or Times), 12 pt, justified. Headings left-aligned. Tables may use a smaller size so they fit the page. Do not invent content while exporting.
+Body text: Times New Roman (or Times), 12 pt, justified. Headings left-aligned. Tables may use a smaller size so they fit the page. Each References entry is already a separate Markdown paragraph; keep that so Word/PDF do not glue the list into one block. Do not invent content while exporting.
 
 ## Hard rules
 
