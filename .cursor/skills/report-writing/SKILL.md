@@ -113,10 +113,10 @@ The Discussion interprets **findings**, not the review pipeline. A reader of a s
 - Evidence limitations a scientist would name: small n, missing human data, protocols without results, confounding, single-study constructs.
 - Pointers back to in-article tables when the interpretation rests on a row (“as in Table 1”).
 
-**Must not include in Discussion, Conclusions, or Abstract:**
+**Must not include in Discussion, Conclusions, Introduction, or Abstract:**
 
-- Identification/screening theatre: database-export sizes, “full texts can be cited”, “not retrieved”, “PDFs we could open”, HTTP codes, Unpaywall, script names, token estimates, “this is not an N-paper review”, paths to `prisma.md`.
-- Instructions to the reader about the workflow. PRISMA counts belong in Methods (briefly) and in `prisma.md`, not in the scientific argument.
+- Identification/screening theatre: database-export sizes, “open full texts from 2021–2026”, “full texts can be cited”, “not retrieved”, “PDFs we could open”, HTTP codes, Unpaywall, OpenAlex, Scopus, script names, token estimates, “this is not an N-paper review”, paths to `prisma.md`.
+- Instructions to the reader about the workflow. PRISMA counts, year windows of the export, and “public vs paywall” belong in Methods (briefly) and in `prisma.md`, not in the scientific argument.
 
 Open scientific gaps (a missing human PK study; a protocol without outcomes; a mechanism still debated) **are** in scope for Discussion — as unanswered questions in the field, not as download failures.
 

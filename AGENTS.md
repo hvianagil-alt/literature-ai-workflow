@@ -102,6 +102,8 @@ The article is a **secondary** paper: it does not report a new experiment. It te
 
 **Abstract.** For a narrative review, the abstract is a map of the topic. Do **not** cite (`[1]`) and do **not** name included papers. Rank kinds of evidence. At most one hinge finding, still unnamed. Exact n, p, RR, and bioavailability belong in Results and in Table 1, not stacked in the Abstract. Structured abstracts (with pooled numbers, still without citations) are for systematic reviews and meta-analyses only.
 
+**How the papers were found belongs only in Methods.** Do not put Scopus, BibTeX, Unpaywall, OpenAlex, “open full texts”, “public PDFs”, paywalls, screening counts, or the search year window (`2021–2026`) in the Abstract, Introduction, Discussion, or Conclusions. The Abstract says what the science is about, not how the files were obtained. Methods is the place for the database, dates, eligibility, and that only public full texts were opened.
+
 **Length.** Unless the user asked for a short note, aim for at least ~6,000 words of body text (about 20 pages in a typical double-spaced Word document). Add length by teaching in the Introduction and by giving each included study its design and results — not by slogans or process talk.
 
 **Tables in the article.** Put numbered Markdown results tables in `article.md` (Table 1, Table 2, …) with a caption, the paper, n, endpoint, and result in the cells. Mention the table from the Results: “Primary endpoints are summarised in Table 1 [1].” That is not the extraction worksheet in `literature-table.md`; curate comparable rows. `check_article.py` fails if the manuscript has no pipe table or no “Table N” callout.

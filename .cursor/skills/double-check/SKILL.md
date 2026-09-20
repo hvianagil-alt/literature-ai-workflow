@@ -19,7 +19,7 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 2. **Notes vs scripts.** If `check_extraction.py` failed, stop and fill `## Claim-ready facts` from the PDF. Do not double-check a stub corpus.
 3. **Literature table.** If cells still say “mechanical first-pass”, “extracted lead”, or paste the PDF lead into Key findings, rewrite every included row from Claim-ready facts (`scripts/table_from_notes.py`). The extraction worksheet is not finished while those phrases remain.
 4. **Spot-check numbers.** Pick at least **five** numeric claims in `article.md` (n, %, RR, bioavailability, *P*). Open the matching note. If the note and the sentence disagree, open the PDF. Correct the note, the table row, and the article. Never invent the number.
-5. **Abstract and title.** No `[n]`, no *et al.*, no stack of effect sizes. Title is `Topic: a narrative review of …` (or the matching kind). See `review-prose`.
+5. **Abstract and title.** No `[n]`, no *et al.*, no stack of effect sizes. No Scopus, “open full texts”, year window of the export, or paywall talk — that is Methods only. Title is `Topic: a narrative review of …` (or the matching kind). See `review-prose`.
 6. **Citation order.** In-text `[n]` follows first appearance in the body (`[1]` is the first cited paper). Each References entry is a separate paragraph. If this fails, run `scripts/renumber_citations.py` and re-run `check_article.py`.
 7. **Abbreviations.** Repeated terms are `Full term (ABBR)` at first use, then the abbreviation (`type 2 diabetes (T2D)`, then `T2D`). Introduce each short form in a sentence that still teaches the thing. Read the Abstract as a first-time reader: if you need a glossary, write the words back in. Headings may stay expanded. Fix leftover long forms in the body and Discussion.
 8. **In-article tables.** At least one Markdown pipe table and an in-text `Table N` sentence. Cells must match the notes.
@@ -35,7 +35,7 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 - Table still DRAFT/lead-paste? yes/no
 - Claims spot-checked (paper, number, note/PDF agree?):
   - …
-- Abstract: citations? named papers?
+- Abstract: citations? named papers? search/OA/year-window language (must be Methods only)?
 - Citation order: first-appearance [1]…[n]? References each in their own paragraph?
 - Abbreviations: repeated terms defined once then shortened? Abstract still readable without a glossary?
 - Adjacent-field reader test (Introduction teaches later sections?): yes/no. If no, rewrite before delivering.

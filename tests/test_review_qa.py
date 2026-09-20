@@ -130,6 +130,19 @@ class CheckArticleTests(unittest.TestCase):
         self.assertTrue(any("table n callout" in p.lower() for p in problems), problems)
         self.assertFalse(any("markdown results table" in p.lower() for p in problems), problems)
 
+    def test_abstract_must_not_describe_how_papers_were_acquired(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "This narrative review organises the literature around domain as a moderator rather than around a single pooled effect.",
+            "This narrative review organises open full texts from 2021–2026 around domain as a moderator rather than around a single pooled effect.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(
+            any("acquired" in p.lower() or "full texts" in p.lower() for p in problems),
+            problems,
+        )
+
     def test_abstract_citation_or_et_al_fails(self):
         text = (FIX / "good-article.md").read_text(encoding="utf-8")
         cited = text.replace(

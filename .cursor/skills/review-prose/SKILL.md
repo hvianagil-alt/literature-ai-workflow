@@ -97,6 +97,8 @@ Write it in this **order**:
 
 **Do not put in the Abstract:** numbered citations (`[1]`), *et al.*, product codes that exist in only one included paper, Table 1, PRISMA counts, or a stack of effect sizes. Numbers belong in Results and in the in-article tables. Keywords after the abstract. No workflow, no “OA export,” no table of contents.
 
+**Do not put in the Abstract how the papers were acquired.** Wrong: “This narrative review organises open full texts from 2021–2026 around…”. Right: “This narrative review organises the literature around…”. Database name, export date, year window, open-access vs paywall, Unpaywall/OpenAlex/PMC, and screening counts go **only** in Methods. The same ban applies to Introduction, Discussion, and Conclusions. `check_article.py` fails if those phrases appear outside Methods.
+
 **Systematic review / meta-analysis:** use a structured abstract (Background / Methods / Results / Conclusions). Pooled numbers may appear there. Still **no numbered citations** and **no named papers** (journals commonly forbid references in abstracts).
 
 ### Discussion (see also report-writing)

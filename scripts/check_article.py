@@ -16,9 +16,9 @@ Fails when a defined abbreviation is still followed by many leftover expanded fo
 Fails when the Abstract defines more than four abbreviations, or defines one it never uses again.
 Fails a narrative spine that dumps science under a generic Results heading, or an
 Introduction too short to teach an adjacent-field reader (pass-1 failure mode).
-Fails when numbered in-text citations are not Vancouver first-appearance order
-(the first cited paper is [1], the next new paper is [2], and so on) or when
-References are not that same sequence with a blank line between entries.
+Fails when the Abstract or any section other than Methods describes how papers
+were found or opened (Scopus, open full texts, year windows of the export,
+Unpaywall, paywalls). Those facts belong only in Methods.
 """
 
 from __future__ import annotations
@@ -27,6 +27,43 @@ import argparse
 import re
 import sys
 from pathlib import Path
+
+ACQUISITION = [
+    r"\bscopus\b",
+    r"\bbibtex\b",
+    r"\bunpaywall\b",
+    r"\bopenalex\b",
+    r"\beurope pmc\b",
+    r"open full texts?",
+    r"\bopen access\b",
+    r"open-access",
+    r"without a subscription",
+    r"public full texts?",
+    r"\bgap-fill\b",
+    r"\bgap fill\b",
+    r"title screening",
+    r"bibliographic records",
+    r"database export",
+    r"\bthis export\b",
+    r"full texts? from",
+    r"could not be opened",
+    r"not retrieved",
+    r"sought for retrieval",
+    r"\bfetch-log\b",
+    r"public files were",
+    r"\bpaywall",
+    r"\boa export\b",
+    r"user-supplied seeds",
+    r"pdfs we could",
+]
+
+ABSTRACT_ACQUISITION = ACQUISITION + [
+    r"20\d{2}\s*[–\-]\s*20\d{2}",
+    r"\bfull texts?\b",
+    r"\bwe searched\b",
+    r"\brecords were\b",
+    r"\bincluded \(n\s*=",
+]
 
 PROCESS = [
     r"\bunpaywall\b",
@@ -547,6 +584,41 @@ def papers_from_table(table_md: str) -> list[tuple[str, str]]:
     return papers
 
 
+def text_outside_methods(text: str) -> str:
+    """Everything before References except the Methods section."""
+    body = body_before_references(text)
+    span = section_span(body, "Methods")
+    if not span:
+        return body
+    return body[: span[0]] + "\n" + body[span[1] :]
+
+
+def acquisition_outside_methods_problems(text: str) -> list[str]:
+    """How the papers were found or opened belongs only in Methods."""
+    problems: list[str] = []
+    abstract = section_after(text, "Abstract")
+    for pat in ABSTRACT_ACQUISITION:
+        if re.search(pat, abstract, re.I):
+            problems.append(
+                f"Abstract describes how papers were acquired ({pat}); "
+                "put search, dates, and open full texts only in Methods"
+            )
+            break
+    outside = text_outside_methods(text)
+    for heading in ("Abstract", "Keywords"):
+        span = section_span(outside, heading)
+        if span:
+            outside = outside[: span[0]] + "\n" + outside[span[1] :]
+    for pat in ACQUISITION:
+        if re.search(pat, outside, re.I):
+            problems.append(
+                f"search/retrieval language outside Methods ({pat}); "
+                "Scopus, OA, paywalls, and screening counts belong only in Methods"
+            )
+            break
+    return problems
+
+
 def check(text: str, table: str | None, short: bool) -> list[str]:
     problems: list[str] = []
     lowered = text.lower()
@@ -619,6 +691,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(leftover_expanded_terms(body))
     problems.extend(story_problems(text, short))
     problems.extend(citation_order_problems(text))
+    problems.extend(acquisition_outside_methods_problems(text))
     return problems
 
 

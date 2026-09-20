@@ -39,5 +39,6 @@ Plain language, no AI/ML jargon unless the user uses it first. Explain what you'
 - Never tell the user the article is done without asking, in the same message, whether they also want Word or PDF.
 - Ground the article in the literature table and rationale, not in re-derived or remembered claims.
 - Never put token counts, usage meters, or script names in `article.md`.
+- Never put how the papers were found or opened (Scopus, open full texts, year window, paywall) anywhere except Methods.
 
 Full detail lives in `AGENTS.md` and the individual `SKILL.md` files linked above — this file is intentionally short and just points there so instructions live in one place.

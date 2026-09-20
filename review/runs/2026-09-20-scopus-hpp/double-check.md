@@ -12,7 +12,7 @@
   - Houska/Silva 2022 gap-fill: *A. acidoterrestris* D 8.6 min at 600 MPa / 45 °C in apple juice — note `Huang2022plant.md`; JATS agrees (cited Uchida and Silva).
   - Jönsson 2023: hardness 312.3 g untreated vs 38.3 g at 600 MPa — note `Jönsson2023.md`.
   - Koker 2023: article uses results-section 0.85 / 1.58 / 4.04 log TABC (not abstract) — note flags abstract mismatch; article follows results.
-- Abstract: citations? no. named papers? no. *et al.*? no.
+- Abstract: citations? no. named papers? no. *et al.*? no. search/OA/year-window language? no (Methods only).
 - Citation order: first-appearance [1]…[44] (Zhang 2022 is [1]); References are separate paragraphs.
 - Abbreviations: HPP, HPTP, RTE, PPO, APC, EFSA, CFU defined in running text; Abstract uses HPP and names polyphenol oxidase in words.
 - Adjacent-field reader test (Introduction teaches later sections?): yes. Opens on foodborne illness and legal heat specs, then HPP physics (300–600 MPa, isostatic), then quality counterexamples, milk/juice law, injury/HPTP, aim last. A dairy or juice microbiologist who does not work on pressure should be able to follow §§3–7.
