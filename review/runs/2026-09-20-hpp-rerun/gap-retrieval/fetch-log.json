@@ -1,0 +1,96 @@
+[
+  {
+    "citekey": "Wi\u015bniewski2023_010014",
+    "doi": "10.3390/foods13010014",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-gapfill/Wi\u015bniewski2023_010014.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods13010014/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/foods13010014",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10778341/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods13010014"
+    ],
+    "bytes": 102566
+  },
+  {
+    "citekey": "Gong2024_115789",
+    "doi": "10.1016/j.lwt.2024.115789",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.lwt.2024.115789",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lwt.2024.115789"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Szczepa\u0144ska2021_26114",
+    "doi": "10.1007/s11947-021-02611-4",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-gapfill/Szczepa\u0144ska2021_26114.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s11947-021-02611-4.pdf?error=cookies_not_supported&code=bb3ea4ee-9bc9-460f-b538-5e5577bc9a09",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s11947-021-02611-4.pdf",
+      "https://link.springer.com/content/pdf/10.1007%2Fs11947-021-02611-4.pdf",
+      "https://doi.org/10.1007/s11947-021-02611-4"
+    ],
+    "bytes": 1198603
+  },
+  {
+    "citekey": "Heydenreich2024_29923",
+    "doi": "10.1128/aem.02299-23",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-gapfill/Heydenreich2024_29923.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1128/aem.02299-23/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1128/aem.02299-23",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11505639/pdf/"
+    ],
+    "bytes": 78231
+  },
+  {
+    "citekey": "TorrentsMasoliver2025_117247",
+    "doi": "10.1016/j.foodres.2025.117247",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.foodres.2025.117247",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.foodres.2025.117247"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "L\u00f3pez2026_040892",
+    "doi": "10.3390/microorganisms14040892",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-gapfill/L\u00f3pez2026_040892.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/microorganisms14040892/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2076-2607/14/4/892/pdf?version=1776329779",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13118743/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/microorganisms14040892",
+      "https://doi.org/10.3390/microorganisms14040892"
+    ],
+    "bytes": 52523
+  }
+]

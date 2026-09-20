@@ -813,5 +813,93 @@
     ],
     "n_in_lead": null,
     "origin": "related_to_seeds"
+  },
+  {
+    "record_id": "Wi\u015bniewski2023_010014",
+    "citekey": "Wi\u015bniewski2023_010014",
+    "title": "Impact of High-Pressure Processing (HPP) on Listeria monocytogenes\u2014An Overview of Challenges and Responses",
+    "author": "Patryk Wi\u015bniewski and Wioleta Chaj\u0119cka\u2010Wierzchowska and Anna Zadernowska",
+    "year": "2023",
+    "journal": "Foods",
+    "doi": "10.3390/foods13010014",
+    "title_reason": "gap-fill OA retrieval",
+    "fulltext_reason": null,
+    "lead": "3129 foods Foods Foods Multidisciplinary Digital Publishing Institute (MDPI) PMC10778341 10778341 10778341 38201041 10.3390/foods13010014 Impact of High-Pressure Processing (HPP) on Listeria monocytogenes \u2014An Overview of Challenges and Responses Wi\u015bniewski Patryk Chaj\u0119cka-Wierzchowska Wioleta Zadernowska Anna Campos Joana Academic Editor 1 Department of Food Microbiology, Meat Technology and Chemistry, Faculty of Food Science, University of Warmia and Mazury, Plac Cieszy\u0144ski 1, 10-726 Olsztyn, Poland; wioleta.chajecka@uwm.edu.pl (W.C.-W.); anna.zadernowska@uwm.edu.pl (A.Z.) * Correspondence: patryk.wisniewski@uwm.edu.pl \n\n 19 12 2023 13 1 14 14 11 1 2024 \u00a9 2023 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ). Abstract\n\n High-pressure processing (HPP) is currently one of the leading methods of non-thermal food preservation as an alternative to traditional methods based on thermal processing. The application of HPP involves the simultaneous action of a combination of several factors\u2014pressure values (100\u2013600 MPa), time of operation (a few\u2013several minutes), and temperature of operation (room temperature or lower)\u2014using a liquid medium responsible for pressure transfer. The combination of these three factors results in the inactivation of microorganisms, thus extending food shelf life and improving the food\u2019s microbiological safety. HPP can provide high value for the sensory and quality characteristics of products and reduce the population of pathogenic microorganisms such as L. monocytogenes to the required safety level. Nevertheless, the technology is not without impact on the cellular resp",
+    "lead_chars": 1800,
+    "text_chars": 102036,
+    "design": [
+      "review"
+    ],
+    "topics": [
+      "hpp"
+    ],
+    "origin": "gap_fill",
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Szczepa\u0144ska2021_26114",
+    "citekey": "Szczepa\u0144ska2021_26114",
+    "title": "Continuous High-pressure Cooling-Assisted Homogenization Process for Stabilization of Apple Juice",
+    "author": "Justyna Szczepa\u0144ska and Sylwia Sk\u0105pska and Krystian Marsza\u0142ek",
+    "year": "2021",
+    "journal": "Food and Bioprocess Technology",
+    "doi": "10.1007/s11947-021-02611-4",
+    "title_reason": "gap-fill OA retrieval",
+    "fulltext_reason": null,
+    "lead": "ORIGINAL RESEARCH\nContinuous High-pressure Cooling-Assisted Homogenization Process\nfor Stabilization of Apple Juice\nJustyna Szczepa\u0144ska1 & Sylwia Sk\u0105pska1 & Krystian Marsza\u0142ek1\nReceived: 7 December 2020 / Accepted: 17 February 2021\n# The Author(s) 2021\nAbstract\nThe effect of high-pressure homogenization (HPH) at 100\u2013200 MPa (with up to 5 passes) on the quality and storage stability of\napple juice was investigated. The microbiological quality, polyphenol oxidase (PPO), peroxidase (POD), polygalacturonase (PG)\nand pectinmethylesterase (PME) activity, particle size distribution (PSD), apparent viscosity, turbidity, concentration of vitamin\nC, individual polyphenols and their total content (TPC), antioxidant activity, and colour of fresh, HPH-treated apple juice were all\nevaluated. The highest reduction in microorganisms (1.4 log) and oxidoreductase activity (~20%) was observed at 200 MPa,\nwhile hydrolases did not change significantly. HPH led to significant disintegration of the tissue and a decrease in viscosity.\nVitamin C decreased by 62%, while TPC increased by 20% after HPH. Significant correlations were observed between antiox-\nidant activity, TPC, and individual polyphenols. Chlorogenic, ferulic, and gallic acid were most stable at 200 MPa. The optimal\nshelf-life of the juice was estimated as 7 days.\nKeywords Multiple passes . Shelf-life . Enzymes . Bioactive compounds . Polyphenol profile . Antioxidant capacity\nIntroduction\nApple juice is a popular drink consumed by people of all ages\ndue to its sensory qualities. Moreover, NFC (not from concen-\ntrate) apple juices are rich in vitamins, and bioactive and min-\neral compounds, and exhibit good antioxidant properties\n(Tsao et al., 2005;W \u0142odarska et al., 2016; Wojdy \u0142o et al.,\n2008;X ue ta l . ,2020). However, fresh fr",
+    "lead_chars": 1800,
+    "text_chars": 77278,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "hpp"
+    ],
+    "origin": "gap_fill",
+    "n_in_lead": null
+  },
+  {
+    "record_id": "Heydenreich2024_29923",
+    "citekey": "Heydenreich2024_29923",
+    "title": "Strategies for effective high pressure germination or inactivation of Bacillus spores involving nisin",
+    "author": "Rosa Heydenreich and Alessia I. Delbr\u00fcck and Cl\u00e9ment Trunet and Alexander Mathys",
+    "year": "2024",
+    "journal": "Applied and Environmental Microbiology",
+    "doi": "10.1128/aem.02299-23",
+    "title_reason": "gap-fill OA retrieval",
+    "fulltext_reason": null,
+    "lead": "83 aem Applied and Environmental Microbiology Appl Environ Microbiol American Society for Microbiology (ASM) PMC11505639 11505639 11505639 39311577 10.1128/aem.02299-23 Strategies for effective high pressure germination or inactivation of\n Bacillus spores involving nisin Heydenreich Rosa Delbr\u00fcck Alessia I Trunet Cl\u00e9ment Mathys Alexander Roussel Sophie Editor 1 Sustainable Food\nProcessing Laboratory, Institute of Food, Nutrition, and Health,\nDepartment of Health Science and Technology, ETH\nZurich, Zurich,\nSwitzerland 2 Univ Brest, INRAE,\nLaboratoire Universitaire de Biodiversit\u00e9 et \u00c9cologie\nMicrobienne, UMT ACTIA 19.03\nALTER\u2019iX, Quimper,\nFrance 3 Anses, Maisons-Alfort Laboratory for Food\nSafety,\nMaisons-Alfort, France \u2709 Address correspondence to Alexander Mathys, alexander.mathys@hest.ethz.ch \n\n The authors declare no conflict of interest.\n\n 23 9 2024 90 10 e02299-23 e02299-23 25 10 2024 Copyright \u00a9 2024 Heydenreich et\nal. This is an open-access article distributed under the terms of the\n Creative Commons Attribution 4.0 International\nlicense . ABSTRACT\n\n The major challenge in employing high pressure (HP) at moderate temperature\nfor sterilization is the remarkable resistance of bacterial spores. High\nisostatic pressure can initiate spore germination, enabling subsequent\ninactivation under mild conditions. However, not all spores could be\ntriggered to germinate under pressure at temperatures \u226480\u00b0C so\nfar. In this study, germination treatment combinations were evaluated for\n Bacillus spores involving moderate HP (150 MPa,\n37\u00b0C, 5 min), very HP (vHP, 550 MPa, 60\u00b0C, 2.5 or 9 min),\nsimple and complex nutrient germinants [L-valine, L-alanine, and tryptic soy\nbroth (TSB)], nisin, and incubation at atmospheric pressure (37\u00b0C).\nThe most effective combinations for Bacillus subti",
+    "lead_chars": 1800,
+    "text_chars": 77512,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "hpp"
+    ],
+    "origin": "gap_fill",
+    "n_in_lead": null
+  },
+  {
+    "record_id": "L\u00f3pez2026_040892",
+    "citekey": "L\u00f3pez2026_040892",
+    "title": "Bacteriocin AS-48 and High Hydrostatic Pressure as Hurdles in a Vegetable Cream upon Temperature Abuse",
+    "author": "Javier Rodr\u00edguez L\u00f3pez and Rosario Lucas L\u00f3pez and M\u00aa Jos\u00e9 Grande Burgos and Antonio G\u00e1lvez and Rub\u00e9n P\u00e9rez Pulido",
+    "year": "2026",
+    "journal": "Microorganisms",
+    "doi": "10.3390/microorganisms14040892",
+    "title_reason": "gap-fill OA retrieval",
+    "fulltext_reason": null,
+    "lead": "3054 microorg Microorganisms Microorganisms Multidisciplinary Digital Publishing Institute (MDPI) PMC13118743 13118743 13118743 42075288 10.3390/microorganisms14040892 Bacteriocin AS-48 and High Hydrostatic Pressure as Hurdles in a Vegetable Cream upon Temperature Abuse Rodr\u00edguez L\u00f3pez Javier Formal analysis, Writing \u2013 original draft, Writing \u2013 review & editing Lucas L\u00f3pez Rosario Investigation, Supervision, Project administration, Funding acquisition Grande Burgos M\u1d43 Jos\u00e9 Formal analysis G\u00e1lvez Antonio Conceptualization, Formal analysis, Resources, Writing \u2013 original draft, Writing \u2013 review & editing, Project administration, Funding acquisition P\u00e9rez Pulido Rub\u00e9n Conceptualization, Investigation, Writing \u2013 review & editing, Supervision Gonz\u00e1lez-Olivares Luis Guillermo Academic Editor 1 Microbiology Division, Department of Health Sciences, Faculty of Experimental Sciences, University of Ja\u00e9n, 23071 Ja\u00e9n, Spain; rlucas@ujaen.es (R.L.L.); mjgrande@ujaen.es (M.J.G.B.); agalvez@ujaen.es (A.G.); rppulido@ujaen.es (R.P.P.) * Correspondence: jrlopez@ujaen.es ; Tel.: +34-953-214275\n\n 16 4 2026 14 4 892 892 28 4 2026 \u00a9 2026 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license . Abstract\n\n Refrigerated, ready-to-eat (RTE) vegetable foods are widely consumed. Microorganisms may proliferate in these foods during cold chain breaks, increasing the risks for food spoilage and foodborne disease. Despite the increasing use of novel non-thermal preservation technologies, the comprehensive impact of these hurdles on the broad taxonomic structural dynamics of the food microbiota during temperature abuse remains poorly understood. To address this gap, we determ",
+    "lead_chars": 1800,
+    "text_chars": 52172,
+    "design": [
+      "not_classified"
+    ],
+    "topics": [
+      "hpp"
+    ],
+    "origin": "gap_fill",
+    "n_in_lead": null
   }
 ]

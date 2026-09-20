@@ -8,7 +8,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Source | n |
 |---|---|
 | Records from Scopus export (`identification.bib`) | 359 |
-| Additional records from other sources | 5 |
+| Additional records from other sources | 9 |
 | Duplicates removed | 0 |
 | Records after duplicates removed | 359 |
 
@@ -21,13 +21,13 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Reports sought for retrieval (full text) | 205 |
 | Reports not retrieved | 154 |
 | Reports assessed for eligibility (full text) | 50 |
-| Reports excluded at full text (with reason) | 14 |
+| Reports excluded at full text (with reason) | 16 |
 
 ## Included
 
 | Set | n |
 |---|---|
-| Studies included in the review | 41 |
+| Studies included in the review | 43 |
 
 ## Exclusion reasons (title/metadata)
 
@@ -202,6 +202,8 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 - `Weihe2026` — physics topical review of UV, plasma, electron beam, ultrasound and HPP with equal billing; not an HPP-centred food study
 - `Jeevitha2023` — health-beverage nonthermal survey; HHP is one of several unit operations without primary pressure data
 - `Chotyakul2026` — retrieved file is a journal cover letter, not the article full text
+- `Bhanu Prakash Reddy2026` — retrieved file is an FSSAI alcoholic-beverages methods manual, not the coconut-water article; no public OA full text
+- `Baek2026` — authors frame the pork HHP study as raw pet-food protein; pet-food papers are excluded by protocol
 
 ## Not retrieved
 
@@ -362,4 +364,4 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 
 ## Notes
 
-Title screen of 359 Scopus records (2021–2026). Sought 205 title-includes. Retrieved 50 unique public OA PDF or Europe PMC JATS (no paywall bypass). Full-text inclusion requires high-pressure processing, high hydrostatic pressure, or high-pressure homogenization as a study or review topic in a food matrix. Excluded neighbouring-only nonthermal papers, an unreadable cover letter, and off-topic related-search hits. Related-to-seeds OpenAlex (two queries, 2021–2026, peer-reviewed journals): 32 unique hits; 5 unique HPP/HPH papers added after DOI de-duplication. Included n=41.
+Title screen of 359 Scopus records (2021–2026). Sought 205 title-includes. Retrieved 50 unique public OA PDF or Europe PMC JATS (no paywall bypass). Full-text inclusion requires high-pressure processing, high hydrostatic pressure, or high-pressure homogenization as a study or review topic in a food matrix. Excluded neighbouring-only nonthermal papers, an unreadable cover letter, and off-topic related-search hits. Related-to-seeds OpenAlex (two queries, 2021–2026, peer-reviewed journals): 32 unique hits; 5 unique HPP/HPH papers added after DOI de-duplication. Included n=41. Reddy2026 wrong-document fetch excluded. Baek2026 excluded as pet-food application. Gap-fill: 6 OA candidates sought after rationale; 4 retrieved (Listeria HPP overview; HPH apple juice; Bacillus spores+nisin; AS-48+HHP cream). Gong 2024 HHP+HTST milk and Torrents-Masoliver 2025 industrial HPTP spores: no public PDF.
