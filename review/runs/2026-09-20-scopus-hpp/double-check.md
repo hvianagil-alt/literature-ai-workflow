@@ -16,7 +16,7 @@
 - Citation order: first-appearance [1]…[44] (Zhang 2022 is [1]); References are separate paragraphs.
 - Abbreviations: HPP, HPTP, RTE, PPO, APC, EFSA, CFU defined in running text; Abstract uses HPP and names polyphenol oxidase in words.
 - Adjacent-field reader test (Introduction teaches later sections?): yes. Opens on foodborne illness and legal heat specs, then HPP physics (300–600 MPa, isostatic), then quality counterexamples, milk/juice law, injury/HPTP, aim last. A dairy or juice microbiologist who does not work on pressure should be able to follow §§3–7.
-- Heading spine: thematic `##` 3–7 with nested `###` on their own lines (4.1 milk vs legal pasteurisation; 5.1 spores/adiabatic heat/refrigeration); no glued heading+paragraph; no generic Results.
+- Heading spine: thematic `##` 3–7 with nested `###` on their own lines. §4.1 is `HPP milk versus legal heat pasteurisation`; §5.1 is `Spores, adiabatic heat, and refrigeration` — title on one line, first sentence on the next. Paragraphs in §§3–7 open by picking up the previous close (legal gauge → EFSA comparison → dual-endpoint review → sufficiency slogan → cream/donkey milk; vegetative rows → spore physics → kinetics → water activity → vegetative hurdles). No glued heading+paragraph; no generic Results.
 - Tables in article: Table 1 (microbial primary), Table 2 (pasteurisation benchmarks), Table 3 (spores/hurdles); each called in prose.
 - Discussion: commercial and regulatory readings in running sentences (not First/Second); no identification counts or fetch logs.
 - If two passes: pass 2 adds nested headings and continuous Discussion joinery after a 50-paper style confirmation; deliverable is `article.md` (pass 1 kept as `article-pass1.md`).
