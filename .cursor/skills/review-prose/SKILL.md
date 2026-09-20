@@ -261,6 +261,34 @@ Right (scientific article):
 
 Weave studies that share a question into one paragraph. Keep design, n, and units. When a number is missing, write **“sample size was not reported”** (or equivalent), never “the extracted lead does not state n.”
 
+## Condition clusters (this is what makes it a review)
+
+Presenting results as “study A got 36%, study B got something else” is a catalogue. A publishable narrative review **clusters similar experiments** and reasons through them: which population, which cells or strain, which dose, which endpoint, which country or site, which statistics. That craft is the same in endocrinology, microbiology, nanomedicine, and movement-disorder neurology. Study it in included reviews (form only) and in `field-structure-benchmark`, then do it on the first draft.
+
+**Do:**
+
+- Group papers that share an endpoint family in **one paragraph** (or a short run that keeps comparing).
+- Keep every included study’s design and numbers; put them in the cluster, not in a solo card.
+- Name the variable that changed when results agree or disagree (*because the Danish sample was underpowered; because the second study used a different cell line; because one endpoint was a questionnaire and the other was an examiner scale*).
+- Rank design in the sentence (trial vs observational vs animal vs dish).
+
+**Do not:**
+
+- Open three consecutive paragraphs with one paper each and a lonely percentage.
+- Save all comparison for a final “Taken together” after the dump.
+- Pretend two percentages are the same finding when population, cells, dose, or endpoint differ.
+- Invent a missing comparator. If the cluster has only one paper, say that.
+
+Wrong:
+
+> In this study they tested the product and got thirty-six percent more.
+
+Right:
+
+> The same endpoint family moved in the same direction in a clinic cohort and in a larger web sample, yet the first contrast was small and statistically fragile and the second used a different inclusion rule in a different country, so the percentages are not interchangeable.
+
+`check_article.py` fails a full manuscript whose thematic sections dump one study per paragraph without that comparison. `--short` skips this gate.
+
 ## Tables in the article
 
 Put **numbered Markdown tables** in `article.md` the way a journal editor would: a caption, columns that a reader can scan, and a sentence in the Results that points at the table.

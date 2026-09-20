@@ -69,6 +69,16 @@ Use this structure (keep (a)–(e) even if you also write a prose summary; repor
  After (e), run field-structure-benchmark against same-area reviews (form only)
  and revise (e) if needed. Do not draft the article here.>
 
+## (j) Condition clusters (mandatory before article)
+<Field-agnostic. For each shared question, group the papers that belong
+ together. State: shared question; papers in the cluster; what is the same
+ (species, cell or strain, ligand class, endpoint family, geography);
+ what differs (population, dose, endpoint, statistics) and why that could
+ change the result; what the cluster jointly supports; what it cannot
+ support. The article must write one argument per cluster, not one
+ paragraph per paper. If only one paper exists for a construct, mark it
+ as a single-study observation. See scientific-synthesis, Condition clusters.>
+
 ## (f) Interpretation gaps (must attempt retrieval)
 <Numbered. Each gap is a result that cannot be put in perspective from the
  current notes/table: thin evidence; conflicting results; missing comparator,

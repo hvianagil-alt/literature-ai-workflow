@@ -394,6 +394,69 @@ class CheckArticleTests(unittest.TestCase):
         text = (FIX / "good-article.md").read_text(encoding="utf-8")
         self.assertEqual(check_article.mechanism_prose_problems(text, short=True), [])
 
+    def test_consecutive_file_card_paragraphs_fail_full_manuscript(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        dump = (
+            "Outline notes increased 1-week free-recall scores by 18% versus "
+            "free-form notes in undergraduates (N=40; p<0.05) who read a methods "
+            "chapter and were tested without feedback. The laboratory used a "
+            "between-subjects assignment and reported the contrast as the primary "
+            "memory endpoint for that sample, with no second full text named in "
+            "the same paragraph and with no named moderator [1].\n\n"
+            "A later meta-analysis of 12 earlier studies reported a small positive "
+            "pooled effect (d=0.25; aggregate N≈900; 95% CI 0.10-0.40) with high "
+            "heterogeneity when domains were averaged. That analysis did not split "
+            "STEM from humanities in the published forest plot, and it remains a "
+            "single pooled number without a second moderator test in that paper [2]."
+        )
+        polluted = text.replace(
+            "Outline-style notes increased 1-week free-recall scores by 18% versus free-form notes in undergraduates (N=40; p<0.05) [1]. A later meta-analysis of 12 earlier studies reported a small positive pooled effect (d=0.25; aggregate N≈900) with high heterogeneity [2]. Digital and paper structured notes both showed the same benefit in graduates (N=52), with no medium difference [3]. Primary endpoints for those four full texts are summarised in Table 1. Taken together, these data suggest a small positive effect when domains are pooled. They cannot show that the effect is uniform across subjects.",
+            dump,
+            1,
+        )
+        problems = check_article.condition_cluster_problems(polluted, short=False)
+        self.assertTrue(
+            any(
+                "one study per paragraph" in p.lower()
+                or "similar experiments" in p.lower()
+                or "condition cluster" in p.lower()
+                for p in problems
+            ),
+            problems,
+        )
+
+    def test_clustered_comparison_paragraphs_pass_condition_cluster_gate(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        self.assertEqual(
+            check_article.condition_cluster_problems(text, short=False),
+            [],
+        )
+
+    def test_condition_cluster_gate_skipped_when_short(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        dump = (
+            "Outline notes increased 1-week free-recall scores by 18% versus "
+            "free-form notes in undergraduates (N=40; p<0.05) who read a methods "
+            "chapter and were tested without feedback. The laboratory used a "
+            "between-subjects assignment and reported the contrast as the primary "
+            "memory endpoint for that sample, with no second full text named in "
+            "the same paragraph and with no named moderator [1].\n\n"
+            "A later meta-analysis of 12 earlier studies reported a small positive "
+            "pooled effect (d=0.25; aggregate N≈900; 95% CI 0.10-0.40) with high "
+            "heterogeneity when domains were averaged. That analysis did not split "
+            "STEM from humanities in the published forest plot, and it remains a "
+            "single pooled number without a second moderator test in that paper [2]."
+        )
+        polluted = text.replace(
+            "Outline-style notes increased 1-week free-recall scores by 18% versus free-form notes in undergraduates (N=40; p<0.05) [1]. A later meta-analysis of 12 earlier studies reported a small positive pooled effect (d=0.25; aggregate N≈900) with high heterogeneity [2]. Digital and paper structured notes both showed the same benefit in graduates (N=52), with no medium difference [3]. Primary endpoints for those four full texts are summarised in Table 1. Taken together, these data suggest a small positive effect when domains are pooled. They cannot show that the effect is uniform across subjects.",
+            dump,
+            1,
+        )
+        self.assertEqual(
+            check_article.condition_cluster_problems(polluted, short=True),
+            [],
+        )
+
     def test_nanocarrier_pass2_clears_story_gate(self):
         article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"
         table = ROOT / "review/runs/2026-09-19-nanocarriers/table/literature-table.md"

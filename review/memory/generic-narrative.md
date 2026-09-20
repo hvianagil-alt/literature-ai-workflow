@@ -29,6 +29,8 @@ A reader expert in a **neighbouring** field (not this subfield) should follow §
 
 Claim first, then evidence, then contrast, then why, then what that heading cannot show. Rank design in the sentence (trial vs observational vs animal vs review). Mechanisms: condition → effect → measurement, graded (demonstrated / consistent with / proposed).
 
+**Condition clusters (any field):** do not present results as one study and one percentage. Gather similar experiments (same endpoint family) and name why they agree or differ — population, cells or strain, dose, endpoint, geography, statistics. Cite two or more papers in that paragraph when they share a question. A last-line “Taken together” does not repair a dump.
+
 ## Tables
 
 Numbered Markdown tables in the article. Mention “Table 1” from the prose. Do not paste the extraction worksheet.

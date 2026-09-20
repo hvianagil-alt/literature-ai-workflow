@@ -45,6 +45,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Full term (ABBR)", text)
         self.assertIn("at most four", text)
         self.assertIn("Do not wait for the user", text)
+        self.assertIn("Condition clusters", text)
         self.assertEqual(text.count("## Output"), 1)
         self.assertNotIn("glycaemia, safety, utilisation", text)
         self.assertNotIn("hepatic GLP-1", text)
@@ -85,6 +86,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("colon subtitle", text.lower())
         self.assertIn("Recent Advances", text)
         self.assertIn("Headings name topics", text)
+        self.assertIn("Condition clusters", text)
+        self.assertIn("similar experiments", text)
 
     def test_first_conversation_skill_exists(self):
         path = ROOT / ".cursor/skills/first-conversation/SKILL.md"
@@ -153,6 +156,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
             "(c) Real disagreements and why",
             "(d) What this sample cannot answer",
             "(e) Outline of the review",
+            "(j) Condition clusters",
         ):
             self.assertIn(heading, text)
         self.assertIn("article.md", text)
@@ -174,6 +178,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("thematic", text.lower())
         self.assertIn("Introduction is too short", text)
         self.assertIn("First/Second", text)
+        self.assertIn("similar experiments", text)
 
     def test_double_check_skill_exists(self):
         text = (ROOT / ".cursor/skills/double-check/SKILL.md").read_text(
@@ -186,6 +191,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("glossary", text.lower())
         self.assertIn("adjacent-field", text.lower())
         self.assertIn("generic Results", text)
+        self.assertIn("Condition cluster", text)
         self.assertIn(".cursor/skills/double-check/SKILL.md", (ROOT / "AGENTS.md").read_text(encoding="utf-8"))
         self.assertTrue((ROOT / "scripts" / "table_from_notes.py").is_file())
 

@@ -128,6 +128,34 @@ Every **therefore / thus / consequently / indicating that / suggesting that / de
 
 When studies differ, name the variables that changed (system, organism, strain, P/T/t, pH, aw, composition, scale, recovery medium, endpoint, storage). Heterogeneity is information. Do not pick the convenient row.
 
+## Condition clusters (mandatory when presenting results)
+
+A narrative review is not a stack of study cards. Published reviews in every life-science field do the same intellectual job at this step: **gather similar experiments, then say why they agree or differ.** If you write “in this study they tested X and got 36% more,” you have not written a review. You have pasted a result. A reader in the field already knows how to search; they need the comparison.
+
+This rule is **field-agnostic**. Replace the examples with this sample’s constructs (cells, patients, animals, devices, matrices). Do not wait for the user to complain. Do it on the first draft.
+
+**Before drafting a thematic section**, open rationale **(j)** (or write it if missing). For each shared question, list the papers that belong together. Then write **one argument per cluster**, not one paragraph per paper.
+
+In every results paragraph that reports numbers:
+
+1. **Shared question** — what these experiments were all trying to measure (prevalence, the same symptom, the same receptor, the same viability assay).
+2. **Evidence** — design, population or cell/strain, n, dose or exposure, endpoint, result with units. Keep the numbers. Do not thin them out to slogans.
+3. **What is the same** — species, cell line, ligand class, endpoint family, geography, or protocol.
+4. **What differs** — population (clinic cohort vs web sample; country; inclusion), cells or strain, dose class, endpoint, follow-up, statistics (post-hoc vs pre-specified; n too small; no placebo). Name the variable that would change the result.
+5. **What the cluster jointly supports**, no broader than the rows, and **what it cannot support**.
+
+Wrong (catalogue, any field):
+
+> Study A in Denmark found a 36% improvement with product X. Study B found a similar percentage. Study C found no effect.
+
+Right (cluster, any field):
+
+> Product X improved the named endpoint by 36% in a Danish clinic sample, but the contrast was underpowered and not pre-specified. A second study in a different country reported a change in the same direction on a related questionnaire, in a larger but uncontrolled cohort. Those two results can both be true because they share an endpoint family and differ in geography, inclusion, and statistical design; they still cannot be pooled with a third trial that used a different endpoint in a different population.
+
+Cite **two or more** papers in the same paragraph whenever they share a question. If only one paper exists for that construct, say so (*single-study observation*) instead of padding with an unrelated design. A closing “Taken together” after three unlinked file-cards does not repair the dump; the comparison has to live **inside** the results paragraphs.
+
+`check_article.py` fails a full manuscript when a thematic section dumps one study’s statistics per paragraph without naming why similar experiments agree or differ. `--short` skips this gate.
+
 ## Three synthesis levels
 
 1. Study: this experiment measured X.
@@ -183,7 +211,7 @@ After `check_article.py` exits 0, do a **reasoning pass** (not a second catalogu
 
 ## Machine gate
 
-`check_article.py` still cannot judge every inference. It **does** fail conversational review-metaphor, stacked *According to Author et al.*, and the usual flourish/process bans. The double-check must catch the rest. Do not tell the user the article is done while either fails.
+`check_article.py` still cannot judge every inference. It **does** fail conversational review-metaphor, stacked *According to Author et al.*, consecutive one-study result dumps (condition clusters), and the usual flourish/process bans. The double-check must catch a paragraph that cites two papers but still never names the variable that changed. Do not tell the user the article is done while either fails.
 
 ## Handoff
 
