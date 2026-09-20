@@ -140,7 +140,7 @@ Use the `double-check` skill. Scripts can pass while notes are still leads, the 
 
 ### 9b. Graphical abstract (after double-check)
 
-Use `graphical-abstract`. Prefer the **Lovable** MCP. If Lovable is not authenticated, generate a **BioRender-style illustrated panel** (catchy title, short labels, no four-box HTML table). No new numbers. Do not put the figure inside the Abstract.
+Use `graphical-abstract`. **Do not paste `article.md` into Lovable.** (1) Condense the article for a non-specialist (`knowledge-condense.md`). (2) Write a short visual prompt from that condensation (`lovable-prompt.md`). (3) Send **only** that prompt to the **Lovable** MCP and give the user the project URL. If Lovable is not authenticated, stop after the two markdown files and say so — do not invent a URL. No four-box HTML table.
 
 ### 10. Iterate
 
