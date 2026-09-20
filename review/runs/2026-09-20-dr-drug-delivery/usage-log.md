@@ -11,3 +11,5 @@ Do not treat these figures as an invoice.
 | discovery | 2026-09-20T22:48:32 | 52 | 3 | 0 | 0 | 0 | OpenAlex 3 queries, 60 hits, 52 unique DOIs after merge |
 | fetching | 2026-09-20T22:54:40 | 26 | 155 | 159 | 3663 | 3821 | fetched 14/26 public PDFs into papers/2026-09-20-dr-drug-delivery-found |
 | screening | 2026-09-20T23:02:19 | 52 | 0 | 0 | 0 | 0 | title screen 26 sought; 22 full texts included; 4 not retrieved |
+| extraction | 2026-09-20T23:09:07 | 22 | 0 | 0 | 0 | 0 | 22 claim-ready notes from public full texts |
+| table | 2026-09-20T23:09:07 | 22 | 0 | 0 | 0 | 0 | table_from_notes.py from Claim-ready facts |

@@ -1,0 +1,45 @@
+{
+  "sought": [
+    {
+      "doi": "10.1016/j.ophtha.2014.04.024",
+      "gap": "g1_MEAD",
+      "title": "Three-Year, Randomized, Sham-Controlled Trial of Dexamethasone Intravitreal Implant in Patients with Diabetic Macular Edema"
+    },
+    {
+      "doi": "10.1001/jamaophthalmol.2017.4914",
+      "gap": "g5_ProtocolU",
+      "title": "Effect of Adding Dexamethasone to Continued Ranibizumab Treatment in Patients With Persistent Diabetic Macular Edema"
+    },
+    {
+      "doi": "10.1186/s12886-015-0148-2",
+      "gap": "g1_MEAD_subgroup",
+      "title": "Dexamethasone intravitreal implant in previously treated patients with diabetic macular edema: subgroup analysis of the MEAD study"
+    },
+    {
+      "doi": "10.1177/1120672119834474",
+      "gap": "g2_RetroIDEAL",
+      "title": "Three-year results from the Retro-IDEAL study: Real-world data from diabetic macular edema (DME) patients treated with ILUVIEN \u00ae (0.19 mg fluocinolone acetonide implant)"
+    },
+    {
+      "doi": "10.1016/j.ophtha.2016.11.034",
+      "gap": "g2_FAc_DR_progression",
+      "title": "Long-term Effects of Intravitreal 0.19 mg Fluocinolone Acetonide Implant on Progression and Regression of Diabetic Retinopathy"
+    },
+    {
+      "doi": "10.1007/s40123-018-0145-7",
+      "gap": "g2_Iluvien_review",
+      "title": "Iluvien\u2122 (Fluocinolone Acetonide 0.19 mg Intravitreal Implant) in the Treatment of Diabetic Macular Edema: A Review"
+    },
+    {
+      "doi": "10.1001/jamaophthalmol.2025.0006",
+      "gap": "g4_PDS_DME",
+      "title": "Continuous Ranibizumab via Port Delivery System vs Monthly Ranibizumab for Treatment of Diabetic Macular Edema"
+    },
+    {
+      "doi": "10.1001/jamaophthalmol.2025.0001",
+      "gap": "g4_PDS_NPDR",
+      "title": "Port Delivery System With Ranibizumab vs Monitoring in Nonproliferative Diabetic Retinopathy Without Macular Edema"
+    }
+  ],
+  "skipped_from_searches": "G3 hits were generic nano/pathogenesis or already included (Liu, Kim); no human topical NP DR trial identified."
+}

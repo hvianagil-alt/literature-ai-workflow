@@ -8,7 +8,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Source | n |
 |---|---|
 | Records from Scopus export (`identification.bib`) | 52 |
-| Additional records from other sources | 0 |
+| Additional records from other sources | 5 |
 | Duplicates removed | 8 |
 | Records after duplicates removed | 44 |
 
@@ -20,14 +20,14 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Records excluded at title/metadata (with reason) | 26 |
 | Reports sought for retrieval (full text) | 26 |
 | Reports not retrieved | 4 |
-| Reports assessed for eligibility (full text) | 22 |
+| Reports assessed for eligibility (full text) | 27 |
 | Reports excluded at full text (with reason) | 0 |
 
 ## Included
 
 | Set | n |
 |---|---|
-| Studies included in the review | 22 |
+| Studies included in the review | 27 |
 
 ## Exclusion reasons (title/metadata)
 
@@ -71,4 +71,4 @@ _None recorded yet._
 
 ## Notes
 
-Title screen then OA fetch. Sought 26; retrieved 22 public full texts (PDF or Europe PMC/PMC HTML); not retrieved 4 (hybrid Elsevier or MDPI 403 without PMC XML). All retrieved full texts mention diabetic retinopathy/DME and a delivery system, implant, nanoparticle, or intravitreal therapy and were included.
+Title screen then OA fetch. Sought 26; retrieved 22 public full texts (PDF or Europe PMC/PMC HTML); not retrieved 4 (hybrid Elsevier or MDPI 403 without PMC XML). All retrieved full texts mention diabetic retinopathy/DME and a delivery system, implant, nanoparticle, or intravitreal therapy and were included. Gap-fill (post synthesis-rationale): added Group2015_01482 (G1 MEAD subgroup), Augustin2019_834474 and FusiRubiano2018_01457 (G2 FAc 3-year/pharmacology), Khanani2025_50006 and Pieramici2025_50001 (G4 PDS Pagoda/Pavilion). Gap-fill: 5 additional OA full texts (MEAD subgroup, Retro-IDEAL, Iluvien review, Pagoda PDS DME, Pavilion PDS NPDR). MEAD main RCT, Protocol U, and Singer 2022 still not retrieved.

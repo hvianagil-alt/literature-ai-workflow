@@ -1,0 +1,135 @@
+[
+  {
+    "citekey": "Boyer2014_04024",
+    "doi": "10.1016/j.ophtha.2014.04.024",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S0161642014003789/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ophtha.2014.04.024",
+      "https://doi.org/10.1016/j.ophtha.2014.04.024"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Maturi2017_74914",
+    "doi": "10.1001/jamaophthalmol.2017.4914",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://jamanetwork.com/journals/jamaophthalmology/articlepdf/2663061/jamaophthalmology_maturi_2017_oi_170103.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5833605/pdf/",
+      "https://doi.org/10.1001/jamaophthalmol.2017.4914"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Group2015_01482",
+    "doi": "10.1186/s12886-015-0148-2",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-gapfill/Group2015_01482.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s12886-015-0148-2.pdf?error=cookies_not_supported&code=9b0be2a8-4478-449d-ba97-60df4ad66723",
+    "attempted": [
+      "https://bmcophthalmol.biomedcentral.com/counter/pdf/10.1186/s12886-015-0148-2",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4628378/pdf/",
+      "https://doi.org/10.1186/s12886-015-0148-2",
+      "https://link.springer.com/content/pdf/10.1186%2Fs12886-015-0148-2.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12886-015-0148-2.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12886-015-0148-2.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s12886-015-0148-2.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s12886-015-0148-2.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s12886-015-0148-2.pdf"
+    ],
+    "bytes": 673055
+  },
+  {
+    "citekey": "Augustin2019_834474",
+    "doi": "10.1177/1120672119834474",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-gapfill/Augustin2019_834474.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1177/1120672119834474/fullTextXML",
+    "attempted": [
+      "https://journals.sagepub.com/doi/pdf/10.1177/1120672119834474",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7079293/pdf/",
+      "https://doi.org/10.1177/1120672119834474"
+    ],
+    "bytes": 43972
+  },
+  {
+    "citekey": "Wykoff2017_11034",
+    "doi": "10.1016/j.ophtha.2016.11.034",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "http://www.aaojournal.org/article/S0161642016314336/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ophtha.2016.11.034",
+      "https://doi.org/10.1016/j.ophtha.2016.11.034"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "FusiRubiano2018_01457",
+    "doi": "10.1007/s40123-018-0145-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-gapfill/FusiRubiano2018_01457.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s40123-018-0145-7.pdf?error=cookies_not_supported&code=59941862-60c8-4c49-b3b8-92851956922d",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s40123-018-0145-7.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6258573/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs40123-018-0145-7.pdf",
+      "https://doi.org/10.1007/s40123-018-0145-7"
+    ],
+    "bytes": 522690
+  },
+  {
+    "citekey": "Khanani2025_50006",
+    "doi": "10.1001/jamaophthalmol.2025.0006",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-gapfill/Khanani2025_50006.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1001/jamaophthalmol.2025.0006/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1001/jamaophthalmol.2025.0006",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11886869/pdf/"
+    ],
+    "bytes": 54584
+  },
+  {
+    "citekey": "Pieramici2025_50001",
+    "doi": "10.1001/jamaophthalmol.2025.0001",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-gapfill/Pieramici2025_50001.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1001/jamaophthalmol.2025.0001/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1001/jamaophthalmol.2025.0001",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11886866/pdf/"
+    ],
+    "bytes": 55563
+  }
+]
