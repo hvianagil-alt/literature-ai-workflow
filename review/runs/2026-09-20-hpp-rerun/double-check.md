@@ -1,0 +1,26 @@
+# Double-check — 2026-09-20-hpp-rerun
+
+- Scripts: `check_extraction.py` 43/43 claim-ready (exit 0); `check_article.py` exit 0 after removing banned phrase `user-supplied` from Methods; `score_review_form.py` `p_published_form=1.000` (`published_like`, field_z ≈ 0.54).
+- Notes still stub? no (0).
+- Table still DRAFT/lead-paste? no (`table_from_notes.py`; header states not a write_table DRAFT).
+- Claims spot-checked (paper, number, note/PDF agree?):
+  - Bulut 2021: unfrozen PBS 1.83 log vs frozen −24 °C 5.63 log and −80 °C 6.83 log after 400 MPa/9 min/4 °C — article Table 1 and prose match `Bulut2021.md` and `papers/2026-09-20-hpp-rerun/Bulut2021.txt`.
+  - Nikparvar 2021: 7.79 ± 0.82 log CFU/mL; pore radius 1.338 nm day 0 to 0.809 nm day 4 — match `Nikparvar2021.md` and `Nikparvar2021.txt`.
+  - Sykora 2026: averaged >5-log at about 450 / 500 / 600 MPa for *L. monocytogenes* / *S. enterica* / *S. aureus*; 89 articles — match `Sykora2026.md` and `Sykora2026.txt` (“Pressures of 450, 500, and 600 MPa were required to achieve an average >5-log reduction…”).
+  - Koutsoumanis 2022: RTE cooked meat ≥5 log *Listeria* at 600 MPa–4.7 min; ≥2 log at 600 MPa–2.3 min — match `Koutsoumanis2022.md` and `Koutsoumanis2022.txt`.
+  - Szczepańska 2021: native TMC 5.36 log CFU/mL; HPH max 1.4 log at 200 MPa — match `Szczepańska2021_26114.md` and gap-fill PDF text.
+  - Eran Nagar 2026: ~3.0 log aerobes from 1.5 ± 0.2 × 10^5 to 2.2–3.0 × 10^2 CFU/mL; PPO fresh 58 ± 13; heat >90% loss; HPP ~30% / non-significant vs fresh — match note and `Eran Nagar2026.txt`. Article 41 ± 8 residual is the note’s figure-derived residual consistent with ~30% of 58.
+  - Li 2021: untreated APC 6.33 and Y&M 6.31; PPO residual 75.2% vs 22.6% heat — match `Li2021.md`.
+- Abstract: citations? no. named papers? no. search/OA/year-window language? no (Methods only). Tension word (`yet` / `do not imply`): yes.
+- Citation order: first-appearance [1]…[43]. References each in their own paragraph.
+- Abbreviations: HPP, HPTP, HPH, VBNC, PPO, RTE, EFSA introduced in teaching sentences; Abstract writes terms in words (no glossary).
+- Adjacent-field reader test (Introduction teaches later sections?): yes. A dairy or juice microbiologist who does not work on HPP is taught isostatic hold vs heat, adiabatic ~3 °C/100 MPa, HPH as a different machine, vegetative vs spore, and that 5-log / milk pasteurisation are performance criteria. Later coefficient, legal, spore, and quality sections are followable from that map.
+- Mechanism articulation (condition → effect → measurement; grade not upgraded?): yes. Pores and nucleic-acid leak are graded as demonstrated; Ice I–III and piezo-protection molecular steps stay proposed; VBNC is culture/recovery inference.
+- Paragraph function (claim → evidence → contrast → explanation → synthesis): yes in thematic sections; each closes with what that heading cannot show.
+- Whole-paper argument (problem / evidence / explanation / limitation / contribution): heat is the default verified kill; hydrostatic 400–600 MPa reduces many vegetative cells in high-moisture foods; the same MPa is not one kill because ice, aW, assay, lactate, and heat assistance change the outcome; legal 5-log and milk bars and spores are not implied; contribution is a coefficient-first narrative rather than a commodity catalogue.
+- Field-structure benchmark (`structure-benchmark.md`): done; verdict keep (e).
+- Field memory card: `review/memory/food-science.md`
+- Critic verdict: PASS
+- Heading spine: thematic `##` sections 3–7 plus Discussion/Conclusions, not generic Results.
+- Tables in article: Table 1–4 mentioned in prose.
+- If two passes: n/a (first manuscript for this rerun; earlier `2026-09-20-scopus-hpp/article.md` was not read).

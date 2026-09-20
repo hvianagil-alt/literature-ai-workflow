@@ -41,7 +41,7 @@ Records were identified from a Scopus bibliographic export of journal articles a
 
 ### 2.2 Eligibility
 
-Eligible papers named high pressure, HPP, high hydrostatic pressure, HPH, or a listed neighbouring nonthermal operation (ultrasound, pulsed electric fields, cold plasma, irradiation, ohmic or radio-frequency heating, hydrodynamic cavitation) in a human-food, juice, meat, dairy, produce, or microbial-inactivation context, for 2021–2026 journal articles and reviews. User-supplied export records in that window stayed eligible even if older papers exist in the field. Books, book chapters, conference papers, retracted items, pet-food papers, and titles without a named technology or food-processing context were excluded. HPP is the organising process; other unit operations appear only where they were measured beside pressure. Reviews were kept as compiled evidence and were not treated as new experiments.
+Eligible papers named high pressure, HPP, high hydrostatic pressure, HPH, or a listed neighbouring nonthermal operation (ultrasound, pulsed electric fields, cold plasma, irradiation, ohmic or radio-frequency heating, hydrodynamic cavitation) in a human-food, juice, meat, dairy, produce, or microbial-inactivation context, for 2021–2026 journal articles and reviews. Bibliographic export records in that window stayed eligible even if older papers exist in the field. Books, book chapters, conference papers, retracted items, pet-food papers, and titles without a named technology or food-processing context were excluded. HPP is the organising process; other unit operations appear only where they were measured beside pressure. Reviews were kept as compiled evidence and were not treated as new experiments.
 
 ### 2.3 Study selection
 
