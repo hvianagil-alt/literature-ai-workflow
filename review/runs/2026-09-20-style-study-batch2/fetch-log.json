@@ -1,0 +1,863 @@
+[
+  {
+    "citekey": "Potel2026",
+    "doi": "10.3390/bs16081431",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Potel2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/bs16081431/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/bs16081431",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13509547/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/bs16081431"
+    ],
+    "bytes": 85176
+  },
+  {
+    "citekey": "Salama2026",
+    "doi": "10.3390/jcm15134871",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Salama2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jcm15134871/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2077-0383/15/13/4871/pdf?version=1782211101",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13361814/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jcm15134871",
+      "https://doi.org/10.3390/jcm15134871"
+    ],
+    "bytes": 71645
+  },
+  {
+    "citekey": "Chen2026",
+    "doi": "10.3390/ijms27135697",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Chen2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ijms27135697/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1422-0067/27/13/5697/pdf?version=1782302616",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13362188/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ijms27135697",
+      "https://doi.org/10.3390/ijms27135697"
+    ],
+    "bytes": 98532
+  },
+  {
+    "citekey": "Elmi2026",
+    "doi": "10.1186/s12982-026-01549-2",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Elmi2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s12982-026-01549-2.pdf?error=cookies_not_supported&code=0ead4b9c-a56d-4944-91ec-d8eefdbd3c33",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1186/s12982-026-01549-2.pdf",
+      "https://doi.org/10.1186/s12982-026-01549-2",
+      "https://link.springer.com/content/pdf/10.1186%2Fs12982-026-01549-2.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12982-026-01549-2.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12982-026-01549-2.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s12982-026-01549-2.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s12982-026-01549-2.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s12982-026-01549-2.pdf"
+    ],
+    "bytes": 1422792
+  },
+  {
+    "citekey": "Leija-Martinez2026",
+    "doi": "10.3390/epidemiologia7040107",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Leija-Martinez2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/epidemiologia7040107/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2673-3986/7/4/107/pdf?version=1786001997",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13512083/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/epidemiologia7040107",
+      "https://doi.org/10.3390/epidemiologia7040107"
+    ],
+    "bytes": 104283
+  },
+  {
+    "citekey": "Di Cosimo2026",
+    "doi": "10.1002/cncr.70521",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://pubmed.ncbi.nlm.nih.gov/42421646/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13368388/pdf/",
+      "https://doi.org/10.1002/cncr.70521"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Qiao2026",
+    "doi": "10.3390/healthcare14172818",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Qiao2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/healthcare14172818/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/healthcare14172818",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13566597/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/healthcare14172818"
+    ],
+    "bytes": 41914
+  },
+  {
+    "citekey": "Hahamyan2026",
+    "doi": "10.1016/j.xrrt.2026.100830",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Hahamyan2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.xrrt.2026.100830/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.xrrt.2026.100830",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495368/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.xrrt.2026.100830"
+    ],
+    "bytes": 46128
+  },
+  {
+    "citekey": "Fern\u00e1ndez-Vigo2026",
+    "doi": "10.1186/s40942-026-00867-6",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Fern\u00e1ndez-Vigo2026.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s40942-026-00867-6.pdf?error=cookies_not_supported&code=b6d00528-0202-4698-8406-5131654ef99c",
+    "attempted": [
+      "https://doi.org/10.1186/s40942-026-00867-6",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13411760/pdf/",
+      "https://link.springer.com/content/pdf/10.1186%2Fs40942-026-00867-6.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s40942-026-00867-6.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s40942-026-00867-6.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s40942-026-00867-6.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s40942-026-00867-6.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s40942-026-00867-6.pdf"
+    ],
+    "bytes": 1488801
+  },
+  {
+    "citekey": "Galeone2026",
+    "doi": "10.3390/jcm15155947",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Galeone2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jcm15155947/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2077-0383/15/15/5947/pdf?version=1785397467",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13467432/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jcm15155947",
+      "https://doi.org/10.3390/jcm15155947"
+    ],
+    "bytes": 84662
+  },
+  {
+    "citekey": "de Oliveira Teixeira2026",
+    "doi": "10.1007/s10822-026-00905-3",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/de Oliveira Teixeira2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s10822-026-00905-3.pdf?error=cookies_not_supported&code=59864fa8-6e18-4124-afb6-9140f2789d69",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s10822-026-00905-3.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13423999/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs10822-026-00905-3.pdf",
+      "https://doi.org/10.1007/s10822-026-00905-3"
+    ],
+    "bytes": 1361242
+  },
+  {
+    "citekey": "Nahmoud2026",
+    "doi": "10.1016/j.bbih.2026.101314",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Nahmoud2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.bbih.2026.101314/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.bbih.2026.101314",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13453607/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.bbih.2026.101314"
+    ],
+    "bytes": 104655
+  },
+  {
+    "citekey": "Kwak2026395",
+    "doi": "10.4097/kja.26375",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Kwak2026395.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://ekja.org/upload/pdf/kja-26375.pdf",
+    "attempted": [
+      "https://ekja.org/upload/pdf/kja-26375.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13439146/pdf/",
+      "https://doi.org/10.4097/kja.26375"
+    ],
+    "bytes": 466782
+  },
+  {
+    "citekey": "Vallorani2026",
+    "doi": "10.3390/ijms27157047",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Vallorani2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ijms27157047/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1422-0067/27/15/7047/pdf?version=1786001776",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13467115/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ijms27157047",
+      "https://doi.org/10.3390/ijms27157047"
+    ],
+    "bytes": 234193
+  },
+  {
+    "citekey": "Kordas2026",
+    "doi": "10.3390/cells15161486",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Kordas2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/cells15161486/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/cells15161486",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13511029/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/cells15161486"
+    ],
+    "bytes": 167002
+  },
+  {
+    "citekey": "Habash2026",
+    "doi": "10.1007/s11701-026-03404-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Habash2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s11701-026-03404-7.pdf?error=cookies_not_supported&code=a00181ee-440b-45cb-8951-73fc105a4793",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s11701-026-03404-7.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13095950/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs11701-026-03404-7.pdf",
+      "https://doi.org/10.1007/s11701-026-03404-7"
+    ],
+    "bytes": 1188566
+  },
+  {
+    "citekey": "Saffaran2026",
+    "doi": "10.1186/s13054-026-06079-6",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Saffaran2026.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s13054-026-06079-6.pdf?error=cookies_not_supported&code=5786fbd2-540d-4a6d-875f-c1e9a6446896",
+    "attempted": [
+      "https://doi.org/10.1186/s13054-026-06079-6",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488073/pdf/",
+      "https://link.springer.com/content/pdf/10.1186%2Fs13054-026-06079-6.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s13054-026-06079-6.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s13054-026-06079-6.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s13054-026-06079-6.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s13054-026-06079-6.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s13054-026-06079-6.pdf"
+    ],
+    "bytes": 1946182
+  },
+  {
+    "citekey": "Rukmindar2026256",
+    "doi": "10.1177/19336586251394893",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13329055/",
+      "https://doi.org/10.1177/19336586251394893"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Sitali2026",
+    "doi": "10.1016/j.vas.2026.100677",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Sitali2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1016/j.vas.2026.100677/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1016/j.vas.2026.100677",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13191262/pdf/",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.vas.2026.100677"
+    ],
+    "bytes": 55486
+  },
+  {
+    "citekey": "Passarini2026",
+    "doi": "10.3389/fpsyt.2026.1764016",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Passarini2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1764016/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1764016/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13393316/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fpsyt.2026.1764016/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fpsyt.2026.1764016/pdf",
+      "https://doi.org/10.3389/fpsyt.2026.1764016"
+    ],
+    "bytes": 6196817
+  },
+  {
+    "citekey": "Dicken2026",
+    "doi": "10.1007/s13668-026-00775-z",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Dicken2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s13668-026-00775-z.pdf?error=cookies_not_supported&code=3486b13e-6d5c-46b9-91af-b1093ecfc74b",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s13668-026-00775-z.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13241399/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs13668-026-00775-z.pdf",
+      "https://doi.org/10.1007/s13668-026-00775-z"
+    ],
+    "bytes": 1554098
+  },
+  {
+    "citekey": "Chen2026",
+    "doi": "10.1007/s12672-025-04092-9",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Chen2026.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s12672-025-04092-9.pdf?error=cookies_not_supported&code=dbf45a9f-5dea-4aee-be06-5a92ace4d7e9",
+    "attempted": [
+      "https://doi.org/10.1007/s12672-025-04092-9",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12770208/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs12672-025-04092-9.pdf"
+    ],
+    "bytes": 1107632
+  },
+  {
+    "citekey": "Sanfilippo20261396",
+    "doi": "10.1038/s41372-026-02649-2",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Sanfilippo20261396.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.nature.com/articles/s41372-026-02649-2.pdf?error=cookies_not_supported&code=3630607c-5347-4669-bf4d-1ef98833a383",
+    "attempted": [
+      "https://www.nature.com/articles/s41372-026-02649-2.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13472973/pdf/",
+      "https://www.nature.com/articles/s41372-026-02649-2",
+      "https://doi.org/10.1038/s41372-026-02649-2"
+    ],
+    "bytes": 627679
+  },
+  {
+    "citekey": "D\u2019Oria2026",
+    "doi": "10.3390/jcm15176928",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/D\u2019Oria2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jcm15176928/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/jcm15176928",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13566036/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jcm15176928"
+    ],
+    "bytes": 31499
+  },
+  {
+    "citekey": "Endrass2026",
+    "doi": "10.1007/s00404-025-08254-6",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Endrass2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s00404-025-08254-6.pdf?error=cookies_not_supported&code=fdabf2df-486f-455d-a6a8-eac3510872e6",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s00404-025-08254-6.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12858588/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs00404-025-08254-6.pdf",
+      "https://doi.org/10.1007/s00404-025-08254-6"
+    ],
+    "bytes": 632721
+  },
+  {
+    "citekey": "Arik2026",
+    "doi": "10.1186/s42155-025-00647-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Arik2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s42155-025-00647-7.pdf?error=cookies_not_supported&code=36bf3e44-852a-42fe-a5eb-8dbff35818c8",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1186/s42155-025-00647-7.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12808008/pdf/",
+      "https://doi.org/10.1186/s42155-025-00647-7",
+      "https://link.springer.com/content/pdf/10.1186%2Fs42155-025-00647-7.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s42155-025-00647-7.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s42155-025-00647-7.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s42155-025-00647-7.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s42155-025-00647-7.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s42155-025-00647-7.pdf"
+    ],
+    "bytes": 2258977
+  },
+  {
+    "citekey": "Mikulewicz2026",
+    "doi": "10.3390/jfb17080371",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Mikulewicz2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jfb17080371/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2079-4983/17/8/371/pdf?version=1785555375",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13514862/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jfb17080371",
+      "https://doi.org/10.3390/jfb17080371"
+    ],
+    "bytes": 67715
+  },
+  {
+    "citekey": "Bradov\u00e12026",
+    "doi": "10.3390/diagnostics16172829",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Bradov\u00e12026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/diagnostics16172829/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/diagnostics16172829",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13565085/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/diagnostics16172829"
+    ],
+    "bytes": 77792
+  },
+  {
+    "citekey": "Lopez Delgado2026",
+    "doi": "10.3389/fmed.2026.1803474",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Lopez Delgado2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1803474/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1803474/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13382510/pdf/",
+      "https://www.frontiersin.org/articles/10.3389/fmed.2026.1803474/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmed.2026.1803474/pdf",
+      "https://doi.org/10.3389/fmed.2026.1803474"
+    ],
+    "bytes": 1638405
+  },
+  {
+    "citekey": "Rehman20262425",
+    "doi": "10.1007/s00256-026-05223-1",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Rehman20262425.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s00256-026-05223-1.pdf?error=cookies_not_supported&code=61533136-3557-4a31-b203-f102e1419cf8",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s00256-026-05223-1.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13521960/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs00256-026-05223-1.pdf",
+      "https://doi.org/10.1007/s00256-026-05223-1"
+    ],
+    "bytes": 787936
+  },
+  {
+    "citekey": "Kerob2026",
+    "doi": "10.1111/exd.70308",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Kerob2026.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1111/exd.70308/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.1111/exd.70308",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13354974/pdf/"
+    ],
+    "bytes": 68327
+  },
+  {
+    "citekey": "Boros2026",
+    "doi": "10.3390/s26165169",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Boros2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/s26165169/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/s26165169",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13517332/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/s26165169"
+    ],
+    "bytes": 114023
+  },
+  {
+    "citekey": "Lombardi2026",
+    "doi": "10.1186/s13054-026-05928-8",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Lombardi2026.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s13054-026-05928-8.pdf?error=cookies_not_supported&code=6e340002-6940-416b-a39d-f21be55235d8",
+    "attempted": [
+      "https://doi.org/10.1186/s13054-026-05928-8",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13101189/pdf/",
+      "https://link.springer.com/content/pdf/10.1186%2Fs13054-026-05928-8.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s13054-026-05928-8.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s13054-026-05928-8.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s13054-026-05928-8.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s13054-026-05928-8.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s13054-026-05928-8.pdf"
+    ],
+    "bytes": 2371192
+  },
+  {
+    "citekey": "Pi\u0142at2026",
+    "doi": "10.3390/jcm15156053",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Pi\u0142at2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jcm15156053/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2077-0383/15/15/6053/pdf?version=1785826769",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13467037/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jcm15156053",
+      "https://doi.org/10.3390/jcm15156053"
+    ],
+    "bytes": 57172
+  },
+  {
+    "citekey": "Muteeb2026",
+    "doi": "10.3390/biomedicines14081693",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Muteeb2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/biomedicines14081693/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/biomedicines14081693",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13509625/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/biomedicines14081693"
+    ],
+    "bytes": 141224
+  },
+  {
+    "citekey": "Atar2026",
+    "doi": "10.1007/s13668-026-00743-7",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Atar2026.pdf",
+    "format": "pdf",
+    "http_calls": 5,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s13668-026-00743-7.pdf?error=cookies_not_supported&code=d1dbda73-e844-4122-8449-f02e25e3538c",
+    "attempted": [
+      "https://doi.org/10.1007/s13668-026-00743-7",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12950084/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs13668-026-00743-7.pdf"
+    ],
+    "bytes": 1274717
+  },
+  {
+    "citekey": "Ye\u015fil2026",
+    "doi": "10.3390/foods15162860",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Ye\u015fil2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods15162860/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/foods15162860",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13512283/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods15162860"
+    ],
+    "bytes": 142022
+  },
+  {
+    "citekey": "Qi2026",
+    "doi": "10.1186/s12964-026-02813-3",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Qi2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s12964-026-02813-3.pdf?error=cookies_not_supported&code=7b694c10-9f05-4a9a-8848-a3daa2484962",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1186/s12964-026-02813-3.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13107848/pdf/",
+      "https://doi.org/10.1186/s12964-026-02813-3",
+      "https://link.springer.com/content/pdf/10.1186%2Fs12964-026-02813-3.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12964-026-02813-3.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12964-026-02813-3.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s12964-026-02813-3.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s12964-026-02813-3.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s12964-026-02813-3.pdf"
+    ],
+    "bytes": 1949426
+  },
+  {
+    "citekey": "Yousefli2026",
+    "doi": "10.3390/jcdd13070299",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Yousefli2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jcdd13070299/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2308-3425/13/7/299/pdf?version=1782879024",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13411657/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jcdd13070299",
+      "https://doi.org/10.3390/jcdd13070299"
+    ],
+    "bytes": 107240
+  },
+  {
+    "citekey": "Alshaygy2026",
+    "doi": "10.3390/cells15151332",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Alshaygy2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/cells15151332/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2073-4409/15/15/1332/pdf?version=1784961063",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13465474/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/cells15151332",
+      "https://doi.org/10.3390/cells15151332"
+    ],
+    "bytes": 64929
+  },
+  {
+    "citekey": "Baliga2026933",
+    "doi": "10.1007/s10877-026-01434-y",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Baliga2026933.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s10877-026-01434-y.pdf?error=cookies_not_supported&code=5870098e-8dcf-429d-8b0d-4a7b37df2d81",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s10877-026-01434-y.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13391707/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs10877-026-01434-y.pdf",
+      "https://doi.org/10.1007/s10877-026-01434-y"
+    ],
+    "bytes": 689339
+  },
+  {
+    "citekey": "Salti2026",
+    "doi": "10.3390/jcm15156064",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Salti2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jcm15156064/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/jcm15156064",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13466990/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jcm15156064"
+    ],
+    "bytes": 101439
+  },
+  {
+    "citekey": "Reinert20262347",
+    "doi": "10.1007/s00467-025-07083-8",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Reinert20262347.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s00467-025-07083-8.pdf?error=cookies_not_supported&code=0deafd53-9c5b-441e-9931-1c2de62e470c",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s00467-025-07083-8.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13337932/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs00467-025-07083-8.pdf",
+      "https://doi.org/10.1007/s00467-025-07083-8"
+    ],
+    "bytes": 772392
+  },
+  {
+    "citekey": "Abraham-Pol2026",
+    "doi": "10.1186/s40348-026-00223-6",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Abraham-Pol2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s40348-026-00223-6.pdf?error=cookies_not_supported&code=e7d24af8-7ba9-4a97-8141-49be6a5413d6",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1186/s40348-026-00223-6.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12953799/pdf/",
+      "https://doi.org/10.1186/s40348-026-00223-6",
+      "https://link.springer.com/content/pdf/10.1186%2Fs40348-026-00223-6.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s40348-026-00223-6.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s40348-026-00223-6.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s40348-026-00223-6.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s40348-026-00223-6.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s40348-026-00223-6.pdf"
+    ],
+    "bytes": 4123612
+  },
+  {
+    "citekey": "Chen2026",
+    "doi": "10.3390/biology15141142",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Chen2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/biology15141142/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2079-7737/15/14/1142/pdf?version=1783948177",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13403650/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/biology15141142",
+      "https://doi.org/10.3390/biology15141142"
+    ],
+    "bytes": 142744
+  },
+  {
+    "citekey": "Cheng2026",
+    "doi": "10.3390/ijms27177690",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Cheng2026.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ijms27177690/fullTextXML",
+    "attempted": [
+      "https://doi.org/10.3390/ijms27177690",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13566125/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ijms27177690"
+    ],
+    "bytes": 223159
+  },
+  {
+    "citekey": "Milic2026",
+    "doi": "10.3390/jfb17080372",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Milic2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/jfb17080372/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2079-4983/17/8/372/pdf?version=1785740849",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13514665/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/jfb17080372",
+      "https://doi.org/10.3390/jfb17080372"
+    ],
+    "bytes": 112532
+  },
+  {
+    "citekey": "Li2026",
+    "doi": "10.1002/rcs.70209",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13480531/pdf/RCS-22-e70209.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13480531/pdf/",
+      "https://doi.org/10.1002/rcs.70209"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Robalino Gonzaga2026",
+    "doi": "10.1007/s11894-026-01052-3",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Robalino Gonzaga2026.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s11894-026-01052-3.pdf?error=cookies_not_supported&code=bcad62f7-9bc1-4a98-86da-c96e209ef28d",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s11894-026-01052-3.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13457500/pdf/",
+      "https://link.springer.com/content/pdf/10.1007%2Fs11894-026-01052-3.pdf",
+      "https://doi.org/10.1007/s11894-026-01052-3"
+    ],
+    "bytes": 972943
+  },
+  {
+    "citekey": "Gaczy\u0144ski2026",
+    "doi": "10.3390/ijms27156705",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-style-study-batch2/Gaczy\u0144ski2026.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ijms27156705/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1422-0067/27/15/6705/pdf?version=1785158302",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13466534/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ijms27156705",
+      "https://doi.org/10.3390/ijms27156705"
+    ],
+    "bytes": 138050
+  }
+]
