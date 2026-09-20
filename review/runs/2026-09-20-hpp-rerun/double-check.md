@@ -32,7 +32,7 @@
 - Critic verdict: PASS
 - Heading spine: thematic `##` sections, not generic Results? yes (§1–9 as in rationale (e))
 - Tables in article: Table 1–4 present, captioned, and called from prose. Table 1 Serra-Castelló cell now matches the PDF (1.75–2.51 log at 2.8% lactate). Table 1 and Table 3 Scepankova cells name 75 °C PATP for the diluted-honey LOD.
-- If two passes: rank pass 1 vs pass 2 on abstract, tables, traceability, Discussion, completeness (1–5 each) and say which is the deliverable. Not ranked. Comparison to `review/runs/2026-09-20-scopus-hpp/article.md` is forbidden until this run’s harness is green.
+- If two passes: ranked after harness green in `comparison-to-scopus-hpp.md`. Deliverable is this rerun (`article.md`). Version 1 (`2026-09-20-scopus-hpp`) was not rewritten. Axis scores (v1 / v2): abstract 4/5, tables 3/5, traceability 3/5, Discussion 4/5, completeness for the HPP question 4/5. v1 is stronger only on neighbouring nonthermal coverage (5 vs 3) because those papers were in that sample.
 - Graphical abstract present: no
 - Catalogue voice remaining: no
 - Acquisition language outside Methods: no
