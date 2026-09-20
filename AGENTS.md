@@ -8,13 +8,26 @@ Researchers in **life sciences** (and neighbouring fields) who are not AI expert
 
 ## The workflow, in order
 
-This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **four hard gates** must complete before you tell the user the article is done: direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), the machine quality gate (step 8), and the double-check (step 9).
+This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **five hard gates** must complete before you tell the user the article is done: the first conversation (step 0), direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), the machine quality gate (step 8), and the double-check (step 9).
 
 **The article is not done when the file exists.** It is done when `scripts/check_extraction.py` and `scripts/check_article.py` exit 0. A previous run failed by delivering mechanical notes and catalog sentences. Do not repeat that. Do not rewrite an earlier sample's `article.md` unless the user asked to change that manuscript.
 
+### 0. First conversation (mandatory on every new chat)
+
+Use `first-conversation`. **A new chat does not remember the last one.** Talk as if they are a new user who is not an AI expert, even if `review/` already has an old run.
+
+In the **first reply**, before extracting, searching, or writing:
+
+1. Say the job in ordinary words: you read papers they give you, or you search free open-access papers; you make notes, a table, and a Markdown article; you do not invent citations or open paywalls.
+2. Look at `papers/` (and any attached `.bib`) and say what is there.
+3. Ask who they are, their field, what the review is for, what they already have, and what “done” should look like.
+4. **Wait** for an answer (or “just go”). Restate the plan in 2–4 sentences when they reply.
+
+Do not jump to extraction because they typed “review my papers.” That sentence is the start of the conversation, not permission to skip it.
+
 ### 1. Intake
 
-Look at what's in `papers/` (recursively, ignoring non-paper files). Tell the user what you found (count, filenames/titles if visible). Then ask, in a short list, **before any deep work**:
+After that first exchange, look at what's in `papers/` (recursively, ignoring non-paper files) if you have not already. Tell the user what you found (count, filenames/titles if visible). Then ask, in a short list, **before any deep work**:
 
 - **Who they are / research area** (e.g. nanomedicine, endocrinology, microbiology).
 - **What the review is for** (thesis chapter, grant background, paper introduction, personal reading).
@@ -138,10 +151,6 @@ If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again
 
 Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, a number in the article does not match the PDF, **or the Introduction still does not teach**. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, apply the **adjacent-field reader test** to the Introduction and heading spine, and write `review/runs/<run-id>/double-check.md`. If the teaching test fails, rewrite `article.md` without waiting for the user. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
 
-### 9b. Graphical abstract (after double-check)
-
-Use `graphical-abstract`. **Do not paste `article.md` into Lovable.** (1) Condense the article for a non-specialist (`knowledge-condense.md`). (2) Write a short visual prompt from that condensation (`lovable-prompt.md`). (3) Send **only** that prompt to the **Lovable** MCP and give the user the project URL. If Lovable is not authenticated, stop after the two markdown files and say so — do not invent a URL. No four-box HTML table.
-
 ### 10. Iterate
 
 Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and/or `review/report/final-report.md`). **In that same message, ask if they also want Word and PDF** (Times New Roman, justified) via `export-manuscript`. Do not end the delivery without that question. Do not build Word/PDF unless they ask — unless they already asked in this conversation, in which case export immediately.
@@ -150,7 +159,7 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 
 1. **Never fabricate a citation, quote, or finding.** If you're not sure a paper says something, say you're not sure. This applies most acutely when searching for extra papers, but holds everywhere.
 2. **Never silently skip a paper.** If a PDF can't be read or a paper is deemed out of scope, say so explicitly and why.
-3. **Talk to the user before going deep on scope.** Step 2 is not optional. Don't extract 20 papers before confirming direction.
+3. **Talk to the user before going deep.** Step 0 (new chat) and step 2 (scope) are not optional. Don't extract 20 papers before you know who they are and what the review is for.
 4. **Understand the sample before writing the article.** Step 6 is not optional. Don't start `article.md` from the table alone.
 5. **Ground the article in the table, notes, and rationale.** The article must not introduce claims that aren't backed by those files. Unfilled gaps are stated, not speculated away.
 6. **No required external services for reading local PDFs.** Extraction and the rationale can run on files already in the repo. Targeted extra retrieval uses the same public OA path as `oa-fetch`. If the network fails or no OA PDF exists, document that and write the article with the gap left open — never treat a missing PDF as a reason to invent a citation, and never treat OA fetch as a paywall bypass.
@@ -162,6 +171,7 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 
 | Step | Skill | Location |
 |---|---|---|
+| First conversation with a new user | `first-conversation` | `.cursor/skills/first-conversation/SKILL.md` |
 | Reading/extracting a paper | `paper-extraction` | `.cursor/skills/paper-extraction/SKILL.md` |
 | Building the comparison table | `literature-table` | `.cursor/skills/literature-table/SKILL.md` |
 | Interpreting the sample + gap-fill retrieval | `synthesis-rationale` | `.cursor/skills/synthesis-rationale/SKILL.md` |
@@ -169,7 +179,6 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 | Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
 | Evidence synthesis and reasoning audits | `scientific-synthesis` | `.cursor/skills/scientific-synthesis/SKILL.md` |
 | Same-field heading/topic check (form only) | `field-structure-benchmark` | `.cursor/skills/field-structure-benchmark/SKILL.md` |
-| Graphical abstract (Lovable, else local figure) | `graphical-abstract` | `.cursor/skills/graphical-abstract/SKILL.md` |
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
 | Second look after the scripts | `double-check` | `.cursor/skills/double-check/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |

@@ -39,11 +39,10 @@ If it searches the web for papers, it may ask for a **contact email** (OpenAlex 
 
 1. Open [this repo](https://github.com/hvianagil-alt/literature-ai-workflow): **Code → Open with Cursor**, or unzip and **File → Open Folder**.
 2. Open **chat**. Type `Review my papers` or `I want a literature review on [topic]`.
-3. It **asks first** (it should not write the article immediately):
-   - your research area
-   - what the review is for (thesis, grant, paper introduction, reading)
-   - whether you already have papers (PDFs in `papers/`, or titles/DOIs in the chat)
-   - if not, whether it should search **free open-access** papers (no pirate sites)
+3. It **starts with a conversation** (it should not write the article immediately). Treat yourself as welcome even if this is your first time:
+   - it says what it will do (read papers, make a table, write a Markdown article — no invented citations)
+   - it tells you what is already in `papers/`
+   - it asks who you are, your field, what the review is for, and what you already have
    - **years** and **journal quality** (e.g. last 6 years, peer-reviewed journals)
    - whether you also want Word or PDF later (the main file is always Markdown)
 4. Confirm the plan.

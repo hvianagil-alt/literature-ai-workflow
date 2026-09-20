@@ -41,7 +41,7 @@
 | Packaging | Knoerzer (HPTP 120 °C) | one constraint in §5.1 | omit as a section |
 | Consumer acceptance | Bhatnagar (irradiation) | none | omit — no data here |
 | Kinetics model zoo (primary/secondary/polynomial) | Zhang §2 | D-values and Weibull tails inside §5.1 | omit as a section — would be a methods textbook |
-| Graphical abstract | Mukhtar (and many *Foods* articles) | not in pass 2 | **add** as a one-panel figure after double-check, not as Abstract text |
+| Graphical abstract | Mukhtar (and many *Foods* articles) | not in manuscript | **omit** — not part of this workflow |
 
 ## What matches
 
@@ -53,8 +53,8 @@ Vessel design, energy, packaging, and consumer acceptance recur as **peer headin
 
 ## What we should add before drafting
 
-Nothing in the scientific spine. Add a **graphical abstract** (field-typical in this journal class) from the intellectual model. One Discussion sentence may name neighbouring topics that lack measurements here.
+Nothing in the scientific spine. One Discussion sentence may name neighbouring topics that lack measurements here. Do not add a graphical abstract.
 
 ## Verdict
 
-The outline is a **justified departure** from matrix-by-matrix and technology-by-technology catalogues, and it is **field-typical** in the topics it does treat (lethality coefficients, spores/HPTP, enzymes/proteins/texture, hurdles). It should not be rewritten as “§3 milk, §4 juice, §5 meat.” The legal-criteria section is more prominent than in most included narratives; that matches the included EFSA opinion and should stay. Graphical abstracts are common enough in this area that the workflow should produce one.
+The outline is a **justified departure** from matrix-by-matrix and technology-by-technology catalogues, and it is **field-typical** in the topics it does treat (lethality coefficients, spores/HPTP, enzymes/proteins/texture, hurdles). It should not be rewritten as “§3 milk, §4 juice, §5 meat.” The legal-criteria section is more prominent than in most included narratives; that matches the included EFSA opinion and should stay. Do not add a graphical abstract.

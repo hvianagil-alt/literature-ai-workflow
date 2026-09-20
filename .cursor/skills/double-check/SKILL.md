@@ -43,7 +43,6 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 - Paragraph function (claim → evidence → contrast → explanation → synthesis): yes/no.
 - Whole-paper argument (problem / evidence / explanation / limitation / contribution): …
 - Field-structure benchmark (`structure-benchmark.md`): done / n/a; verdict keep / change?
-- Graphical abstract: Lovable URL or local `figures/graphical-abstract.pdf`?
 - Heading spine: thematic `##` sections, not generic Results?
 - Tables in article: Table 1 … mentioned in prose?
 - If two passes: rank pass 1 vs pass 2 on abstract, tables, traceability, Discussion, completeness (1–5 each) and say which is the deliverable.

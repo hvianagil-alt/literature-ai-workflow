@@ -31,7 +31,7 @@ Match **kind to kind**:
 From each comparator, list:
 
 - Title shape (colon subtitle? “recent advances”?)
-- Front matter: unstructured vs structured abstract; keywords; highlights; **graphical abstract** yes/no
+- Front matter: unstructured vs structured abstract; keywords; highlights
 - Heading spine (`##` / numbered 1. 2. 3.) — copy **titles**, not paragraphs
 - Organising principle: by **mechanism**, by **matrix**, by **technology**, by **legal question**, or by **search batch**
 - Where Methods sit (early / buried / absent)
@@ -82,5 +82,5 @@ Then **update rationale (e)** if the verdict says add/split/drop a heading. Do n
 - Never fabricate a comparator. Headings come from a file you opened.
 - Never import findings from a form-only comparator.
 - Do not reorganise around search batches (“papers from group A”).
-- Graphical abstracts in comparators mean the `graphical-abstract` skill should run after double-check for this field; they do not mean you must paste a figure into the Abstract text.
+- Do not add a graphical abstract or figure step. The article is text (Markdown; Word/PDF only if asked).
 ---

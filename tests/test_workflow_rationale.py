@@ -86,6 +86,17 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("Recent Advances", text)
         self.assertIn("Headings name topics", text)
 
+    def test_first_conversation_skill_exists(self):
+        path = ROOT / ".cursor/skills/first-conversation/SKILL.md"
+        self.assertTrue(path.is_file())
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("new user", text.lower())
+        self.assertIn("Wait", text)
+        self.assertNotIn("Lovable", text)
+        self.assertFalse(
+            (ROOT / ".cursor/skills/graphical-abstract/SKILL.md").is_file()
+        )
+
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         self.assertIn(".cursor/skills/review-prose/SKILL.md", text)
@@ -123,7 +134,11 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("T2D", agents)
         # Skill inventory lives in AGENTS.md, not the researcher README.
         self.assertIn("export-manuscript", agents)
-        self.assertEqual(agents.count(".cursor/skills/"), 13)
+        self.assertEqual(agents.count(".cursor/skills/"), 16)
+        self.assertIn("first-conversation", agents)
+        self.assertIn("### 0. First conversation", agents)
+        self.assertNotIn("graphical-abstract", agents)
+        self.assertNotIn("### 9b.", agents)
 
     def test_synthesis_rationale_skill_exists_with_quality_bar(self):
         text = (ROOT / ".cursor/skills/synthesis-rationale/SKILL.md").read_text(
