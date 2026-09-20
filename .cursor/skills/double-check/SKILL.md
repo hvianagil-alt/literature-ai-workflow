@@ -57,4 +57,4 @@ Scope stays the agreed protocol. Do not silently drop or add papers. Extra OA re
 
 ## Handoff
 
-After the log exists and remaining fixes are in `article.md`, tell the user the article is ready and point at `double-check.md`. Offer to iterate (add papers, adjust scope, refine a section).
+After the log exists and remaining fixes are in `article.md`, tell the user the article is ready and point at `double-check.md`. **Ask in that same message if they also want Word and PDF.** Offer to iterate (add papers, adjust scope, refine a section).

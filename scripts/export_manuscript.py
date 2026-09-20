@@ -18,7 +18,7 @@ from pathlib import Path
 CSS = """
 @page { margin: 2.5cm; }
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", "Liberation Serif", Times, serif;
   font-size: 12pt;
   line-height: 1.5;
   text-align: justify;
@@ -120,6 +120,60 @@ def markdown_to_html(md: str, title: str) -> str:
     return "\n".join(out)
 
 
+def style_docx(path: Path) -> None:
+    """Force Times New Roman 12 pt and justified body in a Pandoc .docx."""
+    try:
+        from docx import Document
+        from docx.enum.text import WD_ALIGN_PARAGRAPH
+        from docx.oxml.ns import qn
+        from docx.shared import Pt
+    except ImportError:
+        return
+    doc = Document(path)
+    for style in doc.styles:
+        try:
+            font = style.font
+            font.name = "Times New Roman"
+            rpr = style.element.get_or_add_rPr()
+            rfonts = rpr.find(qn("w:rFonts"))
+            if rfonts is None:
+                from docx.oxml import OxmlElement
+
+                rfonts = OxmlElement("w:rFonts")
+                rpr.append(rfonts)
+            rfonts.set(qn("w:ascii"), "Times New Roman")
+            rfonts.set(qn("w:hAnsi"), "Times New Roman")
+            rfonts.set(qn("w:cs"), "Times New Roman")
+            if style.name == "Normal":
+                font.size = Pt(12)
+        except (AttributeError, ValueError, KeyError):
+            continue
+    for para in doc.paragraphs:
+        name = (para.style.name if para.style is not None else "") or ""
+        if name.startswith("Heading"):
+            para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        else:
+            para.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                for para in cell.paragraphs:
+                    para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    doc.save(path)
+
+
+def write_pdf_from_html(html_path: Path, dest: Path) -> str | None:
+    try:
+        from weasyprint import HTML
+    except ImportError:
+        return "weasyprint is not installed"
+    try:
+        HTML(filename=str(html_path)).write_pdf(str(dest))
+    except Exception as exc:  # noqa: BLE001 — surface engine errors to the CLI
+        return str(exc)
+    return None
+
+
 def run_pandoc(src: Path, dest: Path) -> str | None:
     if not shutil.which("pandoc"):
         return "pandoc is not installed"
@@ -168,25 +222,33 @@ def main() -> int:
     stem = src.stem
     ok = []
     fail = []
-    if "html" in wanted:
-        html_path = out_dir / f"{stem}.html"
-        css_path = Path(__file__).resolve().parents[1] / "templates" / "manuscript.css"
-        if css_path.is_file() and shutil.which("pandoc"):
-            err = run_pandoc(src, html_path)
-            if err:
-                html_path.write_text(markdown_to_html(md, title), encoding="utf-8")
-        else:
-            html_path.write_text(markdown_to_html(md, title), encoding="utf-8")
-        ok.append(str(html_path))
+    html_path = out_dir / f"{stem}.html"
+    if "html" in wanted or "pdf" in wanted:
+        # Built-in HTML is self-contained (Times + justify). Pandoc HTML
+        # only links an external CSS file and fails the style checks.
+        html_path.write_text(markdown_to_html(md, title), encoding="utf-8")
+        if "html" in wanted:
+            ok.append(str(html_path))
     for fmt in wanted:
         if fmt == "html":
             continue
         dest = out_dir / f"{stem}.{fmt}"
+        if fmt == "pdf":
+            err = write_pdf_from_html(html_path, dest) if html_path.is_file() else "HTML missing"
+            if err:
+                err = run_pandoc(src, dest) or err
+            if err and not dest.is_file():
+                fail.append(f"{fmt}: {err}")
+            else:
+                ok.append(str(dest))
+            continue
         err = run_pandoc(src, dest)
         if err:
             fail.append(f"{fmt}: {err}")
-        else:
-            ok.append(str(dest))
+            continue
+        if fmt == "docx":
+            style_docx(dest)
+        ok.append(str(dest))
     print("OK " + ", ".join(ok) if ok else "FAIL no files written")
     for item in fail:
         print(f"SKIP {item}", file=sys.stderr)

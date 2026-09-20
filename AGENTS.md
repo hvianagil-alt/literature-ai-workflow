@@ -132,7 +132,7 @@ Use the `double-check` skill. Scripts can pass while notes are still leads, the 
 
 ### 10. Iterate
 
-Always hand them the **Markdown** article first (`review/runs/<run-id>/article.md` and/or `review/report/final-report.md`). Then ask if they want to: add more papers (loop back to step 3/4 or 6), adjust scope (loop back to step 2), refine a section, **or export Word/PDF** (Times New Roman, justified) via the `export-manuscript` skill. Do not build Word/PDF unless they ask.
+Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and/or `review/report/final-report.md`). **In that same message, ask if they also want Word and PDF** (Times New Roman, justified) via `export-manuscript`. Do not end the delivery without that question. Do not build Word/PDF unless they ask — unless they already asked in this conversation, in which case export immediately.
 
 ## Hard rules (apply throughout)
 

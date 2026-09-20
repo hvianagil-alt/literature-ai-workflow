@@ -161,4 +161,4 @@ If it fails, rewrite and run it again. Also grep the banned-flourish list in `re
 
 ## Handoff
 
-After the report is written **and `check_article.py` exits 0**, run the `double-check` skill and write `double-check.md`. Only then tell the user where the **Markdown** article is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. Offer to iterate (re-scope, add papers, refine sections, or export Word/PDF via `export-manuscript`). If they change inclusion, update the rationale before rewriting.
+After the report is written **and `check_article.py` exits 0**, run the `double-check` skill and write `double-check.md`. Only then tell the user where the **Markdown** article is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. **In that same message, ask if they also want Word and PDF.** Offer to iterate (re-scope, add papers, refine sections). If they change inclusion, update the rationale before rewriting.
