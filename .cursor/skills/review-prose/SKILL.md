@@ -267,6 +267,11 @@ Put **numbered Markdown tables** in `article.md` the way a journal editor would:
 
 - Number them **Table 1**, **Table 2**, … Caption on the line above: `**Table 1.** Primary endpoint results in the included trials.`
 - Typical columns (adapt to the topic): Study / design / population / n / intervention or comparator / primary endpoint / result (with units). Name the paper in the first column (Author Year plus [n]).
+
+## Graphical abstract
+
+Many food-science and MDPI *Foods* reviews print a one-panel graphical abstract. After double-check, run `graphical-abstract` (Lovable if connected, otherwise a local HTML/PDF). The Abstract itself stays text. Do not put new numbers on the figure.
+
 - **Point to the table from the prose.** Do not leave a naked grid. Write the scientific claim, then send the reader to the table, then keep discussing what the numbers mean:
 
   > Time in the 3.9–10.0 mmol·L⁻¹ range rose with adjunct weekly semaglutide versus placebo (Table 1) [1].

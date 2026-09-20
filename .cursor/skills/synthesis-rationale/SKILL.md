@@ -66,7 +66,8 @@ Use this structure (keep (a)–(e) even if you also write a prose summary; repor
  Note that the Introduction opens on the phenomenon and ends with an aim or
  central-argument paragraph. Topic sentences, which papers appear where.
  Place numbered in-article results tables (Table 1, …) in the outline.
- Do not draft the article here.>
+ After (e), run field-structure-benchmark against same-area reviews (form only)
+ and revise (e) if needed. Do not draft the article here.>
 
 ## (f) Interpretation gaps (must attempt retrieval)
 <Numbered. Each gap is a result that cannot be put in perspective from the

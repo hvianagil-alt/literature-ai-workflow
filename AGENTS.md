@@ -81,9 +81,13 @@ Use the `synthesis-rationale` skill:
 4. Extract any newly included papers into notes and **update the table**.
 5. If additional papers cannot be retrieved, say so explicitly in the rationale (and later in the article). **Do not fill gaps with speculation or invented citations.**
 
-Only after the rationale, the retrieval attempts, and the updated table exist may you go to step 7.
+Only after the rationale, the retrieval attempts, and the updated table exist may you go to step 6b.
 
-### 7. Write the journal review (only after step 6)
+### 6b. Field-structure benchmark (before drafting)
+
+Use `field-structure-benchmark`. Compare rationale **(e)** headings with published reviews of the **same kind and same field** (included review papers first). Copy **form only**. Write `structure-benchmark.md`. Update (e) if a field-standard topic is already supported by the sample. Do not add empty chapters for equipment, energy, or consumer acceptance when the sample has no measurements.
+
+### 7. Write the journal review (only after steps 6 and 6b)
 
 Read `review-prose`, **`scientific-synthesis`**, **and** `report-writing` before drafting. Default output is a **journal-style narrative review**, not a lab report, unless the user asked for a short note. `scientific-synthesis` is the reasoning file (intellectual model first; literature as evidence to synthesise; paragraph function; mechanism grading). `review-prose` is genre, architecture, and voice. `report-writing` executes the outline from `synthesis-rationale.md` in that reasoning and voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
 
@@ -134,6 +138,10 @@ If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again
 
 Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, a number in the article does not match the PDF, **or the Introduction still does not teach**. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, apply the **adjacent-field reader test** to the Introduction and heading spine, and write `review/runs/<run-id>/double-check.md`. If the teaching test fails, rewrite `article.md` without waiting for the user. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
 
+### 9b. Graphical abstract (after double-check)
+
+Use `graphical-abstract`. Prefer the **Lovable** MCP for a designed one-panel figure. If Lovable is not authenticated, write a local HTML/PDF figure from the intellectual model. No new numbers. Do not put the figure inside the Abstract.
+
 ### 10. Iterate
 
 Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and/or `review/report/final-report.md`). **In that same message, ask if they also want Word and PDF** (Times New Roman, justified) via `export-manuscript`. Do not end the delivery without that question. Do not build Word/PDF unless they ask — unless they already asked in this conversation, in which case export immediately.
@@ -160,6 +168,8 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 | Writing the journal review | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
 | Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
 | Evidence synthesis and reasoning audits | `scientific-synthesis` | `.cursor/skills/scientific-synthesis/SKILL.md` |
+| Same-field heading/topic check (form only) | `field-structure-benchmark` | `.cursor/skills/field-structure-benchmark/SKILL.md` |
+| Graphical abstract (Lovable, else local figure) | `graphical-abstract` | `.cursor/skills/graphical-abstract/SKILL.md` |
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
 | Second look after the scripts | `double-check` | `.cursor/skills/double-check/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |

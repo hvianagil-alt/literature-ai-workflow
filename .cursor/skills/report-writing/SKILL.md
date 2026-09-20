@@ -23,6 +23,9 @@ If the rationale file is missing, **stop and write it first** (see the `synthesi
 3. `review/notes/*.md` (detail the table compressed away)
 4. The agreed research direction from intake / `protocol.md`
 5. PRISMA/screening files for methods counts only
+6. `structure-benchmark.md` if it exists — headings may change (e); findings from form-only comparators must not enter the article
+
+If `structure-benchmark.md` is missing on a full manuscript, write it (`field-structure-benchmark`) before drafting.
 
 ## Output
 

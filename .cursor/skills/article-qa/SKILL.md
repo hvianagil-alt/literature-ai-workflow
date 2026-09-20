@@ -39,7 +39,7 @@ If this fails: rewrite using `review-prose` and `scientific-synthesis` (phenomen
 - Do not skip these scripts.
 - Do not argue with a failure. Fix the draft.
 - Do not change a previous run’s `article.md` unless the user asked to rewrite that manuscript.
-- Copy **form only** from published reviews used as craft models. Do not import their findings.
+- Copy **form only** from published reviews used as craft models. Do not import their findings. Same-area heading checks live in `field-structure-benchmark` (`structure-benchmark.md`) before drafting.
 
 ## Handoff
 
