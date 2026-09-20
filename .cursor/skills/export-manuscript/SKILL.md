@@ -33,7 +33,7 @@ python3 scripts/export_manuscript.py \
 
 ## Style
 
-Body text: Times New Roman (or Times), 12 pt, justified. Headings left-aligned. Tables may use a smaller size so they fit the page. Do not invent content while exporting.
+Body text: Times New Roman (or Times), 12 pt, justified. Headings left-aligned. Tables may use a smaller size so they fit the page. Each References entry is already a separate Markdown paragraph; keep that so Word/PDF do not glue the list into one block. Do not invent content while exporting.
 
 ## Hard rules
 

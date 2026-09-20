@@ -103,6 +103,21 @@ Write it in this **order**:
 
 Present **more than one reading** of the data when designs differ. State limitations of the **studies**, then how later work can build on them (not “previous work is incompetent”). Suggest extensions that a trialist or formulator could actually run. Keep bibliography as the trail to primary sources.
 
+## Numbered citations (Vancouver, first appearance)
+
+In-text citations are `[n]`. **The number is the order of first appearance in the article body** (Introduction onwards). The first paper you cite is `[1]`; the next paper that has not been cited yet is `[2]`. Later mentions of the same paper reuse the same number. Do **not** number the list alphabetically, by year, or by extraction batch.
+
+The `## References` list is that same sequence from `[1]` to the last number. **Put a blank line between each reference** so each one is its own paragraph (journals and Word/PDF exports need that break). Wrong: a stacked `[1]`…`[44]` block with no empty lines. Right:
+
+```markdown
+## References
+[1] Author A. Title. Journal. 2022.
+
+[2] Author B. Title. Journal. 2024.
+```
+
+After a draft, run `python3 scripts/renumber_citations.py --article …/article.md`. `check_article.py` fails if in-text order is not 1, 2, 3… or if References are glued together. The Abstract still must not contain `[n]`.
+
 ## Human prose (do not write like a chatbot)
 
 LLMs regress to generic, promotional, statistically common phrasing. Scientific reviews need **specific facts** (dose, species, endpoint, n) and ordinary verbs (**is, are, was, has, showed, found**).

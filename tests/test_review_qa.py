@@ -74,6 +74,40 @@ class CheckArticleTests(unittest.TestCase):
         problems = check_article.check(text, table, short=True)
         self.assertEqual(problems, [], problems)
 
+    def test_citations_must_be_first_appearance_order(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        scrambled = text.replace("[2]. Digital", "[9]. Digital", 1)
+        problems = check_article.check(scrambled, None, short=True)
+        self.assertTrue(any("first-appearance" in p.lower() for p in problems), problems)
+
+    def test_references_must_be_separate_paragraphs(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        glued = text.replace(
+            "[1] Fictional Al Researcher. 2021. Journal of Made-Up Studies.\n\n"
+            "[2] Fictional Chen Example. 2023. Notional Review of Learning.",
+            "[1] Fictional Al Researcher. 2021. Journal of Made-Up Studies.\n"
+            "[2] Fictional Chen Example. 2023. Notional Review of Learning.",
+            1,
+        )
+        problems = check_article.check(glued, None, short=True)
+        self.assertTrue(any("paragraph" in p.lower() for p in problems), problems)
+
+    def test_renumber_vancouver_makes_first_appearance_sequence(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        messy = (
+            text.replace("high heterogeneity [2].", "high heterogeneity [9].")
+            .replace("Chen Example 2023 [2]", "Chen Example 2023 [9]")
+            .replace("Table 1 [2]", "Table 1 [9]")
+            .replace(
+                "[2] Fictional Chen Example. 2023. Notional Review of Learning.",
+                "[9] Fictional Chen Example. 2023. Notional Review of Learning.",
+            )
+        )
+        self.assertTrue(check_article.citation_order_problems(messy))
+        fixed = check_article.renumber_vancouver(messy)
+        self.assertEqual(check_article.citation_order_problems(fixed), [])
+        self.assertIn("high heterogeneity [2].", fixed)
+
     def test_short_flag_required_for_small_body(self):
         text = (FIX / "good-article.md").read_text(encoding="utf-8")
         problems = check_article.check(text, None, short=False)
