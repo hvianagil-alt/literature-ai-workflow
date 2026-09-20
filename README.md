@@ -1,76 +1,84 @@
 # Life-science literature review helper
 
-This folder teaches a chat assistant how to write a **literature review** with you. You do not need to know how to code.
+Talk to **Cursor**, **ChatGPT**, or **Claude** and get a literature review: notes on each paper, a comparison table, and a journal-style article in Markdown.
 
-It is **non-commercial**: free for your thesis, papers, and teaching. You may not sell it. See [LICENSE](LICENSE).
+You do not need to code. You need a chat account you already have, and this repository.
+
+**License (non-commercial):** use it for a thesis, papers, and teaching. Do not sell it or turn it into a paid service. See [LICENSE](LICENSE).
+
+## What it does
+
+You name a topic or drop PDFs. The assistant asks who you are and what you need, then reads **open-access** papers, extracts facts, builds a table, and writes an `.md` article. The introduction is meant to teach the field, not dump abstracts.
+
+It does not invent citations, open paywalls, or replace your scientific judgment. The article is a strong draft for you to edit.
 
 ## Does it work?
 
-Yes — here is a real review this workflow produced (open it and skim the introduction):
+Open this sample (life sciences, real papers):
 
-**[Nanocarriers, liposomes, and silver–antibiotic papers (sample article)](review/runs/2026-09-19-nanocarriers/article.md)**
+| File | What it is |
+|---|---|
+| [article.md](review/runs/2026-09-19-nanocarriers/article.md) | Full review (nanocarriers / liposomes / AgNPs) |
+| [literature-table.md](review/runs/2026-09-19-nanocarriers/table/literature-table.md) | Side-by-side comparison |
+| [double-check.md](review/runs/2026-09-19-nanocarriers/double-check.md) | Log that numbers were checked against the papers |
+| [fictional example](examples/sample-article.md) | Form only — invented papers, not real science |
 
-Next to it: a [comparison table](review/runs/2026-09-19-nanocarriers/table/literature-table.md) and a [check that numbers match the papers](review/runs/2026-09-19-nanocarriers/double-check.md).
+Source PDFs are not in git (copyright). More pointers: [showcase/README.md](showcase/README.md).
 
-That article is a **draft** for you to judge the level. Do not copy it into your own paper as if it were yours.
+## What you need
 
-## What you get
+| Tool | What to do |
+|---|---|
+| **[Cursor](https://cursor.com)** (recommended) | Open this folder. Chat is enough; you do not open code. |
+| **ChatGPT** (Plus / Team / Edu) | New Project → upload `AGENTS.md` and `.cursor/skills/` → “Follow AGENTS.md. I want a literature review.” |
+| **Claude** (Pro / Team) | Same as ChatGPT. |
 
-A text file called `article.md` (Markdown: a simple text format you can open here, or paste into Word).
+If it searches the web for papers, it may ask for a **contact email** (OpenAlex / Unpaywall). That is not a paid API key.
 
-If you ask, you can also get Word or PDF in Times New Roman, justified.
+## How to run it (Cursor)
 
-## How to use it (no coding)
+1. Open [this repo](https://github.com/hvianagil-alt/literature-ai-workflow): **Code → Open with Cursor**, or unzip and **File → Open Folder**.
+2. Open **chat**. Type `Review my papers` or `I want a literature review on [topic]`.
+3. It **asks first** (it should not write the article immediately):
+   - your research area
+   - what the review is for (thesis, grant, paper introduction, reading)
+   - whether you already have papers (PDFs in `papers/`, or titles/DOIs in the chat)
+   - if not, whether it should search **free open-access** papers (no pirate sites)
+   - **years** and **journal quality** (e.g. last 6 years, peer-reviewed journals)
+   - whether you also want Word or PDF later (the main file is always Markdown)
+4. Confirm the plan.
+5. When it is done, open `review/`:
+   - `article.md` — the article
+   - a table and per-paper notes
+   - `double-check.md`
 
-You need a paid or school chat account: **[Cursor](https://cursor.com)** (easiest), **ChatGPT**, or **Claude**.
+No PDFs is fine: name the topic and it will search public papers.
 
-### In Cursor (recommended)
+### ChatGPT or Claude only
 
-1. Open this project: on GitHub click **Code → Open with Cursor**, or download the ZIP and use **File → Open Folder**.
-2. Open **Chat**. You never have to open the code files.
-3. Type: `Review my papers` or `I want a literature review on [your topic]`.
-4. Answer a few questions (see below). Say yes when the plan sounds right.
-5. Wait. The article appears in `review/` as `article.md`.
+Download the ZIP from GitHub (**Code → Download ZIP**). In a Project, upload `AGENTS.md`, the `.cursor/skills/` files, and any PDFs. Type: `Follow AGENTS.md. I work in [field]. I want a literature review.` Save the Markdown it returns as `article.md`. Cursor keeps files in folders for you; phone chat only gives you the text.
 
-### In ChatGPT or Claude
-
-1. On GitHub: **Code → Download ZIP**.
-2. Make a Project and upload `AGENTS.md` (the instruction file) plus your PDFs if you have them.
-3. Type: `Follow AGENTS.md. I work in [your field]. I want a literature review.`
-
-## What it will ask you first
-
-It should **not** start writing the article immediately. It should ask:
-
-- your **research area**
-- **why** you need the review (thesis, grant, paper introduction, reading)
-- whether you **already have papers** (put PDFs in the `papers/` folder, or paste titles in the chat)
-- if you have none, whether it may **search free open-access papers** on the web (it will not break paywalls)
-- **years** and how picky to be about **journals** (you can say “last 6 years, peer-reviewed journals”)
-
-Then it reads the papers, makes notes, builds a table, writes the article, and checks itself.
+## Workflow
 
 ```mermaid
-flowchart LR
-  A[You answer a few questions] --> B[It reads papers]
-  B --> C[Notes and table]
-  C --> D[Article in Markdown]
-  D --> E[You edit it]
+flowchart TD
+  A[Name the topic in chat] --> B[Questions: field, goal, papers, years, journals]
+  B --> C{PDFs or only a topic?}
+  C -->|PDFs or DOIs| D[Read the papers]
+  C -->|Nothing yet| E[Search open-access papers]
+  E --> D
+  D --> F[Notes + table]
+  F --> G[Fill remaining gaps]
+  G --> H[Markdown article]
+  H --> I[Quality checks]
+  I --> J[Optional Word or PDF]
 ```
 
-## What it will not do
+## Files you receive
 
-- Invent citations
-- Open papers that are behind a paywall
-- Replace your scientific judgment
+The article is **Markdown** (`.md`): open it here or paste into Word.
 
-## License
-
-[Non-commercial](LICENSE) — use freely for research and teaching; do not sell.
-
----
-
-Repo: [github.com/hvianagil-alt/literature-ai-workflow](https://github.com/hvianagil-alt/literature-ai-workflow)
+Ask for Word or PDF if you want **Times New Roman**, 12 pt, **justified** (`export-manuscript`). You can also open the HTML in a browser and Print → Save as PDF.
 
 ```bash
 git clone https://github.com/hvianagil-alt/literature-ai-workflow.git
