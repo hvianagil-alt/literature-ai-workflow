@@ -4,6 +4,20 @@
 
 **Kind of review to write:** narrative journal review (not a systematic review or meta-analysis). Included evidence is 43 public full texts from a 2021–2026 Scopus export after title screening and OA retrieval. Designs are incommensurable (EFSA opinion, systematic/scoping reviews, laboratory challenges, storage trials). Do not pool log reductions.
 
+## (i) Intellectual model
+
+1. **Question.** When heat is not the kill step, what does high-pressure processing actually deliver for vegetative lethality, injury, spores, legal pasteurisation criteria, and named quality endpoints?
+2. **Variables.** Pressure, hold time, temperature under pressure (including adiabatic rise), water activity, pH, ice, lactate/solute, strain, recovery medium, and whether the endpoint is a named pathogen, APC, an enzyme, a protein, or texture.
+3. **Mechanisms (as the papers state them).** Isostatic pressure acts throughout the pack. Reviews compile membrane leak, lipid-phase change, ribosomal dissociation, and non-covalent protein unfolding as contributing routes; primary work here measures pores (fluorescence), wall rupture on ice (SEM), and piezo-protection by lactate without a molecular assay. Spores remain after ambient ≤600 MPa; HPTP uses compression heating. Culture can miss injured or VBNC cells.
+4. **Heterogeneity.** Same MPa yields 1–7 log in RTE meat; apple vs banana–apple purée; frozen vs unfrozen; milk legal heat vs HPP model; juice APC vs named-pathogen 5-log; PPO vs plate count.
+5. **Evidence types.** Laboratory challenges, chilled storage trials, one EFSA scientific opinion, one PRISMA milk review, scoping/narrative reviews, one engineering HPTP review. Almost none can be pooled.
+6. **Established in this sample.** Vegetative reductions at 500–600 MPa in high-aw foods are repeatedly reported. Ambient commercial HPP is not a spore sterilant. EFSA modelled industrial 600 MPa / 6 min as not equivalent to legal milk heat for compared pathogens.
+7. **Suggested / context-dependent.** Freeze-then-pressure large logs (surrogate *E. coli* K12). Dual milk protein-plus-pathogen specification. Juice HACCP 5-log from APC. HPTP as a commercial spore cook (equipment/packaging still limiting in the included review).
+8. **Unknown here.** Human foodborne-disease trials; named *E. coli* O157:H7 or *Salmonella* HPP juice validations; paired bovine HTST vs HPP on the same batches for pathogens and proteins.
+9. **Consequence.** Log reductions cannot be read from the set-point. Quality and legal claims must name their endpoint. Refrigeration or HPTP must be planned for spores.
+
+**Causal chain:** set-point P/t → non-covalent disruption and/or ice/solute/injury coefficients → measured log or enzyme/texture → interpretation depends on assay and matrix → therefore milk/juice law, RTE success, and spore control are different conclusions, not one “HPP works” sentence.
+
 **Not used as evidence:** title excludes (books, pet food, unnamed technology); 133 records without a public PDF/JATS body; six full-text excludes (seed-germination review; ML/digital-transformation review; PEF bibliometric; 591-page dump; unreadable 1-page PDF; alcoholic-beverage methods manual mis-fetched as a coconut-water PEF/HPP paper).
 
 ## (a) What each included study actually measured
@@ -65,7 +79,7 @@ Grouped; full cells are in `table/literature-table.md`.
 **Would be forced**
 
 - “HPP always achieves a 5-log pasteurisation of juice pathogens.” Li2021’s 5-log is aerobic plate count of grape purée, not *E. coli* O157:H7; Maghami missed 5-log on native yeast/mould.
-- “Nonthermal technologies are equivalent to each other.” Plasma, ultrasound, irradiation, HPCD, and HPP share a slogan, not a mechanism or TRL (Weihe; Schnabel lab vs pilot).
+- “Nonthermal technologies are equivalent to each other.” Plasma, ultrasound, irradiation, HPCD, and HPP share a label, not a mechanism or TRL (Weihe; Schnabel lab vs pilot).
 - A pooled mean log reduction for HPP of *L. monocytogenes* on RTE meat (Guzel explicitly could not meta-analyse).
 
 ## (c) Real disagreements and why
@@ -103,11 +117,11 @@ Grouped; full cells are in `table/literature-table.md`.
 
 **6. Quality is not one number** — PPO, colour, texture, enzymes, allergenicity (Braspaiboon), bioactive proteins, seafood (Castrica, Wang, Nilsuwan, Peng), kelp (Jönsson), cream, grape, celery, pumpkin.
 
-**7. Other nonthermal fields in this set** — ultrasound (Maghami, Hashemi, Zhang2026), plasma (Schnabel, Seyedalangi), irradiation (Bhatnagar), HPCD (Lian), sugarcane survey (Mukhtar), Weihe/Jeevitha maps.
+**7. Other nonthermal fields in the same literature** — ultrasound (Maghami, Hashemi, Zhang2026), plasma (Schnabel, Seyedalangi), irradiation (Bhatnagar), HPCD (Lian), sugarcane survey (Mukhtar), Weihe/Jeevitha maps.
 
 **Discussion:** two readings (HPP as commercial vegetative pasteurisation of RTE meat/juice vs HPP as incomplete milk pasteurisation); why logs cannot be pooled; OA bias; what to measure next (paired pathogen + enzyme/protein; recovery media; industrial scale).
 
-**Conclusions:** numbered scientific next steps.
+**Conclusions:** running sentences, narrower than the evidence; next measurements named as ordinary prose.
 
 ## (f) Interpretation gaps (must attempt retrieval)
 
