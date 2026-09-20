@@ -142,10 +142,19 @@ python3 scripts/check_extraction.py --notes-dir review/runs/<run-id>/notes \
   --screening review/runs/<run-id>/screening.json
 python3 scripts/check_article.py \
   --article review/runs/<run-id>/article.md \
-  --table review/runs/<run-id>/table/literature-table.md
+  --table review/runs/<run-id>/table/literature-table.md \
+  --form-model review/ml/model.json
 ```
 
-If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. **Max 3 cycles.** Repeat until exit 0. Use `--short` only if the user asked for a short note. After 3 failures, do not deliver. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint.
+If `review/ml/model.json` is missing, train it first (`review-form-ml`) or omit `--form-model`. If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. **Max 3 cycles.** Repeat until exit 0. Use `--short` only if the user asked for a short note. After 3 failures, do not deliver. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint. Then score the title and Abstract against published OA reviews:
+
+```bash
+python3 scripts/score_review_form.py score \
+  --article review/runs/<run-id>/article.md \
+  --field <endocrinology|nanomedicine|food-science|neuroscience|generic-narrative>
+```
+
+If `p_published_form` is below 0.45, the front matter still reads as a catalogue. Rewrite joinery before the critic. Do not import findings from the gold reviews.
 
 ### 9. Critic / double-check (mandatory, after the scripts)
 
@@ -190,6 +199,7 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 | Same-field heading/topic check (form only) | `field-structure-benchmark` | `.cursor/skills/field-structure-benchmark/SKILL.md` |
 | Loops, roles, and the done-gate | `review-harness` | `.cursor/skills/review-harness/SKILL.md` |
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
+| Compare draft form to published OA reviews | `review-form-ml` | `.cursor/skills/review-form-ml/SKILL.md` |
 | Second look after the scripts | `double-check` | `.cursor/skills/double-check/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
 | Find OA papers when none (or few) were dropped | `find-papers` | `.cursor/skills/find-papers/SKILL.md` |

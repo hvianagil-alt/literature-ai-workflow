@@ -83,10 +83,33 @@ def work_to_record(work: dict) -> dict:
         "cited_by_count": work.get("cited_by_count"),
         "publication_date": work.get("publication_date") or "",
         "type": work.get("type") or "",
+        "abstract": reconstruct_abstract(work),
     }
 
 
 JOURNAL_QUALITY = ("none", "journal", "doaj", "cited")
+WORK_TYPE = ("article", "review", "any")
+
+
+def reconstruct_abstract(work: dict) -> str:
+    """Rebuild abstract text from OpenAlex inverted index. Empty if absent."""
+    direct = work.get("abstract")
+    if isinstance(direct, str) and direct.strip():
+        return direct.strip()
+    inv = work.get("abstract_inverted_index")
+    if not isinstance(inv, dict) or not inv:
+        return ""
+    slots: list[tuple[int, str]] = []
+    for token, positions in inv.items():
+        if not isinstance(positions, list):
+            continue
+        for pos in positions:
+            try:
+                slots.append((int(pos), str(token)))
+            except (TypeError, ValueError):
+                continue
+    slots.sort()
+    return " ".join(tok for _, tok in slots)
 
 
 def build_openalex_filters(
@@ -95,6 +118,7 @@ def build_openalex_filters(
     to_year: int | None = None,
     journal_quality: str = "journal",
     min_cited_by: int | None = None,
+    work_type: str = "article",
 ) -> list[str]:
     """OpenAlex filter strings. Never invents titles — only query constraints.
 
@@ -103,18 +127,26 @@ def build_openalex_filters(
       journal — peer-reviewed journal articles (default)
       doaj    — journal articles in the Directory of Open Access Journals
       cited   — journal articles with cited_by_count above min_cited_by
+
+    work_type:
+      article — primary research articles (default, existing callers)
+      review  — OpenAlex type:review (form-model gold collection)
+      any     — do not constrain OpenAlex work type
     """
     if journal_quality not in JOURNAL_QUALITY:
         raise ValueError(
             f"journal_quality must be one of {JOURNAL_QUALITY}, got {journal_quality!r}"
         )
+    if work_type not in WORK_TYPE:
+        raise ValueError(f"work_type must be one of {WORK_TYPE}, got {work_type!r}")
     filters = ["is_oa:true", "has_doi:true"]
     if from_year:
         filters.append(f"from_publication_date:{from_year}-01-01")
     if to_year:
         filters.append(f"to_publication_date:{to_year}-12-31")
     if journal_quality in {"journal", "doaj", "cited"}:
-        filters.append("type:article")
+        if work_type != "any":
+            filters.append(f"type:{work_type}")
         filters.append("primary_location.source.type:journal")
     if journal_quality == "doaj":
         filters.append("primary_location.source.is_in_doaj:true")
@@ -140,6 +172,7 @@ def search_openalex(
     journal_quality: str = "journal",
     min_cited_by: int | None = None,
     sort: str = "cited_by_count:desc",
+    work_type: str = "article",
 ) -> tuple[list[dict], dict]:
     """Return (records, meta). records is empty on HTTP/parse failure (not invented)."""
     try:
@@ -148,6 +181,7 @@ def search_openalex(
             to_year=to_year,
             journal_quality=journal_quality,
             min_cited_by=min_cited_by,
+            work_type=work_type,
         )
     except ValueError as e:
         return [], {
@@ -287,6 +321,12 @@ def main() -> int:
         help="OpenAlex sort. Use relevance_score:desc when expanding a seed set.",
     )
     parser.add_argument(
+        "--work-type",
+        choices=WORK_TYPE,
+        default="article",
+        help="OpenAlex work type: article (default), review, or any.",
+    )
+    parser.add_argument(
         "--write-catalog",
         default="",
         help="Optional path to a fetch_oa_pdfs catalog.json of these hits (still not inclusion)",
@@ -302,6 +342,7 @@ def main() -> int:
         journal_quality=args.journal_quality,
         min_cited_by=args.min_cited_by,
         sort=args.sort,
+        work_type=args.work_type,
     )
     payload = {
         "ts_utc": datetime.now(timezone.utc).isoformat(),
@@ -311,6 +352,7 @@ def main() -> int:
         "journal_quality": args.journal_quality,
         "min_cited_by": args.min_cited_by,
         "sort": args.sort,
+        "work_type": args.work_type,
         "source": "openalex",
         "status": status,
         "warning": (

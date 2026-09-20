@@ -47,9 +47,10 @@ Write `synthesis-rationale.md` with **(i)** and **(a)–(e)**. Attempt OA gap re
 
 1. Draft `article.md` (`review-prose` + `scientific-synthesis` + `report-writing`).
 2. `python3 scripts/renumber_citations.py --article review/runs/<id>/article.md` if needed.
-3. `python3 scripts/check_article.py --article … --table …`
+3. `python3 scripts/check_article.py --article … --table … --form-model review/ml/model.json`
 4. If fail: rewrite; do not argue with the script.
-5. After 3 failures, **do not deliver**. Tell the user the gate is still red and what failed.
+5. `python3 scripts/score_review_form.py score --article … --field <field>` if the model exists; rewrite joinery if `p_published_form` < 0.45.
+6. After 3 failures, **do not deliver**. Tell the user the gate is still red and what failed.
 
 ### Critic loop (1 rewrite)
 

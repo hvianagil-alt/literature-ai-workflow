@@ -8,6 +8,7 @@ Match the **user’s field** (and review kind) to a card. If two cards fit, use 
 | endocrinology; diabetes; GLP-1; incretin; metabolic disease | [`endocrinology.md`](endocrinology.md) | `review/runs/2026-09-19-scopus-oa-full/article.md` |
 | nanomedicine; liposomes; nanocarriers; drug delivery; PEG | [`nanomedicine.md`](nanomedicine.md) | `review/runs/2026-09-19-nanocarriers/article.md` |
 | food science; HPP; high pressure; pasteurisation; juices; meat safety | [`food-science.md`](food-science.md) | `review/runs/2026-09-20-scopus-hpp/article.md` |
+| Parkinson; cannabinoid; neurodegeneration; CB1; non-motor symptoms | [`neuroscience.md`](neuroscience.md) | `review/runs/2026-09-20-pd-cannabinoids/article.md` |
 | mixed Scopus dump; papers that do not share one question | [`mixed-set.md`](mixed-set.md) | `review/runs/2026-09-19-scopus-oa/article.md` |
 | thesis / grant / paper intro / reading | [`applications.md`](applications.md) | (length and methods depth only) |
 | oncology; microbiology; neuroscience; immunology; other life science | [`generic-narrative.md`](generic-narrative.md) + **this sample’s included reviews** | none yet — do not invent a card’s science; add a form card after a successful run |

@@ -25,6 +25,10 @@ Teach hormone or pathway physiology in the Introduction (what the analogue is re
 - Abstract that names a trial or stacks effect sizes.
 - Introduction that assumes the reader already knows incretin physiology.
 
+## Title shape in published OA reviews (form only)
+
+In the in-repo form-model sample, endocrinology review titles usually use a **colon subtitle** and often name the kind (`a narrative review`, `a systematic review`). Do not copy their drugs or endpoints.
+
 ## If the new sample is tiny or mixed
 
 See [`mixed-set.md`](mixed-set.md). Do not pretend a seven-paper dump is a field survey.

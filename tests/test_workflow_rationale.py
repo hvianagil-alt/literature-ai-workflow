@@ -134,7 +134,8 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("T2D", agents)
         # Skill inventory lives in AGENTS.md, not the researcher README.
         self.assertIn("export-manuscript", agents)
-        self.assertEqual(agents.count(".cursor/skills/"), 17)
+        self.assertEqual(agents.count(".cursor/skills/"), 18)
+        self.assertIn("review-form-ml", agents)
         self.assertIn("first-conversation", agents)
         self.assertIn("review-harness", agents)
         self.assertIn("review/memory/", agents)

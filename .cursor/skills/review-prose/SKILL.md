@@ -103,7 +103,7 @@ Name the **kind** in the subtitle when it helps (`a narrative review`, `a system
 
 ### Abstract
 
-A **narrative** abstract is a map of the topic. It is not a results table and not a catalogue of included papers. Published narrative reviews in the form-study sample open on the phenomenon, state a tension, rank kinds of evidence, and close on what that rank does not imply. They do **not** cite, and they do **not** name Author Year.
+A **narrative** abstract is a map of the topic. It is not a results table and not a catalogue of included papers. Published narrative reviews in the form-study sample **and** the OpenAlex form-model sample open on the phenomenon, state a tension, rank kinds of evidence, and close on what that rank does not imply. They do **not** cite, they do **not** name Author Year, and they do **not** begin with “This review discusses…”. `check_article.py` fails that opener, and on a full manuscript it fails an Abstract with no tension or calibration (`yet` / `however` / `do not imply`).
 
 Write it in this **order**:
 

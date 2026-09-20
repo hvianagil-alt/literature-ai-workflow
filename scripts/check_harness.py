@@ -106,15 +106,19 @@ def evaluate(run_dir: Path, full: bool = False, run_scripts: bool = True) -> lis
             if ext.returncode != 0:
                 problems.append("check_extraction.py failed")
         if article.is_file() and table.is_file():
+            art_cmd = [
+                py,
+                str(ROOT / "scripts" / "check_article.py"),
+                "--article",
+                str(article),
+                "--table",
+                str(table),
+            ]
+            form_model = ROOT / "review" / "ml" / "model.json"
+            if form_model.is_file():
+                art_cmd.extend(["--form-model", str(form_model)])
             art = subprocess.run(
-                [
-                    py,
-                    str(ROOT / "scripts" / "check_article.py"),
-                    "--article",
-                    str(article),
-                    "--table",
-                    str(table),
-                ],
+                art_cmd,
                 capture_output=True,
                 text=True,
             )

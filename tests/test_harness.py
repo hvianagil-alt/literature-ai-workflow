@@ -12,6 +12,8 @@ class HarnessLayoutTests(unittest.TestCase):
         self.assertTrue((ROOT / ".cursor/agents/literature-extractor.md").is_file())
         self.assertTrue((ROOT / ".cursor/agents/field-form-reader.md").is_file())
         self.assertTrue((ROOT / "scripts/check_harness.py").is_file())
+        self.assertTrue((ROOT / ".cursor/skills/review-form-ml/SKILL.md").is_file())
+        self.assertTrue((ROOT / "scripts/score_review_form.py").is_file())
         harness = (ROOT / ".cursor/skills/review-harness/SKILL.md").read_text(
             encoding="utf-8"
         )
@@ -28,6 +30,7 @@ class HarnessLayoutTests(unittest.TestCase):
         self.assertIn("endocrinology.md", index)
         self.assertIn("nanomedicine.md", index)
         self.assertIn("food-science.md", index)
+        self.assertIn("neuroscience.md", index)
         food = (ROOT / "review/memory/food-science.md").read_text(encoding="utf-8")
         self.assertIn("Do not copy", food)
         critic = (ROOT / ".cursor/agents/literature-critic.md").read_text(

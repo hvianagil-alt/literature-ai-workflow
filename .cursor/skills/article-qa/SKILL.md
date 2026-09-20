@@ -27,12 +27,23 @@ If this fails: open each included PDF, fill `## Claim-ready facts` in the note (
 ```bash
 python3 scripts/check_article.py \
   --article review/runs/<run-id>/article.md \
-  --table review/runs/<run-id>/table/literature-table.md
+  --table review/runs/<run-id>/table/literature-table.md \
+  --form-model review/ml/model.json
 ```
 
 A full journal manuscript must pass the ~6,000-word body floor **and** the teaching-Introduction / thematic-spine gates. Word count alone is not enough.
 
-If this fails: rewrite using `review-prose` and `scientific-synthesis` (phenomenon-first Introduction; claim-first sentences; **paragraphs that synthesise evidence rather than list papers**; **mechanisms graded, not asserted**; **title names the phenomenon and an angle**; **Keywords after the Abstract**; **continuous prose, never First/Second/Third or (i)/(ii) as the Abstract/Conclusions spine**; **thematic headings, never a generic Results dump**; no process talk; numbered Markdown results tables with in-text “Table 1” callouts; Abstract is a topic map with **no citations, no named papers, and no search/OA/year-window language**; numbered citations are Vancouver first-appearance order with a blank line between References entries; repeated terms are `Full term (ABBR)` once, then the abbreviation, without turning the Abstract into a glossary) and run the script again. Repeat until exit 0. The script fails if the Introduction is too short to teach, if the last Introduction paragraph lacks an aim, if a defined abbreviation still crowds the prose, if the Abstract defines unused or too many abbreviations, if `[n]` is not first-appearance order, **if the Abstract (or any section other than Methods) describes how papers were acquired**, **if Abstract/Conclusions list the argument as First/Second or (i)/(ii)**, **if the Introduction or first thematic section explains mechanisms as unjoined short sentences**, **if the prose uses conversational review-metaphor or stacked “According to Author et al.”**, **or if the title is a flourish/export label**. If only the numbers are out of sequence, run `python3 scripts/renumber_citations.py --article …` and re-check.
+If this fails: rewrite using `review-prose` and `scientific-synthesis` (phenomenon-first Introduction; claim-first sentences; **paragraphs that synthesise evidence rather than list papers**; **mechanisms graded, not asserted**; **title names the phenomenon and an angle**; **Keywords after the Abstract**; **continuous prose, never First/Second/Third or (i)/(ii) as the Abstract/Conclusions spine**; **thematic headings, never a generic Results dump**; no process talk; numbered Markdown results tables with in-text “Table 1” callouts; Abstract is a topic map with **no citations, no named papers, and no search/OA/year-window language**; numbered citations are Vancouver first-appearance order with a blank line between References entries; repeated terms are `Full term (ABBR)` once, then the abbreviation, without turning the Abstract into a glossary) and run the script again. Repeat until exit 0. The script fails if the Introduction is too short to teach, if the last Introduction paragraph lacks an aim, if a defined abbreviation still crowds the prose, if the Abstract defines unused or too many abbreviations, if `[n]` is not first-appearance order, **if the Abstract (or any section other than Methods) describes how papers were acquired**, **if Abstract/Conclusions list the argument as First/Second or (i)/(ii)**, **if the Introduction or first thematic section explains mechanisms as unjoined short sentences**, **if the prose uses conversational review-metaphor or stacked “According to Author et al.”**, **if the title is a flourish/export label**, **if the Abstract opens with “This review discusses” or has no tension/calibration on a full manuscript**, **or if `--form-model` scores the title/Abstract as a catalog draft**. If only the numbers are out of sequence, run `python3 scripts/renumber_citations.py --article …` and re-check.
+
+If `review/ml/model.json` exists, also run:
+
+```bash
+python3 scripts/score_review_form.py score \
+  --article review/runs/<run-id>/article.md \
+  --field <matching memory-card field>
+```
+
+Rewrite joinery when `p_published_form` is below 0.45. Do not copy findings from gold reviews (`review-form-ml`).
 
 ## Hard rules
 

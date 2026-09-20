@@ -1,0 +1,825 @@
+{
+  "ts_utc": "2026-09-20T15:04:14.219630+00:00",
+  "model": "review/ml/model.json",
+  "results": [
+    {
+      "article": "/workspace/review/runs/2026-09-19-nanocarriers/article.md",
+      "field": "nanomedicine",
+      "p_published_form": 0.9996544463962719,
+      "decision": "published_like",
+      "top_contributions": [
+        {
+          "feature": "abstract_word_count",
+          "signed_logit": 1.695756112829869
+        },
+        {
+          "feature": "abstract_acquisition",
+          "signed_logit": 1.4926014677834534
+        },
+        {
+          "feature": "abstract_has_etal",
+          "signed_logit": 1.4115154943293937
+        },
+        {
+          "feature": "abstract_slogan_per_100w",
+          "signed_logit": 1.2525696850040038
+        },
+        {
+          "feature": "abstract_catalog_per_100w",
+          "signed_logit": 1.1703300709622915
+        },
+        {
+          "feature": "title_kind_named",
+          "signed_logit": 0.43398798689701756
+        },
+        {
+          "feature": "title_flourish",
+          "signed_logit": 0.29904417527123406
+        },
+        {
+          "feature": "title_has_colon",
+          "signed_logit": 0.2942590157439894
+        }
+      ],
+      "field_comparison": {
+        "field": "nanomedicine",
+        "centroid_n": 14,
+        "mean_abs_z": 0.5879871866836723,
+        "top_divergences": [
+          {
+            "feature": "title_word_count",
+            "z": 2.3165084570235894
+          },
+          {
+            "feature": "abstract_evidence_rank_per_100w",
+            "z": 2.298307813026532
+          },
+          {
+            "feature": "abstract_word_count",
+            "z": 1.9924577469608888
+          },
+          {
+            "feature": "title_kind_named",
+            "z": 1.9148542155126764
+          },
+          {
+            "feature": "abstract_slogan_per_100w",
+            "z": -0.8612859884072698
+          }
+        ]
+      },
+      "front_features": {
+        "title_word_count": 18.0,
+        "title_has_colon": 1.0,
+        "title_flourish": 0.0,
+        "title_workflow": 0.0,
+        "title_kind_named": 1.0,
+        "abstract_word_count": 300.0,
+        "abstract_sentence_mean": 23.076923076923077,
+        "abstract_has_citation": 0.0,
+        "abstract_has_etal": 0.0,
+        "abstract_ordinal": 0.0,
+        "abstract_acquisition": 0.0,
+        "abstract_contrast_per_100w": 0.3333333333333333,
+        "abstract_anaphora_per_100w": 1.6778523489932886,
+        "abstract_catalog_per_100w": 0.0,
+        "abstract_hedge_per_100w": 0.0,
+        "abstract_slogan_per_100w": 0.0,
+        "abstract_evidence_rank_per_100w": 0.3333333333333333,
+        "abstract_this_review_first_sentence": 0.0,
+        "abstract_sigla_defined": 0.0,
+        "abstract_calibration_per_100w": 0.3333333333333333
+      },
+      "full_features": {
+        "has_keywords": 1.0,
+        "keyword_count": 8.0,
+        "intro_word_count": 1175.0,
+        "intro_paragraphs": 10.0,
+        "intro_sentence_mean": 17.53731343283582,
+        "intro_causal_per_100w": 1.0212765957446808,
+        "intro_bad_opener": 0.0,
+        "intro_has_aim": 1.0,
+        "thematic_h2_count": 6.0,
+        "has_results_h2": 0.0,
+        "process_h2": 0.0,
+        "et_al_opener_count": 0.0,
+        "according_to_count": 0.0,
+        "has_markdown_table": 1.0,
+        "has_table_callout": 1.0,
+        "discussion_word_count": 740.0,
+        "conclusions_ordinal": 0.0,
+        "claim_first_ratio": 1.0,
+        "body_word_count": 6151.0,
+        "h3_outside_methods": 0.0,
+        "synthesis_per_100w": 0.03251503820516989,
+        "methods_before_themes": 1.0,
+        "process_outside_methods": 0.0,
+        "short_sentence_frac": 0.10204081632653061,
+        "coverage_fulltext": 1.0
+      },
+      "run_id": "2026-09-19-nanocarriers"
+    },
+    {
+      "article": "/workspace/review/runs/2026-09-19-scopus-oa-full/article.md",
+      "field": "endocrinology",
+      "p_published_form": 0.9998760177533556,
+      "decision": "published_like",
+      "top_contributions": [
+        {
+          "feature": "abstract_acquisition",
+          "signed_logit": 1.4926014677834534
+        },
+        {
+          "feature": "abstract_has_etal",
+          "signed_logit": 1.4115154943293937
+        },
+        {
+          "feature": "abstract_slogan_per_100w",
+          "signed_logit": 1.2525696850040038
+        },
+        {
+          "feature": "abstract_word_count",
+          "signed_logit": 1.1919113765924574
+        },
+        {
+          "feature": "abstract_catalog_per_100w",
+          "signed_logit": 1.1703300709622915
+        },
+        {
+          "feature": "abstract_sigla_defined",
+          "signed_logit": 0.9041957064716543
+        },
+        {
+          "feature": "abstract_hedge_per_100w",
+          "signed_logit": 0.8034034297064238
+        },
+        {
+          "feature": "title_kind_named",
+          "signed_logit": 0.43398798689701756
+        }
+      ],
+      "field_comparison": {
+        "field": "endocrinology",
+        "centroid_n": 16,
+        "mean_abs_z": 0.437347790063748,
+        "top_divergences": [
+          {
+            "feature": "abstract_sentence_mean",
+            "z": -1.6091651158772513
+          },
+          {
+            "feature": "abstract_hedge_per_100w",
+            "z": 1.147813748650193
+          },
+          {
+            "feature": "abstract_calibration_per_100w",
+            "z": 0.823045267489712
+          }
+        ]
+      },
+      "front_features": {
+        "title_word_count": 17.0,
+        "title_has_colon": 1.0,
+        "title_flourish": 0.0,
+        "title_workflow": 0.0,
+        "title_kind_named": 1.0,
+        "abstract_word_count": 243.0,
+        "abstract_sentence_mean": 18.692307692307693,
+        "abstract_has_citation": 0.0,
+        "abstract_has_etal": 0.0,
+        "abstract_ordinal": 0.0,
+        "abstract_acquisition": 0.0,
+        "abstract_contrast_per_100w": 0.0,
+        "abstract_anaphora_per_100w": 2.05761316872428,
+        "abstract_catalog_per_100w": 0.0,
+        "abstract_hedge_per_100w": 0.823045267489712,
+        "abstract_slogan_per_100w": 0.0,
+        "abstract_evidence_rank_per_100w": 0.411522633744856,
+        "abstract_this_review_first_sentence": 0.0,
+        "abstract_sigla_defined": 2.0,
+        "abstract_calibration_per_100w": 0.823045267489712
+      },
+      "full_features": {
+        "has_keywords": 1.0,
+        "keyword_count": 7.0,
+        "intro_word_count": 1672.0,
+        "intro_paragraphs": 16.0,
+        "intro_sentence_mean": 21.12987012987013,
+        "intro_causal_per_100w": 1.076555023923445,
+        "intro_bad_opener": 0.0,
+        "intro_has_aim": 0.0,
+        "thematic_h2_count": 4.0,
+        "has_results_h2": 0.0,
+        "process_h2": 0.0,
+        "et_al_opener_count": 0.0,
+        "according_to_count": 0.0,
+        "has_markdown_table": 1.0,
+        "has_table_callout": 1.0,
+        "discussion_word_count": 1258.0,
+        "conclusions_ordinal": 0.0,
+        "claim_first_ratio": 1.0,
+        "body_word_count": 7216.0,
+        "h3_outside_methods": 12.0,
+        "synthesis_per_100w": 0.01385809312638581,
+        "methods_before_themes": 1.0,
+        "process_outside_methods": 0.0,
+        "short_sentence_frac": 0.08532423208191127,
+        "coverage_fulltext": 1.0
+      },
+      "run_id": "2026-09-19-scopus-oa-full"
+    },
+    {
+      "article": "/workspace/review/runs/2026-09-19-scopus-oa/article.md",
+      "field": "endocrinology",
+      "p_published_form": 0.9764799117415344,
+      "decision": "published_like",
+      "top_contributions": [
+        {
+          "feature": "abstract_has_etal",
+          "signed_logit": 1.4115154943293937
+        },
+        {
+          "feature": "abstract_word_count",
+          "signed_logit": 1.3598596220049277
+        },
+        {
+          "feature": "abstract_slogan_per_100w",
+          "signed_logit": 1.2525696850040038
+        },
+        {
+          "feature": "abstract_catalog_per_100w",
+          "signed_logit": 1.1703300709622915
+        },
+        {
+          "feature": "abstract_acquisition",
+          "signed_logit": -0.6067485641396151
+        },
+        {
+          "feature": "title_flourish",
+          "signed_logit": -0.5490647152521019
+        },
+        {
+          "feature": "title_kind_named",
+          "signed_logit": 0.43398798689701756
+        },
+        {
+          "feature": "abstract_sentence_mean",
+          "signed_logit": 0.392234284326448
+        }
+      ],
+      "field_comparison": {
+        "field": "endocrinology",
+        "centroid_n": 16,
+        "mean_abs_z": 0.743852050322045,
+        "top_divergences": [
+          {
+            "feature": "title_flourish",
+            "z": 3.8729833462074166
+          },
+          {
+            "feature": "abstract_acquisition",
+            "z": 2.6457513110645903
+          },
+          {
+            "feature": "abstract_evidence_rank_per_100w",
+            "z": 2.3538532109092327
+          },
+          {
+            "feature": "title_workflow",
+            "z": 1.0
+          },
+          {
+            "feature": "abstract_sigla_defined",
+            "z": -0.9215455665108366
+          }
+        ]
+      },
+      "front_features": {
+        "title_word_count": 19.0,
+        "title_has_colon": 1.0,
+        "title_flourish": 1.0,
+        "title_workflow": 1.0,
+        "title_kind_named": 1.0,
+        "abstract_word_count": 262.0,
+        "abstract_sentence_mean": 26.2,
+        "abstract_has_citation": 0.0,
+        "abstract_has_etal": 0.0,
+        "abstract_ordinal": 0.0,
+        "abstract_acquisition": 1.0,
+        "abstract_contrast_per_100w": 0.0,
+        "abstract_anaphora_per_100w": 2.2900763358778624,
+        "abstract_catalog_per_100w": 0.0,
+        "abstract_hedge_per_100w": 0.0,
+        "abstract_slogan_per_100w": 0.0,
+        "abstract_evidence_rank_per_100w": 2.6717557251908395,
+        "abstract_this_review_first_sentence": 0.0,
+        "abstract_sigla_defined": 0.0,
+        "abstract_calibration_per_100w": 0.0
+      },
+      "full_features": {
+        "has_keywords": 1.0,
+        "keyword_count": 7.0,
+        "intro_word_count": 164.0,
+        "intro_paragraphs": 3.0,
+        "intro_sentence_mean": 20.5,
+        "intro_causal_per_100w": 0.6097560975609756,
+        "intro_bad_opener": 0.0,
+        "intro_has_aim": 0.0,
+        "thematic_h2_count": 4.0,
+        "has_results_h2": 0.0,
+        "process_h2": 0.0,
+        "et_al_opener_count": 6.0,
+        "according_to_count": 0.0,
+        "has_markdown_table": 0.0,
+        "has_table_callout": 0.0,
+        "discussion_word_count": 235.0,
+        "conclusions_ordinal": 0.0,
+        "claim_first_ratio": 0.5714285714285714,
+        "body_word_count": 2312.0,
+        "h3_outside_methods": 0.0,
+        "synthesis_per_100w": 0.0,
+        "methods_before_themes": 1.0,
+        "process_outside_methods": 1.0,
+        "short_sentence_frac": 0.08333333333333333,
+        "coverage_fulltext": 1.0
+      },
+      "run_id": "2026-09-19-scopus-oa"
+    },
+    {
+      "article": "/workspace/review/runs/2026-09-20-scopus-hpp/article.md",
+      "field": "food-science",
+      "p_published_form": 0.9990476102299591,
+      "decision": "published_like",
+      "top_contributions": [
+        {
+          "feature": "abstract_acquisition",
+          "signed_logit": 1.4926014677834534
+        },
+        {
+          "feature": "abstract_anaphora_per_100w",
+          "signed_logit": -1.4685189106928958
+        },
+        {
+          "feature": "abstract_has_etal",
+          "signed_logit": 1.4115154943293937
+        },
+        {
+          "feature": "abstract_slogan_per_100w",
+          "signed_logit": 1.2525696850040038
+        },
+        {
+          "feature": "abstract_catalog_per_100w",
+          "signed_logit": 1.1703300709622915
+        },
+        {
+          "feature": "abstract_word_count",
+          "signed_logit": 1.1123569445549712
+        },
+        {
+          "feature": "abstract_hedge_per_100w",
+          "signed_logit": 0.8388420961774326
+        },
+        {
+          "feature": "title_kind_named",
+          "signed_logit": 0.43398798689701756
+        }
+      ],
+      "field_comparison": {
+        "field": "food-science",
+        "centroid_n": 11,
+        "mean_abs_z": 0.778076818484293,
+        "top_divergences": [
+          {
+            "feature": "abstract_hedge_per_100w",
+            "z": 6.4623981927030725
+          },
+          {
+            "feature": "abstract_anaphora_per_100w",
+            "z": 2.730899866523353
+          },
+          {
+            "feature": "title_word_count",
+            "z": 1.0896073613508488
+          },
+          {
+            "feature": "abstract_contrast_per_100w",
+            "z": -0.880394726559941
+          },
+          {
+            "feature": "abstract_word_count",
+            "z": 0.8001508166725158
+          }
+        ]
+      },
+      "front_features": {
+        "title_word_count": 19.0,
+        "title_has_colon": 1.0,
+        "title_flourish": 0.0,
+        "title_workflow": 0.0,
+        "title_kind_named": 1.0,
+        "abstract_word_count": 234.0,
+        "abstract_sentence_mean": 26.0,
+        "abstract_has_citation": 0.0,
+        "abstract_has_etal": 0.0,
+        "abstract_ordinal": 0.0,
+        "abstract_acquisition": 0.0,
+        "abstract_contrast_per_100w": 0.0,
+        "abstract_anaphora_per_100w": 4.700854700854701,
+        "abstract_catalog_per_100w": 0.0,
+        "abstract_hedge_per_100w": 0.8547008547008547,
+        "abstract_slogan_per_100w": 0.0,
+        "abstract_evidence_rank_per_100w": 0.0,
+        "abstract_this_review_first_sentence": 0.0,
+        "abstract_sigla_defined": 1.0,
+        "abstract_calibration_per_100w": 0.42735042735042733
+      },
+      "full_features": {
+        "has_keywords": 1.0,
+        "keyword_count": 7.0,
+        "intro_word_count": 1105.0,
+        "intro_paragraphs": 11.0,
+        "intro_sentence_mean": 18.114754098360656,
+        "intro_causal_per_100w": 2.081447963800905,
+        "intro_bad_opener": 0.0,
+        "intro_has_aim": 1.0,
+        "thematic_h2_count": 5.0,
+        "has_results_h2": 0.0,
+        "process_h2": 0.0,
+        "et_al_opener_count": 0.0,
+        "according_to_count": 0.0,
+        "has_markdown_table": 1.0,
+        "has_table_callout": 1.0,
+        "discussion_word_count": 823.0,
+        "conclusions_ordinal": 0.0,
+        "claim_first_ratio": 1.0,
+        "body_word_count": 7327.0,
+        "h3_outside_methods": 11.0,
+        "synthesis_per_100w": 0.054592602702333834,
+        "methods_before_themes": 1.0,
+        "process_outside_methods": 0.0,
+        "short_sentence_frac": 0.0626865671641791,
+        "coverage_fulltext": 1.0
+      },
+      "run_id": "2026-09-20-scopus-hpp"
+    },
+    {
+      "article": "/workspace/review/runs/2026-09-20-pd-cannabinoids/article.md",
+      "field": "neuroscience",
+      "p_published_form": 0.9993747266496572,
+      "decision": "published_like",
+      "top_contributions": [
+        {
+          "feature": "abstract_acquisition",
+          "signed_logit": 1.4926014677834534
+        },
+        {
+          "feature": "abstract_has_etal",
+          "signed_logit": 1.4115154943293937
+        },
+        {
+          "feature": "abstract_slogan_per_100w",
+          "signed_logit": 1.2525696850040038
+        },
+        {
+          "feature": "abstract_word_count",
+          "signed_logit": 1.1830719952549589
+        },
+        {
+          "feature": "abstract_catalog_per_100w",
+          "signed_logit": 1.1703300709622915
+        },
+        {
+          "feature": "title_kind_named",
+          "signed_logit": 0.43398798689701756
+        },
+        {
+          "feature": "abstract_sentence_mean",
+          "signed_logit": 0.41706616299319893
+        },
+        {
+          "feature": "abstract_contrast_per_100w",
+          "signed_logit": 0.3366667718243546
+        }
+      ],
+      "field_comparison": {
+        "field": "neuroscience",
+        "centroid_n": 16,
+        "mean_abs_z": 0.32997791072144117,
+        "top_divergences": [
+          {
+            "feature": "abstract_sentence_mean",
+            "z": 1.1482717407716252
+          },
+          {
+            "feature": "abstract_anaphora_per_100w",
+            "z": 0.9602088589419278
+          }
+        ]
+      },
+      "front_features": {
+        "title_word_count": 16.0,
+        "title_has_colon": 1.0,
+        "title_flourish": 0.0,
+        "title_workflow": 0.0,
+        "title_kind_named": 1.0,
+        "abstract_word_count": 242.0,
+        "abstract_sentence_mean": 26.88888888888889,
+        "abstract_has_citation": 0.0,
+        "abstract_has_etal": 0.0,
+        "abstract_ordinal": 0.0,
+        "abstract_acquisition": 0.0,
+        "abstract_contrast_per_100w": 0.4132231404958678,
+        "abstract_anaphora_per_100w": 2.0661157024793386,
+        "abstract_catalog_per_100w": 0.0,
+        "abstract_hedge_per_100w": 0.0,
+        "abstract_slogan_per_100w": 0.0,
+        "abstract_evidence_rank_per_100w": 0.8264462809917356,
+        "abstract_this_review_first_sentence": 0.0,
+        "abstract_sigla_defined": 0.0,
+        "abstract_calibration_per_100w": 0.0
+      },
+      "full_features": {
+        "has_keywords": 1.0,
+        "keyword_count": 6.0,
+        "intro_word_count": 1098.0,
+        "intro_paragraphs": 7.0,
+        "intro_sentence_mean": 23.361702127659573,
+        "intro_causal_per_100w": 1.092896174863388,
+        "intro_bad_opener": 0.0,
+        "intro_has_aim": 1.0,
+        "thematic_h2_count": 5.0,
+        "has_results_h2": 0.0,
+        "process_h2": 0.0,
+        "et_al_opener_count": 0.0,
+        "according_to_count": 0.0,
+        "has_markdown_table": 1.0,
+        "has_table_callout": 1.0,
+        "discussion_word_count": 810.0,
+        "conclusions_ordinal": 0.0,
+        "claim_first_ratio": 1.0,
+        "body_word_count": 9592.0,
+        "h3_outside_methods": 0.0,
+        "synthesis_per_100w": 0.020850708924103418,
+        "methods_before_themes": 1.0,
+        "process_outside_methods": 0.0,
+        "short_sentence_frac": 0.051351351351351354,
+        "coverage_fulltext": 1.0
+      },
+      "run_id": "2026-09-20-pd-cannabinoids"
+    },
+    {
+      "article": "/workspace/tests/fixtures/good-article.md",
+      "field": "generic-narrative",
+      "p_published_form": 0.9996478381708108,
+      "decision": "published_like",
+      "top_contributions": [
+        {
+          "feature": "abstract_acquisition",
+          "signed_logit": 1.4926014677834534
+        },
+        {
+          "feature": "abstract_has_etal",
+          "signed_logit": 1.4115154943293937
+        },
+        {
+          "feature": "abstract_slogan_per_100w",
+          "signed_logit": 1.2525696850040038
+        },
+        {
+          "feature": "abstract_catalog_per_100w",
+          "signed_logit": 1.1703300709622915
+        },
+        {
+          "feature": "abstract_contrast_per_100w",
+          "signed_logit": 1.102258691450051
+        },
+        {
+          "feature": "abstract_hedge_per_100w",
+          "signed_logit": 1.0361295177686138
+        },
+        {
+          "feature": "abstract_anaphora_per_100w",
+          "signed_logit": -0.5984964328276179
+        },
+        {
+          "feature": "abstract_calibration_per_100w",
+          "signed_logit": 0.5465033828755493
+        }
+      ],
+      "field_comparison": {
+        "field": "generic-narrative",
+        "centroid_n": 60,
+        "mean_abs_z": 0.5632819457210151,
+        "top_divergences": [
+          {
+            "feature": "abstract_calibration_per_100w",
+            "z": 1.8400228561638403
+          },
+          {
+            "feature": "abstract_word_count",
+            "z": -1.4921248179042828
+          },
+          {
+            "feature": "abstract_anaphora_per_100w",
+            "z": 1.4873371275087066
+          },
+          {
+            "feature": "title_word_count",
+            "z": -1.0125791108334214
+          },
+          {
+            "feature": "abstract_hedge_per_100w",
+            "z": 0.9306889500226093
+          },
+          {
+            "feature": "title_kind_named",
+            "z": 0.7884298457197197
+          },
+          {
+            "feature": "abstract_contrast_per_100w",
+            "z": 0.7558707678550264
+          }
+        ]
+      },
+      "front_features": {
+        "title_word_count": 10.0,
+        "title_has_colon": 1.0,
+        "title_flourish": 0.0,
+        "title_workflow": 0.0,
+        "title_kind_named": 1.0,
+        "abstract_word_count": 97.0,
+        "abstract_sentence_mean": 16.166666666666668,
+        "abstract_has_citation": 0.0,
+        "abstract_has_etal": 0.0,
+        "abstract_ordinal": 0.0,
+        "abstract_acquisition": 0.0,
+        "abstract_contrast_per_100w": 1.0309278350515463,
+        "abstract_anaphora_per_100w": 3.0927835051546393,
+        "abstract_catalog_per_100w": 0.0,
+        "abstract_hedge_per_100w": 1.0309278350515463,
+        "abstract_slogan_per_100w": 0.0,
+        "abstract_evidence_rank_per_100w": 0.0,
+        "abstract_this_review_first_sentence": 0.0,
+        "abstract_sigla_defined": 0.0,
+        "abstract_calibration_per_100w": 1.0309278350515463
+      },
+      "full_features": {
+        "has_keywords": 1.0,
+        "keyword_count": 4.0,
+        "intro_word_count": 107.0,
+        "intro_paragraphs": 3.0,
+        "intro_sentence_mean": 15.285714285714286,
+        "intro_causal_per_100w": 0.0,
+        "intro_bad_opener": 0.0,
+        "intro_has_aim": 1.0,
+        "thematic_h2_count": 3.0,
+        "has_results_h2": 0.0,
+        "process_h2": 0.0,
+        "et_al_opener_count": 0.0,
+        "according_to_count": 0.0,
+        "has_markdown_table": 1.0,
+        "has_table_callout": 1.0,
+        "discussion_word_count": 47.0,
+        "conclusions_ordinal": 0.0,
+        "claim_first_ratio": 1.0,
+        "body_word_count": 642.0,
+        "h3_outside_methods": 0.0,
+        "synthesis_per_100w": 0.4672897196261682,
+        "methods_before_themes": 1.0,
+        "process_outside_methods": 0.0,
+        "short_sentence_frac": 0.12121212121212122,
+        "coverage_fulltext": 1.0
+      },
+      "run_id": "fixture-good"
+    },
+    {
+      "article": "/workspace/tests/fixtures/bad-article.md",
+      "field": "generic-narrative",
+      "p_published_form": 0.04744836925684979,
+      "decision": "catalog_like",
+      "top_contributions": [
+        {
+          "feature": "abstract_anaphora_per_100w",
+          "signed_logit": -3.433816261377613
+        },
+        {
+          "feature": "abstract_has_etal",
+          "signed_logit": 1.4115154943293937
+        },
+        {
+          "feature": "abstract_slogan_per_100w",
+          "signed_logit": 1.2525696850040038
+        },
+        {
+          "feature": "abstract_catalog_per_100w",
+          "signed_logit": 1.1703300709622915
+        },
+        {
+          "feature": "abstract_word_count",
+          "signed_logit": -0.8499857123696849
+        },
+        {
+          "feature": "abstract_acquisition",
+          "signed_logit": -0.6067485641396151
+        },
+        {
+          "feature": "title_flourish",
+          "signed_logit": -0.5490647152521019
+        },
+        {
+          "feature": "title_has_colon",
+          "signed_logit": -0.4770562831001039
+        }
+      ],
+      "field_comparison": {
+        "field": "generic-narrative",
+        "centroid_n": 60,
+        "mean_abs_z": 1.129391601110851,
+        "top_divergences": [
+          {
+            "feature": "abstract_anaphora_per_100w",
+            "z": 6.616486985897068
+          },
+          {
+            "feature": "abstract_acquisition",
+            "z": 2.549509756796392
+          },
+          {
+            "feature": "abstract_word_count",
+            "z": -2.5062288386014897
+          },
+          {
+            "feature": "title_has_colon",
+            "z": -2.3804761428476167
+          },
+          {
+            "feature": "title_word_count",
+            "z": -2.1376670117594454
+          },
+          {
+            "feature": "title_kind_named",
+            "z": -1.2683436648534625
+          },
+          {
+            "feature": "title_flourish",
+            "z": 1.0
+          },
+          {
+            "feature": "abstract_hedge_per_100w",
+            "z": -0.7504816116520934
+          }
+        ]
+      },
+      "front_features": {
+        "title_word_count": 5.0,
+        "title_has_colon": 0.0,
+        "title_flourish": 1.0,
+        "title_workflow": 0.0,
+        "title_kind_named": 0.0,
+        "abstract_word_count": 12.0,
+        "abstract_sentence_mean": 9.0,
+        "abstract_has_citation": 0.0,
+        "abstract_has_etal": 0.0,
+        "abstract_ordinal": 0.0,
+        "abstract_acquisition": 1.0,
+        "abstract_contrast_per_100w": 0.0,
+        "abstract_anaphora_per_100w": 8.333333333333334,
+        "abstract_catalog_per_100w": 0.0,
+        "abstract_hedge_per_100w": 0.0,
+        "abstract_slogan_per_100w": 0.0,
+        "abstract_evidence_rank_per_100w": 0.0,
+        "abstract_this_review_first_sentence": 0.0,
+        "abstract_sigla_defined": 0.0,
+        "abstract_calibration_per_100w": 0.0
+      },
+      "full_features": {
+        "has_keywords": 1.0,
+        "keyword_count": 1.0,
+        "intro_word_count": 8.0,
+        "intro_paragraphs": 1.0,
+        "intro_sentence_mean": 8.0,
+        "intro_causal_per_100w": 0.0,
+        "intro_bad_opener": 1.0,
+        "intro_has_aim": 0.0,
+        "thematic_h2_count": 2.0,
+        "has_results_h2": 1.0,
+        "process_h2": 0.0,
+        "et_al_opener_count": 0.0,
+        "according_to_count": 0.0,
+        "has_markdown_table": 0.0,
+        "has_table_callout": 0.0,
+        "discussion_word_count": 9.0,
+        "conclusions_ordinal": 0.0,
+        "claim_first_ratio": 0.0,
+        "body_word_count": 114.0,
+        "h3_outside_methods": 0.0,
+        "synthesis_per_100w": 0.0,
+        "methods_before_themes": 1.0,
+        "process_outside_methods": 1.0,
+        "short_sentence_frac": 0.5454545454545454,
+        "coverage_fulltext": 1.0
+      },
+      "run_id": "fixture-bad"
+    }
+  ]
+}
