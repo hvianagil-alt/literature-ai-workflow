@@ -39,6 +39,11 @@ python3 -m unittest discover -s tests -q
 # Confirm skill/agent layout is present (workflow surface).
 test -f AGENTS.md
 test -f .cursor/agents/literature-review.md
+test -f .cursor/agents/literature-critic.md
+test -f .cursor/skills/first-conversation/SKILL.md
+test -f .cursor/skills/review-harness/SKILL.md
+test -f review/memory/index.md
+test -f scripts/check_harness.py
 test -f .cursor/skills/paper-extraction/SKILL.md
 test -f .cursor/skills/literature-table/SKILL.md
 test -f .cursor/skills/report-writing/SKILL.md

@@ -8,7 +8,7 @@ You do not need to code. You need a chat account you already have, and this repo
 
 ## What it does
 
-You name a topic or drop PDFs. The assistant asks who you are and what you need, then reads **open-access** papers, extracts facts, builds a table, and writes an `.md` article. The introduction is meant to teach the field, not dump abstracts.
+You name a topic or drop PDFs. The assistant asks who you are and what you need, then reads **open-access** papers, extracts facts, builds a table, checks the notes, writes an `.md` article, and checks the story again. The introduction is meant to teach the field, not dump abstracts. It works for a new user in different life-science fields (food, endocrinology, nanomedicine, or another topic you name).
 
 It does not invent citations, open paywalls, or replace your scientific judgment. The article is a strong draft for you to edit.
 
@@ -61,16 +61,18 @@ Download the ZIP from GitHub (**Code → Download ZIP**). In a Project, upload `
 
 ```mermaid
 flowchart TD
-  A[Name the topic in chat] --> B[Questions: field, goal, papers, years, journals]
+  A[Name the topic in chat] --> B[Questions: who you are, field, goal, papers]
   B --> C{PDFs or only a topic?}
   C -->|PDFs or DOIs| D[Read the papers]
   C -->|Nothing yet| E[Search open-access papers]
   E --> D
-  D --> F[Notes + table]
-  F --> G[Fill remaining gaps]
-  G --> H[Markdown article]
-  H --> I[Quality checks]
-  I --> J[Optional Word or PDF]
+  D --> F[Notes until they check out]
+  F --> G[Table, then interpretation, then extra papers if needed]
+  G --> H[Compare the outline to reviews in that field]
+  H --> I[Markdown article]
+  I --> J[Automatic checks; rewrite if they fail]
+  J --> K[Second reader checks numbers and the story]
+  K --> L[Optional Word or PDF]
 ```
 
 ## Files you receive

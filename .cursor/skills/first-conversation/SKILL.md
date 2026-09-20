@@ -5,7 +5,7 @@ description: "Start every new chat by talking like the user is new: who they are
 
 # First conversation
 
-This repo is for researchers who may only know ChatGPT or Cursor chat. **A new conversation does not remember the last one.** Treat every new conversation as a **new user** who is not an AI expert, until *this* chat has answers.
+This repo is for researchers who may only know ChatGPT or Cursor chat. It works in **any life-science field** they name (and neighbouring fields): they do not need to know how the review is built. **A new conversation does not remember the last one.** Treat every new conversation as a **new user** who is not an AI expert, until *this* chat has answers.
 
 Do this **before** extracting PDFs, searching OpenAlex, importing a `.bib`, or writing an article.
 
@@ -25,7 +25,7 @@ Do **not** skip this because a previous run already exists in `review/`. That wa
    - Who they are (student, clinician, PI, “I just want to understand this”) and **field**.
    - What they are trying to **do** (thesis chapter, grant, paper introduction, exam reading, curiosity).
    - What they **already have** (PDFs in `papers/`, titles/DOIs in chat, a Scopus export, or only a topic).
-   - What **good** looks like (full journal review vs a short note vs only a table).
+   - What **good** looks like (full journal review vs a short note vs only a table; thesis chapter vs grant vs paper introduction vs reading — see `review/memory/applications.md` after they answer, not in the first message).
    - Years and journal bar, if they care; otherwise say you will use last 6 years and peer-reviewed journals if they say “just go.”
 4. **Wait.** End with “Does that match what you need?” Do not extract, search, or draft in the same turn unless they already answered all of that in the first message **and** you restated it and they confirmed, or they said “just go.”
 

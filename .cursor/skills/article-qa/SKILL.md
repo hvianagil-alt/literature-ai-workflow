@@ -43,4 +43,4 @@ If this fails: rewrite using `review-prose` and `scientific-synthesis` (phenomen
 
 ## Handoff
 
-Only after both scripts pass: run the `double-check` skill (spot-check claims; write `double-check.md`). Only then tell the user where the **Markdown** article is and offer to iterate (add papers, adjust scope, refine a section, or export Word/PDF with `export-manuscript`).
+Only after both scripts pass: run the critic / `double-check` skill (spot-check claims; write `double-check.md` and `critic-log.md`). Then `python3 scripts/check_harness.py --run-dir review/runs/<id> --full`. Only then tell the user where the **Markdown** article is and offer to iterate (add papers, adjust scope, refine a section, or export Word/PDF with `export-manuscript`).

@@ -25,7 +25,7 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 8. **In-article tables.** At least one Markdown pipe table and an in-text `Table N` sentence. Cells must match the notes.
 9. **Story spine (do not skip; do not wait for the user).** Adjacent-field reader test: after the Introduction alone, can someone expert in a neighbouring field follow the later sections? Are `##` headings thematic arguments, not a generic Results dump plus fragment `###` notes? **Mechanism test:** do teaching paragraphs join condition → effect → measurement, graded by evidence? **Synthesis test (`scientific-synthesis`):** can you name each paragraph’s question; is the Discussion a “so what” rather than a second Results; can the whole paper be stated in five steps (problem, evidence, explanation, limitation, contribution)? If any answer is no, rewrite `article.md` now and re-run `check_article.py`. Record the tests in the log.
 10. **Discussion.** Interprets findings. No identification counts, fetch logs, or token meters.
-11. **Write the log** to `review/runs/<run-id>/double-check.md` (or `review/report/double-check.md`):
+11. **Write the log** to `review/runs/<run-id>/double-check.md` (or `review/report/double-check.md`). Also write `critic-log.md` with `Critic verdict: PASS` or `FAIL` (see `.cursor/agents/literature-critic.md`). Prefer launching that critic as a separate agent after the scripts pass.
 
 ```markdown
 # Double-check — <run-id>
@@ -43,6 +43,8 @@ description: "Mandatory second look after the machine quality gate. Spot-check c
 - Paragraph function (claim → evidence → contrast → explanation → synthesis): yes/no.
 - Whole-paper argument (problem / evidence / explanation / limitation / contribution): …
 - Field-structure benchmark (`structure-benchmark.md`): done / n/a; verdict keep / change?
+- Field memory card: `review/memory/…`
+- Critic verdict: PASS / FAIL
 - Heading spine: thematic `##` sections, not generic Results?
 - Tables in article: Table 1 … mentioned in prose?
 - If two passes: rank pass 1 vs pass 2 on abstract, tables, traceability, Discussion, completeness (1–5 each) and say which is the deliverable.
@@ -61,4 +63,4 @@ Scope stays the agreed protocol. Do not silently drop or add papers. Extra OA re
 
 ## Handoff
 
-After the log exists and remaining fixes are in `article.md`, tell the user the article is ready and point at `double-check.md`. **Ask in that same message if they also want Word and PDF.** Offer to iterate (add papers, adjust scope, refine a section).
+After the log exists, remaining fixes are in `article.md`, **and** `python3 scripts/check_harness.py --run-dir review/runs/<id> --full` exits 0, tell the user the article is ready. **Ask in that same message if they also want Word and PDF.** Offer to iterate (add papers, adjust scope, refine a section).

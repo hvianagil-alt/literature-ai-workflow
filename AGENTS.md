@@ -8,7 +8,7 @@ Researchers in **life sciences** (and neighbouring fields) who are not AI expert
 
 ## The workflow, in order
 
-This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs — **five hard gates** must complete before you tell the user the article is done: the first conversation (step 0), direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), the machine quality gate (step 8), and the double-check (step 9).
+This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs. Run it as the **review-harness**: extract until green, form-check against `review/memory/`, rewrite the article until the scripts pass, then an independent critic. **Six hard gates** must complete before you tell the user the article is done: the first conversation (step 0), direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), field memory + structure benchmark (step 6b), the machine quality gate (step 8), and the critic + `check_harness.py --full` (step 9).
 
 **The article is not done when the file exists.** It is done when `scripts/check_extraction.py` and `scripts/check_article.py` exit 0. A previous run failed by delivering mechanical notes and catalog sentences. Do not repeat that. Do not rewrite an earlier sample's `article.md` unless the user asked to change that manuscript.
 
@@ -65,7 +65,7 @@ Gap-driven extra retrieval after the table is **not** this step — that is step
 
 ### 4. Extract
 
-For each in-scope paper, use the `paper-extraction` skill to produce a note in `review/notes/` (and the run copy if you are in `review/runs/<run-id>/`). `scripts/notes_from_text.py` is a **stub**. Fill `## Claim-ready facts` from the PDF. Report progress as you go (e.g. "3 of 7 done, 1 unreadable — see below"). Surface unreadable-PDF failures immediately rather than silently skipping them.
+For each in-scope paper, use the `paper-extraction` skill (the `literature-extractor` agent if you can launch it) to produce a note in `review/notes/` (and the run copy if you are in `review/runs/<run-id>/`). `scripts/notes_from_text.py` is a **stub**. Fill `## Claim-ready facts` from the PDF. Report progress as you go (e.g. "3 of 7 done, 1 unreadable — see below"). Surface unreadable-PDF failures immediately rather than silently skipping them. **Loop:** run the check below, fill stubs, repeat — max 3 cycles — then list what is still unreadable.
 
 Extraction is not finished until:
 
@@ -96,9 +96,9 @@ Use the `synthesis-rationale` skill:
 
 Only after the rationale, the retrieval attempts, and the updated table exist may you go to step 6b.
 
-### 6b. Field-structure benchmark (before drafting)
+### 6b. Field memory + structure benchmark (before drafting)
 
-Use `field-structure-benchmark`. Compare rationale **(e)** headings with published reviews of the **same kind and same field** (included review papers first). Copy **form only**. Write `structure-benchmark.md`. Update (e) if a field-standard topic is already supported by the sample. Do not add empty chapters for equipment, energy, or consumer acceptance when the sample has no measurements.
+Open `review/memory/index.md` and pick the card for this user’s field (and `applications.md` for thesis/grant/paper/reading). Then use `field-structure-benchmark` (the `field-form-reader` agent if you can launch it). Compare rationale **(e)** with (1) that memory card and (2) published reviews of the **same kind and same field** in *this* sample. Copy **form only**. Write `structure-benchmark.md` with a `Memory consulted:` line. Update (e) if a field-standard topic is already supported by the sample. Do not add empty chapters for equipment, energy, or consumer acceptance when the sample has no measurements. Do not import numbers from a memory card or from another run’s article.
 
 ### 7. Write the journal review (only after steps 6 and 6b)
 
@@ -145,11 +145,19 @@ python3 scripts/check_article.py \
   --table review/runs/<run-id>/table/literature-table.md
 ```
 
-If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. Repeat until exit 0. Use `--short` only if the user asked for a short note. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint.
+If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. **Max 3 cycles.** Repeat until exit 0. Use `--short` only if the user asked for a short note. After 3 failures, do not deliver. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint.
 
-### 9. Double-check (mandatory, after the scripts)
+### 9. Critic / double-check (mandatory, after the scripts)
 
-Use the `double-check` skill. Scripts can pass while notes are still leads, the literature table is still a DRAFT, a number in the article does not match the PDF, **or the Introduction still does not teach**. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, apply the **adjacent-field reader test** to the Introduction and heading spine, and write `review/runs/<run-id>/double-check.md`. If the teaching test fails, rewrite `article.md` without waiting for the user. If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`, rewrite `article.md`, and rank both passes in that log. **Do not tell the user the article is done until this log exists.**
+Use the `double-check` skill. Prefer the **`literature-critic`** agent so the writer and the checker are not the same pass. Scripts can pass while notes are still leads, the literature table is still a DRAFT, a number in the article does not match the PDF, **or the Introduction still does not teach**. Spot-check at least five numeric claims against notes (and the PDF if they disagree), confirm the Abstract has no citations, confirm in-article tables, apply the **adjacent-field reader test**, check the heading spine against the memory card, and write `double-check.md` plus `critic-log.md`. The critic file must contain `Critic verdict: PASS` or `FAIL`. If FAIL: rewrite once, re-run `check_article.py`, critic again. If still FAIL, do not deliver.
+
+Then:
+
+```bash
+python3 scripts/check_harness.py --run-dir review/runs/<run-id> --full
+```
+
+**Do not tell the user the article is done until that command exits 0.** If this is a re-run of the same papers, keep the previous manuscript as `article-pass1.md`. If this field had no memory card and the critic passed, add a form-only card under `review/memory/`.
 
 ### 10. Iterate
 
@@ -165,7 +173,8 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 6. **No required external services for reading local PDFs.** Extraction and the rationale can run on files already in the repo. Targeted extra retrieval uses the same public OA path as `oa-fetch`. If the network fails or no OA PDF exists, document that and write the article with the gap left open — never treat a missing PDF as a reason to invent a citation, and never treat OA fetch as a paywall bypass.
 7. **Keep outputs where they belong.** Per-paper notes → `review/notes/` (and run `notes/`). Table → `review/table/literature-table.md`. Rationale → `review/runs/<run-id>/synthesis-rationale.md` or `review/report/synthesis-rationale.md`. Article → `review/runs/<run-id>/article.md` and/or `review/report/final-report.md`. Usage/tokens → `usage-log.md` only.
 8. **PDFs stay gitignored.** Do not commit downloaded PDFs.
-9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py` (including the teaching-Introduction and thematic-spine gates). Story quality is a default, not a user request. Do not rewrite a previous sample unless asked.
+9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py` (including the teaching-Introduction and thematic-spine gates). `check_harness.py --full` must exit 0. Story quality is a default, not a user request. Do not rewrite a previous sample unless asked.
+10. **`review/memory/` is form only.** Never copy findings from another field’s article into this one.
 
 ## Skills reference
 
@@ -179,6 +188,7 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 | Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
 | Evidence synthesis and reasoning audits | `scientific-synthesis` | `.cursor/skills/scientific-synthesis/SKILL.md` |
 | Same-field heading/topic check (form only) | `field-structure-benchmark` | `.cursor/skills/field-structure-benchmark/SKILL.md` |
+| Loops, roles, and the done-gate | `review-harness` | `.cursor/skills/review-harness/SKILL.md` |
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
 | Second look after the scripts | `double-check` | `.cursor/skills/double-check/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |
@@ -190,4 +200,4 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 
 ## Worked examples
 
-Before running this for real, you (the agent) and the user can both look at [`examples/`](examples/README.md) for a fully worked, clearly fictional literature table, synthesis rationale, and report — this shows the destination of the workflow without needing real papers first.
+Before running this for real, you (the agent) and the user can both look at [`examples/`](examples/README.md) for a fully worked, clearly fictional literature table, synthesis rationale, and report — this shows the destination of the workflow without needing real papers first. Field **form** cards (not findings) live in [`review/memory/`](review/memory/README.md).

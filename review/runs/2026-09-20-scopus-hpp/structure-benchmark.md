@@ -2,6 +2,7 @@
 
 **Our kind:** narrative journal review (not a systematic review or meta-analysis).  
 **Our organising principle:** scientific **questions** (why the same MPa is not the same kill; legal pasteurisation vs what was measured; spores and heat under pressure; quality endpoints that do not track plate counts; other nonthermal unit operations as supporting technologies).  
+**Memory consulted:** `review/memory/food-science.md` (form only; this run also supplied the card).  
 **Comparators (n = 12):** included OA review full texts already in this run (headings from JATS/XML or extracted text). No extra OA reviews were fetched for this benchmark. Form only.
 
 | Comparator | Kind | Organising principle (headings) |

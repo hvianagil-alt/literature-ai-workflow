@@ -18,7 +18,7 @@ Do not skip this on a full journal manuscript. A short note (`--short`) may skip
 
 ## Same area, same style
 
-Use **included review articles first** (already extracted; headings are in the XML/PDF/txt). Optionally add **two to five extra OA reviews** found with `search_oa_related.py` whose titles name both the **field** and the **kind** (narrative / systematic / scoping). Fetch public full texts only. If none are OA, benchmark from the included reviews alone and say so.
+Open `review/memory/index.md` first. Record `Memory consulted: review/memory/<card>.md` in the output file. Then use **included review articles** (already extracted; headings are in the XML/PDF/txt). Optionally add **two to five extra OA reviews** found with `search_oa_related.py` whose titles name both the **field** and the **kind** (narrative / systematic / scoping). Fetch public full texts only. If none are OA, benchmark from the included reviews alone and say so.
 
 Match **kind to kind**:
 
@@ -49,6 +49,7 @@ Write `review/runs/<run-id>/structure-benchmark.md` (fallback `review/report/str
 
 **Our kind:** narrative / systematic / …
 **Our organising principle:** …
+**Memory consulted:** review/memory/<card>.md
 **Comparators (n=):** citation or included citekey, kind, OA yes/no
 
 ## Heading inventory
