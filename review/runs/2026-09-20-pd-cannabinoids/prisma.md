@@ -8,7 +8,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 | Source | n |
 |---|---|
 | Records from Scopus export (`identification.bib`) | 279 |
-| Additional records from other sources | 0 |
+| Additional records from other sources | 2 |
 | Duplicates removed | 1 |
 | Records after duplicates removed | 278 |
 
@@ -27,7 +27,7 @@ They are not inferred. Empty cells mean the step has not been recorded yet.
 
 | Set | n |
 |---|---|
-| Studies included in the review | 29 |
+| Studies included in the review | 31 |
 
 ## Exclusion reasons (title/metadata)
 

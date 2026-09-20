@@ -1,7 +1,7 @@
 {
   "duplicates_removed": 1,
   "duplicate_note": "Jiang2024 citekey collision disambiguated as Jiang2024--article vs Jiang2024--review; 279 unique record_ids.",
-  "additional_records": 0,
+  "additional_records": 2,
   "n_screened": 279,
   "title_include": [
     "Karunakaran2025",
@@ -1706,7 +1706,9 @@
     "Fowler2026",
     "Hidding2024117",
     "Hafida2024",
-    "Hakami2025"
+    "Hakami2025",
+    "Peball2022sleep",
+    "Han2022ecs"
   ],
   "included_reviews": [
     "Blebea2025",
@@ -1741,5 +1743,21 @@
     "Caiza Asitimbay2025",
     "Diadhiou20241257"
   ],
-  "notes": "Reviews and original articles kept in separate catalog files. Inclusion after OA retrieval: cannabinoid/cannabis/CB receptor/nabilone studies or PD natural-product surveys reporting cannabis use. Neighbouring PD imaging without cannabinoid question excluded at full text."
+  "notes": "Reviews and original articles kept in separate catalog files. Inclusion after OA retrieval: cannabinoid/cannabis/CB receptor/nabilone studies or PD natural-product surveys reporting cannabis use. Neighbouring PD imaging without cannabinoid question excluded at full text.",
+  "gap_fill_included": [
+    "Peball2022sleep",
+    "Han2022ecs"
+  ],
+  "gap_fill_not_retrieved": [
+    {
+      "doi": "10.1002/mds.29768",
+      "citekey": "Liu2024863",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "doi": "10.1002/mds.29447",
+      "citekey": "Leehey2023cog",
+      "reason": "no_public_pdf_found"
+    }
+  ]
 }
