@@ -189,6 +189,7 @@ Posterior diabetic retinopathy is treated in the vitreous because the ocular sur
 
 
 
+
 [1] Wang Z, Zhang W, Sun Y, Yao F. Recent advances in the treatment and delivery system of diabetic retinopathy. Frontiers in Endocrinology. 2024. doi:10.3389/fendo.2024.1347864
 
 [2] Ahmed S, Amin MM, Sayed S. Ocular drug delivery: a comprehensive review. AAPS PharmSciTech. 2023. doi:10.1208/s12249-023-02516-9
