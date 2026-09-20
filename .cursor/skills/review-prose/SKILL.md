@@ -220,6 +220,35 @@ Right (continuous):
 
 `check_article.py` fails if Abstract, Introduction, Discussion, or Conclusions stack two or more *First,/Second,/Finally,* openers, or if the Abstract or Conclusions use a roman or arabic list as the argument.
 
+## Mechanism articulation (mandatory in the teaching sections)
+
+A review that lists facts without saying **why** they follow from one another is a catalogue. When the article explains a mechanism, a technology, or a reason practice is easy or hard, write **connected clauses**, not a stack of three- to eight-word sentences.
+
+This is the form copied from published reviews (physiology and methods papers in the form-study sample). Copy **joinery only**. Do not import their diseases or doses.
+
+**Do:**
+
+- Put cause and effect in one grammatical motion: *because*, *after*, *once*, *when*, *while*, *so that*, *therefore*, *although*, *which is why*.
+- Teach the physical or biological step before the log-reduction or clinical number: what the vessel does, what the membrane does, why a spore or a coating survives, why a plant does or does not adopt the method.
+- Say why the method is used and why it is not used for the neighbouring product class, still in the same paragraph.
+- Let the next sentence be a consequence of the last (*after that hold…*, *those same non-covalent bonds…*), not a new file card.
+
+**Do not:**
+
+- Explain HPP, a receptor, a formulation, or an assay as *X happens. Y happens. Z fails.*
+- Pad with *Additionally / Moreover / Furthermore* instead of a real causal link.
+- Invent a mechanism the included papers do not state. If the note has no mechanism paragraph, write the limit (*the molecular basis was not tested*) rather than a plausible story.
+
+Wrong (fragments):
+
+> Packs sit in a vessel. Pressure is isostatic. Membranes leak. Proteins unfold. Spores survive.
+
+Right (articulated):
+
+> Because pressure is transmitted uniformly through the packed food, every point sees the same set-point at the same time, so piece size does not create a cold spot; vegetative membranes and non-covalent protein assemblies yield under that hold, whereas bacterial spores often do not, which is why commercial ambient cycles still need refrigeration rather than a sterility claim.
+
+`check_article.py` fails a full manuscript when the Introduction or the first thematic section has a mean sentence length below the gate, three consecutive very short sentences, or too few causal connectors. `--short` skips this gate. If the script fails, rewrite those paragraphs before calling the article done.
+
 ## Sentence construction (this is the article)
 
 `article.md` must read as a **published scientific review**, not as a catalogue of notes. The grammatical subject of a sentence is a result, a mechanism, or a clinical problem. The citation is evidence, usually in brackets at the end of the clause. Authors’ names may appear, but **do not start three consecutive paragraphs with “Author et al. [verb].”**

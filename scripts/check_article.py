@@ -23,6 +23,9 @@ Fails when the Abstract or Conclusions use First/Second/Third (or (i)/(ii))
 as the spine of the argument instead of continuous sentences.
 Fails a title that is a flourish, an export label, or too short/long, and a
 Keywords block that is missing, out of order, or thinner than four topic phrases.
+Fails a full manuscript whose Introduction or first thematic section explains
+mechanisms as a stack of short unjoined sentences (see review-prose,
+Mechanism articulation). ``--short`` skips this gate.
 """
 
 from __future__ import annotations
@@ -163,6 +166,19 @@ INTRO_MIN_PARAS_SHORT = 3
 THEMATIC_H2_FULL = 3
 THEMATIC_H2_SHORT = 2
 H3_OUTSIDE_METHODS_MAX_FULL = 16
+MECH_MEAN_WORDS_INTRO = 17
+MECH_MEAN_WORDS_THEME = 16
+MECH_SHORT_SENTENCE = 8
+MECH_STACCATO_RUN = 3
+MECH_CAUSAL_INTRO = 5
+MECH_CAUSAL_THEME = 3
+CAUSAL_CONNECTOR_RE = re.compile(
+    r"\b(because|therefore|after|before|once|when|while|whereas|"
+    r"so that|thus|hence|although|however|thereby|"
+    r"in order to|which is why|as a result|since)\b",
+    re.I,
+)
+SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z“\"\(])")
 
 TABLE_CALLOUT = re.compile(r"\bTable\s+\d+\b", re.I)
 TABLE_ROW = re.compile(r"^\s*\|.+\|\s*$")
@@ -397,6 +413,111 @@ def h3_outside_methods(text: str) -> int:
             continue
         n += 1
     return n
+
+
+def _prose_without_tables(section: str) -> str:
+    lines: list[str] = []
+    for line in section.splitlines():
+        stripped = line.strip()
+        if re.match(r"^#{1,4}\s+", stripped):
+            continue
+        if stripped.startswith("|"):
+            continue
+        if re.match(r"^\*\*Table\s+\d+", stripped, re.I):
+            continue
+        lines.append(line)
+    blob = " ".join(lines)
+    blob = re.sub(r"\[[0-9,\s–\-]+\]", "", blob)
+    return re.sub(r"\s+", " ", blob).strip()
+
+
+def prose_sentences(section: str) -> list[str]:
+    blob = _prose_without_tables(section)
+    if not blob:
+        return []
+    parts = SENTENCE_SPLIT_RE.split(blob)
+    out: list[str] = []
+    for part in parts:
+        s = part.strip()
+        if len(s.split()) >= 4:
+            out.append(s)
+    return out
+
+
+def _staccato_run(sentences: list[str]) -> bool:
+    run = 0
+    for s in sentences:
+        if len(s.split()) < MECH_SHORT_SENTENCE:
+            run += 1
+            if run >= MECH_STACCATO_RUN:
+                return True
+        else:
+            run = 0
+    return False
+
+
+def _mean_words(sentences: list[str]) -> float:
+    if not sentences:
+        return 0.0
+    return sum(len(s.split()) for s in sentences) / len(sentences)
+
+
+def first_thematic_section(text: str) -> str:
+    titles = thematic_h2_titles(text)
+    if not titles:
+        return ""
+    return section_after(text, titles[0])
+
+
+def mechanism_prose_problems(text: str, short: bool) -> list[str]:
+    """Mechanisms must be taught in connected sentences, not stacked fragments."""
+    if short:
+        return []
+    problems: list[str] = []
+    intro = section_after(text, "Introduction")
+    intro_sents = prose_sentences(intro)
+    if intro_sents:
+        mean = _mean_words(intro_sents)
+        if mean < MECH_MEAN_WORDS_INTRO:
+            problems.append(
+                f"Introduction mean sentence length {mean:.1f} words < "
+                f"{MECH_MEAN_WORDS_INTRO} (join cause to effect; see review-prose, "
+                "Mechanism articulation)"
+            )
+        if _staccato_run(intro_sents):
+            problems.append(
+                "Introduction has three consecutive short sentences "
+                f"(<{MECH_SHORT_SENTENCE} words); fold the mechanism into "
+                "connected clauses (because / after / therefore / so that)"
+            )
+        n_causal = len(CAUSAL_CONNECTOR_RE.findall(intro))
+        if n_causal < MECH_CAUSAL_INTRO:
+            problems.append(
+                f"Introduction has {n_causal} causal connectors "
+                f"(need {MECH_CAUSAL_INTRO}: because, after, therefore, so that, "
+                "when, while, although…); teach why the mechanism works or fails"
+            )
+    theme = first_thematic_section(text)
+    theme_sents = prose_sentences(theme)
+    if theme_sents:
+        mean = _mean_words(theme_sents)
+        if mean < MECH_MEAN_WORDS_THEME:
+            problems.append(
+                f"first thematic section mean sentence length {mean:.1f} words < "
+                f"{MECH_MEAN_WORDS_THEME} (see review-prose, Mechanism articulation)"
+            )
+        if _staccato_run(theme_sents):
+            problems.append(
+                "first thematic section has three consecutive short sentences; "
+                "join the mechanism instead of listing fragments"
+            )
+        n_causal = len(CAUSAL_CONNECTOR_RE.findall(theme))
+        if n_causal < MECH_CAUSAL_THEME:
+            problems.append(
+                f"first thematic section has {n_causal} causal connectors "
+                f"(need {MECH_CAUSAL_THEME})"
+            )
+    return problems
 
 
 def glued_heading_problems(text: str) -> list[str]:
@@ -861,6 +982,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(keywords_problems(text))
     problems.extend(front_matter_problems(text))
     problems.extend(glued_heading_problems(text))
+    problems.extend(mechanism_prose_problems(text, short))
     return problems
 
 

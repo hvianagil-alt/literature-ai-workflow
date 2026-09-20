@@ -70,6 +70,7 @@ One Markdown file at `review/notes/<paper-id>.md` (use a short slug like `smith2
 - **`scripts/notes_from_text.py` is a stub, not a finished note.** Do not leave "mechanical first-pass", "extracted lead", or "not yet filled" in an included note. Read the PDF and fill Claim-ready facts.
 - Extraction is not done until `python3 scripts/check_extraction.py --notes-dir …` exits 0.
 - Prefer the paper's own terminology over your paraphrase when precision matters (e.g. exact effect sizes, exact model names).
+- If the paper states a **mechanism** (how the intervention acts, why a matrix or organism resists, why a method is or is not used in plants), write it as one or two connected sentences in Key findings, not as three fragments. Downstream `article.md` needs that cause–effect chain; do not invent it if the PDF is silent.
 - Keep it skimmable: a domain expert should be able to read one note in under a minute and know whether to read the full paper.
 - Flag anything that contradicts the user's stated inclusion criteria (e.g. wrong population, wrong study design) instead of silently including it.
 

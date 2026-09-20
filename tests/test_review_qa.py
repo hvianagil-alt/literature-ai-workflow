@@ -341,6 +341,28 @@ class CheckArticleTests(unittest.TestCase):
         problems = check_article.check(polluted, None, short=True)
         self.assertTrue(any("glued" in p.lower() or "too long" in p.lower() for p in problems), problems)
 
+    def test_staccato_mechanism_prose_fails_full_manuscript(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "Delayed recall of a methods chapter is a specific memory problem: readers forget procedures, numbers, and caveats within a week.",
+            "Membranes leak. Proteins unfold. Enzymes fail. Spores survive. Heat is used. Plants skip it.",
+            1,
+        )
+        problems = check_article.mechanism_prose_problems(polluted, short=False)
+        self.assertTrue(
+            any(
+                "short sentences" in p.lower()
+                or "causal connector" in p.lower()
+                or "mean sentence" in p.lower()
+                for p in problems
+            ),
+            problems,
+        )
+
+    def test_mechanism_prose_gate_skipped_when_short(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        self.assertEqual(check_article.mechanism_prose_problems(text, short=True), [])
+
     def test_nanocarrier_pass2_clears_story_gate(self):
         article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"
         table = ROOT / "review/runs/2026-09-19-nanocarriers/table/literature-table.md"
