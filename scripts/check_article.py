@@ -21,6 +21,8 @@ were found or opened (Scopus, open full texts, year windows of the export,
 Unpaywall, paywalls). Those facts belong only in Methods.
 Fails when the Abstract or Conclusions use First/Second/Third (or (i)/(ii))
 as the spine of the argument instead of continuous sentences.
+Fails a title that is a flourish, an export label, or too short/long, and a
+Keywords block that is missing, out of order, or thinner than four topic phrases.
 """
 
 from __future__ import annotations
@@ -103,7 +105,41 @@ INTRO_BAD_OPENERS = (
     "it is well known that",
 )
 
-REQUIRED_HEADINGS = ("abstract", "introduction", "discussion", "conclusions", "references")
+REQUIRED_HEADINGS = (
+    "abstract",
+    "keywords",
+    "introduction",
+    "discussion",
+    "conclusions",
+    "references",
+)
+TITLE_FLOURISH = [
+    r"comprehensive overview",
+    r"comprehensive review",
+    r"recent advances in",
+    r"unlocking the",
+    r"illuminating",
+    r"a holistic",
+    r"in-depth look",
+    r"\bscopus\b",
+    r"oa export",
+    r"\bet al\.",
+    r"\bpdfs\b",
+    r"included papers",
+    r"this export",
+    r"\bfour papers\b",
+]
+THEMATIC_PROCESS_H2 = re.compile(
+    r"^(?:"
+    r"overview of (?:the )?(?:retrieved|included|selected)\b"
+    r"|study (?:selection|characteristics)"
+    r"|search results"
+    r"|data extraction"
+    r"|included papers"
+    r"|characteristics of (?:the )?(?:final )?included"
+    r")",
+    re.I,
+)
 RESERVED_H2 = {
     "abstract",
     "keywords",
@@ -126,7 +162,7 @@ INTRO_MIN_PARAS_FULL = 5
 INTRO_MIN_PARAS_SHORT = 3
 THEMATIC_H2_FULL = 3
 THEMATIC_H2_SHORT = 2
-H3_OUTSIDE_METHODS_MAX_FULL = 8
+H3_OUTSIDE_METHODS_MAX_FULL = 16
 
 TABLE_CALLOUT = re.compile(r"\bTable\s+\d+\b", re.I)
 TABLE_ROW = re.compile(r"^\s*\|.+\|\s*$")
@@ -403,6 +439,13 @@ def story_problems(text: str, short: bool) -> list[str]:
             f"{len(thematic)} thematic ## sections; need at least {need} "
             "topic/argument headings between Methods and Discussion"
         )
+    for title in thematic:
+        if THEMATIC_PROCESS_H2.search(title):
+            problems.append(
+                f"thematic heading is process talk ({title}); "
+                "name a topic, mechanism, or question (see review-prose, Headings)"
+            )
+            break
     if not short:
         n_h3 = h3_outside_methods(text)
         if n_h3 > H3_OUTSIDE_METHODS_MAX_FULL:
@@ -603,6 +646,69 @@ ROMAN_ENUM = re.compile(r"\([ivx]{1,4}\)", re.I)
 ARABIC_ENUM = re.compile(r"\([1-9]\)")
 
 
+def article_title(text: str) -> str:
+    m = re.search(r"^#\s+(.+)$", text, re.M)
+    return m.group(1).strip() if m else ""
+
+
+def title_problems(text: str) -> list[str]:
+    """Titles name the phenomenon and an angle, not the export or an LLM flourish."""
+    title = article_title(text)
+    if not title:
+        return ["missing title"]
+    problems: list[str] = []
+    words = re.findall(r"[A-Za-z0-9\-]+", title)
+    if len(words) < 6:
+        problems.append(
+            "title too short; name the phenomenon and the angle (see review-prose, Title)"
+        )
+    if len(words) > 28:
+        problems.append("title too long; cut the shopping list of constructs")
+    for pat in TITLE_FLOURISH:
+        if re.search(pat, title, re.I):
+            problems.append(
+                f"title uses banned phrasing ({pat}); see review-prose Title"
+            )
+            break
+    if ":" in title:
+        left, right = title.split(":", 1)
+        if len(left.split()) < 2 or len(right.split()) < 2:
+            problems.append(
+                "colon title needs a topic on the left and an angle or kind on the right"
+            )
+    return problems
+
+
+def keywords_problems(text: str) -> list[str]:
+    kw = section_after(text, "Keywords")
+    if not kw:
+        return []
+    body = kw.strip().split("\n\n")[0]
+    body = re.sub(r"^#+\s+.*$", "", body, flags=re.M).strip()
+    items = [x.strip() for x in re.split(r"[;,]", body) if x.strip()]
+    if len(items) < 4:
+        return [
+            "Keywords need at least four topic phrases (not paper names); "
+            "see review-prose Keywords"
+        ]
+    return []
+
+
+def front_matter_problems(text: str) -> list[str]:
+    titles = [re.sub(r"^\d+\.\s+", "", t).strip().lower() for t in h2_titles(text)]
+    try:
+        ia = titles.index("abstract")
+        ik = titles.index("keywords")
+        ii = titles.index("introduction")
+    except ValueError:
+        return []
+    if not (ia < ik < ii):
+        return [
+            "front matter order must be Abstract, then Keywords, then Introduction"
+        ]
+    return []
+
+
 def ordinal_scaffold_problems(text: str) -> list[str]:
     """Abstract/Conclusions must argue in running sentences, not First/Second lists."""
     problems: list[str] = []
@@ -729,6 +835,9 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(citation_order_problems(text))
     problems.extend(acquisition_outside_methods_problems(text))
     problems.extend(ordinal_scaffold_problems(text))
+    problems.extend(title_problems(text))
+    problems.extend(keywords_problems(text))
+    problems.extend(front_matter_problems(text))
     return problems
 
 

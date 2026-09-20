@@ -81,6 +81,10 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("`this`", text)
         self.assertIn("First/Second", text)
         self.assertNotIn("First, … Finally", text)
+        self.assertIn("Keywords", text)
+        self.assertIn("colon subtitle", text.lower())
+        self.assertIn("Recent Advances", text)
+        self.assertIn("Headings name topics", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")

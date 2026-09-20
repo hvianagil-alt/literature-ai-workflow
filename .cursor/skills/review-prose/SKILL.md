@@ -42,18 +42,15 @@ Published reviews do not all share one outline. Choose the spine that matches **
 
 **Narrative / literature review** (default journal article in this workflow):
 
+- Title: phenomenon first; colon subtitle for kind or angle (see Title).
 - Unstructured abstract (problem → tension → calibrated findings → what they do not imply).
-- Keywords after the abstract.
-- Optional bullet takeaways (**Key Summary Points**): each bullet is a claim plus its evidence grade, not a slogan.
+- Keywords immediately after the abstract (topic phrases, not paper names).
+- Optional **Key Summary Points** / Highlights: each bullet is a claim plus its evidence grade, not a slogan.
 - Introduction that teaches, ending in one aim or thesis paragraph.
-- Brief Methods (sources, dates, eligibility) — one short section, not a pipeline memoir.
-- Unstructured abstract (problem → tension → calibrated findings → what they do not imply).
-- Keywords after the abstract.
-- Optional bullet takeaways (**Key Summary Points**): each bullet is a claim plus its evidence grade, not a slogan.
-- Introduction that teaches, ending in one aim or thesis paragraph.
-- Brief Methods (sources, dates, eligibility) — one short section, not a pipeline memoir.
-- Numbered **thematic** body sections; nested subheadings when a mechanism has parts. **Never** a lone `## Results` catalogue.
-- Discussion and Conclusions as interpretation and numbered scientific next steps.
+- Brief Methods (sources, dates, eligibility) — one short section, not a pipeline memoir. Keep it before the science for screened exports, even if some journals bury search later.
+- Numbered **thematic** body sections whose titles are topics, mechanisms, or questions; nest 3.1 / 3.1.1 when a mechanism has parts. **Never** a lone `## Results` catalogue or `## Overview of included papers`.
+- Discussion that interprets (what is known vs still inferential). Limitations of the **studies** may sit in Discussion or in a short Limitations section.
+- Conclusions (and, if needed, future measurements) as running scientific sentences.
 
 **Physiology / mechanisms review:**
 
@@ -80,7 +77,29 @@ Do not dump screening theatre into the Introduction. Do not write “user-suppli
 
 ### Title
 
-Prefer a **colon subtitle** that names the kind and the argument, not a shopping list of papers or a database export. Pattern: `Topic: a narrative review of <the tension or map>`. Wrong: three paper names, “Scopus OA export”, or a comma-stack of constructs with no kind. The title is about the field, not about the run.
+The title is about the **field and the argument**, not about the run. In the form-study sample of OA 2026 reviews, most titles used a **colon subtitle** (topic on the left, kind or angle on the right). Median length was about 15 words (roughly 8–25). Copy those **shapes**, not their diseases.
+
+**Patterns that recur (pick one):**
+
+- `Phenomenon: a narrative review of <the tension or map>`
+- `Phenomenon: how <mechanism> may affect <outcome>`
+- `Phenomenon: implications for <practice>`
+- `Phenomenon: a translational / conceptual framework for <use>`
+- `X as a <role> in A, B, and C` (object first, job in the field second)
+- `From A to B: a framework for <breakdown or pathway>`
+- A short question only when the paper really is a preparedness/policy tension (`X: are we prepared for Y?`)
+
+Name the **kind** in the subtitle when it helps (`a narrative review`, `a systematic review`, `a scoping review`). Do not make “A Comprehensive Review of X” the whole title.
+
+**Wrong:**
+
+- Three paper names, “Scopus OA export”, year windows, “included papers”, “PDFs”
+- LLM flourish: *Recent Advances in…*, *A Comprehensive Overview*, *Unlocking the Potential of…*, *Illuminating…*, *A Holistic Look at…*
+- *Author et al.* in the title
+- A comma-stack of constructs with no verb, role, or kind
+- An empty side of a colon (`HPP:` or `: a narrative review`)
+
+`check_article.py` fails short, long, flourish, workflow, and empty-colon titles.
 
 ### Abstract
 
@@ -95,7 +114,15 @@ Write it in this **order**:
 5. What those patterns do **not** imply (observational ≠ guideline; animal ≠ approval; dual effects are not uniformly beneficial).
 6. One implication for practice or next measurement, if it fits in the same paragraph.
 
-**Do not put in the Abstract:** numbered citations (`[1]`), *et al.*, product codes that exist in only one included paper, Table 1, PRISMA counts, or a stack of effect sizes. Numbers belong in Results and in the in-article tables. Keywords after the abstract. No workflow, no “OA export,” no table of contents.
+**Do not put in the Abstract:** numbered citations (`[1]`), *et al.*, product codes that exist in only one included paper, Table 1, PRISMA counts, or a stack of effect sizes. Numbers belong in the thematic sections and in the in-article tables. No workflow, no “OA export,” no table of contents.
+
+### Keywords (mandatory)
+
+Put `## Keywords` **immediately after** the Abstract. Write **at least four** topic phrases the journal would index, separated by semicolons. They are nouns and noun phrases from the science (`high-pressure processing; sublethal injury; milk pasteurisation`), not paper names, not “Scopus”, not “open access”.
+
+### Key Summary Points (optional)
+
+Some journals print Highlights before the Introduction. If you use them, each bullet is a **claim plus its evidence grade** (*laboratory challenges; one scientific opinion; no human disease trial*). Not slogans (*HPP is promising*). Not a table of contents.
 
 **Do not put in the Abstract how the papers were acquired.** Wrong: “This narrative review organises open full texts from 2021–2026 around…”. Right: “This narrative review organises the literature around…”. Database name, export date, year window, open-access vs paywall, Unpaywall/OpenAlex/PMC, and screening counts go **only** in Methods. The same ban applies to Introduction, Discussion, and Conclusions. `check_article.py` fails if those phrases appear outside Methods.
 
@@ -233,7 +260,16 @@ The Introduction teaches physiology in the same voice as a journal background se
 
 ## Headings and paragraphs
 
-**Headings name topics or arguments, never papers.** Wrong: `3.1 Smith et al. (2024)`. Right: `3.1 Human outcome evidence`, `3.2 Biologic rationale`, `3.3 Limits to mechanistic inference`, `3.4 What this literature still lacks`. Nested numbering is appropriate when a mechanism has parts.
+**Headings name topics, arguments, or questions, never papers and never the download.** Wrong: `3.1 Smith et al. (2024)`, `3. Overview of included papers`, `3. Study characteristics` as the science dump. Right: `3. Pressure, membranes, and why the same megapascals do not give the same kill`; `Why this topic is clinically relevant despite limited direct evidence`; `Evidence map: what is known and what remains inferential`. Nested numbering is appropriate when a mechanism has parts (3.1, 3.1.1).
+
+Published narrative reviews in the form-study sample do this:
+
+- Teach the object (anatomy, assay, usual care) under a topic heading, then the failure mode, then the technology or pathway.
+- Split a family of tools into nested headings (one modality or one procedure each), then close that nest with what those tools cannot show.
+- Put “practical takeaway” in a **sentence** at the end of a subsection when a clinician or processor could act now; do not add an empty slogan heading.
+- Keep search, eligibility, and selection under Methods. Do not reopen them as `Overview of retrieved evidence` in the body.
+
+`check_article.py` fails process headings (`study characteristics`, `search results`, `overview of included…`) used as thematic `##` sections.
 
 Inside a theme:
 

@@ -31,11 +31,14 @@ If the rationale file is missing, **stop and write it first** (see the `synthesi
 See [`examples/sample-article.md`](../../../examples/sample-article.md) for fictional journal prose (claim-first sentences). The lab-report example in [`examples/sample-report.md`](../../../examples/sample-report.md) is only for a short structured note.
 
 ```markdown
-# <Title>
+# <Title: phenomenon, then colon + kind or angle — see review-prose Title>
 
 ## Abstract
 <Topic map, not a results dump. No citations, no named papers. See review-prose.>
 ## Keywords
+<At least four topic phrases, semicolon-separated.>
+## Key Summary Points (optional)
+<Claim plus evidence grade, not slogans.>
 ## 1. Introduction
 <Present-tense phenomenon first. Teach physiology/technology later sections assume.
  Last paragraph = aim or central argument. “This review” belongs there, not in sentence one.>

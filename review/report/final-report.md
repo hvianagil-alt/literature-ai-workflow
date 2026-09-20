@@ -6,6 +6,13 @@ Heat remains the default way to make food microbiologically safe because it can 
 ## Keywords
 high-pressure processing; high-pressure thermal processing; microbial inactivation; sublethal injury; milk pasteurisation; fruit juice; ready-to-eat meat
 
+## Key Summary Points
+- Vegetative kill under high pressure is real, but the log reduction is not a constant read from the set-point; matrix, solute, recovery medium, and injury move it (laboratory challenges and one scoping review of ready-to-eat meats).
+- Legal milk pasteurisation is not interchangeable with 400–600 MPa on the included scientific opinion.
+- A 5-log drop in aerobic plate count is not a named-pathogen juice validation.
+- Enzymes, bioactive proteins, and texture often move against plate counts on the same cycle, so they have to be named as endpoints.
+- Spore tails remain at commercial pressures; either heat under pressure or a planned cold chain still has to carry that control.
+
 ## 1. Introduction
 Foodborne disease is still a volume problem. The World Health Organization figures recited in fruit-and-vegetable HPP reviews put hundreds of millions of illnesses and hundreds of thousands of deaths each year on contaminated food, with vegetative bacteria, spores, parasites, and viruses as the usual agents [1]. Thermal pasteurisation and sterilisation work because time–temperature combinations can be written into law: in the European Union, milk pasteurisation is at least 72 °C for 15 s or 63 °C for 30 min, with a 5 log10 performance criterion as the international reference for several milk pathogens [2]. Juice processors in the United States are told to achieve a 5-log reduction of the pertinent pathogen [3]. Those numbers are engineering specifications, not slogans. Heat meets them in most high-water-activity foods; it also cooks colour, volatiles, and whey proteins that some products are sold for.
 

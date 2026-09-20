@@ -98,7 +98,9 @@ The article is a **secondary** paper: it does not report a new experiment. It te
 
 `check_article.py` fails a too-short Introduction, a missing aim paragraph, a generic Results heading, or too few thematic `##` sections. Passing the 6,000-word floor is not enough. The double-check must record an adjacent-field reader test; if it fails, rewrite without asking the user.
 
-**Title.** Prefer a colon subtitle that names the kind and the argument (`Topic: a narrative review of …`). The title is about the field, not about a list of papers or a database export.
+**Title.** Name the phenomenon first. Most published reviews in the form-study sample use a **colon subtitle** for the kind or the angle (`Phenomenon: a narrative review of …`; `X as a role in A, B, and C`; `From A to B: a framework for …`). About 8–25 words. Not a list of papers, not a database export, not *Recent Advances* / *Comprehensive Overview*. See `review-prose` Title. `check_article.py` fails flourish and workflow titles.
+
+**Keywords.** Immediately after the Abstract: at least four topic phrases, semicolon-separated. Optional Key Summary Points (claim plus evidence grade) may follow.
 
 **Abstract.** For a narrative review, the abstract is a map of the topic. Do **not** cite (`[1]`) and do **not** name included papers. Rank kinds of evidence. At most one hinge finding, still unnamed. Exact n, p, RR, and bioavailability belong in Results and in Table 1, not stacked in the Abstract. Structured abstracts (with pooled numbers, still without citations) are for systematic reviews and meta-analyses only. Write **continuous sentences**: a fact, then its tension or limit (`yet`, `this`, `those`). Do **not** scaffold the Abstract or Conclusions as *First, Second, Third* or *(i)(ii)(iii)*. See `review-prose` (Continuous prose). `check_article.py` fails that scaffold.
 

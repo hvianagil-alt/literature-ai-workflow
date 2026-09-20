@@ -1,45 +1,50 @@
 # Form notes (style only) — 2026-09-20 OA review sample
 
-This run is **not** a scientific review of the 2,000 Scopus records. It is a craft study: how published review articles join sentences. **Copy form only.** Do not import findings, doses, diseases, or quotes from these papers into any other `article.md`.
+This run is **not** a scientific review of the 2,000 Scopus records. It is a craft study: titles, manuscript spine, headings, and how sentences join. **Copy form only.** Do not import findings, doses, diseases, or quotes from these papers into any other `article.md`.
 
 ## What was sampled
 
 - Source: Scopus Review + open-access export, 20 September 2026 (`identification.bib`, ~2,000 records).
-- Plan: stratified draw across journals/titles, then a small OA fetch; stop if the joinery pattern is stable.
+- Plan: stratified draw across journals/titles, then a small OA fetch; stop if the pattern is stable.
 - Fetched: 40 public full texts (`batch1.json`). Usable reviews: 39. **Caselli 2026 was skipped** — the retrieved file was not that paper.
-- Stopped after batch 1. Further fetching was not needed: abstracts and introductions already agreed on the same joinery.
+- Stopped after batch 1.
 
 Full texts stay local and gitignored. These notes do not reproduce article bodies.
 
-## What the usable reviews share (form)
+## Titles (40 records)
 
-**Abstracts** open on the phenomenon in present tense, then a tension (`yet`, `however`, `although`, `despite`), then how the review is organised around that tension, then a rank of evidence, then what the rank does not imply. They do not cite. Structured Background/Methods/Results/Conclusions labels appear in some journals; even there the sentences inside a label still argue, they do not enumerate “first thing, second thing.”
+Most titles (34/40) use a **colon**. Typical length is about 15 words (range about 6–25). The left side names the object; the right side names the kind or the angle.
 
-**Introductions** stay on one problem. The next sentence is usually a consequence, a scale, or a limit of the sentence before it (`this heterogeneity`, `these decisions`, `that claim`, `those numbers`). Contrast is a hinge, not a new bullet. When two regulatory or clinical questions exist, they are named as *one is… the other is…* inside the same paragraph, not as First/Second/Third.
+Shapes that recur:
 
-**Evidence rank** sits inside the clause: which association is most consistent; which site or modality remains limited; which tool is front-line versus adjunct. The reader is not given a numbered tour of headings.
+- `Phenomenon: a narrative review of <map>` (diet indices; bile-duct access; tobacco policy).
+- `Phenomenon: how / implications for / a framework for …`
+- `X as a <role> in A, B, and C`
+- `From A to B: a conceptual framework for …`
+- Kind in the subtitle (`narrative review`, `systematic review`, `scoping review`), not as a slogan wrapper.
 
-**Conclusions** (when unstructured) restate the calibrated claim and name the next measurement as ordinary sentences. They do not restart the paper as a shopping list.
+Rare: a short question after a colon. Weak: `A Review of X` with no angle; `Recent Advances` / `Comprehensive Overview` (LLM habit, uncommon in this sample).
 
-## Joinery to copy
+## Manuscript spine
 
-1. Anaphora: `this`, `these`, `that`, `those` pointing at the previous clause.
-2. Semicolon or *and* for two tensions that belong together, rather than a new numbered item.
-3. *Yet / however / at the same time / by contrast* when signals disagree.
-4. Rank words: *most consistent*, *limited*, *front-line*, *does not imply*.
-5. Close on a non-implication in the same voice as the findings.
+Two families, chosen by **kind**:
 
-## Joinery not to copy (common LLM habit)
+**Narrative / physiology (majority here).** Title → Abstract → Keywords → optional Highlights → Introduction that teaches → brief Methods (sometimes titled scope/evidence selection) → numbered thematic sections with nested 3.1 / 3.1.1 → Discussion (known vs inferential) → optional Limitations → Conclusions / perspectives. Headings are topics, mechanisms, or questions (`Why do identical meals produce different glucose responses?`, `Evidence map: what is known and what remains inferential`). Not `Results` as a catalogue. Not `Overview of included papers`.
 
-- *First, … Second, … Third, … Finally, …* as the spine of Abstract, Introduction, Discussion, or Conclusions.
-- *(i) (ii) (iii)* or *(1) (2) (3)* as the argument in Abstract or Conclusions (Methods may still number eligibility).
-- *The first thing is… The second thing is…*
-- *This review will first discuss X, then Y, then Z.*
+**Systematic / scoping.** Structured abstract. IMRaD Methods (eligibility, selection, extraction, quality) → Results (flow, characteristics, then the scientific split) → Discussion with principal interpretation, comparison with previous reviews, strengths and limitations.
+
+This workflow keeps Methods **before** the science when a bibliographic export was screened, even if a few journals bury the search.
+
+## Joinery
+
+Abstracts open on the phenomenon, then a tension (`yet`, `however`), then organisation around that tension, then a rank of evidence, then what the rank does not imply. Introductions stay on one problem; the next sentence is a consequence or limit (`this`, `these`, `that`). Conclusions restate the calibrated claim and name the next measurement as ordinary sentences.
+
+Do not spine Abstract or Conclusions with *First, Second, Third* or *(i)(ii)(iii)*.
 
 ## Encoded where
 
-- `.cursor/skills/review-prose/SKILL.md` — section **Continuous prose**
-- `scripts/check_article.py` — `ordinal_scaffold_problems`
+- `.cursor/skills/review-prose/SKILL.md` — Title, Keywords, Key Summary Points, Headings, Continuous prose
+- `scripts/check_article.py` — title, keywords, front-matter order, process headings, ordinal scaffold
 - `AGENTS.md`, `report-writing`, `article-qa`, `double-check`, literature-review agent
 
-The HPP narrative review already uses this joinery in its Abstract and Conclusions (one argument; next measurements as running sentences).
+The HPP manuscript already uses a colon title, Keywords, Key Summary Points, thematic argument headings, and continuous Abstract/Conclusions.

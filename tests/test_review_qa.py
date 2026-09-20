@@ -291,6 +291,46 @@ class CheckArticleTests(unittest.TestCase):
         problems = check_article.check(polluted, None, short=True)
         self.assertTrue(any("conclusions" in p.lower() and "first/second" in p.lower() for p in problems), problems)
 
+    def test_flourish_title_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "# Structured note-taking and recall of technical material: a narrative review",
+            "# Recent Advances in Note-Taking: A Comprehensive Overview",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("title" in p.lower() for p in problems), problems)
+
+    def test_short_title_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "# Structured note-taking and recall of technical material: a narrative review",
+            "# Notes",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("title too short" in p.lower() for p in problems), problems)
+
+    def test_thin_keywords_fail(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "note-taking; recall; STEM; meta-analysis",
+            "notes",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("keywords" in p.lower() for p in problems), problems)
+
+    def test_process_thematic_heading_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "## 3. Overall direction of the recall effect",
+            "## 3. Overview of included papers",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("process talk" in p.lower() or "overview of included" in p.lower() for p in problems), problems)
+
     def test_nanocarrier_pass2_clears_story_gate(self):
         article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"
         table = ROOT / "review/runs/2026-09-19-nanocarriers/table/literature-table.md"
