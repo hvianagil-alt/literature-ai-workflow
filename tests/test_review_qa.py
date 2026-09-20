@@ -331,6 +331,16 @@ class CheckArticleTests(unittest.TestCase):
         problems = check_article.check(polluted, None, short=True)
         self.assertTrue(any("process talk" in p.lower() or "overview of included" in p.lower() for p in problems), problems)
 
+    def test_glued_heading_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "## 3. Overall direction of the recall effect",
+            "## 3. Overall direction of the recall effect Outline notes raised recall.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("glued" in p.lower() or "too long" in p.lower() for p in problems), problems)
+
     def test_nanocarrier_pass2_clears_story_gate(self):
         article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"
         table = ROOT / "review/runs/2026-09-19-nanocarriers/table/literature-table.md"

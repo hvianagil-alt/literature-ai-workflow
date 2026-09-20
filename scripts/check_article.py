@@ -399,6 +399,28 @@ def h3_outside_methods(text: str) -> int:
     return n
 
 
+def glued_heading_problems(text: str) -> list[str]:
+    """A heading line must be a title, not a title glued to the next sentence."""
+    problems: list[str] = []
+    for m in re.finditer(r"^(#{2,4})\s+(.+)$", text, re.M):
+        hashes, title = m.group(1), m.group(2).strip()
+        if hashes == "#":
+            continue
+        body = re.sub(r"^\d+(?:\.\d+)*\.\s+", "", title)
+        if re.search(r"[.!?]\s+[A-Z]", body):
+            problems.append(f"heading glued to body text: {title[:80]}")
+            continue
+        if re.search(r"[a-z)] [A-Z][a-z]{3,}\s+[a-z]{3,}", body):
+            problems.append(f"heading glued to body text: {title[:80]}")
+            continue
+        if hashes.startswith("###") and len(body) > 90:
+            problems.append(
+                f"heading line too long ({len(body)} chars); "
+                f"put the paragraph on the next line: {title[:80]}"
+            )
+    return problems
+
+
 def story_problems(text: str, short: bool) -> list[str]:
     """Narrative reviews must teach, then argue in thematic sections — not dump Results."""
     problems: list[str] = []
@@ -838,6 +860,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(title_problems(text))
     problems.extend(keywords_problems(text))
     problems.extend(front_matter_problems(text))
+    problems.extend(glued_heading_problems(text))
     return problems
 
 
