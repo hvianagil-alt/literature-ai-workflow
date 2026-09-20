@@ -1,0 +1,214 @@
+{
+  "duplicates_removed": 8,
+  "additional_records": 0,
+  "n_screened": 52,
+  "title_excluded": [
+    {
+      "citekey": "Tan2023_077669",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Diabetic retinopathy: Looking forward to 2030"
+    },
+    {
+      "citekey": "Dai2021_34585",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "A deep learning system for detecting diabetic retinopathy across the disease spectrum"
+    },
+    {
+      "citekey": "Yang2022_816400",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Mechanistic Pathogenesis of Endothelial Dysfunction in Diabetic Nephropathy and Retinopathy"
+    },
+    {
+      "citekey": "Mikušová2021_179652",
+      "reason": "Generic chitosan nanoparticle review; not ocular DR/DME delivery",
+      "title": "Advances in Chitosan-Based Nanoparticles for Drug Delivery"
+    },
+    {
+      "citekey": "Leley2021_297494",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Diabetic Retinopathy in the Aging Population: A Perspective of Pathogenesis and Treatment"
+    },
+    {
+      "citekey": "Everett2021_14036",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Laser Therapy in the Treatment of Diabetic Retinopathy and Diabetic Macular Edema"
+    },
+    {
+      "citekey": "Zhou2023_091342",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Retinal Cell Damage in Diabetic Retinopathy"
+    },
+    {
+      "citekey": "Deng2021_852759",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "The Role of Oxidative Stress and Antioxidants in Diabetic Wound Healing"
+    },
+    {
+      "citekey": "Li2023_1400z",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Diabetic vascular diseases: molecular mechanisms and therapeutic strategies"
+    },
+    {
+      "citekey": "Ipp2021_34254",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Pivotal Evaluation of an Artificial Intelligence System for Autonomous Detection of Referrable and Vision-Threatening Diabetic Retinopathy"
+    },
+    {
+      "citekey": "Min2021_gab362",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "The Role of HIF1α-PFKFB3 Pathway in Diabetic Retinopathy"
+    },
+    {
+      "citekey": "Nian2021_02391",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Neurovascular unit in diabetic retinopathy: pathophysiological roles and potential therapeutical targets"
+    },
+    {
+      "citekey": "Yue2022_055087",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "The role of inflammation in immune system of diabetic retinopathy: Molecular mechanisms, pathogenetic role and therapeutic implications"
+    },
+    {
+      "citekey": "Demir2021_100275",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Emerging Targets in Type 2 Diabetes and Diabetic Complications"
+    },
+    {
+      "citekey": "Chen2023_1570w",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Endoplasmic reticulum stress: molecular mechanism and therapeutic targets"
+    },
+    {
+      "citekey": "Zheng2023_151185",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "The mechanisms of NLRP3 inflammasome/pyroptosis activation and their role in diabetic retinopathy"
+    },
+    {
+      "citekey": "Hu2024_99111",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Microglia in retinal angiogenesis and diabetic retinopathy"
+    },
+    {
+      "citekey": "Preiss2024_400179",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Effect of Fenofibrate on Progression of Diabetic Retinopathy"
+    },
+    {
+      "citekey": "Ren2022_953691",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Diabetic retinopathy: Involved cells, biomarkers, and treatments"
+    },
+    {
+      "citekey": "Kong2022_4786w",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Targeted P2X7/NLRP3 signaling pathway against inflammation, apoptosis, and pyroptosis of retinal endothelial cells in diabetic retinopathy"
+    },
+    {
+      "citekey": "Amorim2022_873483",
+      "reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant",
+      "title": "Putative Biomarkers in Tears for Diabetic Retinopathy Diagnosis"
+    },
+    {
+      "citekey": "Yoon2021_17862",
+      "reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained",
+      "title": "Title: efficacy of intravitreal dexamethasone implant on hard exudate in diabetic macular edema"
+    },
+    {
+      "citekey": "Costanzo2023_041303",
+      "reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained",
+      "title": "Prognostic Imaging Biomarkers in Diabetic Macular Edema Eyes Treated with Intravitreal Dexamethasone Implant"
+    },
+    {
+      "citekey": "Wang2021_000483",
+      "reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained",
+      "title": "Effect of dexamethasone intravitreal implant for refractory and treatment-naive diabetic macular edema in Taiwanese patients"
+    },
+    {
+      "citekey": "CarnotaMéndez2022_345947",
+      "reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained",
+      "title": "OCT-Angiography Changes in Patients with Diabetic Macular Edema Treated with Intravitreal Dexamethasone Implant"
+    },
+    {
+      "citekey": "Brambati2022_04555",
+      "reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained",
+      "title": "Changes in Macular Perfusion After ILUVIEN® Intravitreal Implant for Diabetic Macular Edema: An OCTA Study"
+    }
+  ],
+  "sought_for_retrieval": [
+    "Kim2021_010108",
+    "Wang2024_347864",
+    "Liu2021_294807",
+    "Tsung2023_612976",
+    "Ahmed2023_25169",
+    "Radwan2021_316564",
+    "Ramadan2024_100232",
+    "Qu2022_049678",
+    "Cao2022_931759",
+    "Jacob2022_030533",
+    "Swetledge2021_07459",
+    "Singer2022_01015",
+    "Taloni2023_427209",
+    "Neves2021_1015",
+    "Kartı2021_81220",
+    "Spinetta2023_102461",
+    "Vitiello2024_060725",
+    "Liberski2022_169424",
+    "Baillif2022_112391",
+    "Furino2021_654168",
+    "Merrill2022_09017",
+    "Mathis2022_040723",
+    "Koç2023_28316",
+    "Roth2023_08004",
+    "Wang2021_882539",
+    "Goñi2022_04271"
+  ],
+  "n_fulltext_assessed": 22,
+  "fulltext_excluded": [],
+  "included": [
+    "Kim2021_010108",
+    "Wang2024_347864",
+    "Liu2021_294807",
+    "Tsung2023_612976",
+    "Ahmed2023_25169",
+    "Radwan2021_316564",
+    "Ramadan2024_100232",
+    "Qu2022_049678",
+    "Cao2022_931759",
+    "Jacob2022_030533",
+    "Swetledge2021_07459",
+    "Taloni2023_427209",
+    "Neves2021_1015",
+    "Kartı2021_81220",
+    "Spinetta2023_102461",
+    "Liberski2022_169424",
+    "Baillif2022_112391",
+    "Furino2021_654168",
+    "Mathis2022_040723",
+    "Koç2023_28316",
+    "Wang2021_882539",
+    "Goñi2022_04271"
+  ],
+  "notes": "Title screen then OA fetch. Sought 26; retrieved 22 public full texts (PDF or Europe PMC/PMC HTML); not retrieved 4 (hybrid Elsevier or MDPI 403 without PMC XML). All retrieved full texts mention diabetic retinopathy/DME and a delivery system, implant, nanoparticle, or intravitreal therapy and were included.",
+  "not_retrieved": [
+    {
+      "citekey": "Singer2022_01015",
+      "reason": "no_public_pdf_found",
+      "doi": "10.1016/j.ophtha.2022.01.015"
+    },
+    {
+      "citekey": "Vitiello2024_060725",
+      "reason": "no_public_pdf_found",
+      "doi": "10.3390/life14060725"
+    },
+    {
+      "citekey": "Merrill2022_09017",
+      "reason": "no_public_pdf_found",
+      "doi": "10.1016/j.ajo.2022.09.017"
+    },
+    {
+      "citekey": "Roth2023_08004",
+      "reason": "no_public_pdf_found",
+      "doi": "10.1016/j.oret.2023.08.004"
+    }
+  ]
+}

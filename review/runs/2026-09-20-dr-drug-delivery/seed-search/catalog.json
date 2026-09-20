@@ -1,0 +1,990 @@
+[
+  {
+    "citekey": "Tan2023_077669",
+    "record_id": "Tan2023_077669",
+    "entry_type": "ARTICLE",
+    "title": "Diabetic retinopathy: Looking forward to 2030",
+    "author": "Tien‐En Tan and Tien Yin Wong",
+    "year": "2023",
+    "journal": "Frontiers in Endocrinology",
+    "doi": "10.3389/fendo.2022.1077669",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Dai2021_34585",
+    "record_id": "Dai2021_34585",
+    "entry_type": "ARTICLE",
+    "title": "A deep learning system for detecting diabetic retinopathy across the disease spectrum",
+    "author": "Ling Dai and Liang Wu and Huating Li and Chun Cai and Qiang Wu and Hongyu Kong and Ruhan Liu and Xiangning Wang and Xuhong Hou and Yuexing Liu and Xiaoxue Long and Yang Wen and Lina Lu and Yaxin Shen and Yan Chen and Dinggang Shen and Xiaokang Yang and Haidong Zou and Bin Sheng and Weiping Jia",
+    "year": "2021",
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-021-23458-5",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Yang2022_816400",
+    "record_id": "Yang2022_816400",
+    "entry_type": "ARTICLE",
+    "title": "Mechanistic Pathogenesis of Endothelial Dysfunction in Diabetic Nephropathy and Retinopathy",
+    "author": "Jing Yang and Zhangsuo Liu",
+    "year": "2022",
+    "journal": "Frontiers in Endocrinology",
+    "doi": "10.3389/fendo.2022.816400",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Kim2021_010108",
+    "record_id": "Kim2021_010108",
+    "entry_type": "ARTICLE",
+    "title": "Ocular Drug Delivery to the Retina: Current Innovations and Future Perspectives",
+    "author": "Hyeong Min Kim and Se Joon Woo",
+    "year": "2021",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics13010108",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Mikušová2021_179652",
+    "record_id": "Mikušová2021_179652",
+    "entry_type": "ARTICLE",
+    "title": "Advances in Chitosan-Based Nanoparticles for Drug Delivery",
+    "author": "Veronika Mikušová and Peter Mikuš",
+    "year": "2021",
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms22179652",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Generic chitosan nanoparticle review; not ocular DR/DME delivery"
+  },
+  {
+    "citekey": "Leley2021_297494",
+    "record_id": "Leley2021_297494",
+    "entry_type": "ARTICLE",
+    "title": "Diabetic Retinopathy in the Aging Population: A Perspective of Pathogenesis and Treatment",
+    "author": "Sameer P. Leley and Thomas A. Ciulla and Ashay D. Bhatwadekar",
+    "year": "2021",
+    "journal": "Clinical Interventions in Aging",
+    "doi": "10.2147/cia.s297494",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Wang2024_347864",
+    "record_id": "Wang2024_347864",
+    "entry_type": "ARTICLE",
+    "title": "Recent advances in the treatment and delivery system of diabetic retinopathy",
+    "author": "Zhiyi Wang and Ningzhi Zhang and Pei Lin and Yiqiao Xing and Ning Yang",
+    "year": "2024",
+    "journal": "Frontiers in Endocrinology",
+    "doi": "10.3389/fendo.2024.1347864",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Liu2021_294807",
+    "record_id": "Liu2021_294807",
+    "entry_type": "ARTICLE",
+    "title": "Progress of Nanotechnology in Diabetic Retinopathy Treatment",
+    "author": "Yuxin Liu and Na Wu",
+    "year": "2021",
+    "journal": "International Journal of Nanomedicine",
+    "doi": "10.2147/ijn.s294807",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Tsung2023_612976",
+    "record_id": "Tsung2023_612976",
+    "entry_type": "ARTICLE",
+    "title": "Biodegradable Polymer-Based Drug-Delivery Systems for Ocular Diseases",
+    "author": "Ta‐Hsin Tsung and Yu-Chien Tsai and Hsin-Pei Lee and Yi‐Hao Chen and Da‐Wen Lu",
+    "year": "2023",
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms241612976",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Everett2021_14036",
+    "record_id": "Everett2021_14036",
+    "entry_type": "ARTICLE",
+    "title": "Laser Therapy in the Treatment of Diabetic Retinopathy and Diabetic Macular Edema",
+    "author": "Lesley Everett and Yannis M. Paulus",
+    "year": "2021",
+    "journal": "Current Diabetes Reports",
+    "doi": "10.1007/s11892-021-01403-6",
+    "open_access_flag": true,
+    "gold_oa": false,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Ahmed2023_25169",
+    "record_id": "Ahmed2023_25169",
+    "entry_type": "ARTICLE",
+    "title": "Ocular Drug Delivery: a Comprehensive Review",
+    "author": "Sadek Ahmed and Maha M. Amin and Sinar Sayed",
+    "year": "2023",
+    "journal": "AAPS PharmSciTech",
+    "doi": "10.1208/s12249-023-02516-9",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Zhou2023_091342",
+    "record_id": "Zhou2023_091342",
+    "entry_type": "ARTICLE",
+    "title": "Retinal Cell Damage in Diabetic Retinopathy",
+    "author": "Jing Zhou and Bo Chen",
+    "year": "2023",
+    "journal": "Cells",
+    "doi": "10.3390/cells12091342",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Deng2021_852759",
+    "record_id": "Deng2021_852759",
+    "entry_type": "ARTICLE",
+    "title": "The Role of Oxidative Stress and Antioxidants in Diabetic Wound Healing",
+    "author": "Liling Deng and Chenzhen Du and Peiyang Song and Tianyi Chen and Shunli Rui and David G. Armstrong and Wuquan Deng",
+    "year": "2021",
+    "journal": "Oxidative Medicine and Cellular Longevity",
+    "doi": "10.1155/2021/8852759",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Radwan2021_316564",
+    "record_id": "Radwan2021_316564",
+    "entry_type": "ARTICLE",
+    "title": "Hyaluronic-Coated Albumin Nanoparticles for the Non-Invasive Delivery of Apatinib in Diabetic Retinopathy",
+    "author": "Salma El-Sayed Radwan and Amal H. El‐Kamel and Eiman I. Zaki and Susi Burgalassi and Erica Zucchetti and Riham M. El‐Moslemany",
+    "year": "2021",
+    "journal": "International Journal of Nanomedicine",
+    "doi": "10.2147/ijn.s316564",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Li2023_1400z",
+    "record_id": "Li2023_1400z",
+    "entry_type": "ARTICLE",
+    "title": "Diabetic vascular diseases: molecular mechanisms and therapeutic strategies",
+    "author": "Yiwen Li and Yanfei Liu and Shiwei Liu and Shiwei Liu and Mengqi Gao and Wenting Wang and Keji Chen and Luqi Huang and Yue Liu and Yue Liu",
+    "year": "2023",
+    "journal": "Signal Transduction and Targeted Therapy",
+    "doi": "10.1038/s41392-023-01400-z",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Ipp2021_34254",
+    "record_id": "Ipp2021_34254",
+    "entry_type": "ARTICLE",
+    "title": "Pivotal Evaluation of an Artificial Intelligence System for Autonomous Detection of Referrable and Vision-Threatening Diabetic Retinopathy",
+    "author": "Eli Ipp and David R. Liljenquist and Bruce W. Bode and Viral N. Shah and Steven Silverstein and Carl D. Regillo and Jennifer I. Lim and Srinivas R. Sadda and Amitha Domalpally and Gerry Gray and Malavika Bhaskaranand and Chaithanya Ramachandra and Kaushal Solanki and EyeArt Study Group and Harvey Dubiner and Pauline Genter and J. C. W. Graham and Alan P. Johnson and Grace A. Levy-Clarke and Richard D. Pesavento and Mark D. Sherman and Brian Kim and Gerald B. Walman and Halis Kaan Aktürk and Hal Joseph and Prakriti Joshee and Bruce S. Trippe and John M Gilbert and Barbara A. Blodi and Susan Reed and James Reimers and Kris Lang and Holly Cohn and Ruth Shaw and Sheila Watson and Andrew Ewen and Nancy Barrett and Maria Swift and Jeffrey Gornbein",
+    "year": "2021",
+    "journal": "JAMA Network Open",
+    "doi": "10.1001/jamanetworkopen.2021.34254",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Min2021_gab362",
+    "record_id": "Min2021_gab362",
+    "entry_type": "ARTICLE",
+    "title": "The Role of HIF1α-PFKFB3 Pathway in Diabetic Retinopathy",
+    "author": "Jie Min and Tianshu Zeng and Margaretha Roux and David A. Lazar and Lulu Chen and Slavica Tudzarova",
+    "year": "2021",
+    "journal": "The Journal of Clinical Endocrinology & Metabolism",
+    "doi": "10.1210/clinem/dgab362",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Nian2021_02391",
+    "record_id": "Nian2021_02391",
+    "entry_type": "ARTICLE",
+    "title": "Neurovascular unit in diabetic retinopathy: pathophysiological roles and potential therapeutical targets",
+    "author": "Shen Nian and Acy Lo and Yajing Mi and Kai Ren and Di Yang",
+    "year": "2021",
+    "journal": "Eye and Vision",
+    "doi": "10.1186/s40662-021-00239-1",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Yue2022_055087",
+    "record_id": "Yue2022_055087",
+    "entry_type": "ARTICLE",
+    "title": "The role of inflammation in immune system of diabetic retinopathy: Molecular mechanisms, pathogenetic role and therapeutic implications",
+    "author": "Tong Yue and Yu Shi and Sihui Luo and Jianping Weng and Yali Wu and Xueying Zheng",
+    "year": "2022",
+    "journal": "Frontiers in Immunology",
+    "doi": "10.3389/fimmu.2022.1055087",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Demir2021_100275",
+    "record_id": "Demir2021_100275",
+    "entry_type": "ARTICLE",
+    "title": "Emerging Targets in Type 2 Diabetes and Diabetic Complications",
+    "author": "Sevgican Demir and Peter P. Nawroth and Stephan Herzig and Bilgen Ekim Üstünel",
+    "year": "2021",
+    "journal": "Advanced Science",
+    "doi": "10.1002/advs.202100275",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q1"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Chen2023_1570w",
+    "record_id": "Chen2023_1570w",
+    "entry_type": "ARTICLE",
+    "title": "Endoplasmic reticulum stress: molecular mechanism and therapeutic targets",
+    "author": "Xingyi Chen and Chaoran Shi and Meihui He and Siqi Xiong and Xiaobo Xia",
+    "year": "2023",
+    "journal": "Signal Transduction and Targeted Therapy",
+    "doi": "10.1038/s41392-023-01570-w",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Ramadan2024_100232",
+    "record_id": "Ramadan2024_100232",
+    "entry_type": "ARTICLE",
+    "title": "Development and optimization of vildagliptin solid lipid nanoparticles loaded ocuserts for controlled ocular delivery: A promising approach towards treating diabetic retinopathy",
+    "author": "H. E. Ramadan and Mahmoud M. A. Elsayed and Amani Elsayed and Marwa Mohammed Fouad and Mohamed S. Mohamed and Sangmin Lee and Reda A. Mahmoud and Shereen A. Sabry and Mohammed M. Ghoneim and Ahmed H.E. Hassan and Reham A. Abd Elkarim and Amany Belal and Ahmed A. El-Shenawy",
+    "year": "2024",
+    "journal": "International Journal of Pharmaceutics X",
+    "doi": "10.1016/j.ijpx.2024.100232",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Qu2022_049678",
+    "record_id": "Qu2022_049678",
+    "entry_type": "ARTICLE",
+    "title": "Sustained therapeutic effect of an anti-inflammatory peptide encapsulated in nanoparticles on ocular vascular leakage in diabetic retinopathy",
+    "author": "Qiang Qu and Kyoungmin Park and Kelu Zhou and Drew Wassel and Rafal Farjo and Tracy Criswell and Jian‐xing Ma and Yuanyuan Zhang",
+    "year": "2022",
+    "journal": "Frontiers in Cell and Developmental Biology",
+    "doi": "10.3389/fcell.2022.1049678",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Zheng2023_151185",
+    "record_id": "Zheng2023_151185",
+    "entry_type": "ARTICLE",
+    "title": "The mechanisms of NLRP3 inflammasome/pyroptosis activation and their role in diabetic retinopathy",
+    "author": "Xiaoqin Zheng and Jia Wan and Gang Tan",
+    "year": "2023",
+    "journal": "Frontiers in Immunology",
+    "doi": "10.3389/fimmu.2023.1151185",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Cao2022_931759",
+    "record_id": "Cao2022_931759",
+    "entry_type": "ARTICLE",
+    "title": "Nanoparticles in ocular applications and their potential toxicity",
+    "author": "Yang Cao and Junling Yang and Ao Lu and Jing Gong and Yuanxing Yang and Xi Lin and Minghui Li and Haiwei Xu",
+    "year": "2022",
+    "journal": "Frontiers in Molecular Biosciences",
+    "doi": "10.3389/fmolb.2022.931759",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Hu2024_99111",
+    "record_id": "Hu2024_99111",
+    "entry_type": "ARTICLE",
+    "title": "Microglia in retinal angiogenesis and diabetic retinopathy",
+    "author": "Aiyan Hu and Mirko H. H. Schmidt and Nora Heinig",
+    "year": "2024",
+    "journal": "Angiogenesis",
+    "doi": "10.1007/s10456-024-09911-1",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Preiss2024_400179",
+    "record_id": "Preiss2024_400179",
+    "entry_type": "ARTICLE",
+    "title": "Effect of Fenofibrate on Progression of Diabetic Retinopathy",
+    "author": "David Preiss and Jennifer Logue and Emily Sammons and Mohammed Zayed and Jonathan Emberson and Rachel Wade and Karl Wallendszus and Will Stevens and Rosanna Cretney and Simon Harding and Graham Leese and Gemma Currie and Jane Armitage",
+    "year": "2024",
+    "journal": "NEJM Evidence",
+    "doi": "10.1056/evidoa2400179",
+    "open_access_flag": true,
+    "gold_oa": false,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Ren2022_953691",
+    "record_id": "Ren2022_953691",
+    "entry_type": "ARTICLE",
+    "title": "Diabetic retinopathy: Involved cells, biomarkers, and treatments",
+    "author": "Jiahui Ren and Shuxia Zhang and Yunfeng Pan and Meiqi Jin and Jiaxin Li and Yun Luo and Xiaobo Sun and Guang Li",
+    "year": "2022",
+    "journal": "Frontiers in Pharmacology",
+    "doi": "10.3389/fphar.2022.953691",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Kong2022_4786w",
+    "record_id": "Kong2022_4786w",
+    "entry_type": "ARTICLE",
+    "title": "Targeted P2X7/NLRP3 signaling pathway against inflammation, apoptosis, and pyroptosis of retinal endothelial cells in diabetic retinopathy",
+    "author": "Hui Kong and Hongran Zhao and Tianran Chen and Yanling Song and Yan Cui",
+    "year": "2022",
+    "journal": "Cell Death and Disease",
+    "doi": "10.1038/s41419-022-04786-w",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Jacob2022_030533",
+    "record_id": "Jacob2022_030533",
+    "entry_type": "ARTICLE",
+    "title": "Lipid Nanoparticles as a Promising Drug Delivery Carrier for Topical Ocular Therapy—An Overview on Recent Advances",
+    "author": "Shery Jacob and Anroop B. Nair and Jigar Shah and Sumeet Gupta and Sai H. S. Boddu and Nagaraja Sreeharsha and Alex Joseph and Pottathil Shinu and Mohamed A. Morsy",
+    "year": "2022",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics14030533",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Swetledge2021_07459",
+    "record_id": "Swetledge2021_07459",
+    "entry_type": "ARTICLE",
+    "title": "Distribution of polymeric nanoparticles in the eye: implications in ocular disease therapy",
+    "author": "Sean Swetledge and Jangwook P. Jung and Renee T. Carter and Cristina M. Sabliov",
+    "year": "2021",
+    "journal": "Journal of Nanobiotechnology",
+    "doi": "10.1186/s12951-020-00745-9",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Amorim2022_873483",
+    "record_id": "Amorim2022_873483",
+    "entry_type": "ARTICLE",
+    "title": "Putative Biomarkers in Tears for Diabetic Retinopathy Diagnosis",
+    "author": "Madania Amorim and Beatriz Martins and Francisco Caramelo and Conceição Gonçalves and Grimalde Trindade and Jorge Simão and Patrícia Barreto and Inês Marques and Ermelindo C. Leal and Eugénia Carvalho and Flávio Reis and Teresa Ribeiro‐Rodrigues and Henrique Girão and Paulo Rodrigues‐Santos and Cláudia Farinha and António Francisco Ambrósio and Rufino Silva and Rosa Fernandes",
+    "year": "2022",
+    "journal": "Frontiers in Medicine",
+    "doi": "10.3389/fmed.2022.873483",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q2"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Off-topic on title: screening, pathogenesis, laser, systemic drug, or no ocular delivery/DR implant"
+  },
+  {
+    "citekey": "Singer2022_01015",
+    "record_id": "Singer2022_01015",
+    "entry_type": "ARTICLE",
+    "title": "Three-Year Safety and Efficacy of the 0.19-mg Fluocinolone Acetonide Intravitreal Implant for Diabetic Macular Edema",
+    "author": "Michael Singer and Veeral Sheth and Sam E. Mansour and Brandon Coughlin and Víctor H. González",
+    "year": "2022",
+    "journal": "Ophthalmology",
+    "doi": "10.1016/j.ophtha.2022.01.015",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Taloni2023_427209",
+    "record_id": "Taloni2023_427209",
+    "entry_type": "ARTICLE",
+    "title": "Safety and Efficacy of Dexamethasone Intravitreal Implant Given Either First-Line or Second-Line in Diabetic Macular Edema",
+    "author": "Andrea Taloni and Giulia Coco and Davide Rastelli and Giacinta Buffon and Vincenzo Scorcia and Giuseppe Giannaccare",
+    "year": "2023",
+    "journal": "Patient Preference and Adherence",
+    "doi": "10.2147/ppa.s427209",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Neves2021_1015",
+    "record_id": "Neves2021_1015",
+    "entry_type": "ARTICLE",
+    "title": "Dexamethasone intravitreal implant (Ozurdex) in diabetic macular edema: real-world data versus clinical trials outcomes",
+    "author": "Pedro Neves and Inês Matias and João V. Rodrigues and Margarida Reis Santos and Marco Dutra-Medeiros and David Martins",
+    "year": "2021",
+    "journal": "International Journal of Ophthalmology",
+    "doi": "10.18240/ijo.2021.10.15",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Kartı2021_81220",
+    "record_id": "Kartı2021_81220",
+    "entry_type": "ARTICLE",
+    "title": "Place of intravitreal dexamethasone implant in the treatment armamentarium of diabetic macular edema",
+    "author": "Ömer Kartı and Ali Osman Saatçi",
+    "year": "2021",
+    "journal": "World Journal of Diabetes",
+    "doi": "10.4239/wjd.v12.i8.1220",
+    "open_access_flag": true,
+    "gold_oa": false,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Yoon2021_17862",
+    "record_id": "Yoon2021_17862",
+    "entry_type": "ARTICLE",
+    "title": "Title: efficacy of intravitreal dexamethasone implant on hard exudate in diabetic macular edema",
+    "author": "Chang Ki Yoon and Min Sagong and Jae Pil Shin and Sang Joon Lee and Joo Eun Lee and Ji Eun Lee and In Young Chung and Woo‐Jin Jeong and Kang Yeun Pak and Hyun Woong Kim",
+    "year": "2021",
+    "journal": "BMC Ophthalmology",
+    "doi": "10.1186/s12886-020-01786-2",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained"
+  },
+  {
+    "citekey": "Spinetta2023_102461",
+    "record_id": "Spinetta2023_102461",
+    "entry_type": "ARTICLE",
+    "title": "Intravitreal DEX Implant for the Treatment of Diabetic Macular Edema: A Review of National Consensus",
+    "author": "Roberta Spinetta and Francesco Petrillo and Michele Reibaldi and Antonia Tortori and Maria Rosa Mazzoni and Cristian Metrangolo and Francesco Gelormini and Federico Ricardi and Antonio Giordano",
+    "year": "2023",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics15102461",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "DME corticosteroid implant consensus / delivery practice"
+  },
+  {
+    "citekey": "Vitiello2024_060725",
+    "record_id": "Vitiello2024_060725",
+    "entry_type": "ARTICLE",
+    "title": "Switching to an Intravitreal Dexamethasone Implant after Intravitreal Anti-VEGF Therapy for Diabetic Macular Edema: A Review",
+    "author": "Livio Vitiello and Giulio Salerno and Alessia Coppola and Ilaria De Pascale and Giulia Abbinante and Vincenzo Gagliardi and Filippo Lixi and Alfonso Pellegrino and Giuseppe Giannaccare",
+    "year": "2024",
+    "journal": "Life",
+    "doi": "10.3390/life14060725",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Liberski2022_169424",
+    "record_id": "Liberski2022_169424",
+    "entry_type": "ARTICLE",
+    "title": "Aflibercept versus Faricimab in the Treatment of Neovascular Age-Related Macular Degeneration and Diabetic Macular Edema: A Review",
+    "author": "Sławomir Liberski and Małgorzata Wichrowska and Jarosław Kocięcki",
+    "year": "2022",
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms23169424",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Baillif2022_112391",
+    "record_id": "Baillif2022_112391",
+    "entry_type": "ARTICLE",
+    "title": "Management of Patients with Diabetic Macular Edema Switched from Dexamethasone Intravitreal Implant to Fluocinolone Acetonide Intravitreal Implant",
+    "author": "Stéphanie Baillif and Pascal Staccini and Michel Weber and Marie‐Noëlle Delyfer and Y. Le Mer and Vincent Gualino and Laurence Collot and Pierre-Yves Mérité and Catherine Creuzot‐Garcher and Laurent Kodjikian and Pascale Massin",
+    "year": "2022",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics14112391",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Furino2021_654168",
+    "record_id": "Furino2021_654168",
+    "entry_type": "ARTICLE",
+    "title": "Intravitreal Therapy for Diabetic Macular Edema: An Update",
+    "author": "Claudio Furino and Francesco Boscia and Michele Reibaldi and Giovanni Alessio",
+    "year": "2021",
+    "journal": "Journal of Ophthalmology",
+    "doi": "10.1155/2021/6654168",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Merrill2022_09017",
+    "record_id": "Merrill2022_09017",
+    "entry_type": "ARTICLE",
+    "title": "The 0.19-mg Fluocinolone Acetonide Intravitreal Implant Reduces Treatment Burden in Diabetic Macular Edema",
+    "author": "Pauline T. Merrill and Nancy M. Holekamp and Daniel Roth and Jonathan Kasper and Ruben Grigorian",
+    "year": "2022",
+    "journal": "American Journal of Ophthalmology",
+    "doi": "10.1016/j.ajo.2022.09.017",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Costanzo2023_041303",
+    "record_id": "Costanzo2023_041303",
+    "entry_type": "ARTICLE",
+    "title": "Prognostic Imaging Biomarkers in Diabetic Macular Edema Eyes Treated with Intravitreal Dexamethasone Implant",
+    "author": "Eliana Costanzo and Daniela Giannini and Daniele De Geronimo and Serena Fragiotta and Monica Varano and Mariacristina Parravano",
+    "year": "2023",
+    "journal": "Journal of Clinical Medicine",
+    "doi": "10.3390/jcm12041303",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained"
+  },
+  {
+    "citekey": "Mathis2022_040723",
+    "record_id": "Mathis2022_040723",
+    "entry_type": "ARTICLE",
+    "title": "Efficacy and Safety of Intravitreal Fluocinolone Acetonide Implant for Chronic Diabetic Macular Edema Previously Treated in Real-Life Practice: The REALFAc Study",
+    "author": "Thibaud Mathis and Maxence Papegaey and C. Ricard and Amina Rezkallah and F. Matonti and Aditya Sudhalkar and Cristina Vartin and Corinne Dot and Laurent Kodjikian",
+    "year": "2022",
+    "journal": "Pharmaceutics",
+    "doi": "10.3390/pharmaceutics14040723",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Koç2023_28316",
+    "record_id": "Koç2023_28316",
+    "entry_type": "ARTICLE",
+    "title": "Comparison of the efficacy of intravitreal Anti-VEGF versus intravitreal dexamethasone implant in treatment resistant diabetic Macular Edema",
+    "author": "Hakan Koç and Atilla Alpay and Suat Hayri Uğurbaş",
+    "year": "2023",
+    "journal": "BMC Ophthalmology",
+    "doi": "10.1186/s12886-023-02831-6",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Roth2023_08004",
+    "record_id": "Roth2023_08004",
+    "entry_type": "ARTICLE",
+    "title": "The 0.19-mg Fluocinolone Acetonide Intravitreal Implant for Diabetic Macular Edema",
+    "author": "Daniel B. Roth and Daniel B. Roth and David Eichenbaum and Deepika Malik and Nathan M. Radcliffe and Antonio Cutino and Kent W. Small and Ahmed Abdelsalam and Akbar Shakoor and Ala Moshiri and Andrew J. Barkmeier and Asheesh Tewari and Carl W. Baker and Daniel F. Kiernan and Daniel F. Rosberger and Daniel B. Roth and Daniel Roth and David Eichenbaum and Deepika Malik and Dennis M. Marcus and Doug Dehning and Elias Reichel and E. P. Tilton and Evelyn X. Fu and Gregg T. Kokame and Hani Salehi-Had and Harit Bhatt and Jared S. Nielsen and Jay G. Prensky and Jennifer I. Lim and Jon Adleberg and Joseph Beck and Joseph M Gunn and Joseph Podhorzer and Kent W. Small and Lakshmana M. Kooragayala and Lars Freisberg and Lisa S. Schocket and María H. Berrocal and Martin Worrall and Michael Cassell and Michael Singer and Michael Tsipursky and Nancy M. Holekamp and Pamela Weber and Pauline T. Merrill and Peter A. Campochiaro and Pravin U. Dugel and Rahul N. Khurana and Rajendra S. Apte and Rajiv Rathod and Randy Katz and Richard Chace and Robert Kwun and Ruben Grigorian and Sam E. Mansour and Saradha Chexal and Steven A. Madreperla and Víctor H. González and William Aldred",
+    "year": "2023",
+    "journal": "Ophthalmology Retina",
+    "doi": "10.1016/j.oret.2023.08.004",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Wang2021_000483",
+    "record_id": "Wang2021_000483",
+    "entry_type": "ARTICLE",
+    "title": "Effect of dexamethasone intravitreal implant for refractory and treatment-naive diabetic macular edema in Taiwanese patients",
+    "author": "Jia-Kang Wang and Tzu‐Lun Huang and Yung-Ray Hsu and Pei-Yao Chang",
+    "year": "2021",
+    "journal": "Journal of the Chinese Medical Association",
+    "doi": "10.1097/jcma.0000000000000483",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained"
+  },
+  {
+    "citekey": "CarnotaMéndez2022_345947",
+    "record_id": "CarnotaMéndez2022_345947",
+    "entry_type": "ARTICLE",
+    "title": "OCT-Angiography Changes in Patients with Diabetic Macular Edema Treated with Intravitreal Dexamethasone Implant",
+    "author": "Pablo Carnota-Méndez and Carlos Méndez-Vázquez and Conchi Pérez-Gavela",
+    "year": "2022",
+    "journal": "Clinical ophthalmology",
+    "doi": "10.2147/opth.s345947",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained"
+  },
+  {
+    "citekey": "Wang2021_882539",
+    "record_id": "Wang2021_882539",
+    "entry_type": "ARTICLE",
+    "title": "Comparison of Intravitreal Dexamethasone Implant and Ranibizumab in Vitrectomized Eyes with Diabetic Macular Edema",
+    "author": "Jia-Kang Wang and Tzu‐Lun Huang and Pei-Yao Chang and Wei‐Ting Ho and Yung-Ray Hsu and Fang‐Ting Chen and Yun‐Ju Chen",
+    "year": "2021",
+    "journal": "Journal of Ophthalmology",
+    "doi": "10.1155/2021/8882539",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "Ocular drug delivery, nanocarrier, or DR/DME implant/intravitreal therapy in title"
+  },
+  {
+    "citekey": "Goñi2022_04271",
+    "record_id": "Goñi2022_04271",
+    "entry_type": "ARTICLE",
+    "title": "Intravitreal Corticosteroid Implantation in Diabetic Macular Edema: Updated European Consensus Guidance on Monitoring and Managing Intraocular Pressure",
+    "author": "F.J. Goñi and Keith Barton and José António Dias and Michael Diestelhorst and Julián Garcia-Feijoo and Anton Hommer and Laurent Kodjikian and Massimo Nicolò",
+    "year": "2022",
+    "journal": "Ophthalmology and Therapy",
+    "doi": "10.1007/s40123-021-00427-1",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_include",
+    "title_reason": "DME corticosteroid implant consensus / delivery practice"
+  },
+  {
+    "citekey": "Brambati2022_04555",
+    "record_id": "Brambati2022_04555",
+    "entry_type": "ARTICLE",
+    "title": "Changes in Macular Perfusion After ILUVIEN® Intravitreal Implant for Diabetic Macular Edema: An OCTA Study",
+    "author": "Maria Brambati and Enrico Borrelli and Luigi Capone and Lea Querques and Riccardo Sacconi and Marco Battista and Francesco Bandello and Giuseppe Querques",
+    "year": "2022",
+    "journal": "Ophthalmology and Therapy",
+    "doi": "10.1007/s40123-022-00455-5",
+    "open_access_flag": true,
+    "gold_oa": true,
+    "gap_fill": false,
+    "origin": "topic_search",
+    "queries": [
+      "q3"
+    ],
+    "title_decision": "title_exclude",
+    "title_reason": "Redundant DME implant imaging or single-centre real-world duplicate; hinge implant papers retained"
+  }
+]

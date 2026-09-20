@@ -1,0 +1,12 @@
+{
+  "source": "OpenAlex topic_search (3 queries)",
+  "n_unique_doi": 52,
+  "queries": [
+    "drug delivery diabetic retinopathy",
+    "nanoparticle diabetic retinopathy ocular",
+    "intravitreal implant diabetic macular edema"
+  ],
+  "from_year": 2021,
+  "to_year": 2026,
+  "journal_quality": "journal"
+}

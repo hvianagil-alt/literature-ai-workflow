@@ -1,0 +1,432 @@
+[
+  {
+    "citekey": "Kim2021_010108",
+    "doi": "10.3390/pharmaceutics13010108",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Kim2021_010108.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/13/1/108/pdf?version=1610957671",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics13010108",
+      "https://doi.org/10.3390/pharmaceutics13010108"
+    ],
+    "bytes": 123733,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Wang2024_347864",
+    "doi": "10.3389/fendo.2024.1347864",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Wang2024_347864.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1347864/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1347864/pdf",
+      "https://www.frontiersin.org/articles/10.3389/fendo.2024.1347864/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fendo.2024.1347864/pdf",
+      "https://doi.org/10.3389/fendo.2024.1347864"
+    ],
+    "bytes": 2408536
+  },
+  {
+    "citekey": "Liu2021_294807",
+    "doi": "10.2147/ijn.s294807",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Liu2021_294807.pdf",
+    "format": "pdf",
+    "http_calls": 6,
+    "source_url": "https://www.dovepress.com/article/download/62422",
+    "attempted": [
+      "https://www.dovepress.com/getfile.php?fileID=66976",
+      "https://doi.org/10.2147/ijn.s294807"
+    ],
+    "bytes": 998603
+  },
+  {
+    "citekey": "Tsung2023_612976",
+    "doi": "10.3390/ijms241612976",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Tsung2023_612976.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "https://www.mdpi.com/1422-0067/24/16/12976/pdf?version=1692592470",
+      "https://www.mdpi.com/resolver?doi=10.3390/ijms241612976",
+      "https://doi.org/10.3390/ijms241612976"
+    ],
+    "bytes": 157839,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Ahmed2023_25169",
+    "doi": "10.1208/s12249-023-02516-9",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Ahmed2023_25169.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1208/s12249-023-02516-9.pdf?error=cookies_not_supported&code=247ed154-6c46-4f87-9017-799a5aa4a688",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1208/s12249-023-02516-9.pdf",
+      "https://doi.org/10.1208/s12249-023-02516-9"
+    ],
+    "bytes": 3306363
+  },
+  {
+    "citekey": "Radwan2021_316564",
+    "doi": "10.2147/ijn.s316564",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Radwan2021_316564.pdf",
+    "format": "pdf",
+    "http_calls": 6,
+    "source_url": "https://www.dovepress.com/article/download/66544",
+    "attempted": [
+      "https://www.dovepress.com/getfile.php?fileID=71260",
+      "https://doi.org/10.2147/ijn.s316564"
+    ],
+    "bytes": 7036074
+  },
+  {
+    "citekey": "Ramadan2024_100232",
+    "doi": "10.1016/j.ijpx.2024.100232",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Ramadan2024_100232.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "https://doi.org/10.1016/j.ijpx.2024.100232",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ijpx.2024.100232"
+    ],
+    "bytes": 83986,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Qu2022_049678",
+    "doi": "10.3389/fcell.2022.1049678",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Qu2022_049678.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2022.1049678/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/articles/10.3389/fcell.2022.1049678/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fcell.2022.1049678/pdf",
+      "https://doi.org/10.3389/fcell.2022.1049678"
+    ],
+    "bytes": 3692869
+  },
+  {
+    "citekey": "Cao2022_931759",
+    "doi": "10.3389/fmolb.2022.931759",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Cao2022_931759.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.931759/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/articles/10.3389/fmolb.2022.931759/pdf",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmolb.2022.931759/pdf",
+      "https://doi.org/10.3389/fmolb.2022.931759"
+    ],
+    "bytes": 1526528
+  },
+  {
+    "citekey": "Jacob2022_030533",
+    "doi": "10.3390/pharmaceutics14030533",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Jacob2022_030533.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/14/3/533/pdf?version=1648084473",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics14030533",
+      "https://doi.org/10.3390/pharmaceutics14030533"
+    ],
+    "bytes": 166870,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Swetledge2021_07459",
+    "doi": "10.1186/s12951-020-00745-9",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Swetledge2021_07459.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s12951-020-00745-9.pdf?error=cookies_not_supported&code=a2f275c4-3cf6-472f-9931-22522bfc877c",
+    "attempted": [
+      "https://jnanobiotechnology.biomedcentral.com/track/pdf/10.1186/s12951-020-00745-9",
+      "https://doi.org/10.1186/s12951-020-00745-9",
+      "https://link.springer.com/content/pdf/10.1186%2Fs12951-020-00745-9.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12951-020-00745-9.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12951-020-00745-9.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s12951-020-00745-9.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s12951-020-00745-9.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s12951-020-00745-9.pdf"
+    ],
+    "bytes": 1667536
+  },
+  {
+    "citekey": "Singer2022_01015",
+    "doi": "10.1016/j.ophtha.2022.01.015",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.ophtha.2022.01.015",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ophtha.2022.01.015"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Taloni2023_427209",
+    "doi": "10.2147/ppa.s427209",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Taloni2023_427209.pdf",
+    "format": "pdf",
+    "http_calls": 6,
+    "source_url": "https://www.dovepress.com/article/download/88973",
+    "attempted": [
+      "https://www.dovepress.com/getfile.php?fileID=95205",
+      "https://doi.org/10.2147/ppa.s427209"
+    ],
+    "bytes": 5523157
+  },
+  {
+    "citekey": "Neves2021_1015",
+    "doi": "10.18240/ijo.2021.10.15",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Neves2021_1015.txt",
+    "format": "oa_text",
+    "http_calls": 6,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "http://ies.ijo.cn/gjyken/ch/reader/create_pdf.aspx?file_no=20211015&flag=1&journal_id=gjyken",
+      "https://doi.org/10.18240/ijo.2021.10.15"
+    ],
+    "bytes": 48008,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Kartı2021_81220",
+    "doi": "10.4239/wjd.v12.i8.1220",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Kartı2021_81220.txt",
+    "format": "oa_text",
+    "http_calls": 5,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "https://doi.org/10.4239/wjd.v12.i8.1220"
+    ],
+    "bytes": 58967,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Spinetta2023_102461",
+    "doi": "10.3390/pharmaceutics15102461",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Spinetta2023_102461.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/pharmaceutics15102461/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/15/10/2461/pdf?version=1697194694",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10610055/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics15102461",
+      "https://doi.org/10.3390/pharmaceutics15102461"
+    ],
+    "bytes": 73124
+  },
+  {
+    "citekey": "Vitiello2024_060725",
+    "doi": "10.3390/life14060725",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2075-1729/14/6/725/pdf?version=1717401848",
+      "https://www.mdpi.com/resolver?doi=10.3390/life14060725",
+      "https://doi.org/10.3390/life14060725"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Liberski2022_169424",
+    "doi": "10.3390/ijms23169424",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Liberski2022_169424.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/ijms23169424/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1422-0067/23/16/9424/pdf?version=1661236143",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9409486/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/ijms23169424",
+      "https://doi.org/10.3390/ijms23169424"
+    ],
+    "bytes": 123344
+  },
+  {
+    "citekey": "Baillif2022_112391",
+    "doi": "10.3390/pharmaceutics14112391",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Baillif2022_112391.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/pharmaceutics14112391/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/14/11/2391/pdf?version=1667640295",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9693281/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics14112391",
+      "https://doi.org/10.3390/pharmaceutics14112391"
+    ],
+    "bytes": 58901
+  },
+  {
+    "citekey": "Furino2021_654168",
+    "doi": "10.1155/2021/6654168",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Furino2021_654168.txt",
+    "format": "jats_xml",
+    "http_calls": 7,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.1155/2021/6654168/fullTextXML",
+    "attempted": [
+      "https://downloads.hindawi.com/journals/joph/2021/6654168.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7925023/pdf/",
+      "https://doi.org/10.1155/2021/6654168"
+    ],
+    "bytes": 137491
+  },
+  {
+    "citekey": "Merrill2022_09017",
+    "doi": "10.1016/j.ajo.2022.09.017",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "http://www.ajo.com/article/S0002939422003749/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.ajo.2022.09.017",
+      "https://doi.org/10.1016/j.ajo.2022.09.017"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Mathis2022_040723",
+    "doi": "10.3390/pharmaceutics14040723",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Mathis2022_040723.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "https://www.mdpi.com/1999-4923/14/4/723/pdf?version=1648465164",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9025285/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/pharmaceutics14040723",
+      "https://doi.org/10.3390/pharmaceutics14040723"
+    ],
+    "bytes": 49125,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Koç2023_28316",
+    "doi": "10.1186/s12886-023-02831-6",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Koç2023_28316.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1186/s12886-023-02831-6.pdf?error=cookies_not_supported&code=2db778bd-40b1-4c7f-9e02-ed6ca5f80fd1",
+    "attempted": [
+      "https://bmcophthalmol.biomedcentral.com/counter/pdf/10.1186/s12886-023-02831-6",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10009964/pdf/",
+      "https://doi.org/10.1186/s12886-023-02831-6",
+      "https://link.springer.com/content/pdf/10.1186%2Fs12886-023-02831-6.pdf",
+      "https://jnanobiotechnology.biomedcentral.com/counter/pdf/10.1186/s12886-023-02831-6.pdf",
+      "https://bmcpublichealth.biomedcentral.com/counter/pdf/10.1186/s12886-023-02831-6.pdf",
+      "https://bmcmed.biomedcentral.com/counter/pdf/10.1186/s12886-023-02831-6.pdf",
+      "https://jpro.biomedcentral.com/counter/pdf/10.1186/s12886-023-02831-6.pdf",
+      "https://biolres.biomedcentral.com/counter/pdf/10.1186/s12886-023-02831-6.pdf"
+    ],
+    "bytes": 1220164
+  },
+  {
+    "citekey": "Roth2023_08004",
+    "doi": "10.1016/j.oret.2023.08.004",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1016/j.oret.2023.08.004",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.oret.2023.08.004"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Wang2021_882539",
+    "doi": "10.1155/2021/8882539",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Wang2021_882539.txt",
+    "format": "jats_xml",
+    "http_calls": 6,
+    "source_url": "europepmc_or_pmc_html_retry",
+    "attempted": [
+      "https://downloads.hindawi.com/journals/joph/2021/8882539.pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8448602/pdf/",
+      "https://doi.org/10.1155/2021/8882539"
+    ],
+    "bytes": 39730,
+    "retry": "later_oa_retry"
+  },
+  {
+    "citekey": "Goñi2022_04271",
+    "doi": "10.1007/s40123-021-00427-1",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-dr-drug-delivery-found/Goñi2022_04271.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s40123-021-00427-1.pdf?error=cookies_not_supported&code=ee8033f1-d3e2-479c-b46d-8630aba8e18b",
+    "attempted": [
+      "https://link.springer.com/content/pdf/10.1007/s40123-021-00427-1.pdf",
+      "https://link.springer.com/content/pdf/10.1007%2Fs40123-021-00427-1.pdf",
+      "https://doi.org/10.1007/s40123-021-00427-1"
+    ],
+    "bytes": 621291
+  }
+]
