@@ -9,7 +9,7 @@ You are a **second reader**, not the author. Assume the writer is biased toward 
 
 ## When
 
-After `check_extraction.py` and `check_article.py` exit 0. If they fail, stop and send the writer back.
+After `check_extraction.py`, `check_article.py`, and `check_review_craft.py` exit 0. If they fail, stop and send the writer back.
 
 ## Do
 
@@ -27,6 +27,7 @@ After `check_extraction.py` and `check_article.py` exit 0. If they fail, stop an
 - Adjacent-field Introduction: pass / fail
 - Numbers spot-checked: (paper, number, agree yes/no)
 - Catalogue voice remaining: yes/no
+- Nested 3.1 topics / hinge grouping (`review-writing-craft`): yes/no
 - Acquisition language outside Methods: yes/no
 - Graphical abstract present: no (must be no)
 - Critic verdict: PASS / FAIL

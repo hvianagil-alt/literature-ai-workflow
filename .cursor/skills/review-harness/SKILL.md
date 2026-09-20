@@ -45,12 +45,13 @@ Write `synthesis-rationale.md` with **(i)** and **(a)–(e)**. Attempt OA gap re
 
 ### Article QA loop (max 3 cycles)
 
-1. Draft `article.md` (`review-prose` + `scientific-synthesis` + `report-writing`).
+1. Draft `article.md` (`review-prose` + `scientific-synthesis` + `review-writing-craft` + `report-writing`).
 2. `python3 scripts/renumber_citations.py --article review/runs/<id>/article.md` if needed.
 3. `python3 scripts/check_article.py --article … --table … --form-model review/ml/model.json`
 4. If fail: rewrite; do not argue with the script.
 5. `python3 scripts/score_review_form.py score --article … --field <field>` if the model exists; rewrite joinery if `p_published_form` < 0.45.
-6. After 3 failures, **do not deliver**. Tell the user the gate is still red and what failed.
+6. `python3 scripts/check_review_craft.py --article …` (skip with `--short` only if the user asked for a short note). If fail: nest 3.1 topics, group supporting papers, cut slogans; rewrite with `review-writing-craft`.
+7. After 3 failures, **do not deliver**. Tell the user the gate is still red and what failed.
 
 ### Critic loop (1 rewrite)
 
@@ -65,7 +66,7 @@ Write `synthesis-rationale.md` with **(i)** and **(a)–(e)**. Attempt OA gap re
 python3 scripts/check_harness.py --run-dir review/runs/<id> --full
 ```
 
-exits 0. That script checks the files exist, the critic passed, memory was consulted, and the two quality scripts are green. **The article file existing is not done.**
+exits 0. That script checks the files exist, the critic passed, memory was consulted, the two quality scripts are green, and `check_review_craft.py` is green on a full manuscript. **The article file existing is not done.**
 
 Then hand Markdown and ask Word/PDF. Do not start a graphical abstract.
 

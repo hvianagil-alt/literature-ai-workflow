@@ -10,7 +10,7 @@ Researchers in **life sciences** (and neighbouring fields) who are not AI expert
 
 This is an opinionated, sequential workflow. Don't skip steps, and don't silently process everything the moment you see PDFs. Run it as the **review-harness**: extract until green, form-check against `review/memory/`, rewrite the article until the scripts pass, then an independent critic. **Six hard gates** must complete before you tell the user the article is done: the first conversation (step 0), direction check (step 2), synthesis rationale + targeted extra retrieval (step 6), field memory + structure benchmark (step 6b), the machine quality gate (step 8), and the critic + `check_harness.py --full` (step 9).
 
-**The article is not done when the file exists.** It is done when `scripts/check_extraction.py` and `scripts/check_article.py` exit 0. A previous run failed by delivering mechanical notes and catalog sentences. Do not repeat that. Do not rewrite an earlier sample's `article.md` unless the user asked to change that manuscript.
+**The article is not done when the file exists.** It is done when `scripts/check_extraction.py`, `scripts/check_article.py`, and `scripts/check_review_craft.py` exit 0. A previous run failed by delivering mechanical notes and catalog sentences. Do not repeat that. Do not rewrite an earlier sample's `article.md` unless the user asked to change that manuscript.
 
 ### 0. First conversation (mandatory on every new chat)
 
@@ -102,7 +102,7 @@ Open `review/memory/index.md` and pick the card for this user’s field (and `ap
 
 ### 7. Write the journal review (only after steps 6 and 6b)
 
-Read `review-prose`, **`scientific-synthesis`**, **and** `report-writing` before drafting. Default output is a **journal-style narrative review**, not a lab report, unless the user asked for a short note. `scientific-synthesis` is the reasoning file (intellectual model first; literature as evidence to synthesise; paragraph function; mechanism grading). `review-prose` is genre, architecture, and voice. `report-writing` executes the outline from `synthesis-rationale.md` in that reasoning and voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
+Read `review-prose`, **`scientific-synthesis`**, **`review-writing-craft`**, **and** `report-writing` before drafting. Default output is a **journal-style narrative review**, not a lab report, unless the user asked for a short note. `scientific-synthesis` is the reasoning file (intellectual model first; literature as evidence to synthesise; paragraph function; mechanism grading). `review-prose` is genre, architecture, and voice. `review-writing-craft` is how published reviews actually move (CARS, given-new, nested 3.1 topics, hinge vs supporting papers). `report-writing` executes the outline from `synthesis-rationale.md` in that reasoning and voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
 
 Produce a **PhD-quality, argument-driven journal review** of **all** in-scope evidence (original sample plus any successfully retrieved gap-fill papers), with thematic subsections and numbered citations from retrieved full texts.
 
@@ -123,7 +123,7 @@ The article is a **secondary** paper: it does not report a new experiment. It te
 
 **How the papers were found belongs only in Methods.** Do not put Scopus, BibTeX, Unpaywall, OpenAlex, “open full texts”, “public PDFs”, paywalls, screening counts, or the search year window (`2021–2026`) in the Abstract, Introduction, Discussion, or Conclusions. The Abstract says what the science is about, not how the files were obtained. Methods is the place for the database, dates, eligibility, and that only public full texts were opened.
 
-**Length.** Unless the user asked for a short note, aim for at least ~6,000 words of body text (about 20 pages in a typical double-spaced Word document). Add length by teaching in the Introduction and by giving each included study its design and results — not by slogans or process talk.
+**Length.** Unless the user asked for a short note, aim for at least ~6,000 words of body text (about 20 pages in a typical double-spaced Word document). Add length by teaching in the Introduction and by developing nested topics. **Hinge** studies get design and result; supporting papers are grouped and still cited. Do not add length by writing one equal-depth file card per included full text, by slogans, or by process talk.
 
 **Tables in the article.** Put numbered Markdown results tables in `article.md` (Table 1, Table 2, …) with a caption, the paper, n, endpoint, and result in the cells. Mention the table from the Results: “Primary endpoints are summarised in Table 1 [1].” That is not the extraction worksheet in `literature-table.md`; curate comparable rows. `check_article.py` fails if the manuscript has no pipe table or no “Table N” callout.
 
@@ -131,7 +131,7 @@ The article is a **secondary** paper: it does not report a new experiment. It te
 
 **Abbreviations.** Terms that repeat (about five times or more) are written out once, then the short form: `type 2 diabetes (T2D)`, then `T2D`. Introduce the short form in a sentence that still teaches what the thing is. A first-time reader in an adjacent field must follow the Abstract and Introduction without a glossary — write the Abstract in words; at most four abbreviations, and only ones the Abstract reuses. See `review-prose`. Do not invent abbreviations, and do not keep spelling the long form after it has been defined.
 
-Every included paper must be discussed with enough design and result detail to stand as a real review (not a citation dump). **Sentences must be constructed as in a scientific article:** the subject is the finding or the mechanism; the citation is evidence. Do not write a sequence of “Author et al. did X. This paper is a pilot.” file cards. **Discussion and Conclusions must read like a published scientific paper:** interpret mechanisms, clinical meaning, why studies cannot be pooled, and evidence limitations. Do **not** put screening counts, “OA export”, “PDFs we could open”, fetch logs, HTTP errors, token estimates, phase logs, or script names in the Abstract, Discussion, or Conclusions — those belong in `prisma.md` and `usage-log.md`. Methods may state search and eligibility briefly. Every claim must be traceable to the table/notes (including gap-fill rows). Open **scientific** gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article.** Write in ordinary scientific English (`is`/`are`/`was`/`showed`); after drafting, grep the banned chatbot flourishes listed in `review-prose` and cut them.
+Every included paper must be **cited** in the argument or in Table 1. Hinge studies get design and result in the prose; supporting papers are grouped (*several juice trials… [a,b,c]*). That is not a citation dump and not a 120-word methods card for every row. **Sentences must be constructed as in a scientific article:** the subject is the finding or the mechanism; the citation is evidence. Do not write a sequence of “Author et al. did X. This paper is a pilot.” file cards. Nest thematic `###` 3.1 headings on mechanisms or disagreements (Methods 2.1 Search does not count). Close each nest before the next topic. **Discussion and Conclusions must read like a published scientific paper:** interpret mechanisms, clinical meaning, why studies cannot be pooled, and evidence limitations. Do **not** put screening counts, “OA export”, “PDFs we could open”, fetch logs, HTTP errors, token estimates, phase logs, or script names in the Abstract, Discussion, or Conclusions — those belong in `prisma.md` and `usage-log.md`. Methods may state search and eligibility briefly. Every claim must be traceable to the table/notes (including gap-fill rows). Open **scientific** gaps stay open in the prose. **Token estimates, phase logs, and script names must NEVER appear in the journal article.** Write in ordinary scientific English (`is`/`are`/`was`/`showed`); after drafting, grep the banned chatbot flourishes listed in `review-prose` and cut them.
 
 ### 8. Quality gate (mandatory, before you say it is done)
 
@@ -144,9 +144,11 @@ python3 scripts/check_article.py \
   --article review/runs/<run-id>/article.md \
   --table review/runs/<run-id>/table/literature-table.md \
   --form-model review/ml/model.json
+python3 scripts/check_review_craft.py \
+  --article review/runs/<run-id>/article.md
 ```
 
-If `review/ml/model.json` is missing, train it first (`review-form-ml`) or omit `--form-model`. If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. **Max 3 cycles.** Repeat until exit 0. Use `--short` only if the user asked for a short note. After 3 failures, do not deliver. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint. Then score the title and Abstract against published OA reviews:
+If `review/ml/model.json` is missing, train it first (`review-form-ml`) or omit `--form-model`. If `check_article.py` fails, rewrite the draft (`review-prose`) and run it again. If `check_review_craft.py` fails, rewrite with `review-writing-craft` (nested topics, hinge papers, no slogans). **Max 3 cycles.** Repeat until exit 0. Use `--short` only if the user asked for a short note. After 3 failures, do not deliver. A passing script is still not a passing story if you only noticed that after the user said the Introduction does not teach — treat that as a workflow bug and fix the draft **and** the skills so the next topic does not need the same complaint. Then score the title and Abstract against published OA reviews:
 
 ```bash
 python3 scripts/score_review_form.py score \
@@ -182,7 +184,7 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 6. **No required external services for reading local PDFs.** Extraction and the rationale can run on files already in the repo. Targeted extra retrieval uses the same public OA path as `oa-fetch`. If the network fails or no OA PDF exists, document that and write the article with the gap left open — never treat a missing PDF as a reason to invent a citation, and never treat OA fetch as a paywall bypass.
 7. **Keep outputs where they belong.** Per-paper notes → `review/notes/` (and run `notes/`). Table → `review/table/literature-table.md`. Rationale → `review/runs/<run-id>/synthesis-rationale.md` or `review/report/synthesis-rationale.md`. Article → `review/runs/<run-id>/article.md` and/or `review/report/final-report.md`. Usage/tokens → `usage-log.md` only.
 8. **PDFs stay gitignored.** Do not commit downloaded PDFs.
-9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py` (including the teaching-Introduction and thematic-spine gates). `check_harness.py --full` must exit 0. Story quality is a default, not a user request. Do not rewrite a previous sample unless asked.
+9. **Do not deliver a failing first draft.** Notes must pass `check_extraction.py`. The article must pass `check_article.py` (including the teaching-Introduction and thematic-spine gates) **and** `check_review_craft.py` (nested topics, hinge vs file cards, CARS). `check_harness.py --full` must exit 0. Story quality is a default, not a user request. Do not rewrite a previous sample unless asked.
 10. **`review/memory/` is form only.** Never copy findings from another field’s article into this one.
 
 ## Skills reference
@@ -196,6 +198,7 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 | Writing the journal review | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
 | Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
 | Evidence synthesis and reasoning audits | `scientific-synthesis` | `.cursor/skills/scientific-synthesis/SKILL.md` |
+| How published reviews actually write (CARS, nests, hinges) | `review-writing-craft` | `.cursor/skills/review-writing-craft/SKILL.md` |
 | Same-field heading/topic check (form only) | `field-structure-benchmark` | `.cursor/skills/field-structure-benchmark/SKILL.md` |
 | Loops, roles, and the done-gate | `review-harness` | `.cursor/skills/review-harness/SKILL.md` |
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |

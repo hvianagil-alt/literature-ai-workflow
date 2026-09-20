@@ -110,6 +110,8 @@ One paragraph, one intellectual job. Template:
 
 Before keeping a paragraph, answer: **what question does this paragraph answer?** If the answer is only “it contains information about X,” rewrite.
 
+Self-check (CASRAI; `review-writing-craft`): if the paragraph could be reordered into a one-line-per-source list without losing structure, it is summary, not synthesis. Two or three hinge studies carry design + n + result; supporting papers are grouped.
+
 Do not load one paragraph with results + mechanism + regulation + industrial implication + a new technology. Split.
 
 Do not open with an orphan result (*At 500 MPa, counts fell 4.2 log*) unless that number **is** the point. Introduce the variable, then the number.
@@ -183,8 +185,8 @@ After `check_article.py` exits 0, do a **reasoning pass** (not a second catalogu
 
 ## Machine gate
 
-`check_article.py` still cannot judge every inference. It **does** fail conversational review-metaphor, stacked *According to Author et al.*, and the usual flourish/process bans. The double-check must catch the rest. Do not tell the user the article is done while either fails.
+`check_article.py` still cannot judge every inference. It **does** fail conversational review-metaphor, stacked *According to Author et al.*, and the usual flourish/process bans. `check_review_craft.py` fails a flat body, meta-reviewer diction, slogan repetition, and missing CARS. The double-check must catch the rest. Do not tell the user the article is done while any of those fail.
 
 ## Handoff
 
-`report-writing` executes rationale `(e)` **in this reasoning**, in the voice of `review-prose`. Then `article-qa`, then this audit inside `double-check`.
+`report-writing` executes rationale `(e)` **in this reasoning**, in the voice of `review-prose`, with the movement of `review-writing-craft`. Then `article-qa`, then this audit inside `double-check`.

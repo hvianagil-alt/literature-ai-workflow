@@ -3,8 +3,8 @@
 
 The article is not done when article.md exists. Exit 0 only when the
 run directory has protocol, claim-ready notes, table, rationale, article,
-double-check, and (with --full) structure benchmark, field memory, and
-a passing critic.
+double-check, and (with --full) structure benchmark, field memory, a
+passing critic, and a passing body-craft gate (check_review_craft.py).
 
 Usage:
     python3 scripts/check_harness.py --run-dir review/runs/<id>
@@ -124,6 +124,23 @@ def evaluate(run_dir: Path, full: bool = False, run_scripts: bool = True) -> lis
             )
             if art.returncode != 0:
                 problems.append("check_article.py failed")
+        if article.is_file():
+            craft_cmd = [
+                py,
+                str(ROOT / "scripts" / "check_review_craft.py"),
+                "--article",
+                str(article),
+            ]
+            proto = _read(protocol).lower()
+            if "short note" in proto or "--short" in proto:
+                craft_cmd.append("--short")
+            craft = subprocess.run(
+                craft_cmd,
+                capture_output=True,
+                text=True,
+            )
+            if craft.returncode != 0:
+                problems.append("check_review_craft.py failed")
 
     return problems
 
@@ -132,7 +149,11 @@ def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--run-dir", required=True, type=Path)
     p.add_argument("--full", action="store_true", help="require structure benchmark, memory, critic PASS")
-    p.add_argument("--no-scripts", action="store_true", help="skip check_extraction/check_article")
+    p.add_argument(
+        "--no-scripts",
+        action="store_true",
+        help="skip check_extraction/check_article/check_review_craft",
+    )
     args = p.parse_args(argv)
     problems = evaluate(args.run_dir, full=args.full, run_scripts=not args.no_scripts)
     if problems:

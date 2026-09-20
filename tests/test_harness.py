@@ -20,7 +20,9 @@ class HarnessLayoutTests(unittest.TestCase):
         self.assertIn("max 3", harness.lower())
         self.assertIn("check_harness.py", harness)
         self.assertIn("literature-critic", harness)
+        self.assertIn("check_review_craft.py", harness)
         self.assertNotIn("Lovable", harness)
+        self.assertTrue((ROOT / "scripts/check_review_craft.py").is_file())
 
     def test_memory_is_form_only(self):
         index = (ROOT / "review/memory/index.md").read_text(encoding="utf-8")

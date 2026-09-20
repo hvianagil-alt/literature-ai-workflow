@@ -16,7 +16,7 @@ Follow `AGENTS.md` and the **review-harness** loops. Play or launch these roles:
 | New chat | Orchestrator greets (`first-conversation`) and **waits** | this file |
 | After scope is confirmed | Extractor (batches of PDFs) | `literature-extractor.md` |
 | After rationale (e) | Field-form reader (memory + included reviews) | `field-form-reader.md` |
-| After rationale + form | Writer (this orchestrator) | `report-writing` + `review-prose` + `scientific-synthesis` |
+| After rationale + form | Writer (this orchestrator) | `report-writing` + `review-prose` + `scientific-synthesis` + `review-writing-craft` |
 | After `check_article.py` is green | Critic (must not be the same pass as the writer if a subagent exists) | `literature-critic.md` |
 
 If subagents cannot be launched, still write the same files in that order. **Done** means:
@@ -37,8 +37,8 @@ Follow `AGENTS.md` step by step:
 5. Extract each in-scope paper into `review/notes/`. Fill Claim-ready facts from the PDF. Run `scripts/check_extraction.py` until it passes. Do not leave mechanical first-pass stubs.
 6. Build the literature table from those verified notes (`scripts/table_from_notes.py`) — not from a `write_table.py` DRAFT.
 7. **Synthesis rationale + targeted extra retrieval — mandatory sequencing gate.** Write `synthesis-rationale.md`, list interpretation gaps, attempt OA retrieval for each gap, extract any new full texts, update the table. Never invent citations. See `.cursor/skills/synthesis-rationale/SKILL.md`. **Do not write the article before this is done.**
-8. **Field form, then write.** After rationale (e), the field-form reader consults `review/memory/` and writes `structure-benchmark.md`. Then write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md` then `.cursor/skills/report-writing/SKILL.md`. Title the phenomenon and an angle. Teach in the Introduction; use numbered **thematic** sections (never a lone Results dump); put numbered Markdown results tables in the article and mention them from the prose (“Table 1 summarises…”). Number citations in first-appearance Vancouver order (`[1]` is the first paper cited in the body) and separate each References entry with a blank line (`scripts/renumber_citations.py`). If the first draft would not teach an adjacent-field reader, rewrite it before the quality-gate scripts — do not wait for the user to say the story is bad.
-9. **Quality gate — mandatory.** Run `.cursor/skills/article-qa/SKILL.md` (`check_extraction.py` then `check_article.py --form-model review/ml/model.json`). Rewrite until both exit 0. If the form model exists, `score_review_form.py score` must not read as a catalogue (`p_published_form` ≥ 0.45).
+8. **Field form, then write.** After rationale (e), the field-form reader consults `review/memory/` and writes `structure-benchmark.md`. Then write a PhD-quality journal review (default spine: journal article, not a lab report). Read `.cursor/skills/review-prose/SKILL.md`, `.cursor/skills/scientific-synthesis/SKILL.md`, `.cursor/skills/review-writing-craft/SKILL.md`, then `.cursor/skills/report-writing/SKILL.md`. Title the phenomenon and an angle. Teach in the Introduction; use numbered **thematic** sections with nested 3.1 topics (never a lone Results dump); put numbered Markdown results tables in the article and mention them from the prose (“Table 1 summarises…”). Number citations in first-appearance Vancouver order (`[1]` is the first paper cited in the body) and separate each References entry with a blank line (`scripts/renumber_citations.py`). If the first draft would not teach an adjacent-field reader, rewrite it before the quality-gate scripts — do not wait for the user to say the story is bad.
+9. **Quality gate — mandatory.** Run `.cursor/skills/article-qa/SKILL.md` (`check_extraction.py` then `check_article.py --form-model review/ml/model.json` then `check_review_craft.py`). Rewrite until all exit 0. If the form model exists, `score_review_form.py score` must not read as a catalogue (`p_published_form` ≥ 0.45).
 10. **Double-check / critic — mandatory.** Run `.cursor/skills/double-check/SKILL.md`. Prefer the `literature-critic` agent so a second reader signs `critic-log.md`. Spot-check claims against notes/PDFs. Do not tell the user the article is done until `python3 scripts/check_harness.py --run-dir review/runs/<id> --full` exits 0.
 11. **Same message as the article:** give the Markdown path **and ask** if they also want Word or PDF. If they already asked for Word/PDF, export immediately (`export-manuscript`; Times New Roman, justified). Never close a finished review without that question. Never start a graphical abstract.
 12. If this was a **new field** with no memory card, add a form-only card under `review/memory/` after a PASS.
@@ -55,7 +55,7 @@ Plain language, no AI/ML jargon unless the user uses it first. Explain what you'
 - Never skip the direction check.
 - Never skip the synthesis rationale / gap-retrieval gate.
 - Never start the journal article until the rationale exists and extra retrieval has been attempted (or explicitly logged as not possible).
-- Never tell the user the article is done while `check_article.py` fails.
+- Never tell the user the article is done while `check_article.py` or `check_review_craft.py` fails.
 - Never tell the user the article is done until `check_harness.py --full` exits 0.
 - Never tell the user the article is done without asking, in the same message, whether they also want Word or PDF.
 - Ground the article in the literature table and rationale, not in re-derived or remembered claims. `review/memory/` is **form only**.

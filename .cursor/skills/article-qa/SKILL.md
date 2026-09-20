@@ -1,11 +1,11 @@
 ---
 name: article-qa
-description: "Mandatory machine check after drafting article.md. Do not tell the user the review is done while check_extraction.py or check_article.py fails. Use as the last writing step of the literature-review workflow."
+description: "Mandatory machine check after drafting article.md. Do not tell the user the review is done while check_extraction.py, check_article.py, or check_review_craft.py fails. Use as the last writing step of the literature-review workflow."
 ---
 
 # First-pass quality gate
 
-The article is **not done** when the file exists. It is done when the scripts below exit 0. Previous runs failed because mechanical notes and catalog sentences were delivered as a manuscript. This skill exists so the next sample works the first time.
+The article is **not done** when the file exists. It is done when the scripts below exit 0. Previous runs failed because mechanical notes and catalog sentences were delivered as a manuscript. This skill exists so the next sample works the first time. `check_article.py` can still pass a catalogue body; `check_review_craft.py` is the body-craft gate.
 
 ## When to use
 
@@ -45,6 +45,17 @@ python3 scripts/score_review_form.py score \
 
 Rewrite joinery when `p_published_form` is below 0.45. Do not copy findings from gold reviews (`review-form-ml`).
 
+## 3. Body craft must still read like a published review
+
+Title/Abstract form can pass while the body is a paper catalogue. After `check_article.py` is green:
+
+```bash
+python3 scripts/check_review_craft.py \
+  --article review/runs/<run-id>/article.md
+```
+
+If this fails: rewrite with `review-writing-craft` (nested 3.1 topics, hinge vs grouped supporting papers, CARS niche before the aim, given-new sentences, no meta-reviewer diction). Do not add empty `###` labels. Do not rewrite a previous run’s manuscript unless the user asked. Use `--short` only if the user asked for a short note.
+
 ## Hard rules
 
 - Do not skip these scripts.
@@ -54,4 +65,4 @@ Rewrite joinery when `p_published_form` is below 0.45. Do not copy findings from
 
 ## Handoff
 
-Only after both scripts pass: run the critic / `double-check` skill (spot-check claims; write `double-check.md` and `critic-log.md`). Then `python3 scripts/check_harness.py --run-dir review/runs/<id> --full`. Only then tell the user where the **Markdown** article is and offer to iterate (add papers, adjust scope, refine a section, or export Word/PDF with `export-manuscript`).
+Only after the extraction, article, and craft scripts pass: run the critic / `double-check` skill (spot-check claims; write `double-check.md` and `critic-log.md`). Then `python3 scripts/check_harness.py --run-dir review/runs/<id> --full`. Only then tell the user where the **Markdown** article is and offer to iterate (add papers, adjust scope, refine a section, or export Word/PDF with `export-manuscript`).
