@@ -14,4 +14,6 @@ Source: `papers/exports/scopus_export_Sep_20-2026-pd-cannabinoids.bib` (copy of 
 | `lists/original-articles.md` | Human-readable original-article list |
 | `type-split.json` | Counts by type and year |
 
+Scopus reused the citekey `Jiang2024` for two different papers (one Article, one Review). Catalogs use `record_id` `Jiang2024--article` vs `Jiang2024--review`.
+
 Do not mix these with `review/runs/2026-09-20-scopus-hpp/` or other older runs. PDFs (when fetched) go to `papers/2026-09-20-pd-cannabinoids/` (gitignored).

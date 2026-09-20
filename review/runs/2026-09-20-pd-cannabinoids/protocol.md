@@ -9,4 +9,4 @@
 - **Emphasis:** *pending* (methods vs findings).
 - **Article kind:** *pending* (default if the user later says go: narrative journal review).
 - **Defaults used:** none for search years or journal quality yet. Identification years in the export are 2024–2026 only.
-- **Identification:** Scopus export dated 20 September 2026; 279 records (162 Article, 117 Review); 184 flagged open access in the Scopus note. Contact email for a later Unpaywall/OpenAlex fetch (not used yet): hugogilcontas@gmail.com (run owner).
+- **Identification:** Scopus export dated 20 September 2026; 279 records (162 Article, 117 Review); 184 flagged open access in the Scopus note. One citekey collision: `Jiang2024` (Fitoterapia article vs Pharmaceutics liposome review) — use `Jiang2024--article` / `Jiang2024--review`. Contact email for a later Unpaywall/OpenAlex fetch (not used yet): hugogilcontas@gmail.com (run owner).

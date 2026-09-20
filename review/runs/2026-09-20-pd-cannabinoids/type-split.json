@@ -24,5 +24,19 @@
     "2025": 56,
     "2026": 38
   },
-  "note": "This run is Parkinson disease / cannabinoids / related neurology. It is not the HPP food-processing export."
+  "note": "This run is Parkinson disease / cannabinoids / related neurology. It is not the HPP food-processing export.",
+  "n_unique_citekeys": 278,
+  "citekey_collisions": [
+    {
+      "citekey": "Jiang2024",
+      "record_ids": [
+        "Jiang2024--article",
+        "Jiang2024--review"
+      ],
+      "dois": [
+        "10.1016/j.fitote.2024.105883",
+        "10.3390/pharmaceutics16010034"
+      ]
+    }
+  ]
 }

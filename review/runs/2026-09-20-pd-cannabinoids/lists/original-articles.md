@@ -1,10 +1,10 @@
 # Original articles (Scopus type = Article)
 
-These 162 records are **primary research articles** from the same export. Do not treat them as review papers.
+These records are **primary research articles** from the same export. Do not treat them as review papers. Citekey collision: `Jiang2024--article` is Fitoterapia (hemp phenylpropionamides in PD), not the Pharmaceutics liposome review.
 
 **Count:** 162
 
-| Citekey | Year | Title | Journal | DOI | OA |
+| Record id | Year | Title | Journal | DOI | OA |
 |---|---|---|---|---|---|
 | `Alves202434` | 2024 | Use of phytocanabinoids in animal models of Parkinson's disease: Systematic review | NeuroToxicology | 10.1016/j.neuro.2024.08.002 | no |
 | `Argerich2024` | 2024 | GPR37 processing in neurodegeneration: a potential marker for Parkinson’s Disease progression rate | npj Parkinson's Disease | 10.1038/s41531-024-00788-x | yes |
@@ -33,7 +33,7 @@ These 162 records are **primary research articles** from the same export. Do not
 | `Hirsch202434` | 2024 | Dispensaries and Medical Marijuana Certifications and Indications: Unveiling the Geographic Connections in Pennsylvania, USA | Medical Cannabis and Cannabinoids | 10.1159/000537841 | yes |
 | `Holland20241166` | 2024 | Differential Synaptic Loss in β-Amyloid Positive Versus β-Amyloid Negative Corticobasal Syndrome | Movement Disorders | 10.1002/mds.29814 | yes |
 | `Jena2024` | 2024 | Novel neuroprotective 5,6-dihydropyrido[2′,1':2,3]imidazo[4,5-c]quinoline derivatives acting through cholinesterase inhibition and CB2 signaling modulation | European Journal of Medicinal Chemistry | 10.1016/j.ejmech.2024.116592 | yes |
-| `Jiang2024` | 2024 | Protective effect of phenylpropionamides in the seed of Cannabis Sativa L. on Parkinson's disease through autophagy | Fitoterapia | 10.1016/j.fitote.2024.105883 | no |
+| `Jiang2024--article` | 2024 | Protective effect of phenylpropionamides in the seed of Cannabis Sativa L. on Parkinson's disease through autophagy | Fitoterapia | 10.1016/j.fitote.2024.105883 | no |
 | `Joers2024` | 2024 | Modulation of cannabinoid receptor 2 alters neuroinflammation and reduces formation of alpha-synuclein aggregates in a rat model of nigral synucleinopathy | Journal of Neuroinflammation | 10.1186/s12974-024-03221-5 | yes |
 | `Kim2024290` | 2024 | Relationship between drug-induced movement disorders and psychosis in adults living in precarious housing or homelessness | Journal of Psychiatric Research | 10.1016/j.jpsychires.2024.01.003 | no |
 | `Kruger20242005` | 2024 | Pharmacotherapy of persistent genital arousal disorder/genito-pelvic dysesthesia: an updated review and data from a registry | Expert Opinion on Pharmacotherapy | 10.1080/14656566.2024.2415696 | no |

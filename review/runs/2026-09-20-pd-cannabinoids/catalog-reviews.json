@@ -15,7 +15,9 @@
     "note": "Cited by: 30; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Laaboudi2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Blebea2025",
@@ -33,7 +35,9 @@
     "note": "Cited by: 3; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Blebea2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Kaszyńska2024",
@@ -51,7 +55,9 @@
     "note": "Cited by: 10; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Kaszyńska2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Fanciulli2025",
@@ -69,7 +75,9 @@
     "note": "Cited by: 18; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Fanciulli2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Demiri2025",
@@ -87,7 +95,9 @@
     "note": "Cited by: 8; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Demiri2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Feng2026",
@@ -105,7 +115,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Feng2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Awathale2026",
@@ -123,7 +135,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Awathale2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Sukmueng2026",
@@ -141,7 +155,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Sukmueng2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Niu2025",
@@ -159,7 +175,9 @@
     "note": "Cited by: 5",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Niu2025",
+    "citekey_collision": false
   },
   {
     "citekey": "de Fátima dos Santos Sampaio2024574",
@@ -177,7 +195,9 @@
     "note": "Cited by: 22; All Open Access; Bronze Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "de Fátima dos Santos Sampaio2024574",
+    "citekey_collision": false
   },
   {
     "citekey": "Bhushan2025434",
@@ -195,7 +215,9 @@
     "note": "Cited by: 21",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Bhushan2025434",
+    "citekey_collision": false
   },
   {
     "citekey": "Gad2026",
@@ -213,7 +235,9 @@
     "note": "Cited by: 1; All Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Gad2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Salehinejad2026",
@@ -231,7 +255,9 @@
     "note": "Cited by: 2; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Salehinejad2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Kitchigina202637",
@@ -249,7 +275,9 @@
     "note": "Cited by: 0; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Kitchigina202637",
+    "citekey_collision": false
   },
   {
     "citekey": "Białoń2026",
@@ -267,7 +295,9 @@
     "note": "Cited by: 2; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Białoń2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Saraswathi2026",
@@ -285,7 +315,9 @@
     "note": "Cited by: 2",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Saraswathi2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Berry20251490",
@@ -303,7 +335,9 @@
     "note": "Cited by: 6; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Berry20251490",
+    "citekey_collision": false
   },
   {
     "citekey": "Warren2026",
@@ -321,7 +355,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Warren2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Constantinides2024169",
@@ -339,7 +375,9 @@
     "note": "Cited by: 3",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Constantinides2024169",
+    "citekey_collision": false
   },
   {
     "citekey": "Lee2024160",
@@ -357,7 +395,9 @@
     "note": "Cited by: 21; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Lee2024160",
+    "citekey_collision": false
   },
   {
     "citekey": "Pota2025",
@@ -375,7 +415,9 @@
     "note": "Cited by: 3; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Pota2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Zhang2024",
@@ -393,7 +435,9 @@
     "note": "Cited by: 20; All Open Access; Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Zhang2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Dainton-Howard2025167",
@@ -411,7 +455,9 @@
     "note": "Cited by: 3",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Dainton-Howard2025167",
+    "citekey_collision": false
   },
   {
     "citekey": "Ghannam2025",
@@ -429,7 +475,9 @@
     "note": "Cited by: 12",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Ghannam2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Shoyama2025",
@@ -447,7 +495,9 @@
     "note": "Cited by: 3; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Shoyama2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Jali2024",
@@ -465,7 +515,9 @@
     "note": "Cited by: 15; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Jali2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Purushothaman202611",
@@ -483,7 +535,9 @@
     "note": "Cited by: 2",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Purushothaman202611",
+    "citekey_collision": false
   },
   {
     "citekey": "Singh2025203",
@@ -501,7 +555,9 @@
     "note": "Cited by: 3",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Singh2025203",
+    "citekey_collision": false
   },
   {
     "citekey": "Turizo Smith2026",
@@ -519,7 +575,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Turizo Smith2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Sharma202595",
@@ -537,7 +595,9 @@
     "note": "Cited by: 2; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Sharma202595",
+    "citekey_collision": false
   },
   {
     "citekey": "Bochniak2024",
@@ -555,7 +615,9 @@
     "note": "Cited by: 4; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Bochniak2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Persico2025",
@@ -573,7 +635,9 @@
     "note": "Cited by: 12",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Persico2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Guo2025",
@@ -591,7 +655,9 @@
     "note": "Cited by: 4; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Guo2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Jha2024",
@@ -609,7 +675,9 @@
     "note": "Cited by: 26",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Jha2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Odonkor2026",
@@ -627,7 +695,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Odonkor2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Giannakis2025341",
@@ -645,7 +715,9 @@
     "note": "Cited by: 10",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Giannakis2025341",
+    "citekey_collision": false
   },
   {
     "citekey": "Jasak2026",
@@ -663,7 +735,9 @@
     "note": "Cited by: 0; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Jasak2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Gupta202458",
@@ -681,7 +755,9 @@
     "note": "Cited by: 4",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Gupta202458",
+    "citekey_collision": false
   },
   {
     "citekey": "Singh202659",
@@ -699,7 +775,9 @@
     "note": "Cited by: 7",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Singh202659",
+    "citekey_collision": false
   },
   {
     "citekey": "Escobar20261056",
@@ -717,7 +795,9 @@
     "note": "Cited by: 0; All Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Escobar20261056",
+    "citekey_collision": false
   },
   {
     "citekey": "Șolea2026",
@@ -735,7 +815,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Șolea2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Ravelli2026369",
@@ -753,7 +835,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Ravelli2026369",
+    "citekey_collision": false
   },
   {
     "citekey": "Meanti2025",
@@ -771,7 +855,9 @@
     "note": "Cited by: 22; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Meanti2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Choudhury2026347",
@@ -789,7 +875,9 @@
     "note": "Cited by: 0; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Choudhury2026347",
+    "citekey_collision": false
   },
   {
     "citekey": "Marques2025",
@@ -807,7 +895,9 @@
     "note": "Cited by: 3; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Marques2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Abdelkhalek20241896",
@@ -825,7 +915,9 @@
     "note": "Cited by: 17",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Abdelkhalek20241896",
+    "citekey_collision": false
   },
   {
     "citekey": "Huissoud2024715",
@@ -843,7 +935,9 @@
     "note": "Cited by: 8; All Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Huissoud2024715",
+    "citekey_collision": false
   },
   {
     "citekey": "Kale2025630",
@@ -861,7 +955,9 @@
     "note": "Cited by: 3",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Kale2025630",
+    "citekey_collision": false
   },
   {
     "citekey": "Colijn2024",
@@ -879,7 +975,9 @@
     "note": "Cited by: 9; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Colijn2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Eserian202453",
@@ -897,7 +995,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Eserian202453",
+    "citekey_collision": false
   },
   {
     "citekey": "Keir20241865",
@@ -915,7 +1015,9 @@
     "note": "Cited by: 16; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Keir20241865",
+    "citekey_collision": false
   },
   {
     "citekey": "De Freitas2024873",
@@ -933,7 +1035,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "De Freitas2024873",
+    "citekey_collision": false
   },
   {
     "citekey": "Bougea2025921",
@@ -951,7 +1055,9 @@
     "note": "Cited by: 4",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Bougea2025921",
+    "citekey_collision": false
   },
   {
     "citekey": "Fowler2026",
@@ -969,7 +1075,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Fowler2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Zhao20254761",
@@ -987,7 +1095,9 @@
     "note": "Cited by: 11; All Open Access; Bronze Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Zhao20254761",
+    "citekey_collision": false
   },
   {
     "citekey": "Camilleri2026",
@@ -1005,7 +1115,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Camilleri2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Madhubala20242993",
@@ -1023,7 +1135,9 @@
     "note": "Cited by: 23; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Madhubala20242993",
+    "citekey_collision": false
   },
   {
     "citekey": "Saim2026",
@@ -1041,7 +1155,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Saim2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Sung2024185",
@@ -1059,7 +1175,9 @@
     "note": "Cited by: 23; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Sung2024185",
+    "citekey_collision": false
   },
   {
     "citekey": "Chen2026",
@@ -1077,7 +1195,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Chen2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Byun2026",
@@ -1095,7 +1215,9 @@
     "note": "Cited by: 0; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Byun2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Leyde20251192",
@@ -1113,7 +1235,9 @@
     "note": "Cited by: 7",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Leyde20251192",
+    "citekey_collision": false
   },
   {
     "citekey": "Brenlla202597",
@@ -1131,7 +1255,9 @@
     "note": "Cited by: 6; All Open Access; Bronze Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Brenlla202597",
+    "citekey_collision": false
   },
   {
     "citekey": "Shafiee2024",
@@ -1149,7 +1275,9 @@
     "note": "Cited by: 5; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Shafiee2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Roghani2024",
@@ -1167,7 +1295,9 @@
     "note": "Cited by: 57",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Roghani2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Marano20242693",
@@ -1185,7 +1315,9 @@
     "note": "Cited by: 1; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Marano20242693",
+    "citekey_collision": false
   },
   {
     "citekey": "Sura20267933",
@@ -1203,7 +1335,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Sura20267933",
+    "citekey_collision": false
   },
   {
     "citekey": "Hidding2024117",
@@ -1221,7 +1355,9 @@
     "note": "Cited by: 18; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Hidding2024117",
+    "citekey_collision": false
   },
   {
     "citekey": "Hafida2024",
@@ -1239,7 +1375,9 @@
     "note": "Cited by: 4; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Hafida2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Mekala2024605",
@@ -1257,7 +1395,9 @@
     "note": "Cited by: 7; All Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Mekala2024605",
+    "citekey_collision": false
   },
   {
     "citekey": "Zamanian2025",
@@ -1275,7 +1415,9 @@
     "note": "Cited by: 4",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Zamanian2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Hakami2025",
@@ -1293,7 +1435,9 @@
     "note": "Cited by: 12; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Hakami2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Sharma2024638",
@@ -1311,7 +1455,9 @@
     "note": "Cited by: 10",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Sharma2024638",
+    "citekey_collision": false
   },
   {
     "citekey": "Sarkar20245483",
@@ -1329,7 +1475,9 @@
     "note": "Cited by: 22",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Sarkar20245483",
+    "citekey_collision": false
   },
   {
     "citekey": "Jellinger2025",
@@ -1347,7 +1495,9 @@
     "note": "Cited by: 7; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Jellinger2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Zong2026",
@@ -1365,7 +1515,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Zong2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Prajjwal2024",
@@ -1383,7 +1535,9 @@
     "note": "Cited by: 8; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Prajjwal2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Banerjee2024",
@@ -1401,7 +1555,9 @@
     "note": "Cited by: 11",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Banerjee2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Eitan2025",
@@ -1419,7 +1575,9 @@
     "note": "Cited by: 1",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Eitan2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Kotecha2026",
@@ -1437,7 +1595,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Kotecha2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Laxmi20251453",
@@ -1455,7 +1615,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Laxmi20251453",
+    "citekey_collision": false
   },
   {
     "citekey": "Duncan2024788",
@@ -1473,7 +1635,9 @@
     "note": "Cited by: 23; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Duncan2024788",
+    "citekey_collision": false
   },
   {
     "citekey": "Aranda-Abreu2025",
@@ -1491,7 +1655,9 @@
     "note": "Cited by: 13; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Aranda-Abreu2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Messak2026",
@@ -1509,7 +1675,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Messak2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Langerscheidt20242992",
@@ -1527,7 +1695,9 @@
     "note": "Cited by: 41; All Open Access; Green Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Langerscheidt20242992",
+    "citekey_collision": false
   },
   {
     "citekey": "Grishina202669",
@@ -1545,7 +1715,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Grishina202669",
+    "citekey_collision": false
   },
   {
     "citekey": "Gotlieb2026181",
@@ -1563,7 +1735,9 @@
     "note": "Cited by: 7",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Gotlieb2026181",
+    "citekey_collision": false
   },
   {
     "citekey": "Boland2024",
@@ -1581,7 +1755,9 @@
     "note": "Cited by: 27; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Boland2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Barbalho2025",
@@ -1599,7 +1775,9 @@
     "note": "Cited by: 41; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Barbalho2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Shevchuk202541",
@@ -1617,7 +1795,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Shevchuk202541",
+    "citekey_collision": false
   },
   {
     "citekey": "Jiang2024",
@@ -1635,7 +1815,9 @@
     "note": "Cited by: 90; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Jiang2024--review",
+    "citekey_collision": true
   },
   {
     "citekey": "Baldasso2026",
@@ -1653,7 +1835,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Baldasso2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Gros2025399",
@@ -1671,7 +1855,9 @@
     "note": "Cited by: 3",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Gros2025399",
+    "citekey_collision": false
   },
   {
     "citekey": "Fang2025",
@@ -1689,7 +1875,9 @@
     "note": "Cited by: 5; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Fang2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Kiran2025",
@@ -1707,7 +1895,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Kiran2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Zhao2026",
@@ -1725,7 +1915,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Zhao2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Goyal2024",
@@ -1743,7 +1935,9 @@
     "note": "Cited by: 51; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Goyal2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Smith2024325",
@@ -1761,7 +1955,9 @@
     "note": "Cited by: 3; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Smith2024325",
+    "citekey_collision": false
   },
   {
     "citekey": "Pathak2024",
@@ -1779,7 +1975,9 @@
     "note": "Cited by: 4; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Pathak2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Buchaim2025",
@@ -1797,7 +1995,9 @@
     "note": "Cited by: 1; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Buchaim2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Guo2024",
@@ -1815,7 +2015,9 @@
     "note": "Cited by: 2; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Guo2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Jellinger2024195",
@@ -1833,7 +2035,9 @@
     "note": "Cited by: 4",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Jellinger2024195",
+    "citekey_collision": false
   },
   {
     "citekey": "Jin20241",
@@ -1851,7 +2055,9 @@
     "note": "Cited by: 3; All Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": false,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Jin20241",
+    "citekey_collision": false
   },
   {
     "citekey": "Ahamed20251065",
@@ -1869,7 +2075,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Ahamed20251065",
+    "citekey_collision": false
   },
   {
     "citekey": "Perez-Soriano2025",
@@ -1887,7 +2095,9 @@
     "note": "Cited by: 2",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Perez-Soriano2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Mucke202544",
@@ -1905,7 +2115,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Mucke202544",
+    "citekey_collision": false
   },
   {
     "citekey": "Bala20241939",
@@ -1923,7 +2135,9 @@
     "note": "Cited by: 17",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Bala20241939",
+    "citekey_collision": false
   },
   {
     "citekey": "Dhiman2024",
@@ -1941,7 +2155,9 @@
     "note": "Cited by: 27",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Dhiman2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Can2024346",
@@ -1959,7 +2175,9 @@
     "note": "Cited by: 6",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Can2024346",
+    "citekey_collision": false
   },
   {
     "citekey": "Bernhardt2026",
@@ -1977,7 +2195,9 @@
     "note": "Cited by: 0; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Bernhardt2026",
+    "citekey_collision": false
   },
   {
     "citekey": "Nerattini2025565",
@@ -1995,7 +2215,9 @@
     "note": "Cited by: 4; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Nerattini2025565",
+    "citekey_collision": false
   },
   {
     "citekey": "Bhaskar20242733",
@@ -2013,7 +2235,9 @@
     "note": "Cited by: 1; All Open Access; Hybrid Gold Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Bhaskar20242733",
+    "citekey_collision": false
   },
   {
     "citekey": "Jellinger2025495",
@@ -2031,7 +2255,9 @@
     "note": "Cited by: 5",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Jellinger2025495",
+    "citekey_collision": false
   },
   {
     "citekey": "Mishra2025",
@@ -2049,7 +2275,9 @@
     "note": "Cited by: 6; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Mishra2025",
+    "citekey_collision": false
   },
   {
     "citekey": "Goyal2025100",
@@ -2067,7 +2295,9 @@
     "note": "Cited by: 0",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Goyal2025100",
+    "citekey_collision": false
   },
   {
     "citekey": "Chunowski2024",
@@ -2085,7 +2315,9 @@
     "note": "Cited by: 6; All Open Access; Gold Open Access; Green Open Access",
     "open_access_flag": true,
     "gold_oa": true,
-    "green_oa": true
+    "green_oa": true,
+    "record_id": "Chunowski2024",
+    "citekey_collision": false
   },
   {
     "citekey": "Lawrence202493",
@@ -2103,6 +2335,8 @@
     "note": "Cited by: 4",
     "open_access_flag": false,
     "gold_oa": false,
-    "green_oa": false
+    "green_oa": false,
+    "record_id": "Lawrence202493",
+    "citekey_collision": false
   }
 ]

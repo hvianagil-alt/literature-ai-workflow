@@ -1,10 +1,10 @@
 # Review articles (Scopus type = Review)
 
-These 117 records are **review / survey / systematic-review** items from the user Scopus export. Keep them separate from original research so extraction does not mix secondary summaries with primary trials.
+These records are **review / survey / systematic-review** items from the user Scopus export. Keep them separate from original research so extraction does not mix secondary summaries with primary trials. If a Scopus citekey collides (see `Jiang2024--review`), use the **record id**.
 
 **Count:** 117
 
-| Citekey | Year | Title | Journal | DOI | OA |
+| Record id | Year | Title | Journal | DOI | OA |
 |---|---|---|---|---|---|
 | `Abdelkhalek20241896` | 2024 | Triazolopyrimidine Derivatives: An Updated Review on Recent Advances in Synthesis, Biological Activities and Drug Delivery Aspects | Current Medicinal Chemistry | 10.2174/0929867330666230228120416 | no |
 | `Bala20241939` | 2024 | Emerging roles of cannabinoid receptor CB2 receptor in the central nervous system: therapeutic target for CNS disorders | Psychopharmacology | 10.1007/s00213-024-06683-w | no |
@@ -29,7 +29,7 @@ These 117 records are **review / survey / systematic-review** items from the use
 | `Jali2024` | 2024 | Navigating Preclinical Models and Medications for Peripheral Neuropathy: A Review | Pharmaceuticals | 10.3390/ph17081010 | yes |
 | `Jellinger2024195` | 2024 | The enigma of depression in corticobasal degeneration, a frequent but poorly understood co-morbidity | Journal of Neural Transmission | 10.1007/s00702-023-02731-5 | no |
 | `Jha2024` | 2024 | Cannabidiol and neurodegeneration: From molecular mechanisms to clinical benefits | Ageing Research Reviews | 10.1016/j.arr.2024.102386 | no |
-| `Jiang2024` | 2024 | Lipid-Based Nanotechnology: Liposome | Pharmaceutics | 10.3390/pharmaceutics16010034 | yes |
+| `Jiang2024--review` | 2024 | Lipid-Based Nanotechnology: Liposome | Pharmaceutics | 10.3390/pharmaceutics16010034 | yes |
 | `Jin20241` | 2024 | Meta-analysis of the association between C9orf72 repeats and neurodegeneration diseases | Journal of Neurogenetics | 10.1080/01677063.2024.2343672 | yes |
 | `Kaszyńska2024` | 2024 | Cannabinoids: Potential for Modulation and Enhancement When Combined with Vitamin B12 in Case of Neurodegenerative Disorders | Pharmaceuticals | 10.3390/ph17060813 | yes |
 | `Keir20241865` | 2024 | Atypical Parkinsonian Syndromes: Structural, Functional, and Molecular Imaging Features | American Journal of Neuroradiology | 10.3174/ajnr.A8313 | yes |
