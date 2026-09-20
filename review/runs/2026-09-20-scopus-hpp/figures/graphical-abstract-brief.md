@@ -1,13 +1,14 @@
 # Graphical abstract brief — 2026-09-20-scopus-hpp
 
-**Title.** Same megapascals. Three different answers.
+**Title.** Same squeeze. Three answers.
 
-**Subtitle.** High-pressure processing when heat is not the kill step.
+**Subtitle.** When heat is not the kill step.
 
 **Style.** BioRender / Nature Reviews illustration. Not a four-box text table.
 
-**Objects.** HPP vessel (juice pouch + ham, isostatic arrows); crossed-out heat coil; vegetative cell with leaking membrane; intact spore; petri dish; ice; lactate lattice; three readings (cold juice+meat; milk ≠ heat; fruit vs empty plate).
+**Live.** https://hpp-same-squeeze.lovable.app  
+**Editor.** https://lovable.dev/projects/b23191fc-4064-4edb-bf8b-bd9c6bf62305
 
-**Labels.** Isostatic HPP · chilled · membranes · spore survives · Ice · Lactate · Injury ≠ death · 1 Refrigerated hurdle · 2 Not legal milk pasteurisation · 3 Quality ≠ plate count.
+**Objects.** HPP vessel (juice pouch + ham, isostatic arrows); crossed-out heat coil; vegetative cell with leaking membrane; intact spore; petri dish; ice; lactate flask; three readings (cold juice+meat; milk ≠ heat; fruit vs empty plate).
 
-**Lovable.** Still `needsAuth` in this environment. Deliverable is GenerateImage Path B: `figures/graphical-abstract.png`.
+**Labels.** Isostatic pressure · not cooking · MEMBRANES LEAK · SPORES OFTEN SURVIVE · Ice · Lactate protects · Injury ≠ death · Refrigerated hurdle · Not legal milk heat · Quality ≠ plate count.

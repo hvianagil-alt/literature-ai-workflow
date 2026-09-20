@@ -26,7 +26,7 @@
   4. **Limitation:** public-OA sample; no included paired bovine HTST vs HPP trial on the same batches; no included inoculated *E. coli* O157:H7 or *Salmonella* juice HPP 5-log; no human disease trial.
   5. **Contribution:** a working rule that a megapascal set-point is not a pasteurisation number, and that legal, microbial, and quality specifications have to be named separately.
 - Field-structure benchmark: `structure-benchmark.md` vs 12 included same-area reviews. Verdict: question-driven spine is a justified departure from matrix/technology catalogues; keep §4 legal criteria; omit equipment/energy/consumer chapters; add graphical abstract.
-- Graphical abstract: BioRender-style illustrated panel (`figures/graphical-abstract.png`); Lovable MCP not authenticated in this environment.
+- Graphical abstract: Lovable full-viewport SVG poster at https://hpp-same-squeeze.lovable.app (editor https://lovable.dev/projects/b23191fc-4064-4edb-bf8b-bd9c6bf62305); screenshot `figures/graphical-abstract.png`. Prompted from `figures/lovable-prompt.md` only.
 - Heading spine: thematic `##` 3–7 with nested `###` on their own lines. §4.1 `HPP milk versus legal heat pasteurisation`; §5.1 `Spores, adiabatic heat, and refrigeration`. No glued heading+paragraph; no generic Results.
 - Tables in article: Table 1 (microbial primary), Table 2 (pasteurisation benchmarks vs what was measured), Table 3 (spores/hurdles); each called in prose. Rows are not pooled.
 - Discussion: commercial versus legal readings; heterogeneity as coefficients; quality as a separate specification; pH class; what cannot be concluded; next measurements. Not a second Results and not a First/Second spine.
