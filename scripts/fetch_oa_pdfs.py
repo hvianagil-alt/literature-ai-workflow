@@ -91,6 +91,22 @@ def pdf_urls_from_html(html: str, base_url: str) -> list[str]:
     return out
 
 
+def _oa_pdf_candidate(loc) -> str | None:
+    """Best public PDF/URL from an OpenAlex or Unpaywall location object."""
+    if isinstance(loc, dict):
+        for key in ("pdf_url", "url_for_pdf", "oa_url", "url"):
+            val = loc.get(key)
+            if isinstance(val, str) and val.startswith("http"):
+                return val
+        return None
+    if isinstance(loc, list):
+        for item in loc:
+            found = _oa_pdf_candidate(item)
+            if found:
+                return found
+    return None
+
+
 def openalex_oa_url(doi: str) -> tuple[str | None, int]:
     url = "https://api.openalex.org/works/doi:" + urllib.parse.quote(doi)
     code, _, body = _request(url, accept="application/json")
@@ -100,8 +116,21 @@ def openalex_oa_url(doi: str) -> tuple[str | None, int]:
         data = json.loads(body.decode("utf-8", errors="replace"))
     except json.JSONDecodeError:
         return None, 1
-    oa = data.get("open_access") or {}
-    return oa.get("oa_url") or data.get("best_oa_location", {}).get("pdf_url"), 1
+    if not isinstance(data, dict):
+        return None, 1
+    oa = data.get("open_access") if isinstance(data.get("open_access"), dict) else {}
+    for loc in (
+        oa.get("oa_url") if oa else None,
+        data.get("best_oa_location"),
+        data.get("primary_location"),
+        data.get("locations"),
+    ):
+        if isinstance(loc, str) and loc.startswith("http"):
+            return loc, 1
+        found = _oa_pdf_candidate(loc)
+        if found:
+            return found, 1
+    return None, 1
 
 
 def unpaywall_oa_url(doi: str, email: str) -> tuple[str | None, int]:
@@ -118,8 +147,12 @@ def unpaywall_oa_url(doi: str, email: str) -> tuple[str | None, int]:
         data = json.loads(body.decode("utf-8", errors="replace"))
     except json.JSONDecodeError:
         return None, 1
-    loc = data.get("best_oa_location") or {}
-    return loc.get("url_for_pdf") or loc.get("url"), 1
+    if not isinstance(data, dict):
+        return None, 1
+    found = _oa_pdf_candidate(data.get("best_oa_location")) or _oa_pdf_candidate(
+        data.get("oa_locations")
+    )
+    return found, 1
 
 
 def europepmc_pdf_url(doi: str) -> tuple[str | None, int]:
@@ -141,6 +174,61 @@ def europepmc_pdf_url(doi: str) -> tuple[str | None, int]:
     if pmcid:
         return f"https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/pdf/", 1
     return None, 1
+
+
+def europepmc_pmcid(doi: str) -> tuple[str | None, int]:
+    q = urllib.parse.urlencode(
+        {"query": f"DOI:{doi}", "format": "json", "pageSize": 1}
+    )
+    url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?" + q
+    code, _, body = _request(url, accept="application/json")
+    if code != 200:
+        return None, 1
+    try:
+        data = json.loads(body.decode("utf-8", errors="replace"))
+    except json.JSONDecodeError:
+        return None, 1
+    hits = (data.get("resultList") or {}).get("result") or []
+    if not hits:
+        return None, 1
+    pmcid = hits[0].get("pmcid")
+    return pmcid or None, 1
+
+
+def jats_to_text(xml: str) -> str:
+    """Strip JATS XML to readable text. Not a PDF; used only when publisher PDFs are blocked."""
+    text = re.sub(r"(?is)<script[^>]*>.*?</script>", " ", xml)
+    text = re.sub(r"(?is)<style[^>]*>.*?</style>", " ", text)
+    text = re.sub(r"(?is)</(p|title|sec|abstract|td|th|fig|table-wrap)>", "\n\n", text)
+    text = re.sub(r"(?is)<xref[^>]*>.*?</xref>", " ", text)
+    text = re.sub(r"(?s)<[^>]+>", " ", text)
+    text = re.sub(r"&amp;", "&", text)
+    text = re.sub(r"&lt;", "<", text)
+    text = re.sub(r"&gt;", ">", text)
+    text = re.sub(r"&#\d+;", " ", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+def try_europepmc_jats(doi: str) -> tuple[str | None, str | None, int]:
+    """Public Europe PMC JATS XML (OA). Returns (xml, plaintext, http_calls)."""
+    pmcid, n = europepmc_pmcid(doi)
+    calls = n
+    if not pmcid:
+        return None, None, calls
+    url = f"https://www.ebi.ac.uk/europepmc/webservices/rest/{pmcid}/fullTextXML"
+    code, _, body = _request(url, accept="application/xml")
+    calls += 1
+    if code != 200 or not body:
+        return None, None, calls
+    xml = body.decode("utf-8", errors="replace")
+    if "<article" not in xml.lower() and "<!doctype article" not in xml.lower():
+        return None, None, calls
+    plain = jats_to_text(xml)
+    if len(plain) < 800:
+        return None, None, calls
+    return xml, plain, calls
 
 
 def publisher_guess_urls(doi: str) -> list[str]:
@@ -186,6 +274,19 @@ def publisher_guess_urls(doi: str) -> list[str]:
         urls.append("https://www.mdpi.com/resolver?doi=" + urllib.parse.quote(doi))
     if doi.startswith("10.3389/"):
         urls.append(f"https://www.frontiersin.org/articles/{doi}/pdf")
+        urls.append(f"https://www.frontiersin.org/journals/microbiology/articles/{doi}/pdf")
+    if doi.startswith("10.1371/"):
+        urls.append(
+            "https://journals.plos.org/plosone/article/file?id="
+            + urllib.parse.quote(doi)
+            + "&type=printable"
+        )
+    if doi.startswith("10.1007/"):
+        urls.append(
+            "https://link.springer.com/content/pdf/"
+            + urllib.parse.quote(doi, safe="")
+            + ".pdf"
+        )
     urls.append(f"https://doi.org/{doi}")
     # de-dupe preserving order
     seen: set[str] = set()
@@ -242,6 +343,9 @@ def fetch_one(doi: str, email: str) -> dict:
             tried.append(u)
 
     for url in tried:
+        if re.search(r"ncbi\.nlm\.nih\.gov/pmc/articles/.*/pdf", url, re.I):
+            # PMC now serves a JS proof-of-work interstitial, not a PDF body.
+            continue
         pdf, final, n = try_download_pdf(url)
         http_calls += n
         if pdf:
@@ -256,7 +360,26 @@ def fetch_one(doi: str, email: str) -> dict:
                 "error": None,
                 "lookup_sources": sources,
             }
-        time.sleep(0.3)
+        time.sleep(0.15)
+
+    xml, plain, n = try_europepmc_jats(doi)
+    http_calls += n
+    sources.append("europepmc_jats")
+    if xml and plain:
+        return {
+            "doi": doi,
+            "ok": True,
+            "source_url": f"https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:{doi}/fullTextXML",
+            "attempted": tried,
+            "http_calls": http_calls,
+            "bytes": len(plain.encode("utf-8")),
+            "pdf": None,
+            "text": plain,
+            "xml": xml,
+            "format": "jats_xml",
+            "error": None,
+            "lookup_sources": sources,
+        }
 
     return {
         "doi": doi,
@@ -314,6 +437,8 @@ def main() -> int:
         doi = rec.get("doi") or ""
         citekey = rec.get("record_id") or rec.get("citekey") or "unknown"
         dest = out_dir / f"{citekey}.pdf"
+        dest_txt = out_dir / f"{citekey}.txt"
+        dest_xml = out_dir / f"{citekey}.xml"
         if dest.exists() and dest.is_dir():
             dest = out_dir / f"{citekey}-fulltext.pdf"
         if args.resume and dest.exists() and dest.is_file() and dest.stat().st_size > 1000:
@@ -332,6 +457,24 @@ def main() -> int:
                 }
             )
             print(f"SKIP {citekey} (already have PDF)", flush=True)
+            continue
+        if args.resume and dest_txt.exists() and dest_txt.is_file() and dest_txt.stat().st_size > 800:
+            ok_n += 1
+            results.append(
+                {
+                    "citekey": citekey,
+                    "doi": doi,
+                    "ok": True,
+                    "error": None,
+                    "path": str(dest_txt),
+                    "format": "jats_xml",
+                    "http_calls": 0,
+                    "source_url": "resume",
+                    "attempted": [],
+                    "bytes": dest_txt.stat().st_size,
+                }
+            )
+            print(f"SKIP {citekey} (already have OA text)", flush=True)
             continue
         if args.resume and citekey in prior:
             row = dict(prior[citekey])
@@ -365,23 +508,32 @@ def main() -> int:
                 "http_calls": 0,
                 "bytes": 0,
                 "pdf": None,
-                "error": f"exception:{type(e).__name__}",
+                "error": f"exception:{type(e).__name__}:{e}",
             }
-            print(f"FAIL {citekey}  {doi}  {got['error']}", flush=True)
         total_http += int(got["http_calls"])
+        fmt = got.get("format") or ("pdf" if got.get("pdf") else None)
+        saved_path = None
+        if got["ok"] and got.get("pdf"):
+            dest.write_bytes(got["pdf"])
+            saved_path = str(dest)
+        elif got["ok"] and got.get("text"):
+            dest_txt.write_text(got["text"], encoding="utf-8")
+            if got.get("xml"):
+                dest_xml.write_text(got["xml"], encoding="utf-8")
+            saved_path = str(dest_txt)
         row = {
             "citekey": citekey,
             "doi": doi,
             "ok": got["ok"],
             "error": got["error"],
-            "path": str(dest) if got["ok"] else None,
+            "path": saved_path,
+            "format": fmt,
             "http_calls": got["http_calls"],
             "source_url": got["source_url"],
             "attempted": got["attempted"],
             "bytes": got["bytes"],
         }
         if got["ok"]:
-            dest.write_bytes(got["pdf"])
             ok_n += 1
             print(f"OK  {citekey}  {doi}  {got['bytes']} bytes  {got['source_url']}", flush=True)
         else:
