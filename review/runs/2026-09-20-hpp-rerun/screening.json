@@ -1,0 +1,1626 @@
+{
+  "duplicates_removed": 0,
+  "additional_records": 9,
+  "n_screened": 359,
+  "sought_for_retrieval": [
+    "Zheng20249829",
+    "Zhang2022",
+    "Djekic2022671",
+    "Ferreira2023",
+    "Erdem20249151",
+    "Onyeaka20233663",
+    "Stefanini2022193",
+    "Beitia20232802",
+    "Braspaiboon2024",
+    "Zhang2025756",
+    "Bhabani20241541",
+    "Gonz\u00e1lez-Tejedor2023372",
+    "Ding2026913",
+    "Ledina2023149",
+    "Sykora2026",
+    "Garcia Bustos2024",
+    "Lee2024",
+    "Koo2023",
+    "Nikparvar2021",
+    "Singh2025",
+    "Ganjeh2024",
+    "Yildiz2021",
+    "Kim2023",
+    "Koo2023",
+    "Ying20241",
+    "Tang20248587",
+    "Chaikham2025",
+    "Leong20247739",
+    "Bhatnagar2022",
+    "Ramakrishnan2023",
+    "Sheen20225042",
+    "Machado2023",
+    "Zou2021",
+    "Bhanu Prakash Reddy2026",
+    "Kumar2025",
+    "Chandel2025",
+    "Erdem2026",
+    "Sabill\u00f3n202170",
+    "Vettickathadathil2026",
+    "Rossi Ribeiro2026",
+    "Alinovi2021",
+    "Reddy2024",
+    "Al-Sharify2025",
+    "Fan2021362",
+    "Mohammadi2025193",
+    "Sun2022",
+    "Mukhtar2022",
+    "Wang2025351",
+    "Ord\u00f3\u00f1ez2026",
+    "Torrents-Masoliver2024",
+    "Pandiselvam2024",
+    "Okun2022177",
+    "Zulli2024",
+    "Ojha20241914",
+    "Melhem2022",
+    "Bulut2021",
+    "Baek2026",
+    "Nasharuddin2026",
+    "Wang2023",
+    "Yuan2025",
+    "Baldelli2024",
+    "Chen2025103",
+    "Mar\u00e7al2021",
+    "Chen202337",
+    "Agriopoulou20231",
+    "Castillo-Zamudio2021",
+    "Yang20211800",
+    "Park2022664",
+    "Kavindya20269740",
+    "Du2026",
+    "Rios2024",
+    "Tsagkaropoulou2024",
+    "Li2021",
+    "Yang2025",
+    "Truong2023692",
+    "Dey2022",
+    "Hashemi Moosavi2021",
+    "Pravallika2022",
+    "Arya2021",
+    "Gautam20241840",
+    "Chen20221226",
+    "Cheng2024592",
+    "P\u00e9rez Alcal\u00e12023",
+    "Katsaros202253",
+    "Khan2026",
+    "Zhang2025",
+    "Zhang2026",
+    "Koker2023292",
+    "Inanoglu20224939",
+    "Kateh20244185",
+    "Romulo202138",
+    "Nilsuwan2024",
+    "Sykora202513213",
+    "Eran Nagar2026",
+    "Zhou2025",
+    "Na Lamphun2026",
+    "Liao2023",
+    "Silva2023",
+    "Lian2023",
+    "Tsikrika2021",
+    "Serra-Castell\u00f32025",
+    "Lima2023",
+    "Rodr\u00edguez2024",
+    "McGraw2026",
+    "Tian2025",
+    "Xia2022",
+    "Amsasekar2022996",
+    "Chuang20211193",
+    "Sherman20241",
+    "Roy2026",
+    "Lee2021",
+    "Lima2023857",
+    "Thirumdas2025",
+    "Masotti20235643",
+    "Torrents-Masoliver2025",
+    "Nakthong2025",
+    "Liu2025",
+    "Darmawan2026",
+    "Lee2021",
+    "Serra-Castell\u00f32021",
+    "A\u011fag\u00fcnd\u00fcz20251284",
+    "Wu2025",
+    "Yildiz2023403",
+    "Usaga2021",
+    "P\u00e9rez-Garc\u00eda2026",
+    "Yang2024145",
+    "Pokhrel2022",
+    "Moghaddam2024",
+    "Pimsannil2025",
+    "Chai2021",
+    "Li2026",
+    "Palamae2026",
+    "Koutsoumanis2022",
+    "Meenu2026",
+    "Malik20232509",
+    "Raja2025",
+    "Levy2021490",
+    "Sehrawat202119",
+    "Gonz\u00e1lez-Cantillo2026",
+    "Chen2025",
+    "Rashvand202510283",
+    "Hinojosa-Luna20263625",
+    "Chotyakul2026",
+    "Mostafa2024507",
+    "Puangwerakul2024",
+    "Ismail2024514",
+    "Pimsannil2026",
+    "In\u00e1cio20213975",
+    "Lei2021297",
+    "Guzel2026",
+    "Gyawali2024",
+    "Goraya20253856",
+    "Das20261393",
+    "Fuangpaiboon202566",
+    "Gokul Nath2023",
+    "Rothwell20222490",
+    "Le2023399",
+    "Lee2023",
+    "Weihe2026",
+    "Lee2023",
+    "Palamae2024",
+    "Nolasco-Gonz\u00e1lez2024",
+    "Serment-Moreno2021465",
+    "Masilamani202519",
+    "Akdemir Evrendilek2021",
+    "Fariha2026",
+    "Yang2026125",
+    "Grau-Fuentes2025",
+    "Song2025",
+    "Cava2021",
+    "Wu2022",
+    "Knoerzer2025627",
+    "Yu2025",
+    "Ding2025",
+    "Amin2026",
+    "Baek2026",
+    "Ahmed2021",
+    "Lee2023",
+    "Kim2026",
+    "Palamae2026",
+    "Bento2026",
+    "Pav\u00f3n-Vargas2025",
+    "Lemos2022",
+    "Buzrul2025",
+    "Scepankova2022",
+    "Ozen2022",
+    "Andaluz-Mej\u00eda2022",
+    "Ates2021",
+    "Castrica2021",
+    "Al2026",
+    "Meng2026514",
+    "Serra-Castell\u00f32022",
+    "Peng2023313",
+    "Jeevitha2023",
+    "Khouryieh202531",
+    "Iqbal2024379",
+    "Rosario20211163",
+    "Zheng2021",
+    "Dong2025",
+    "Dikmetas2025",
+    "Rey20222324",
+    "Liossi2024",
+    "Sevenich2026117",
+    "Ahmadi2026",
+    "J\u00f6nsson2023"
+  ],
+  "n_fulltext_assessed": 50,
+  "title_excluded": [
+    {
+      "record_id": "Maghami2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Seyedalangi2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Schnabel2021115",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Gon\u00e7alves2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Magalh\u00e3es20231",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Kwon2025219",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Anumudu2021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Otero2022359",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Fidalgo2023141",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Munekata2025329",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Awuchi2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Popa2023",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Fernandes2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Almughamisi2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Ma2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Wi\u015bniewski2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Shirani2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Sruthi202158",
+      "reason": "Title matches exclusion (pet food / retraction / off-topic storage or salt review)"
+    },
+    {
+      "record_id": "Serra-Castell\u00f32023",
+      "reason": "Title matches exclusion (pet food / retraction / off-topic storage or salt review)"
+    },
+    {
+      "record_id": "Tantala2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Soni20214652",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Xu2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "G\u00f6kmen2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Ishikawa2025135",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Syed20257119",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Stanford2021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Serra-Castell\u00f32022",
+      "reason": "Title matches exclusion (pet food / retraction / off-topic storage or salt review)"
+    },
+    {
+      "record_id": "Katsigiannis2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "de Castro Leite20231",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Iqbal2021495",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Chauhan2025213",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Tian202417",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Lohita2024285",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Pratama20263311",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Alsalman2025169",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Serna-Hern\u00e1ndez2025203",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Messens2023",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Vasilev2025199",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Jin202115",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Verma2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Prasad202313",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Ali2021766",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Huang2021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Murtaza2024185",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Yang2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Zhao2026195",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Marsza\u0142ek2021117",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Oftedal2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Bao2024118",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Rysov\u00e12021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Adam2021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Vignali20221729",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Alp20211333",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kumar2022299",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Dong2026356",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Igwegbe2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Lei2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Saleem2021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Yang20258592",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Tylewicz2022567",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Arshad P2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Mandim2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Peleg2022201",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kaavya202347",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Pellegrino202518",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Ashrafudoulla20233",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Lamela2023V4",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Zainuddin202516",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Naik202357",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Nadira Naznin Rakhi2022141",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Syukri2025563",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Assaf2025149",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Hu2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kamalapreetha202333",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Wason20214950",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Zhang20252968",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Mahnot2022277",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Singh2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kamonpatana202553658",
+      "reason": "Title matches exclusion (pet food / retraction / off-topic storage or salt review)"
+    },
+    {
+      "record_id": "Yadav2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Aldrete-Tapia2021431",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Black2025143",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Jan2022153",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Nateras-Ram\u00edrez2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "McCoy2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kamalapreetha2024200",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Janahar2023628",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Koubaa20211",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Yan2023325",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Ogwu2024263",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Wang2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Wang2022221",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "de Oliveira Ramos2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Mahendran20241",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Haetami20261323",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Abdullah2024385",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Morales-de la Pe\u00f1a2023",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Ma2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Swathika B. S2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Astorga-Oquendo2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Polak2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Ballester2022315",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Toshmamatov2025",
+      "reason": "Title matches exclusion (pet food / retraction / off-topic storage or salt review)"
+    },
+    {
+      "record_id": "Subhashini2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Ojha2021877",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Shukla2024187",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Jin2025",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Mousakhani Ganjeh2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Shi2026395",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kapoor2026225",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Deng2023169",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Rolfe2023",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Wei2023",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Matsubara2021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Singh2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Tang2026440",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Lin2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Hargrove202510574",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Karacabey2021541",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Aslam20242301",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kaur2022157",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Deshwal2021",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Brito2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Mousakhani Ganjeh2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Lima2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Sarker2024197",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Negi2026225",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Gupta202345",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Kiprotich2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Kumar20211",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Pan2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Hu2023V3",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Kim2023",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Paul202452",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Casta\u00f1eda-Saucedo2023113",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Junaid2023143",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Sun2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Barcenilla2023",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Wang2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Deng2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Barmanray2025125",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Oliveira2024",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Jha2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Gholamhosseinpour2024249",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Dunne2025963",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Kumar2025277",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "de Albuquerque2024293",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Prakash2022131",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Chaikham2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Tavassoli2026150",
+      "reason": "Non-article entry type BOOK"
+    },
+    {
+      "record_id": "Shi2022",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Yang202412638",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Rincon2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    },
+    {
+      "record_id": "Andrigo2026",
+      "reason": "No named high-pressure or listed nonthermal technology in title"
+    }
+  ],
+  "fulltext_excluded": [
+    {
+      "citekey": "Bhabani20241541",
+      "reason": "full text does not treat high-pressure processing or homogenization as a study topic (neighbouring nonthermal only)"
+    },
+    {
+      "citekey": "Ledina2023149",
+      "reason": "full text does not treat high-pressure processing or homogenization as a study topic (neighbouring nonthermal only)"
+    },
+    {
+      "citekey": "Sun2022",
+      "reason": "full text does not treat high-pressure processing or homogenization as a study topic (neighbouring nonthermal only)"
+    },
+    {
+      "citekey": "Kavindya20269740",
+      "reason": "full text does not treat high-pressure processing or homogenization as a study topic (neighbouring nonthermal only)"
+    },
+    {
+      "citekey": "Hashemi Moosavi2021",
+      "reason": "full text does not treat high-pressure processing or homogenization as a study topic (neighbouring nonthermal only)"
+    },
+    {
+      "citekey": "Lian2023",
+      "reason": "full text does not treat high-pressure processing or homogenization as a study topic (neighbouring nonthermal only)"
+    },
+    {
+      "citekey": "Masilamani202519",
+      "reason": "full text does not treat high-pressure processing or homogenization as a study topic (neighbouring nonthermal only)"
+    },
+    {
+      "citekey": "Bhatnagar2022",
+      "reason": "irradiation mini-review; high pressure is listed among neighbouring technologies, not measured"
+    },
+    {
+      "citekey": "Zhou2025",
+      "reason": "rice-bran lipase stabilization review; pressure is not the organising process"
+    },
+    {
+      "citekey": "Thirumdas2025",
+      "reason": "postbiotic production review; HPP named among many nonthermal tools, not a pressure study"
+    },
+    {
+      "citekey": "Rashvand202510283",
+      "reason": "machine-learning optimization review of nonthermal plant operations, not a food-matrix HPP experiment or process review"
+    },
+    {
+      "citekey": "Weihe2026",
+      "reason": "physics topical review of UV, plasma, electron beam, ultrasound and HPP with equal billing; not an HPP-centred food study"
+    },
+    {
+      "citekey": "Jeevitha2023",
+      "reason": "health-beverage nonthermal survey; HHP is one of several unit operations without primary pressure data"
+    },
+    {
+      "citekey": "Chotyakul2026",
+      "reason": "retrieved file is a journal cover letter, not the article full text"
+    },
+    {
+      "citekey": "Bhanu Prakash Reddy2026",
+      "reason": "retrieved file is an FSSAI alcoholic-beverages methods manual, not the coconut-water article; no public OA full text"
+    },
+    {
+      "citekey": "Baek2026",
+      "reason": "authors frame the pork HHP study as raw pet-food protein; pet-food papers are excluded by protocol"
+    }
+  ],
+  "not_retrieved": [
+    {
+      "citekey": "Zheng20249829",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Djekic2022671",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ferreira2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Erdem20249151",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Onyeaka20233663",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Stefanini2022193",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Beitia20232802",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Zhang2025756",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Gonz\u00e1lez-Tejedor2023372",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ding2026913",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Garcia Bustos2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lee2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Koo2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Singh2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ganjeh2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yildiz2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Kim2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Koo2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ying20241",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Tang20248587",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chaikham2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Leong20247739",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ramakrishnan2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Sheen20225042",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Zou2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Kumar2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chandel2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Erdem2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Sabill\u00f3n202170",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Vettickathadathil2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Alinovi2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Reddy2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Al-Sharify2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Fan2021362",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Mohammadi2025193",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ord\u00f3\u00f1ez2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Pandiselvam2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Okun2022177",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Zulli2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ojha20241914",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Melhem2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Nasharuddin2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Wang2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yuan2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Baldelli2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chen2025103",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chen202337",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Castillo-Zamudio2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yang20211800",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Park2022664",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Du2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Rios2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Tsagkaropoulou2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yang2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Truong2023692",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Dey2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Pravallika2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Arya2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Gautam20241840",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chen20221226",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Cheng2024592",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Katsaros202253",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Khan2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Zhang2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Inanoglu20224939",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Kateh20244185",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Romulo202138",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Sykora202513213",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Na Lamphun2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Liao2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Silva2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Serra-Castell\u00f32025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lima2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "McGraw2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Tian2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Amsasekar2022996",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chuang20211193",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Sherman20241",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Roy2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lee2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lima2023857",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Masotti20235643",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Torrents-Masoliver2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Nakthong2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Liu2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Darmawan2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lee2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "A\u011fag\u00fcnd\u00fcz20251284",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yildiz2023403",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Usaga2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "P\u00e9rez-Garc\u00eda2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yang2024145",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Pokhrel2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Moghaddam2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chai2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Li2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Palamae2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Meenu2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Malik20232509",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Raja2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Levy2021490",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Sehrawat202119",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Chen2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Hinojosa-Luna20263625",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Mostafa2024507",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ismail2024514",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Pimsannil2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "In\u00e1cio20213975",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lei2021297",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Gyawali2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Goraya20253856",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Das20261393",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Fuangpaiboon202566",
+      "reason": "missing_doi"
+    },
+    {
+      "citekey": "Gokul Nath2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Rothwell20222490",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lee2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lee2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Palamae2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Nolasco-Gonz\u00e1lez2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Serment-Moreno2021465",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Akdemir Evrendilek2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Fariha2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yang2026125",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Grau-Fuentes2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Song2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Cava2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Wu2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Yu2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ding2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Amin2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ahmed2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lee2023",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Kim2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Palamae2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Bento2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Pav\u00f3n-Vargas2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Lemos2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Buzrul2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ozen2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Andaluz-Mej\u00eda2022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ates2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Al2026",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Meng2026514",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Serra-Castell\u00f32022",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Khouryieh202531",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Iqbal2024379",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Rosario20211163",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Zheng2021",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Dong2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Dikmetas2025",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Rey20222324",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Liossi2024",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Sevenich2026117",
+      "reason": "no_public_pdf_found"
+    },
+    {
+      "citekey": "Ahmadi2026",
+      "reason": "no_public_pdf_found"
+    }
+  ],
+  "included": [
+    "Zhang2022",
+    "Braspaiboon2024",
+    "Sykora2026",
+    "Nikparvar2021",
+    "Machado2023",
+    "Rossi Ribeiro2026",
+    "Mukhtar2022",
+    "Wang2025351",
+    "Torrents-Masoliver2024",
+    "Bulut2021",
+    "Mar\u00e7al2021",
+    "Agriopoulou20231",
+    "Li2021",
+    "P\u00e9rez Alcal\u00e12023",
+    "Zhang2026",
+    "Koker2023292",
+    "Nilsuwan2024",
+    "Eran Nagar2026",
+    "Tsikrika2021",
+    "Rodr\u00edguez2024",
+    "Xia2022",
+    "Serra-Castell\u00f32021",
+    "Wu2025",
+    "Pimsannil2025",
+    "Koutsoumanis2022",
+    "Gonz\u00e1lez-Cantillo2026",
+    "Puangwerakul2024",
+    "Guzel2026",
+    "Le2023399",
+    "Knoerzer2025627",
+    "Scepankova2022",
+    "Castrica2021",
+    "Peng2023313",
+    "J\u00f6nsson2023",
+    "Almoselhy2022_000243",
+    "Lomel\u00edMart\u00edn2021_040878",
+    "Hou\u0161ka2022_020223",
+    "NavarroBaez2022_051502",
+    "SernaHernandez2021_081867",
+    "Wi\u015bniewski2023_010014",
+    "Szczepa\u0144ska2021_26114",
+    "Heydenreich2024_29923",
+    "L\u00f3pez2026_040892"
+  ],
+  "notes": "Title screen of 359 Scopus records (2021\u20132026). Sought 205 title-includes. Retrieved 50 unique public OA PDF or Europe PMC JATS (no paywall bypass). Full-text inclusion requires high-pressure processing, high hydrostatic pressure, or high-pressure homogenization as a study or review topic in a food matrix. Excluded neighbouring-only nonthermal papers, an unreadable cover letter, and off-topic related-search hits. Related-to-seeds OpenAlex (two queries, 2021\u20132026, peer-reviewed journals): 32 unique hits; 5 unique HPP/HPH papers added after DOI de-duplication. Included n=41. Reddy2026 wrong-document fetch excluded. Baek2026 excluded as pet-food application. Gap-fill: 6 OA candidates sought after rationale; 4 retrieved (Listeria HPP overview; HPH apple juice; Bacillus spores+nisin; AS-48+HHP cream). Gong 2024 HHP+HTST milk and Torrents-Masoliver 2025 industrial HPTP spores: no public PDF.",
+  "related_included": [
+    "Almoselhy2022_000243",
+    "Lomel\u00edMart\u00edn2021_040878",
+    "Hou\u0161ka2022_020223",
+    "NavarroBaez2022_051502",
+    "SernaHernandez2021_081867"
+  ],
+  "related_excluded_offtopic": [
+    {
+      "citekey": "Singla2021_105506",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Dhal2025_6472w",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Vasile2021_051263",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Alamri2021_04047",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Zhu2021_03009",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "D\u00edazMontes2021_020249",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Jadhav2021_657090",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Singh2023_200209",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Zaky2022_815640",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "FAF2021_16585",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Wang2023_265178",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Anumudu2024_233714",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Galanakis2021_010128",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    },
+    {
+      "citekey": "Shanthakumar2022_165354",
+      "reason": "related hit off-topic for HPP/HPH food processing (packaging, AI, additive, or generic nonthermal without pressure as topic)"
+    }
+  ]
+}

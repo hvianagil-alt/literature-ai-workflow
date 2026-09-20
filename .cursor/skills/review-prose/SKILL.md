@@ -5,7 +5,7 @@ description: "How to write a journal review article in human scientific prose: m
 
 # Review-article craft and human prose
 
-Read this **before** drafting or rewriting `article.md` / `final-report.md`. Pair with `report-writing` **and** `scientific-synthesis`. This file is about **genre, architecture, and voice**. Reasoning (evidence map, statement layers, paragraph function, mechanism grading, audits) lives in `scientific-synthesis`. It is not a license to invent citations.
+Read this **before** drafting or rewriting `article.md` / `final-report.md`. Pair with `report-writing`, **`scientific-synthesis`**, and **`review-writing-craft`**. This file is about **genre, architecture, and voice**. Reasoning (evidence map, statement layers, paragraph function, mechanism grading, audits) lives in `scientific-synthesis`. Sentence movement, nested 3.1 topics, and hinge vs supporting papers live in `review-writing-craft`. It is not a license to invent citations.
 
 When published reviews are read **to learn how to write**, copy **form only**. Do not import their findings, quotes, or scientific examples into `article.md`.
 
@@ -29,7 +29,7 @@ Kinds that appear in this workflow:
 
 ### Length
 
-Unless the user asks for a short note, a full journal manuscript should be long enough to teach the background and treat every included study. Aim for **at least ~6,000 words of body text** (about 20 pages in a typical Word document: 12-pt serif, double-spaced, ~300 words/page). Do not pad with repetition, slogans, or process talk. Add length in the Introduction (teaching) and in per-paper methods/results.
+Unless the user asks for a short note, a full journal manuscript should be long enough to teach the background and to cite every included study. Aim for **at least ~6,000 words of body text** (about 20 pages in a typical Word document: 12-pt serif, double-spaced, ~300 words/page). Do not pad with repetition, slogans, or process talk. Add length in the Introduction (teaching) and in nested thematic sections. **Hinge** papers get design + n + result; supporting papers are grouped in the same paragraph. Equal-depth file cards for every row are not the length strategy (`review-writing-craft`).
 
 ### Match the spine to the review kind
 
@@ -103,7 +103,7 @@ Name the **kind** in the subtitle when it helps (`a narrative review`, `a system
 
 ### Abstract
 
-A **narrative** abstract is a map of the topic. It is not a results table and not a catalogue of included papers. Published narrative reviews in the form-study sample open on the phenomenon, state a tension, rank kinds of evidence, and close on what that rank does not imply. They do **not** cite, and they do **not** name Author Year.
+A **narrative** abstract is a map of the topic. It is not a results table and not a catalogue of included papers. Published narrative reviews in the form-study sample **and** the OpenAlex form-model sample open on the phenomenon, state a tension, rank kinds of evidence, and close on what that rank does not imply. They do **not** cite, they do **not** name Author Year, and they do **not** begin with “This review discusses…”. `check_article.py` fails that opener, and on a full manuscript it fails an Abstract with no tension or calibration (`yet` / `however` / `do not imply`).
 
 Write it in this **order**:
 
@@ -341,4 +341,4 @@ Scientific directions a trialist or experimentalist could actually run, written 
 
 ## Handoff
 
-`report-writing` executes the outline from `synthesis-rationale` **in this voice**. Then run `article-qa` (`scripts/check_article.py`). If the draft sounds like a chatbot or a methods log, or the script fails, rewrite it before calling the article done.
+`report-writing` executes the outline from `synthesis-rationale` **in this voice**, using `review-writing-craft` for nested topics and hinge papers. Then run `article-qa` (`scripts/check_article.py` then `scripts/check_review_craft.py`). If the draft sounds like a chatbot or a methods log, or either script fails, rewrite it before calling the article done.

@@ -33,6 +33,8 @@ Fails a full manuscript whose thematic sections dump one study per paragraph
 without naming why similar experiments agree or differ (population, system,
 cell or strain, dose, endpoint, geography, statistics). ``--short`` skips
 this gate.
+Fails when ``--form-model`` is set and the title+abstract scores as a
+catalog/chatbot draft against published OA reviews (form only).
 """
 
 from __future__ import annotations
@@ -117,6 +119,41 @@ AUTHOR_ACCORDING_RE = re.compile(
     r"According to [A-Z][A-Za-z\-]+(?:\s+[A-Z][A-Za-z\-]+)?(?:\s+et al)?",
 )
 
+ABSTRACT_BAD_OPENERS = (
+    "this review discusses",
+    "this review aims",
+    "this paper reviews",
+    "this paper aims",
+    "in recent years",
+)
+ABSTRACT_TENSION_RE = re.compile(
+    r"\b(yet|however|whereas|although|though|nonetheless|"
+    r"at the same time|by contrast|in contrast|"
+    r"do not imply|does not imply|cannot be pooled|"
+    r"cannot show)\b",
+    re.I,
+)
+
+
+def abstract_joinery_problems(text: str, short: bool) -> list[str]:
+    """Published narrative abstracts open on the phenomenon, then a tension."""
+    abstract = section_after(text, "Abstract")
+    problems: list[str] = []
+    opener = first_sentence(abstract).lower()
+    for bad in ABSTRACT_BAD_OPENERS:
+        if opener.startswith(bad):
+            problems.append(f"Abstract opens with '{bad}'")
+            break
+    if not short and len(abstract.split()) >= 80 and not ABSTRACT_TENSION_RE.search(abstract):
+        problems.append(
+            "Abstract has no tension or calibration "
+            "(yet / however / those patterns do not imply); "
+            "published OA reviews in the form-model sample state a limit "
+            "(see review-prose Abstract)"
+        )
+    return problems
+
+
 INTRO_BAD_OPENERS = (
     "this review discusses",
     "this review aims",
@@ -144,6 +181,8 @@ TITLE_FLOURISH = [
     r"in-depth look",
     r"\bscopus\b",
     r"oa export",
+    r"open-access set",
+    r"\bthis sample\b",
     r"\bet al\.",
     r"\bpdfs\b",
     r"included papers",
@@ -1033,7 +1072,38 @@ def acquisition_outside_methods_problems(text: str) -> list[str]:
     return problems
 
 
-def check(text: str, table: str | None, short: bool) -> list[str]:
+def form_model_problems(text: str, model_path: str, min_p: float = 0.45) -> list[str]:
+    """Optional: fail catalog-like title/abstract form vs published reviews."""
+    if not model_path:
+        return []
+    path = Path(model_path)
+    if not path.is_file():
+        return [f"form model missing: {path}"]
+    # Local imports: scoring is optional and must not be required to lint a draft.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from review_form_features import extract_front_features, vectorize  # noqa: WPS433
+    from review_form_model import load_model, score_vector  # noqa: WPS433
+
+    model = load_model(path)
+    names = model["feature_names"]
+    feats = extract_front_features(article_title(text), section_after(text, "Abstract"))
+    scored = score_vector(vectorize(feats, names), model)
+    p = scored["p_published_form"]
+    if p < min_p:
+        return [
+            f"published-review form score {p:.2f} < {min_p} (catalog-like title/"
+            "abstract vs OA reviews; see review-form-ml and review-prose)"
+        ]
+    return []
+
+
+def check(
+    text: str,
+    table: str | None,
+    short: bool,
+    form_model_path: str = "",
+    form_min_p: float = 0.45,
+) -> list[str]:
     problems: list[str] = []
     lowered = text.lower()
     body = body_before_references(text)
@@ -1119,6 +1189,9 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(glued_heading_problems(text))
     problems.extend(mechanism_prose_problems(text, short))
     problems.extend(condition_cluster_problems(text, short))
+    problems.extend(abstract_joinery_problems(text, short))
+    if form_model_path:
+        problems.extend(form_model_problems(text, form_model_path, form_min_p))
     return problems
 
 
@@ -1131,13 +1204,30 @@ def main() -> int:
         action="store_true",
         help="skip the 6,000-word floor (only if the user asked for a short note)",
     )
+    parser.add_argument(
+        "--form-model",
+        default="",
+        help="optional review/ml/model.json; fail catalog-like title/abstract form",
+    )
+    parser.add_argument(
+        "--form-min-p",
+        type=float,
+        default=0.45,
+        help="minimum p_published_form when --form-model is set (default 0.45)",
+    )
     args = parser.parse_args()
     path = Path(args.article)
     if not path.is_file():
         print(f"FAIL article missing: {path}", file=sys.stderr)
         return 2
     table = Path(args.table).read_text(encoding="utf-8") if args.table else None
-    problems = check(path.read_text(encoding="utf-8"), table, args.short)
+    problems = check(
+        path.read_text(encoding="utf-8"),
+        table,
+        args.short,
+        form_model_path=args.form_model,
+        form_min_p=args.form_min_p,
+    )
     if problems:
         print("FAIL article is not deliverable:")
         for p in problems:

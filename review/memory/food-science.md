@@ -24,4 +24,8 @@ Many published narratives catalogue **by matrix** (milk / juice / meat) or **by 
 - Equipment, energy, packaging, or consumer chapters with no measurements — name them as neighbouring gaps, do not invent them.
 - A graphical abstract or figure step (this workflow does not produce one).
 - Abstract that recites Scopus or open-access fetching.
+
+## Title shape in published OA reviews (form only)
+
+Food-process reviews in the form-model sample mix colon subtitles with kind-named titles. Abstracts that never mark a tension (`yet` / `however` / `do not imply`) are off the published pattern — this workflow now fails that on a full manuscript. Do not copy log reductions from the gold set.
 ---

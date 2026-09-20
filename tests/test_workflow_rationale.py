@@ -137,7 +137,9 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("T2D", agents)
         # Skill inventory lives in AGENTS.md, not the researcher README.
         self.assertIn("export-manuscript", agents)
-        self.assertEqual(agents.count(".cursor/skills/"), 17)
+        self.assertEqual(agents.count(".cursor/skills/"), 19)
+        self.assertIn("review-writing-craft", agents)
+        self.assertIn("review-form-ml", agents)
         self.assertIn("first-conversation", agents)
         self.assertIn("review-harness", agents)
         self.assertIn("review/memory/", agents)
@@ -170,6 +172,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         text = (ROOT / ".cursor/skills/article-qa/SKILL.md").read_text(encoding="utf-8")
         self.assertIn("check_article.py", text)
         self.assertIn("check_extraction.py", text)
+        self.assertIn("check_review_craft.py", text)
         self.assertIn("not done", text.lower())
         self.assertIn("Table 1", text)
         self.assertIn("no citations", text.lower())

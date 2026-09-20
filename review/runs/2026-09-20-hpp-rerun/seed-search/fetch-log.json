@@ -1,0 +1,456 @@
+[
+  {
+    "citekey": "NilsenNygaard2021_12715",
+    "doi": "10.1111/1541-4337.12715",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 5,
+    "source_url": null,
+    "attempted": [
+      "https://doi.org/10.1111/1541-4337.12715"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Singla2021_105506",
+    "doi": "10.1016/j.ultsonch.2021.105506",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Singla2021_105506.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 109594
+  },
+  {
+    "citekey": "Dhal2025_6472w",
+    "doi": "10.1007/s42452-025-06472-w",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Dhal2025_6472w.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1409560
+  },
+  {
+    "citekey": "Lisboa2024_188223",
+    "doi": "10.3390/su16188223",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2071-1050/16/18/8223/pdf?version=1726908976",
+      "https://www.mdpi.com/resolver?doi=10.3390/su16188223",
+      "https://doi.org/10.3390/su16188223"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Panel2022_27128",
+    "doi": "10.2903/j.efsa.2022.7128",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Panel2022_27128.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 691558
+  },
+  {
+    "citekey": "Almoselhy2022_000243",
+    "doi": "10.23880/oajmb-16000243",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Almoselhy2022_000243.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 310257
+  },
+  {
+    "citekey": "Vasile2021_051263",
+    "doi": "10.3390/molecules26051263",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Vasile2021_051263.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 199990
+  },
+  {
+    "citekey": "Allai2022_100258",
+    "doi": "10.1016/j.afres.2022.100258",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S277250222200213X/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.afres.2022.100258",
+      "https://doi.org/10.1016/j.afres.2022.100258"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Nabi2021_413908",
+    "doi": "10.3390/su132413908",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2071-1050/13/24/13908/pdf?version=1639995218",
+      "https://www.mdpi.com/resolver?doi=10.3390/su132413908",
+      "https://doi.org/10.3390/su132413908"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Roobab2022_12977",
+    "doi": "10.1111/1541-4337.12977",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://hdl.handle.net/20.500.12207/5686",
+      "https://doi.org/10.1111/1541-4337.12977"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Alamri2021_04047",
+    "doi": "10.1016/j.sjbs.2021.04.047",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Alamri2021_04047.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 59588
+  },
+  {
+    "citekey": "Zhu2021_03009",
+    "doi": "10.1016/j.crfs.2021.03.009",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Zhu2021_03009.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 106603
+  },
+  {
+    "citekey": "D\u00edazMontes2021_020249",
+    "doi": "10.3390/foods10020249",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/D\u00edazMontes2021_020249.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 97022
+  },
+  {
+    "citekey": "Jadhav2021_657090",
+    "doi": "10.3389/fnut.2021.657090",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Jadhav2021_657090.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 397131
+  },
+  {
+    "citekey": "Singh2023_200209",
+    "doi": "10.1002/gch2.202200209",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Singh2023_200209.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 127882
+  },
+  {
+    "citekey": "Zaky2022_815640",
+    "doi": "10.3389/fnut.2021.815640",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Zaky2022_815640.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 805997
+  },
+  {
+    "citekey": "FAF2021_16585",
+    "doi": "10.2903/j.efsa.2021.6585",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/FAF2021_16585.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 574169
+  },
+  {
+    "citekey": "Wang2023_265178",
+    "doi": "10.3389/fphar.2023.1265178",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Wang2023_265178.pdf",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 1645116
+  },
+  {
+    "citekey": "Awuchi2023_176280",
+    "doi": "10.1080/23311932.2023.2176280",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://www.tandfonline.com/doi/pdf/10.1080/23311932.2023.2176280?download=true",
+      "https://doi.org/10.1080/23311932.2023.2176280"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Anumudu2024_233714",
+    "doi": "10.3390/foods13233714",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Anumudu2024_233714.txt",
+    "format": "jats_xml",
+    "http_calls": 0,
+    "source_url": "resume",
+    "attempted": [],
+    "bytes": 162268
+  },
+  {
+    "citekey": "Silva2023_021193",
+    "doi": "10.3390/app13021193",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2076-3417/13/2/1193/pdf?version=1673855873",
+      "https://www.mdpi.com/resolver?doi=10.3390/app13021193",
+      "https://doi.org/10.3390/app13021193"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Chiozzi2022_042202",
+    "doi": "10.3390/app12042202",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.mdpi.com/2076-3417/12/4/2202/pdf?version=1645523155",
+      "https://www.mdpi.com/resolver?doi=10.3390/app12042202",
+      "https://doi.org/10.3390/app12042202"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Pokhrel2022_113219",
+    "doi": "10.1016/j.lwt.2022.113219",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 7,
+    "source_url": null,
+    "attempted": [
+      "https://www.sciencedirect.com/science/article/pii/S0023643822001542/pdf",
+      "https://www.sciencedirect.com/science/article/pii/pdf?doi=10.1016/j.lwt.2022.113219",
+      "https://doi.org/10.1016/j.lwt.2022.113219"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "Lomel\u00edMart\u00edn2021_040878",
+    "doi": "10.3390/foods10040878",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Lomel\u00edMart\u00edn2021_040878.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods10040878/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/10/4/878/pdf?version=1618967412",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8072623/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods10040878",
+      "https://doi.org/10.3390/foods10040878"
+    ],
+    "bytes": 85644
+  },
+  {
+    "citekey": "Hou\u0161ka2022_020223",
+    "doi": "10.3390/foods11020223",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Hou\u0161ka2022_020223.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods11020223/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/11/2/223/pdf?version=1642154910",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8774875/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods11020223",
+      "https://doi.org/10.3390/foods11020223"
+    ],
+    "bytes": 126936
+  },
+  {
+    "citekey": "NavarroBaez2022_051502",
+    "doi": "10.3390/molecules27051502",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/NavarroBaez2022_051502.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/molecules27051502/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1420-3049/27/5/1502/pdf?version=1645614499",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8911777/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/molecules27051502",
+      "https://doi.org/10.3390/molecules27051502"
+    ],
+    "bytes": 55536
+  },
+  {
+    "citekey": "Galanakis2021_010128",
+    "doi": "10.3390/foods10010128",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Galanakis2021_010128.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods10010128/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/10/1/128/pdf?version=1610617239",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826514/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods10010128",
+      "https://doi.org/10.3390/foods10010128"
+    ],
+    "bytes": 118832
+  },
+  {
+    "citekey": "Kateh2023_16758",
+    "doi": "10.1111/ijfs.16758",
+    "ok": false,
+    "error": "no_public_pdf_found",
+    "path": null,
+    "format": null,
+    "http_calls": 6,
+    "source_url": null,
+    "attempted": [
+      "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijfs.16758",
+      "https://doi.org/10.1111/ijfs.16758"
+    ],
+    "bytes": 0
+  },
+  {
+    "citekey": "SernaHernandez2021_081867",
+    "doi": "10.3390/foods10081867",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/SernaHernandez2021_081867.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods10081867/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/10/8/1867/pdf?version=1629439902",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8391368/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods10081867",
+      "https://doi.org/10.3390/foods10081867"
+    ],
+    "bytes": 82467
+  },
+  {
+    "citekey": "Braspaiboon2024_060922",
+    "doi": "10.3390/foods13060922",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Braspaiboon2024_060922.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/foods13060922/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/2304-8158/13/6/922/pdf?version=1710772266",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10969792/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/foods13060922",
+      "https://doi.org/10.3390/foods13060922"
+    ],
+    "bytes": 94256
+  },
+  {
+    "citekey": "Xia2022_878904",
+    "doi": "10.3389/fnut.2022.878904",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Xia2022_878904.pdf",
+    "format": "pdf",
+    "http_calls": 4,
+    "source_url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.878904/pdf",
+    "attempted": [
+      "https://www.frontiersin.org/articles/10.3389/fnut.2022.878904/pdf",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9131044/pdf/",
+      "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fnut.2022.878904/pdf",
+      "https://doi.org/10.3389/fnut.2022.878904"
+    ],
+    "bytes": 716536
+  },
+  {
+    "citekey": "Shanthakumar2022_165354",
+    "doi": "10.3390/molecules27165354",
+    "ok": true,
+    "error": null,
+    "path": "papers/2026-09-20-hpp-rerun-found/Shanthakumar2022_165354.txt",
+    "format": "jats_xml",
+    "http_calls": 8,
+    "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/DOI:10.3390/molecules27165354/fullTextXML",
+    "attempted": [
+      "https://www.mdpi.com/1420-3049/27/16/5354/pdf?version=1661261224",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9412838/pdf/",
+      "https://www.mdpi.com/resolver?doi=10.3390/molecules27165354",
+      "https://doi.org/10.3390/molecules27165354"
+    ],
+    "bytes": 119652
+  }
+]

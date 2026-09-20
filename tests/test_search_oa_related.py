@@ -7,6 +7,7 @@ from search_oa_related import (  # noqa: E402
     build_openalex_filters,
     catalog_rows,
     citekey_from_work,
+    reconstruct_abstract,
     work_to_record,
 )
 
@@ -37,6 +38,15 @@ class FilterTests(unittest.TestCase):
         self.assertNotIn("type:article", filters)
         self.assertTrue(all("source.type" not in f for f in filters))
 
+    def test_work_type_review_uses_type_review(self):
+        filters = build_openalex_filters(work_type="review")
+        self.assertIn("type:review", filters)
+        self.assertNotIn("type:article", filters)
+
+    def test_work_type_any_omits_type_filter(self):
+        filters = build_openalex_filters(work_type="any")
+        self.assertTrue(all(not f.startswith("type:") for f in filters))
+
     def test_bad_journal_quality_raises(self):
         with self.assertRaises(ValueError):
             build_openalex_filters(journal_quality="q1")
@@ -64,6 +74,18 @@ class RecordTests(unittest.TestCase):
         self.assertEqual(rec["title"], "Only a title")
         self.assertEqual(rec["source_type"], "")
         self.assertFalse(rec["is_in_doaj"])
+        self.assertEqual(rec["abstract"], "")
+
+    def test_reconstruct_abstract_from_inverted_index(self):
+        work = {
+            "abstract_inverted_index": {
+                "Heat": [0],
+                "kills": [1],
+                "spores": [2],
+                "rarely.": [3],
+            }
+        }
+        self.assertEqual(reconstruct_abstract(work), "Heat kills spores rarely.")
 
     def test_catalog_rows_mark_gap_fill(self):
         rows = catalog_rows(

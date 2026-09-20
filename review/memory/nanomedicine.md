@@ -24,4 +24,8 @@ Open on the biological problem (why a free drug fails), then the **constraint** 
 - Treating mouse EPR as a human guarantee.
 - Mixing antimicrobial silver papers with oncology liposomes as if they were one efficacy class.
 - Skipping physiology the later sections assume (endosome, mucus, pH).
+
+## Title shape in published OA reviews (form only)
+
+Nanomedicine review titles in the form-model sample **often omit** “a narrative review” and are shorter technology names. A colon subtitle is still common, but requiring the kind in the title is a justified extra, not a field default. Do not copy formulations from those papers.
 ---

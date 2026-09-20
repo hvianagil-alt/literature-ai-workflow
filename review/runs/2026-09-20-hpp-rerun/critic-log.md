@@ -1,0 +1,28 @@
+# Critic log — 2026-09-20-hpp-rerun
+
+- Field memory card: `review/memory/food-science.md`
+- Shape vs card: match (question-driven narrative; commodity/technology catalogue omitted on purpose and recorded in `structure-benchmark.md` as a justified departure)
+- Adjacent-field Introduction: pass
+- Numbers spot-checked: (paper, number, agree yes/no)
+  - Bulut 2021, unfrozen PBS 1.83 log vs frozen −24 °C 5.63 / −80 °C 6.83 log at 400 MPa/9 min/4 °C, agree yes (note)
+  - Sykora 2026, ~450/500/600 MPa for *Listeria*/*Salmonella*/*S. aureus*; F = 171.12; time P = 0.06139 for *S. aureus*; β-Lg 20.1% and LF 39.0% native; *E. coli* 1.6 vs 3.0 log in 3.6% fat vs skim, agree yes (note)
+  - Li 2021, PPO 75.2% vs 22.6%; POD 80.7% vs 10.2%; sensory n = 101; untreated APC/Y&M 6.33/6.31 log CFU/g, agree yes (note; article omits ±SD, not a contradiction)
+  - Jönsson 2023, hardness −67.7% at 200 MPa to −87.7% at 600 MPa / 180 s, agree yes (note)
+  - Szczepańska 2021, max 1.4 log TMC at 200 MPa HPH; fresh TMC 5.36 log; Dv(50) 308 → 15.8 µm at 100 MPa, agree yes (note)
+  - Nikparvar 2021, 7.79 ± 0.82 log; pore radius 1.338 → 0.809 nm; 318 cells, agree yes (note)
+  - Serra-Castelló 2021, control Scott A δ = 0.70 min; 2.8% lactate Scott A δ = 2.48 min; second-log time 2.10 → 11.22 min, agree yes (note)
+  - Serra-Castelló 2021, Table 1 and §3 “10 min kill lower by 1.75–2.51 log with 2.8% lactate”, agree yes after rewrite (note + PDF: 2.51, 1.75, 2.35 log at 2.8%; 1.29 log is 1.4% lactate and is no longer in the table)
+  - Scepankova 2022, undiluted honey aW 0.57 unchanged at 5.65 log after 600 MPa/15 min/85 °C, agree yes (note)
+  - Scepankova 2022, PATP 600 MPa/15 min/75 °C took diluted aW 0.85–0.90 to the 1.30 log LOD (Table 1, §3 aW paragraph, Table 3), agree yes after rewrite (note: PATP 75 °C, ≥3.70 log to 1.30 LOD). Prior “same pressure–time cycle” wording is gone.
+  - Eran Nagar 2026, PPO 41 ± 8 vs fresh 58 ± 13; ΔE ~6.4–6.5, agree yes (note)
+  - Koker 2023, TABC 4.04 log; 200 MPa 0.85 log; 75 °C 0.72–1.34 log, agree yes (note)
+  - Koutsoumanis 2022, RTE *Listeria* ≥5 log at 600 MPa needs 4.7 min; 600 MPa/6 min about 6 log *S. aureus*; product <45 °C; low-moisture <~40% water, agree yes (note)
+  - Heydenreich 2024, vHP −2.1 before heat / −5.7 after; +2,500 IU/mL nisin −5.3 before heat, agree yes (note)
+  - Tsikrika 2021, Rooster day-14 ΔE 8.06 / 21.23 / 18.03, agree yes (note)
+  - Torrents-Masoliver 2024, banana–apple *Listeria* 0.3 ± 0.2 log; AEHPP Scott A 6.2 ± 0.1 log, agree yes (note)
+  - Zhang 2022 compiled, *E. coli* D 2.12 vs 5.32 min; frozen orange juice 4.88 vs 0.42 log; *A. acidoterrestris* D 4.17 → 13.71 min, agree yes (note)
+- Catalogue voice remaining: no
+- Acquisition language outside Methods: no
+- Graphical abstract present: no
+- Critic verdict: PASS
+- If FAIL, required fixes (bullet list the writer must do):

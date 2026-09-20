@@ -261,7 +261,30 @@ class CheckArticleTests(unittest.TestCase):
         self.assertTrue(any("introduction word count" in p.lower() for p in problems), problems)
         self.assertTrue(any("paragraphs" in p.lower() for p in problems), problems)
 
-    def test_ordinal_scaffold_in_abstract_fails(self):
+    def test_abstract_catalog_opener_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "Recall of technical prose is imperfect after a delay of days.",
+            "This review discusses recall of technical prose after a delay of days.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("abstract opens with" in p.lower() for p in problems), problems)
+
+    def test_full_abstract_without_tension_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        # Keep the rest of the short article; only the abstract loses yet/however.
+        stripped = text.replace(
+            "Structured notes are widely recommended, yet whether format changes recall, and whether that change is the same for STEM and humanities text, remains unsettled. This narrative review organises the literature around domain as a moderator rather than around a single pooled effect. Laboratory and meta-analytic work generally points to a small positive recall benefit when domains are averaged; the STEM-specific test did not. Those patterns do not imply a semester-long study habit.",
+            "Structured notes are widely recommended. Format may change recall. Domain may matter. "
+            + ("Laboratory work is mixed. " * 20),
+            1,
+        )
+        problems = check_article.check(stripped, None, short=False)
+        self.assertTrue(
+            any("tension" in p.lower() or "calibration" in p.lower() for p in problems),
+            problems,
+        )
         text = (FIX / "good-article.md").read_text(encoding="utf-8")
         polluted = text.replace(
             "This narrative review organises the literature around domain as a moderator rather than around a single pooled effect.",
@@ -456,6 +479,20 @@ class CheckArticleTests(unittest.TestCase):
             check_article.condition_cluster_problems(polluted, short=True),
             [],
         )
+
+    def test_nanocarrier_passes_with_form_model(self):
+        article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"
+        table = ROOT / "review/runs/2026-09-19-nanocarriers/table/literature-table.md"
+        model = ROOT / "review/ml/model.json"
+        if not article.is_file() or not model.is_file():
+            self.skipTest("nanocarrier article or form model missing")
+        problems = check_article.check(
+            article.read_text(encoding="utf-8"),
+            table.read_text(encoding="utf-8") if table.is_file() else None,
+            short=False,
+            form_model_path=str(model),
+        )
+        self.assertEqual(problems, [], problems)
 
     def test_nanocarrier_pass2_clears_story_gate(self):
         article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"

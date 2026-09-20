@@ -5,7 +5,7 @@ description: "Write a PhD-quality review from the synthesis rationale, literatur
 
 # Report Writing
 
-**Read `review-prose` and `scientific-synthesis` first** (`.cursor/skills/review-prose/SKILL.md`, `.cursor/skills/scientific-synthesis/SKILL.md`). `review-prose` is genre and voice. `scientific-synthesis` is how to reason: intellectual model, four statement layers, paragraph function, mechanism grading. This skill executes the outline from `synthesis-rationale.md` **in that reasoning and voice**. Do not import findings from reviews that were read only to learn form.
+**Read `review-prose`, `scientific-synthesis`, and `review-writing-craft` first** (`.cursor/skills/review-prose/SKILL.md`, `.cursor/skills/scientific-synthesis/SKILL.md`, `.cursor/skills/review-writing-craft/SKILL.md`). `review-prose` is genre and voice. `scientific-synthesis` is how to reason: intellectual model, four statement layers, paragraph function, mechanism grading. `review-writing-craft` is how published reviews move: CARS, given-new, nested 3.1 topics, hinge vs supporting papers. This skill executes the outline from `synthesis-rationale.md` **in that reasoning and voice**. Do not import findings from reviews that were read only to learn form.
 
 Write the review as a scientific argument about **all** included studies, not a catalogue of abstracts and not a token/phase log. The argument was decided in `synthesis-rationale.md`. Treat the table as an **evidence base to synthesise** (agreements, disagreements, moderators, mechanism grade), not as a sequence of papers to summarise.
 
@@ -52,11 +52,15 @@ See [`examples/sample-article.md`](../../../examples/sample-article.md) for fict
 <Keep this short for a narrative review. Expand to PRISMA-complete methods only for SR/MA.>
 ## 3–N. Thematic sections from synthesis-rationale.md (e)
 <Each section is an argument that uses every relevant included paper.
- Nested subheadings (3.1.1) when a mechanism has parts.
+ Nested subheadings (3.1, 3.2) when a mechanism has parts — published
+ narrative reviews nest; a flat ## wall is a catalogue spine.
+ Two or three hinge studies get design + n + result; the rest are grouped
+ and still cited. Do not write one equal-depth paragraph per included row.
  Allowed subsection names include limits to inference and what the literature still lacks.
  Do not use a generic "study characteristics / results / synthesis" split.
  Do not devote one numbered section to one paper unless that paper is the
  sole evidence for that construct — and then say so.
+ Close each nest (*Taken together… This heading cannot show…*).
  Include numbered Markdown results tables (Table 1, …) and mention them from the prose.>
 ## Discussion
 ## Conclusions
@@ -164,10 +168,12 @@ Run the `article-qa` skill. Do not deliver while this fails:
 python3 scripts/check_article.py \
   --article review/runs/<run-id>/article.md \
   --table review/runs/<run-id>/table/literature-table.md
+python3 scripts/check_review_craft.py \
+  --article review/runs/<run-id>/article.md
 ```
 
-If it fails, rewrite and run it again. Also grep the banned-flourish list in `review-prose`. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the heading spine is `## Results` plus fragment `###` notes, rewrite into numbered thematic sections before the user sees the file. If the Introduction does not teach the field, expand it. If the body has no Markdown results table or no “Table 1” (or Table N) sentence, add both. If a term repeats, write `Full term (ABBR)` once and then the abbreviation, in a sentence that still teaches the thing. Keep the Abstract readable: write terms out unless the Abstract itself reuses the short form (at most four abbreviations). If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and per-paper methods/results — not padding.
+If either fails, rewrite and run it again. Also grep the banned-flourish list in `review-prose`. Prefer copulas (`is`, `are`, `was`) and named numbers over promotional verbs. If the first sentence of the Introduction is “This review discusses…”, rewrite it as the phenomenon in present tense. If headings are author names, rename them as topics or arguments. If the heading spine is `## Results` plus fragment `###` notes, rewrite into numbered thematic sections before the user sees the file. If the Introduction does not teach the field, expand it. If the body has no Markdown results table or no “Table 1” (or Table N) sentence, add both. If a term repeats, write `Full term (ABBR)` once and then the abbreviation, in a sentence that still teaches the thing. Keep the Abstract readable: write terms out unless the Abstract itself reuses the short form (at most four abbreviations). If body text (everything before `## References`) is well under ~6,000 words and the user did not ask for a short note, add teaching and nested thematic development — not one file card per paper, and not padding.
 
 ## Handoff
 
-After the report is written **and `check_article.py` exits 0**, run the `double-check` skill and write `double-check.md`. Only then tell the user where the **Markdown** article is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. **In that same message, ask if they also want Word and PDF.** Offer to iterate (re-scope, add papers, refine sections). If they change inclusion, update the rationale before rewriting.
+After the report is written **and `check_article.py` plus `check_review_craft.py` exit 0**, run the `double-check` skill and write `double-check.md`. Only then tell the user where the **Markdown** article is (`review/report/final-report.md` and, if applicable, `review/runs/<run-id>/article.md`) and that the argument follows `synthesis-rationale.md`. **In that same message, ask if they also want Word and PDF.** Offer to iterate (re-scope, add papers, refine sections). If they change inclusion, update the rationale before rewriting.
