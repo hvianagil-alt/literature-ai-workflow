@@ -1,16 +1,13 @@
 # Graphical abstract brief — 2026-09-20-scopus-hpp
 
-**One-line argument.** A pressure set-point is not a pasteurisation number: the same megapascals yield different logs and different legal/quality readings.
+**Title.** Same megapascals. Three different answers.
 
-**Boxes (condition → mechanism → measurement → interpretation).**
+**Subtitle.** High-pressure processing when heat is not the kill step.
 
-1. Packed food, isostatic 300–600 MPa, chilled or ambient hold.
-2. Non-covalent disruption (membrane / protein), graded as compiled reviews; ice and solute as mechanical or piezo coefficients.
-3. Measured colony count, enzyme activity, or texture — not automatically death or “fresh-like.”
-4. Three readings that are not interchangeable: refrigerated vegetative hurdle; legal milk heat / named-pathogen 5-log; spore control (HPTP or cold chain).
+**Style.** BioRender / Nature Reviews illustration. Not a four-box text table.
 
-**Contrast.** Aerobic plate count is not a named-pathogen juice 5-log. 400–600 MPa is not legal milk pasteurisation on the included EFSA comparison.
+**Objects.** HPP vessel (juice pouch + ham, isostatic arrows); crossed-out heat coil; vegetative cell with leaking membrane; intact spore; petri dish; ice; lactate lattice; three readings (cold juice+meat; milk ≠ heat; fruit vs empty plate).
 
-**Forbidden on the figure.** Any log not already in Tables 1–3; “HPP is safe and mild”; ultrasound/plasma ranked equal to HPP.
+**Labels.** Isostatic HPP · chilled · membranes · spore survives · Ice · Lactate · Injury ≠ death · 1 Refrigerated hurdle · 2 Not legal milk pasteurisation · 3 Quality ≠ plate count.
 
-**Lovable.** MCP namespace `Lovable` is `needsAuth` in this environment (`Authentication URL unavailable`). Path B (local HTML/PDF) used. When Lovable is connected in Cursor, rebuild this panel as a single full-bleed 16:9 page with the same boxes.
+**Lovable.** Still `needsAuth` in this environment. Deliverable is GenerateImage Path B: `figures/graphical-abstract.png`.
