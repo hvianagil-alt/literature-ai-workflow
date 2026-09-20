@@ -13,7 +13,7 @@
 - Catalogue voice remaining: no
 - Condition clusters (similar experiments compared): yes
 - Nested 3.1 topics / hinge grouping (`review-writing-craft`): yes
-- Acquisition language outside Methods: yes (one clause in §5.1: “not as retrieved primary PDFs”); Abstract, Introduction, Discussion, and Conclusions are clean of OpenAlex, year-window, paywall, and screening-count language
+- Acquisition language outside Methods: no (the remaining secondary-source clause in §5.1 names Kartı/Taloni as the quoting reviews, not how files were fetched). Abstract, Introduction, Discussion, and Conclusions are clean of OpenAlex, year-window, paywall, and screening-count language
 - Graphical abstract present: no (must be no)
 - Critic verdict: PASS
 - If FAIL, required fixes (bullet list the writer must do):

@@ -2,7 +2,7 @@
 
 - Scripts: check_extraction.py exit 0 (27/27 claim-ready); check_article.py exit 0; check_review_craft.py exit 0; score_review_form.py p_published_form=0.999 (nanomedicine)
 - Notes still stub? no (count 0)
-- Table still DRAFT/lead-paste? no. Worksheet is rewritten from Claim-ready facts. One cell (Fusi-Rubiano 2018 Key findings) prints `not reported` because the note heading is `Primary result (cited, not newly generated)` rather than `Primary result`; the article still uses the FAME/FAMOUS numbers from that note and labels them secondary. Not a lead-paste table.
+- Table still DRAFT/lead-paste? no. Worksheet is rewritten from Claim-ready facts. Fusi-Rubiano 2018 Key findings now pull from `Primary result` (cited FAME/FAMOUS rates).
 - Claims spot-checked (paper, number, note/PDF agree?):
   - Khanani 2025 Pagoda [14]: 634 randomised (381 PDS Q24W / 253 monthly); adjusted mean BCVA +9.6 vs +9.4 letters (difference 0.2; 95% CI −1.2 to 1.6); CST −203.5 vs −199.7 µm; supplemental withheld 95.9% and 97.4%; AESI 27.5% vs 8.9%; VH 9.7% vs 1.6%; visits 15.6 vs 15.8 — note agree yes (PDF not opened; note and article match)
   - Pieramici 2025 Pavilion [15]: 174 randomised (106 vs 68); ≥2-step DRSS 80.1% vs 9.0% (difference 71.1%; 95% CI 61.0 to 81.2; p<0.001); composite 7.1% vs 47.0% (HR 0.12); letter difference 4.0; CST −18.8 vs +2.5 µm; VH 5.7% within 28 days of implant — note agree yes
@@ -29,7 +29,7 @@
 - Mechanism articulation test: pass
 - Condition-cluster test: pass
 - Nested 3.1 / hinge grouping: pass
-- Acquisition language outside Methods: one “primary PDFs” clause in §5.1; not in Abstract/Introduction/Discussion/Conclusions
+- Acquisition language outside Methods: none remaining after dropping the “primary PDFs” clause in §5.1
 - Graphical abstract: no
 
 Non-blocking observations (not required for PASS): drop Jacob [13] from the “below five percent” sentence; optionally restore a short `### 6.4` for FAc after vitrectomy using Fusi-Rubiano’s cited series and Mathis’s split, labelled observational; fill the Fusi-Rubiano worksheet Key-findings cell from Claim-ready facts.
