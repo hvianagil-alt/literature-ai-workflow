@@ -1,12 +1,9 @@
 # Protocol — 2026-09-20-pd-cannabinoids
 
-- **Status:** identification + **type split only**. Direction check not confirmed. No PDF fetch, no extraction, no article yet.
-- **Research question:** *pending user confirmation.* Titles in this export cluster on Parkinson’s disease, cannabinoids (CBD/THC/medical cannabis), related movement-disorder imaging, and some neighbouring neurology reviews.
-- **Inclusion:** *pending.* Working split (Scopus `type` field, not title guessing):
-  - **Review pile:** 117 records (`catalog-reviews.*`, `lists/reviews.md`)
-  - **Original-article pile:** 162 records (`catalog-articles.*`, `lists/original-articles.md`)
-- **Exclusion:** *pending.* Older runs in this repo (HPP, GLP-1, nanocarriers) are **out of this review** even if their filenames look similar.
-- **Emphasis:** *pending* (methods vs findings).
-- **Article kind:** *pending* (default if the user later says go: narrative journal review).
-- **Defaults used:** none for search years or journal quality yet. Identification years in the export are 2024–2026 only.
-- **Identification:** Scopus export dated 20 September 2026; 279 records (162 Article, 117 Review); 184 flagged open access in the Scopus note. One citekey collision: `Jiang2024` (Fitoterapia article vs Pharmaceutics liposome review) — use `Jiang2024--article` / `Jiang2024--review`. Contact email for a later Unpaywall/OpenAlex fetch (not used yet): hugogilcontas@gmail.com (run owner).
+- **Research question:** How do cannabinoids (plant cannabis, CBD, THC, and related ligands) and neighbouring Parkinson’s-disease therapies and biomarkers, as reported in this Scopus set, change motor and non-motor outcomes, mechanisms, and diagnostic markers in Parkinson’s disease and closely related synucleinopathies / atypical parkinsonism?
+- **Inclusion:** Peer-reviewed journal **articles** and **reviews** from the user Scopus export (2024–2026). Title/metadata must name Parkinson’s / parkinsonism / Lewy / α-synuclein **or** cannabis / cannabinoid / CBD / THC / endocannabinoid **or** a closely related atypical parkinsonism that is already in this export (MSA, PSP) when the paper is a clinical/biomarker neighbour. Both Scopus Review and Article piles stay eligible; they are extracted in separate note folders so reviews are not treated as primary trials. User-supplied records stay eligible even if older than a later related-paper year window.
+- **Exclusion:** Retracted items; records that name neither PD/parkinsonism/synucleinopathy/atypical parkinsonism nor cannabinoids; general pharmaceutics/nanocarrier reviews with no PD or cannabinoid-neurology link (e.g. the colliding `Jiang2024--review` liposome paper unless the full text is PD/cannabinoid). Full-text inclusion requires a public open-access PDF or JATS body (`%PDF-` or Europe PMC text). No paywall bypass. Older repo runs (HPP, GLP-1, nanocarriers) are never mixed into this sample.
+- **Emphasis:** Findings and methods (design, n, dose/route, motor/non-motor endpoints, mechanism) for a journal-style narrative review.
+- **Article kind:** narrative journal review (default)
+- **Defaults used (user said keep going / just go):** journal-style narrative review; teach in the Introduction; claim-first sentences; numbered Markdown results tables with in-text Table N callouts; extract retrieved OA full texts that remain eligible; no process talk in Discussion; run quality-gate scripts before delivery; related-paper search uses 2021–2026 (`from-year` = 2021, current year 2026) and journal quality = peer-reviewed journal articles (`--journal-quality journal`). Contact email for Unpaywall/OpenAlex: hugogilcontas@gmail.com (run owner).
+- **Identification:** Scopus export dated 20 September 2026; 279 records (162 Article, 117 Review); 184 flagged open access in the Scopus note. Citekey collision: `Jiang2024--article` vs `Jiang2024--review`.

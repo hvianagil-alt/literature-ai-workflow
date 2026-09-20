@@ -17,7 +17,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Karunakaran2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Liu2024863",
@@ -37,7 +38,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Liu2024863",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Anis2026",
@@ -57,7 +59,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Anis2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Constantinides2025",
@@ -77,7 +80,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Constantinides2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Han2024",
@@ -97,7 +101,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Han2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Esfandi2025",
@@ -117,7 +122,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Esfandi2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Laaboudi2024",
@@ -137,7 +143,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Laaboudi2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Blebea2025",
@@ -157,7 +164,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Blebea2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Tabi2025",
@@ -177,7 +185,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Tabi2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "de Almeida Cruz2026",
@@ -197,7 +206,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "de Almeida Cruz2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "dos Santos Pereira2024",
@@ -217,7 +227,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "dos Santos Pereira2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Liu2024",
@@ -237,7 +248,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Liu2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kruger20242005",
@@ -277,7 +289,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Lewitus20246962",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ono2024",
@@ -297,7 +310,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Ono2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kaszyńska2024",
@@ -317,7 +331,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Kaszyńska2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Chen20264535",
@@ -337,7 +352,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Chen20264535",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Briceno2024",
@@ -357,7 +373,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Briceno2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Liu2026",
@@ -377,7 +394,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Liu2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Li2025",
@@ -397,7 +415,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Li2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Panegyres202435",
@@ -417,7 +436,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Panegyres202435",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Fanciulli2025",
@@ -437,7 +457,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Fanciulli2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Estrada-Valencia202512984",
@@ -457,7 +478,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Estrada-Valencia202512984",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Demiri2025",
@@ -477,7 +499,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Demiri2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Espinoza-Gutiérrez2025",
@@ -497,7 +520,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Espinoza-Gutiérrez2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Feng2026",
@@ -517,7 +541,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Feng2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Dellarole2024",
@@ -537,7 +562,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Dellarole2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Awathale2026",
@@ -557,7 +583,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Awathale2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Sukmueng2026",
@@ -577,7 +604,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Sukmueng2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Rivera2025218",
@@ -617,7 +645,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Niu2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "de Fátima dos Santos Sampaio2024574",
@@ -637,7 +666,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "de Fátima dos Santos Sampaio2024574",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Satoh2025492",
@@ -657,7 +687,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Satoh2025492",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bhushan2025434",
@@ -677,7 +708,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Bhushan2025434",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Tahara2024",
@@ -697,7 +729,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Tahara2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Lima2025",
@@ -717,7 +750,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Lima2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Morihara2026",
@@ -737,7 +771,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Morihara2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Gad2026",
@@ -757,7 +792,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Gad2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Salehinejad2026",
@@ -777,7 +813,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Salehinejad2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Grishina2025133",
@@ -797,7 +834,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Grishina2025133",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kitchigina202637",
@@ -817,7 +855,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Kitchigina202637",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Kim2026",
@@ -837,7 +876,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Kim2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Białoń2026",
@@ -857,7 +897,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Białoń2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Saraswathi2026",
@@ -877,7 +918,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Saraswathi2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Dall’soto20251046",
@@ -897,7 +939,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Dall’soto20251046",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Batheja2024250",
@@ -917,7 +960,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Batheja2024250",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Fatih2026",
@@ -937,7 +981,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Fatih2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Santambrogio2026",
@@ -957,7 +1002,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Santambrogio2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Berry20251490",
@@ -977,7 +1023,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Berry20251490",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Warren2026",
@@ -997,7 +1044,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Warren2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Constantinides2024169",
@@ -1017,7 +1065,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Constantinides2024169",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Lee2024160",
@@ -1037,7 +1086,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Lee2024160",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Pota2025",
@@ -1057,7 +1107,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Pota2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Benomar20252244",
@@ -1077,7 +1128,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Benomar20252244",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "van Egmond20261693",
@@ -1097,7 +1149,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "van Egmond20261693",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ahmad2026825",
@@ -1117,7 +1170,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Ahmad2026825",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Zhang2024",
@@ -1137,7 +1191,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Zhang2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Dainton-Howard2025167",
@@ -1157,7 +1212,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Dainton-Howard2025167",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Ghannam2025",
@@ -1177,7 +1233,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Ghannam2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bana2025",
@@ -1197,7 +1254,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Bana2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Newstead2024512",
@@ -1217,7 +1275,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Newstead2024512",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Shoyama2025",
@@ -1237,7 +1296,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Shoyama2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Jali2024",
@@ -1257,7 +1317,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Jali2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Purushothaman202611",
@@ -1277,7 +1338,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Purushothaman202611",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Sasikumar2024",
@@ -1297,7 +1359,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Sasikumar2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Singh2025203",
@@ -1317,7 +1380,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Singh2025203",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Burgaz2024",
@@ -1337,7 +1401,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Burgaz2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Del-Bel202465",
@@ -1357,7 +1422,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Del-Bel202465",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Turizo Smith2026",
@@ -1417,7 +1483,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Sharma202595",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bochniak2024",
@@ -1437,7 +1504,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Bochniak2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Persico2025",
@@ -1477,7 +1545,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Guo2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Jha2024",
@@ -1497,7 +1566,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Jha2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Odonkor2026",
@@ -1517,7 +1587,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Odonkor2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Cásedas2026",
@@ -1537,7 +1608,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Cásedas2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Giannakis2025341",
@@ -1557,7 +1629,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Giannakis2025341",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Sosero2025",
@@ -1577,7 +1650,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Sosero2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Joers2024",
@@ -1597,7 +1671,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Joers2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Jasak2026",
@@ -1617,7 +1692,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Jasak2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Lopes2026",
@@ -1657,7 +1733,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Lissoni2025513",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Gupta202458",
@@ -1677,7 +1754,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Gupta202458",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Singh202659",
@@ -1697,7 +1775,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Singh202659",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ajalin2026980",
@@ -1717,7 +1796,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Ajalin2026980",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Escobar20261056",
@@ -1737,7 +1817,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Escobar20261056",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Șolea2026",
@@ -1757,7 +1838,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Șolea2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Kawasaki2025",
@@ -1777,7 +1859,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Kawasaki2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ravelli2026369",
@@ -1797,7 +1880,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Ravelli2026369",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Meanti2025",
@@ -1817,7 +1901,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Meanti2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Yoshida2024298",
@@ -1837,7 +1922,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Yoshida2024298",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Choudhury2026347",
@@ -1857,7 +1943,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Choudhury2026347",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Marques2025",
@@ -1877,7 +1964,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Marques2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ayerra2025600",
@@ -1897,7 +1985,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Ayerra2025600",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Holland20241166",
@@ -1917,7 +2006,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Holland20241166",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Abdelkhalek20241896",
@@ -1937,7 +2027,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Abdelkhalek20241896",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "O’Donnell202427",
@@ -1957,7 +2048,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "O’Donnell202427",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bérété2025",
@@ -1977,7 +2069,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Bérété2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Huissoud2024715",
@@ -1997,7 +2090,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Huissoud2024715",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Kale2025630",
@@ -2017,7 +2111,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Kale2025630",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Colijn2024",
@@ -2037,7 +2132,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Colijn2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Eserian202453",
@@ -2057,7 +2153,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Eserian202453",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Keir20241865",
@@ -2077,7 +2174,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Keir20241865",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Rivas-Santisteban2024",
@@ -2097,7 +2195,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Rivas-Santisteban2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "De Freitas2024873",
@@ -2117,7 +2216,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "De Freitas2024873",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Sun2025",
@@ -2137,7 +2237,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Sun2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Pérez-Oliveira2024",
@@ -2157,7 +2258,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Pérez-Oliveira2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bougea2025921",
@@ -2177,7 +2279,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Bougea2025921",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Basha202546",
@@ -2197,7 +2300,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Basha202546",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Barré2026",
@@ -2217,7 +2321,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Barré2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Fernández-Rodríguez2026",
@@ -2237,7 +2342,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Fernández-Rodríguez2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Kilani2026248",
@@ -2277,7 +2383,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Fowler2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Zhao20254761",
@@ -2297,7 +2404,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Zhao20254761",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ramos-Molina2025191",
@@ -2317,7 +2425,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Ramos-Molina2025191",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Berman2024",
@@ -2337,7 +2446,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Berman2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Murakami2025",
@@ -2357,7 +2467,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Murakami2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Camilleri2026",
@@ -2397,7 +2508,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Barré2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Madhubala20242993",
@@ -2417,7 +2529,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Madhubala20242993",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kurihara2024",
@@ -2437,7 +2550,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Kurihara2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Saim2026",
@@ -2457,7 +2571,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Saim2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Sung2024185",
@@ -2477,7 +2592,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Sung2024185",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Manzoni20241316",
@@ -2497,7 +2613,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Manzoni20241316",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Al-Zubaidi2025",
@@ -2537,7 +2654,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Chen2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Takigawa2024",
@@ -2557,7 +2675,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Takigawa2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Byun2026",
@@ -2577,7 +2696,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Byun2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Leyde20251192",
@@ -2617,7 +2737,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "De Giorgi2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Brenlla202597",
@@ -2637,7 +2758,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Brenlla202597",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "del Rey2024",
@@ -2657,7 +2779,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "del Rey2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Shafiee2024",
@@ -2677,7 +2800,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Shafiee2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Roghani2024",
@@ -2697,7 +2821,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Roghani2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Marano20242693",
@@ -2717,7 +2842,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Marano20242693",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Sura20267933",
@@ -2737,7 +2863,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Sura20267933",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Hidding2024117",
@@ -2757,7 +2884,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Hidding2024117",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Hafida2024",
@@ -2777,7 +2905,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Hafida2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Mekala2024605",
@@ -2797,7 +2926,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Mekala2024605",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Gmiro20259",
@@ -2817,7 +2947,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Gmiro20259",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Diadhiou20241257",
@@ -2837,7 +2968,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Diadhiou20241257",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Lirio202411",
@@ -2857,7 +2989,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Lirio202411",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ajalin2025163",
@@ -2877,7 +3010,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Ajalin2025163",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Zamanian2025",
@@ -2897,7 +3031,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Zamanian2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Hakami2025",
@@ -2917,7 +3052,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Hakami2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Friedrich2024",
@@ -2957,7 +3093,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Gebru2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Satapathy2024",
@@ -2977,7 +3114,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Satapathy2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Malagelada2025427",
@@ -2997,7 +3135,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Malagelada2025427",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Fuentes2026",
@@ -3017,7 +3156,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Fuentes2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Saturnino Guarino20244210",
@@ -3037,7 +3177,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Saturnino Guarino20244210",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Sharma2024638",
@@ -3057,7 +3198,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Sharma2024638",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Deliz2026541",
@@ -3077,7 +3219,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Deliz2026541",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "He2025e44392",
@@ -3097,7 +3240,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "He2025e44392",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Bangash2025173",
@@ -3117,7 +3261,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Bangash2025173",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Mente2026529",
@@ -3137,7 +3282,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Mente2026529",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Sarkar20245483",
@@ -3157,7 +3303,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Sarkar20245483",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Peball2024",
@@ -3177,7 +3324,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Peball2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Demirel2026",
@@ -3197,7 +3345,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Demirel2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Romero2024714",
@@ -3217,7 +3366,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Romero2024714",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Jellinger2025",
@@ -3237,7 +3387,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Jellinger2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Ruver-Martins2024",
@@ -3257,7 +3408,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Ruver-Martins2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Liu2024733",
@@ -3277,7 +3429,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Liu2024733",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Ting2026",
@@ -3297,7 +3450,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Ting2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Zong2026",
@@ -3317,7 +3471,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Zong2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Prajjwal2024",
@@ -3337,7 +3492,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Prajjwal2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Ghirelli2026",
@@ -3357,7 +3513,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Ghirelli2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Duga20241131",
@@ -3397,7 +3554,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Alves202434",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Banerjee2024",
@@ -3417,7 +3575,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Banerjee2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Hu20253239",
@@ -3437,7 +3596,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Hu20253239",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Targa2025",
@@ -3457,7 +3617,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Targa2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Eitan2025",
@@ -3477,7 +3638,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Eitan2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kotecha2026",
@@ -3497,7 +3659,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Kotecha2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Upadhyay2026",
@@ -3517,7 +3680,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Upadhyay2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Chang2024",
@@ -3537,7 +3701,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Chang2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Li20241669",
@@ -3557,7 +3722,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Li20241669",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Hirose2025",
@@ -3577,7 +3743,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Hirose2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Jurado-Coronel2026774",
@@ -3597,7 +3764,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Jurado-Coronel2026774",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Jena2024",
@@ -3617,7 +3785,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Jena2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Jamshaid2026260",
@@ -3637,7 +3806,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Jamshaid2026260",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Laxmi20251453",
@@ -3657,7 +3827,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Laxmi20251453",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Duncan2024788",
@@ -3677,7 +3848,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Duncan2024788",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Aranda-Abreu2025",
@@ -3697,7 +3869,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Aranda-Abreu2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Messak2026",
@@ -3717,7 +3890,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Messak2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Langerscheidt20242992",
@@ -3737,7 +3911,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Langerscheidt20242992",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Gómez-Pineda20241488",
@@ -3757,7 +3932,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Gómez-Pineda20241488",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Grishina202669",
@@ -3777,7 +3953,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Grishina202669",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Jiang2024",
@@ -3797,7 +3974,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Jiang2024--article",
-    "citekey_collision": true
+    "citekey_collision": true,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Strada2026",
@@ -3817,7 +3995,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Strada2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Tseng2025109",
@@ -3877,7 +4056,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Boland2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Cilia2026",
@@ -3897,7 +4077,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Cilia2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Barbalho2025",
@@ -3917,7 +4098,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Barbalho2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Shevchuk202541",
@@ -3937,7 +4119,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Shevchuk202541",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Grabitz2024418",
@@ -3957,7 +4140,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Grabitz2024418",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Santos2025",
@@ -3977,7 +4161,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Santos2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Jiang2024",
@@ -4017,7 +4202,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Baldasso2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Ruttle202640",
@@ -4037,7 +4223,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Ruttle202640",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Salabasidou20241642",
@@ -4057,7 +4244,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Salabasidou20241642",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Areti2025",
@@ -4097,7 +4285,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Shi2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Pisani20261566",
@@ -4117,7 +4306,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Pisani20261566",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Barré2025",
@@ -4137,7 +4327,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Barré2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Weber2024",
@@ -4157,7 +4348,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Weber2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Gros2025399",
@@ -4177,7 +4369,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Gros2025399",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Ono20261405",
@@ -4197,7 +4390,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Ono20261405",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Fang2025",
@@ -4217,7 +4411,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Fang2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kiran2025",
@@ -4237,7 +4432,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Kiran2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Zhao2026",
@@ -4257,7 +4453,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Zhao2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Goyal2024",
@@ -4277,7 +4474,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Goyal2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Yan2024",
@@ -4297,7 +4495,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Yan2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Griffith2024198",
@@ -4317,7 +4516,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Griffith2024198",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Ponciano2025",
@@ -4337,7 +4537,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Ponciano2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kim2024290",
@@ -4357,7 +4558,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Kim2024290",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Smith2024325",
@@ -4377,7 +4579,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Smith2024325",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Lapmanee2024",
@@ -4397,7 +4600,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Lapmanee2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Pathak2024",
@@ -4417,7 +4621,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Pathak2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "El Zibaoui2026105",
@@ -4477,7 +4682,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "García-Pacheco202464",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Okrah2026",
@@ -4497,7 +4703,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Okrah2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Buchaim2025",
@@ -4517,7 +4724,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Buchaim2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "de Aquino2025",
@@ -4537,7 +4745,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "de Aquino2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Alkhammash2025",
@@ -4557,7 +4766,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Alkhammash2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Erustes2025",
@@ -4577,7 +4787,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Erustes2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Li2026",
@@ -4597,7 +4808,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Li2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Guo2024",
@@ -4617,7 +4829,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Guo2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "De Mattos2024307",
@@ -4637,7 +4850,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "De Mattos2024307",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Kordinová2026",
@@ -4657,7 +4871,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Kordinová2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Priya202497",
@@ -4677,7 +4892,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Priya202497",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Vaughan2025",
@@ -4697,7 +4913,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Vaughan2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Hastings2024",
@@ -4717,7 +4934,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Hastings2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Fleury2025440",
@@ -4737,7 +4955,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Fleury2025440",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Garcia-Guaqueta2024",
@@ -4757,7 +4976,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Garcia-Guaqueta2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Giraldo-Berrio2024",
@@ -4777,7 +4997,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Giraldo-Berrio2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Petzold2024",
@@ -4817,7 +5038,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Soiza2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Jellinger2024195",
@@ -4837,7 +5059,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Jellinger2024195",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bosnyak2024135",
@@ -4857,7 +5080,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Bosnyak2024135",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Zikereya2025",
@@ -4877,7 +5101,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Zikereya2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Jin20241",
@@ -4897,7 +5122,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Jin20241",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Ahamed20251065",
@@ -4917,7 +5143,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Ahamed20251065",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Perez-Soriano2025",
@@ -4937,7 +5164,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Perez-Soriano2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Hirsch202434",
@@ -4957,7 +5185,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Hirsch202434",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Godad202513636",
@@ -4977,7 +5206,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Godad202513636",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Mucke202544",
@@ -4997,7 +5227,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Mucke202544",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bala20241939",
@@ -5017,7 +5248,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Bala20241939",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Sinisterra Solís2024",
@@ -5037,7 +5269,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Sinisterra Solís2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "DeJesus2026877",
@@ -5057,7 +5290,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "DeJesus2026877",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Vo20262380",
@@ -5077,7 +5311,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Vo20262380",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Mitarnun2025",
@@ -5097,7 +5332,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Mitarnun2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Mohammad2024181",
@@ -5117,7 +5353,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Mohammad2024181",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Stojiljković20261",
@@ -5137,7 +5374,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Stojiljković20261",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Dhiman2024",
@@ -5157,7 +5395,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Dhiman2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Can2024346",
@@ -5197,7 +5436,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Bernhardt2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Argerich2024",
@@ -5217,7 +5457,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Argerich2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Gérard2025",
@@ -5237,7 +5478,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Gérard2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Rosso2024",
@@ -5257,7 +5499,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Rosso2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Nerattini2025565",
@@ -5277,7 +5520,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Nerattini2025565",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Brumberg2025926",
@@ -5297,7 +5541,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Brumberg2025926",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Parmera2024238",
@@ -5317,7 +5562,8 @@
     "gold_oa": false,
     "green_oa": true,
     "record_id": "Parmera2024238",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Nascimento2025",
@@ -5337,7 +5583,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Nascimento2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Bhaskar20242733",
@@ -5357,7 +5604,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Bhaskar20242733",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Jellinger2025495",
@@ -5377,7 +5625,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Jellinger2025495",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Caiza Asitimbay2025",
@@ -5397,7 +5646,8 @@
     "gold_oa": true,
     "green_oa": false,
     "record_id": "Caiza Asitimbay2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Mishra2025",
@@ -5417,7 +5667,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Mishra2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Goyal2025100",
@@ -5437,7 +5688,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Goyal2025100",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Chunowski2024",
@@ -5457,7 +5709,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Chunowski2024",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Munsar2025",
@@ -5477,7 +5730,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Munsar2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Rathod202515943",
@@ -5497,7 +5751,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Rathod202515943",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Xue2024201",
@@ -5517,7 +5772,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Xue2024201",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Kubota2026",
@@ -5537,7 +5793,8 @@
     "gold_oa": true,
     "green_oa": true,
     "record_id": "Kubota2026",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   },
   {
     "citekey": "Lawrence202493",
@@ -5557,7 +5814,8 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Lawrence202493",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_exclude"
   },
   {
     "citekey": "Priya2025",
@@ -5577,6 +5835,7 @@
     "gold_oa": false,
     "green_oa": false,
     "record_id": "Priya2025",
-    "citekey_collision": false
+    "citekey_collision": false,
+    "title_decision": "title_include"
   }
 ]
