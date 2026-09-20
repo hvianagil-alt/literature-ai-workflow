@@ -4,7 +4,7 @@ Talk to **Cursor**, **ChatGPT**, or **Claude** and get a literature review: note
 
 You do not need to code. You need a chat account you already have, and this repository.
 
-**License (non-commercial):** use it for a thesis, papers, and teaching. Do not sell it or turn it into a paid service. See [LICENSE](LICENSE).
+**License (Non-commercial):** use it for a thesis, papers, and teaching. Do not sell it or turn it into a paid service. See [LICENSE](LICENSE).
 
 ## What it does
 
