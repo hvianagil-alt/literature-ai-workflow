@@ -291,6 +291,37 @@ class CheckArticleTests(unittest.TestCase):
         problems = check_article.check(polluted, None, short=True)
         self.assertTrue(any("conclusions" in p.lower() and "first/second" in p.lower() for p in problems), problems)
 
+    def test_conversational_flourish_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "Delayed recall of a methods chapter is a specific memory problem: readers forget procedures, numbers, and caveats within a week.",
+            "Even when format is fixed, the plate can still invent a disagreement between studies.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(
+            any(
+                "invent a disagreement" in p.lower()
+                or "the plate can still" in p.lower()
+                or "banned phrase" in p.lower()
+                for p in problems
+            ),
+            problems,
+        )
+
+    def test_stacked_according_to_author_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "Delayed recall of a methods chapter is a specific memory problem: readers forget procedures, numbers, and caveats within a week.",
+            "According to Smith et al., format raised recall. According to Jones et al., domain reversed it. According to Lee et al., delay erased it.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(
+            any("according to" in p.lower() for p in problems),
+            problems,
+        )
+
     def test_flourish_title_fails(self):
         text = (FIX / "good-article.md").read_text(encoding="utf-8")
         polluted = text.replace(

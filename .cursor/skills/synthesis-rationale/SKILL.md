@@ -34,6 +34,15 @@ Use this structure (keep (a)–(e) even if you also write a prose summary; repor
 ```markdown
 # Synthesis rationale — <run-id or topic>
 
+## (i) Intellectual model
+<Fill before (e) and before any article.md. Nine items:
+ 1. central question; 2. variables; 3. mechanisms (as papers state them);
+ 4. heterogeneity; 5. evidence types; 6. established; 7. suggested/uncertain;
+ 8. unknown; 9. consequence of that uncertainty.
+ Causal chain: condition → mechanism → measured effect → interpretation → consequence.
+ If this cannot be written from the table/notes, do not draft the article.
+ See scientific-synthesis.>
+
 ## (a) What each included study actually measured
 <One short block per included paper: design, population, endpoints, n.
  Say what it did *not* measure. No article prose yet.>

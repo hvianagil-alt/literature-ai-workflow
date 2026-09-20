@@ -5,7 +5,7 @@ description: "How to write a journal review article in human scientific prose: m
 
 # Review-article craft and human prose
 
-Read this **before** drafting or rewriting `article.md` / `final-report.md`. Pair with `report-writing`. This file is about **genre, architecture, and voice**. It is not a license to invent citations.
+Read this **before** drafting or rewriting `article.md` / `final-report.md`. Pair with `report-writing` **and** `scientific-synthesis`. This file is about **genre, architecture, and voice**. Reasoning (evidence map, statement layers, paragraph function, mechanism grading, audits) lives in `scientific-synthesis`. It is not a license to invent citations.
 
 When published reviews are read **to learn how to write**, copy **form only**. Do not import their findings, quotes, or scientific examples into `article.md`.
 
@@ -222,30 +222,28 @@ Right (continuous):
 
 ## Mechanism articulation (mandatory in the teaching sections)
 
-A review that lists facts without saying **why** they follow from one another is a catalogue. When the article explains a mechanism, a technology, or a reason practice is easy or hard, write **connected clauses**, not a stack of three- to eight-word sentences.
-
-This is the form copied from published reviews (physiology and methods papers in the form-study sample). Copy **joinery only**. Do not import their diseases or doses.
+A review that lists facts without saying **why** they follow from one another is a catalogue. Teach mechanisms as a **causal chain** (perturbation → molecular effect → measured endpoint), graded by evidence (`scientific-synthesis`, Mechanism strength). Connect theory to a result. Do not write a textbook list (membranes, then proteins, then DNA) that never returns to the included measurements.
 
 **Do:**
 
-- Put cause and effect in one grammatical motion: *because*, *after*, *once*, *when*, *while*, *so that*, *therefore*, *although*, *which is why*.
-- Teach the physical or biological step before the log-reduction or clinical number: what the vessel does, what the membrane does, why a spore or a coating survives, why a plant does or does not adopt the method.
-- Say why the method is used and why it is not used for the neighbouring product class, still in the same paragraph.
-- Let the next sentence be a consequence of the last (*after that hold…*, *those same non-covalent bonds…*), not a new file card.
+- Use *because*, *however*, *therefore*, *although* when the preceding evidence supports that relation.
+- Teach the physical or biological step before the log-reduction: what the vessel does, what the assay measures, why a spore or enzyme often survives.
+- Split independent scientific relationships into consecutive sentences so each can be checked. One long sentence that both explains a mechanism and recommends a process is two jobs.
 
 **Do not:**
 
-- Explain HPP, a receptor, a formulation, or an assay as *X happens. Y happens. Z fails.*
+- Explain a method as *X happens. Y happens. Z fails.* with no relation between them.
 - Pad with *Additionally / Moreover / Furthermore* instead of a real causal link.
-- Invent a mechanism the included papers do not state. If the note has no mechanism paragraph, write the limit (*the molecular basis was not tested*) rather than a plausible story.
+- Invent a mechanism the included papers do not state. If the note has no mechanism, write the limit (*the molecular basis was not tested*).
+- Convert “authors proposed” into “X causes Y.”
 
 Wrong (fragments):
 
 > Packs sit in a vessel. Pressure is isostatic. Membranes leak. Proteins unfold. Spores survive.
 
-Right (articulated):
+Right (chain, then qualification):
 
-> Because pressure is transmitted uniformly through the packed food, every point sees the same set-point at the same time, so piece size does not create a cold spot; vegetative membranes and non-covalent protein assemblies yield under that hold, whereas bacterial spores often do not, which is why commercial ambient cycles still need refrigeration rather than a sterility claim.
+> Pressure is transmitted uniformly through the packed food, so piece size does not create a cold spot. Vegetative membranes and non-covalent protein assemblies often yield under that hold. Bacterial spores often do not. Commercial ambient cycles therefore still need refrigeration rather than a sterility claim, under the equipment limits reported for plant-food HPP.
 
 `check_article.py` fails a full manuscript when the Introduction or the first thematic section has a mean sentence length below the gate, three consecutive very short sentences, or too few causal connectors. `--short` skips this gate. If the script fails, rewrite those paragraphs before calling the article done.
 

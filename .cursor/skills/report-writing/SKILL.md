@@ -5,9 +5,9 @@ description: "Write a PhD-quality review from the synthesis rationale, literatur
 
 # Report Writing
 
-**Read `review-prose` first** (`.cursor/skills/review-prose/SKILL.md`). That file defines the genre (secondary review article, not a primary paper), **how to match the spine to the review kind**, the teaching Introduction (phenomenon first, aim last), abstract order, heading and paragraph craft, manuscript length (~6,000 body words / ~20 Word pages unless the user asked for a short note), and the ban on chatbot diction. This skill executes the outline from `synthesis-rationale.md` **in that voice**. Do not import findings from reviews that were read only to learn form.
+**Read `review-prose` and `scientific-synthesis` first** (`.cursor/skills/review-prose/SKILL.md`, `.cursor/skills/scientific-synthesis/SKILL.md`). `review-prose` is genre and voice. `scientific-synthesis` is how to reason: intellectual model, four statement layers, paragraph function, mechanism grading. This skill executes the outline from `synthesis-rationale.md` **in that reasoning and voice**. Do not import findings from reviews that were read only to learn form.
 
-Write the review as a scientific argument about **all** included studies, not a catalogue of abstracts and not a token/phase log. The argument was decided in `synthesis-rationale.md`.
+Write the review as a scientific argument about **all** included studies, not a catalogue of abstracts and not a token/phase log. The argument was decided in `synthesis-rationale.md`. Treat the table as an **evidence base to synthesise** (agreements, disagreements, moderators, mechanism grade), not as a sequence of papers to summarise.
 
 ## When to use this skill
 
@@ -82,7 +82,7 @@ See [`examples/sample-article.md`](../../../examples/sample-article.md) for fict
 
 ### Results sections (thematic §§3–N)
 
-Each included paper must appear inside **scientific sentences**, not as a stack of “Author et al. did X” abstracts. For every study, the prose must still carry design, model or population, n if reported, intervention/comparator, primary finding with units, and what that design cannot show — but the **claim comes first** and the citation supports it (see `review-prose`, Sentence construction). When a paragraph teaches a **mechanism** (how the method kills, why a matrix protects, why a plant does not use the method), join cause to effect in the same sentence or the next one (`because`, `after`, `therefore`, `so that`); do not emit a stack of short unjoined clauses (see `review-prose`, Mechanism articulation). Group by theme. Rank evidence in the sentence (trial vs observational vs animal). After a cluster of studies, add a synthesis line (*Taken together…*). Close the subsection with what that heading cannot show. Do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing, write that it was **not reported**; do not write “the extracted lead omits n,” and do not invent the number.
+Each included paper must appear inside **scientific sentences**, not as a stack of “Author et al. did X” abstracts. For every study, the prose must still carry design, model or population, n if reported, intervention/comparator, primary finding with units, and what that design cannot show — but the **claim comes first** and the citation supports it (see `review-prose`, Sentence construction, and `scientific-synthesis`, Paragraph function). When a paragraph teaches a **mechanism**, write condition → molecular/physical effect → measured endpoint, and grade the mechanism (demonstrated / consistent with / proposed). Do not emit a stack of short unjoined clauses, and do not pack five independent inferences into one sentence. Group by theme. Rank evidence in the sentence (trial vs observational vs animal). After a cluster of studies, add a synthesis line that is no broader than the rows. Close the subsection with what that heading cannot show. Do **not** dump many papers into one citation list (`[6], [7], [8]…`). If a number is missing, write that it was **not reported**; do not write “the extracted lead omits n,” and do not invent the number.
 
 When the paragraph reports comparable numbers, **point at the in-article table**: “Primary endpoints are summarised in Table 1 [1–4].” Then keep writing in sentences. The table does not replace the claim-first prose; the prose does not replace the table.
 
@@ -108,13 +108,16 @@ The Discussion interprets **findings**, not the review pipeline. A reader of a s
 
 **Must include** (map each bullet onto *this* sample’s constructs, not onto a previous run’s disease area):
 
-- What the primary outcome evidence jointly shows, and at what level of design (RCT vs observational vs protocol vs preclinical, as the included papers actually are).
-- How supporting papers (mechanism, formulation, pharmacokinetics, qualitative, or methods) relate — or fail to relate — to those results: species or population, route or setting, model, and endpoint.
-- Extra-primary or mechanistic work interpreted as the biology or technology it is, not as a second outcomes trial.
-- Why papers that look related cannot be pooled (incommensurable endpoints), named as scientific disagreement or non-comparability.
-- Translational implications calibrated to design (animal PK is not human approval; a one-week laboratory test is not a semester-long habit; a protocol is not an outcome).
-- Evidence limitations a scientist would name: small n, missing human data, protocols without results, confounding, single-study constructs.
+- Main finding: what the included evidence jointly supports, at what design grade.
+- Explanation: why the literature produces that pattern (variables, assays, populations).
+- Integration: how mechanism papers, outcomes papers, and reviews fit or fail to fit.
+- Uncertainty: what cannot currently be concluded.
+- Implication: why that matters for the next experiment or for practice, calibrated to design.
+- Future resolution: a measurement that would actually close a named hole.
+- Why papers that look related cannot be pooled (incommensurable endpoints).
 - Pointers back to in-article tables when the interpretation rests on a row (“as in Table 1”).
+
+If a Discussion paragraph could be copied into a thematic section unchanged, it is still reporting. Rewrite it as interpretation (`scientific-synthesis`, Discussion).
 
 **Must not include in Discussion, Conclusions, Introduction, or Abstract:**
 

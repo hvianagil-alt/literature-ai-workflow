@@ -75,7 +75,7 @@ This is a sequencing gate like step 2: **do not skip it, and do not treat it as 
 
 Use the `synthesis-rationale` skill:
 
-1. Write `review/runs/<run-id>/synthesis-rationale.md` (fallback `review/report/synthesis-rationale.md` or `review/notes/_synthesis-rationale.md`). Interpret the **whole sample**. The file **must** state: **(a)** what each included study actually measured; **(b)** themes the data support vs themes that would be forced; **(c)** real disagreements and why (methods / population / endpoint); **(d)** what this sample cannot answer; **(e)** the outline of the review. **No article yet.** If the user says “just write the review,” still write this file first, then the article, and tell them that you did.
+1. Write `review/runs/<run-id>/synthesis-rationale.md` (fallback `review/report/synthesis-rationale.md` or `review/notes/_synthesis-rationale.md`). Interpret the **whole sample**. The file **must** state: **(i)** the intellectual model (question, variables, mechanisms, heterogeneity, evidence types, established / uncertain / unknown, consequence); **(a)** what each included study actually measured; **(b)** themes the data support vs themes that would be forced; **(c)** real disagreements and why (methods / population / endpoint); **(d)** what this sample cannot answer; **(e)** the outline of the review. **No article yet.** If you cannot write (i) from the table, you are not ready to write the article (`scientific-synthesis`). If the user says “just write the review,” still write this file first, then the article, and tell them that you did.
 2. In that rationale, list **interpretation gaps** (thin evidence; conflicting results; missing comparator, mechanism, or population; a striking finding that cannot be put in perspective from the current sample; an eligible paper that was not retrieved).
 3. For **each** gap, attempt **targeted retrieval** of additional related papers **before** writing the article. Use the `related-paper-exploration` quality bar (**never invent citations**). Search with `scripts/search_oa_related.py` (OpenAlex; API hits only). Fetch **only public OA** via existing `oa-fetch` / `bib-import` / Unpaywall / OpenAlex / Europe PMC / publisher OA. **No paywall bypass.** Log sought / found / not retrieved.
 4. Extract any newly included papers into notes and **update the table**.
@@ -85,7 +85,7 @@ Only after the rationale, the retrieval attempts, and the updated table exist ma
 
 ### 7. Write the journal review (only after step 6)
 
-Read `review-prose` **and** `report-writing` before drafting. Default output is a **journal-style narrative review**, not a lab report, unless the user asked for a short note. `review-prose` is the genre, architecture, and voice file (match the spine to the review kind; Introduction opens on the phenomenon and ends with the aim; claim-first sentences; human scientific prose; length). `report-writing` executes the outline from `synthesis-rationale.md` in that voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
+Read `review-prose`, **`scientific-synthesis`**, **and** `report-writing` before drafting. Default output is a **journal-style narrative review**, not a lab report, unless the user asked for a short note. `scientific-synthesis` is the reasoning file (intellectual model first; literature as evidence to synthesise; paragraph function; mechanism grading). `review-prose` is genre, architecture, and voice. `report-writing` executes the outline from `synthesis-rationale.md` in that reasoning and voice. If published reviews were read only to learn how to write, copy **form only** — do not import their findings into the article.
 
 Produce a **PhD-quality, argument-driven journal review** of **all** in-scope evidence (original sample plus any successfully retrieved gap-fill papers), with thematic subsections and numbered citations from retrieved full texts.
 
@@ -159,6 +159,7 @@ Always hand them the **Markdown** article (`review/runs/<run-id>/article.md` and
 | Interpreting the sample + gap-fill retrieval | `synthesis-rationale` | `.cursor/skills/synthesis-rationale/SKILL.md` |
 | Writing the journal review | `report-writing` | `.cursor/skills/report-writing/SKILL.md` |
 | Review-article craft and human prose | `review-prose` | `.cursor/skills/review-prose/SKILL.md` |
+| Evidence synthesis and reasoning audits | `scientific-synthesis` | `.cursor/skills/scientific-synthesis/SKILL.md` |
 | First-pass quality gate (scripts) | `article-qa` | `.cursor/skills/article-qa/SKILL.md` |
 | Second look after the scripts | `double-check` | `.cursor/skills/double-check/SKILL.md` |
 | Related papers (opt-in browse **or** gap-driven retrieval) | `related-paper-exploration` | `.cursor/skills/related-paper-exploration/SKILL.md` |

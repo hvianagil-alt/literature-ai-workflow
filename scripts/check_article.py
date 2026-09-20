@@ -26,6 +26,9 @@ Keywords block that is missing, out of order, or thinner than four topic phrases
 Fails a full manuscript whose Introduction or first thematic section explains
 mechanisms as a stack of short unjoined sentences (see review-prose,
 Mechanism articulation). ``--short`` skips this gate.
+Fails conversational review-metaphor (``the plate can still``, ``invent a
+disagreement``) and stacked ``According to Author`` citation openers
+(see scientific-synthesis).
 """
 
 from __future__ import annotations
@@ -97,7 +100,18 @@ FLOURISH = [
     r"\bdelve\b",
     r"indelible mark",
     r"setting the stage",
+    r"invent a disagreement",
+    r"the plate can still",
+    r"\bfile card",
+    r"\bremarkable\b",
+    r"\bstriking\b",
+    r"highly effective",
+    r"\bdramatic\b",
 ]
+
+AUTHOR_ACCORDING_RE = re.compile(
+    r"According to [A-Z][A-Za-z\-]+(?:\s+[A-Z][A-Za-z\-]+)?(?:\s+et al)?",
+)
 
 INTRO_BAD_OPENERS = (
     "this review discusses",
@@ -938,6 +952,12 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     n_open = et_al_openers(results)
     if n_open >= 4:
         problems.append(f"{n_open} results paragraphs open with 'Author et al.' (max 3)")
+    n_according = len(AUTHOR_ACCORDING_RE.findall(body))
+    if n_according >= 3:
+        problems.append(
+            "stacked 'According to Author' citations; make the phenomenon the subject "
+            "(see scientific-synthesis)"
+        )
     if table:
         lowered_table = table.lower()
         for marker in TABLE_STUB:

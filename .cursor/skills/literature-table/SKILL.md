@@ -43,6 +43,8 @@ See [`examples/literature-table.md`](../../../examples/literature-table.md) for 
 
 - **Every cell must be traceable to a specific per-paper note.** Don't summarize across papers inside a cell — that belongs in the report, not the table.
 - Keep cell content terse (aim for 1-3 short sentences or a tight bullet list) — the table's value is fast comparison, not depth. Depth lives in the notes.
+- Do not write interpretation or a guessed mechanism in the Key findings cell. That cell is **what was measured**. Meaning and mechanism belong in Limitations / Relevance or in the rationale (`scientific-synthesis`, Evidence map).
+- Never treat two numbers as interchangeable solely because they share a unit (both “log reduction”). Note when rows are contextually comparable only.
 - Use consistent units and terminology across rows (e.g. always "N=..." for sample size, always report effect sizes the same way) so rows are actually comparable, even when the source papers phrase things differently.
 - If a paper doesn't report something (e.g. no stated limitations), write "not stated" rather than leaving blank or inventing one.
 - Sort rows in a sensible, stated order (e.g. chronological, or by theme if the user has expressed one) and say which ordering you used.
