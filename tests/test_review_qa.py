@@ -261,6 +261,36 @@ class CheckArticleTests(unittest.TestCase):
         self.assertTrue(any("introduction word count" in p.lower() for p in problems), problems)
         self.assertTrue(any("paragraphs" in p.lower() for p in problems), problems)
 
+    def test_ordinal_scaffold_in_abstract_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "This narrative review organises the literature around domain as a moderator rather than around a single pooled effect.",
+            "First, laboratory work is mixed. Second, the STEM test did not move. Third, pooling is unsafe.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("first/second" in p.lower() or "continuous" in p.lower() for p in problems), problems)
+
+    def test_roman_list_in_abstract_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "This narrative review organises the literature around domain as a moderator rather than around a single pooled effect.",
+            "This review covers (i) format, (ii) domain, and (iii) delay.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("roman list" in p.lower() for p in problems), problems)
+
+    def test_ordinal_scaffold_in_conclusions_fails(self):
+        text = (FIX / "good-article.md").read_text(encoding="utf-8")
+        polluted = text.replace(
+            "Replicate the STEM-null with domain as a planned factor, and measure recall beyond one week. Those are unmeasured endpoints, not slogans.",
+            "First, replicate the STEM-null with domain as a planned factor. Second, measure recall beyond one week. Finally, sample K-12 learners.",
+            1,
+        )
+        problems = check_article.check(polluted, None, short=True)
+        self.assertTrue(any("conclusions" in p.lower() and "first/second" in p.lower() for p in problems), problems)
+
     def test_nanocarrier_pass2_clears_story_gate(self):
         article = ROOT / "review/runs/2026-09-19-nanocarriers/article.md"
         table = ROOT / "review/runs/2026-09-19-nanocarriers/table/literature-table.md"

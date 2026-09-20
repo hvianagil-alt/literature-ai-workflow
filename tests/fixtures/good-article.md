@@ -43,7 +43,7 @@ Semester-long retention was not measured. K–12 learners were not sampled. The 
 The human outcome evidence is one small laboratory trial, one mixed-methods moderator test, one within-subjects medium test, and one heterogeneous meta-analysis. They agree on direction when domains are averaged. They do not agree that STEM recall improves. A rat or classroom-habit claim would be a different endpoint.
 
 ## Conclusions
-First, replicate the STEM-null with domain as a planned factor. Finally, measure recall beyond one week. Those are unmeasured endpoints, not slogans.
+Replicate the STEM-null with domain as a planned factor, and measure recall beyond one week. Those are unmeasured endpoints, not slogans.
 
 ## References
 [1] Fictional Al Researcher. 2021. Journal of Made-Up Studies.

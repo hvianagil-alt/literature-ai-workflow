@@ -54,7 +54,7 @@ See [`examples/sample-article.md`](../../../examples/sample-article.md) for fict
  Include numbered Markdown results tables (Table 1, …) and mention them from the prose.>
 ## Discussion
 ## Conclusions
-<Numbered scientific directions (First… Finally…), not “more research is needed.”>
+<Scientific next measurements in running sentences, not a First/Second/Third list and not “more research is needed.”>
 ## References
 <Vancouver: [1] is the first paper cited in the body, [2] the next new paper, …>
 <One reference per paragraph: blank line between [n] entries. No stacked list.>

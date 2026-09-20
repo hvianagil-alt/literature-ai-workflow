@@ -19,6 +19,8 @@ Introduction too short to teach an adjacent-field reader (pass-1 failure mode).
 Fails when the Abstract or any section other than Methods describes how papers
 were found or opened (Scopus, open full texts, year windows of the export,
 Unpaywall, paywalls). Those facts belong only in Methods.
+Fails when the Abstract or Conclusions use First/Second/Third (or (i)/(ii))
+as the spine of the argument instead of continuous sentences.
 """
 
 from __future__ import annotations
@@ -593,6 +595,40 @@ def text_outside_methods(text: str) -> str:
     return body[: span[0]] + "\n" + body[span[1] :]
 
 
+ORDINAL_OPENER = re.compile(
+    r"(?:^|[.!?]\s+)(?:First|Second|Third|Fourth|Fifth|Finally|Lastly|Firstly|Secondly|Thirdly)\s*,",
+    re.M,
+)
+ROMAN_ENUM = re.compile(r"\([ivx]{1,4}\)", re.I)
+ARABIC_ENUM = re.compile(r"\([1-9]\)")
+
+
+def ordinal_scaffold_problems(text: str) -> list[str]:
+    """Abstract/Conclusions must argue in running sentences, not First/Second lists."""
+    problems: list[str] = []
+    for heading in ("Abstract", "Introduction", "Discussion", "Conclusions"):
+        sec = section_after(text, heading)
+        if not sec:
+            continue
+        if len(ORDINAL_OPENER.findall(sec)) >= 2:
+            problems.append(
+                f"{heading} stacks First/Second/Third (or Finally) as a list; "
+                "write a continuous argument (review-prose: Continuous prose)"
+            )
+        if heading in ("Abstract", "Conclusions"):
+            if len(ROMAN_ENUM.findall(sec)) >= 2:
+                problems.append(
+                    f"{heading} uses a roman list ((i), (ii)); "
+                    "fold the points into running sentences"
+                )
+            if len(ARABIC_ENUM.findall(sec)) >= 2:
+                problems.append(
+                    f"{heading} uses a numbered list ((1), (2)); "
+                    "fold the points into running sentences"
+                )
+    return problems
+
+
 def acquisition_outside_methods_problems(text: str) -> list[str]:
     """How the papers were found or opened belongs only in Methods."""
     problems: list[str] = []
@@ -692,6 +728,7 @@ def check(text: str, table: str | None, short: bool) -> list[str]:
     problems.extend(story_problems(text, short))
     problems.extend(citation_order_problems(text))
     problems.extend(acquisition_outside_methods_problems(text))
+    problems.extend(ordinal_scaffold_problems(text))
     return problems
 
 

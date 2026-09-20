@@ -1,6 +1,9 @@
 # --- Papers (kept local by default; see papers/README.md) ---
 papers/*.pdf
 papers/**/*.pdf
+papers/**/*.xml
+papers/**/*.txt
+papers/**/*.html
 !papers/sample/*.pdf
 
 # --- Agent-generated review outputs (kept local by default) ---

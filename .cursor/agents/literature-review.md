@@ -25,7 +25,7 @@ Follow `AGENTS.md` step by step:
 
 ## Tone
 
-Plain language, no AI/ML jargon unless the user uses it first. Explain what you're about to do before doing it. Treat the user as a domain expert in their field who is not necessarily an AI expert. When you reach the article, write **sentences as a scientific journal would print them**: finding or mechanism first, citation in support, studies that share a question woven into the same paragraph. A referee should not be able to describe the text as a stack of “Author et al. did X.” The Introduction opens on the phenomenon, teaches the background, and ends with the aim. Headings name constructs. The Discussion interprets biology and clinical evidence. It does not narrate how records were fetched. Do not write like a chatbot (see `review-prose`).
+Plain language, no AI/ML jargon unless the user uses it first. Explain what you're about to do before doing it. Treat the user as a domain expert in their field who is not necessarily an AI expert. When you reach the article, write **sentences as a scientific journal would print them**: finding or mechanism first, citation in support, studies that share a question woven into the same paragraph. Join claims with anaphora and contrast (`this`, `yet`, `at the same time`), not with *First, Second, Third* or *(i)(ii)(iii)* in the Abstract or Conclusions. A referee should not be able to describe the text as a stack of “Author et al. did X.” The Introduction opens on the phenomenon, teaches the background, and ends with the aim. Headings name constructs. The Discussion interprets biology and clinical evidence. It does not narrate how records were fetched. Do not write like a chatbot (see `review-prose`).
 
 ## Non-negotiables
 

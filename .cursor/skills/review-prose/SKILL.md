@@ -60,7 +60,7 @@ Published reviews do not all share one outline. Choose the spine that matches **
 - Introduction opens on the organismal problem in present tense.
 - Deep nested topic headings (2.1.1).
 - Journals sometimes omit Methods; in this workflow still keep a brief Methods if a database was screened.
-- Close with emerging research directions and critical gaps as numbered scientific questions (First, … Finally).
+- Close with emerging research directions and critical gaps as running scientific sentences, not a First/Second/Third stack.
 
 Do not force full IMRaD Results (“study characteristics / results / synthesis”) onto a narrative review. Do not omit eligibility entirely from a screened bibliographic export.
 
@@ -162,6 +162,37 @@ The short form is a **label for a term the reader already understands**. It is n
 
 `check_article.py` fails if, after `Full term (ABBR)`, the expanded form still crowds the prose. It also fails if the Abstract defines more than four abbreviations, or defines one it never uses again.
 
+## Continuous prose (how sentences join)
+
+Published narrative reviews (form-study sample of OA 2026 reviews across fields: vascular devices, diet and cancer, heart-failure imaging, TET2 biology, zoonoses) do **not** walk the reader through a numbered shopping list. They keep one argument in motion.
+
+Copy **this joinery only**. Do not copy their diseases, doses, or conclusions into `article.md`.
+
+**Do:**
+
+- Open on the phenomenon, then let the next sentence be a consequence, a limit, or a contrast of that same fact (`this`, `these`, `that`, `those`, `yet`, `however`, `at the same time`).
+- Put two tensions in one breath when they belong together: *Vegetative cells often die; bacterial spores and several enzymes often do not.*
+- Rank evidence inside the clause (*laboratory challenges rather than trials*; *the most consistent inverse associations were…*; *evidence for X remains limited*).
+- Close a paragraph on what the pattern does **not** imply, still in the same voice.
+- In Conclusions, name the next measurement as ordinary sentences that follow from the holes already shown. Several next steps can share one paragraph if they answer one gap.
+
+**Do not:**
+
+- Spine the Abstract or Conclusions with *First, … Second, … Third, … Finally, …* or *Firstly/Secondly*.
+- Enumerate the argument as *(i) … (ii) … (iii)* or *(1) … (2) … (3)* in the Abstract or Conclusions. Methods may still number eligibility items.
+- Restart every sentence as a new file card (*The first thing is… The second thing is…*).
+- Preview every later heading as a table of contents (*This review will first… then… finally…*).
+
+Wrong (scaffold):
+
+> First, matrix changes kill. Second, milk may miss the legal bar. Third, quality moves against plate counts.
+
+Right (continuous):
+
+> Matrix, solute, recovery medium, and injury change the kill that a given pressure appears to deliver; the same cycle may still fail legal pasteurisation criteria in milk; and quality often moves against plate counts rather than with them.
+
+`check_article.py` fails if Abstract, Introduction, Discussion, or Conclusions stack two or more *First,/Second,/Finally,* openers, or if the Abstract or Conclusions use a roman or arabic list as the argument.
+
 ## Sentence construction (this is the article)
 
 `article.md` must read as a **published scientific review**, not as a catalogue of notes. The grammatical subject of a sentence is a result, a mechanism, or a clinical problem. The citation is evidence, usually in brackets at the end of the clause. Authors’ names may appear, but **do not start three consecutive paragraphs with “Author et al. [verb].”**
@@ -215,7 +246,7 @@ Inside a theme:
 
 ## Conclusions
 
-Numbered scientific directions a trialist or experimentalist could actually run (First… Finally…), plus unmeasured endpoints. Not the slogan “more research is needed.” Not screening counts. If two readings of the data remain plausible, keep both and say which one the evidence favours.
+Scientific directions a trialist or experimentalist could actually run, written as continuous sentences, plus unmeasured endpoints. Not a First/Second/Third stack. Not the slogan “more research is needed.” Not screening counts. If two readings of the data remain plausible, keep both and say which one the evidence favours.
 
 ## Handoff
 

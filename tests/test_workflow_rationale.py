@@ -77,6 +77,10 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("first-time", text)
         self.assertIn("generic Results", text)
         self.assertIn("Known failure", text)
+        self.assertIn("Continuous prose", text)
+        self.assertIn("`this`", text)
+        self.assertIn("First/Second", text)
+        self.assertNotIn("First, … Finally", text)
 
     def test_agents_md_points_at_review_prose(self):
         text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -147,6 +151,7 @@ class WorkflowRequiresRationaleTests(unittest.TestCase):
         self.assertIn("glossary", text.lower())
         self.assertIn("thematic", text.lower())
         self.assertIn("Introduction is too short", text)
+        self.assertIn("First/Second", text)
 
     def test_double_check_skill_exists(self):
         text = (ROOT / ".cursor/skills/double-check/SKILL.md").read_text(
