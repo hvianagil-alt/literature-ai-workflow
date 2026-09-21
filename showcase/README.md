@@ -6,25 +6,59 @@ Original paper **PDFs are not here** (copyright). Git holds the review text, the
 
 ## What to open
 
-1. **Nanocarriers, liposomes, AgNPs, nasal mucosa** (narrative review, 2026)
-   - Article: [`../review/runs/2026-09-19-nanocarriers/article.md`](../review/runs/2026-09-19-nanocarriers/article.md)
-   - Table: [`../review/runs/2026-09-19-nanocarriers/table/literature-table.md`](../review/runs/2026-09-19-nanocarriers/table/literature-table.md)
-   - Double-check: [`../review/runs/2026-09-19-nanocarriers/double-check.md`](../review/runs/2026-09-19-nanocarriers/double-check.md)
+### Nanomedicine — seed PDFs + related search
 
-2. **Ocular drug delivery for diabetic retinopathy / DME** (narrative review, 2026; 27 open-access full texts; topic-only fetch)
-   - Article: [`../review/runs/2026-09-20-dr-drug-delivery/article.md`](../review/runs/2026-09-20-dr-drug-delivery/article.md)
-   - Table: [`../review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md`](../review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md)
-   - Double-check: [`../review/runs/2026-09-20-dr-drug-delivery/double-check.md`](../review/runs/2026-09-20-dr-drug-delivery/double-check.md)
-   - Protocol / PRISMA: [`../review/runs/2026-09-20-dr-drug-delivery/protocol.md`](../review/runs/2026-09-20-dr-drug-delivery/protocol.md), [`prisma.md`](../review/runs/2026-09-20-dr-drug-delivery/prisma.md)
+**Liposomes, AgNPs, nasal mucosa** (narrative review, 2026)
 
-3. **Form example (invented papers)** — do not cite as science
-   - [`../examples/sample-article.md`](../examples/sample-article.md)
+- Article: [`../review/runs/2026-09-19-nanocarriers/article.md`](../review/runs/2026-09-19-nanocarriers/article.md)
+- Table: [`../review/runs/2026-09-19-nanocarriers/table/literature-table.md`](../review/runs/2026-09-19-nanocarriers/table/literature-table.md)
+- Double-check: [`../review/runs/2026-09-19-nanocarriers/double-check.md`](../review/runs/2026-09-19-nanocarriers/double-check.md)
 
-Other runs under `review/runs/` (GLP-1, HPP, Scopus exports) follow the same shape: `article.md` + table + `double-check.md`.
+### Endocrinology / nanomedicine — topic-only fetch
+
+**Ocular drug delivery for diabetic retinopathy / DME** (narrative review, 2026; 27 open-access full texts; empty `papers/` tray)
+
+- Article: [`../review/runs/2026-09-20-dr-drug-delivery/article.md`](../review/runs/2026-09-20-dr-drug-delivery/article.md)
+- Table: [`../review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md`](../review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md)
+- Double-check: [`../review/runs/2026-09-20-dr-drug-delivery/double-check.md`](../review/runs/2026-09-20-dr-drug-delivery/double-check.md)
+- Protocol / PRISMA: [`protocol.md`](../review/runs/2026-09-20-dr-drug-delivery/protocol.md), [`prisma.md`](../review/runs/2026-09-20-dr-drug-delivery/prisma.md)
+
+### Endocrinology — Scopus export
+
+**GLP-1 receptor agonists, vesicle therapeutics, and delivery in metabolic disease** (narrative review, 2026; 44 included full texts)
+
+- Article: [`../review/runs/2026-09-19-scopus-oa-full/article.md`](../review/runs/2026-09-19-scopus-oa-full/article.md)
+- Table: [`../review/runs/2026-09-19-scopus-oa-full/table/literature-table.md`](../review/runs/2026-09-19-scopus-oa-full/table/literature-table.md)
+- Double-check: [`../review/runs/2026-09-19-scopus-oa-full/double-check.md`](../review/runs/2026-09-19-scopus-oa-full/double-check.md)
+- Protocol: [`../review/runs/2026-09-19-scopus-oa-full/protocol.md`](../review/runs/2026-09-19-scopus-oa-full/protocol.md)
+
+### Food science — Scopus export
+
+**High-pressure processing of foods** (narrative review, 2026; 43 included full texts)
+
+- Article (latest rerun): [`../review/runs/2026-09-20-hpp-rerun/article.md`](../review/runs/2026-09-20-hpp-rerun/article.md)
+- Table: [`../review/runs/2026-09-20-hpp-rerun/table/literature-table.md`](../review/runs/2026-09-20-hpp-rerun/table/literature-table.md)
+- Double-check: [`../review/runs/2026-09-20-hpp-rerun/double-check.md`](../review/runs/2026-09-20-hpp-rerun/double-check.md)
+- Earlier pass (same Scopus set): [`../review/runs/2026-09-20-scopus-hpp/article.md`](../review/runs/2026-09-20-scopus-hpp/article.md)
+
+### Neuroscience — Scopus export
+
+**Parkinson’s disease and cannabinoids** (narrative review, 2026; 31 included full texts)
+
+- Article: [`../review/runs/2026-09-20-pd-cannabinoids/article.md`](../review/runs/2026-09-20-pd-cannabinoids/article.md)
+- Table: [`../review/runs/2026-09-20-pd-cannabinoids/table/literature-table.md`](../review/runs/2026-09-20-pd-cannabinoids/table/literature-table.md)
+- Double-check: [`../review/runs/2026-09-20-pd-cannabinoids/double-check.md`](../review/runs/2026-09-20-pd-cannabinoids/double-check.md)
+- Protocol: [`../review/runs/2026-09-20-pd-cannabinoids/protocol.md`](../review/runs/2026-09-20-pd-cannabinoids/protocol.md)
+
+### Form example (invented papers)
+
+Do not cite as science.
+
+- [`../examples/sample-article.md`](../examples/sample-article.md)
 
 ## How to judge
 
-- The introduction explains the clinical problem **before** fine-grained physics or chemistry.
+- The introduction explains the clinical or food-safety problem **before** fine-grained physics or chemistry.
 - Headings are topics, not “Results” plus a list of authors.
 - Table numbers match the notes.
 - The Abstract has no `[1]` and no “et al.”

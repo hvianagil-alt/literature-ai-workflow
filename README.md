@@ -14,15 +14,18 @@ It does not invent citations, open paywalls, or replace your scientific judgment
 
 ## Does it work?
 
-Open these samples (life sciences, real open-access papers):
+Open these samples (life sciences, real open-access papers). Each run folder has `article.md`, a table, notes, and usually `double-check.md`. Source PDFs are not in git (copyright). More detail: [showcase/README.md](showcase/README.md).
 
-| Run | Article | Table | Double-check |
-|---|---|---|---|
-| **Nanocarriers** (liposomes / AgNPs / nasal mucosa) | [article.md](review/runs/2026-09-19-nanocarriers/article.md) | [table](review/runs/2026-09-19-nanocarriers/table/literature-table.md) | [log](review/runs/2026-09-19-nanocarriers/double-check.md) |
-| **Ocular drug delivery for diabetic retinopathy** (27 papers; topic-only fetch) | [article.md](review/runs/2026-09-20-dr-drug-delivery/article.md) | [table](review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md) | [log](review/runs/2026-09-20-dr-drug-delivery/double-check.md) |
-| Form example (invented papers — do not cite) | [sample-article.md](examples/sample-article.md) | — | — |
+| Field | Topic | How it started | Article | Table | Double-check |
+|---|---|---|---|---|---|
+| Nanomedicine | Liposomes, AgNPs, nasal mucosa | Seed PDFs + related OpenAlex search | [article](review/runs/2026-09-19-nanocarriers/article.md) | [table](review/runs/2026-09-19-nanocarriers/table/literature-table.md) | [log](review/runs/2026-09-19-nanocarriers/double-check.md) |
+| Endocrinology / nanomedicine | Ocular drug delivery for diabetic retinopathy (27 papers) | **Topic only** — empty `papers/` | [article](review/runs/2026-09-20-dr-drug-delivery/article.md) | [table](review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md) | [log](review/runs/2026-09-20-dr-drug-delivery/double-check.md) |
+| Endocrinology | GLP-1 receptor agonists, delivery, metabolic disease (44 papers) | Scopus `.bib` export | [article](review/runs/2026-09-19-scopus-oa-full/article.md) | [table](review/runs/2026-09-19-scopus-oa-full/table/literature-table.md) | [log](review/runs/2026-09-19-scopus-oa-full/double-check.md) |
+| Food science | High-pressure processing of foods (43 papers) | Scopus `.bib` export | [article](review/runs/2026-09-20-hpp-rerun/article.md) | [table](review/runs/2026-09-20-hpp-rerun/table/literature-table.md) | [log](review/runs/2026-09-20-hpp-rerun/double-check.md) |
+| Neuroscience | Parkinson’s disease and cannabinoids (31 papers) | Scopus `.bib` export | [article](review/runs/2026-09-20-pd-cannabinoids/article.md) | [table](review/runs/2026-09-20-pd-cannabinoids/table/literature-table.md) | [log](review/runs/2026-09-20-pd-cannabinoids/double-check.md) |
+| — | Form only (invented papers — **do not cite**) | Worked example | [sample](examples/sample-article.md) | — | — |
 
-The DR run started with an **empty `papers/` folder**: the assistant searched OpenAlex (2021–2026, peer-reviewed journals), fetched public PDFs only, and passed the full quality gate (`check_harness.py --full`). Source PDFs are not in git (copyright). More pointers: [showcase/README.md](showcase/README.md).
+**Three ways to start:** drop PDFs in `papers/`, upload a Scopus/PubMed `.bib` export, or name a topic with an empty folder (OpenAlex search, public PDFs only). The DR run is the topic-only example; GLP-1, HPP, and PD runs show the Scopus path.
 
 ## What you need
 
