@@ -14,16 +14,15 @@ It does not invent citations, open paywalls, or replace your scientific judgment
 
 ## Does it work?
 
-Open this sample (life sciences, real papers):
+Open these samples (life sciences, real open-access papers):
 
-| File | What it is |
-|---|---|
-| [article.md](review/runs/2026-09-19-nanocarriers/article.md) | Full review (nanocarriers / liposomes / AgNPs) |
-| [literature-table.md](review/runs/2026-09-19-nanocarriers/table/literature-table.md) | Side-by-side comparison |
-| [double-check.md](review/runs/2026-09-19-nanocarriers/double-check.md) | Log that numbers were checked against the papers |
-| [fictional example](examples/sample-article.md) | Form only — invented papers, not real science |
+| Run | Article | Table | Double-check |
+|---|---|---|---|
+| **Nanocarriers** (liposomes / AgNPs / nasal mucosa) | [article.md](review/runs/2026-09-19-nanocarriers/article.md) | [table](review/runs/2026-09-19-nanocarriers/table/literature-table.md) | [log](review/runs/2026-09-19-nanocarriers/double-check.md) |
+| **Ocular drug delivery for diabetic retinopathy** (27 papers; topic-only fetch) | [article.md](review/runs/2026-09-20-dr-drug-delivery/article.md) | [table](review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md) | [log](review/runs/2026-09-20-dr-drug-delivery/double-check.md) |
+| Form example (invented papers — do not cite) | [sample-article.md](examples/sample-article.md) | — | — |
 
-Source PDFs are not in git (copyright). More pointers: [showcase/README.md](showcase/README.md).
+The DR run started with an **empty `papers/` folder**: the assistant searched OpenAlex (2021–2026, peer-reviewed journals), fetched public PDFs only, and passed the full quality gate (`check_harness.py --full`). Source PDFs are not in git (copyright). More pointers: [showcase/README.md](showcase/README.md).
 
 ## What you need
 
@@ -51,7 +50,7 @@ If it searches the web for papers, it may ask for a **contact email** (OpenAlex 
    - a table and per-paper notes
    - `double-check.md`
 
-No PDFs is fine: name the topic and it will search public papers.
+No PDFs is fine: name the topic and it will search public papers (see the DR sample above).
 
 ### ChatGPT or Claude only
 
@@ -80,6 +79,15 @@ flowchart TD
 The article is **Markdown** (`.md`): open it here or paste into Word.
 
 Ask for Word or PDF if you want **Times New Roman**, 12 pt, **justified** (`export-manuscript`). You can also open the HTML in a browser and Print → Save as PDF.
+
+```bash
+python3 scripts/export_manuscript.py \
+  --article review/runs/<run-id>/article.md \
+  --out-dir review/runs/<run-id>/export \
+  --format html,pdf
+```
+
+(`pdf` needs WeasyPrint: `pip install weasyprint`. `docx` needs Pandoc.)
 
 ```bash
 git clone https://github.com/hvianagil-alt/literature-ai-workflow.git

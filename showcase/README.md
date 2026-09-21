@@ -11,10 +11,16 @@ Original paper **PDFs are not here** (copyright). Git holds the review text, the
    - Table: [`../review/runs/2026-09-19-nanocarriers/table/literature-table.md`](../review/runs/2026-09-19-nanocarriers/table/literature-table.md)
    - Double-check: [`../review/runs/2026-09-19-nanocarriers/double-check.md`](../review/runs/2026-09-19-nanocarriers/double-check.md)
 
-2. **Form example (invented papers)** — do not cite as science
+2. **Ocular drug delivery for diabetic retinopathy / DME** (narrative review, 2026; 27 open-access full texts; topic-only fetch)
+   - Article: [`../review/runs/2026-09-20-dr-drug-delivery/article.md`](../review/runs/2026-09-20-dr-drug-delivery/article.md)
+   - Table: [`../review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md`](../review/runs/2026-09-20-dr-drug-delivery/table/literature-table.md)
+   - Double-check: [`../review/runs/2026-09-20-dr-drug-delivery/double-check.md`](../review/runs/2026-09-20-dr-drug-delivery/double-check.md)
+   - Protocol / PRISMA: [`../review/runs/2026-09-20-dr-drug-delivery/protocol.md`](../review/runs/2026-09-20-dr-drug-delivery/protocol.md), [`prisma.md`](../review/runs/2026-09-20-dr-drug-delivery/prisma.md)
+
+3. **Form example (invented papers)** — do not cite as science
    - [`../examples/sample-article.md`](../examples/sample-article.md)
 
-If your clone also has a GLP-1 / Scopus review under `review/runs/`, it is the same kind of output: `article.md` + table + `double-check.md`.
+Other runs under `review/runs/` (GLP-1, HPP, Scopus exports) follow the same shape: `article.md` + table + `double-check.md`.
 
 ## How to judge
 
